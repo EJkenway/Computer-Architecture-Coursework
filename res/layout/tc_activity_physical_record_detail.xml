@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/dark_brown_purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/wrapper_physical_record_share" android:background="@color/dark_brown_purple" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/purple_50" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="22.0dip" android:src="@drawable/ic_logo_physical" />
+        <ImageView android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginRight="25.0dip" android:src="@drawable/tc_ic_slogan_physical" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="@color/dark_brown_purple" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/btn_close_in_physical_record_detail" android:layout_width="66.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_close_physical_result" android:scaleType="centerInside" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_share_in_physical_record_detail" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="70.0dip" android:text="@string/share" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_advice_in_physical_record_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/purple_50" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/main_green_color" android:gravity="center" android:background="@color/dark_brown_purple" android:layout_width="fill_parent" android:layout_height="58.0dip" android:text="@string/get_recommend_train" />
+    </LinearLayout>
+    <com.gotokeep.keep.uibase.WebviewWithAuth android:id="@id/webview_in_physical_record_detail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="70.0dip" android:layout_above="@id/btn_advice_in_physical_record_detail" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="70.0dip" android:layout_above="@id/btn_advice_in_physical_record_detail" layout="@layout/tc_layout_physical_webview_refresh" />
+</RelativeLayout>

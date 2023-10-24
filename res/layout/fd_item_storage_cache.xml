@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.setting.mvp.view.CacheItemView android:layout_width="fill_parent" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/checkSelected" android:background="@drawable/fd_bg_checked_circle" android:clickable="false" android:layout_width="16.0dip" android:layout_height="16.0dip" android:checked="true" android:button="@null" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/textName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="9.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/checkSelected" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/gray_99" android:id="@id/textSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.fd.business.setting.mvp.view.CacheItemView>

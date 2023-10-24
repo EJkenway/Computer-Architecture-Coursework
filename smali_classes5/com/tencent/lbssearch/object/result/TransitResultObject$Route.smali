@@ -1,0 +1,45 @@
+.class public final Lcom/tencent/lbssearch/object/result/TransitResultObject$Route;
+.super Lcom/tencent/map/tools/json/JsonComposer;
+.source "TMS"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/lbssearch/object/result/TransitResultObject;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Route"
+.end annotation
+
+
+# instance fields
+.field public bounds:Lcom/tencent/lbssearch/object/result/TransitResultObject$LatLngBounds;
+
+.field public distance:F
+
+.field public duration:J
+
+.field public duration_1m:J
+
+.field public steps:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/tencent/lbssearch/object/result/TransitResultObject$Segment;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/tencent/map/tools/json/JsonComposer;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/viewBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="46.0dip" android:paddingEnd="46.0dip">
+        <ImageView android:id="@id/ivUnbind" android:layout_width="fill_parent" android:layout_height="280.0dip" android:layout_marginTop="32.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_60" android:id="@id/unbindInformMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" />
+    </LinearLayout>
+    <Button android:textSize="18.0sp" android:textColor="@color/pink" android:id="@id/unbindConfirm" android:background="@drawable/kt_bg_red_outline_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginRight="46.0dip" android:layout_marginBottom="62.0dip" android:text="@string/kt_insist_unbind" android:layout_alignParentBottom="true" style="@style/SettingButtonMainWhite" />
+</RelativeLayout>

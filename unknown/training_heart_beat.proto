@@ -1,0 +1,7 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+
+message TrainingHeartBeatState {
+  // 1： 课程中  2 ： 非课程中
+  uint32 status = 1;
+}

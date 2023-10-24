@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:add_status_bar_height="true" app:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_route_ranking" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

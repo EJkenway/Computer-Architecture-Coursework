@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtSummaryCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_height="28.0dip" android:layout_marginTop="16.0dip" style="@style/RtSummaryCardViewTitleLayout">
+        <com.gotokeep.keep.commonui.view.ResizableDrawableTextView android:text="@string/step_frequency" android:drawableStart="@drawable/rt_ic_summary_step_frequency" app:drawableLeftHeight="@dimen/rt_summary_title_drawable_size" app:drawableLeftWidth="@dimen/rt_summary_title_drawable_size" style="@style/RtSummaryCardViewTitleInLayout" />
+        <TextView android:id="@id/text_tip" android:text="@string/rt_altitude_gps_remark" style="@style/RtSummaryCardViewTip" />
+        <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.gotokeep.keep.commonui.view.KeepSwitchButton android:id="@id/btnDebugSwitch" android:visibility="gone" android:layout_marginEnd="10.0dip" style="@style/KeepSwitch" />
+        <ImageView android:id="@id/imgDetailChart" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/rt_ic_detail_chart" />
+    </LinearLayout>
+    <include layout="@layout/rt_layout_chart_headline" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/light_green" android:layout_gravity="center" android:id="@id/view_action_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+    <com.gotokeep.keep.commonui.widget.outdoorchart.OutdoorChartView android:id="@id/chart_view" android:layout_width="fill_parent" android:layout_height="@dimen/summary_chart_layout_height" android:layout_marginTop="@dimen/summary_chart_top_margin" android:layout_marginBottom="@dimen/summary_chart_bottom_margin" android:layout_marginStart="@dimen/summary_chart_left_margin" android:layout_marginEnd="@dimen/summary_chart_right_margin" />
+</LinearLayout>

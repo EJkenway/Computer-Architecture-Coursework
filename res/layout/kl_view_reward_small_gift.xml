@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/mySmallGiftWrapper" android:layout_width="144.0dip" android:layout_height="64.0dip" android:layout_marginTop="124.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/myImgSmallGift" android:visibility="visible" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.tencent.qgame.animplayer.AnimView android:id="@id/myVapSmallGift" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextSwitcher android:id="@id/myTextSmallGiftCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:minWidth="41.0dip" app:layout_constraintBottom_toBottomOf="@id/myImgSmallGift" app:layout_constraintStart_toEndOf="@id/myImgSmallGift">
+            <com.gotokeep.keep.commonui.uilib.KLKeepFontTextView android:textSize="28.0sp" android:textColor="@color/white_97" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_50" android:shadowRadius="3.0" app:keepFont="font/Roboto-BoldItalic.ttf" />
+            <com.gotokeep.keep.commonui.uilib.KLKeepFontTextView android:textSize="28.0sp" android:textColor="@color/white_97" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_50" android:shadowRadius="3.0" app:keepFont="font/Roboto-BoldItalic.ttf" />
+        </TextSwitcher>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

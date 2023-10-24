@@ -1,0 +1,53 @@
+.class public final Lcom/gotokeep/keep/dc/business/overviewsmanage/activity/OverviewManagementActivity$a;
+.super Ljava/lang/Object;
+.source "OverviewManagementActivity.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/gotokeep/keep/dc/business/overviewsmanage/activity/OverviewManagementActivity;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lij3/h;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Lcom/gotokeep/keep/dc/business/overviewsmanage/activity/OverviewManagementActivity$a;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroidx/fragment/app/Fragment;Landroid/os/Bundle;)V
+    .locals 2
+
+    const-string v0, "bundle"
+
+    invoke-static {p2, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    const-class v0, Lcom/gotokeep/keep/dc/business/overviewsmanage/activity/OverviewManagementActivity;
+
+    const/16 v1, 0xcc
+
+    invoke-static {p1, v0, p2, v1}, Lhv2/d0;->j(Landroidx/fragment/app/Fragment;Ljava/lang/Class;Landroid/os/Bundle;I)V
+
+    return-void
+.end method

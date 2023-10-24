@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.videofollowup.mvp.view.FollowUpTipsChildView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/image_point_tips_child" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/su_bg_tips_point_5e40dc" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/text_content_tips_child" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:lines="1" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/image_point_tips_child" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.pb.videofollowup.mvp.view.FollowUpTipsChildView>

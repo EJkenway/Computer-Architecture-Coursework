@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingGpsSignalView android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/viewSignal" android:background="@color/black_10" android:layout_width="60.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" android:layout_toEndOf="@id/textGps" app:round_corner="10.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="@color/rt_training_text_light" android:id="@id/textGps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_gps" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" />
+        <ImageView android:id="@id/imgSignal" android:layout_width="20.0dip" android:layout_height="12.0dip" android:src="@drawable/keepmap_training_gps_1" android:layout_centerVertical="true" android:translationY="0.5dip" android:layout_marginStart="3.5dip" android:layout_toEndOf="@id/textGps" />
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/rt_training_text_light" android:layout_gravity="center_vertical" android:id="@id/text_gps_searching_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_gps_searching_tip" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/viewSignal" />
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingGpsSignalView>

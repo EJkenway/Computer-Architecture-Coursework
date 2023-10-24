@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rootView" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layoutFMPlayer" layout="@layout/kt_view_puncheur_fm_player" />
+    <include android:id="@id/viewFMTrainingPanel" layout="@layout/kt_view_puncheur_fm_training_panel" />
+    <include android:id="@id/layoutFMTrainGuide" android:visibility="gone" layout="@layout/kt_view_puncheur_fm_training_rotate_guide" />
+    <include android:id="@id/layoutFMTrainingLandscapeData" layout="@layout/kt_view_puncheur_fm_training_landscape_data" />
+    <include android:id="@id/layoutFMTrainingPortraitData" layout="@layout/kt_view_puncheur_fm_training_portrait_data" />
+    <include android:id="@id/viewFMTrainingControl" layout="@layout/kt_view_puncheur_fm_training_control" />
+    <include android:id="@id/viewFreeModeSelect" layout="@layout/kt_view_puncheur_free_mode_select" />
+    <include android:id="@id/viewVideoRates" layout="@layout/kt_view_puncheur_fm_training_rates" />
+    <include android:id="@id/layoutFMTrainingTitle" layout="@layout/kt_view_puncheur_fm_training_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

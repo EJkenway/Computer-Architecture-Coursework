@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="21.0sp" android:textColor="#ff333333" android:gravity="center|top" android:paddingTop="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_keep_money" />
+    <ImageView android:id="@id/close_button" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="26.0dip" android:src="@drawable/icon_close_big_black" android:scaleType="center" />
+    <View android:id="@id/divider" android:layout_marginTop="78.0dip" style="@style/StoreLine" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recharge_list" android:paddingTop="26.0dip" android:clipToPadding="false" android:layout_width="294.0dip" android:layout_height="fill_parent" android:layout_marginBottom="150.0dip" android:layout_below="@id/divider" android:layout_centerHorizontal="true" />
+    <ImageView android:background="@drawable/coin_mask" android:layout_width="fill_parent" android:layout_height="170.0dip" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="98.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="10.0sp" android:textColor="@color/gray_99" android:id="@id/attention" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/attention" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/attention_text" android:layout_toRightOf="@id/attention" android:lineSpacingExtra="2.0dip" />
+    </RelativeLayout>
+    <Button android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/btn_confirm" android:background="@drawable/bg_btn_register_next" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="46.0dip" android:layout_marginRight="46.0dip" android:layout_marginBottom="@dimen/btn_select_gender_next" android:text="@string/str_confirm" android:layout_alignParentBottom="true" />
+</RelativeLayout>

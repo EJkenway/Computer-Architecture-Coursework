@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.outdoor.mvp.view.ViewEditAddMapItemView android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/mapCover" android:layout_width="68.0dip" android:layout_height="68.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="5.0dip" android:scaleType="centerCrop" app:border_color="@color/light_green" app:border_width="2.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="#deffffff" android:ellipsize="end" android:id="@id/mapName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="92.0dip" android:maxWidth="66.0dip" android:maxLines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.pb.outdoor.mvp.view.ViewEditAddMapItemView>

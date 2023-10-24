@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.bodydata.widget.BodyRecordAlbumAllItemView android:layout_width="84.0dip" android:layout_height="84.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_body_record_album_all" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@color/black_50" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/font_size_11dp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_silhouette" />
+        <TextView android:textSize="@dimen/font_size_11dp" android:textColor="@color/white" android:id="@id/text_body_record_album_all_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.tc.bodydata.widget.BodyRecordAlbumAllItemView>

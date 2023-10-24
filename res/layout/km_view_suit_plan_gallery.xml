@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitPlanGalleryView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/containerMorePlan" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/tvTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/black_87" android:gravity="center" android:id="@id/tvMore" android:background="@drawable/km_bg_50dp_stroke_with_black_38" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="@string/find_out_more" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerView" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitPlanGalleryView>

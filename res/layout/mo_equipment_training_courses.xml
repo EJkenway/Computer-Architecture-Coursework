@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_white_top_corner_10dp" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_144dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/txtTitle" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="22.0dip" android:text="@string/mo_common_courses" android:layout_marginStart="@dimen/mo_margin_16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextMedium" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/commonCoursesList" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_80dp" android:layout_marginTop="18.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/txtTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.framework.activity.title.AppBarLayoutAnim android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutBehaviorEx"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/title_bar_wrapper" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/home_title_bar_height" android:minHeight="@dimen/home_title_bar_min_height" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+        <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" android:layout_marginStart="6.0dip" app:layout_collapseMode="parallax" style="@style/text_anim_indicator_tab_strip" />
+        <include android:layout_gravity="end" android:id="@id/layoutRightAction" android:layout_width="wrap_content" android:layout_height="@dimen/app_bar_right_action_layout_origin_height" app:layout_collapseMode="parallax" layout="@layout/layout_app_bar_right_action" />
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+</com.gotokeep.keep.commonui.framework.activity.title.AppBarLayoutAnim>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.svg.SVGImageView android:id="@id/poseSvgView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" />
+    <com.gotokeep.keep.commonui.widget.layout.DraggableFrameLayout android:id="@id/dragLayout" android:layout_width="108.0dip" android:layout_height="108.0dip" android:layout_margin="14.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:id="@id/poseCoverView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.gotokeep.keep.commonui.widget.layout.DraggableFrameLayout>
+</merge>

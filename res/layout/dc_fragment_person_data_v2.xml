@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataV2View android:id="@id/viewPersonDataV2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerSport" android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/customTitleBar" android:layout_width="fill_parent" android:layout_height="56.0dip" app:add_status_bar_height="true" app:layout_constraintTop_toTopOf="parent" app:title="@string/data_center" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ViewStub android:id="@id/stubPersonDataSkeleton" android:layout="@layout/dc_item_person_data_skeleton_view" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@id/customTitleBar" />
+</com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataV2View>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layoutTrendDetail" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/imageTrendDetailBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_10" android:src="@drawable/kt_icon_back_black" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dimen_20dp" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tabLayoutTrendDetail" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginStart="70.0dip" android:layout_marginEnd="70.0dip" app:layout_constraintTop_toTopOf="parent" app:tabIndicator="@drawable/kt_indicator_full_tab_shape" app:tabIndicatorColor="@color/kt_color_222222" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="1.5dip" app:tabPaddingBottom="@dimen/dimen_4dp" app:tabRippleColor="@color/transparent" app:tabTextAppearance="@style/KtTabTextSize" />
+    </RelativeLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewpagerTrendDetail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

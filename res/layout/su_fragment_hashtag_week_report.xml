@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.hashtag.mvp.report.view.HashtagWeekReportView android:id="@id/viewHashtagWeekReport" android:background="@color/snow_white" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutBehaviorEx">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbarLayout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="@color/transparent" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:statusBarScrim="@android:color/transparent">
+            <include layout="@layout/su_view_hashtag_week_report_head" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                <include layout="@layout/su_view_hashtag_week_report_toolbar" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerHashtagList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="32.0dip" android:overScrollMode="never" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/viewEmpty" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</com.gotokeep.keep.su.social.hashtag.mvp.report.view.HashtagWeekReportView>

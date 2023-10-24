@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/item_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="250.0dip">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center" android:id="@id/my_kibra" android:background="@drawable/kt_bg_kibra_white" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_centerInParent="true" />
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="58.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_kibra_name" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:id="@id/kibra_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="58.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_kibra_sn" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:id="@id/kibra_sn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" />
+            <RelativeLayout android:id="@id/user_manage_area" android:layout_width="fill_parent" android:layout_height="58.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_kibra_user_manage" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/kt_kibra_setting_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" />
+            <RelativeLayout android:id="@id/change_wifi_area" android:layout_width="fill_parent" android:layout_height="58.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_change_wifi" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/kt_kibra_setting_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:textColor="@color/light_green" android:gravity="center" android:id="@id/unbind" android:background="@drawable/green_button_background" android:layout_width="283.0dip" android:layout_height="50.0dip" android:layout_marginTop="26.5dip" android:layout_marginBottom="26.5dip" android:text="@string/kt_unbind" android:layout_below="@id/item_area" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

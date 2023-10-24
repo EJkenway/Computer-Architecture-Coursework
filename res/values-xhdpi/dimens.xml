@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="emotion_panel_margin">29.0dip</dimen>
+    <dimen name="keloton_playground_margin">32.0dip</dimen>
+    <dimen name="rank_share_avatar_top_margin">43.0dip</dimen>
+    <dimen name="rank_share_footer_text_bottom_margin">20.0dip</dimen>
+    <dimen name="rank_share_footer_text_top_margin">26.0dip</dimen>
+    <dimen name="rank_share_footer_top_margin">29.0dip</dimen>
+    <dimen name="rank_share_name_top_margin">12.0dip</dimen>
+    <dimen name="rank_share_ranking_top_margin">15.0dip</dimen>
+    <dimen name="rank_share_title_top_margin">15.0dip</dimen>
+    <dimen name="badge_share_badge_margin">75.0dip</dimen>
+    <dimen name="badge_share_top_margin">55.0dip</dimen>
+</resources>

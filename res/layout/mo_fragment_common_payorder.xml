@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/payOrderTitleBarView" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:left_icon_clickable="true" app:title="@string/mo_pay_order_title" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/payOrderRecyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/payOrderConfirmView" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/payOrderTitleBarView" />
+    <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:id="@id/payOrderConfirmView" android:layout_width="fill_parent" android:layout_height="58.0dip" app:buttonRadius="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:loadingButtonSize="large" />
+    <ViewStub android:id="@id/payInfoNetErrorVS" android:visibility="gone" android:layout="@layout/mo_view_net_error_wrapper" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/payOrderTitleBarView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

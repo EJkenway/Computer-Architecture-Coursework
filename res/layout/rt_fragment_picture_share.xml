@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.view.SwipeBackLayout android:id="@id/layoutSwipeBack" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/viewMaskBg" android:background="@color/white_60" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <com.gotokeep.keep.rt.widget.AnimationButtonView android:id="@id/imageArrowDown" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="32.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:center_icon="@drawable/sh_ic_completion_share_white" />
+        <View android:id="@id/viewBgShortPicture" android:background="@drawable/bg_share_cover" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginBottom="-120.0dip" android:layout_above="@id/layoutShareChannel" />
+        <include android:id="@id/shortPicture" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-120.0dip" android:layout_above="@id/layoutShareChannel" layout="@layout/rt_view_short_picture" />
+        <include android:id="@id/longPicture" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="56.0dip" android:layout_marginRight="56.0dip" android:layout_marginBottom="-100.0dip" android:layout_above="@id/layoutShareChannel" layout="@layout/rt_view_long_picture" />
+        <FrameLayout android:id="@id/layoutShareChannel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ViewStub android:id="@id/stubOtShareChannel" android:layout="@layout/rt_view_share_channel_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stubShareChannel" android:layout="@layout/sh_view_share_content_channel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </RelativeLayout>
+</com.gotokeep.keep.commonui.view.SwipeBackLayout>

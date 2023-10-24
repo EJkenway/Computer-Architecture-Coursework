@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layoutSettingContent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" style="@style/SettingBackground">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:left_icon_clickable="true" app:title="@string/rt_cycling_setting_title" style="@style/ItemCustomTitleBar" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/rt_layout_outdoor_settings_common_head" />
+                <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_voice_interval" app:mainText="@string/rt_cycle_voice_broadcast_diff_interval" style="@style/RtSettingSingleItemWithClick" />
+                <include layout="@layout/rt_layout_outdoor_settings_common" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.gotokeep.keep.rt.business.settings.mvp.view.OutdoorSettingAliveGuideView android:id="@id/viewAliveGuide" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

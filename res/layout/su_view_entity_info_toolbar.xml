@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewLeftAnchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="62.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/layoutBack" android:background="@drawable/su_bg_entity_info_toolbar_icon_white_shadow" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginEnd="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/viewLeftAnchor" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/imgBack" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_line_arrow_left_centered" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/viewRightAnchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginEnd="114.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/layoutDetail" android:background="@drawable/su_bg_entity_info_toolbar_icon_white_shadow" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginStart="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/viewRightAnchor" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/imgDetail" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_line_list" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layoutShare" android:background="@drawable/su_bg_entity_info_toolbar_icon_white_shadow" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginStart="52.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/viewRightAnchor" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/imgShare" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_line_share" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

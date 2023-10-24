@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.dialogs.attrs.view.CyclePurchaseShipDateEntryViewV2 android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/enterLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:paddingStart="12.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/externalMainDesc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/mo_24C789" android:id="@id/externalButton" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/mo_icon_arrow_green" />
+</com.gotokeep.keep.mo.business.store.dialogs.attrs.view.CyclePurchaseShipDateEntryViewV2>

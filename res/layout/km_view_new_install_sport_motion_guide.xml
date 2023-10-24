@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.pop.view.MySportGoalGuideView android:background="@color/black_70" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgClose" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="46.0dip" android:src="@drawable/ic_update_guide_close" android:scaleType="centerInside" android:layout_marginEnd="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgContentTab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/km_ic_new_install_sport_motion" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgTips" />
+    <ImageView android:id="@id/imgTips" android:layout_width="301.0dip" android:layout_height="120.0dip" android:layout_marginTop="186.0dip" android:src="@drawable/km_ic_new_install_sport_motion_tips" android:layout_marginStart="30.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.km.suit.pop.view.MySportGoalGuideView>

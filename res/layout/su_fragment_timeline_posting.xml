@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/titleView" layout="@layout/su_view_entry_post_title" />
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titleView">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/viewRating" layout="@layout/su_view_entry_post_rating" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.CourseForumClassificationView android:id="@id/viewCourseForumClassification" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.EntryPostTitleView android:id="@id/viewTitleInput" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.EntryPostInputView android:id="@id/viewInput" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/viewVideo" layout="@layout/su_view_entry_post_video" />
+                    <include android:id="@id/viewPictures" android:visibility="gone" layout="@layout/su_view_entry_post_picture" />
+                    <include android:id="@id/viewShareEntry" android:visibility="gone" layout="@layout/su_view_entry_post_share_entry" />
+                </LinearLayout>
+            </FrameLayout>
+            <include android:id="@id/viewHeading" layout="@layout/su_view_entry_post_extra" />
+            <include android:id="@id/metaBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="@dimen/page_horizontal_margin" android:layout_marginEnd="@dimen/page_horizontal_margin" layout="@layout/su_view_entry_post_meta_bar" />
+            <include android:id="@id/viewSportRecord" android:visibility="gone" layout="@layout/su_view_entry_post_sport_record" />
+            <include android:id="@id/viewHashtag" layout="@layout/su_view_entry_post_hashtag" />
+            <include layout="@layout/su_divider_1px_with_margin_16dp" />
+            <include android:id="@id/viewLocation" layout="@layout/su_view_entry_post_location" />
+            <include layout="@layout/su_divider_1px_with_margin_16dp" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.DayflowCheckView android:id="@id/viewDayflowCheck" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="53.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.EntryPostSynchronizeMyEntryView android:id="@id/synchronizeEntryView" android:paddingLeft="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip" android:paddingStart="14.0dip" />
+            <include android:id="@id/fellowshipConfirmView" android:visibility="gone" layout="@layout/su_view_entry_post_fellowship_confirm" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/viewPrivacy" layout="@layout/su_view_entry_post_privacy" />
+                <include android:id="@id/viewFollowupPrivacy" android:visibility="gone" layout="@layout/su_view_video_followup_privacy" />
+                <include android:id="@id/synchronizeToFellowship" android:visibility="gone" layout="@layout/su_view_entry_post_synchronize_to_fellowship" />
+                <com.gotokeep.keep.pb.post.main.mvp.view.EntryPostSaveToLocalView android:id="@id/saveToLocalView" android:paddingLeft="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip" android:paddingStart="14.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/actionPanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/su_view_entry_post_action_panel" />
+</RelativeLayout>

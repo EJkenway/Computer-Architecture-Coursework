@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/wantToastView" android:background="@drawable/bg_black80_corner_8dp" android:paddingLeft="14.0dip" android:paddingTop="11.0dip" android:paddingRight="14.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" android:paddingHorizontal="14.0dip" android:paddingVertical="11.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/su_subscribe_success" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/su_collection_to_view" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutAddCollection" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:textColor="#ff24c789" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/su_collection_to_add" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_arrow_right_green" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

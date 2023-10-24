@@ -1,0 +1,80 @@
+.class public final Lcom/gotokeep/keep/kt/business/kitbit/mvp/view/KitbitDiscoverCourseCardView$a;
+.super Ljava/lang/Object;
+.source "KitbitDiscoverCourseCardView.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/gotokeep/keep/kt/business/kitbit/mvp/view/KitbitDiscoverCourseCardView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lij3/h;)V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/gotokeep/keep/kt/business/kitbit/mvp/view/KitbitDiscoverCourseCardView$a;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/view/ViewGroup;I)Lcom/gotokeep/keep/kt/business/kitbit/mvp/view/KitbitDiscoverCourseCardView;
+    .locals 3
+    .param p2    # I
+        .annotation build Landroidx/annotation/Px;
+        .end annotation
+    .end param
+
+    const-string v0, "parent"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    sget v0, Lzs0/g;->H5:I
+
+    .line 2
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v0, p1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p1
+
+    const-string v0, "null cannot be cast to non-null type com.gotokeep.keep.kt.business.kitbit.mvp.view.KitbitDiscoverCourseCardView"
+
+    invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    check-cast p1, Lcom/gotokeep/keep/kt/business/kitbit/mvp/view/KitbitDiscoverCourseCardView;
+
+    .line 3
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v0
+
+    iput p2, v0, Landroid/view/ViewGroup$LayoutParams;->height:I
+
+    return-object p1
+.end method

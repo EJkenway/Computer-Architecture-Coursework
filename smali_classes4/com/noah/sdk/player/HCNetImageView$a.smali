@@ -1,0 +1,21 @@
+.class public interface abstract Lcom/noah/sdk/player/HCNetImageView$a;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/noah/sdk/player/HCNetImageView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract onComplete(ZLandroid/graphics/Bitmap;)V
+    .annotation build Landroidx/annotation/UiThread;
+    .end annotation
+.end method

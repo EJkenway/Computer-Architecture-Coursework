@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="30.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <View android:background="@color/rt_home_tab_border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <View android:background="@drawable/rt_bg_mini_bar" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/layoutThumbnail" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginStart="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner="25.0dip">
+        <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imgTreadmill" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/rt_ic_bar_treadmill" app:border_width="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.gotokeep.keep.map.MapViewContainer android:id="@id/miniMapView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imgLocError" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/rt_ic_bar_no_signal" app:border_width="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:background="@drawable/rt_ring_mini_bar_map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/viewCourse" android:background="#fff6f6f6" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:translationX="2.0dip" android:translationY="2.0dip" app:layout_constraintBottom_toBottomOf="@id/layoutThumbnail" app:layout_constraintEnd_toEndOf="@id/layoutThumbnail" app:round_corner="4.0dip">
+        <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" app:round_corner="3.0dip">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgCourse" android:layout_width="18.0dip" android:layout_height="18.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/viewTrainType" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="78.0dip" android:layout_marginEnd="6.0dip" app:layout_constraintEnd_toStartOf="@id/viewStartButton" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/tvTrainType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_outdoor_running" android:alpha="0.9" app:layout_constraintStart_toEndOf="@id/viewGps" />
+        <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:background="@color/black_05" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginStart="4.5dip" app:round_corner="25.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rt_ic_arrow_right_black" android:layout_centerInParent="true" />
+        </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/viewTrainType" app:layout_constraintStart_toStartOf="@id/viewTrainType">
+        <com.gotokeep.keep.rt.business.training.widget.GpsStateView android:id="@id/viewGps" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="-10.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black_40" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvGpsTip" android:layout_width="wrap_content" android:layout_height="26.0dip" android:text="" android:maxLines="1" />
+    </LinearLayout>
+    <View android:background="@drawable/rt_bg_bar_start_button_shadow" android:layout_width="122.0dip" android:layout_height="58.0dip" android:alpha="0.4" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/viewStartButton" android:background="@color/rt_main_run" android:padding="1.0dip" android:layout_width="110.0dip" android:layout_height="48.0dip" android:layout_marginEnd="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner="25.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/imgStart" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/rt_ic_start_running" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start" />
+        </LinearLayout>
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+</merge>

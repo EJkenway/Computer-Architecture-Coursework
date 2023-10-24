@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataV2TodayView android:background="@color/gray_fa" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutTodaySport" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" layout="@layout/dc_view_person_data_v2_today_sport_list" />
+    <androidx.constraintlayout.widget.Group android:id="@id/groupConsume" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="viewDivider, layoutTodaySport" />
+    <include android:id="@id/layoutTodayStep" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintTop_toBottomOf="@id/layoutTodaySport" layout="@layout/dc_view_person_data_v2_today_step" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layoutTodayPurposeAndStep" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="92.0dip" android:layout_marginTop="8.0dip" android:baselineAligned="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutTodayStep">
+        <include android:id="@id/layoutTodayPurpose" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/dc_view_person_data_v2_today_purpose" />
+        <include android:id="@id/layoutStepShort" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="8.0dip" layout="@layout/dc_view_person_data_v2_today_short_step" />
+    </LinearLayout>
+    <include android:id="@id/layoutTodayFeelings" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="1.0dip" app:layout_constraintTop_toBottomOf="@id/layoutTodayPurposeAndStep" layout="@layout/dc_view_person_data_v2_today_feelings" />
+</com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataV2TodayView>

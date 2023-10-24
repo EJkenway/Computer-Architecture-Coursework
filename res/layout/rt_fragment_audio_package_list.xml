@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/custom_titleBar" app:add_status_bar_height="false" app:left_icon_clickable="true" app:title="@string/rt_choice_sound" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recycler_view_outdoor_sound" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.edit.image.mvp.view.WatermarkItemView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:layout_marginEnd="6.0dip" app:cardBackgroundColor="@color/black" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/filter" android:background="@color/gray_22" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center" android:id="@id/imgIcon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:scaleType="centerCrop" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/textLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nothing" />
+    </FrameLayout>
+    <View android:layout_gravity="center_vertical" android:id="@id/viewBorder" android:background="@drawable/su_bg_corner_4_color_white_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.pb.edit.image.mvp.view.WatermarkItemView>

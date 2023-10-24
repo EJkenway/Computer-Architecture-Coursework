@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/kt_puncheur_workout_tip_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:background="@drawable/kt_bg_tip_dialog_content" android:layout_width="wrap_content" android:layout_height="42.0dip" android:text="@string/kt_puncheur_resistance_adjusted_by_rpm" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+    <ImageView android:layout_width="10.5dip" android:layout_height="7.0dip" android:layout_marginTop="-1.0dip" android:src="@drawable/kt_ic_dialog_bottom_arrow" android:layout_marginStart="10.0dip" />
+</LinearLayout>

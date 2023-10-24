@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.mikephil.charting.charts.LineChart android:id="@id/viewAltitudeLineChart" android:layout_width="fill_parent" android:layout_height="130.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.view.ChartXAxisView android:id="@id/viewAltitudeXAxis" android:layout_width="fill_parent" android:layout_height="@dimen/kt_chart_x_axis_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.gotokeep.keep.kt.business.puncheurshadow.routedetail.widget.KtAltitudeChartView android:id="@id/ktChart" android:layout_width="fill_parent" android:layout_height="130.0dip" app:layout_constraintStart_toStartOf="@id/viewAltitudeLineChart" app:layout_constraintTop_toTopOf="@id/viewAltitudeLineChart" />
+</androidx.constraintlayout.widget.ConstraintLayout>

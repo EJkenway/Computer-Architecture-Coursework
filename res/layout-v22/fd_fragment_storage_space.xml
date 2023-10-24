@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/layoutTotal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" layout="@layout/fd_view_storage_total" />
+        <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerContent" android:background="@drawable/bg_corner_white_8dp_stroke_efefef" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemDownloaded" android:background="@drawable/bg_corner_white_8dp_stroke_efefef" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:boldTextStyle="true" app:mainText="@string/fd_downloaded_course" app:rightArrowVisible="true" app:settingMainTextColor="@color/black" app:settingTextSize="16.0sp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

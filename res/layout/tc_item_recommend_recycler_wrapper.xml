@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.sports.train.mvp.view.RecommendMultiWrapperView android:orientation="vertical" android:layout_width="264.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/recommend_common" android:layout_width="fill_parent" android:layout_height="124.0dip" android:layout_marginBottom="8.0dip" layout="@layout/tc_item_recommend_common_single" />
+    <include android:id="@id/recommend_content" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tc_item_recommend_content" />
+</com.gotokeep.keep.tc.business.sports.train.mvp.view.RecommendMultiWrapperView>

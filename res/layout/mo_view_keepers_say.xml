@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <RelativeLayout android:id="@id/layout_keepers_say_title" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="@dimen/font_size_14sp" android:id="@id/header_title" android:layout_marginLeft="@dimen/dimen_14dp" android:text="@string/keepers_say" android:layout_centerVertical="true" style="@style/StoreBaseTextView" />
+        <ImageView android:id="@id/img_order_arrow" android:layout_marginRight="14.0dip" android:src="@drawable/mo_icon_goods_detail_more" style="@style/SettingItemArrow" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_66" android:id="@id/text_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/img_order_arrow" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/keepers_say_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

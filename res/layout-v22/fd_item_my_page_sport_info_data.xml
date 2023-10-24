@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.mine.view.MyPageSportDataInfoView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutSport" android:layout_width="0.0dip" android:layout_height="@dimen/fd_mine_item_sport_data_height" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/layoutBody" layout="@layout/fd_item_my_page_sport_info_data_item" />
+    <include android:id="@id/layoutBody" android:layout_width="0.0dip" android:layout_height="@dimen/fd_mine_item_sport_data_height" app:layout_constraintLeft_toRightOf="@id/layoutSport" app:layout_constraintRight_toRightOf="parent" layout="@layout/fd_item_my_page_sport_info_data_item" />
+</com.gotokeep.keep.fd.business.mine.view.MyPageSportDataInfoView>

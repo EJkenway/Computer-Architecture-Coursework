@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.DialItemView android:id="@id/dialItem" android:layout_width="fill_parent" android:layout_height="162.0dip" app:cardBackgroundColor="@color/green_10" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="109.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="8.0sp" android:textColor="@color/ysf_black_333333" android:id="@id/textClassMember" android:background="@drawable/kt_bg_corner_2_f1cf8d" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/klass_member" android:layout_alignParentTop="true" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
+        <androidx.cardview.widget.CardView android:id="@id/cardBg" android:layout_width="42.0dip" android:layout_height="98.0dip" android:layout_marginTop="16.0dip" android:layout_centerHorizontal="true" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip">
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/cardImg" android:layout_width="38.0dip" android:layout_height="94.0dip" android:layout_centerHorizontal="true" app:cardBackgroundColor="@color/black" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/dialThumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+        <TextView android:textColor="@color/kt_color_dial_title" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cardBg" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.DialItemView>

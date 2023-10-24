@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="11.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/cbPicContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:id="@id/cbPic" android:layout_width="30.0dip" android:layout_height="30.0dip" android:scaleType="centerCrop" app:round_corner_bottom_left="@dimen/dimen_4dp" app:round_corner_top_left="@dimen/dimen_4dp" />
+        <ImageView android:id="@id/cbLock" android:background="@color/black_30" android:padding="7.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/mo_ic_lock_transparent" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#ff24c789" android:id="@id/cbAttrName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff24c789" android:id="@id/cbGoodsPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+</LinearLayout>

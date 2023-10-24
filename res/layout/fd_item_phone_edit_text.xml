@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/phone_input" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/phone_edit_code_click_area" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/phone_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/phone" android:layout_centerVertical="true" />
+            <TextView android:id="@id/phone_hint" android:text="@string/mobile_number" style="@style/SettingMainText" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:id="@id/phone_edit_area_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="+86" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="@color/line_white" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginLeft="18.0dip" />
+        <EditText android:textSize="16.0sp" android:textColor="@color/gray_66" android:id="@id/edit_phone_text" android:background="@null" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="18.0dip" android:hint="@string/home_number" android:maxLength="21" android:inputType="phone" android:textCursorDrawable="@drawable/setting_edit_text_cursor" />
+    </LinearLayout>
+</RelativeLayout>

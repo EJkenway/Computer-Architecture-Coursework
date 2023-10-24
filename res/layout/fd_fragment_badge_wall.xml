@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_badge_wall" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_14dp" android:layout_marginRight="@dimen/dimen_14dp" android:overScrollMode="never" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:add_status_bar_height="true" app:background_color="@color/main_color" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:right_icon="@drawable/icon_share_android_filled" app:right_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+</RelativeLayout>

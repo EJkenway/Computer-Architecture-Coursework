@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_nim_message_item_text_parent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_nim_message_item_text_reference" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <View android:background="@color/ysf_grey_d9d9d9" android:layout_width="1.0dip" android:layout_height="12.0dip" />
+        <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_grey_999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/ysf_message_reference" />
+        <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_grey_999999" android:ellipsize="end" android:id="@id/tv_nim_message_item_text_reference" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/ysf_bubble_content_rich_image_max_width" android:maxLines="1" />
+        <ImageView android:id="@id/iv_nim_message_item_text_reference" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/ysf_black_b3000000" android:gravity="center|left" android:autoLink="email|phone" android:layout_gravity="center_vertical" android:id="@id/nim_message_item_text_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/ysf_bubble_max_width" android:includeFontPadding="false" android:lineSpacingExtra="3.0dip" />
+    <ImageView android:layout_gravity="top" android:id="@id/message_item_rich_gif" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="top" android:id="@id/iv_message_item_rich_pic" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <TextView android:id="@id/tv_nim_message_item_url_line" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_blue_5092e1" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_nim_message_item_url_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="87.5px" />
+</LinearLayout>

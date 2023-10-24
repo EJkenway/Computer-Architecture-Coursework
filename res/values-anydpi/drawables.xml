@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="exo_ic_default_album_image">false</item>
+    <item type="drawable" name="exo_icon_fullscreen_enter">false</item>
+    <item type="drawable" name="exo_icon_fullscreen_exit">false</item>
+    <item type="drawable" name="exo_icon_stop">false</item>
+</resources>

@@ -1,0 +1,44 @@
+.class public Lwg3/b$b;
+.super Ljava/lang/Object;
+.source "Router.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lwg3/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "b"
+.end annotation
+
+
+# static fields
+.field public static final a:Lwg3/b;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lwg3/b;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lwg3/b;-><init>(Lwg3/b$a;)V
+
+    sput-object v0, Lwg3/b$b;->a:Lwg3/b;
+
+    return-void
+.end method
+
+.method public static synthetic a()Lwg3/b;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lwg3/b$b;->a:Lwg3/b;
+
+    return-object v0
+.end method

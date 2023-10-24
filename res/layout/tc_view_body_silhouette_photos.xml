@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.bodydata.mvp.view.BodySilhouettePhotoDayView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/three_gray" android:id="@id/text_body_silhouette_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_view_body_silhouette_photos" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.gotokeep.keep.tc.bodydata.mvp.view.BodySilhouettePhotoDayView>

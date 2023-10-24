@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/plan_divider_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/layout_data_center_app_bar" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:layout_scrollFlags="scroll|enterAlways|snap">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/data_center_title_bar" app:background_color="@color/purple" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:right_icon="@drawable/icon_share_android_filled" app:right_icon_clickable="true" app:title="" style="@style/ItemCustomTitleBar" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_centerHorizontal="true">
+                        <TextView android:textSize="@dimen/title_bar_small_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/select_data_mode_txt" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/all_train_history" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/select_data_mode_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:src="@drawable/dc_icon_data_center_title_more" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tab_layout_data_center" style="@style/data_center_tab_strip" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/data_center_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <View android:id="@id/popup_mask" android:background="#70000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="104.0dip" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterLocalLogView android:layout_gravity="bottom" android:id="@id/local_log_item" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.prime.mvp.view.PrimeVipSubItemView android:layout_width="156.0dip" android:layout_height="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imvIcon" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@drawable/bg_gradient_black_70_to_black_00_bottom_8dp" android:layout_width="fill_parent" android:layout_height="52.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:maxLines="1" app:layout_constraintBottom_toTopOf="@id/textDifficult" app:layout_constraintEnd_toEndOf="@id/textDifficult" app:layout_constraintStart_toStartOf="@id/textDifficult" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:id="@id/textDifficult" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_10" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/dimen_10" android:layout_marginEnd="@dimen/dimen_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</com.gotokeep.keep.tc.business.prime.mvp.view.PrimeVipSubItemView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.edit.image.mvp.view.StickerItemView android:layout_width="70.0dip" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center" android:id="@id/stickerView" android:layout_width="62.0dip" android:layout_height="62.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/imgStickerHolder" android:layout_width="62.0dip" android:layout_height="62.0dip" android:src="@drawable/su_sticker_image_holder" />
+</com.gotokeep.keep.pb.edit.image.mvp.view.StickerItemView>

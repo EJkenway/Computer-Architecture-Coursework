@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ap_not_found" android:background="@color/keloton_connect_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/retry">
+        <TextView android:textSize="24.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/kt_kibra_ap_not_found_title" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_cc" android:layout_gravity="center_horizontal" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/kt_keloton_name" android:layout_below="@id/title" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/ap_not_found_image" android:layout_width="fill_parent" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_fileName="lottie/kibra_not_found.json" app:lottie_loop="true" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/ap_not_found_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="51.0dip" android:layout_marginRight="51.0dip" android:text="@string/kt_kibra_ap_not_found1" android:lineSpacingMultiplier="1.2" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/retry" android:background="@drawable/kt_bg_keloton_connect_next_enable" android:layout_width="268.0dip" android:layout_height="50.0dip" android:layout_marginBottom="24.0dip" android:text="@string/retry" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

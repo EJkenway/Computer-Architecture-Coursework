@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingCollapseDataView android:orientation="horizontal" android:paddingTop="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="28.0sp" android:textColor="@color/white" android:id="@id/textTrainingLeftData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_dash_dash" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_38" android:id="@id/textTrainingLeftLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/rt_distance" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.15">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="28.0sp" android:textColor="@color/white" android:id="@id/textTrainingMiddleData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_dash_dash" android:maxLines="1" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_38" android:id="@id/textTrainingMiddleLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/rt_total_time" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="28.0sp" android:textColor="@color/white" android:id="@id/textTrainingRightData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_dash_dash" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/rt_training_text_light" android:id="@id/textTrainingRightLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:contentDescription="@string/rt_calorie" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingCollapseDataView>

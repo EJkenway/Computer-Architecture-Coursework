@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/big_photo_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <com.gotokeep.keep.uilib.ZoomImageView android:id="@id/big_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <ProgressBar android:id="@id/loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/icon_play" android:background="@drawable/icon_play_big" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/font_size_16dp" android:textColor="@color/white" android:gravity="center" android:id="@id/txtAttrName" android:background="@drawable/mo_shape_gray22_radius_16" android:paddingTop="@dimen/mo_margin_3" android:paddingBottom="@dimen/mo_margin_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_30dp" android:singleLine="true" android:layout_above="@id/txtPrice" android:layout_centerHorizontal="true" android:paddingStart="@dimen/mo_margin_14" android:paddingEnd="@dimen/mo_margin_14" />
+    <TextView android:textSize="@dimen/font_size_18dp" android:textColor="@color/white" android:gravity="center" android:id="@id/txtPrice" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_24dp" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.AllDaySleepView android:paddingTop="19.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/KtSleepCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/ysf_black_333333" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/ysf_black_333333" android:id="@id/textDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSleepDetail" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/textDuration" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.AllDaySleepView>

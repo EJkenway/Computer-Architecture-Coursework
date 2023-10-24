@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/noah_sdk_bottom_banner_ad_container" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/noah_native_ad_media_view" android:layout_width="78.0dip" android:layout_height="62.0dip" android:layout_marginLeft="10.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/noah_noah_native_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="97.0dip" android:layout_marginTop="20.0dip" android:maxWidth="118.0dip" android:singleLine="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff555555" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/noah_native_ad_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="97.0dip" android:layout_marginTop="44.0dip" android:maxWidth="118.0dip" android:singleLine="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center|right" android:id="@id/noah_native_ad_check_details" android:layout_width="76.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:text="查看详情" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/noah_native_ad_close" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/sdk_bottom_banner_close" android:scaleType="fitXY" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryFeelingRpeView android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtSummaryCardView">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/rt_feeling_summary_title_height" android:layout_marginTop="0.0dip" style="@style/RtSummaryCardViewTitleLayout">
+            <ImageView android:id="@id/imgTitle" android:layout_width="@dimen/rt_summary_title_drawable_size" android:layout_height="@dimen/rt_summary_title_drawable_size" android:src="@drawable/rt_ic_summary_feeling" android:layout_centerVertical="true" android:contentDescription="@string/rt_feeling_rpe_title" />
+            <TextView android:id="@id/textRpeCardTitle" android:text="@string/rt_feeling_rpe_title" android:layout_alignTop="@id/imgTitle" android:layout_alignBottom="@id/imgTitle" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/imgTitle" style="@style/RtSummaryCardViewTitleInLayout" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/viewRpeCommitted" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textRpeCommitted" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgRpeCommitted" android:layout_width="24.0dip" android:layout_height="24.0dip" android:importantForAccessibility="no" />
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/viewRpeUncommitted" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gotokeep.keep.train.TrainFeelView android:id="@id/viewTrainingFeel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12dp" android:layout_marginStart="@dimen/dimen_14dp" android:layout_marginEnd="@dimen/dimen_14dp" app:colorStyle="outdoor" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryFeelingRpeView>

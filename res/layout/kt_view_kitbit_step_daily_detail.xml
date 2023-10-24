@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.StepDetailView android:background="@color/white" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="188.0dip" android:layout_marginTop="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/kt_step_daily_detail_title" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/viewWithData" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginBottom="20.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/viewTip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="20.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/viewTipTop" android:background="@drawable/kt_bg_rectangle_black_50_round_2dp" android:paddingLeft="8.0dip" android:paddingTop="8.5dip" android:paddingRight="8.0dip" android:paddingBottom="8.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0dip" android:textColor="@android:color/white" android:id="@id/textHighlightSteps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/textHighlightTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:alpha="0.5" android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <View android:id="@id/viewTipBottom" android:background="@color/gray_ef" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <com.github.mikephil.charting.charts.BarChart android:layout_gravity="bottom" android:id="@id/chartSteps" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="5.0dip" />
+        <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" layout="@layout/kt_layout_chart_xaxis" />
+    </FrameLayout>
+    <include android:layout_gravity="center" android:id="@id/viewNoData" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kt_layout_step_history_no_data" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tvOpenAllDayRecord" android:background="@drawable/kt_bg_rectangle_green_round_50dp" android:paddingLeft="15.0dip" android:paddingTop="8.5dip" android:paddingRight="15.0dip" android:paddingBottom="8.5dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_open_all_day_record" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.StepDetailView>

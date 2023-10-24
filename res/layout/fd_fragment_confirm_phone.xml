@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android_custom:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/confirm_phone_tips" android:layout_marginStart="14.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" style="@style/SettingItem">
+        <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_number" style="@style/SettingMainText" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:layout_gravity="center_vertical" android:id="@id/txt_phone_bound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginStart="18.0dip" />
+    </LinearLayout>
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" android:layout_marginStart="14.0dip" />
+    <include layout="@layout/layout_verify_code" />
+    <Button android:id="@id/btn_submit" android:text="@string/submit" style="@style/SettingButtonMainGreen" />
+</LinearLayout>

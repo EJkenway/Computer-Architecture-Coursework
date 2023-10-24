@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.mvp.view.EntityCommentItemV2View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/animBgView" android:background="@color/gray_ef" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepProfileView android:id="@id/profileView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" app:profileStyle="commentV2" />
+    <com.gotokeep.keep.su_core.timeline.widget.CustomEllipsisTextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/black_87" android:ellipsize="end" android:gravity="start" android:id="@id/textContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="2.0dip" app:su_ellipsis="@string/su_text_ellipsis_prefix" app:su_ellipsisText="@string/su_text_ellipsis_text" app:su_ellipsisTextColor="@color/gray_99" />
+</com.gotokeep.keep.su.social.comment.mvp.view.EntityCommentItemV2View>

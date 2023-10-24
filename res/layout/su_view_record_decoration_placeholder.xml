@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.personalpage.mvp.recordv2.view.RecordTimelineEndView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/profile_bg_dot_gradient_cac2ff_9a8f33" android:layout_width="8.5dip" android:layout_height="8.5dip" android:layout_marginStart="22.0dip" />
+</com.gotokeep.keep.profile.personalpage.mvp.recordv2.view.RecordTimelineEndView>

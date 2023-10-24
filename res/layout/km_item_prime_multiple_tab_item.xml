@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:id="@id/imageDecoration" android:background="@drawable/bg_white_top_corner_12dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner="12.0dip" />
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/km_color_multiple_tab" android:gravity="center" android:id="@id/btnText" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/tagLeftView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/km_bg_prime_multiple_one_tab_arrow_right" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/tagRightView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/km_bg_prime_multiple_one_tab_arrow_left" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

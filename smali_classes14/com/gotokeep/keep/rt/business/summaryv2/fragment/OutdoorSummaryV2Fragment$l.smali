@@ -1,0 +1,97 @@
+.class public final Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment$l;
+.super Ljava/lang/Object;
+.source "OutdoorSummaryV2Fragment.kt"
+
+# interfaces
+.implements Landroidx/lifecycle/Observer;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment;->O1(Landroid/view/View;Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Landroidx/lifecycle/Observer;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment;
+
+
+# direct methods
+.method public constructor <init>(Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment$l;->g:Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lwi3/f;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lwi3/f<",
+            "Ljava/lang/Integer;",
+            "+",
+            "Lcom/gotokeep/keep/data/model/BaseModel;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-virtual {p1}, Lwi3/f;->a()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    invoke-virtual {p1}, Lwi3/f;->b()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/gotokeep/keep/data/model/BaseModel;
+
+    .line 1
+    iget-object v1, p0, Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment$l;->g:Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment;
+
+    invoke-static {v1}, Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment;->x2(Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment;)Ln42/a;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemChanged(ILjava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic onChanged(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Lwi3/f;
+
+    invoke-virtual {p0, p1}, Lcom/gotokeep/keep/rt/business/summaryv2/fragment/OutdoorSummaryV2Fragment$l;->a(Lwi3/f;)V
+
+    return-void
+.end method

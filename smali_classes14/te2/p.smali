@@ -1,0 +1,281 @@
+.class public Lte2/p;
+.super Ljava/lang/Object;
+.source "SoftKeyboardToggleHelper.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lte2/p$a;,
+        Lte2/p$b;,
+        Lte2/p$c;
+    }
+.end annotation
+
+
+# instance fields
+.field public a:I
+
+.field public b:Landroid/view/View;
+
+.field public c:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
+
+.field public d:Lte2/p$c;
+
+.field public e:Lte2/p$b;
+
+.field public f:Lte2/p$a;
+
+.field public g:I
+
+.field public h:I
+
+.field public i:Z
+
+
+# direct methods
+.method public constructor <init>(Landroid/app/Activity;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x0
+
+    .line 2
+    iput v0, p0, Lte2/p;->h:I
+
+    .line 3
+    invoke-static {p1}, Lcom/gotokeep/keep/common/utils/c;->e(Landroid/app/Activity;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const v0, 0x1020002
+
+    .line 4
+    invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lte2/p;->b:Landroid/view/View;
+
+    .line 5
+    new-instance v0, Lte2/o;
+
+    invoke-direct {v0, p0, p1}, Lte2/o;-><init>(Lte2/p;Landroid/app/Activity;)V
+
+    iput-object v0, p0, Lte2/p;->c:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
+
+    .line 6
+    iget-object p1, p0, Lte2/p;->b:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lte2/p;->c:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
+
+    invoke-virtual {p1, v0}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public static synthetic a(Lte2/p;Landroid/app/Activity;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lte2/p;->c(Landroid/app/Activity;)V
+
+    return-void
+.end method
+
+.method private synthetic c(Landroid/app/Activity;)V
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lte2/p;->b:Landroid/view/View;
+
+    invoke-virtual {p0, v0}, Lte2/p;->b(Landroid/view/View;)I
+
+    move-result v0
+
+    iput v0, p0, Lte2/p;->g:I
+
+    .line 2
+    iget v1, p0, Lte2/p;->h:I
+
+    sub-int/2addr v0, v1
+
+    iput v0, p0, Lte2/p;->h:I
+
+    .line 3
+    iget-object v0, p0, Lte2/p;->b:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getRootView()Landroid/view/View;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/view/View;->getHeight()I
+
+    move-result v0
+
+    .line 4
+    iget v1, p0, Lte2/p;->a:I
+
+    if-nez v1, :cond_0
+
+    .line 5
+    iget p1, p0, Lte2/p;->g:I
+
+    iput p1, p0, Lte2/p;->a:I
+
+    return-void
+
+    .line 6
+    :cond_0
+    iget v2, p0, Lte2/p;->g:I
+
+    sub-int/2addr v2, v1
+
+    .line 7
+    invoke-static {v2}, Ljava/lang/Math;->abs(I)I
+
+    move-result v1
+
+    div-int/lit8 v0, v0, 0x4
+
+    const/4 v3, 0x1
+
+    if-le v1, v0, :cond_4
+
+    const/4 p1, 0x0
+
+    if-gez v2, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v3, 0x0
+
+    .line 8
+    :goto_0
+    iput-boolean v3, p0, Lte2/p;->i:Z
+
+    .line 9
+    iget-object v0, p0, Lte2/p;->d:Lte2/p$c;
+
+    if-eqz v0, :cond_2
+
+    .line 10
+    invoke-interface {v0, v3}, Lte2/p$c;->onStatusChange(Z)V
+
+    .line 11
+    :cond_2
+    iget-object v0, p0, Lte2/p;->b:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->findFocus()Landroid/view/View;
+
+    move-result-object v0
+
+    .line 12
+    instance-of v0, v0, Lcom/gotokeep/keep/su_core/utils/html/RichEditHorizontalRollTextView;
+
+    if-eqz v0, :cond_3
+
+    .line 13
+    iput-boolean p1, p0, Lte2/p;->i:Z
+
+    .line 14
+    :cond_3
+    iget-object p1, p0, Lte2/p;->e:Lte2/p$b;
+
+    if-eqz p1, :cond_5
+
+    .line 15
+    iget-boolean v0, p0, Lte2/p;->i:Z
+
+    .line 16
+    invoke-static {v2}, Ljava/lang/Math;->abs(I)I
+
+    move-result v1
+
+    .line 17
+    invoke-interface {p1, v0, v1}, Lte2/p$b;->onStatusChange(ZI)V
+
+    goto :goto_1
+
+    .line 18
+    :cond_4
+    iget-boolean v0, p0, Lte2/p;->i:Z
+
+    if-eqz v0, :cond_5
+
+    if-eqz v2, :cond_5
+
+    .line 19
+    iget-object v0, p0, Lte2/p;->f:Lte2/p$a;
+
+    if-eqz v0, :cond_5
+
+    neg-int v1, v2
+
+    .line 20
+    invoke-static {p1}, Le0/e;->e(Landroid/content/Context;)I
+
+    move-result p1
+
+    .line 21
+    invoke-interface {v0, v3, v1, p1}, Lte2/p$a;->onHeightChange(ZII)V
+
+    .line 22
+    :cond_5
+    :goto_1
+    iget p1, p0, Lte2/p;->g:I
+
+    iput p1, p0, Lte2/p;->a:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Landroid/view/View;)I
+    .locals 1
+
+    .line 1
+    new-instance v0, Landroid/graphics/Rect;
+
+    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
+
+    .line 2
+    invoke-virtual {p1, v0}, Landroid/view/View;->getWindowVisibleDisplayFrame(Landroid/graphics/Rect;)V
+
+    .line 3
+    iget p1, v0, Landroid/graphics/Rect;->bottom:I
+
+    iget v0, v0, Landroid/graphics/Rect;->top:I
+
+    sub-int/2addr p1, v0
+
+    return p1
+.end method
+
+.method public d(Lte2/p$a;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lte2/p;->f:Lte2/p$a;
+
+    return-void
+.end method
+
+.method public e(Lte2/p$b;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lte2/p;->e:Lte2/p$b;
+
+    return-void
+.end method

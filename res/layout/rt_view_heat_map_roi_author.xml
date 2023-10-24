@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemAuthorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_route_author_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="14.0dip">
+        <com.gotokeep.keep.commonui.uilib.CircularImageView android:layout_gravity="center_vertical" android:id="@id/img_author_avatar" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/person_45_45" app:border_color="@color/white" app:border_width="1.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/purple" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/text_route_author" android:layout_width="wrap_content" android:layout_height="18.5dip" android:layout_marginLeft="8.0dip" android:maxLines="1" android:maxEms="10" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/text_route_create_time" android:layout_width="wrap_content" android:layout_height="18.5dip" android:layout_marginLeft="8.0dip" android:text="@string/rt_route_create_time" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemAuthorView>

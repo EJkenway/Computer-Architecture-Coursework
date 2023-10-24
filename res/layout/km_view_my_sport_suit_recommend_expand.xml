@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.mesport.mvp.view.MySportSuitRecommendExpandView android:background="@drawable/km_bg_my_sport_suit_recommend_item" android:layout_width="80.0dip" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_Black_60_Light_Secondary" android:id="@id/textExpand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_out_more" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Style_14_Medium" />
+</com.gotokeep.keep.km.mesport.mvp.view.MySportSuitRecommendExpandView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fd_badge_desc_bottom">104.0dip</dimen>
+    <dimen name="fd_badge_get_time_bottom">74.0dip</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.capture.mvp.view.PoseItemView android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_gravity="center" android:id="@id/coverImageView" android:layout_width="108.0dip" android:layout_height="108.0dip" android:scaleType="centerCrop" app:round_corner="4.0dip" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_gravity="center" android:id="@id/loadingMaskView" android:layout_width="108.0dip" android:layout_height="108.0dip" android:src="@color/black_70" app:round_corner="4.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/circleLoadingView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/borderImageView" android:visibility="invisible" android:layout_width="110.0dip" android:layout_height="110.0dip" android:src="@drawable/su_bg_border_circle_white" />
+</com.gotokeep.keep.pb.capture.mvp.view.PoseItemView>

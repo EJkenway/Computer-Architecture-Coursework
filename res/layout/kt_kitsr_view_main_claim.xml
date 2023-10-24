@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitsr.mvp.view.KitSrMainClaimView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvClaimData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/gray_66" android:gravity="center" android:id="@id/textMore" android:background="@drawable/bg_corner_fafafa_8dp" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="18.0dip" android:text="@string/find_out_more" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/rvClaimData" />
+</com.gotokeep.keep.kt.business.kitsr.mvp.view.KitSrMainClaimView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepCoverImageView android:id="@id/imgBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/gray_66" app:cover_ratio="ratio_16_9" />
+    <View android:background="@drawable/wt_bg_black40_corners_8dp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tagsContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:maxLines="1" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <TextView android:textSize="9.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:id="@id/tvDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wt_suit_item_desc" android:maxLines="1" android:layout_below="@id/tvTitle" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <ImageView android:id="@id/imgNew" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/icon_new_template" android:layout_alignParentEnd="true" />
+</RelativeLayout>

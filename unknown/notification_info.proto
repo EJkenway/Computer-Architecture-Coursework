@@ -1,0 +1,45 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "NotificationB3";
+
+message NotificationData {
+  /**
+  微信 0x01
+  QQ   0x02
+  微博 0x03
+  Instagram 0x04
+  哔哩哔哩 0x05
+  淘宝 0x06
+  支付宝 0x07
+  抖音 0x08
+  快手 0x09
+  小红书 0x0A
+  豆瓣 0x0B
+  邮箱 0x0C
+  短信 0x0D
+  Keep 0x0E
+  其他 0x20
+  电话 0x30
+   */
+  uint32 uid = 1;
+  uint32 utc = 2;
+  uint32 type = 3;
+  bytes title = 4;
+  bytes content = 5;
+}
+
+message NotificationStatus {
+  uint32 status = 1;
+}
+
+message NotificationAction {
+  uint32 uid = 1;
+  /**
+  操作类型，1 -- positive（接听电话 / 刷新消息），2 -- negative（挂断电话 / 移除消息）
+   */
+  uint32 action = 2;
+}
+
+message NotificationActionStatus {
+  uint32 status = 1;
+}

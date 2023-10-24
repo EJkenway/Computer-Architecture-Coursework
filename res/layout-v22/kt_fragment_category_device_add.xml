@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/toolbar" app:background_color="@color/white" app:left_icon="@drawable/ic_line_arrow_left" app:left_icon_clickable="true" app:title_color="@color/gray_33" style="@style/ItemCustomTitleBar" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_10dp">
+            <TextView android:textSize="32.0sp" android:textStyle="bold" android:textColor="@color/black_87" android:id="@id/deviceAddActionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp" android:layout_marginStart="@dimen/dimen_24dp" />
+            <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerView" android:background="@drawable/kt_bg_fafafa_corner_8dp" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_24dp" android:layout_marginTop="@dimen/dimen_24dp" android:layout_marginRight="@dimen/dimen_24dp" android:overScrollMode="never" android:paddingStart="@dimen/dimen_12dp" android:paddingEnd="@dimen/dimen_15dp" android:layout_marginHorizontal="@dimen/dimen_24dp" />
+            <include android:id="@id/layoutC1pro" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_24dp" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/dimen_24dp" android:paddingStart="@dimen/dimen_12dp" android:paddingEnd="@dimen/dimen_15dp" android:layout_marginHorizontal="@dimen/dimen_24dp" layout="@layout/kt_item_device_c1_pro_add" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/keepEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

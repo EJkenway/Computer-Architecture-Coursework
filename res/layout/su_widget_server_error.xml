@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.widget.SocialSeverErrorView android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/view_server_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/gray_33" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/su_social_server_error_title" android:drawableTop="@drawable/icon_server_error" android:drawablePadding="15.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="14.0dip" android:text="@string/su_social_server_error_sub_title" />
+</com.gotokeep.keep.su_core.timeline.widget.SocialSeverErrorView>

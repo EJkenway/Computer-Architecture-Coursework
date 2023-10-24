@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.home.mvp.view.RouteRecommendView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/textRoute" android:layout_width="fill_parent" android:layout_height="60.0dip" android:drawableEnd="@drawable/icon_more" android:paddingStart="16.0dip" android:paddingEnd="5.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvRoutes" android:paddingBottom="14.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="104.0dip" android:layout_marginTop="56.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.rt.business.home.mvp.view.RouteRecommendView>

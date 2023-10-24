@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryRunEffectView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RtSummaryCardView">
+        <RelativeLayout android:orientation="horizontal" style="@style/RtSummaryCardViewTitleLayout">
+            <TextView android:text="@string/rt_run_effect" android:drawableStart="@drawable/rt_ic_summary_calorie" style="@style/RtSummaryCardViewTitleInLayout" />
+            <TextView android:id="@id/text_tip" style="@style/RtSummaryCardViewTip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/textAbout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_run_effect_about" android:drawablePadding="3.0dip" android:layout_centerVertical="true" android:drawableEnd="@drawable/icon_summary_info" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <include android:visibility="gone" layout="@layout/rt_layout_chart_headline" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rt_bg_run_effect_desc" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+            <TextView android:textSize="20.0sp" android:textColor="@color/purple" android:id="@id/textRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dash_dash" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/purple" android:id="@id/textDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dash_dash" android:lineSpacingExtra="3.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/viewZones" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="13.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="14.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryRunEffectView>

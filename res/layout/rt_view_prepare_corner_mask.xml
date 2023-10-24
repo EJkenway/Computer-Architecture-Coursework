@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/rt_prepare_content_radius" android:layout_height="@dimen/rt_prepare_content_radius" android:src="@drawable/rt_bg_prepare_map_corner" />
+    <ImageView android:layout_width="@dimen/rt_prepare_content_radius" android:layout_height="@dimen/rt_prepare_content_radius" android:src="@drawable/rt_bg_prepare_map_corner" android:rotation="90.0" android:layout_alignParentEnd="true" />
+    <ImageView android:layout_width="@dimen/rt_prepare_content_radius" android:layout_height="@dimen/rt_prepare_content_radius" android:src="@drawable/rt_bg_prepare_map_corner" android:layout_alignParentBottom="true" android:rotation="270.0" />
+    <ImageView android:layout_width="@dimen/rt_prepare_content_radius" android:layout_height="@dimen/rt_prepare_content_radius" android:src="@drawable/rt_bg_prepare_map_corner" android:layout_alignParentBottom="true" android:rotation="180.0" android:layout_alignParentEnd="true" />
+</RelativeLayout>

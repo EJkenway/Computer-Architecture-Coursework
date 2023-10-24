@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_marginTop="@dimen/mo_margin_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/black" android:gravity="center" android:id="@id/txtFilterItem" android:background="@drawable/bg_fafafa_corner_50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="30.0dip" android:width="80.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

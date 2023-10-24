@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitCourseFilterView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView android:id="@id/layoutFilterScroller" android:focusable="true" android:scrollbars="none" android:clickable="true" android:layout_width="0.0dip" android:layout_height="50.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutScrollerContainer" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+            <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_weight="1.0" layout="@layout/kt_item_course_selector" />
+            <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="1.0" layout="@layout/kt_item_course_selector" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/black_60" android:gravity="center" android:id="@id/textFilter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/kt_ic_puncheur_filter" android:drawablePadding="4.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="@id/layoutFilterScroller" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/layoutFilterScroller" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutPopupContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/layoutFilterScroller">
+        <View android:id="@id/layoutBottomMask" android:background="@color/black_50" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" />
+        <com.gotokeep.keep.commonui.view.MaxHeightScrollView android:id="@id/scrollContainer" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/optionContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.gotokeep.keep.commonui.view.MaxHeightScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.kt.business.common.mvp.view.KitCourseFilterView>

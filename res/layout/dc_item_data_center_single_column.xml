@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/item_data_center_single_column_wrapper" android:background="@android:color/transparent" android:layout_width="@dimen/dc_data_center_column_width" android:layout_height="@dimen/dc_data_center_column_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_column_date" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/nine_gray" android:gravity="center" android:id="@id/item_data_center_single_column_year" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/nine_gray" android:gravity="center" android:id="@id/item_data_center_single_column_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <View android:background="@color/white_10" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginTop="8.5dip" android:layout_below="@id/layout_column_date" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/item_data_center_single_column_block" android:layout_width="32.0dip" android:layout_height="@dimen/dc_data_center_column_block_height" android:layout_marginLeft="4.5dip" android:layout_marginRight="4.5dip" android:src="@drawable/selector_data_center_chart_item" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

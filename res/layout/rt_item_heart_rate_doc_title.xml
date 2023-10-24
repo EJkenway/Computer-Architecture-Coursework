@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.OutdoorHeartRateDocTitleView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0sp" android:textColor="@color/gray_33" android:id="@id/text_heart_rate_brief" android:layout_width="283.0dip" android:layout_height="wrap_content" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:id="@id/text_heart_rate_details" android:layout_width="283.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="27.0dip" android:layout_below="@id/text_heart_rate_brief" android:lineSpacingExtra="3.0dip" android:layout_alignStart="@id/text_heart_rate_brief" />
+</com.gotokeep.keep.rt.business.summary.mvp.view.OutdoorHeartRateDocTitleView>

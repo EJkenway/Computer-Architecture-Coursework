@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsProductSideTagView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tagsView" android:layout_width="wrap_content" android:layout_height="20.0dip" android:paddingStart="@dimen/dimen_6dp" android:paddingEnd="@dimen/dimen_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center_vertical" android:id="@id/tagsIcon" android:layout_width="@dimen/dimen_12dp" android:layout_height="@dimen/dimen_12dp" android:scaleType="centerInside" android:layout_marginEnd="@dimen/dimen_2dp" />
+    <TextView android:textSize="@dimen/font_size_10sp" android:id="@id/tagsContent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsProductSideTagView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_close_in_select_phone_country" android:padding="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/icon_close_lined" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+        <com.gotokeep.keep.commonui.view.LetterIndexView android:id="@id/phone_side_bar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentRight="true" />
+        <com.gotokeep.keep.uilib.PinnedSectionListView android:id="@id/phone_listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/register_general_margin" android:layout_marginTop="22.0dip" android:layout_marginRight="@dimen/register_general_margin" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_toLeftOf="@id/phone_side_bar" />
+        <ProgressBar android:id="@id/init_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="false" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

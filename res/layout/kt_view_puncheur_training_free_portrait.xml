@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="160.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white_70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_distance_unit_cn" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="72.0sp" android:textColor="@color/white" android:id="@id/tvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" app:keepFont="font/KeepDisplay-Bold.otf" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" android:baselineAligned="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:text="@string/kt_puncheur_calories_unit_cn" style="@style/KtPuncheurFreeTrainingDataKey" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvCalories" app:keepFont="font/KeepDisplay-Bold.otf" style="@style/KtPuncheurFreeTrainingDataValue" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vDuration" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:text="@string/kt_puncheur_duration_full" style="@style/KtPuncheurFreeTrainingDataKey" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvDuration" app:keepFont="font/KeepDisplay-Bold.otf" style="@style/KtPuncheurFreeTrainingDataValue" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/white_24" android:layout_width="2.0dip" android:layout_height="@dimen/dimen_20dp" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutPuncheurData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:text="@string/kt_puncheur_watt" style="@style/KtPuncheurFreeTrainingDataKey" />
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvWatt" app:keepFont="font/KeepDisplay-Bold.otf" style="@style/KtPuncheurFreeTrainingDataValue" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:text="@string/kt_puncheur_rpm" style="@style/KtPuncheurFreeTrainingDataKey" />
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvRpm" app:keepFont="font/KeepDisplay-Bold.otf" style="@style/KtPuncheurFreeTrainingDataValue" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutResistanceBg" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginBottom="133.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <View android:id="@id/vRing" android:background="@drawable/kt_puncheur_training_free_resistance_bg" android:layout_width="128.0dip" android:layout_height="128.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/imgResistanceBg" android:visibility="gone" android:layout_width="148.0dip" android:layout_height="148.0dip" android:src="@drawable/kt_bg_puncheur_free_resistance" app:layout_constraintBottom_toBottomOf="@id/vRing" app:layout_constraintEnd_toEndOf="@id/vRing" app:layout_constraintStart_toStartOf="@id/vRing" app:layout_constraintTop_toTopOf="@id/vRing" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/white_70" android:id="@id/tvResistanceTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_free_resistance_title" android:layout_marginStart="@dimen/dimen_3dp" app:layout_constraintBottom_toTopOf="@id/tvResistance" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layoutResistanceBg" app:layout_constraintVertical_chainStyle="packed" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="40.0sp" android:textColor="@color/white" android:id="@id/tvResistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/kt_data_default" app:layout_constraintBottom_toBottomOf="@id/layoutResistanceBg" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvResistanceTitle" />
+        <com.gotokeep.keep.kt.business.puncheur.widget.PuncheurResistancePanel android:id="@id/resistancePanel" android:layout_width="@dimen/kt_puncheur_resistance_panel_size" android:layout_height="@dimen/kt_puncheur_resistance_panel_size" app:layout_constraintBottom_toBottomOf="@id/layoutResistanceBg" app:layout_constraintEnd_toEndOf="@id/layoutResistanceBg" app:layout_constraintStart_toStartOf="@id/layoutResistanceBg" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

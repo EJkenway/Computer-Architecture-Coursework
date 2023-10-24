@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar_body_silhouette" app:left_icon_clickable="true" app:right_icon="@drawable/ic_line_camera" app:right_icon_clickable="true" app:title="@string/my_silhouette" style="@style/ItemCustomTitleBar" />
+    <ImageView android:id="@id/img_title_body_silhouette_close" android:padding="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/title_bar_height" android:src="@drawable/icon_close_lined" />
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:gravity="center" android:id="@id/text_body_silhouette_make_photos" android:background="@color/light_green" android:layout_width="fill_parent" android:layout_height="58.0dip" android:text="@string/puzzle_title" android:layout_alignParentBottom="true" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recycle_view_body_silhouette" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/text_body_silhouette_make_photos" android:layout_below="@id/title_bar_body_silhouette" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/text_body_silhouette_make_photos" android:layout_below="@id/title_bar_body_silhouette" />
+    <include android:id="@id/layout_body_silhouette_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="148.0dip" android:layout_alignParentBottom="true" layout="@layout/tc_view_body_silhouette_selected_photo" />
+</RelativeLayout>

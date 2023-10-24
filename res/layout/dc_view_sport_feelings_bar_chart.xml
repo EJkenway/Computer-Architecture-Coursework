@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.dc.business.sportfeelings.mvp.view.SportFeelingItemView android:id="@id/layoutEasy" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/layoutNormal" app:layout_constraintStart_toStartOf="parent" />
+    <com.gotokeep.keep.dc.business.sportfeelings.mvp.view.SportFeelingItemView android:id="@id/layoutNormal" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/layoutHard" app:layout_constraintStart_toEndOf="@id/layoutEasy" />
+    <com.gotokeep.keep.dc.business.sportfeelings.mvp.view.SportFeelingItemView android:id="@id/layoutHard" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/layoutNormal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

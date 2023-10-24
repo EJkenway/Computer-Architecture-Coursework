@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/kt_layout_kitbit_setting_preview" />
+        <LinearLayout android:orientation="vertical" android:id="@id/alarmsContainerView" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/kt_color_add_new_alarm_text" android:gravity="center" android:id="@id/addAlarmView" android:background="@color/white" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/kt_kitbit_setting_new_alarm" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/kt_kitbit_setting_alarm_max" android:layout_marginStart="14.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

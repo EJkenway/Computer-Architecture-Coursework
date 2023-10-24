@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutContent" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/black_70" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/webView" android:scrollbars="none" android:layout_width="327.0dip" android:layout_height="438.0dip" android:layout_marginBottom="24.0dip" app:layout_constraintBottom_toTopOf="@id/recyclerShareChannel" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerShareChannel" android:background="@color/white" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="123.0dip" android:paddingHorizontal="20.0dip" app:layout_constraintBottom_toTopOf="@id/viewDivider" />
+    <View android:id="@id/viewDivider" android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintBottom_toTopOf="@id/textCancel" />
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/textCancel" app:layout_constraintTop_toTopOf="@id/textCancel" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black_87" android:id="@id/textCancel" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/cancel" app:layout_constraintBottom_toTopOf="@id/viewBottomDivider" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <View android:id="@id/viewBottomDivider" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="23.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

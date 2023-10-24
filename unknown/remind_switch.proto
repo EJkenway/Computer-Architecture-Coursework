@@ -1,0 +1,26 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "RemindSwitch";
+
+message MsgRemindSwitch{
+  //消息提醒类型 1来电 2微信 3QQ 4短信 5其他
+  uint32 msg_type =1;
+  //消息提醒开关 0关闭 1开启
+  uint32 msg_switch =2;
+}
+
+message HrRemindSwitch{
+  //心率预警值
+  uint32 hr_warn_value =1;
+  //心率预警开关 0关闭 1开启
+  uint32 hr_warn_switch =2;
+}
+
+message RemindType{
+    repeated MsgRemindSwitch msg_remind_switch =1;
+    HrRemindSwitch hr_remind_switch =2;
+    //同步数据提醒开关 0关闭 1开启
+    uint32 sync_data_remind_switch =3;
+    //运动推荐开关，0：关闭；1：开启，默认开启
+    uint32 sport_suggest_switch = 4;
+}

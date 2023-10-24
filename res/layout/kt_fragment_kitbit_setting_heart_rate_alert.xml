@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/kt_layout_kitbit_setting_preview" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switch_enable_heart_rate_alert" android:saveEnabled="true" app:mainText="@string/kt_kitbit_warning_alarm_text" style="@style/SettingSingleItemWithClick" />
+        <TextView android:textSize="@dimen/default_normal_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_14dp" android:text="@string/kt_kitbit_heart_rate_alert_tips" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/setting_heart_rate_limit" android:visibility="invisible" app:mainText="@string/kt_kitbit_heart_rate_alert_title_text" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switchEnableFatburningNotify" android:saveEnabled="true" android:layout_marginTop="12.0dip" app:mainText="@string/kt_kitbit_setting_fatburning_notify" style="@style/SettingSingleItemWithClick" />
+        <TextView android:textSize="@dimen/default_normal_size" android:id="@id/tvFatburningNotify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_14dp" android:text="@string/kt_kitbit_setting_fatburning_notify_tips" />
+    </LinearLayout>
+</ScrollView>

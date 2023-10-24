@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kplayer.SingletonKeepVideoView2 android:id="@id/mo_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:kvScaleType="centerCrop" />
+    <FrameLayout android:id="@id/layout_control_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

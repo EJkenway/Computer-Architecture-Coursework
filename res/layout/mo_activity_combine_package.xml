@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/combine_package_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/containerBuyNow" />
+    <com.gotokeep.keep.mo.business.store.ui.GoodsTitleView android:id="@id/layout_combine_package_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:enabled="false" android:gravity="center" android:orientation="vertical" android:id="@id/containerBuyNow" android:background="@drawable/mo_selector_goods_detail_confirm_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_alignParentBottom="true">
+        <TextView android:enabled="false" android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_goods_detail_buy_now" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_buy_now" />
+        <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/white" android:gravity="center" android:id="@id/txtEstimateCouponPrice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.gotokeep.keep.mo.common.neterror.view.NetErrorView android:id="@id/netError" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_combine_package_title_bar" />
+</RelativeLayout>

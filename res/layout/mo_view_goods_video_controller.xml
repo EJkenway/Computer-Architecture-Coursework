@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/status_progressbar" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerInParent="true" style="@style/Widget.AppCompat.ProgressBar" />
+    <View android:id="@id/mask_view" android:background="@drawable/bg_video_bottom_mask" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/layout_play_control" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/position_label" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginLeft="48.0dip" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/duration_label" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <SeekBar android:id="@id/seek_bar" android:layout_width="fill_parent" android:layout_height="60.0dip" android:maxHeight="2.0dip" android:progressDrawable="@drawable/mo_player_seekbar_background" android:minHeight="2.0dip" android:thumb="@drawable/mo_video_seek_bar_indicator_background" android:layout_toLeftOf="@id/duration_label" android:layout_toRightOf="@id/position_label" android:layout_alignParentBottom="true" android:splitTrack="false" android:progressTint="@color/light_green" android:secondaryProgressTint="#7fffffff" />
+    </RelativeLayout>
+    <ImageView android:id="@id/img_play_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_play_video" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/img_mute" android:layout_width="40.0dip" android:layout_height="60.0dip" android:src="@drawable/icon_sound_off" android:scaleType="center" android:layout_alignParentBottom="true" />
+    <com.gotokeep.keep.commonui.widget.LineProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="1.5dip" android:layout_alignParentBottom="true" />
+</merge>

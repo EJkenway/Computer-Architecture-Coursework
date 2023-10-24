@@ -1,0 +1,166 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "FileTransfer";
+
+
+/*
+| 数值 | 文件类型                      |
+| :--- | :---------------------------- |
+| 0x01 | 全天心率文件                  |
+| 0x02 | 全天血氧文件                  |
+| 0x03 | 全天步数文件                  |
+| 0x04 | 全天卡路里文件                |
+| 0x05 | 睡眠数据文件                  |
+| 0x06 | 运动数据文件，已废弃            |
+| 0x07 | GPS 数据文件                  |
+| 0x08 | Log 数据文件                  |
+| 0x09 | 原始数据文件                  |
+| 0x0A | 消息数据文件（对 APP 不可见） |
+| 0x0B | 系统数据文件（对 APP 不可见） |
+| 0x2C | 运动数据 plus 新，文件,替代 0x06 |
+
+ */
+message FileType {
+  uint32 type = 1;
+}
+
+message FileTable {
+  //文件唯一标识符
+  uint64 uuid = 1;
+  //文件大小，单位 字节
+  uint32 file_size = 2;
+}
+
+message FileSum {
+  repeated FileTable file_table = 1;
+}
+
+
+
+message GetFileReq {
+  //文件唯一标识符
+  /**
+| bit63 - bit32 | bit31 - bit24     | bit23 - bit16 | bit15 - bit0 |
+| :------------ | :---------------- | :------------ | :----------- |
+| UTC           | 系统 ticks （ms） | 文件类型      | 电压（mv）   |   */
+  uint64 uuid = 1;
+  //请求上传的数据量，单位 字节
+  uint32 len = 2;
+  //请求上传的文件偏移，单位 字节
+  uint32 offset = 3;
+}
+
+message File {
+  //文件状态，0：正常，1：文件打开或读失败，2：文件不存在
+  uint32 status = 1;
+  //文件数据
+  /**
+
+| file header | data description | data    | ...  |
+| :---------- | :--------------- | :------ | :--- |
+| 12 bytes    | 36 bytes         | n bytes | ...  |
+
+
+
+ | 字段名称  | 字节数 bytes | 说明                                                 |
+| :-------- | :----------- | :------------------------------------------------- |
+| crc32     | 4            | 文件的 crc32 值, 对 crc32 之后的所有数据进行计算得到    |
+| file type | 4            | 文件类型                                            |
+| file size | 4            | 文件大小，单位 字节                                  |
+   */
+  bytes file_data = 2;
+}
+
+
+
+message FileStatusTable {
+  uint64 uuid = 1;
+  //文件大小，单位 字节
+  uint32 file_size = 2;
+  //删除的结果状态，1 ： 删除成功，2 ： 删除失败
+  uint32 status = 3;
+}
+
+message FileStatusSum {
+  //删除的状态表
+  repeated FileStatusTable file_status_table = 1;
+}
+
+/*
+
+运动数据文件的data description
+| 字段名称          | 字节数 bytes | 说明                                             |
+| :---------------- | :----------- | :----------------------------------------------- |
+| exercise type     | 4            | 运动类型，参见 [运动类型说明](#421-运动类型说明) |
+| exercise duration | 4            | 运动时长，单位 秒                                |
+| start utc         | 4            | 运动开始 utc                                     |
+| end utc           | 4            | 运动结束 utc                                     |
+| total mileage     | 4            | 总里程，单位  米                                 |
+| total steps       | 4            | 总步数                                           |
+| total calories    | 4            | 卡路里                                           |
+| mileage           | 2            | 单圈长度，单位 米 (仅游泳类型有效)               |
+| trips num         | 2            | 游泳圈数 (仅游泳类型有效)                        |
+| count             | 4            | 个数 (仅类型有效)                                |
+| temp              | 24           | 保留                                             |
+
+ */
+
+/*
+0x01 gps 年历文件
+0x02 bd 年历文件
+0x03 glonass 年历文件
+0x04 gps 星历文件
+0x05 bd 星历文件
+0x06 glonass 星历文件
+0x07 表盘文件
+
+ */
+//下发文件头
+message FileHead {
+  bytes file_head_data = 1;
+}
+
+message FileHeadRsp {
+  //文件uuid
+  uint64 uuid = 1;
+  //1 ：文件头 crc 错误，2 ：不需要下发文件数据，3 ： 需要下发文件数据
+  uint32 file_status = 2;
+}
+
+//下发文件数据
+message FileData {
+  //下发的文件uuid
+  uint64 uuid = 1;
+  //下发的文件数据相对于文件开始处的偏移
+  uint32 offset = 2;
+  //本段文件数据的 crc32 值
+  uint32 crc = 3;
+  //本段文件数据，最大 2048 字节
+  bytes file_data = 4;
+}
+
+message FileDataRsp {
+  //期望的下一段文件数据偏移，如果此偏移与下发的偏移一致，则说明下发的数据 crc 错误或写入错误；如果此偏移超过文件大小，则说明文件下发完毕
+  uint32 file_offset = 1;
+}
+
+message FileVerifyReq {
+  uint64 uuid = 1;
+}
+
+
+//下发文件效验
+message FileVerifyRsp {
+  //文件校验结果，1 ： 校验成功， 2 ： 校验失败
+  uint32 file_verify_result = 1;
+}
+
+//删除制定的一个文件
+message DelOneFile {
+  uint32 type = 1;
+  uint64 uuid = 2;
+}
+
+message DelOneFileStatus {
+  uint32 status = 1;
+}

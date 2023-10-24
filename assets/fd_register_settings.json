@@ -1,0 +1,275 @@
+{
+  "inExperiment": true,
+  "jumpDesc": "我有非常丰富的运动经验，直接使用 >>>",
+  "settingList": [
+    {
+      "type": "height",
+      "headline": "身高",
+      "title": "获取更精确的热量消耗",
+      "desc": "身高体重不同，热量消耗也有所不同哦，完善个人信息，运动后可获取更精确的运动消耗",
+      "subTitle": "身高"
+    },
+    {
+      "type": "weight",
+      "headline": "体重",
+      "title": "获取更精确的热量消耗",
+      "desc": "身高体重不同，热量消耗也有所不同哦，完善个人信息，运动后可获取更精确的运动消耗",
+      "subTitle": "体重"
+    },
+    {
+      "type": "gender",
+      "headline": "性别",
+      "title": "更进一步了解你的情况",
+      "desc": "针对男/女及不同年龄段的训练方法有所差异，完善个人信息，更科学地获取运动指导",
+      "subTitle": "性别",
+      "extra": "每半年只能修改一次"
+    },
+    {
+      "type": "birthday",
+      "headline": "年龄",
+      "title": "更进一步了解你的情况",
+      "desc": "针对男/女及不同年龄段的训练方法有所差异，完善个人信息，更科学地获取运动指导",
+      "subTitle": "年龄"
+    },
+    {
+      "type": "target",
+      "headline": "目标",
+      "title": "选择更符合你的目标，并更快实现它",
+      "targetList": [
+        {
+          "name": "全身 / 局部变瘦",
+          "value": "reducedFat",
+          "show": "减脂",
+          "jumpSubTarget": false,
+          "subTargetTitle": "你想改善哪个部位",
+          "subTargetHeadline": "改善部位"
+        },
+        {
+          "name": "增肌塑形，提升线条",
+          "value": "muscleGain",
+          "show": "增肌/塑形",
+          "jumpSubTarget": false,
+          "subTargetTitle": "你想改善哪个部位",
+          "subTargetHeadline": "改善部位",
+          "genderMap": {
+            "F": "塑形",
+            "M": "增肌"
+          }
+        },
+        {
+          "name": "保持良好的个人状态",
+          "value": "keepHealthy",
+          "show": "良好状态",
+          "jumpSubTarget": false,
+          "subTargetTitle": "你喜欢的运动类型是",
+          "subTargetHeadline": "运动类型"
+        },
+        {
+          "name": "没想好，随便动动",
+          "value": "moveCasually",
+          "show": "随便动动",
+          "jumpSubTarget": false,
+          "subTargetTitle": "你喜欢的运动类型是",
+          "subTargetHeadline": "运动类型"
+        },
+        {
+          "name": "提高体育测试成绩",
+          "value": "physicalTest",
+          "show": "体育测试",
+          "jumpSubTarget": false,
+          "subTargetTitle": "你喜欢的运动类型是",
+          "subTargetHeadline": "运动类型"
+        }
+      ]
+    },
+    {
+      "type": "subTarget",
+      "subTargetMap": {
+        "reducedFat": [
+          {
+            "name": "全身减脂",
+            "value": "bodyReducedFat",
+            "show": "全身"
+          },
+          {
+            "name": "瘦胸/瘦背",
+            "value": "chestBackReducedFat",
+            "show": "胸背"
+          },
+          {
+            "name": "瘦手臂",
+            "value": "armReducedFat",
+            "show": "手臂"
+          },
+          {
+            "name": "瘦肚子",
+            "value": "bellyReducedFat",
+            "show": "肚子"
+          },
+          {
+            "name": "瘦腿",
+            "value": "legReducedFat",
+            "show": "腿"
+          },
+          {
+            "name": "暂无",
+            "value": "none"
+          }
+        ],
+        "muscleGain": [
+          {
+            "name": "全身塑形",
+            "value": "bodyMuscleTraining",
+            "show": "全身"
+          },
+          {
+            "name": "胸背",
+            "value": "chestBackMuscleTraining"
+          },
+          {
+            "name": "肩臂",
+            "value": "shoulderArmMuscleTraining"
+          },
+          {
+            "name": "腰腹",
+            "value": "waistAbdomenMuscleTraining"
+          },
+          {
+            "name": "臀腿",
+            "value": "hipLegMuscleTraining"
+          },
+          {
+            "name": "暂无",
+            "value": "none"
+          }
+        ],
+        "keepHealthy": [
+          {
+            "name": "跑步",
+            "value": "running"
+          },
+          {
+            "name": "行走",
+            "value": "walk"
+          },
+          {
+            "name": "骑行",
+            "value": "cycling"
+          },
+          {
+            "name": "瑜伽",
+            "value": "yoga"
+          },
+          {
+            "name": "助眠冥想",
+            "value": "meditation"
+          },
+          {
+            "name": "暂无",
+            "value": "none"
+          }
+        ],
+        "moveCasually": [
+          {
+            "name": "跑步",
+            "value": "running"
+          },
+          {
+            "name": "行走",
+            "value": "walk"
+          },
+          {
+            "name": "骑行",
+            "value": "cycling"
+          },
+          {
+            "name": "瑜伽",
+            "value": "yoga"
+          },
+          {
+            "name": "助眠冥想",
+            "value": "meditation"
+          },
+          {
+            "name": "暂无",
+            "value": "none"
+          }
+        ],
+        "physicalTest": [
+          {
+            "name": "跑步",
+            "value": "running"
+          },
+          {
+            "name": "行走",
+            "value": "walk"
+          },
+          {
+            "name": "骑行",
+            "value": "cycling"
+          },
+          {
+            "name": "瑜伽",
+            "value": "yoga"
+          },
+          {
+            "name": "助眠冥想",
+            "value": "meditation"
+          },
+          {
+            "name": "暂无",
+            "value": "none"
+          }
+        ]
+      }
+    },
+    {
+      "type": "preference",
+      "title": "选择一些你感兴趣的内容吧",
+      "preferenceMap": {
+        "F": [
+          "床上练",
+          "零噪音",
+          "手腕友好",
+          "无波比",
+          "无俯卧撑",
+          "无深蹲",
+          "改善失眠",
+          "提升精力",
+          "小场地",
+          "腰部友好",
+          "全程站立",
+          "动感配乐",
+          "音乐踩点",
+          "瘦腿",
+          "直角肩",
+          "开合跳",
+          "深蹲"
+        ],
+        "M": [
+          "零噪音",
+          "手腕友好",
+          "无波比",
+          "无俯卧撑",
+          "无深蹲",
+          "小场地",
+          "改善失眠",
+          "提升精力",
+          "无跳跃",
+          "低噪音",
+          "全程站立",
+          "动感配乐",
+          "音乐踩点",
+          "练腿",
+          "肩颈",
+          "直角肩",
+          "卷腹"
+        ]
+      }
+    },
+    {
+      "type": "calendar",
+      "title": "提醒自己定时运动吧！"
+    }
+  ]
+}

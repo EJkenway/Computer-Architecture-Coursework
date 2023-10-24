@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.page.view.TimelineContentView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.ColorSwipeRefreshLayout android:id="@id/refreshLayout" android:background="@color/snow_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.gotokeep.keep.commonui.widget.ColorSwipeRefreshLayout>
+    <include android:id="@id/viewServerError" android:visibility="invisible" layout="@layout/su_widget_server_error" />
+    <com.gotokeep.keep.commonui.widget.AsyncViewStub android:id="@id/viewEmptyContentStub" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:view_stub_layout="@layout/su_layout_timeline_empty_view" />
+    <com.gotokeep.keep.commonui.widget.AsyncViewStub android:id="@id/preloadViewStub" android:layout_width="fill_parent" android:layout_height="fill_parent" app:view_stub_layout="@layout/su_layout_timeline_perload" />
+</com.gotokeep.keep.su_core.timeline.mvp.page.view.TimelineContentView>

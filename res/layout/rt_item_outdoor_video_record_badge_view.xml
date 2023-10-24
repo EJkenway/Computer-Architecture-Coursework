@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.video.view.OutdoorVideoRecordBadgeItemView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgBadge" android:layout_width="140.0dip" android:layout_height="140.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/textBadge" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/vapStar" />
+    <com.tencent.qgame.animplayer.AnimView android:id="@id/vapStar" android:layout_width="186.0dip" android:layout_height="186.0dip" app:layout_constraintBottom_toBottomOf="@id/imgBadge" app:layout_constraintEnd_toEndOf="@id/imgBadge" app:layout_constraintStart_toStartOf="@id/imgBadge" app:layout_constraintTop_toTopOf="@id/imgBadge" app:layout_constraintVertical_chainStyle="packed" />
+</com.gotokeep.keep.rt.business.video.view.OutdoorVideoRecordBadgeItemView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/imgIcon" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginTop="200.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:lottie_autoPlay="true" app:lottie_fileName="lottie/kt_loading.json" app:lottie_loop="true" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="48.0sp" android:textColor="@color/white" android:id="@id/tvProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="145.0dip" android:layout_below="@id/imgIcon" android:layout_centerHorizontal="true" app:keepFont="font/KeepDisplay-Bold.otf" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_percent" android:layout_alignBaseline="@id/tvProgress" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/tvProgress" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/kt_puncheur_log_fetching" android:layout_below="@id/tvProgress" android:layout_centerHorizontal="true" />
+</RelativeLayout>

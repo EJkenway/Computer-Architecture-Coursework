@@ -1,0 +1,50 @@
+.class public final Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin$h;
+.super Ljava/lang/Object;
+.source "ActionGuidancePlugin.kt"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin;->processSingleSeatShowHideWidget(J)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin;
+
+
+# direct methods
+.method public constructor <init>(Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin$h;->g:Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin$h;->g:Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin;
+
+    invoke-static {v0}, Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin;->access$getGuidancePlayPoint(Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin;)J
+
+    move-result-wide v1
+
+    invoke-static {v0, v1, v2}, Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin;->access$showBoneLabel(Lcom/gotokeep/keep/wt/plugin/actionguidance/ActionGuidancePlugin;J)V
+
+    return-void
+.end method

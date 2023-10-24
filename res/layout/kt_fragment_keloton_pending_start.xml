@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="34.0dip" android:src="@drawable/back" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/menu" android:padding="10.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_setting_filled" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/v_tip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_pending_start_top_margin">
+        <TextView android:textSize="28.0sp" android:textColor="@color/gray_dd" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/kt_keloton_run_type_free" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/gray_dd_40" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="54.0dip" android:text="@string/kt_keloton_press_start" />
+        <RelativeLayout android:id="@id/buddies" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="42.0dip">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/buddy_left" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="-10.0dip" android:layout_toLeftOf="@id/buddy_center" />
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/buddy_right" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="-10.0dip" android:layout_toRightOf="@id/buddy_center" />
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/buddy_center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerHorizontal="true" app:border_color="@color/green" app:border_width="2.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/gray_dd" android:background="@drawable/kt_bg_route_buddies" android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/kt_keloton_route_run_together" android:layout_below="@id/buddy_center" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="272.0dip" android:layout_height="592.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/kt_keloton_pending_start" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_dd_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/kt_keepkit_name" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

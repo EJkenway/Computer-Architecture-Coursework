@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kl.business.keeplive.detail.mvp.view.KLCourseStructureItemView android:background="@drawable/kl_bg_gray_fa_corners_4dp" android:layout_width="106.0dip" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:gravity="left" android:id="@id/textItemTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="1" android:fontFamily="sans-serif-medium" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textItemDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="@id/textItemTitle" app:layout_constraintTop_toBottomOf="@id/textItemTitle" />
+</com.gotokeep.keep.kl.business.keeplive.detail.mvp.view.KLCourseStructureItemView>

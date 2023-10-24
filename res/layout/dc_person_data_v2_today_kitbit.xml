@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataV2TodayKitbitView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/dc_bg_line_divider_transparent" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutObtainKitbit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" layout="@layout/dc_item_pd_v3_card_obtain_kitbit" />
+    <com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataV2TodayCardListView android:orientation="vertical" android:id="@id/layoutTodayCardList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+</com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataV2TodayKitbitView>

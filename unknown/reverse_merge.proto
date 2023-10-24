@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "ReverseMerge";
+
+message ReverseMergeInfo {
+    uint32 utc_last_sync = 1;
+    uint32 step_total = 2;
+    repeated uint32 step_hour = 3;
+    uint32 cal_aee = 4;
+    uint32 active_time = 5;
+}
+
+message ReverseMergeStatus {
+    uint32 status = 1;
+}

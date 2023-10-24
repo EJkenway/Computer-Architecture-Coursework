@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/layoutTitleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android_custom:add_status_bar_height="true" android_custom:background_color="@android:color/transparent" android_custom:layout_constraintLeft_toLeftOf="parent" android_custom:layout_constraintRight_toRightOf="parent" android_custom:layout_constraintTop_toTopOf="parent" android_custom:left_icon="@drawable/ic_line_arrow_left" android_custom:title="@string/kt_puncheur_settings" android_custom:title_color="@color/black" />
+    <ScrollView android:id="@id/scrollView" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layoutTitleBar">
+        <LinearLayout android:orientation="vertical" android:id="@id/details" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/settingTitleView" android:background="@color/white" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="24.0sp" android:typeface="normal" android:textColor="@color/gray_33" android:id="@id/deviceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/kt_kibra_ble_s1_name" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/connectingView" android:background="@drawable/kt_bg_50dp_solid_0a000000" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="8.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/deviceName" android:layout_alignLeft="@id/deviceName" android:paddingVertical="2.0dip">
+                    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieConnecting" android:layout_width="16.0dip" android:layout_height="16.0dip" android_custom:lottie_autoPlay="true" android_custom:lottie_fileName="lottie/kt_ble_connecting.json" android_custom:lottie_loop="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/black_38" android:id="@id/tvConnecting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_connecting_and_standing" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/layoutConnectedS1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/deviceName" android:layout_alignStart="@id/deviceName">
+                    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kibra_setting_already_binded" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/layoutConnected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/deviceName" android:layout_alignStart="@id/deviceName">
+                    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:background="@drawable/kt_bg_50dp_solid_0a000000" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="8.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="2.0dip">
+                        <ImageView android:id="@id/ivConnected" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/kt_ic_bluetooth_connected" />
+                        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black_38" android:id="@id/tvConnected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_connected" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <com.gotokeep.keep.kt.business.kitbit.widget.BatteryView android:id="@id/batteryViewKibra" android:layout_width="@dimen/dimen_16dp" android:layout_height="9.0dip" android:layout_marginStart="8.0dip" />
+                    <TextView android:textSize="12.0sp" android:id="@id/tvBatteryValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/disConnectImage" android:background="@drawable/kt_bg_50dp_solid_0a000000" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="8.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/deviceName" android:layout_alignLeft="@id/deviceName" android:paddingVertical="2.0dip">
+                    <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/kt_ic_bluetooth_disconnected" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/black_38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kibra_connect_state_disconnected_comma" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff24c789" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kibra_connect_state_disconnected_help" />
+                </LinearLayout>
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/deviceImage" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginRight="35.0dip" android:src="@drawable/kt_bg_kibra_green" android:scaleType="centerCrop" android:layout_alignTop="@id/deviceName" android:layout_alignParentRight="true" />
+                <View android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_below="@id/deviceImage" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/addScaleArea" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginTop="12.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_kibra_setting_add_scale" android:layout_centerVertical="true" />
+                <ImageView android:padding="2.0dip" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/kt_ic_setting_add" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/changeWifi" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginTop="12.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:id="@id/tvChangeWifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_change_wifi" android:layout_centerVertical="true" />
+                <TextView android:textSize="9.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvWaitOptimized" android:background="@drawable/kt_bg_8dp_solid_ff666f" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="16.0dip" android:layout_marginLeft="13.0dip" android:text="@string/kt_net_config_wait_optimized" android:layout_toRightOf="@id/tvChangeWifi" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:gravity="center_vertical" android:id="@id/tvWifiConnectStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:text="@string/kt_device_status_disconnect" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View style="@style/KtSplitLine" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/layoutLightingWeight" android_custom:mainText="@string/kt_kibra_setting_light_weight" style="@style/SettingSingleItemWithClick" />
+            <View style="@style/KtSplitLine" />
+            <RelativeLayout android:id="@id/weightUnitArea" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginTop="12.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_kibra_setting_weight_unit" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:gravity="center_vertical" android:id="@id/weightUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:text="@string/kt_weight_unit_kg" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View style="@style/KtSplitLine" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/manageMember" android_custom:mainText="@string/kt_kibra_setting_member_manage" style="@style/SettingSingleItemWithClick" />
+            <View style="@style/KtSplitLine" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/pushStatus" android:background="@color/white" android:visibility="visible" android_custom:mainText="@string/kt_kibra_setting_push" style="@style/SettingItemSwitch" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/newUserGuide" android:visibility="gone" android:layout_marginTop="12.0dip" android_custom:mainText="@string/kt_new_guide" style="@style/SettingSingleItemWithClick" />
+            <View style="@style/KtSplitLine" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/useGuidance" android:layout_marginTop="12.0dip" android_custom:mainText="操作指南" style="@style/SettingSingleItemWithClick" />
+            <View style="@style/KtSplitLine" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/helpCenter" android_custom:mainText="@string/kt_common_use_help" style="@style/SettingSingleItemWithClick" />
+            <View android:id="@id/interval0" android:layout_width="fill_parent" android:layout_height="12.0dip" android:alpha="1.0" />
+            <View android:id="@id/splitLine" android:visibility="gone" style="@style/KtSplitLine" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/manageUser" android_custom:mainText="@string/kt_kibra_binded_manage" style="@style/SettingSingleItemWithClick" />
+            <View style="@style/KtSplitLine" />
+            <RelativeLayout android:id="@id/firmwareArea" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="58.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_kitbit_upgrade" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:gravity="center_vertical" android:id="@id/tvFirmware" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View style="@style/KtSplitLine" />
+            <RelativeLayout android:id="@id/snNumberArea" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="58.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_puncheur_settings_sn" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:gravity="center_vertical" android:id="@id/tvSnNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/interval1" android:layout_width="fill_parent" android:layout_height="12.0dip" android:alpha="1.0" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/viewPrivacyCheck" android:layout_marginBottom="@dimen/common_divide_12dp" android_custom:mainText="@string/kt_agreements_and_privacy" style="@style/SettingSingleItemWithClick" />
+            <include layout="@layout/kt_view_kitbit_setting_unbind" />
+            <View android:id="@id/interval2" android:layout_width="fill_parent" android:layout_height="12.0dip" android:alpha="1.0" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

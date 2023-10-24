@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_close" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:src="@drawable/icon_close_big_black" android:contentDescription="@string/close" android:layout_marginStart="16.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_view_heart_rate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="46.0dip" android:layout_marginTop="30.5dip" android:layout_below="@id/img_close" android:layout_marginStart="46.0dip" />
+</RelativeLayout>

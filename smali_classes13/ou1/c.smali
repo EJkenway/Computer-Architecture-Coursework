@@ -1,0 +1,105 @@
+.class public Lou1/c;
+.super Lou1/b;
+.source "ActivityHost.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lou1/b<",
+        "Landroid/app/Activity;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Landroid/app/Activity;)V
+    .locals 0
+    .param p1    # Landroid/app/Activity;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    .line 1
+    invoke-direct {p0, p1}, Lou1/b;-><init>(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public b([Ljava/lang/String;I)V
+    .locals 2
+    .param p1    # [Ljava/lang/String;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    if-eqz p1, :cond_1
+
+    .line 1
+    array-length v0, p1
+
+    const/4 v1, 0x1
+
+    if-lt v0, v1, :cond_1
+
+    if-gez p2, :cond_0
+
+    goto :goto_0
+
+    .line 2
+    :cond_0
+    iget-object v0, p0, Lou1/b;->a:Ljava/lang/Object;
+
+    check-cast v0, Landroid/app/Activity;
+
+    invoke-static {v0, p1, p2}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
+.method public c(Ljava/lang/String;)Z
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    .line 1
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 p1, 0x0
+
+    return p1
+
+    .line 2
+    :cond_0
+    iget-object v0, p0, Lou1/b;->a:Ljava/lang/Object;
+
+    check-cast v0, Landroid/app/Activity;
+
+    invoke-static {v0, p1}, Landroidx/core/app/ActivityCompat;->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public getActivity()Landroid/app/Activity;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lou1/b;->a:Ljava/lang/Object;
+
+    check-cast v0, Landroid/app/Activity;
+
+    return-object v0
+.end method

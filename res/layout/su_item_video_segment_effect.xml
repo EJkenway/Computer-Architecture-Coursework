@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.edit.imagecrop.video.mvp.view.VideoSegmentEffectItemView android:background="@color/black" android:focusable="true" android:clickable="true" android:layout_width="56.0dip" android:layout_height="82.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layoutCover" android:layout_width="56.0dip" android:layout_height="56.0dip">
+        <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imgCover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:circle_border_color="@color/white" />
+        <View android:id="@id/viewMask" android:background="@color/black_70" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gotokeep.keep.commonui.widget.CircleProgressIndicateView android:layout_gravity="center" android:id="@id/viewIndicate" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/imgDownload" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/su_ic_edit_download" android:contentDescription="@string/download" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="middle" android:gravity="center" android:id="@id/textName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" app:layout_constraintTop_toBottomOf="@id/layoutCover" />
+</com.gotokeep.keep.pb.edit.imagecrop.video.mvp.view.VideoSegmentEffectItemView>

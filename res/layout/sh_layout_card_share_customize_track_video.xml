@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@id/cardView" android:background="#ff3a3a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" app:cardPreventCornerOverlap="false">
+        <RelativeLayout android:id="@id/mapContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/errorImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/logoImage" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="28.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/sh_video_record_logo" android:alpha="0.5" android:layout_marginEnd="28.0dip" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/playView" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/ic_av_play" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loadingView" android:background="@drawable/rectangle_gray_round" android:padding="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ProgressBar android:id="@id/progressView" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/Base.Widget.AppCompat.ProgressBar" />
+        <TextView android:textSize="@dimen/font_size_16sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/loadingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minWidth="145.0dip" />
+        <TextView android:textSize="@dimen/font_size_16sp" android:gravity="center" android:id="@id/spaceView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" />
+    </LinearLayout>
+    <View android:id="@id/clickView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.share.customize.mvp.view.RadiusView android:id="@id/radiusLeftTop" android:layout_width="8.0dip" android:layout_height="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.share.customize.mvp.view.RadiusView android:id="@id/radiusRightTop" android:layout_width="8.0dip" android:layout_height="8.0dip" android:rotationY="180.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.share.customize.mvp.view.RadiusView android:id="@id/radiusLeftBottom" android:layout_width="8.0dip" android:layout_height="8.0dip" android:rotationX="180.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.gotokeep.keep.share.customize.mvp.view.RadiusView android:id="@id/radiusRightBottom" android:layout_width="8.0dip" android:layout_height="8.0dip" android:rotationX="180.0" android:rotationY="180.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,91 @@
+.class public final Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar$initViews$1;
+.super Ljava/lang/Object;
+.source "CaptureBeautySeekBar.kt"
+
+# interfaces
+.implements Landroid/widget/SeekBar$OnSeekBarChangeListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar;->b()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/a;
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar;
+
+
+# direct methods
+.method public constructor <init>(Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar$initViews$1;->a:Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onProgressChanged(Landroid/widget/SeekBar;IZ)V
+    .locals 1
+
+    const-string v0, "seekBar"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    if-eqz p3, :cond_0
+
+    .line 1
+    iget-object p1, p0, Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar$initViews$1;->a:Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar;
+
+    invoke-virtual {p1, p2}, Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar;->setLevel(I)V
+
+    .line 2
+    iget-object p1, p0, Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar$initViews$1;->a:Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar;
+
+    invoke-virtual {p1}, Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar;->getLevelChangeListener()Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar$a;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    invoke-interface {p1, p2}, Lcom/gotokeep/keep/pb/capture/widget/CaptureBeautySeekBar$a;->a(I)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public onStartTrackingTouch(Landroid/widget/SeekBar;)V
+    .locals 0
+
+    if-eqz p1, :cond_0
+
+    .line 1
+    invoke-virtual {p1}, Landroid/widget/SeekBar;->getProgress()I
+
+    :cond_0
+    return-void
+.end method
+
+.method public onStopTrackingTouch(Landroid/widget/SeekBar;)V
+    .locals 0
+
+    return-void
+.end method

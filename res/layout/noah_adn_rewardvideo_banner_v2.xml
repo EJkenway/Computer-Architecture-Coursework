@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.noah.adn.huichuan.view.ui.widget.HCRoundedNetImageView android:layout_gravity="center|left" android:id="@id/noah_hc_app_logo" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center|left" android:id="@id/noah_hc_ad_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/noah_hc_ad_desc" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="2" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/noah_hc_banner_cta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip">
+            <ProgressBar android:layout_gravity="center" android:id="@id/noah_hc_progressbar" android:layout_width="fill_parent" android:layout_height="40.0dip" android:max="100" android:progress="100" android:progressDrawable="@drawable/noah_hc_download_progressbar_bg" style="?android:progressBarStyleHorizontal" />
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/noah_hc_download_tips" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/noah_adn_btn_download" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

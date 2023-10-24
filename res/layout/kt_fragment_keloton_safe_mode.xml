@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/mode_child" layout="@layout/kt_item_keloton_safe_mode" />
+    <include android:id="@id/mode_low" layout="@layout/kt_item_keloton_safe_mode" />
+    <include android:id="@id/mode_normal" layout="@layout/kt_item_keloton_safe_mode" />
+    <include android:id="@id/mode_full" layout="@layout/kt_item_keloton_safe_mode" />
+</LinearLayout>

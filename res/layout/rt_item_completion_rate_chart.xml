@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryCompletionRateChartView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.widget.outdoorchart.OutdoorChartView android:id="@id/chart_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="140.0dip" />
+    <include android:visibility="gone" layout="@layout/rt_layout_chart_headline" />
+    <TextView android:id="@id/text_tip" android:visibility="gone" style="@style/RtSummaryCardViewTip" />
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryCompletionRateChartView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorScreenLockTargetDataView android:orientation="horizontal" android:id="@id/view_lock_data_target" android:layout_width="fill_parent" android:layout_height="129.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="33.0sp" android:textColor="@color/rt_training_text_main" android:id="@id/text_left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/rt_training_text_light" android:id="@id/text_left_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/rt_pace" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.1">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="33.0sp" android:textColor="@color/rt_training_text_main" android:id="@id/text_middle_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/rt_training_text_light" android:id="@id/text_middle_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/rt_total_time" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="33.0sp" android:textColor="@color/rt_training_text_main" android:id="@id/text_right_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/rt_training_text_light" android:id="@id/text_right_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/rt_kilo_cal" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorScreenLockTargetDataView>

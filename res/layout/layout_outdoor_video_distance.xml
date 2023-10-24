@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="56.0sp" android:textColor="@color/white" android:gravity="bottom" android:id="@id/text_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ShadowStyle" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/text_distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km" android:layout_alignBaseline="@id/text_distance" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/text_distance" style="@style/ShadowStyle" />
+    <ImageView android:id="@id/img_train_type" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/outdoor_video_running" android:contentDescription="@string/running" android:layout_toEndOf="@id/text_distance" android:layout_alignStart="@id/text_distance_unit" />
+</RelativeLayout>

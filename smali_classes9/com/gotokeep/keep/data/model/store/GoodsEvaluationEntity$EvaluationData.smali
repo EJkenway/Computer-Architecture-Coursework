@@ -1,0 +1,118 @@
+.class public Lcom/gotokeep/keep/data/model/store/GoodsEvaluationEntity$EvaluationData;
+.super Ljava/lang/Object;
+.source "GoodsEvaluationEntity.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/gotokeep/keep/data/model/store/GoodsEvaluationEntity;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "EvaluationData"
+.end annotation
+
+
+# instance fields
+.field private authorAvatar:Ljava/lang/String;
+
+.field private authorName:Ljava/lang/String;
+
+.field private choosed:I
+
+.field private id:Ljava/lang/String;
+
+.field private introduce:Ljava/lang/String;
+
+.field private photo:Ljava/lang/String;
+
+.field private productId:Ljava/lang/String;
+
+.field private productName:Ljava/lang/String;
+
+.field private readCount:I
+
+.field private recordId:Ljava/lang/String;
+
+.field private recordName:Ljava/lang/String;
+
+.field private schema:Ljava/lang/String;
+
+.field private status:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/store/GoodsEvaluationEntity$EvaluationData;->authorAvatar:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public b()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/store/GoodsEvaluationEntity$EvaluationData;->authorName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public c()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/store/GoodsEvaluationEntity$EvaluationData;->introduce:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public d()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/store/GoodsEvaluationEntity$EvaluationData;->photo:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public e()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/gotokeep/keep/data/model/store/GoodsEvaluationEntity$EvaluationData;->readCount:I
+
+    return v0
+.end method
+
+.method public f()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/store/GoodsEvaluationEntity$EvaluationData;->recordName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public g()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/store/GoodsEvaluationEntity$EvaluationData;->schema:Ljava/lang/String;
+
+    return-object v0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.TrainingLoadStatsView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/gray_99" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/Style_14_Medium" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="42.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/textValue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="1" />
+    <TextView android:textColor="@color/gray_99" android:id="@id/textDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" style="@style/Style_12_Medium" />
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.TrainingLoadStatsView>

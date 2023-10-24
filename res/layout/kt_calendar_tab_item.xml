@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="28.0dip" android:layout_height="84.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="22.0dip">
+        <View android:id="@id/vDaySelected" android:background="@drawable/kt_calendar_tab_selected_bg" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/tvData" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/c_gray" android:gravity="center" android:id="@id/tvWeekData" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

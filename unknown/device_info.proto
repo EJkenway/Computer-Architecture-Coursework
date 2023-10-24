@@ -1,0 +1,26 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+
+message DeviceInfo {
+  //厂家名，字符串格式，，最大长度 16 字节
+  string manu_name = 1;
+  //mac 地址，字符串格式，如 “060504030201”，最大长度 16 字节
+  string mac = 2;
+  //设备 sn 号，字符串格式，最大长度 16 字节
+  string sn = 3;
+  //硬件版本号，字符串格式，最大长度 16 字节
+  string hd_version = 4;
+  //固件版本号，字符串格式，最大长度 16 字节
+  string fm_version = 5;
+  // 1 : 已被绑定 0 ：未被绑定
+  uint32 has_bind = 6;
+}
+
+message BatteryInfo {
+  //电池电压，单位 mv
+  uint32 voltage = 1;
+  //电池电量百分比，范围：0 -- 100
+  uint32 level = 2;
+  //电池温度，单位摄氏度
+  int32 temp = 3;
+}

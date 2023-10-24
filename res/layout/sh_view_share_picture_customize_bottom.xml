@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.share.picture.mvp.view.ShareCustomizeChannelScrollView android:id="@id/scrollViewChannel" android:paddingBottom="14.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:isSmallMode="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/layoutKeep" android:background="@drawable/bg_green_corner_50dp" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="45.0dip" android:layout_marginRight="45.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/scrollViewChannel">
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_camera_filled" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sh_share_to_keep_timeline" android:layout_marginStart="10.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

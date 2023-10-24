@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutScreening" android:background="@color/gray_22" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/te_layout_project_screen_search_device" />
+    <include layout="@layout/kl_layout_room_screening_control" />
+</androidx.constraintlayout.widget.ConstraintLayout>

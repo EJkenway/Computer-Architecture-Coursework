@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepGifImageView android:id="@id/eggImg" android:layout_width="90.0dip" android:layout_height="90.0dip" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/eggClose" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="32.0dip" android:src="@drawable/mo_ic_egg_close" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/eggImg" />
+</merge>

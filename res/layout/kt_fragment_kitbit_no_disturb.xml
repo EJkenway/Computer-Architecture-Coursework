@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/kt_layout_kitbit_setting_preview" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemSwitch" app:mainText="@string/kt_kitbit_night_no_disturb" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemStartTime" android:layout_marginTop="0.5dip" app:mainText="@string/start" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemEndTime" android:layout_marginTop="0.5dip" app:mainText="@string/kt_walkman_stop" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemNoonSwitch" android:layout_marginTop="12.0dip" app:mainText="@string/kt_kitbit_noon_no_disturb" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemNoonStartTime" android:layout_marginTop="0.5dip" app:mainText="@string/start" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemNoonEndTime" android:layout_marginTop="0.5dip" app:mainText="@string/kt_walkman_stop" style="@style/SettingSingleItemWithClick" />
+        <TextView android:layout_marginBottom="26.0dip" android:text="@string/kt_kitbit_no_disturb_tips" style="@style/KtSettingTips" />
+    </LinearLayout>
+</ScrollView>

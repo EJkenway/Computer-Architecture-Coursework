@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/actionBottomBg" android:background="@drawable/bg_corner_black10_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="90.0dip" app:layout_constraintBottom_toBottomOf="@id/editSpace" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.gotokeep.keep.share.customize.mvp.view.ShareCustomizeCardView android:id="@id/cardView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/cardSpace" android:layout_width="fill_parent" android:layout_height="408.0dip" app:layout_constraintBottom_toTopOf="@id/editSpace" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.5" app:layout_constraintVertical_chainStyle="packed" />
+    <FrameLayout android:id="@id/editSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/cardSpace">
+        <com.gotokeep.keep.share.customize.mvp.view.ShareEditBtnView android:id="@id/editBtn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gotokeep.keep.share.customize.mvp.view.ShareActionBtnView android:layout_gravity="center_horizontal" android:id="@id/actionBtn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.widget.LevelProgressCardView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/gray_dd" android:id="@id/distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_dd" android:id="@id/unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="km" android:layout_toRightOf="@id/distance" android:layout_alignBottom="@id/distance" />
+    <com.gotokeep.keep.kt.business.treadmill.widget.LevelProgressView android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="6.0dip" android:layout_below="@id/distance" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_dd_40" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/progress" android:layout_centerHorizontal="true" />
+</com.gotokeep.keep.kt.business.treadmill.widget.LevelProgressCardView>

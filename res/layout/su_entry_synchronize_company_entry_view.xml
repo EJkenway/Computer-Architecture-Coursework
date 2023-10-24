@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:id="@id/txtSyncCompany" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sync_company" android:drawablePadding="10.0dip" android:drawableStart="@drawable/pb_icon_company_entry_post" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imageSync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_info_entry_post" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/txtSyncCompany" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.view.KeepSwitchButton android:id="@id/btnSwitch" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/KeepSwitch" />
+</merge>

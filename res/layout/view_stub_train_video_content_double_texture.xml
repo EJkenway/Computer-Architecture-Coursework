@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/wrapper_video_in_training" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kplayer.KeepVideoView2 android:id="@id/mediaPlayerViewSecond" android:layout_width="fill_parent" android:layout_height="fill_parent" app:kvScaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.kplayer.KeepVideoView2 android:id="@id/mediaPlayerViewFirst" android:layout_width="fill_parent" android:layout_height="fill_parent" app:kvScaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>

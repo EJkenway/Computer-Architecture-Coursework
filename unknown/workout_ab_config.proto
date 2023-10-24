@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "WorkoutAb";
+
+message WorkoutAbConfig {
+    // 辅助运动中虚拟心率使能配置
+    uint32 virtual_hr_enable         = 1 ; // unite virtual hr enable setting
+    // 辅助运动中虚拟心率使能配置
+    uint32 aee_sync_enable           = 2 ; // unite aee sync enable setting
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "RawDataCollectPlan";
+
+message RawDataCollectPlanCmd{
+    uint32 cmd_set = 1;
+    uint32 loop_set = 2;
+    uint32 class_set = 3;
+    uint32 start_utc = 4;
+    uint32 end_utc = 5;
+}
+message RawDataCollectPlanStatus {
+    uint32 status = 1;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/coverView" android:layout_width="fill_parent" android:layout_height="125.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:scaleType="centerCrop" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/gray_33" android:ellipsize="none" android:id="@id/titleView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:singleLine="true" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/coverView" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/gray_66" android:ellipsize="none" android:id="@id/durationView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" android:singleLine="true" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/titleView" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/gray_99" android:id="@id/endTimeView" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/durationView" />
+</merge>

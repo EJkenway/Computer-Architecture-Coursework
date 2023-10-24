@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.xtool.mvp.view.OutdoorActivityCropMapView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/map_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.rt.widget.AnimationButtonView android:id="@id/btnCenter" android:layout_width="@dimen/outdoor_circle_button_size" android:layout_height="@dimen/outdoor_circle_button_size" android:src="@drawable/rt_ic_normal_map_location" android:scaleType="center" android:layout_above="@id/layout_bottom_card" android:layout_alignParentBottom="true" android:contentDescription="@string/rt_back_to_center" android:elevation="4.0dip" app:center_icon="@drawable/rt_ic_normal_map_location" />
+</com.gotokeep.keep.rt.business.xtool.mvp.view.OutdoorActivityCropMapView>

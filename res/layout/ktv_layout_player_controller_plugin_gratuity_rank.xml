@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/gratuityContributionContainer" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageCup" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ktv_icon_gratuity_contribution_cup" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffebebeb" android:id="@id/textContributeNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_50" android:shadowRadius="@integer/ktv_default_shadow_radius" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="@id/imageCup" app:layout_constraintStart_toEndOf="@id/imageCup" app:layout_constraintTop_toTopOf="@id/imageCup" />
+    <ImageView android:paddingTop="2.0dip" android:layout_width="@dimen/dimen_12dp" android:layout_height="@dimen/dimen_12dp" android:src="@drawable/ktv_icon_gratuity_contribution_right" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="@id/imageCup" app:layout_constraintStart_toEndOf="@id/textContributeNum" app:layout_constraintTop_toTopOf="@id/imageCup" />
+</androidx.constraintlayout.widget.ConstraintLayout>

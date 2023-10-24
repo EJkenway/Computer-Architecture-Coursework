@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noah.adn.huichuan.view.ui.widget.HCScrollFrameLayout android:orientation="vertical" android:id="@id/noah_webview_tag_scroll_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/noah_video_container" android:background="#ff123456" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/noah_webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.noah.adn.huichuan.view.ui.widget.HCScrollFrameLayout>

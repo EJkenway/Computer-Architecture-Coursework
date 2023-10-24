@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutBehaviorEx">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsingToolbarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/titleBar" layout="@layout/mo_store_title_center_layout" />
+                <ViewStub android:id="@id/banner" android:layout="@layout/mo_goods_list_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16dp" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginStart="@dimen/dimen_16dp" app:layout_collapseMode="none" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/panel_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="91.0dip" app:layout_collapseMode="none" />
+                <View android:id="@id/middle_line" android:background="@color/ef_color" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_collapseMode="pin" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/labelTableLayoutAb" android:paddingLeft="15.0dip" android:paddingTop="18.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="none" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/titlesBarLayout" android:layout_width="fill_parent" android:layout_height="57.0dip" app:layout_collapseMode="pin">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/purple" android:gravity="center" android:id="@id/product_title" android:paddingLeft="16.0dip" android:paddingRight="17.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mo_goods_title_goods" />
+                    <TextView android:textSize="15.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/order_share_title" android:paddingLeft="16.0dip" android:paddingRight="17.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mo_goods_title_share" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/productNum" android:paddingLeft="16.0dip" android:paddingRight="17.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                    <Space android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/courseSort" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" android:text="@string/mo_course_sort" android:drawableRight="@drawable/mo_arrow_down" android:drawablePadding="3.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/contentLL" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/content_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/net_error_root" android:layout="@layout/mo_view_net_error_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/panel_root_hover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="91.0dip" />
+        <View android:id="@id/middle_line_hover" android:background="@color/ef_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/titlesBarLayoutHover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/purple" android:gravity="center" android:id="@id/product_title_hover" android:paddingLeft="16.0dip" android:paddingRight="17.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mo_goods_title_goods" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/order_share_title_hover" android:paddingLeft="16.0dip" android:paddingRight="17.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mo_goods_title_share" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/productNumHover" android:paddingLeft="16.0dip" android:paddingRight="17.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <Space android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/courseSortHover" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" android:text="@string/mo_course_sort" android:drawableRight="@drawable/mo_arrow_down" android:drawablePadding="3.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

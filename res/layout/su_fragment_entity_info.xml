@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsingLayout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:collapsedTitleGravity="center_horizontal" app:collapsedTitleTextAppearance="@style/su_EntityInfoToolbarTextAppearance" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutHeader" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/layoutBanner" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="4:3" app:layout_constraintTop_toTopOf="parent" layout="@layout/su_view_entity_info_banner" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                    <include android:id="@id/toolbarContent" android:layout_width="fill_parent" android:layout_height="44.0dip" layout="@layout/su_view_entity_info_toolbar" />
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.gotokeep.keep.su.social.entityinfo.widget.EntityInfoPullRecyclerView android:id="@id/listInfo" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include android:id="@id/bottomButton" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/su_item_entity_info_bottom_button" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/skeletonView" android:layout="@layout/su_skeleton_entity_info" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

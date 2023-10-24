@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTopFenceView android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_top_dashboard_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.gotokeep.keep.rt.business.training.widget.FenceArcView android:id="@id/viewArc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignBottom="@id/viewArc">
+            <TextView android:textSize="14.0sp" android:textColor="@color/rt_training_text_light" android:id="@id/tvNoValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_no_heart_rate" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="@dimen/rt_text_size_training_top_target" android:textColor="@color/rt_training_text_main" android:id="@id/tvCurrentValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_dash_dash" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/layoutRecommend" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="@color/rt_training_text_light" android:id="@id/tvRecommend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_recommend_pace" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/sea_green" android:id="@id/tvRecommendValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTopFenceView>

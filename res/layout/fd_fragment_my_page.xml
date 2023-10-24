@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layoutWrapper" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewCourseTabBg" android:background="@drawable/fd_bg_gradient_fafafa_to_ffffff" android:layout_width="fill_parent" android:layout_height="285.0dip" android:layout_marginTop="240.0dip" />
+    <com.gotokeep.keep.commonui.widget.nestedrecyclerview.NestedParentRecyclerView android:id="@id/pullRecyclerView" android:background="@color/transparent" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/fdTitleBg" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:alpha="0.0" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/customTitleBar" app:background_color="@color/transparent" app:left_icon="@drawable/ic_menu_white" app:right_icon="@drawable/icon_message_filled" app:right_icon_clickable="true" app:right_remind_text_visibility="false" app:right_second_icon="@drawable/icon_scan_lined" app:right_second_icon_clickable="true" app:right_third_icon="@drawable/icon_setting_lined" app:right_third_icon_clickable="true" app:title="@string/me" app:title_color="@color/transparent" app:title_size="20.0sp" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.fd.business.mine.view.EggView android:id="@id/fdMyEgg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <include layout="@layout/fd_item_my_page_tab_course_content" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layoutEmpty" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/title_bar_height" />
+</RelativeLayout>

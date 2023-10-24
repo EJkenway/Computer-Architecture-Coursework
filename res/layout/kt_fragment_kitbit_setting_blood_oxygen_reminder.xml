@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/kt_layout_kitbit_setting_preview" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switch_blood_oxygen_reminder" android:layout_marginBottom="12.0dip" app:mainText="@string/kt_kitbit_setting_whole_day_blood_oxygen_monitor" style="@style/SettingSingleItemWithClick" />
+    <TextView android:layout_marginBottom="26.0dip" android:text="@string/kt_kitbit_setting_blood_oxygen_tips" style="@style/KtSettingTips" />
+</merge>

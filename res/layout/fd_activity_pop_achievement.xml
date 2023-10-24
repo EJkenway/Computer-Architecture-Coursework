@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white_80" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:add_status_bar_height="true" app:background_color="@color/main_color" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:title="徽章弹窗测试页面" style="@style/ItemCustomTitleBar" />
+    <TextView android:textSize="@dimen/font_size_18sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="以下条件二选一, 按顺序取数据哦" />
+    <EditText android:id="@id/edit_log" android:layout_height="@dimen/height_50dp" android:layout_marginTop="100.0dip" android:hint="输入trainingLogId" style="@style/SettingEditText" />
+    <EditText android:id="@id/edit_msg" android:layout_height="@dimen/height_50dp" android:layout_marginTop="10.0dip" android:hint="输入msgId(暂且认为是徽章id)" style="@style/SettingEditText" />
+    <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_action" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/register_general_margin" android:layout_marginTop="50.0dip" android:layout_marginRight="@dimen/register_general_margin" android:text="@string/submit" app:loadingButtonSize="large" app:loadingButtonStyle="styleDefault" />
+</LinearLayout>

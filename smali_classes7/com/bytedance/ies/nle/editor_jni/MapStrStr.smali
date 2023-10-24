@@ -1,0 +1,546 @@
+.class public Lcom/bytedance/ies/nle/editor_jni/MapStrStr;
+.super Ljava/util/AbstractMap;
+.source "MapStrStr.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/util/AbstractMap<",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public transient swigCMemOwn:Z
+
+.field private transient swigCPtr:J
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    .line 4
+    invoke-static {}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->new_MapStrStr__SWIG_0()J
+
+    move-result-wide v0
+
+    const/4 v2, 0x1
+
+    invoke-direct {p0, v0, v1, v2}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;-><init>(JZ)V
+
+    return-void
+.end method
+
+.method public constructor <init>(JZ)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/util/AbstractMap;-><init>()V
+
+    .line 2
+    iput-boolean p3, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCMemOwn:Z
+
+    .line 3
+    iput-wide p1, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/bytedance/ies/nle/editor_jni/MapStrStr;)V
+    .locals 2
+
+    .line 5
+    invoke-static {p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->getCPtr(Lcom/bytedance/ies/nle/editor_jni/MapStrStr;)J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1, p1}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->new_MapStrStr__SWIG_1(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;)J
+
+    move-result-wide v0
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, v0, v1, p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;-><init>(JZ)V
+
+    return-void
+.end method
+
+.method private begin()Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+    .locals 4
+
+    .line 1
+    new-instance v0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    iget-wide v1, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    invoke-static {v1, v2, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->MapStrStr_begin(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;)J
+
+    move-result-wide v1
+
+    const/4 v3, 0x1
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;-><init>(JZ)V
+
+    return-object v0
+.end method
+
+.method private containsImpl(Ljava/lang/String;)Z
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    invoke-static {v0, v1, p0, p1}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->MapStrStr_containsImpl(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;Ljava/lang/String;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method private end()Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+    .locals 4
+
+    .line 1
+    new-instance v0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    iget-wide v1, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    invoke-static {v1, v2, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->MapStrStr_end(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;)J
+
+    move-result-wide v1
+
+    const/4 v3, 0x1
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;-><init>(JZ)V
+
+    return-object v0
+.end method
+
+.method private find(Ljava/lang/String;)Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+    .locals 3
+
+    .line 1
+    new-instance v0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    iget-wide v1, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    invoke-static {v1, v2, p0, p1}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->MapStrStr_find(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;Ljava/lang/String;)J
+
+    move-result-wide v1
+
+    const/4 p1, 0x1
+
+    invoke-direct {v0, v1, v2, p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;-><init>(JZ)V
+
+    return-object v0
+.end method
+
+.method public static getCPtr(Lcom/bytedance/ies/nle/editor_jni/MapStrStr;)J
+    .locals 2
+
+    if-nez p0, :cond_0
+
+    const-wide/16 v0, 0x0
+
+    goto :goto_0
+
+    .line 1
+    :cond_0
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    :goto_0
+    return-wide v0
+.end method
+
+.method private putUnchecked(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    invoke-static {v0, v1, p0, p1, p2}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->MapStrStr_putUnchecked(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method private removeUnchecked(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)V
+    .locals 6
+
+    .line 1
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    invoke-static {p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->getCPtr(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)J
+
+    move-result-wide v3
+
+    move-object v2, p0
+
+    move-object v5, p1
+
+    invoke-static/range {v0 .. v5}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->MapStrStr_removeUnchecked(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;JLcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)V
+
+    return-void
+.end method
+
+.method private sizeImpl()I
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->MapStrStr_sizeImpl(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+
+# virtual methods
+.method public clear()V
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->MapStrStr_clear(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;)V
+
+    return-void
+.end method
+
+.method public containsKey(Ljava/lang/Object;)Z
+    .locals 1
+
+    .line 1
+    instance-of v0, p1, Ljava/lang/String;
+
+    if-nez v0, :cond_0
+
+    const/4 p1, 0x0
+
+    return p1
+
+    .line 2
+    :cond_0
+    check-cast p1, Ljava/lang/String;
+
+    invoke-direct {p0, p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->containsImpl(Ljava/lang/String;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public declared-synchronized delete()V
+    .locals 5
+
+    monitor-enter p0
+
+    .line 1
+    :try_start_0
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v4, v0, v2
+
+    if-eqz v4, :cond_1
+
+    .line 2
+    iget-boolean v4, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCMemOwn:Z
+
+    if-eqz v4, :cond_0
+
+    const/4 v4, 0x0
+
+    .line 3
+    iput-boolean v4, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCMemOwn:Z
+
+    .line 4
+    invoke-static {v0, v1}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->delete_MapStrStr(J)V
+
+    .line 5
+    :cond_0
+    iput-wide v2, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 6
+    :cond_1
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public entrySet()Ljava/util/Set;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "Ljava/util/Map$Entry<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Ljava/util/HashSet;
+
+    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+
+    .line 2
+    invoke-direct {p0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->begin()Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    move-result-object v1
+
+    .line 3
+    invoke-direct {p0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->end()Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    move-result-object v2
+
+    .line 4
+    :goto_0
+    invoke-static {v1, v2}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->access$000(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_0
+
+    .line 5
+    new-instance v3, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$1;
+
+    invoke-direct {v3, p0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$1;-><init>(Lcom/bytedance/ies/nle/editor_jni/MapStrStr;)V
+
+    .line 6
+    invoke-static {v3, v1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$1;->access$400(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$1;Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)Ljava/util/Map$Entry;
+
+    move-result-object v3
+
+    .line 7
+    invoke-interface {v0, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+
+    .line 8
+    invoke-static {v1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->access$500(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    move-result-object v1
+
+    goto :goto_0
+
+    :cond_0
+    return-object v0
+.end method
+
+.method public finalize()V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->delete()V
+
+    return-void
+.end method
+
+.method public bridge synthetic get(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->get(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public get(Ljava/lang/Object;)Ljava/lang/String;
+    .locals 2
+
+    .line 2
+    instance-of v0, p1, Ljava/lang/String;
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_0
+
+    return-object v1
+
+    .line 3
+    :cond_0
+    check-cast p1, Ljava/lang/String;
+
+    invoke-direct {p0, p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->find(Ljava/lang/String;)Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    move-result-object p1
+
+    .line 4
+    invoke-direct {p0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->end()Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->access$000(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 5
+    invoke-static {p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->access$100(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    :cond_1
+    return-object v1
+.end method
+
+.method public isEmpty()Z
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->MapStrStr_isEmpty(JLcom/bytedance/ies/nle/editor_jni/MapStrStr;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public bridge synthetic put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/lang/String;
+
+    check-cast p2, Ljava/lang/String;
+
+    invoke-virtual {p0, p1, p2}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->put(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public put(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    .line 2
+    invoke-direct {p0, p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->find(Ljava/lang/String;)Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    move-result-object v0
+
+    .line 3
+    invoke-direct {p0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->end()Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->access$000(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    .line 4
+    invoke-static {v0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->access$100(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 5
+    invoke-static {v0, p2}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->access$200(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;Ljava/lang/String;)V
+
+    return-object p1
+
+    .line 6
+    :cond_0
+    invoke-direct {p0, p1, p2}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->putUnchecked(Ljava/lang/String;Ljava/lang/String;)V
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public bridge synthetic remove(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->remove(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public remove(Ljava/lang/Object;)Ljava/lang/String;
+    .locals 2
+
+    .line 2
+    instance-of v0, p1, Ljava/lang/String;
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_0
+
+    return-object v1
+
+    .line 3
+    :cond_0
+    check-cast p1, Ljava/lang/String;
+
+    invoke-direct {p0, p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->find(Ljava/lang/String;)Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    move-result-object p1
+
+    .line 4
+    invoke-direct {p0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->end()Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->access$000(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 5
+    invoke-static {p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;->access$100(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 6
+    invoke-direct {p0, p1}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->removeUnchecked(Lcom/bytedance/ies/nle/editor_jni/MapStrStr$Iterator;)V
+
+    return-object v0
+
+    :cond_1
+    return-object v1
+.end method
+
+.method public size()I
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Lcom/bytedance/ies/nle/editor_jni/MapStrStr;->sizeImpl()I
+
+    move-result v0
+
+    return v0
+.end method

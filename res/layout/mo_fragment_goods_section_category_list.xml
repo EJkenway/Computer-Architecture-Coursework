@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutBehaviorEx">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsingToolbarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <com.gotokeep.keep.mo.business.store.mvp.view.GoodsSectionCategoryHearView android:id="@id/collapsingHeaderView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/contentLL" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:id="@id/webViewScroll" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true" />
+        </androidx.core.widget.NestedScrollView>
+        <FrameLayout android:id="@id/content_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/net_error_root" android:layout="@layout/mo_view_net_error_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.gotokeep.keep.mo.business.store.mvp.view.GoodsSectionCategoryHearView android:layout_gravity="top" android:id="@id/hoverHeaderView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:layout_gravity="end|bottom|center" android:id="@id/scrollTopView" android:background="@drawable/mo_icon_arrow_scroll_top" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

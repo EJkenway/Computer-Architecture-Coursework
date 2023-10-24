@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/view1" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/view2" app:layout_constraintStart_toStartOf="parent" layout="@layout/item_skeleton_calendar_single_view" />
+    <include android:id="@id/view2" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/view3" app:layout_constraintStart_toEndOf="@id/view1" layout="@layout/item_skeleton_calendar_single_view" />
+    <include android:id="@id/view3" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/view4" app:layout_constraintStart_toEndOf="@id/view2" layout="@layout/item_skeleton_calendar_single_view" />
+    <include android:id="@id/view4" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/view5" app:layout_constraintStart_toEndOf="@id/view3" layout="@layout/item_skeleton_calendar_single_view" />
+    <include android:id="@id/view5" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/view6" app:layout_constraintStart_toEndOf="@id/view4" layout="@layout/item_skeleton_calendar_single_view" />
+    <include android:id="@id/view6" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/view7" app:layout_constraintStart_toEndOf="@id/view5" layout="@layout/item_skeleton_calendar_single_view" />
+    <include android:id="@id/view7" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/view6" layout="@layout/item_skeleton_calendar_single_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

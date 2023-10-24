@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.theme.widget.MapStyleSkinView android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.rt.widget.AnimationButtonView android:id="@id/layout_close_style_picker" android:visibility="gone" android:layout_width="@dimen/outdoor_circle_button_size" android:layout_height="@dimen/outdoor_circle_button_size" android:scaleType="centerInside" android:layout_alignParentTop="true" android:contentDescription="@string/close" android:layout_alignParentStart="true" android:elevation="@dimen/summary_card_elevation" app:center_icon="@drawable/rt_ic_close" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutBottomView" android:background="@drawable/rt_bg_music_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="@dimen/summary_card_elevation">
+        <View android:layout_gravity="center_horizontal" android:background="@drawable/bg_graydd_corner_2dp" android:layout_width="24.0dip" android:layout_height="4.0dip" android:layout_marginTop="6.0dip" />
+        <androidx.core.widget.NestedScrollView android:id="@id/layoutContainer" android:layout_width="fill_parent" android:layout_height="@dimen/rt_map_style_content_view_height">
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/layout_km_points" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" android:layout_alignParentEnd="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <ImageView android:id="@id/img_switch" android:layout_width="25.0dip" android:layout_height="15.0dip" android:src="@drawable/summary_brief_switch_off" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_14dp" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="@dimen/font_size_12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_km_points" android:layout_centerVertical="true" android:layout_marginEnd="5.0dip" android:layout_toStartOf="@id/img_switch" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/layoutMapStyleTitle" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@string/rt_edit_map" android:layout_marginStart="14.0dip" />
+                </RelativeLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_map_style" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutMapStyleTitle" />
+                <LinearLayout android:orientation="vertical" android:id="@id/layoutMapSkin" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/recycler_view_map_style">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:gravity="center" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="18.0dip" android:text="@string/rt_custom_skin" android:layout_marginStart="14.0dip" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_skin" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/layoutTrackSkin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutMapSkin">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:gravity="center" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="18.0dip" android:text="@string/rt_track_skin" android:layout_marginStart="14.0dip" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvTrackSkins" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/layoutCredit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutTrackSkin">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:gravity="center" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="18.0dip" android:text="@string/rt_video_credit" android:layout_marginStart="14.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/layoutCreditItems" android:layout_width="fill_parent" android:layout_height="100.0dip">
+                        <include android:id="@id/itemCreditDefault" layout="@layout/rt_item_summary_skin_style" />
+                        <include android:id="@id/itemCreditOff" layout="@layout/rt_item_summary_skin_style" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+        <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/text_confirm" android:background="@color/light_green" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="12.0dip" android:text="@string/confirm" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" app:kStyle="large" app:kText="@string/confirm" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.theme.widget.MapStyleSkinView>

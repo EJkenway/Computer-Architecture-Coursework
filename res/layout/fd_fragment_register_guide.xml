@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.account.guide.mvp.view.RegisterGuideView android:id="@id/registerGuideView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.view.LinearGradientBackgroundView android:id="@id/viewBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgLeft" android:layout_width="221.0dip" android:layout_height="273.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgRight" android:layout_width="278.0dip" android:layout_height="475.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/listOptions" android:paddingTop="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="60.0dip" android:paddingStart="28.0dip" android:paddingEnd="28.0dip" app:layout_constraintBottom_toTopOf="@id/imgAvatar" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgAvatar" android:layout_width="100.0dip" android:layout_height="74.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toTopOf="@id/layoutContainer" app:layout_constraintStart_toStartOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutContainer" android:background="@drawable/bg_white_top_corner_20dp" android:layout_width="fill_parent" android:layout_height="434.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <FrameLayout android:id="@id/layoutContent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:animateLayoutChanges="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:layout_gravity="center" android:id="@id/textToReminder" android:paddingLeft="30.0dip" android:paddingTop="14.0dip" android:paddingRight="30.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fd_experienced_to_use_directly" />
+    </LinearLayout>
+</com.gotokeep.keep.fd.business.account.guide.mvp.view.RegisterGuideView>

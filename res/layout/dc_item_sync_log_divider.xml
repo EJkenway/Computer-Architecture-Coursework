@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.logsync.mvp.view.SyncLogDividerView android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

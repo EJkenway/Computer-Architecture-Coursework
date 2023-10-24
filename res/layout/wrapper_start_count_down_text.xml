@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_180dp" android:textStyle="bold" android:textColor="@color/light_green" android:id="@id/text_count_down_in_training" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CountDownShadowStyle" />
+</merge>

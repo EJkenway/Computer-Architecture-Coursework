@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.uilib.CircleImageView android:layout_gravity="center_vertical" android:id="@id/img_route_master_avatar" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/person_45_45" app:circle_border_color="@color/purple" app:circle_border_width="2.0dip" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/img_route_master_crown" android:visibility="visible" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="-8.0dip" android:layout_marginTop="-22.0dip" android:src="@drawable/icon_road_master" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/text_route_master_name" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white_50" android:id="@id/text_leader_since" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/rt_route_master_since" android:layout_below="@id/text_route_master_name" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/text_in_place" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_in_place" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/text_route_master_in_place" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/text_in_place_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day_unit" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

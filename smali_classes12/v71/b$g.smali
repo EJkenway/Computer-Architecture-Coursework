@@ -1,0 +1,51 @@
+.class public final Lv71/b$g;
+.super Lv71/b;
+.source "KsBindData.kt"
+
+
+# annotations
+.annotation build Landroidx/compose/runtime/internal/StabilityInferred;
+    parameters = 0x0
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lv71/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "g"
+.end annotation
+
+
+# static fields
+.field public static final c:Lv71/b$g;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lv71/b$g;
+
+    invoke-direct {v0}, Lv71/b$g;-><init>()V
+
+    sput-object v0, Lv71/b$g;->c:Lv71/b$g;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 3
+
+    const/4 v0, 0x1
+
+    const-string v1, "init complete"
+
+    const/4 v2, 0x0
+
+    .line 1
+    invoke-direct {p0, v0, v1, v2}, Lv71/b;-><init>(ZLjava/lang/String;Lij3/h;)V
+
+    return-void
+.end method

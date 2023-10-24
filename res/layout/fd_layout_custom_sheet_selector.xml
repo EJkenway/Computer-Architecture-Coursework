@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textColor="@drawable/fd_state_custom_text_color" android:gravity="center" android:id="@id/txtPurchase" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/fd_has_purchased" />
+        <View android:id="@id/purchaseDivider" android:background="@drawable/fd_state_custom_select_strip" android:layout_width="16.0dip" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textColor="@drawable/fd_state_custom_text_color" android:gravity="center" android:id="@id/txtShoppingCart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/title_shopping_cart" />
+        <View android:id="@id/shoppingCartDivider" android:background="@drawable/fd_state_custom_select_strip" android:layout_width="16.0dip" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</merge>

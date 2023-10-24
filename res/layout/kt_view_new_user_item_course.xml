@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeNewUserItemCourseView android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imageAvatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerCrop" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/black_60" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintStart_toEndOf="@id/imageAvatar" app:layout_constraintTop_toTopOf="@id/imageAvatar" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black_87" android:id="@id/textDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="@id/textTitle" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_right_arrow_home" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/imageAvatar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/imageAvatar" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeNewUserItemCourseView>

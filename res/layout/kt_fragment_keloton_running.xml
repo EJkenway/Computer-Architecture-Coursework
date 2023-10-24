@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kt.business.treadmill.widget.WorkoutProgressView android:id="@id/workout_progress" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <com.gotokeep.keep.kt.business.treadmill.widget.TargetProgressView android:id="@id/target_progress" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <com.gotokeep.keep.commonui.widget.RoundDotIndicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:layout_width="80.0dip" android:layout_height="8.0dip" android:layout_marginBottom="21.0dip" app:dotColor="@color/gray_cc" app:dotMargin="8.0dip" app:dotRadius="4.0dip" app:dotSelectedColor="@color/light_green" />
+    <include android:id="@id/title" layout="@layout/kt_widget_keloton_running_title" />
+</FrameLayout>

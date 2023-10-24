@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:left_icon_clickable="true" app:title="@string/rt_heart_rate_settings" style="@style/ItemCustomTitleBar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:text="@string/rt_heart_rate_hint" android:layout_marginStart="15.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_resting_heart_rate" app:mainText="@string/rt_resting_heart_rate" app:subText="@string/rt_dash_dash" style="@style/SettingSingleItemWithClick" />
+            <include layout="@layout/rt_layout_settings_divider" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_max_heart_rate" app:mainText="@string/rt_max_heart_rate" app:subText="@string/rt_dash_dash" style="@style/SettingSingleItemWithClick" />
+        </LinearLayout>
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_heart_rate" android:layout_marginTop="@dimen/setting_margin_top" app:mainText="@string/rt_heart_rate_device" style="@style/SettingSingleItemWithClick" />
+    </LinearLayout>
+</LinearLayout>

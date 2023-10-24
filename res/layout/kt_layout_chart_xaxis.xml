@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_00_00" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_06_00" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_12_00" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_18_00" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_24_00" />
+</LinearLayout>

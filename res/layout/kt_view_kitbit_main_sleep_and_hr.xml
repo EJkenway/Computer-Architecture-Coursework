@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.MainSleepAndHeartRateView android:orientation="horizontal" android:background="@color/fa_bg" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/viewSleep" android:background="@drawable/kt_bg_rectangle_white_round_4dp" android:padding="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kitbit_sleep" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_alignParentRight="true">
+            <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="7.5dip" android:src="@drawable/kt_ic_sleep" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_18sp" android:textStyle="bold" android:textColor="@color/purple" android:id="@id/txtSleepHours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/dash_dash" />
+            <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/purple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hour" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_18sp" android:textStyle="bold" android:textColor="@color/purple" android:id="@id/txtSleepMinutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/dash_dash" />
+            <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/purple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minute" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/containerLabels" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+        <com.gotokeep.keep.kt.business.common.widget.chart.charts.StackedAreaChart android:id="@id/chartSleep" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="12.0dip" />
+    </LinearLayout>
+    <View android:layout_width="12.0dip" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/viewHR" android:background="@drawable/kt_bg_rectangle_white_round_4dp" android:padding="16.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size_14dp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kitbit_hr" />
+            <TextView android:textSize="@dimen/font_size_12dp" android:textColor="@color/gray_99" android:id="@id/txtHrUpdateTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dash_dash" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_alignParentRight="true">
+            <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/kt_ic_heartrate_red" android:tint="@color/pink" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/gray_33" android:id="@id/tvHR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.5dip" android:layout_marginRight="5.0dip" android:text="@string/dash_dash" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/kt_kitbit_main_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kitbit_hr_unit" />
+        </LinearLayout>
+        <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.github.mikephil.charting.charts.LineChart android:id="@id/chartHR" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="52.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.MainSleepAndHeartRateView>

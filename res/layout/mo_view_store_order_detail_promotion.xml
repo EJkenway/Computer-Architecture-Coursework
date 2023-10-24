@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/hint" style="@style/StoreTotalTextView" />
+    <TextView android:id="@id/desc" android:text="@string/zero" android:layout_alignBaseline="@id/hint" android:layout_marginStart="14.0dip" android:layout_alignParentEnd="true" style="@style/StoreTotalTextView" />
+    <com.gotokeep.keep.mo.business.order.mvp.view.OrderPriceListSubView android:orientation="vertical" android:id="@id/subView" android:background="@drawable/mo_bg_left_arrow" android:paddingTop="@dimen/dimen_8dp" android:paddingBottom="@dimen/dimen_16dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/hint" android:paddingStart="@dimen/dimen_12dp" android:paddingEnd="@dimen/dimen_12dp" android:layout_marginStart="16.0dip" android:layout_marginEnd="@dimen/dimen_16dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+</merge>

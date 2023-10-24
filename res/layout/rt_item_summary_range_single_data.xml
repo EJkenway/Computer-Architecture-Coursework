@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryRangeItemView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginBottom="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0sp" android:id="@id/textRangeItemName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:letterSpacing="0.0" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/gray_99" android:id="@id/textRangeItemData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="6.0dip" />
+    <RelativeLayout android:id="@id/layoutBarContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+        <com.gotokeep.keep.commonui.uilib.KeepAnimationBar android:id="@id/viewRangeItemBar" android:background="@drawable/bg_heart_rate_level_0" android:layout_width="0.0dip" android:layout_height="8.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/gray_99" android:id="@id/textRangeItemDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/viewRangeItemBar" />
+    </RelativeLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@color/gray_66" android:gravity="end" android:id="@id/textRangeItemPercent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryRangeItemView>

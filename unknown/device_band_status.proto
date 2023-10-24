@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+
+
+message BandStatus {
+  //1:绑定失败 2:绑定成功
+  uint32 status = 1;
+}

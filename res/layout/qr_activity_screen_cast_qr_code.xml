@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layoutRemoteView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.qrcode.uilib.view.ViewfinderView android:id="@id/viewFinderView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/textTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qr_scan_for_cast_screen_tips" android:layout_centerHorizontal="true" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/qrCodeTitleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android_custom:add_status_bar_height="true" android_custom:background_color="@color/transparent" android_custom:left_icon="@drawable/icon_arrow_left_lined" android_custom:left_icon_clickable="true" android_custom:title="@string/qr_scan_for_cast_screen" />
+</RelativeLayout>

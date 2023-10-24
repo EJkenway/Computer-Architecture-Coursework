@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.edit.imagecrop.video.mvp.view.VideoEditSegmentItemView android:layout_width="60.0dip" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:round_corner="4.0dip">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgThumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:background="@color/black_30" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.gotokeep.keep.commonui.widget.roundcorner.RCConstraintLayout>
+    <View android:id="@id/viewBorder" android:background="@drawable/su_bg_corner_4_color_green_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/textDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</com.gotokeep.keep.pb.edit.imagecrop.video.mvp.view.VideoEditSegmentItemView>

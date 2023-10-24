@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rt_event_progress_height">197.0dip</dimen>
+    <dimen name="rt_event_progress_margin_top">34.0dip</dimen>
+    <dimen name="rt_feeling_margin_left">19.0dip</dimen>
+</resources>

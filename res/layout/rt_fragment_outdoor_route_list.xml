@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:background="@color/main_color" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:background_color="@color/transparent" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:right_second_icon_clickable="true" app:title="" />
+        <LinearLayout android:gravity="center" android:id="@id/layout_title" android:layout_width="200.0dip" android:layout_height="@dimen/title_bar_height" android:layout_centerHorizontal="true">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/text_nearby_route" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_nearby_route" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/text_hot_route" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_hot_route" android:layout_marginStart="27.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.gotokeep.keep.commonui.view.CustomNoSwipeViewPager android:id="@id/pagerRoute" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

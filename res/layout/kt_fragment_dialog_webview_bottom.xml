@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-20.0dip" app:cardCornerRadius="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.activity.find.ui.NestedWebView android:id="@id/keepWebView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="end" android:id="@id/imgClose" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="12.0dip" android:src="@drawable/kt_icon_close_fill" />
+    <com.gotokeep.keep.commonui.view.KeepDefaultLoadingView android:layout_gravity="center" android:id="@id/imgLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>

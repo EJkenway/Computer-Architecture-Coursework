@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/toolbar" app:background_color="@color/white" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title_color="@color/gray_33" style="@style/ItemCustomTitleBar" />
+    <TextView android:textSize="@dimen/font_size_22sp" android:textColor="@color/black_87" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kibra_set_wifi" android:layout_below="@id/toolbar" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_999999" android:id="@id/textSubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/kt_keepkit" android:layout_below="@id/textTitle" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/layoutGuide" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:layout_below="@id/textTitle">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgGuide" android:layout_width="323.0dip" android:layout_height="216.0dip" android:src="@drawable/kt_wifi_config_tip" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_44" android:id="@id/textBleConfigTip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginBottom="22.0dip" android:text="@string/kt_scale_connect_helper_tips" android:layout_below="@id/layoutGuide" android:lineSpacingExtra="@dimen/dimen_8dp" android:layout_marginStart="@dimen/dimen_40dp" android:layout_marginEnd="@dimen/dimen_40dp" />
+</RelativeLayout>

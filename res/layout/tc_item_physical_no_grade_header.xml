@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.physical.mvp.view.list.PhysicalListNoGradeHeaderItemView android:background="@color/main_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center_horizontal" android:id="@id/img_no_grade" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginTop="83.0dip" android:src="@drawable/tc_icon_no_physical_test" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/text_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="200.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/c_gray" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/text_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="228.0dip" android:layout_marginBottom="88.0dip" />
+</com.gotokeep.keep.tc.business.physical.mvp.view.list.PhysicalListNoGradeHeaderItemView>

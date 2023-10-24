@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_22sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textScore" android:layout_width="89.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_6dp" android:text="@string/kt_five_zero" android:shadowColor="@color/kt_color_B36702B0" android:shadowDx="1.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+</FrameLayout>

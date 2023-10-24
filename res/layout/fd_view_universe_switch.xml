@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.setting.mvp.view.UniverseSwitchView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/SettingItem">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemSwitch" app:mainText="@string/settings_open_universe" style="@style/SettingItemSwitch" />
+    </LinearLayout>
+    <TextView android:text="@string/settings_open_universe_tips" style="@style/SettingPersonInfoDescText" />
+</com.gotokeep.keep.fd.business.setting.mvp.view.UniverseSwitchView>

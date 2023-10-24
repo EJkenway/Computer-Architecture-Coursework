@@ -1,0 +1,40 @@
+.class public final Lcom/noah/sdk/util/i;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a(Ljava/io/Closeable;)V
+    .locals 0
+
+    if-eqz p0, :cond_0
+
+    .line 1
+    :try_start_0
+    invoke-interface {p0}, Ljava/io/Closeable;->close()V
+    :try_end_0
+    .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p0
+
+    .line 2
+    throw p0
+
+    :catch_1
+    :cond_0
+    :goto_0
+    return-void
+.end method

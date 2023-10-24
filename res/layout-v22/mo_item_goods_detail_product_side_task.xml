@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsProductSideTaskView android:orientation="horizontal" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-1.0dip" android:layout_marginRight="-1.0dip" android:layout_marginHorizontal="-1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center_horizontal" android:id="@id/imgTask" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="2.0dip" android:scaleType="centerInside" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center_horizontal" android:id="@id/imgLock" android:background="@color/black_30" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/mo_product_icon_lock_filled" android:paddingHorizontal="12.0dip" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgBgLock" android:background="@drawable/mo_bg_product_side_task" android:layout_width="46.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" />
+</com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsProductSideTaskView>

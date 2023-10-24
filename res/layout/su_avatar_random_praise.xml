@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/avatarRandomPraiseBorder" android:background="@drawable/green_24c789_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="16.299988dip" android:layout_marginBottom="13.299988dip" android:alpha="0.0" android:layout_marginEnd="16.299988dip" />
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/avatarRandomPraiseAvatar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.70000005dip" android:layout_marginTop="0.70000005dip" android:layout_marginRight="17.0dip" android:layout_marginBottom="14.0dip" android:src="@drawable/person_70_70" android:layout_marginStart="0.70000005dip" android:layout_marginEnd="17.0dip" app:border="false" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/avatarRandomPraiseShadow" android:visibility="invisible" android:layout_width="41.0dip" android:layout_height="41.0dip" android:src="@drawable/su_random_praise_shadow" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/avatarRandomPraisePraise" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" app:lottie_fileName="lottie/su_praise_random.json" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.detail.general.view.GoodsDetailDepositProgressView android:background="@drawable/mo_bg_f6f4ff_corner_4" android:paddingLeft="@dimen/dimen_14dp" android:paddingTop="@dimen/dimen_14dp" android:paddingRight="@dimen/dimen_14dp" android:paddingBottom="@dimen/dimen_14dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dimen_14dp" android:paddingVertical="@dimen/dimen_14dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsDepositPreSaleStageView android:id="@id/stagePayDeposit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_14dp" />
+    <com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsDepositPreSaleStageView android:id="@id/stagePayBalance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_14dp" />
+</com.gotokeep.keep.mo.business.store.activity.detail.general.view.GoodsDetailDepositProgressView>

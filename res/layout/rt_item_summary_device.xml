@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryDeviceView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtSummaryCardView">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/RtSummaryCardViewTitleLayout">
+            <ImageView android:id="@id/imgTitle" android:layout_width="@dimen/rt_summary_title_drawable_size" android:layout_height="@dimen/rt_summary_title_drawable_size" android:src="@drawable/rt_ic_summary_device" />
+            <TextView android:text="@string/rt_sport_device" android:layout_marginStart="10.0dip" style="@style/RtSummaryCardViewTitleInLayout" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/container_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="22.0dip" android:layout_marginStart="46.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryDeviceView>

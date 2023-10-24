@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/ad_bg_award_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgCover" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgTop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgBottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:contentDescription="@string/app_name" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <com.gotokeep.keep.commonui.widget.ExposureView android:id="@id/bottomExposureView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/imgBottom" app:layout_constraintEnd_toEndOf="@id/imgBottom" app:layout_constraintStart_toStartOf="@id/imgBottom" app:layout_constraintTop_toTopOf="@id/imgBottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>

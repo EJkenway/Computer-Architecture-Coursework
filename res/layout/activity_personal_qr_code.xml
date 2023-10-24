@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.view.SwipeBackLayout android:id="@id/layout_swipe_back" android:background="@color/black_70" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/main_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/custom_title_bar" android_custom:left_icon="@drawable/icon_arrow_close_down_white" android_custom:left_icon_clickable="true" android_custom:right_icon="@drawable/icon_scan_lined" android_custom:right_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+        <include layout="@layout/item_personal_qr_view" />
+        <include layout="@layout/item_personal_qr_action" />
+    </RelativeLayout>
+</com.gotokeep.keep.commonui.view.SwipeBackLayout>

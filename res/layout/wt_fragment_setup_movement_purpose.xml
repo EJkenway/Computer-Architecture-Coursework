@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBarMovementPurpose" app:background_color="@color/purple" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:right_icon="@drawable/icon_more_lined" app:right_icon_clickable="true" app:title_color="@color/white" style="@style/ItemCustomTitleBar" />
+    <include android:id="@id/viewTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleBarMovementPurpose" layout="@layout/wt_view_setup_movement_purpose_top" />
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layoutAward" android:layout_below="@id/viewTips">
+        <include android:id="@id/viewTask" layout="@layout/wt_view_setup_movement_purpose_seekbar" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/layoutAward" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/viewConfirm">
+        <include android:id="@id/viewMemberAward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" layout="@layout/wt_view_movement_purpose_award" />
+        <include android:id="@id/viewWelfare" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="46.0dip" android:layout_marginEnd="46.0dip" layout="@layout/wt_view_movement_purpose_welfare" />
+    </FrameLayout>
+    <include android:id="@id/viewConfirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/wt_view_movement_purpose_confirm" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:background="@color/main_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titleBarMovementPurpose" />
+</RelativeLayout>

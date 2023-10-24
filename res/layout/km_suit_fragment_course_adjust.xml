@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_fa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutAdjust" android:layout_width="fill_parent" android:layout_height="56.0dip" app:layout_constraintTop_toTopOf="parent" layout="@layout/km_suit_setting_view" />
+    <include android:id="@id/layoutTip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintTop_toBottomOf="@id/layoutAdjust" layout="@layout/km_item_suit_course_tip" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recyclerView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutTip" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

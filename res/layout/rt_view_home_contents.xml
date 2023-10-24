@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabContents" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="4.0dip" app:layout_constraintTop_toTopOf="parent" app:pTabTextAllCaps="false" style="@style/RtHomeBottomTab" />
+    <View android:id="@id/viewDivider" android:background="@color/gray_ef" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.5dip" app:layout_constraintTop_toBottomOf="@id/tabContents" />
+    <com.gotokeep.keep.rt.business.home.widget.BottomSheetViewPager android:id="@id/pagerContents" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/viewDivider" />
+    <View android:id="@id/viewHandle" android:background="@drawable/shape_bottom_sheet_affordance_light" android:layout_width="20.0dip" android:layout_height="4.0dip" android:layout_marginTop="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/viewNoTab" android:background="@color/white_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintTop_toBottomOf="@id/viewHandle" />
+</merge>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" android:visibility="visible" android:layout_alignParentTop="true" app:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/content_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutBehaviorEx">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapse_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <include android:id="@id/view_store_paysuccess_header" layout="@layout/mo_view_store_pay_success_header" />
+                    <View android:id="@id/couponSpace" android:background="@color/fa_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+                    <com.gotokeep.keep.mo.business.pay.mvp.RePurchaseCouponView android:id="@id/rePurchaseCoupon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.gotokeep.keep.mo.common.widget.CouponShareItemView android:id="@id/couponShareItem" android:paddingLeft="@dimen/dimen_14dp" android:paddingRight="@dimen/dimen_14dp" android:paddingBottom="@dimen/dimen_14dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.gotokeep.keep.mo.common.widget.AssistCashBannerEntryView android:id="@id/cash_entry" android:paddingLeft="@dimen/dimen_14dp" android:paddingRight="@dimen/dimen_14dp" android:paddingBottom="@dimen/dimen_14dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.gotokeep.keep.mo.common.widget.NewUserEntryView android:id="@id/new_user_entry" android:paddingLeft="@dimen/dimen_14dp" android:paddingRight="@dimen/dimen_14dp" android:paddingBottom="@dimen/dimen_14dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.gotokeep.keep.mo.common.widget.EquipmentCourseEntryView android:id="@id/equipment_course_entry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <include android:id="@id/hash_tag_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/mo_view_pay_success_hash_tag" />
+                    <View android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+                </LinearLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.gotokeep.keep.mo.business.store.mvp.view.RecommendListView android:id="@id/recommend_list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

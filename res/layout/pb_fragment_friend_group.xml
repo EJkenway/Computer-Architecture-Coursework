@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/customTitleBar" android:layout_width="0.0dip" android:layout_height="@dimen/home_title_bar_min_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/listFriend" android:background="@color/gray_fa" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/layoutBottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/customTitleBar" />
+    <View android:background="@color/color_f2f2f2" android:layout_width="0.0dip" android:layout_height="1.0px" app:layout_constraintBottom_toTopOf="@id/layoutBottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <FrameLayout android:id="@id/layoutBottom" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/layoutBottomAction" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <TextView android:textColor="@color/light_green" android:id="@id/textAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" android:layout_marginStart="16.0dip" style="@style/Style_16_Medium" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textColor="@color/color_ff666f" android:id="@id/textRemove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pb_remove" android:layout_marginEnd="16.0dip" style="@style/Style_16_Medium" />
+        </LinearLayout>
+        <include android:id="@id/layoutPreviewAction" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip" layout="@layout/pb_layout_select_friend_preview" />
+    </FrameLayout>
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:background="@color/white" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/customTitleBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.feed.mvp.view.RecommendFeedNameView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_212121" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/recommend_name" android:maxLines="1" android:layout_marginStart="@dimen/page_horizontal_margin" android:layout_marginEnd="@dimen/page_horizontal_margin" />
+</com.gotokeep.keep.su.social.feed.mvp.view.RecommendFeedNameView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@drawable/selector_data_center_type_text_color" android:gravity="center" android:id="@id/text_data_type_all_exercise" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/data_type_all_exercise" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@drawable/selector_data_center_type_text_color" android:gravity="center" android:id="@id/text_data_type_training" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/body_build" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@drawable/selector_data_center_type_text_color" android:gravity="center" android:id="@id/text_data_type_running" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/running" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@drawable/selector_data_center_type_text_color" android:gravity="center" android:id="@id/text_data_type_yoga" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/yoga" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@drawable/selector_data_center_type_text_color" android:gravity="center" android:id="@id/text_data_type_hiking" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/hiking" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@drawable/selector_data_center_type_text_color" android:gravity="center" android:id="@id/text_data_type_cycling" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/cycling" android:layout_weight="1.0" />
+    </LinearLayout>
+</HorizontalScrollView>

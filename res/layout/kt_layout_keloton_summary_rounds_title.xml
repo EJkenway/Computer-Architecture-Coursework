@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonSummaryRoundsTitleView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">
+        <TextView android:textSize="@dimen/summary_pace_title_text_size" android:textColor="@color/gray_dd_40" android:layout_width="@dimen/summary_pace_km_marker_width" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/kt_keloton_circles" />
+        <TextView android:textSize="@dimen/summary_pace_title_text_size" android:textColor="@color/gray_dd_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/sum_time" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonSummaryRoundsTitleView>

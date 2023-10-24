@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.HRDetailView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.github.mikephil.charting.charts.LineChart android:layout_gravity="bottom" android:id="@id/chartDetail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/bottom" android:background="@color/transparent" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/kt_kitbit_hr_chart_x_axis_height" android:layout_alignParentBottom="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_30" android:id="@id/startTimeView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_00_00" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_06_00" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_12_00" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_18_00" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_30" android:id="@id/endTimeView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_time_23_59" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/viewTip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/viewTipTop" android:background="@drawable/kt_bg_rectangle_white_round_2dp" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/font_size_12sp" android:textColor="#ffff7d86" android:id="@id/textHr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+                <TextView android:textSize="@dimen/font_size_12sp" android:textColor="#ffff7d86" android:id="@id/textTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:lines="1" />
+            </LinearLayout>
+            <View android:id="@id/viewTipBottom" android:background="@drawable/kt_bg_dash_line_vertical_white" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layerType="software" />
+        </LinearLayout>
+    </FrameLayout>
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.HRDetailView>

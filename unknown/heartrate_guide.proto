@@ -1,0 +1,26 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "HeartrateGuide";
+
+message HeartrateGuideStart {
+    // 第一界限，即低区间下界
+    uint32 first_boundary = 1;
+    // 第二界限，即低区间上界与中区间下界
+    uint32 second_boundary = 2;
+    // 第三界限，即中区间上界与高区间下界
+    uint32 third_boundary = 3;
+    // 第四界限，即高区间上界
+    uint32 fourth_boundary = 4;
+}
+
+message HeartrateGuideState {
+    // 1： 成功， 2 ： 失败
+    uint32 status = 1;
+}
+
+message HeartrateGuideRemind {
+    // 1: 心率处于建议区间提醒 2：心率＞建议区间提醒
+    uint32 type = 1;
+    // 弹窗持续时间，单位 秒
+    uint32 duration = 2;
+}

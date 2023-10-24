@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/color_f1cf8d" android:gravity="center" android:id="@id/textview_buy_vip" android:background="@color/gray_33" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="58.0dip" android:text="@string/wt_course_intro_buy_vip" android:layout_alignParentBottom="true" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/textview_buy_vip">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="210.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbar_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="@color/purple" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:toolbarId="@id/toolbar">
+                <FrameLayout android:id="@id/player_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.gotokeep.keep.videoplayer.widget.KeepVideoView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <com.gotokeep.keep.videoplayer.widget.KeepFullscreenVideoControlView android:id="@id/video_control" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <View android:id="@id/prime_cover_mask" android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/prime_play_container" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keep_plus_video_play" />
+                        <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/text_course_intro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wt_course_intro_play" />
+                    </LinearLayout>
+                </FrameLayout>
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                    <ImageView android:id="@id/mageview_back" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_arrow_left_lined" />
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_course_intro" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:layout_gravity="center" android:id="@id/keep_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

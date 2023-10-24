@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.training.live.room.mvp.view.LiveTrainingLikeItemView android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_line" android:background="@color/white_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/img_user_avatar" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="22.0dip" android:layout_marginBottom="22.0dip" android:src="@drawable/person_45_45" android:layout_centerVertical="true" app:border="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_user" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/layout_user_relation" android:layout_toRightOf="@id/img_user_avatar" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/white" android:id="@id/text_user_name" android:text="@string/app_name" style="@style/StoreSingleLineTextView" />
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/white_30" android:id="@id/text_desc" android:layout_marginTop="4.0dip" android:text="@string/app_name" style="@style/StoreSingleLineTextView" />
+    </LinearLayout>
+    <com.gotokeep.keep.commonui.widget.RelationLayout android:gravity="center" android:id="@id/layout_user_relation" android:layout_width="70.0dip" android:layout_height="28.0dip" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginRight="14.0dip" android:layout_below="@id/img_user_avatar" android:layout_alignLeft="@id/layout_user" />
+</com.gotokeep.keep.wt.business.training.live.room.mvp.view.LiveTrainingLikeItemView>

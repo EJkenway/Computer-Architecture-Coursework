@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.entry.mvp.entry.view.EntryDetailInputPanelView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewMask" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/viewKeyboardPanel" android:alpha="0.3" />
+    <com.gotokeep.keep.su.widget.KeyboardWithEmotionPanelLayout android:id="@id/viewKeyboardPanel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="49.0dip" android:layout_alignParentBottom="true" app:can_use_translucent_status="false" />
+</com.gotokeep.keep.su.social.entry.mvp.entry.view.EntryDetailInputPanelView>

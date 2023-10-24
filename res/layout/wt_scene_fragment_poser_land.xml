@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutPoserLandPage" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.opengl.GLSurfaceView android:id="@id/glPoser" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/containerPoserMatchParent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/containerPoserMatchPreview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:kvScaleType="fitCenter" />
+    <ImageView android:id="@id/imgPoserBack" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="26.0dip" android:src="@drawable/wt_icon_back_white" android:scaleType="fitXY" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgRealBackView" android:layout_width="36.0dip" android:layout_height="50.0dip" android:layout_marginTop="26.0dip" android:scaleType="fitXY" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

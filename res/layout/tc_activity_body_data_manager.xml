@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar_body_data_manager" android_custom:left_icon_clickable="true" android_custom:title="@string/body_data_manager" style="@style/ItemCustomTitleBar" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_primary_green" android:gravity="center" android:id="@id/text_save_config" android:padding="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/save" android:layout_alignParentRight="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_body_data_manager" android:background="@color/plan_divider_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar_body_data_manager" />
+</RelativeLayout>

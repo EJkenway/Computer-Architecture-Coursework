@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.vlog.mvp.view.item.VLogNinePhotoItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:round_corner="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutControlCenter" android:layout_width="24.0dip" android:layout_height="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgControl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_control_center_dark" />
+    <com.gotokeep.keep.commonui.view.KLabelView android:id="@id/redDotView" android:layout_width="6.0dip" android:layout_height="6.0dip" app:klabelStyle="redDotFill" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

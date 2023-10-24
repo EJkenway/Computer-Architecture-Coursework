@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_33" android:id="@id/text_calorie_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mo_margin_14" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/light_green" android:id="@id/text_calorie_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mo_margin_14" android:layout_toRightOf="@id/text_calorie_desc" android:layout_centerVertical="true" />
+    <com.gotokeep.keep.commonui.view.KeepSwitchButton android:id="@id/calorie_switch_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mo_margin_9" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/layout_option_container" android:layoutAnimation="@anim/anim_training_log_layout_anim" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.course.view.CourseSignEntryListView android:orientation="vertical" android:id="@id/viewCourseSignEntry" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/viewTitleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:left_icon="@drawable/icon_arrow_left_lined_dark" app:title="@string/su_course_sign_rank_title" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/viewPullRecycler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.su.social.comment.course.view.CourseSignEntryListView>

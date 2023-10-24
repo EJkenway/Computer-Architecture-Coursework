@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitEquipmentSettingHeaderView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="122.0dip" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0sp" android:textColor="@color/black" android:id="@id/textHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_24dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/textHeader">
+        <ImageView android:id="@id/imageConnectFailedIcon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="9.0dip" android:src="@drawable/kt_icon_exclamation" android:layout_marginEnd="@dimen/dimen_4dp" />
+        <ImageView android:id="@id/connectProgress" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="9.0dip" android:layout_marginEnd="@dimen/dimen_8dp" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_99" android:id="@id/tvStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+        <View android:id="@id/viewBattery" android:background="@color/gray_d8" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="@dimen/dimen_10dp" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginStart="@dimen/dimen_12dp" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_99" android:id="@id/textBattery" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginStart="@dimen/dimen_10dp" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/light_green" android:id="@id/btnConnect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginStart="@dimen/dimen_8dp" />
+    </LinearLayout>
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/illustration" android:layout_width="96.0dip" android:layout_height="96.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.kt.business.common.mvp.view.KitEquipmentSettingHeaderView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_99" android:layout_width="220.0dip" android:layout_height="150.0dip" android:alpha="0.8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivClose" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_close_big" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="12.0dip" android:id="@id/warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="warning:  " />
+    <TextView android:textSize="12.0dip" android:id="@id/warningDetail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/warning" />
+    <TextView android:textSize="12.0dip" android:id="@id/mac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mac: " android:layout_below="@id/warning" />
+    <TextView android:textSize="12.0dip" android:id="@id/macDetail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/mac" android:layout_below="@id/warning" />
+    <TextView android:textSize="12.0dip" android:id="@id/sn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sn: " android:layout_below="@id/mac" />
+    <TextView android:textSize="12.0dip" android:id="@id/snDetail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/sn" android:layout_below="@id/mac" />
+    <TextView android:textSize="12.0dip" android:id="@id/type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="scaleType: " android:layout_below="@id/sn" />
+    <TextView android:textSize="12.0dip" android:id="@id/typeDetail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/type" android:layout_below="@id/sn" />
+    <TextView android:textSize="12.0dip" android:id="@id/weightData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="lastWeightData: " android:layout_below="@id/type" />
+    <TextView android:textSize="12.0dip" android:id="@id/weightDataDetail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/weightData" android:layout_below="@id/type" />
+</RelativeLayout>

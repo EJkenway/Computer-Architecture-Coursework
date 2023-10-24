@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/connect_failed_webview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <include android:layout_gravity="center" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/kt_view_connect_layout_find_refresh" />
+    <include android:id="@id/connecting" android:visibility="visible" layout="@layout/kt_view_keloton_connecting" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android_custom:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/textDownloadUserInfo" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="12.0dip" android:text="@string/download_user_info" android:drawableRight="@drawable/icon_arrow_right_s_light_gray" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" />
+            <LinearLayout android:layout_marginTop="@dimen/setting_margin_top" style="@style/SettingItem">
+                <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemMessage" android_custom:mainText="@string/privacy_settings_message_title" style="@style/SettingItemSwitch" />
+            </LinearLayout>
+            <TextView android:text="@string/privacy_settings_message_desc" style="@style/SettingPersonInfoDescText" />
+            <LinearLayout android:layout_marginTop="@dimen/setting_margin_top" style="@style/SettingItem">
+                <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemIndividualRecommend" android_custom:mainText="@string/privacy_settings_recommend_title" style="@style/SettingItemSwitch" />
+            </LinearLayout>
+            <TextView android:id="@id/textRecommendDesc" android:text="@string/privacy_settings_recommend_desc" android:lineSpacingExtra="3.0dip" style="@style/SettingPersonInfoDescText" />
+            <LinearLayout android:layout_marginTop="@dimen/setting_margin_top" style="@style/SettingItem">
+                <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemIndividualFansList" android_custom:mainText="@string/privacy_settings_fans_list" style="@style/SettingItemSwitch" />
+            </LinearLayout>
+            <TextView android:text="@string/privacy_settings_fans_desc" style="@style/SettingPersonInfoDescText" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/textDevicePrivacy" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="12.0dip" android:text="@string/privacy_manage_device_privacy" android:drawableRight="@drawable/icon_arrow_right_s_light_gray" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/textThirdPartyCooperation" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="12.0dip" android:text="@string/third_party_data_cooperation" android:drawableRight="@drawable/icon_arrow_right_s_light_gray" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/textRecallPrivacyGrant" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="12.0dip" android:text="@string/recall_privacy_grant" android:drawableRight="@drawable/icon_arrow_right_s_light_gray" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.guide.view.PopupPrimeGuideGroupBView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/black_87" android:id="@id/textTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/black_60" android:id="@id/textSubTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp" app:layout_constraintEnd_toEndOf="@id/textTitle" app:layout_constraintStart_toStartOf="@id/textTitle" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageGuide" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitStart" android:adjustViewBounds="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textSubTitle" />
+</com.gotokeep.keep.km.guide.view.PopupPrimeGuideGroupBView>

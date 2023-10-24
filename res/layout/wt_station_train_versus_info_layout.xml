@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_win_crown" android:layout_width="@dimen/dimen_20dp" android:layout_height="@dimen/dimen_20dp" android:layout_marginTop="@dimen/dimen_72dp" android:src="@drawable/ic_win_crown" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white_70" android:id="@id/tv_player_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintEnd_toEndOf="@id/iv_win_crown" app:layout_constraintStart_toStartOf="@id/iv_win_crown" app:layout_constraintTop_toBottomOf="@id/iv_win_crown" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/score_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintEnd_toEndOf="@id/tv_player_name" app:layout_constraintStart_toStartOf="@id/tv_player_name" app:layout_constraintTop_toBottomOf="@id/tv_player_name">
+        <com.gotokeep.keep.commonui.uilib.KLKeepFontTextView android:textSize="@dimen/font_size_28sp" android:textColor="@color/color_ffb15a" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" app:keepFont="font/KeepDisplay-Bold.otf" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/color_ffb15a" android:id="@id/score_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" app:layout_constraintStart_toEndOf="@id/score" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

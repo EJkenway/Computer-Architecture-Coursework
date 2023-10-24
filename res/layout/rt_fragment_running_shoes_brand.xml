@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/runningShoesBrandTitleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title="@string/rt_running_shoes_brand" app:title_color="@color/black_87" app:title_size="16.0sp" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/runningShoesBrandTitleBar" layout="@layout/rt_view_all_brand_list" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/runningShoesBrandTitleBar" layout="@layout/rt_view_single_brand_list" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/rt_view_search_shoes_brand" />
+</RelativeLayout>

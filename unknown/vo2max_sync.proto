@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "Vo2maxSync";
+
+message Vo2maxSyncConfig {
+    uint32 utc= 1;
+    float vo2max_val= 2;
+}

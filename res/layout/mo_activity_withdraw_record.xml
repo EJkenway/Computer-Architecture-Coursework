@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:left_icon_clickable="true" app:title="@string/mo_red_packet_withdraw_cash_record" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recycler_record" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar">
+        <ImageView android:id="@id/img_empty_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mo_red_package_icon_empty" app:layout_constraintBottom_toTopOf="@id/text_empty_tips" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_66" android:id="@id/text_empty_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/mo_red_packet_not_withdraw_cash_record" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/img_empty_icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.widget.KeepCommonSearchBar android:id="@id/header_search_food" android:layout_width="fill_parent" android:layout_height="@dimen/search_box_height" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recycler_view_food_search" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_search_food" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitFeedbackQuestionInputView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/containerCheckbox" layout="@layout/km_suit_check_box_feedback" />
+    <EditText android:textSize="14.0sp" android:gravity="start" android:id="@id/editTextOthers" android:background="@drawable/km_bg_round_corner_8dp_gray_f5f5f5" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="104.0dip" android:layout_marginBottom="24.0dip" android:hint="@string/km_suit_feedback_other_question" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/containerCheckbox" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitFeedbackQuestionInputView>

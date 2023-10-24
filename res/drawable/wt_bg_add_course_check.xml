@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:drawable="@drawable/wt_ic_add_gray_line" />
+    <item android:state_selected="true" android:drawable="@drawable/wt_icon_check_filled_green" />
+</selector>

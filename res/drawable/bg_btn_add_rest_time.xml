@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:drawable="@drawable/bg_btn_add_rest_time_enable" />
+    <item android:state_enabled="false" android:drawable="@drawable/bg_btn_add_rest_time_disable" />
+</selector>

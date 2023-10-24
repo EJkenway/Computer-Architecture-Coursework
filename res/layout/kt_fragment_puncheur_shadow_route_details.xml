@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/kt_color_141414" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/viewDetailViewPager" layout="@layout/kt_view_puncheur_shadow_detail_viewpager" />
+    <include android:id="@id/viewDetailList" layout="@layout/kt_view_puncheur_shadow_detail_list" />
+    <include android:id="@id/viewDetailVideoTime" android:visibility="gone" layout="@layout/kt_view_puncheur_shadow_detail_video_time" />
+    <include android:id="@id/viewDetailTitleBar" layout="@layout/kt_view_puncheur_shadow_detail_titlebar" />
+    <include android:id="@id/viewModeSelect" android:visibility="gone" layout="@layout/kt_view_puncheur_shadow_detail_mode_footer" />
+    <include android:id="@id/viewFooter" android:visibility="gone" layout="@layout/kt_view_puncheur_shadow_details_footer" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/viewDetailEmpty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/viewDetailTitleBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

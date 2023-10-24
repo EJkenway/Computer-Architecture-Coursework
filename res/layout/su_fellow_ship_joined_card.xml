@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.fellowship.view.FellowShipJoinedCardView android:layout_width="167.0dip" android:layout_height="wrap_content" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:background="@drawable/bg_line_white_corner_gray_ef_8dp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/image" android:layout_width="48.0dip" android:layout_height="48.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout android:id="@id/rlName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="11.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/image" app:layout_constraintTop_toTopOf="@id/image">
+            <View android:background="@color/purple_ee" android:layout_width="wrap_content" android:layout_height="8.0dip" android:layout_alignLeft="@id/fellowShipName" android:layout_alignRight="@id/fellowShipName" android:layout_alignBottom="@id/fellowShipName" />
+            <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/fellowShipName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/black_60" android:ellipsize="end" android:id="@id/desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:maxLines="1" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/image" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/image" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.su_core.timeline.mvp.fellowship.view.FellowShipJoinedCardView>

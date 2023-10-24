@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/white" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewBg" android:background="@drawable/bg_grayf5_corner_16dp" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgSearch" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/icon_search_gray" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="@id/viewBg" app:layout_constraintStart_toStartOf="@id/viewBg" app:layout_constraintTop_toTopOf="@id/viewBg" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/black_24" android:ellipsize="end" android:id="@id/textHint" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/dimen_8dp" app:layout_constraintBottom_toBottomOf="@id/viewBg" app:layout_constraintEnd_toEndOf="@id/viewBg" app:layout_constraintStart_toEndOf="@id/imgSearch" app:layout_constraintTop_toTopOf="@id/viewBg" />
+</merge>

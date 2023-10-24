@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/ysf_album_dropdown_count_text" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/ysf_gery_959595" android:background="@color/ysf_gery_f2f3f5" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ysf_work_sheet_info_str" />
+            <RelativeLayout android:background="@color/ysf_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/ysf_black_222222" android:id="@id/ysf_tv_work_sheet_detail_id_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="ID" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/ysf_grey_999999" android:gravity="right" android:id="@id/ysf_tv_work_sheet_detail_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:layout_toRightOf="@id/ysf_tv_work_sheet_detail_id_tag" android:layout_alignParentRight="true" />
+                <View android:background="@color/ysf_gery_959595" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@color/ysf_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/ysf_black_222222" android:id="@id/ysf_tv_work_sheet_detail_type_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/ysf_work_sheet_type_str" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/ysf_grey_999999" android:gravity="right" android:id="@id/ysf_tv_work_sheet_detail_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:layout_toRightOf="@id/ysf_tv_work_sheet_detail_type_tag" android:layout_alignParentRight="true" />
+                <View android:background="@color/ysf_gery_959595" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ysf_ll_work_sheet_custom_field_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ysf_ll_work_sheet_annex_parent" android:background="@color/ysf_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/ysf_black_222222" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/ysf_annex_str" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/ysf_grey_999999" android:gravity="right" android:id="@id/ysf_tv_work_sheet_annex_empty" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:text="--" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ysf_ll_work_sheet_annex_item_parent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="4.0" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/ysf_gery_959595" android:background="@color/ysf_gery_f2f3f5" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ysf_work_sheet_record" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ysf_ll_work_sheet_record_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:background="@color/ysf_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:enabled="true" android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_btn_common_text_color_selector" android:gravity="center" android:id="@id/ysf_btn_work_sheet_urge" android:background="@drawable/ysf_evaluator_btn_first_bg" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:text="@string/ysf_work_sheet_reminders_str" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

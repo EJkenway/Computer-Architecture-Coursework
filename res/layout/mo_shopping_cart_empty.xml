@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.shoppingcart.view.ShoppingCartListEmptyView android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/imgEmptyIcon" android:layout_width="150.0dip" android:layout_height="100.0dip" android:src="@drawable/mo_icon_shopping_cart_off" android:contentDescription="@string/cart_no_goods" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:gravity="center" android:id="@id/textEmptyInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/cart_no_goods" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgEmptyIcon" />
+</com.gotokeep.keep.mo.business.store.activity.shoppingcart.view.ShoppingCartListEmptyView>

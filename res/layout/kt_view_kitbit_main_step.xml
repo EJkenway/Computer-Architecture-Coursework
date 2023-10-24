@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.MainStepView android:id="@id/viewSteps" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/kt_bg_walkman_home_steps" android:scaleType="centerCrop" android:layout_marginStart="@dimen/common_divide_16dp" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="@dimen/common_divide_16dp" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/step_today" />
+        <ImageView android:layout_width="6.0dip" android:layout_height="10.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/kt_ic_right_arrow" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:gravity="right" android:id="@id/txtStatus" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:id="@id/txtBattery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+        <com.gotokeep.keep.kt.business.kitbit.widget.BatteryView android:id="@id/vBattery" android:layout_width="17.0dip" android:layout_height="10.0dip" android:layout_marginLeft="6.0dip" />
+        <ImageView android:id="@id/imgCharging" android:visibility="gone" android:layout_width="5.5dip" android:layout_height="10.0dip" android:layout_marginLeft="3.0dip" android:src="@drawable/kt_ic_charging" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="56.0dip" android:layout_marginStart="@dimen/common_divide_16dp">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="64.0sp" android:textColor="@color/purple" android:id="@id/txtSteps" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:id="@id/txtTarget" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.gotokeep.keep.refactor.business.main.view.RoundHorizontalProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="131.5dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="@dimen/common_divide_16dp" app:backgroundColor="@color/gray_f5" app:isShowRoundAtZeroPercent="true" app:progressColor="@color/kt_step_progress" />
+    <include android:id="@id/layoutStepNotice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="160.0dip" android:layout_marginStart="@dimen/common_divide_16dp" layout="@layout/kt_kitbit_view_step_notice" />
+    <include android:id="@id/layoutFreeMemberNotice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="160.0dip" layout="@layout/kt_view_giving_vip_notice" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.MainStepView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorScreenLockTargetTopInfoView android:id="@id/view_lock_target_top_info" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/container_target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/rt_training_text_light" android:id="@id/text_target_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_target_text" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textColor="@color/rt_gray_green" android:id="@id/text_target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/rt_training_text_light" android:id="@id/target_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="80.0sp" android:textColor="@color/rt_training_text_main" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text_center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/rt_training_text_light" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/phase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+    <com.gotokeep.keep.commonui.view.CircularScaleProgressBar android:id="@id/progress_target" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rt_scree_lock_target_margin" android:layout_marginRight="@dimen/rt_scree_lock_target_margin" android:layout_centerInParent="true" android:layout_marginStart="@dimen/rt_scree_lock_target_margin" android:layout_marginEnd="@dimen/rt_scree_lock_target_margin" />
+    <com.gotokeep.keep.rt.business.training.widget.PaceTargetProgressView android:id="@id/progress_pace" android:padding="@dimen/rt_scree_lock_target_pace_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <include android:id="@id/view_pace_target_diff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/rt_layout_pace_target_diff" />
+</com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorScreenLockTargetTopInfoView>

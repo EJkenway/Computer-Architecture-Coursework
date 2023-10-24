@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.capture.mvp.view.CapturePermissionView android:background="@color/black" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgPermissionClose" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="28.0dip" android:src="@drawable/su_ic_edit_close" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/su_use_camera" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/su_allow_to_use_camera" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/light_green" android:id="@id/textGrantCamera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" android:text="@string/su_grant_camera_permission" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/light_green" android:id="@id/textGrantMicrophone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/su_grant_microphone_permission" />
+    </LinearLayout>
+</com.gotokeep.keep.pb.capture.mvp.view.CapturePermissionView>

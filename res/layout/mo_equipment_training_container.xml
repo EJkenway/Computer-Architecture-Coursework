@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/equipmentBgTop" android:layout_width="fill_parent" android:layout_height="260.0dip" android:scaleType="fitXY" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/equipmentTrainingTitleBar" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="35.0dip" android:alpha="0.0" app:background_color="@color/transparent" app:layout_collapseMode="pin" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:left_icon="@drawable/back" app:left_icon_clickable="true" app:title="@string/mo_training_equipment" app:title_color="@color/white" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.mo.business.store.mvp.view.EquipmentNestedParentRecyclerView android:id="@id/equipmentTrainingContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_80dp" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

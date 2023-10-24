@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.main.mvp.view.HomeJoinItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:gravity="center" android:id="@id/text_join_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:lineSpacingMultiplier="1.2" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/text_join_type" android:background="@drawable/light_green_color_corner_25dp" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="46.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="46.0dip" android:layout_marginBottom="18.0dip" android:drawablePadding="5.0dip" android:layout_below="@id/text_join_description" />
+</com.gotokeep.keep.tc.main.mvp.view.HomeJoinItemView>

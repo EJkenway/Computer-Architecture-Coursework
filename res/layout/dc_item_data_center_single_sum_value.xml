@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="170.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_minute_count" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="42.0dip" android:textStyle="bold" android:textColor="@color/tab_purple" android:id="@id/txt_minute_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/zero_int" android:maxLines="1" android:layout_centerHorizontal="true" android:contentDescription="Training Times In History" />
+        <ImageView android:id="@id/img_minute_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/icon_info" android:layout_toRightOf="@id/txt_minute_count" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/item_data_center_single_sum_entry_count_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <TextView android:layout_gravity="start" android:text="@string/done_unit_bracket" style="@style/DataCenterUnitTextView" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:id="@id/txt_count_value" android:text="@string/zero_int" style="@style/DataCenterValueNumTextView" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/item_data_center_single_sum_day_count_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <TextView android:text="@string/total_days_bracket" style="@style/DataCenterUnitTextView" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:id="@id/txt_day_count_value" android:text="@string/zero_int" style="@style/DataCenterValueNumTextView" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/item_data_center_single_sum_calorie_count_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <TextView android:layout_gravity="end" android:text="@string/consume_calorie_bracket" style="@style/DataCenterUnitTextView" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:id="@id/txt_calorie_value" android:text="@string/zero_int" style="@style/DataCenterValueNumTextView" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

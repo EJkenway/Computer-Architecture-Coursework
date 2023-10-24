@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.picture.mvp.view.OutdoorShortPictureView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="66.0dip" android:layout_marginBottom="66.0dip" android:layout_centerInParent="true" android:layout_marginStart="68.0dip" android:layout_marginEnd="68.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="8.0dip">
+        <RelativeLayout android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/img_map_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <View android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="130.0dip" android:layout_alignParentBottom="true" />
+                <ImageView android:id="@id/img_outdoor_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_above="@id/image_share" />
+                <ImageView android:id="@id/img_treadmill_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_above="@id/image_share" />
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/image_share" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:src="@drawable/icon_outdoor_share_run_logo" android:layout_marginStart="12.0dip" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <include android:id="@id/layout_share" android:visibility="invisible" layout="@layout/rt_view_white_share_qr_code" />
+</com.gotokeep.keep.rt.business.picture.mvp.view.OutdoorShortPictureView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.view.SwipeBackLayout android:id="@id/layout_swipe_back" android:background="@color/black_70" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layout_swipe_router" android:background="@color/dark_purple" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:add_status_bar_height="true" app:background_color="@color/dark_purple" app:left_icon="@drawable/icon_arrow_close_down_white" app:left_icon_clickable="true" app:title="分享你的徽章" style="@style/ItemCustomTitleBar" />
+        <com.gotokeep.keep.commonui.view.InterceptScrollView android:id="@id/layout_share_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="57.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="57.0dip" android:layout_marginBottom="63.0dip" android:layout_below="@id/title_bar">
+            <ImageView android:id="@id/img_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+        </com.gotokeep.keep.commonui.view.InterceptScrollView>
+        <include android:id="@id/layout_share_channel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/view_share_channel" />
+    </RelativeLayout>
+</com.gotokeep.keep.commonui.view.SwipeBackLayout>

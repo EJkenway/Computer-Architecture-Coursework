@@ -1,0 +1,28 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "ReverseControl";
+
+message OperationReq {
+  /**
+    辅助运动 0x01
+    音乐控制 0x02
+    拍照控制 0x03
+   */
+  uint32 op_service = 1;
+  /**
+  上一个 0x01
+  下一个 0x02
+  暂停 0x03
+  继续 0x04
+  跳过 0x05
+  延长 0x06
+   */
+  uint32 op_type = 2;
+  //附加数据，最大 100 Byte
+  bytes attach_data = 3;
+}
+
+message OperationRsp {
+  //请求操控的状态，1 -- 失败，2 -- 成功
+  uint32 status = 1;
+}

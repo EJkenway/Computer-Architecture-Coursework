@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.SuggestionView android:background="@drawable/kt_bg_rectangle_fb_white_round_4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/leftBackground" android:background="@drawable/kt_bg_rectangle_with_left_corner" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/textEvaluation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dash_dash" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textSuggestion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dash_dash" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.SuggestionView>

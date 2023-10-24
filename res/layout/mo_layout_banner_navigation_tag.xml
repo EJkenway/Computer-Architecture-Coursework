@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/tagIconView" android:layout_width="@dimen/dimen_12dp" android:layout_height="@dimen/dimen_12dp" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/white_80" android:id="@id/tagNameView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

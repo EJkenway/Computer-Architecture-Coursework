@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.HREmptyView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/dateView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="16.0dip" />
+    <ImageView android:id="@id/center" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/kt_shape_hr_heart" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_99" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/kt_kitbit_hr_tip_for_no_hr" android:layout_below="@id/center" android:layout_centerHorizontal="true" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.HREmptyView>

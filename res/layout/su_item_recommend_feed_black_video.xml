@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.feedblack.mvp.view.RecommendFeedBlackVideoView android:id="@id/feedBlackVideo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kplayer.SingletonKeepVideoView2 android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:kvScaleType="centerCrop" app:layout_constraintDimensionRatio="1:1" />
+    <View android:id="@id/viewVideoMask" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/safeSpaceSeekbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.su.social.feedblack.widget.RecommendFeedBlackVideoControlView android:id="@id/videoControlView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/videoView" app:layout_constraintEnd_toEndOf="@id/videoView" app:layout_constraintStart_toStartOf="@id/videoView" app:layout_constraintTop_toTopOf="@id/videoView" />
+    <LinearLayout android:id="@id/layoutTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:layout_constraintBottom_toTopOf="@id/safeSpaceSeekbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/textCurrent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" / " />
+        <TextView android:textSize="20.0sp" android:textColor="@color/white_60" android:id="@id/textTotal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/safeSpaceSeekbar" android:layout_width="fill_parent" android:layout_height="0.100000024dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</com.gotokeep.keep.su.social.feedblack.mvp.view.RecommendFeedBlackVideoView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:enabled="false" android:textSize="16.0sp" android:textColor="@color/fd_color_confirm_btn_text" android:gravity="center" android:id="@id/btnConfirm" android:background="@drawable/fd_bg_state_register_guide_button" android:layout_width="82.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:text="@string/confirm" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginTop="20.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/fd_color_555456" android:gravity="center" android:id="@id/btnSecret" android:background="@drawable/fd_bg_stroke_f6f4ff_corner_22dp" android:layout_width="82.0dip" android:layout_height="40.0dip" android:text="@string/fd_keep_secret" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/btnConfirm" app:layout_constraintTop_toTopOf="@id/btnConfirm" />
+</androidx.constraintlayout.widget.ConstraintLayout>

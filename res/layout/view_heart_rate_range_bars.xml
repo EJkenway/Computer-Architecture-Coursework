@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dip" android:minHeight="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/viewRange1" android:background="@drawable/bg_gray_cc_corner_2dp" android:layout_width="5.0dip" android:layout_height="8.0dip" android:alpha="0.4" />
+    <View android:id="@id/viewRange2" android:background="@drawable/bg_light_blue_corner_2dp" android:layout_width="5.0dip" android:layout_height="8.0dip" android:alpha="0.4" android:layout_marginStart="4.0dip" />
+    <View android:id="@id/viewRange3" android:background="@drawable/bg_light_green_corner_2dp" android:layout_width="5.0dip" android:layout_height="8.0dip" android:alpha="0.4" android:layout_marginStart="4.0dip" />
+    <View android:id="@id/viewRange4" android:background="@drawable/bg_light_green_corner_2dp" android:layout_width="5.0dip" android:layout_height="8.0dip" android:alpha="0.4" android:layout_marginStart="4.0dip" />
+    <View android:id="@id/viewRange5" android:background="@drawable/bg_wheat_corner_2dp" android:layout_width="5.0dip" android:layout_height="8.0dip" android:alpha="0.4" android:layout_marginStart="4.0dip" />
+    <View android:id="@id/viewRange6" android:background="@drawable/bg_pink_corner_2dp" android:layout_width="5.0dip" android:layout_height="8.0dip" android:alpha="0.4" android:layout_marginStart="4.0dip" />
+</LinearLayout>

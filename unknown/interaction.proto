@@ -1,0 +1,20 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "Interaction";
+
+message InteractionType {
+    uint32 type = 1;
+    uint32 icon = 2;
+    string content = 3;
+}
+
+message InteractionStatus {
+    uint32 status = 1;
+}
+
+message InteractionCount {
+    uint32 type = 1;
+    uint32 count = 2;
+    uint32 utc = 3;
+    uint32 ms = 4;
+}

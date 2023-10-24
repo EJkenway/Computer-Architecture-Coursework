@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.entry.mvp.entry.view.VideoEntryDetailTitleView android:background="@drawable/bg_white_top_corner_24dp" android:layout_width="fill_parent" android:layout_height="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_22" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/comment_all" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black_38" android:id="@id/textClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/collapse" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.su.social.entry.mvp.entry.view.VideoEntryDetailTitleView>

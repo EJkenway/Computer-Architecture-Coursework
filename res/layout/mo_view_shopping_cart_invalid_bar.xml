@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.shoppingcart.view.ShoppingCartInvalidBarView android:background="@drawable/mo_shadow_bg_top_round" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:text="@string/mo_invalid_goods" android:layout_marginStart="14.0dip" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/keepLabelColorPrimary" android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/textClear" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="12.0dip" android:text="@string/mo_clear" />
+    <View android:layout_gravity="bottom" android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</com.gotokeep.keep.mo.business.store.activity.shoppingcart.view.ShoppingCartInvalidBarView>

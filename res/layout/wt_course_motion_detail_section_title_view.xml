@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseMotionDetailSectionTitleView android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivTag" android:layout_width="3.0dip" android:layout_height="14.0dip" android:src="@drawable/wt_bg_6d51f4_corner_4dp" android:contentDescription="@string/app_name" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/tvTitleLayout" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="@id/tvTitleLayout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tvTitleLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="23.0dip" android:layout_marginEnd="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_333333" android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseMotionDetailSectionTitleView>

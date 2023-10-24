@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/discountArea" android:background="@color/color_fcf4dc" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="8.0sp" android:textColor="@color/gray_33" android:id="@id/tvDiscountTitle" android:background="@drawable/km_bg_suit_gold_4dp_solid" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/km_suit_discount" android:layout_centerVertical="true" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:id="@id/tvDiscountInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/tvDiscountTitle" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/icon_more_vip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/vipJoinArea" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_below="@id/discountArea">
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:id="@id/skuClickArea" android:paddingLeft="16.0dip" android:layout_width="139.0dip" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:layout_centerVertical="true">
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/pink" android:id="@id/tvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/pink" android:id="@id/tvPriceDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/tvPrice" android:layout_alignBaseline="@id/tvPrice" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/gray_99" android:id="@id/tvOriginPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/tvPriceDes" android:layout_alignBaseline="@id/tvPrice" />
+            <com.gotokeep.keep.commonui.view.ResizableDrawableTextView android:textSize="10.0sp" android:textColor="@color/gray_33" android:id="@id/tvPriceType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/icon_right_lined_gray" android:drawablePadding="2.0dip" android:layout_below="@id/tvPrice" app:drawableRightHeight="12.0dip" app:drawableRightWidth="12.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/tvJoin" android:background="@drawable/km_background_round_gradient" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/skuClickArea" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/tvStart" android:background="@drawable/km_selector_gold_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/tvFreeMember" android:background="@drawable/km_selector_gold_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_centerVertical="true" />
+</merge>

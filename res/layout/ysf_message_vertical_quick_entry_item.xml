@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/ysf_bg_bot_product_detail_dialog" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_margin="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ysf_quick_entry_iv" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/ysf_text_size_12" android:textColor="@color/ysf_black_333333" android:ellipsize="end" android:gravity="center" android:id="@id/ysf_quick_entry_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:text="催发货催发货催发货催发货催发货催发货催发货" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "ABTest";
+
+message ABTestInfo{
+    uint32 sport_act_switch = 1;
+    bytes reserved_switch = 2;
+}
+
+message ABTestSetStatus {
+    uint32 status = 1;
+}

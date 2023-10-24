@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_time_line" android:background="@color/community_gray" android:layout_width="4.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_alignTop="@id/text_logistics_detail_info" android:layout_alignBottom="@id/text_logistics_detail_time" />
+    <ImageView android:id="@id/img_logistics_detail_time_point" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/shape_time_point_bg_focused" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/color_price_text" android:gravity="center_vertical" android:id="@id/text_logistics_detail_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_marginBottom="7.0dip" android:maxLines="3" android:includeFontPadding="false" android:layout_toRightOf="@id/img_logistics_detail_time_point" android:layout_alignTop="@id/img_logistics_detail_time_point" android:layout_toEndOf="@id/img_logistics_detail_time_point" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/nine_gray" android:id="@id/text_logistics_detail_time" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/text_logistics_detail_info" android:layout_alignLeft="@id/text_logistics_detail_info" />
+</RelativeLayout>

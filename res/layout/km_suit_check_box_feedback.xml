@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitFeedbackQuestionView android:layout_width="fill_parent" android:layout_height="68.0dip" android:paddingStart="40.0dip" android:paddingEnd="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/tvContent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="@dimen/dimen_5dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/imageStatus" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imageStatus" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/km_icon_uncheck_circle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/divider" android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="parent" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitFeedbackQuestionView>

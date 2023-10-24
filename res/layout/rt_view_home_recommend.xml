@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.home.mvp.view.HomeRecommendView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layoutRecommendTopInfo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="194.0dip" layout="@layout/rt_view_home_recommend_top" />
+    <View android:id="@id/viewGradientBackground" android:background="@color/gray_fc" android:layout_width="fill_parent" android:layout_height="195.0dip" android:layout_alignParentBottom="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/viewRecommendList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="133.0dip" android:layout_alignBottom="@id/viewGradientBackground" />
+    <View android:background="@drawable/rt_bg_home_recommend_selector" android:layout_width="77.0dip" android:layout_height="77.0dip" android:layout_marginBottom="153.0dip" android:layout_alignBottom="@id/viewGradientBackground" android:layout_centerHorizontal="true" />
+</com.gotokeep.keep.rt.business.home.mvp.view.HomeRecommendView>

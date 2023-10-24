@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/statsCategoryView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/statsStepInfo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="114.0dip" app:layout_constraintTop_toTopOf="parent" layout="@layout/dc_stats_target_properties" />
+    <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="@id/statsStepInfo" />
+    <include android:id="@id/statsPropertiesInfo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="114.0dip" app:layout_constraintTop_toTopOf="parent" layout="@layout/dc_stats_properties_header_view" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="statsStepInfo,statsPropertiesInfo" />
+    <com.gotokeep.keep.dc.business.widget.statsbarchart.StatsSlidePageBarChart android:id="@id/statsBarChart" android:background="@color/gray_f5" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="237.0dip" app:layout_constraintTop_toBottomOf="@id/barrier" />
+    <include android:id="@id/statsNoHourly" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="244.0dip" app:layout_constraintTop_toBottomOf="@id/barrier" layout="@layout/dc_stats_open_day_record_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

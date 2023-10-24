@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+
+message ConnectParam {
+  // 底层传输的最大有效载荷值，单位字节，一般为蓝牙 MTU-3
+  uint32 mtu = 1;
+  // 每帧的最大长度，单位字节 ，建议值为 5*mtu
+  uint32 mfs = 2;
+  // 每帧数据，是否需要传输层 ack 应答，需要ack应答可提高传输可靠性，但可能会降低传输速率，0：传输层进行 nack 应答，1：传输层进行 ack 应答
+  uint32 need_ack = 3;
+}

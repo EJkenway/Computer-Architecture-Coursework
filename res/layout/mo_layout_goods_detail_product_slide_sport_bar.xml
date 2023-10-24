@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sportHint" android:background="@color/color_f6f4ff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingStart="12.0dip" android:paddingEnd="13.0dip">
+        <ImageView android:id="@id/hintIcon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/mo_icon_product_side_slide_bar_sport_unlock" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_22" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/hintDes" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:lines="1" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/gotoSports" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/color_846ffe" android:gravity="center_vertical" android:id="@id/gotoSportsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mo_go_to_exercise" />
+            <ImageView android:id="@id/arrowIcon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/mo_icon_arrow_right_green" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.mo.common.widget.shape.MoShapeLinearLayout android:id="@id/normalBuyBtn" android:layout_marginStart="16.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/sportBuyBtn" app:layout_constraintTop_toTopOf="parent" app:mo_shape_corners_radius="28.0dip" app:mo_shape_stroke_color="@color/color_584f60" app:mo_shape_stroke_width="0.5dip" style="@style/mo_product_side_detail_sport_bottom_button_style">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/color_584f60" android:id="@id/normalPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_584f60" android:id="@id/normalPriceDsc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mo_normal_buy_price" android:layout_marginStart="6.0dip" />
+        </com.gotokeep.keep.mo.common.widget.shape.MoShapeLinearLayout>
+        <com.gotokeep.keep.mo.common.widget.shape.MoShapeLinearLayout android:id="@id/sportBuyBtn" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintLeft_toRightOf="@id/normalBuyBtn" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:mo_shape_corners_radius="28.0dip" app:mo_shape_solid_color="@color/color_846ffe" style="@style/mo_product_side_detail_sport_bottom_button_style">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/sportPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/sportPriceDsc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mo_sport_buy_price" android:layout_marginStart="6.0dip" />
+        </com.gotokeep.keep.mo.common.widget.shape.MoShapeLinearLayout>
+        <ImageView android:id="@id/sportIcon" android:layout_width="60.0dip" android:layout_height="25.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/mo_icon_product_side_sport_button" app:layout_constraintRight_toRightOf="@id/sportBuyBtn" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

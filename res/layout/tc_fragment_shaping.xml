@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.shaping.mvp.view.ShapingView android:id="@id/pageView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutMainBg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/tc_bg_hardware_top" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="parent" />
+        <View android:background="@drawable/tc_bg_c2cada_d9e2ec_00" android:layout_width="fill_parent" android:layout_height="69.0dip" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.gotokeep.keep.tc.business.hardware.common.widget.HardwareTitleBar android:id="@id/layoutToolbar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintTop_toTopOf="parent" app:tc_add_status_bar_height="true" app:tc_title="@string/tc_shaping_page_title" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/listShaping" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutToolbar" />
+    <include android:id="@id/layoutSelector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintTop_toBottomOf="@id/layoutToolbar" layout="@layout/tc_item_course_selector" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutToolbar" />
+    <include android:id="@id/skeletonView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutToolbar" layout="@layout/tc_fragment_smart_repo_repo_empty" />
+</com.gotokeep.keep.tc.business.shaping.mvp.view.ShapingView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:gravity="end" android:id="@id/text_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/text_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/text_time" android:layout_alignParentStart="true" />
+</RelativeLayout>

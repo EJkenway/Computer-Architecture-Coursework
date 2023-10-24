@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.widget.roundcorner.RCConstraintLayout android:layout_width="400.0dip" android:layout_height="225.0dip" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="w,16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivAdImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivAdClose" android:padding="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ad_white_close" app:layout_constraintRight_toRightOf="@id/ivAdImageView" app:layout_constraintTop_toTopOf="@id/ivAdImageView" />
+</com.gotokeep.keep.commonui.widget.roundcorner.RCConstraintLayout>

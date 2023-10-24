@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.personalpage.mvp.main.view.PersonalFollowView android:background="@drawable/su_bg_white_corner_42dp" android:layout_width="fill_parent" android:layout_height="84.0dip" android:elevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/su_bg_follow" android:scaleType="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.uilib.CircleImageView android:id="@id/imgFollowAvatar" android:layout_width="68.0dip" android:layout_height="68.0dip" android:layout_marginLeft="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="88.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="18.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_click_to_follow" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_get_update_to_trends" />
+    </LinearLayout>
+    <ImageView android:id="@id/imgFollow" android:padding="10.0dip" android:layout_width="47.0dip" android:layout_height="47.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/su_ic_follow_add" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.profile.personalpage.mvp.main.view.PersonalFollowView>

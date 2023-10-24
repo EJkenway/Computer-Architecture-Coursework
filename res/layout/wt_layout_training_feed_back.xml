@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clContent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/textFeedback" android:paddingTop="26.0dip" android:paddingBottom="26.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/train_feed_back" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/ivFeedBack" app:layout_constraintTop_toBottomOf="@id/dividerFeedBack" style="@style/TextMedium" />
+    <ImageView android:id="@id/ivFeedBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_icon_arrow_right_m" android:contentDescription="@string/app_name" app:layout_constraintBottom_toBottomOf="@id/textFeedback" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/textFeedback" />
+    <View android:id="@id/dividerFeedBack" android:background="@color/black_08" android:layout_width="0.0dip" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

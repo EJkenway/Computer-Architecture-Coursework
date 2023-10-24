@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/textFuseTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="merge数据" />
+        <TextView android:id="@id/textFuse" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/textBandWearTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="手环步数数据" />
+        <TextView android:id="@id/textBandWear" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/textSourseTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="原始数据" />
+        <TextView android:id="@id/textSourse" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

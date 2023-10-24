@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.RecentMotionEntranceCardView android:layout_width="128.0dip" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgCover" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:maxLines="1" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toTopOf="@id/textTitle" app:layout_constraintStart_toStartOf="parent" />
+</com.gotokeep.keep.km.suit.mvp.view.RecentMotionEntranceCardView>

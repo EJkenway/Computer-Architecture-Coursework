@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.walkman.mvp.view.WalkmanFreeTrainingHeaderView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height_12dp" android:layout_marginBottom="@dimen/font_size_24dp" />
+    <include layout="@layout/kt_view_walkman_training_header_info" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/font_size_30dp">
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/kt_walkman_keepkit" android:layout_centerVertical="true" android:rotation="270.0" android:layout_marginStart="5.0dip" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="100.0dip" android:textColor="@color/white" android:id="@id/tv_current_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/kt_unit_km" android:layout_toRightOf="@id/tv_current_value" android:layout_alignBaseline="@id/tv_current_value" />
+    </RelativeLayout>
+</com.gotokeep.keep.kt.business.walkman.mvp.view.WalkmanFreeTrainingHeaderView>

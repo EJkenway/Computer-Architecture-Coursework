@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/ysf_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/ysf_pb_msl_default_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@android:style/Widget.ProgressBar.Small" />
+    <TextView android:textSize="15.0sp" android:textColor="#ffa9b7b7" android:id="@id/ysf_tv_msl_default_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/ysf_loading_str" android:layout_toRightOf="@id/ysf_pb_msl_default_loading" android:layout_centerVertical="true" />
+</RelativeLayout>

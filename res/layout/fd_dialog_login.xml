@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/recycler_view_divider_ef_1px" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/layout_login_weibo" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/fd_ic_login_dialog_weibo" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/wei_bo" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/layout_login_email" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/fd_ic_login_dialog_email" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/fd_email" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/layout_login_facebook" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/fd_ic_login_dialog_facebook" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/facebook" />
+    </LinearLayout>
+</LinearLayout>

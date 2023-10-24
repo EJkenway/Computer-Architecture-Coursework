@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white_60" android:ellipsize="end" android:id="@id/textCourseDesc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/textCourseName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="2" android:lineSpacingExtra="4.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textCourseDesc" app:layout_goneMarginTop="0.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

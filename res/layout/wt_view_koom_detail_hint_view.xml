@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutTrainTogetherHint" android:background="@color/wt_koom_detail_hint_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="#ff8272ff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/textHint" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:text="\ 23434535423535" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="#cc8272ff" android:gravity="center_vertical" android:id="@id/textDetail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:text="详情" android:includeFontPadding="false" />
+    <ImageView android:id="@id/imgArrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/wt_icon_koom_detail_hint_arrow" />
+</LinearLayout>

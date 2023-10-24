@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.setting.mvp.view.StorageView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/textTitle" android:text="@string/setting_storage_space" style="@style/SettingMainText" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:gravity="center_vertical" android:id="@id/textUpdateTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableRight="@drawable/icon_arrow_right_m_gray" android:drawablePadding="-4.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" />
+</com.gotokeep.keep.fd.business.setting.mvp.view.StorageView>

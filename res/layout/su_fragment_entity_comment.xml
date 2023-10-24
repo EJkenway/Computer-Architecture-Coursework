@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.dreamtobe.kpswitch.widget.KPSwitchRootRelativeLayout android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/viewTitleBar" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:title="@string/comment" style="@style/ItemCustomTitleBar" />
+    <include android:id="@id/viewEntryContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:layout_below="@id/viewTitleBar" layout="@layout/su_view_entity_comment_content" />
+    <com.gotokeep.keep.su.widget.KeyboardWithEmotionPanelLayout android:id="@id/viewKeyboardPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="49.0dip" android:layout_alignParentBottom="true" />
+</cn.dreamtobe.kpswitch.widget.KPSwitchRootRelativeLayout>

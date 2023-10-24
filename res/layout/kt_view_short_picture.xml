@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.share.mvp.view.OutdoorShortPictureView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/layout_container" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="23.0dip" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/layout_composed_image" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/img_treadmill_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+                <include android:id="@id/item_share_bottom" android:layout_width="fill_parent" android:layout_height="60.0dip" layout="@layout/item_outdoor_share_bottom" />
+            </LinearLayout>
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:src="@drawable/icon_outdoor_share_run_logo" android:layout_marginStart="12.0dip" />
+        </RelativeLayout>
+    </ScrollView>
+</com.gotokeep.keep.kt.business.common.share.mvp.view.OutdoorShortPictureView>

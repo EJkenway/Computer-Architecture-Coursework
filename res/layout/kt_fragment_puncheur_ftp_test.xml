@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/ftpView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/headerView" />
+        <com.gotokeep.keep.kt.business.common.widget.KitWebTitleBarView android:id="@id/headerView" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" />
+    </RelativeLayout>
+    <com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurTrainingPrepareView android:id="@id/vPrepare" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/viewFtpTestDialog" layout="@layout/kt_view_puncheur_ftp_test_dialog" />
+    <LinearLayout android:orientation="vertical" android:id="@id/vEmpty" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height">
+            <ImageView android:id="@id/imgEmptyBack" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_arrow_left_black" />
+        </LinearLayout>
+        <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

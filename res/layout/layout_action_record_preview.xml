@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_action_training_record_preview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="19.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/text_start_training" android:background="@color/light_green" android:layout_width="fill_parent" android:layout_height="@dimen/training_progress_bottom_height" android:text="@string/action_start_training" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/adjust_the_perspective" android:layout_above="@id/text_start_training" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/img_record_back" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/icon_action_record_back" />
+    <ImageView android:id="@id/img_switch_camera" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/icon_action_record_switch_camera" android:layout_centerHorizontal="true" />
+</RelativeLayout>

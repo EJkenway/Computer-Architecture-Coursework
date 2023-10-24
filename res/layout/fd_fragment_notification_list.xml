@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.notificationcenter.refactor.mvp.view.ConversationListView android:id="@id/layout_message_root_view" android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:add_status_bar_height="false" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:right_icon_clickable="true" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/listNotificationList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/layoutBottomFunc" android:layout_below="@id/title_bar" />
+    <include android:id="@id/layoutTopPrompt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_bar" layout="@layout/fd_view_top_prompt" />
+    <include android:id="@id/layoutBottomFunc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/fd_view_message_bottom_func" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.fd.business.notificationcenter.refactor.mvp.view.ConversationListView>

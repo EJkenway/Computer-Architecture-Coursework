@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "DeviceSysTime";
+
+message SysTime {
+  //格林威治时间
+  uint32 utc = 1;
+  //相对于 0 时区的偏移分钟数，如：-60 表示相对于 0 时区偏移 -60 分钟，即比 0 时区慢 60 分钟，对应于UTC-1（CVT — 佛得角标准时间）；60 表示相对于 0 时区偏移 +60 分钟，即比 0 时区快 60 分钟，对应于UTC+1（CET — 欧洲中部时区）
+  int32 time_zone = 2;
+  //时间显示格式，0 ：24小时制，1 ：12小时制
+  uint32 display_type = 3;
+}

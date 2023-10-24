@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.widget.RelativeLayout3654118 android:id="@id/ui_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ui_framework__fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/fakeTitleBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:alpha="0.0" app:add_status_bar_height="true" app:background_color="@color/white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title="@string/recommend_name" app:title_color="@color/black_87" app:title_size="16.0sp" style="@style/ItemCustomTitleBar" />
+    <include android:id="@id/layoutPreloadTransition" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/fakeTitleBar" layout="@layout/su_view_preload_transition" />
+</com.gotokeep.keep.commonui.widget.RelativeLayout3654118>

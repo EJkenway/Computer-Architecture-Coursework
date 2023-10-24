@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.audiopackage.mvp.view.AudioDetailView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_background_blur" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/img_background_cover" android:background="@drawable/rt_outdoor_music_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/title_bar_height" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_width="266.0dip" android:layout_height="266.0dip" android:src="@drawable/rt_outdoor_audio_cover_shadow" android:layout_centerInParent="true" android:contentDescription="@string/audio_cover" />
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_cover" android:layout_width="200.0dip" android:layout_height="200.0dip" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="8.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/btn_try" android:background="@drawable/rt_selector_bg_for_50dp_height" android:layout_width="70.0dip" android:layout_height="28.0dip" android:text="@string/try_to_listen" style="?android:borderlessButtonStyle" />
+        </LinearLayout>
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/text_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="40.0dip" android:maxLines="4" android:lineSpacingMultiplier="1.2" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+        <include layout="@layout/layout_train_page_bottom" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.audiopackage.mvp.view.AudioDetailView>

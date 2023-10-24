@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.view.SummaryRecyclerView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom" />
+    <RelativeLayout android:id="@id/viewTitleBar" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_dd" android:id="@id/finish" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/finish" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_arrow_left_lined" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_share_android_filled" />
+            <ImageView android:id="@id/more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/kt_ic_more" android:layout_marginStart="10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/viewTitleBarShadow" android:background="@drawable/bg_upload_shadow_light" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_below="@id/viewTitleBar" android:alpha="0.0" android:rotation="180.0" />
+    <include android:id="@id/bottom" android:layout_width="fill_parent" android:layout_height="@dimen/keloton_summary_empty_height" android:layout_alignParentBottom="true" layout="@layout/kt_widget_keloton_summary_bottom" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/summary_empty" android:background="@color/purple" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip" />
+    <View android:id="@id/view_share_mask" android:background="@color/black_70" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

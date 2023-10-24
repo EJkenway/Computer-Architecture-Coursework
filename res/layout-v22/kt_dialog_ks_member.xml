@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layoutKsMember" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginHorizontal="50.0dip">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgKsMemberCover" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="290:386" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/imgKsMemberClose" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/kt_icon_circle_close" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgKsMemberCover" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

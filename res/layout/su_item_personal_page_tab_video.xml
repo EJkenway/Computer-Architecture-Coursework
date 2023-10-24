@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.personalpage.mvp.subtab.view.ItemTabVideoView android:orientation="vertical" android:background="@color/white" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/page_horizontal_margin" android:paddingEnd="@dimen/page_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/su_item_video" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.gotokeep.keep.su_core.utils.html.RichTextView android:textSize="16.0sp" android:textColor="@color/color_3d3d3d" android:ellipsize="end" android:id="@id/richTvContent" android:paddingTop="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="3.0dip" />
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_38" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/textDesc" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginTop="3.0dip" android:maxLines="1" />
+</com.gotokeep.keep.profile.personalpage.mvp.subtab.view.ItemTabVideoView>

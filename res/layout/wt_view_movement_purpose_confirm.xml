@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.setting.mvp.view.MovementPurposeConfirmView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white_40" android:layout_gravity="center_horizontal" android:id="@id/textPurposeSaveDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/purpose_from_this_week" android:lineSpacingMultiplier="1.1" />
+    <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btnMovementPurposeSave" android:background="@drawable/selector_movement_purpose_btn" android:layout_width="fill_parent" android:layout_height="@dimen/height_50dp" android:layout_marginLeft="46.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="46.0dip" android:layout_marginBottom="27.0dip" android:text="@string/str_confirm" />
+</com.gotokeep.keep.wt.business.setting.mvp.view.MovementPurposeConfirmView>

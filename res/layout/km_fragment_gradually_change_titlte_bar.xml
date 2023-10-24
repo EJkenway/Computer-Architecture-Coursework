@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layoutView" android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="LinearLayoutManager" />
+    <View android:id="@id/titleBg" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:alpha="0.0" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/suitTitleBar" android:visibility="gone" app:background_color="@color/transparent" app:left_icon="@color/transparent" app:title_color="@color/transparent" app:title_size="18.0sp" style="@style/ItemCustomTitleBar" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/viewSuitJoinWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.gotokeep.keep.km.suit.mvp.view.SuitBuyerShowView android:id="@id/viewBuyerShow" android:background="@color/black_40" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" />
+        <com.gotokeep.keep.km.suit.mvp.view.SuitJoinView android:id="@id/viewSuitJoin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.gotokeep.keep.km.suit.mvp.view.SuitPreviewJoinView android:id="@id/viewSuitPreviewJoin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/netErrorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/suitTitleBar" />
+</RelativeLayout>

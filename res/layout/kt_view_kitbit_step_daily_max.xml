@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.StepMaxView android:orientation="vertical" android:id="@id/view_step_daily_max" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/kt_step_daily_detail_max_title" android:layout_marginStart="14.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="61.0dip" android:layout_marginBottom="61.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="44.0dip" android:textColor="@color/purple" android:id="@id/tvMaxSteps" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/purple" android:id="@id/tvMaxStepsUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/step_short" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/tvMaxStepsDate" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.StepMaxView>

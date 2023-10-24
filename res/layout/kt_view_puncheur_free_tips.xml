@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurTrainingFreeTipsView android:visibility="invisible" android:layout_width="342.0dip" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgTipsBg" android:background="@drawable/kt_bg_puncheur_free_tips" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    <ImageView android:id="@id/imgTouch" android:layout_width="@dimen/dimen_32dp" android:layout_height="@dimen/dimen_32dp" android:layout_marginTop="@dimen/dimen_22dp" android:src="@drawable/kt_icon_puncheur_free_touch" android:layout_marginStart="@dimen/dimen_28dp" app:layout_constraintStart_toStartOf="@id/imgTipsBg" app:layout_constraintTop_toTopOf="@id/imgTipsBg" />
+    <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/black" android:id="@id/textTipsContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_6dp" app:layout_constraintBottom_toBottomOf="@id/imgTouch" app:layout_constraintStart_toEndOf="@id/imgTouch" app:layout_constraintTop_toTopOf="@id/imgTouch" />
+    <ImageView android:id="@id/imgTipsClose" android:layout_width="@dimen/dimen_24dp" android:layout_height="@dimen/dimen_24dp" android:src="@drawable/ic_line_close_16" android:layout_marginEnd="@dimen/dimen_28dp" app:layout_constraintBottom_toBottomOf="@id/imgTouch" app:layout_constraintEnd_toEndOf="@id/imgTipsBg" app:layout_constraintTop_toTopOf="@id/imgTouch" />
+</com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurTrainingFreeTipsView>

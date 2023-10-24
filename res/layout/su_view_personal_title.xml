@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.personalpage.mvp.main.view.PersonalTitleView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="82.0dip" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewBg" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <View android:id="@id/viewHolder" android:layout_width="fill_parent" android:layout_height="26.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_below="@id/viewHolder">
+        <ImageView android:id="@id/imgBack" android:paddingLeft="16.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="56.0dip" android:src="@drawable/ic_line_arrow_left" android:scaleType="centerInside" android:tint="@color/white" android:paddingStart="16.0dip" android:paddingEnd="6.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/layoutTitleInfo" android:layout_width="0.0dip" android:layout_height="56.0dip" android:layout_weight="1.0" android:alpha="0.0">
+            <com.gotokeep.keep.commonui.widget.avatar.VerifiedAvatarView android:id="@id/imgAvatarWithAuth" android:padding="5.0dip" android:layout_width="28.0dip" android:layout_height="28.0dip" app:verified_size="@dimen/font_size_10dp" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/textName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/tools_text_user_name" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/textRelation" android:background="@drawable/white_border_corner_50_rect" android:layout_width="69.0dip" android:layout_height="28.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/imageEditCover" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/su_icon_edit_personal_bg" />
+        <ImageView android:id="@id/imgAction" android:padding="6.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_line_more" />
+    </LinearLayout>
+</com.gotokeep.keep.profile.personalpage.mvp.main.view.PersonalTitleView>

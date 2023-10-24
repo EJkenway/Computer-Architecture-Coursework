@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/headerView" layout="@layout/kt_view_walkman_target_training_header" />
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/font_size_30dp" />
+        <include android:id="@id/cardView" layout="@layout/kt_view_walkman_workout_training_card" />
+        <include layout="@layout/kt_view_walkman_training_pause" />
+    </LinearLayout>
+</RelativeLayout>

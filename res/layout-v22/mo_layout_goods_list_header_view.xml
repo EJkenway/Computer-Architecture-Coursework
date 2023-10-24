@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/middleContentView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/mo_layout_goods_list_header_middle_content_view" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/purchaseListView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/middleContentView" />
+    <View android:id="@id/divider" android:background="@color/mo_fafafa" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="12.0dip" app:layout_constraintLeft_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/purchaseListView" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_333333" android:id="@id/titleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" android:text="@string/mo_collect_order_area" android:layout_marginStart="16.0dip" android:layout_marginVertical="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

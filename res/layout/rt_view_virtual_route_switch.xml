@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/rt_bg_virtual_route_switch" android:padding="2.0dip" android:layout_width="145.0dip" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/viewVirtual" android:background="@drawable/rt_selector_vr_item_bg" android:layout_width="72.0dip" android:layout_height="32.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/rt_selector_vr_item_fg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_virtual_route" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/viewReal" android:background="@drawable/rt_selector_vr_item_bg" android:layout_width="72.0dip" android:layout_height="32.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/rt_selector_vr_item_fg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_real_route" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

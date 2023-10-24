@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kt_kibra_bind_guide_image_height">280.0dip</dimen>
+    <dimen name="kt_kibra_bind_guide_image_width">315.0dip</dimen>
+    <dimen name="kt_mesh_glow_size">480.0dip</dimen>
+    <dimen name="kt_mesh_local_device_size">262.0dip</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cover_in_cover_preview_layout" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginRight="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.wt.business.exercise.view.StepCoverView android:id="@id/cover_in_cover_preview" android:layout_width="fill_parent" android:layout_height="305.0dip" />
+    <com.gotokeep.keep.wt.business.exercise.view.TipsLinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/tips_in_cover_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" app:tip_text_layout="@layout/layout_tip_in_preview" />
+</LinearLayout>

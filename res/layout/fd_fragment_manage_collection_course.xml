@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/customTitleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:left_icon="@drawable/icon_close_lined_dark" app:title="@string/fd_manage_collection_course_title" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/countContainer" android:layout_width="fill_parent" android:layout_height="66.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_44" android:id="@id/textSelectedCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textAllCount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/listCourse" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bottomContainer" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toTopOf="parent" />
+        <CheckBox android:textSize="16.0sp" android:textColor="@color/gray_44" android:id="@id/btnSelectAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/fd_manage_course_checkbox" android:text="@string/select_all" android:paddingStart="12.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/color_e63a30" android:id="@id/textDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

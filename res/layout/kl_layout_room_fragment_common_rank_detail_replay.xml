@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kl.business.keeplive.liveroom.view.KeepLiveRecyclerView android:id="@id/recyclerPuncheurRank" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/layoutBottom" app:layout_constraintTop_toBottomOf="@id/layoutTop" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white_60" android:gravity="center" android:id="@id/textPuncheurListEmpty" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/kl_live_room_rank_empty" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/recyclerPuncheurRank" app:layout_constraintTop_toTopOf="@id/recyclerPuncheurRank" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutTop" android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/viewMyselfTop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" layout="@layout/kl_view_room_puncheur_rank_item" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutBottom" android:background="@drawable/kl_bg_gray59_right_bottom_corners" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@color/white_10" app:layout_constraintBottom_toBottomOf="parent">
+        <include android:id="@id/viewMyselfBottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/kl_view_room_puncheur_rank_item" />
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/white_60" android:gravity="center" android:id="@id/textPuncheurLink" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/kl_live_room_rank_puncheur_link" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

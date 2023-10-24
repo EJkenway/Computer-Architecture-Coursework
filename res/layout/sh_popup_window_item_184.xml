@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.share.uistyle.impl.view.SharePlatformItemView android:layout_width="62.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iconPlatform" android:layout_width="52.0dip" android:layout_height="52.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/textPlatformTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10" android:maxLines="1" app:layout_constraintEnd_toEndOf="@id/iconPlatform" app:layout_constraintStart_toStartOf="@id/iconPlatform" app:layout_constraintTop_toBottomOf="@id/iconPlatform" />
+</com.gotokeep.keep.share.uistyle.impl.view.SharePlatformItemView>

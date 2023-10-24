@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switch_raise_wrist_enable" android:saveEnabled="true" app:mainText="@string/kt_kitbit_raise_wrist_invoke" style="@style/SettingSingleItemWithClick" />
+    <TextView android:textSize="@dimen/default_normal_size" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="16.0dip" android:text="@string/kt_kitbit_wrist_invoke_tips" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switch_raise_wrist_touch_enable" android:saveEnabled="true" app:mainText="@string/kt_kitbit_wake_on_touch" style="@style/SettingSingleItemWithClick" />
+    <TextView android:textSize="@dimen/default_normal_size" android:id="@id/tips1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="16.0dip" android:text="@string/kt_kitbit_touch_tips" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switch_raise_wrist_nightmode_enable" android:saveEnabled="true" app:mainText="@string/kt_kitbit_nightmode" style="@style/SettingSingleItemWithClick" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/setting_nightmode_start_time" android:visibility="gone" app:mainText="@string/kt_start_time" style="@style/SettingSingleItemWithClick" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/setting_nightmode_end_time" android:visibility="gone" android:layout_marginTop="0.5dip" app:mainText="@string/kt_end_time" style="@style/SettingSingleItemWithClick" />
+    <TextView android:textSize="@dimen/default_normal_size" android:id="@id/tips2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="16.0dip" android:text="@string/kt_kitbit_night_tips" />
+</merge>

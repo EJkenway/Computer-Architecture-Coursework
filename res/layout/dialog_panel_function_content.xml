@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dialogContainer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:gravity="center" android:id="@id/header_left_function" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/font_size_14dp" android:maxLines="1" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:gravity="center" android:id="@id/header_right_function" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginRight="14.0dip" android:maxLines="1" android:layout_alignParentRight="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:gravity="center" android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="50.0dip" android:maxLines="1" android:layout_centerHorizontal="true" />
+    <View android:id="@id/header_line" android:background="#ffebebeb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/header_title" />
+    <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/footer" android:layout_below="@id/header_line" />
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:gravity="center" android:id="@id/footer" android:background="@color/light_green" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

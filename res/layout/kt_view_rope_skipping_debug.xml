@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.kitos.heartrate.guide.rope.TrainRopeSkippingDebugView android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SeekBar android:id="@id/speedBar" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:max="400" android:thumb="@drawable/kt_ic_flash" android:layout_marginStart="40.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/debugSwitch" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/black" android:id="@id/debugSpeedText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" app:layout_constraintBottom_toTopOf="@id/speedBar" app:layout_constraintStart_toStartOf="@id/speedBar" />
+    <TextView android:id="@id/debugTotalCountText" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/speedBar" app:layout_constraintEnd_toEndOf="@id/speedBar" />
+    <TextView android:id="@id/debugTotalText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_total_number" app:layout_constraintBaseline_toBaselineOf="@id/debugTotalCountText" app:layout_constraintEnd_toStartOf="@id/debugTotalCountText" />
+    <Switch android:id="@id/debugSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="debug 开关" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.kt.kitos.heartrate.guide.rope.TrainRopeSkippingDebugView>

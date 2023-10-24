@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white_38" android:layout_gravity="center_horizontal" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextMedium" />
+    <TextView android:textSize="@dimen/font_size_16sp" android:textStyle="bold" android:textColor="@color/white_87" android:layout_gravity="center_horizontal" android:id="@id/textScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

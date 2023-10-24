@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.main.mvp.view.HomeMyTrainExpandItemView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/main_color" android:id="@id/expand_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expand_all" android:layout_centerInParent="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/icon_course_expand" android:layout_toLeftOf="@id/expand_all" android:layout_centerVertical="true" android:contentDescription="@string/expand" />
+</com.gotokeep.keep.tc.main.mvp.view.HomeMyTrainExpandItemView>

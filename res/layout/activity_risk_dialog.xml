@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/white_bg_corner4_shape" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="5.0dip" app:cardElevation="0.0dip" app:cardPreventCornerOverlap="false">
+        <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/web_view_keep" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/custom_bar" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

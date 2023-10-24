@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/btnBack" android:fitsSystemWindows="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/icon_arrow_left_lined" android:scaleType="center" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/btnDelete" android:fitsSystemWindows="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/su_ic_delete_lined" android:scaleType="center" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/light_green" android:gravity="center" android:id="@id/textEdit" android:fitsSystemWindows="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="center" android:text="@string/edit" app:layout_constraintRight_toLeftOf="@id/btnDelete" app:layout_constraintTop_toTopOf="@id/btnDelete" />
+    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/textPageLabel" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="50.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

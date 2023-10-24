@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/rt_treadmill_workout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/pick_distance_title_text_size" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pick_distance_title_margin_top" android:text="@string/treadmill_pick_distance" android:lineSpacingExtra="2.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pick_distance_picker_margin_top">
+        <com.gotokeep.keep.commonui.widget.picker.WheelView android:id="@id/wheel_view" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/rt_treadmill_workout_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km_chinese" android:layout_centerVertical="true" android:layout_toEndOf="@id/wheel_view" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/rt_treadmill_workout_prompt" android:gravity="bottom" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/pick_distance_prompt_margin_bottom" android:text="@string/treadmill_pick_distance_tip" android:layout_weight="1.0" />
+    <Button android:textSize="@dimen/green_button_text_size" android:textColor="@android:color/white" android:id="@id/btn_confirm" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/outdoor_horizontal_margin" android:layout_marginRight="@dimen/outdoor_horizontal_margin" android:layout_marginBottom="@dimen/green_button_margin_bottom" android:text="@string/str_confirm" />
+</LinearLayout>

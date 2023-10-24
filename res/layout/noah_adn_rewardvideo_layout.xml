@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/noah_fl_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.noah.replace.SdkVideoView android:id="@id/noah_hc_rewardvideo_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.noah.sdk.player.HCNetImageView android:id="@id/noah_hc_rewardvideo_img_first_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.noah.adn.huichuan.view.rewardvideo.view.HCRewardVideoBannerView android:layout_gravity="bottom" android:id="@id/noah_hc_rewardvideo_banner_view" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" />
+    </FrameLayout>
+    <include layout="@layout/noah_adn_rewardvideo_topbar" />
+    <FrameLayout android:id="@id/noah_fl_falling_rain_container" android:background="@drawable/noah_hc_falling_rain_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="294.0dip" android:layout_height="29.0dip" android:layout_marginTop="172.0dip" android:src="@drawable/noah_hc_red_rain_text" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/noah_hc_reward_tips_view" android:visibility="gone" android:layout_width="323.0dip" android:layout_height="330.0dip" android:layout_marginTop="220.0dip" android:src="@drawable/noah_hc_reward_tips_bg" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/noah_hc_reward_tips_bn_close" android:background="@drawable/noah_hc_red_rain_bn_close" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="574.0dip" />
+    </FrameLayout>
+</merge>

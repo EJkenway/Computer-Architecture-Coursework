@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SleepDistributionItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_size_14sp" android:textStyle="bold" android:textColor="@color/ysf_black_222222" android:id="@id/textName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.gotokeep.keep.commonui.view.RTLProgressBar android:layout_gravity="center_vertical" android:id="@id/bar" android:layout_width="198.0dip" android:layout_height="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/textTime" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/black_40" android:id="@id/textPercent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SleepDistributionItemView>

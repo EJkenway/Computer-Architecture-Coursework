@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/viewAppBar" layout="@layout/su_view_community_app_bar_experiment" />
+        <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <include android:id="@id/layoutPostButton" layout="@layout/su_view_post_button_layout" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/layoutUploadTaskWindow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:layout_marginStart="16.0dip" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.own.mvp.view.MyCourseMoreCourseGuideView android:layout_width="fill_parent" android:layout_height="82.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/nine_gray" android:id="@id/textMoreCourseGuide" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/imgMore" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgMore" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/icon_more_grey" android:scaleType="centerInside" android:tint="@color/nine_gray" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/textMoreCourseGuide" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/textMoreCourseGuide" app:layout_constraintTop_toTopOf="@id/textMoreCourseGuide" />
+</com.gotokeep.keep.wt.business.course.own.mvp.view.MyCourseMoreCourseGuideView>

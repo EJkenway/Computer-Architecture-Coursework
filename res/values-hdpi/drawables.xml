@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="ysf_file_folder_style_yellow">false</item>
+    <item type="drawable" name="ysf_message_image_cover_left">false</item>
+    <item type="drawable" name="ysf_message_image_cover_left_pressed">false</item>
+    <item type="drawable" name="ysf_message_image_cover_right">false</item>
+    <item type="drawable" name="ysf_message_image_cover_right_pressed">false</item>
+    <item type="drawable" name="ysf_video_capture_start_btn">false</item>
+    <item type="drawable" name="ysf_video_capture_stop_btn">false</item>
+    <item type="drawable" name="ysf_work_sheet_priority_urgent">false</item>
+    <item type="drawable" name="ysf_work_sheet_priority_very_urgent">false</item>
+</resources>

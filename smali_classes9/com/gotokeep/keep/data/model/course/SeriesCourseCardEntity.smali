@@ -1,0 +1,28 @@
+.class public final Lcom/gotokeep/keep/data/model/course/SeriesCourseCardEntity;
+.super Ljava/lang/Object;
+.source "SeriesCourseCardEntity.kt"
+
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation runtime Lkotlin/a;
+.end annotation
+
+
+# instance fields
+.field private final card:Lcom/gotokeep/keep/data/model/course/Card;
+
+.field private final occurBeforeEnd:I
+
+
+# virtual methods
+.method public final a()Lcom/gotokeep/keep/data/model/course/Card;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/course/SeriesCourseCardEntity;->card:Lcom/gotokeep/keep/data/model/course/Card;
+
+    return-object v0
+.end method

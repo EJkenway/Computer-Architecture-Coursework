@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="9.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textKgNumber" android:background="@drawable/su_bg_mine_kg_level_verify" android:layout_width="wrap_content" android:layout_height="20.0dip" android:paddingStart="24.0dip" android:paddingEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/levelImg" android:background="@drawable/su_icon_mine_kg_level" android:layout_width="22.0dip" android:layout_height="22.0dip" app:layout_constraintBottom_toBottomOf="@id/textKgNumber" app:layout_constraintStart_toStartOf="@id/textKgNumber" app:layout_constraintTop_toTopOf="@id/textKgNumber" />
+</merge>

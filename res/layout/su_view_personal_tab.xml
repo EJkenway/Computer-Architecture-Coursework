@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.personalpage.mvp.main.view.PersonalTabLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabStrip" app:pIndicatorColor="@color/color_7a76f5" app:pIndicatorHeight="3.0dip" app:pIndicatorPaddingBottom="5.0dip" app:pIndicatorRadius="3.0dip" app:pIndicatorWidth="12.0dip" app:pUnderlineColor="@color/gray_ef" app:pUnderlineHeight="0.0dip" style="@style/train_indicator_tab_strip" />
+</com.gotokeep.keep.profile.personalpage.mvp.main.view.PersonalTabLayout>

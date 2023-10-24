@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:id="@id/hourView" style="@style/mo_repurchase_coupon_countdown_time_style" />
+    <TextView style="@style/mo_repurchase_coupon_countdown_tag_style" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:id="@id/minusView" style="@style/mo_repurchase_coupon_countdown_time_style" />
+    <TextView style="@style/mo_repurchase_coupon_countdown_tag_style" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:id="@id/secondView" style="@style/mo_repurchase_coupon_countdown_time_style" />
+</LinearLayout>

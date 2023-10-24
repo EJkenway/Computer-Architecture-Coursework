@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.RecentMotionCardListView android:background="@drawable/km_bg_8dp_white_shadow_with_stroke" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@android:color/black" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_18dp" android:paddingStart="@dimen/page_horizontal_margin" android:paddingEnd="@dimen/page_horizontal_margin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle" layout="@layout/km_view_recent_motion_list" />
+</com.gotokeep.keep.km.suit.mvp.view.RecentMotionCardListView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.survey.SurveyOptionView android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progressDrawable="@drawable/tc_progress_survey_option_ratio" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/tvOptionDesc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="24.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/tvProportion" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginEnd="24.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/tvProportion" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.tc.business.home.mvp.view.survey.SurveyOptionView>

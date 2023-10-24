@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.detail.mvp.setting.view.CourseDetailSettingView android:orientation="vertical" android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header" layout="@layout/wt_course_detail_dialog_common_header" />
+    <View android:id="@id/control_position_of_merge_layout" android:layout_width="fill_parent" android:layout_height="0.100000024dip" app:layout_constraintTop_toBottomOf="@id/view_line" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerFuncList" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="131.0dip" android:layout_marginTop="50.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:id="@id/bottomSheetItemsScrollView" android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="344.0dip" android:layout_marginTop="181.0dip" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutItems" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/layoutExerciseExplain" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/wt_view_course_detail_explain_setting" />
+            <include android:id="@id/layoutLive" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" layout="@layout/wt_item_live_status_settings" />
+            <include android:id="@id/layoutKitbitGame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" layout="@layout/wt_item_kitbit_game_settings" />
+        </LinearLayout>
+    </ScrollView>
+</com.gotokeep.keep.wt.business.course.detail.mvp.setting.view.CourseDetailSettingView>

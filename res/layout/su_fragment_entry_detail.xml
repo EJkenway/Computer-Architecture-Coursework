@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.dreamtobe.kpswitch.widget.KPSwitchRootRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/viewTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/viewStatusBarHolder" layout="@layout/su_item_title_bar_user_info" />
+    <include android:id="@id/viewEntryContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/viewTitleBar" layout="@layout/su_view_entry_detail_content" />
+    <com.gotokeep.keep.su.social.entry.mvp.entry.view.EntryDetailBottomActionView android:id="@id/viewBottomAction" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/viewInputPanelStub" android:layout="@layout/su_view_entry_detail_input_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.su.social.playlist.mvp.view.VideoProfileGuideView android:id="@id/viewProfileGuide" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</cn.dreamtobe.kpswitch.widget.KPSwitchRootRelativeLayout>

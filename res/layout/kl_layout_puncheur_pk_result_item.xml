@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kl.module.puncheurpk.mvp.view.PuncheurPkResultItemView android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imageAvatar" android:layout_width="26.0dip" android:layout_height="26.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/textUsername" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="81.0dip" android:lines="1" android:layout_marginStart="7.0dip" app:layout_constraintBottom_toBottomOf="@id/imageAvatar" app:layout_constraintStart_toEndOf="@id/imageAvatar" app:layout_constraintTop_toTopOf="@id/imageAvatar" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/textScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="111.0dip" app:layout_constraintBottom_toBottomOf="@id/imageAvatar" app:layout_constraintStart_toEndOf="@id/imageAvatar" app:layout_constraintTop_toTopOf="@id/imageAvatar" />
+    <Space android:id="@id/spaceThumb" android:layout_width="44.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" />
+    <LinearLayout android:gravity="center" android:id="@id/layoutThumb" android:layout_width="44.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/imageThumb" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/kl_pk_result_pat" />
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieThumb" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" app:layout_constraintBottom_toBottomOf="@id/spaceThumb" app:layout_constraintEnd_toEndOf="@id/spaceThumb" app:layout_constraintStart_toStartOf="@id/spaceThumb" app:layout_constraintTop_toTopOf="@id/spaceThumb" app:lottie_fileName="kl_pk_result_pat.json" />
+</com.gotokeep.keep.kl.module.puncheurpk.mvp.view.PuncheurPkResultItemView>

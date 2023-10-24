@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.picture.mvp.view.OutdoorNewShortPictureView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/layoutContainer" android:layout_width="295.0dip" android:layout_height="316.0dip" android:layout_marginTop="144.0dip" android:layout_marginBottom="66.0dip" android:layout_centerHorizontal="true" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" app:cardCornerRadius="12.0dip" app:cardElevation="8.0dip">
+        <RelativeLayout android:background="@color/white" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imgAvatar" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_share_title" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/imgAvatar" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/textTitle" android:layout_alignStart="@id/textTitle" />
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgShare" android:layout_width="fill_parent" android:layout_height="210.0dip" android:layout_marginTop="16.0dip" android:adjustViewBounds="true" android:layout_below="@id/imgAvatar" />
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/layoutDistance" android:background="@drawable/bg_fafafa_radius_4dp" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="6.0dip" android:layout_alignTop="@id/imgShare" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" android:layout_marginStart="6.0dip" android:layout_alignStart="@id/imgShare">
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="20.0dip" android:textStyle="bold" android:id="@id/textDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_584f60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_km_chinese" android:layout_marginStart="2.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/imgLogo" android:layout_width="48.0dip" android:layout_height="16.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/fd_icon_keep_logo" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_below="@id/imgShare" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</com.gotokeep.keep.rt.business.picture.mvp.view.OutdoorNewShortPictureView>

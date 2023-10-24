@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.xtool.mvp.view.OutdoorActivityOptimizeItemView android:orientation="vertical" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:id="@id/tvSection" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/rt_optimize_candidate_best" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:text="@string/rt_optimize_candidate_title_format" />
+    <RelativeLayout android:background="@drawable/rt_selector_bg_optimize_item" android:padding="1.5dip" android:layout_width="fill_parent" android:layout_height="202.0dip">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgTrack" android:layout_width="fill_parent" android:layout_height="156.0dip" android:src="@drawable/rt_bg_optimize_item_full" android:scaleType="centerCrop" />
+        <RelativeLayout android:background="@drawable/rt_bg_optimize_item_info" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="28.0sp" android:textColor="@color/gray_33" android:id="@id/tvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/number_1" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/purple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km_chinese" android:layout_alignBaseline="@id/tvDistance" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/tvDistance" />
+            <ImageView android:duplicateParentState="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/rt_selector_optimize_item_check_box" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.xtool.mvp.view.OutdoorActivityOptimizeItemView>

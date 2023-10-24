@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.athleticassessment.mvp.view.AthleticCalibrationView android:id="@id/calibrationView" android:background="@color/color_3a3340" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center|top" android:id="@id/topCircleView" android:background="@drawable/km_bg_athletic_celibration_circle" android:layout_width="172.0dip" android:layout_height="172.0dip" />
+    <View android:layout_gravity="bottom|center" android:id="@id/bottomCircleView" android:background="@drawable/km_bg_athletic_celibration_circle" android:layout_width="172.0dip" android:layout_height="172.0dip" />
+    <TextView android:textSize="80.0sp" android:textColor="@color/km_color_fffeff" android:layout_gravity="center" android:id="@id/startHintText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km_make_two_circle_closer" />
+    <TextView android:textSize="40.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/finishHintText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/km_keep_phone_still" />
+    <com.gotokeep.keep.widget.RankCircleProgressView android:layout_gravity="center" android:id="@id/progressView" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="200.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/imgProgressIcon" android:background="@color/white" android:padding="46.0dip" android:visibility="gone" android:layout_width="172.0dip" android:layout_height="172.0dip" android:src="@drawable/ic_line_check" app:tint="@color/light_green" />
+</com.gotokeep.keep.km.athleticassessment.mvp.view.AthleticCalibrationView>

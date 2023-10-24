@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.training.completion.mvp.view.GroupLogItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/white_60" android:ellipsize="end" android:id="@id/textContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_constrainedWidth="true" app:layout_constraintEnd_toStartOf="@id/textCount" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white_60" android:id="@id/textCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="40.0dip" app:layout_constraintEnd_toStartOf="@id/textDuration" app:layout_constraintStart_toEndOf="@id/textContent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white_60" android:id="@id/textDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.wt.business.training.completion.mvp.view.GroupLogItemView>

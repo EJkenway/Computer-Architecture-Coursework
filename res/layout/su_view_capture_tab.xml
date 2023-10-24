@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutTab" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="bottom" android:id="@id/viewPoint" android:background="@drawable/circle_white_solid_drawable" android:visibility="invisible" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginBottom="8.0dip" android:elevation="4.0dip" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ysf_fl_Photo" android:layout_width="81.0dip" android:layout_height="81.0dip">
+        <ImageView android:layout_gravity="bottom" android:id="@id/ysf_iv_Photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ysf_leave_msg_select_photo_default_back" android:scaleType="fitXY" />
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/ysf_iv_leave_msg_video_tag" android:focusable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ysf_leave_msg_add_back" android:contentDescription="" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/ysf_iv_delete" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ysf_photograph_close" />
+    </FrameLayout>
+</LinearLayout>

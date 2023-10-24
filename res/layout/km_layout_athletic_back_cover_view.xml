@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.athleticassessment.mvp.view.AthleticBackCoverView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layoutTopMask" android:background="@drawable/km_bg_transparent_black60" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="112.0dip">
+        <TextView android:textSize="@dimen/font_size_24sp" android:textColor="@color/white" android:id="@id/textBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_32dp" android:text="@string/km_tip_detect_back" android:layout_marginStart="@dimen/dimen_54dp" />
+    </FrameLayout>
+    <View android:id="@id/maskBottomView" android:background="@drawable/km_bg_black60_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="112.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</com.gotokeep.keep.km.athleticassessment.mvp.view.AthleticBackCoverView>

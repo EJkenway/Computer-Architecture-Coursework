@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.business.suitlist.mvp.view.SuitListRecommendSuitView android:background="@drawable/km_bg_ffffff_f7f7f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/textModuleTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:layout_constraintBottom_toTopOf="@id/recyclerRecommendSuit" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerRecommendSuit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:overScrollMode="never" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textModuleTitle" />
+    <View android:layout_width="wrap_content" android:layout_height="18.0dip" app:layout_constraintTop_toBottomOf="@id/recyclerRecommendSuit" />
+</com.gotokeep.keep.km.business.suitlist.mvp.view.SuitListRecommendSuitView>

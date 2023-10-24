@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/ui_framework__title" android:visibility="gone" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:left_icon_clickable="true" app:right_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <FrameLayout android:id="@id/ui_framework__fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/rt_home_tab_bg_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.rt.business.home.mvp.view.HomeTabsView android:id="@id/layoutTab" android:layout_width="fill_parent" android:layout_height="@dimen/rt_home_tab_height" app:layout_constraintBottom_toBottomOf="parent" />
+    <com.gotokeep.keep.rt.business.home.widget.MiniOutdoorBar android:id="@id/outdoorBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="54.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/viewHomeEmpty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

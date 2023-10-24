@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.heart.mvp.view.HeartRateSearchItemView android:layout_width="fill_parent" android:layout_height="70.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="46.0dip" android:layout_marginRight="46.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="15.0dip" android:text="Keep手环" android:singleLine="true" android:layout_toLeftOf="@id/add" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:id="@id/mac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginTop="4.0dip" android:text="32:24:52:52:62" android:layout_below="@id/name" />
+    <ImageView android:id="@id/add" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="46.0dip" android:src="@drawable/kt_icon_add_circle_dark" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/searching" android:padding="4.0dip" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="46.0dip" android:src="@drawable/ic_rotating_loading_gray_small" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.gotokeep.keep.kt.business.heart.mvp.view.HeartRateSearchItemView>

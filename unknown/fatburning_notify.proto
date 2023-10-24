@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "FatburningNority";
+
+message FatburningNotifyControl
+{
+    uint32 enable = 1;
+}

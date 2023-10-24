@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheurshadow.freetraining.mvp.view.PuncheurShadowFilterPlayerView android:background="@color/black_40" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/viewPuncheurFrameLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/imgCover" android:background="@color/a_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:alpha="0.0" />
+</com.gotokeep.keep.kt.business.puncheurshadow.freetraining.mvp.view.PuncheurShadowFilterPlayerView>

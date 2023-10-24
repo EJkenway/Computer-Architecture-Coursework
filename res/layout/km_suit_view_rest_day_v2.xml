@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitRestDayV2View android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="52.0dip" android:paddingStart="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/km_ic_suit_leave" app:tint="@color/gray_cc" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:id="@id/tvInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="7.0dip" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitRestDayV2View>

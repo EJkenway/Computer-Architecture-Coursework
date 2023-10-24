@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:background="@color/white" android:layout_width="@dimen/rt_home_user_avatar_size" android:layout_height="@dimen/rt_home_user_avatar_size" app:round_corner="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:background="@color/color_e9fdf4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" app:layout_constraintBottom_toBottomOf="@id/viewAvatars" app:layout_constraintStart_toStartOf="@id/textTrainingTitle" app:layout_constraintTop_toTopOf="@id/viewAvatars" app:round_corner="14.0dip" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="lottie/rt_home_training_card_first.json" app:lottie_loop="true" />
+</com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>

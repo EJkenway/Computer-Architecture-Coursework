@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/customTitleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:left_icon_clickable="true" app:title="配置详情页" style="@style/ItemCustomTitleBar" />
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:textAlignment="center" />
+    <TextView android:textSize="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="配置详情：" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sensorRecyclerView" android:scrollbars="none" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+    <TextView android:textSize="20.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tvSetTemplate" android:background="@drawable/kt_bg_rectangle_green_round_50dp" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="40.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="50.0dip" android:text="点击下发算法配置" />
+</LinearLayout>

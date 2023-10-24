@@ -1,0 +1,145 @@
+.class public final Lfm2/b;
+.super Lcom/gotokeep/keep/tc/api/bean/BaseHomepageSectionModel;
+.source "LPictureRTextModel.kt"
+
+# interfaces
+.implements Lsl2/a;
+
+
+# instance fields
+.field public final g:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final h:Ljava/lang/String;
+
+.field public final i:Lcom/gotokeep/keep/data/model/home/recommend/LPictureRTextEntity;
+
+.field public final j:Z
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/Map;Lcom/gotokeep/keep/data/model/home/recommend/LPictureRTextEntity;Z)V
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "+",
+            "Ljava/lang/Object;",
+            ">;",
+            "Lcom/gotokeep/keep/data/model/home/recommend/LPictureRTextEntity;",
+            "Z)V"
+        }
+    .end annotation
+
+    const-string v0, "lPictureRTextEntity"
+
+    invoke-static {p2, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x6
+
+    const/4 v6, 0x0
+
+    move-object v1, p0
+
+    move-object v2, p1
+
+    .line 2
+    invoke-direct/range {v1 .. v6}, Lcom/gotokeep/keep/tc/api/bean/BaseHomepageSectionModel;-><init>(Ljava/util/Map;Ljava/lang/String;Lcom/gotokeep/keep/data/model/ad/AdModel;ILij3/h;)V
+
+    iput-object p2, p0, Lfm2/b;->i:Lcom/gotokeep/keep/data/model/home/recommend/LPictureRTextEntity;
+
+    iput-boolean p3, p0, Lfm2/b;->j:Z
+
+    .line 3
+    invoke-virtual {p2}, Lcom/gotokeep/keep/data/model/home/BaseRecommendItemEntity;->a()Ljava/util/Map;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lfm2/b;->g:Ljava/util/Map;
+
+    .line 4
+    invoke-virtual {p2}, Lcom/gotokeep/keep/data/model/home/recommend/LPictureRTextEntity;->j()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lfm2/b;->h:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Ljava/util/Map;Lcom/gotokeep/keep/data/model/home/recommend/LPictureRTextEntity;ZILij3/h;)V
+    .locals 0
+
+    and-int/lit8 p4, p4, 0x4
+
+    if-eqz p4, :cond_0
+
+    const/4 p3, 0x0
+
+    .line 1
+    :cond_0
+    invoke-direct {p0, p1, p2, p3}, Lfm2/b;-><init>(Ljava/util/Map;Lcom/gotokeep/keep/data/model/home/recommend/LPictureRTextEntity;Z)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Ljava/util/Map;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lfm2/b;->g:Ljava/util/Map;
+
+    return-object v0
+.end method
+
+.method public getSchema()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lfm2/b;->h:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final i1()Lcom/gotokeep/keep/data/model/home/recommend/LPictureRTextEntity;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lfm2/b;->i:Lcom/gotokeep/keep/data/model/home/recommend/LPictureRTextEntity;
+
+    return-object v0
+.end method
+
+.method public final j1()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lfm2/b;->j:Z
+
+    return v0
+.end method

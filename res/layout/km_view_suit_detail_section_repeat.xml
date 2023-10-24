@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.business.suitdetail.mvp.view.SuitDetailSectionRepeatView android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginTop="@dimen/dimen_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivUpCircle" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/km_icon_up_step_circle" android:contentDescription="@string/app_name" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/tvTitle" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="@id/tvTitle" />
+    <ImageView android:id="@id/ivTag" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/km_icon_repeat_step" android:contentDescription="@string/app_name" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="@id/tvTitle" app:layout_constraintStart_toEndOf="@id/ivUpCircle" app:layout_constraintTop_toTopOf="@id/tvTitle" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_666666" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/ivTag" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.km.business.suitdetail.mvp.view.SuitDetailSectionRepeatView>

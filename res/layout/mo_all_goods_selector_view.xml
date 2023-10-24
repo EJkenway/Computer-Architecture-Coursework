@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layoutCategory" android:layout_width="0.0dip" android:layout_height="fill_parent" android_custom:layout_constraintEnd_toStartOf="@id/layoutFactor" android_custom:layout_constraintStart_toStartOf="parent" android_custom:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:gravity="center" android:layout_gravity="center" android:id="@id/textCategory" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="全部分类" android:drawableRight="@drawable/mo_arrow_down" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layoutFactor" android:layout_width="0.0dip" android:layout_height="fill_parent" android_custom:layout_constraintEnd_toStartOf="@id/layoutPrice" android_custom:layout_constraintStart_toEndOf="@id/layoutCategory" android_custom:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:gravity="center" android:layout_gravity="center" android:id="@id/textSort" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="智能排序" android:drawableRight="@drawable/mo_arrow_down" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layoutPrice" android:layout_width="0.0dip" android:layout_height="fill_parent" android_custom:layout_constraintEnd_toEndOf="parent" android_custom:layout_constraintStart_toEndOf="@id/layoutFactor" android_custom:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:gravity="center" android:layout_gravity="center" android:id="@id/textPrice" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="价格区间" android:drawableRight="@drawable/mo_arrow_down" android_custom:layout_constraintEnd_toEndOf="parent" android_custom:layout_constraintStart_toEndOf="@id/textFactor" android_custom:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

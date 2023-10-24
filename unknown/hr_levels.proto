@@ -1,0 +1,19 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "HRLevel";
+
+// 心率区间
+message HRLevelsInfo {
+    // 跑步心率区间 缓和热身 对应的心率最大值 （0, hr_max_lv1]
+    uint32 hr_max_lv1 = 1;
+    // 跑步心率区间 有氧耐力 对应的心率最大值 （hr_max_lv1, hr_max_lv2]
+    uint32 hr_max_lv2 = 2;
+    // 跑步心率区间 有氧动力 对应的心率最大值（hr_max_lv2, hr_max_lv3]
+    uint32 hr_max_lv3 = 3;
+    // 跑步心率区间 乳酸阈值 对应的心率最大值（hr_max_lv3, hr_max_lv4]
+    uint32 hr_max_lv4 = 4;
+    // 跑步心率区间 无氧耐力 对应的心率最大值（hr_max_lv4, hr_max_lv5]
+    uint32 hr_max_lv5 = 5;
+    // 跑步心率区间 无氧动力 对应的心率最大值（hr_max_lv5, hr_max_lv6]
+    uint32 hr_max_lv6 = 6;
+}

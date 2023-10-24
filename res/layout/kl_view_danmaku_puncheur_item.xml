@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kl.module.danmaku.PuncheurDanmakuItemView android:background="@color/transparent" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.blur.BlurView android:id="@id/blurView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:controllerType="texture" app:cornerRadius="@dimen/dimen_8dp" app:layout_constraintBottom_toBottomOf="@id/tvContent" app:layout_constraintEnd_toEndOf="@id/tvContent" app:layout_constraintStart_toStartOf="@id/tvContent" app:layout_constraintTop_toTopOf="@id/tvContent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white_70" android:id="@id/tvContent" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.kl.module.danmaku.PuncheurDanmakuItemView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_18sp" android:textStyle="bold" android:textColor="@color/kt_color_24C789" android:id="@id/textSrElectricQuantity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_13" android:layout_marginStart="22.0dip" />
+    <com.gotokeep.keep.kt.business.kitbit.widget.BatteryView android:id="@id/batteryViewSrElectricQuantity" android:layout_width="@dimen/dimen_16dp" android:layout_height="@dimen/dimen_10dp" android:layout_marginTop="@dimen/dimen_20dp" android:layout_marginStart="@dimen/dimen_4dp" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/kt_color_ff999999" android:id="@id/textSrStatusConnecting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_14dp" android:layout_marginBottom="@dimen/dimen_2dp" android:drawablePadding="2.0dip" android:layout_marginStart="22.0dip" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/kt_color_ff999999" android:id="@id/textSrStatusConnected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginBottom="@dimen/dimen_2dp" android:text="@string/kt_connected" android:layout_marginStart="@dimen/dimen_8dp" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layoutUpdateOta" android:background="@drawable/kt_green_24c789_corner_15" android:visibility="gone" android:layout_width="86.0dip" android:layout_height="28.0dip" android:layout_marginTop="@dimen/dimen_8dp" android:layout_marginStart="@dimen/dimen_14dp" app:layout_constraintStart_toEndOf="@id/textSrConnectStatus" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="@dimen/dimen_16dp" android:layout_height="16.0dip" android:src="@drawable/kt_sr_update_ota" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更新固件" />
+    </LinearLayout>
+</LinearLayout>

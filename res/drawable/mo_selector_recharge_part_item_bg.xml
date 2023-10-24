@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:drawable="@drawable/bg_for_white_color_corner_25" />
+    <item android:state_selected="true" android:drawable="@drawable/stroke_for_three_yellow_20_corner_25" />
+</selector>

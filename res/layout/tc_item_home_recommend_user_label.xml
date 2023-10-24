@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.label.UserLabelView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.avatar.KeepUserAvatarView android:id="@id/imgUser" android:layout_width="32.0dip" android:layout_height="32.0dip" app:avatar_img_margin="1.0dip" app:avatar_progress_visible="false" app:avatar_round_bg_color="@color/white" app:iconSize="12.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/person_45_45" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/textUserName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/imgUser" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/imgUser" app:layout_constraintTop_toTopOf="@id/imgUser" />
+</com.gotokeep.keep.tc.business.home.mvp.view.label.UserLabelView>

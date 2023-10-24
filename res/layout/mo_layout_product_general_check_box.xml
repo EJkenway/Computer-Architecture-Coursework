@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:id="@id/attrImageView" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:scaleType="centerCrop" app:round_corner="4.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/mo_24C789" android:ellipsize="end" android:gravity="center" android:id="@id/attrNameView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:lines="1" />
+</merge>

@@ -1,0 +1,75 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "WearWorkout";
+
+//辅助运动准备
+message PrepareWorkout {
+  //动作类型
+  uint32 workout_type = 1;
+}
+
+//辅助运动开始
+message StartWorkout {
+  //运动类型
+  uint32 workout_type = 1;
+  //是否需要3、2、1、GO，1需要 0不需要
+  uint32 count_down = 2;
+  //总进度
+  uint32 progress = 3;
+  //需要返回的数据类型，相应位为 1 表示需要返回，bit0 ：心率，bit1 ：步数
+  uint32 return_data = 4;
+  //数据
+  WorkoutInfo workout_info = 5;
+}
+
+
+message WorkoutInfo {
+  //运动状态 1运动中，2暂停， 3 休息中
+  uint32 workout_status = 1;
+  //当前进度，0 -- 100
+  uint32 current_progress = 2;
+  //目标类型，1 ：距离， 2 ：时间，3 ：消耗， 4 ：配速
+  uint32 goal_type = 3;
+  //目标值
+  uint32 goal_value = 4;
+  //支持的操作类型
+  uint32 operation_type = 5;
+  //展示数据
+  repeated DisplayData display_data = 6;
+  //运动时长
+  uint32 sport_time = 7;
+  //目标当前值
+  uint32 goal_current_value = 8;
+}
+
+message DisplayData {
+  //数据类型，1：配速，2：距离，3：消耗，4：计时/计次
+  uint32 data_type = 1;
+  //数据值
+  uint32 data_value = 2;
+}
+
+message EndWorkout {
+  //结束时，手环端是否需要先展示提示再返回表盘，0 -- 不需要展示提示，1 -- 需要展示提示
+  uint32 need_prompt = 1;
+}
+
+message EndWorkoutStatus {
+  //2 成功，1 失败
+  uint32 status = 1;
+}
+
+//辅助运动更新数据
+message WorkoutData {
+  //心率
+  uint32 heartrate = 1;
+  //活动量
+  uint32 activity = 2;
+  //步数
+  uint32 step = 3;
+}
+
+message WorkoutStatus {
+  //2成功，1失败
+  uint32 status = 1;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/wearingClose" android:padding="20.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/icon_close_big_black" />
+    <TextView android:textSize="@dimen/font_size_24sp" android:textColor="@color/gray_33" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kitbit_wearing_position" android:layout_below="@id/wearingClose" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/gray_cc" android:id="@id/subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.5dip" android:text="@string/kt_keepkit_name" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/wearingFinish" android:layout_below="@id/subTitle">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/wearingGuideImage" android:layout_width="303.0dip" android:layout_height="240.0dip" android:src="@drawable/kt_icon_kitbit_wearing_guide" />
+        <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/gray_66" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/kt_kitbit_wearing_tip" android:layout_marginStart="46.0dip" android:layout_marginEnd="46.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/wearingFinish" android:background="@drawable/kt_bg_button_enable" android:layout_width="283.0dip" android:layout_height="50.0dip" android:layout_marginBottom="28.0dip" android:text="@string/kt_kitbit_choice_hand_finish" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

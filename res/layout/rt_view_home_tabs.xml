@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/rt_home_tab_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewBg" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/rt_home_tab_bg_height" app:layout_constraintBottom_toBottomOf="parent" />
+    <View android:background="@color/rt_home_tab_border" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toTopOf="@id/viewBg" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/viewTabContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" />
+</merge>

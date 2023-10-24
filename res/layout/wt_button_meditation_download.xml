@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.meditation.mvp.view.MeditationDownloadButton android:layout_width="104.5dip" android:layout_height="104.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.CircleRestView android:id="@id/progress_bar_download_meditation" android:layout_width="fill_parent" android:layout_height="fill_parent" app:max="1000" app:roundColor="@color/meditation_progress_color" app:roundProgressColor="@color/meditation_text_color" app:roundStyle="STROKE" app:roundWidth="1.5dip" app:textColor="@color/transparent" app:textSize="0.0sp" />
+    <ImageView android:id="@id/img_middle_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wt_meditation_download" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/layout_download_progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/meditation_text_color" android:id="@id/text_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/meditation_text_color" android:id="@id/text_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.5dip" android:layout_below="@id/text_desc" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.gotokeep.keep.wt.business.meditation.mvp.view.MeditationDownloadButton>

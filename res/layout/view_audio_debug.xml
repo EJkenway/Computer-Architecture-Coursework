@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.training.mvp.view.AudioDebugView android:orientation="vertical" android:background="@color/transparent" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btnHideDebug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="隐藏调试面板" />
+    <CheckBox android:id="@id/btnPlayAd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="广告" />
+    <CheckBox android:id="@id/btnPlayHeartRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="心率指导" />
+    <CheckBox android:id="@id/btnPlayFeedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="动作反馈" />
+    <CheckBox android:id="@id/btnPlayProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="进程播报" />
+    <CheckBox android:id="@id/btnPlaySpecial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="特殊触发语音" />
+    <CheckBox android:id="@id/btnPlayCommentary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="动作指导语音" />
+    <CheckBox android:id="@id/btnPlayFlowGuide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="流程指导语音" />
+    <Button android:id="@id/btnPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放" />
+</com.gotokeep.keep.training.mvp.view.AudioDebugView>

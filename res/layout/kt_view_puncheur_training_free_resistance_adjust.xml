@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/kt_puncheur_resistance_panel_size" android:layout_height="@dimen/kt_puncheur_resistance_panel_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/vBg" android:layout_width="@dimen/kt_puncheur_resistance_panel_size" android:layout_height="@dimen/kt_puncheur_resistance_panel_size">
+        <RelativeLayout android:layout_width="@dimen/kt_puncheur_resistance_panel_size" android:layout_height="@dimen/kt_puncheur_resistance_panel_size" android:layout_centerInParent="true">
+            <RelativeLayout android:id="@id/vCircles" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gotokeep.keep.widget.RankCircleProgressView android:id="@id/pbResistanceInner" android:layout_width="140.0dip" android:layout_height="140.0dip" android:layout_centerInParent="true" />
+                <com.gotokeep.keep.widget.RankCircleProgressView android:id="@id/pbResistanceOuter" android:layout_width="248.0dip" android:layout_height="248.0dip" android:layout_centerInParent="true" />
+                <RelativeLayout android:layout_width="248.0dip" android:layout_height="248.0dip" android:layout_centerInParent="true">
+                    <View android:background="@color/white_20" android:layout_width="12.0dip" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:translationX="32.0dip" android:translationY="-45.0dip" android:rotation="136.0" />
+                    <View android:background="@color/white_20" android:layout_width="12.0dip" android:layout_height="1.0dip" android:layout_centerVertical="true" android:translationX="13.0dip" android:translationY="-52.0dip" android:rotation="30.0" />
+                    <View android:background="@color/white_20" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_centerHorizontal="true" android:translationY="1.0dip" />
+                    <View android:background="@color/white_20" android:layout_width="12.0dip" android:layout_height="1.0dip" android:layout_centerVertical="true" android:translationX="-13.0dip" android:translationY="-52.0dip" android:rotation="150.0" android:layout_alignParentEnd="true" />
+                    <View android:background="@color/white_20" android:layout_width="12.0dip" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:translationX="-35.0dip" android:translationY="-42.0dip" android:rotation="44.0" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <com.gotokeep.keep.kt.business.puncheur.widget.GradientArcProgressView android:id="@id/arcResistance" android:layout_width="@dimen/kt_puncheur_resistance_panel_size" android:layout_height="@dimen/kt_puncheur_resistance_panel_size" android:layout_centerInParent="true" />
+            <RelativeLayout android:id="@id/vDigital" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_centerInParent="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_alignParentBottom="true" android:translationX="55.0dip" android:translationY="-50.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" android:layout_centerVertical="true" android:translationX="35.0dip" android:translationY="-35.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18" android:layout_centerHorizontal="true" android:translationY="30.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="27" android:layout_centerVertical="true" android:translationX="-35.0dip" android:translationY="-35.0dip" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="36" android:layout_alignParentBottom="true" android:translationX="-55.0dip" android:translationY="-50.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/tvAdjust" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/kt_puncheur_resistance_adjust" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="72.0sp" android:textColor="@color/white" android:id="@id/tvResistancePanel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_data_default" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:paddingLeft="@dimen/mo_margin_16" android:paddingRight="@dimen/mo_margin_16" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:id="@id/goodsTotalPriceTitleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/goods_money" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/goodsTotalNumberView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBaseline_toBaselineOf="@id/goodsTotalPriceTitleView" app:layout_constraintLeft_toRightOf="@id/goodsTotalPriceTitleView" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/goodsTotalPriceView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBaseline_toBaselineOf="@id/goodsTotalPriceTitleView" app:layout_constraintRight_toRightOf="parent" />
+</merge>

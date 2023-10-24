@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.mvp.view.StoreOrderConfirmCouponBlockView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_order_coupons" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@drawable/selector_item_name_text_color" android:id="@id/text_order_coupons_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:text="@string/coupons" android:singleLine="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/img_order_coupons_arrow" android:layout_centerVertical="true" style="@style/SettingItemArrow" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:gravity="right" android:id="@id/text_order_coupons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_not_use_coupons" android:singleLine="true" android:layout_toLeftOf="@id/img_order_coupons_arrow" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/gray_66" android:id="@id/text_coupon_tag" android:background="@drawable/mo_border_66" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/mo_money_coupon" android:layout_toLeftOf="@id/text_order_coupons" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_coupon_des" android:paddingBottom="13.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.mo.business.store.mvp.view.StoreOrderConfirmCouponBlockView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ysf_album_cover" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="#de000000" android:ellipsize="end" android:id="@id/ysf_album_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:layout_toRightOf="@id/ysf_album_cover" android:layout_alignTop="@id/ysf_album_cover" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/ysf_album_cover" />
+    <TextView android:textSize="14.0sp" android:textColor="#de000000" android:ellipsize="end" android:id="@id/ysf_album_media_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:layout_toRightOf="@id/ysf_album_cover" android:layout_below="@id/ysf_album_name" android:layout_alignLeft="@id/ysf_album_name" android:layout_toEndOf="@id/ysf_album_cover" android:layout_alignStart="@id/ysf_album_name" />
+</RelativeLayout>

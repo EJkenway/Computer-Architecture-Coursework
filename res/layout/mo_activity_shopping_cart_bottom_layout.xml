@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/cartManager" android:layout="@layout/mo_activity_shopping_cart_manager" android:inflatedId="@id/cartManagerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/cartPay" android:layout="@layout/mo_activity_shopping_cart_pay" android:inflatedId="@id/cartPayView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

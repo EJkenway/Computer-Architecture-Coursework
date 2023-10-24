@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheurshadow.freetraining.mvp.view.PuncheurShadowDebugView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:layout_marginEnd="@dimen/dimen_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/white_70" android:id="@id/textCurrentDistanceTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_shadow_debug_distance" />
+            <TextView android:textColor="@color/white_70" android:id="@id/textCurrentDistanceValue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5dp">
+            <TextView android:textColor="@color/white_70" android:id="@id/textTotalDistanceTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_shadow_debug_total_distance" />
+            <TextView android:textColor="@color/white_70" android:id="@id/textTotalDistanceValue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5dp">
+            <TextView android:textColor="@color/white_70" android:id="@id/textResistanceTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_shadow_debug_resistance" />
+            <TextView android:textColor="@color/white_70" android:id="@id/textResistanceValue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5dp">
+            <TextView android:textColor="@color/white_70" android:id="@id/textRpmTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_shadow_debug_rpm" />
+            <TextView android:textColor="@color/white_70" android:id="@id/textRpmValue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5dp">
+            <TextView android:textColor="@color/white_70" android:id="@id/textSpeedTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_shadow_debug_speed" />
+            <TextView android:textColor="@color/white_70" android:id="@id/textSpeedValue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5dp">
+            <TextView android:textColor="@color/white_70" android:id="@id/textProgressTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_shadow_debug_progress" />
+            <TextView android:textColor="@color/white_70" android:id="@id/textProgressValue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5dp">
+            <TextView android:textColor="@color/white_70" android:id="@id/textStateTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_shadow_debug_status" />
+            <TextView android:textColor="@color/white_70" android:id="@id/textStateValue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5dp">
+            <TextView android:textColor="@color/white_70" android:id="@id/textFilterTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_shadow_debug_filter_value" />
+            <TextView android:textColor="@color/white_70" android:id="@id/textFilterValue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.puncheurshadow.freetraining.mvp.view.PuncheurShadowDebugView>

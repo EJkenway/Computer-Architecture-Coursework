@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/viewRoot" android:background="@drawable/rt_bg_corner_top_10dp" android:layout_width="fill_parent" android:layout_height="@dimen/rt_feeling_question_dialog_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgClose" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/icon_close_lined_dark" android:layout_marginStart="24.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/imgClose">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/black_87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_feeling_questions_title" />
+            <LinearLayout android:orientation="vertical" android:id="@id/viewQuestions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="38.0dip" />
+            <View android:layout_width="fill_parent" android:layout_height="120.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:background="@drawable/rt_bg_bottom_button_gradient_white" android:layout_width="fill_parent" android:layout_height="120.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/viewSubmit" android:background="@drawable/light_green_bg_corner25dp" android:layout_width="285.0dip" android:layout_height="50.0dip" android:layout_marginBottom="28.0dip" android:text="@string/confirm" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SleepAnalyzeCardView android:orientation="vertical" android:background="@drawable/dc_white_8dp_corners" android:paddingLeft="14.0dip" android:paddingTop="16.0dip" android:paddingRight="14.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textScoreTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dc_sleep_score" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textColor="@color/gray_22" android:id="@id/textScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutAnalyzeList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:divider="@drawable/dc_divider_height_8dp_solid_transparent" android:showDividers="middle" />
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SleepAnalyzeCardView>

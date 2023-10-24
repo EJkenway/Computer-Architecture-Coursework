@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/white_70" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="32.0sp" android:textColor="@color/white" android:gravity="bottom" android:id="@id/tvValue" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ShadowStyle" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tvUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/tvValue" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/tvValue" style="@style/ShadowStyle" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/train_be_breathing" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:lottie_autoPlay="true" app:lottie_fileName="lottie/train_be_background_normal.json" app:lottie_imageAssetsFolder="lottie/images" app:lottie_loop="true" />
+    <View android:id="@id/score_background" android:layout_width="174.0dip" android:layout_height="48.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" />
+    <com.gotokeep.keep.uilib.CircleImageView android:id="@id/img_avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" app:circle_border_color="@color/white" app:circle_border_width="2.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.view.TrainComboView android:id="@id/train_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginRight="15.0dip" android:layout_alignRight="@id/score_background" android:layout_alignParentTop="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/train_be_star" android:layout_width="250.0dip" android:layout_height="100.0dip" android:scaleType="fitXY" app:lottie_autoPlay="true" app:lottie_fileName="lottie/train_be_star.json" app:lottie_imageAssetsFolder="lottie/images" app:lottie_loop="true" />
+    <com.gotokeep.keep.kt.kitos.heartrate.guide.widget.TrainBeHitComboView android:id="@id/train_combo_hit" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</merge>

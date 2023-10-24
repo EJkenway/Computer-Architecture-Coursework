@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.recommend.mvp.view.course.filter.CourseFilterCategoryMoreView android:background="@drawable/tc_bg_tag_category_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/tc_color_tag_category_item" android:gravity="center" android:id="@id/textName" android:paddingTop="@dimen/dimen_10dp" android:paddingBottom="@dimen/dimen_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tc_icon_arrow_down_s_gray" android:layout_marginStart="3.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/textName" app:layout_constraintTop_toTopOf="@id/textName" />
+</com.gotokeep.keep.tc.business.recommend.mvp.view.course.filter.CourseFilterCategoryMoreView>

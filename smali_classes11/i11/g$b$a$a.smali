@@ -1,0 +1,197 @@
+.class public final Li11/g$b$a$a;
+.super Las/e;
+.source "KitbitDashboardViewModel.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Li11/g$b$a;->q(Li11/g$a;)Landroidx/lifecycle/LiveData;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Las/e<",
+        "Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Li11/g;
+
+.field public final synthetic b:Landroidx/lifecycle/MutableLiveData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/lifecycle/MutableLiveData<",
+            "Lfm/a<",
+            "Lwi3/f<",
+            "Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse$StepDaysData;",
+            "Ljava/lang/Integer;",
+            ">;>;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Li11/g;Landroidx/lifecycle/MutableLiveData;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Li11/g;",
+            "Landroidx/lifecycle/MutableLiveData<",
+            "Lfm/a<",
+            "Lwi3/f<",
+            "Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse$StepDaysData;",
+            "Ljava/lang/Integer;",
+            ">;>;>;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Li11/g$b$a$a;->a:Li11/g;
+
+    iput-object p2, p0, Li11/g$b$a$a;->b:Landroidx/lifecycle/MutableLiveData;
+
+    .line 1
+    invoke-direct {p0}, Las/e;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(ILcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse;Ljava/lang/String;Ljava/lang/Throwable;)V
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1, p2, p3, p4}, Las/e;->failure(ILjava/lang/Object;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 2
+    iget-object p1, p0, Li11/g$b$a$a;->a:Li11/g;
+
+    const/4 p2, 0x0
+
+    invoke-static {p1, p2}, Li11/g;->m1(Li11/g;Z)V
+
+    return-void
+.end method
+
+.method public b(Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse;)V
+    .locals 4
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x0
+
+    goto :goto_0
+
+    .line 1
+    :cond_0
+    invoke-virtual {p1}, Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse;->s1()Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse$StepDaysData;
+
+    move-result-object p1
+
+    :goto_0
+    if-nez p1, :cond_1
+
+    return-void
+
+    .line 2
+    :cond_1
+    invoke-virtual {p1}, Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse$StepDaysData;->d()Ljava/util/List;
+
+    move-result-object v0
+
+    if-nez v0, :cond_2
+
+    return-void
+
+    .line 3
+    :cond_2
+    iget-object v1, p0, Li11/g$b$a$a;->a:Li11/g;
+
+    invoke-virtual {p1}, Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse$StepDaysData;->e()Z
+
+    move-result v2
+
+    invoke-static {v1, v2}, Li11/g;->l1(Li11/g;Z)V
+
+    .line 4
+    iget-object v1, p0, Li11/g$b$a$a;->a:Li11/g;
+
+    invoke-static {v1, v0}, Li11/g;->k1(Li11/g;Ljava/util/List;)Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lij3/g0;->c(Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse$StepDaysData;->f(Ljava/util/List;)V
+
+    .line 5
+    iget-object v0, p0, Li11/g$b$a$a;->a:Li11/g;
+
+    invoke-static {v0, p1}, Li11/g;->n1(Li11/g;Ljava/lang/Object;)V
+
+    .line 6
+    iget-object v0, p0, Li11/g$b$a$a;->b:Landroidx/lifecycle/MutableLiveData;
+
+    new-instance v1, Lfm/a;
+
+    new-instance v2, Lwi3/f;
+
+    iget-object v3, p0, Li11/g$b$a$a;->a:Li11/g;
+
+    invoke-static {v3}, Li11/g;->j1(Li11/g;)I
+
+    move-result v3
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    invoke-direct {v2, p1, v3}, Lwi3/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    invoke-direct {v1, v2}, Lfm/a;-><init>(Ljava/lang/Object;)V
+
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
+
+    .line 7
+    iget-object p1, p0, Li11/g$b$a$a;->a:Li11/g;
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v0}, Li11/g;->m1(Li11/g;Z)V
+
+    return-void
+.end method
+
+.method public bridge synthetic failure(ILjava/lang/Object;Ljava/lang/String;Ljava/lang/Throwable;)V
+    .locals 0
+
+    .line 1
+    check-cast p2, Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse;
+
+    invoke-virtual {p0, p1, p2, p3, p4}, Li11/g$b$a$a;->a(ILcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic success(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse;
+
+    invoke-virtual {p0, p1}, Li11/g$b$a$a;->b(Lcom/gotokeep/keep/data/model/kitbit/StepDashboardResponse;)V
+
+    return-void
+.end method

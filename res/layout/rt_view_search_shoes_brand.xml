@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.runningshoes.mvp.view.RunningShoesBrandSearchView android:id="@id/viewRunningShoesBrandSearch" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.KeepCommonSearchBar android:id="@id/searchRunningShoesBrand" android:paddingTop="@dimen/dimen_4dp" android:paddingBottom="@dimen/dimen_4dp" android:layout_width="fill_parent" android:layout_height="@dimen/search_box_height" app:search_bar_left_icon="@drawable/rt_ic_running_shoes_brand_search" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/listSearchShoesBrand" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/searchRunningShoesBrand" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layoutRunningShoesBrandEmpty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.rt.business.runningshoes.mvp.view.RunningShoesBrandSearchView>

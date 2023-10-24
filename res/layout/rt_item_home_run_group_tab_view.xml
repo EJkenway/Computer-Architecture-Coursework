@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.home.mvp.view.HomeRunGroupTabView android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabContents" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="40.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:pDividerColor="@color/transparent" app:pIndicatorColor="@color/black" app:pIndicatorHeight="3.0dip" app:pIndicatorPaddingBottom="4.0dip" app:pIndicatorRadius="1.5dip" app:pIndicatorWidth="10.0dip" app:pTabMode="scrollable" app:pTabPaddingLeftRight="16.0dip" app:pTabTextAllCaps="false" app:pTabTextColor="@color/rt_selector_home_tab_fg" app:pTabTextSize="16.0sp" app:pUnderlineHeight="0.0dip" />
+</com.gotokeep.keep.rt.business.home.mvp.view.HomeRunGroupTabView>

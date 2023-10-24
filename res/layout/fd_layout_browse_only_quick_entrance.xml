@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.guest.quickentrance.BrowseOnlyQuickEntranceView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/listEntrance" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/layoutTopTabs" />
+    <FrameLayout android:id="@id/layoutIndicator" android:background="@drawable/fd_bg_125534c8_corner_4dp" android:layout_width="24.0dip" android:layout_height="4.0dip" android:layout_marginTop="14.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/listEntrance">
+        <View android:id="@id/viewIndicator" android:background="@drawable/fd_bg_5534c8_corner_4dp" android:layout_width="10.0dip" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.gotokeep.keep.fd.business.guest.quickentrance.BrowseOnlyQuickEntranceView>

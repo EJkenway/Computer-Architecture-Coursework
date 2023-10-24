@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SportRecommendPreviewMoreView android:background="@drawable/km_bg_recommend_preview_item_true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/ysf_grey_666666" android:gravity="center" android:layout_width="96.0dip" android:layout_height="wrap_content" android:text="@string/ysf_see_more" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.km.suit.mvp.view.SportRecommendPreviewMoreView>

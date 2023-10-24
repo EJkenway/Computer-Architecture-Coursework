@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.hashtag.mvp.list.view.HashtagDetailListContentView android:id="@id/containerView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/gradientBgView" android:background="@drawable/su_bg_gradient_white_trans_170dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="170.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/recyclerView" app:layout_constraintEnd_toEndOf="@id/recyclerView" app:layout_constraintStart_toStartOf="@id/recyclerView" app:layout_constraintTop_toTopOf="@id/recyclerView" />
+</com.gotokeep.keep.su.social.hashtag.mvp.list.view.HashtagDetailListContentView>

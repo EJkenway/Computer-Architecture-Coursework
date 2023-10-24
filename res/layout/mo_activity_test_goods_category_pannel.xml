@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/show" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="14.0dip" android:text="显示面板" />
+    <com.gotokeep.keep.mo.common.widget.SlidingTabLayoutWithoutViewPager android:id="@id/slidetab" android:background="@color/white" android:paddingLeft="@dimen/dimen_14dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="56.0dip" app:tabMode="scrollable" app:tl_indicator_color="@color/white" app:tl_indicator_height="2.0dip" app:tl_indicator_style="NORMAL" app:tl_indicator_width="0.0dip" app:tl_tab_padding="0.0dip" app:tl_tab_space_equal="true" app:tl_textBold="false" app:tl_textSelectColor="@color/light_green" app:tl_textUnselectColor="@color/gray_66" app:tl_textsize="@dimen/font_size_13sp" />
+    <com.gotokeep.keep.mo.business.store.ui.GoodsStrategySelectPanelView android:id="@id/selectPanelView" android:layout_width="fill_parent" android:layout_height="58.0dip" />
+    <com.google.android.flexbox.FlexboxLayout android:layout_width="fill_parent" android:layout_height="58.0dip" app:justifyContent="space_between">
+        <TextView android:gravity="center" android:background="@color/pink" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="测试1" />
+        <TextView android:gravity="center" android:background="@color/gray_99" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="测试1" />
+        <TextView android:gravity="center" android:background="@color/gray_99" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="测试3" />
+    </com.google.android.flexbox.FlexboxLayout>
+</LinearLayout>

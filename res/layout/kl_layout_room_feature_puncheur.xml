@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutFeature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="49.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutLotteryEnter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip" android:maxWidth="76.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageLotteryEnter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/kl_puncheur_btn_lottery_enter" android:scaleType="centerInside" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutMemberActivity" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip" android:maxWidth="89.0dip" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/layoutShop" app:layout_constraintTop_toTopOf="parent">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" app:srcCompat="@drawable/kl_two_minutes_member" />
+            <TextView android:textSize="9.0sp" android:textColor="#ffffe2b3" android:gravity="center" android:id="@id/twoMinMemberCountDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.899994dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutLiveActivity" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip" android:maxWidth="89.0dip" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/layoutShop" app:layout_constraintTop_toTopOf="parent">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgLiveActivity" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutCloseLiveActivity" android:layout_width="13.5dip" android:layout_height="13.5dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:id="@id/imgCloseLiveActivity" android:background="@drawable/kl_icon_pork_activity_close" android:layout_width="12.0dip" android:layout_height="12.0dip" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutShop" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="48.0dip" android:layout_marginStart="7.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/layoutLotteryEnter" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginStart="0.0dip">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgShopCart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/kl_puncheur_btn_shop_cart" android:scaleType="centerInside" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

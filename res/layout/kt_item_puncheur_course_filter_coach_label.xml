@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurCourseFilterCoachLabelView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.uilib.CircleImageView android:id="@id/imageCoach" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageSelected" android:background="@drawable/kt_bg_circle_solid_14b479" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" app:layout_constraintBottom_toBottomOf="@id/imageCoach" app:layout_constraintEnd_toEndOf="@id/imageCoach" app:layout_constraintStart_toStartOf="@id/imageCoach" app:layout_constraintTop_toTopOf="@id/imageCoach" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@drawable/kt_bg_000000_select_24c789" android:ellipsize="end" android:id="@id/textCoachName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxWidth="64.0dip" android:lines="1" app:layout_constraintEnd_toEndOf="@id/imageCoach" app:layout_constraintStart_toStartOf="@id/imageCoach" app:layout_constraintTop_toBottomOf="@id/imageCoach" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurCourseFilterCoachLabelView>

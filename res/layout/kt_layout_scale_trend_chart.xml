@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layoutChartTopView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="wrap_content" android:layout_height="68.0dip" />
+        <RelativeLayout android:id="@id/layoutChartSelect" android:background="@drawable/kt_image_trend_card_data" android:visibility="gone" android:layout_width="@dimen/dimen_80dp" android:layout_height="58.0dip" android:layout_marginTop="@dimen/dimen_12dp">
+            <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/black_38" android:id="@id/textSelectDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_6dp" android:text="2000.11.11" android:layout_marginStart="@dimen/dimen_8dp" />
+            <ImageView android:layout_width="@dimen/dimen_10" android:layout_height="@dimen/dimen_14dp" android:layout_marginTop="@dimen/dimen_6dp" android:src="@drawable/kt_icon_trend_small_arrow" android:layout_marginEnd="@dimen/dimen_7dp" android:layout_toEndOf="@id/textSelectDate" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_16sp" android:textColor="@color/black_87" android:id="@id/textSelectWeight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4dp" android:text="49.80" android:layout_below="@id/textSelectDate" android:layout_marginStart="@dimen/dimen_8dp" />
+            <TextView android:textSize="@dimen/font_size_9sp" android:textColor="@color/black_87" android:id="@id/textSelectWeightUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_7dp" android:text="公斤" android:layout_below="@id/textSelectDate" android:layout_marginStart="@dimen/dimen_2dp" android:layout_toEndOf="@id/textSelectWeight" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/viewSelectLine" android:background="#ffa2f2d1" android:layout_width="@dimen/dimen_1dp" android:layout_height="fill_parent" android:layout_above="@id/viewDashLineBottom" android:layout_below="@id/layoutChartTopView" />
+    <View android:id="@id/viewDashLineTop" android:background="@drawable/kt_bg_dash_line_efefef" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/viewPurposeTopView" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/black_60" android:gravity="center" android:id="@id/textNoData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_32dp" android:layout_marginBottom="45.0dip" android:text="暂无数据" android:layout_centerHorizontal="true" />
+    <View android:id="@id/viewPurposeTopView" android:background="#ffd2fae9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/dimen_24dp" android:layout_below="@id/layoutChartTopView" android:layout_marginEnd="@dimen/dimen_40dp" />
+    <View android:id="@id/viewDashLineBottom" android:background="@drawable/kt_bg_dash_line_efefef" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/layoutCharTrendDetail" />
+    <View android:id="@id/viewPurposeBottomView" android:background="#ffd2fae9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/dimen_24dp" android:layout_below="@id/viewDashLineBottom" android:layout_marginEnd="@dimen/dimen_40dp" />
+    <View android:id="@id/viewBottomLine" android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="40.0dip" android:layout_below="@id/viewPurposeBottomView" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutPurposeWeight" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="@dimen/dimen_30dp" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/kt_color_24C789" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="目标" />
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/kt_color_24C789" android:id="@id/textPurposeWeight" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/viewPurposeNormalView" android:background="#ffd2fae9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginEnd="@dimen/dimen_40dp" />
+    <RelativeLayout android:id="@id/layoutCharTrendDetail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/viewDashLineTop" android:layout_marginEnd="@dimen/dimen_12dp">
+        <com.gotokeep.keep.kt.business.kibra.widget.chart.TrendDetailLineChartView android:id="@id/chartTrendDetail" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="152.0dip" android:layout_marginStart="@dimen/dimen_12dp" android:layout_toStartOf="@id/viewChartTrendDetail" />
+        <View android:id="@id/viewChartTrendDetail" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="1.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

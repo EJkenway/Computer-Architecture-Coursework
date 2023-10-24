@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutRoot" android:background="@drawable/bg_white_top_12_corner" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layoutContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/imgPostEntry" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/icon_post_entry" app:layout_constraintEnd_toStartOf="@id/imgFollowVideo" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textColor="@color/black_87" android:id="@id/textPostEntry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="34.0dip" android:text="@string/su_entry" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/imgPostEntry" app:layout_constraintStart_toStartOf="@id/imgPostEntry" app:layout_constraintTop_toBottomOf="@id/imgPostEntry" />
+            <androidx.constraintlayout.widget.Group android:id="@id/groupEntryPost" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="imgPostEntry,textPostEntry" />
+            <ImageView android:id="@id/imgFollowVideo" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/icon_post_follow_video" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/imgPostEntry" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textColor="@color/black_87" android:id="@id/textFollowVideo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/su_special_video_title" app:layout_constraintEnd_toEndOf="@id/imgFollowVideo" app:layout_constraintStart_toStartOf="@id/imgFollowVideo" app:layout_constraintTop_toBottomOf="@id/imgFollowVideo" />
+            <androidx.constraintlayout.widget.Group android:id="@id/groupFollowVideo" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="imgFollowVideo,textFollowVideo" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

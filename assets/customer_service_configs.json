@@ -1,0 +1,113 @@
+{
+  "schemas": {
+    "0": "keep://kefu/chat?groupId=3927828&robotFirst=true&sourceTitle=订单详情页（商品）&faqId=1154019&pageTitle=&bizType=0&shouldIgnoreVipRouter=true",
+    "2": "keep://kefu/chat?groupId=3951485&robotFirst=true&sourceTitle=订单详情页（活动）&faqId=1160013&pageTitle=&bizType=2",
+    "3": "keep://kefu/chat?groupId=3951485&robotFirst=true&sourceTitle=订单详情页（充值）&faqId=1158015&pageTitle=&bizType=3",
+    "4": "keep://kefu/chat?groupId=3951485&robotFirst=false&sourceTitle=订单详情页（课包）&faqId=1181011&bizType=4",
+    "5": "keep://kefu/chat?groupId=3951485&robotFirst=true&sourceTitle=订单详情页（Keepland）&faqId=1181011&bizType=5",
+    "6": "keep://kefu/chat?groupId=3951485&robotFirst=false&sourceTitle=计划设置帮助&faqId=1150024&pageTitle=&bizType=8",
+    "7": "keep://kefu/chat?groupId=3951485&robotFirst=true&sourceTitle=订单详情页（Class）&faqId=1151013&pageTitle=&bizType=7",
+    "8": "keep://kefu/chat?groupId=3951485&robotFirst=true&sourceTitle=订单详情页（计划）&faqId=1151014&pageTitle=&bizType=8",
+    "9": "keep://kefu/chat?groupId=3951485&robotFirst=true&sourceTitle=订单详情页（会员）&faqId=1143015&pageTitle=&bizType=9",
+    "13": "keep://kefu/chat?groupId=3951485&robotFirst=true&sourceTitle=赛事主页&faqId=1203002&bizType=13",
+    "20": "keep://kefu/chat?groupId=264156655&robotFirst=true&sourceTitle=订单详情页（我的订单/轻食）&faqId=1205013&bizType=20&shouldIgnoreVipRouter=true",
+    "21": "keep://kefu/chat?groupId=264156655&robotFirst=true&sourceTitle=订单详情页（饮食）&faqId=1205013&bizType=20&shouldIgnoreVipRouter=true",
+    "intelligentTrainSignUp": "keep://kefu/chat?groupId=3951485&robotFirst=true&sourceTitle=计划咨询&faqId=1147023&pageTitle=&bizType=8",
+    "trainMarketProductDetail": "keep://kefu/chat?groupId=3927828&robotFirst=true&sourceTitle=商品详情页&faqId=1153014&pageTitle=&bizType=0&shouldIgnoreVipRouter=true",
+    "intelligentTrainGuide": "keep://kefu/chat?groupId=3951485&robotFirst=false&sourceTitle=计划进群引导&faqId=1147022&pageTitle=&bizType=8",
+    "default": "keep://kefu/chat?robotFirst=true&sourceTitle=服务中心&faqId=1147024&bizType=all&shouldIgnoreVipRouter=true"
+  },
+  "bubbleConfigs": {
+    "0": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      },
+      {
+        "buttonType": "footPrint",
+        "title": "最近浏览"
+      }
+    ],
+    "2": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "3": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "4": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "5": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "6": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "7": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "8": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "9": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "13": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "20": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "21": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      }
+    ],
+    "all": [
+      {
+        "buttonType": "sendOrder",
+        "title": "发送订单"
+      },
+      {
+        "buttonType": "footPrint",
+        "title": "最近浏览"
+      },
+      {
+        "buttonType": "jumpLink",
+        "title": "智能产品售后",
+        "link": "https://app.shb.ltd/p/104207#/"
+      }
+    ]
+  }
+}

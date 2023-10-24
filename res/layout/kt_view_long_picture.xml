@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.share.mvp.view.OutdoorLongPictureView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.view.InterceptScrollView android:id="@id/scrollView_long_pic" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/layout_long_pic_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="6.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_map_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+                <View android:id="@id/view_gradient_background" android:background="@drawable/shape_gradient_background_gray_f4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_detail_chart" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_detail_chart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+            </RelativeLayout>
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" />
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_bottom_qr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/icon_long_pic_share_qr" android:adjustViewBounds="true" android:layout_below="@id/layout_detail_chart" />
+        </RelativeLayout>
+    </com.gotokeep.keep.commonui.view.InterceptScrollView>
+</com.gotokeep.keep.kt.business.common.share.mvp.view.OutdoorLongPictureView>

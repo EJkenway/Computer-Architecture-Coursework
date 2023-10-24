@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/layoutValue" android:layout_width="wrap_content" android:layout_height="28.0dip" android:paddingStart="42.0dip" android:paddingEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="end|center" android:id="@id/textValue" android:layout_width="wrap_content" android:layout_height="28.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/textUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/imgIcon" android:layout_width="42.0dip" android:layout_height="54.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/white" android:layout_width="2.0dip" android:layout_height="16.0dip" app:layout_constraintEnd_toEndOf="@id/layoutValue" app:layout_constraintStart_toStartOf="@id/layoutValue" app:layout_constraintTop_toBottomOf="@id/layoutValue" />
+</androidx.constraintlayout.widget.ConstraintLayout>

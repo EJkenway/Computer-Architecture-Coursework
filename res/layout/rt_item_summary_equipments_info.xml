@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryEquipmentsInfoView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtSummaryCardView">
+        <RelativeLayout android:id="@id/layoutTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" style="@style/RtSummaryCardViewTitleLayout">
+            <ImageView android:id="@id/imgEquipmentsCard" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/rt_ic_summary_equipments_card" android:scaleType="fitXY" android:layout_centerVertical="true" />
+            <TextView android:id="@id/textEquipmentsCardTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_my_equipments" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/imgEquipmentsCard" style="@style/RtSummaryCardViewTitleInLayout" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layoutEquipmentsCardSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/light_green" android:id="@id/textEquipmentsCardSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/rt_ic_green_arrow_right" android:layout_marginStart="1.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerEquipments" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryEquipmentsInfoView>

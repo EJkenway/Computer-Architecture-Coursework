@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/itemImg" android:background="@drawable/fd_icon_score_upgrade_default_privilege" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/three_black" android:id="@id/itemName" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp" app:layout_constraintEnd_toEndOf="@id/itemImg" app:layout_constraintStart_toStartOf="@id/itemImg" app:layout_constraintTop_toBottomOf="@id/itemImg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

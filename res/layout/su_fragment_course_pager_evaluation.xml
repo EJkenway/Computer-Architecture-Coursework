@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.course.view.CoursePagerEvaluationView android:id="@id/coursePagerEvaluationView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.widget.recyclerview.CourseDetailChildRecyclerView android:id="@id/recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gotokeep.keep.commonui.widget.KRefreshFooter android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.gotokeep.keep.su_core.timeline.widget.preload.TimelineListPreloadView android:id="@id/preloadView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.su.social.comment.course.view.CoursePagerEvaluationView>

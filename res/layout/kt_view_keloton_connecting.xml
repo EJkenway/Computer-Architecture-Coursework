@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/keloton_connect_bg" android:paddingTop="@dimen/kt_title_bar_height" android:paddingBottom="50.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:background="@drawable/kt_bg_keloton_dash_ring" android:layout_width="248.0dip" android:layout_height="248.0dip" />
+    <com.gotokeep.keep.widget.RankCircleProgressView android:layout_gravity="center" android:id="@id/connect_progress" android:layout_width="250.0dip" android:layout_height="250.0dip" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="24.0sp" android:textColor="@color/black_60" android:id="@id/config_wifi_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/gray_cc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/kt_keepkit_name" />
+    </LinearLayout>
+</FrameLayout>

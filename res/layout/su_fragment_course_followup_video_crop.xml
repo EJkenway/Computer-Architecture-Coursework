@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.videofollowup.mvp.view.FollowUpVideoCropView android:id="@id/followUpVideoCropView" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/viewCrop" layout="@layout/su_view_video_edit_crop" />
+    <FrameLayout android:id="@id/layoutPreview" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/viewCrop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgLoadingFollowup" android:layout_width="32.0dip" android:layout_height="32.0dip" app:layout_constraintBottom_toTopOf="@id/viewCrop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/textLoading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgLoadingFollowup" />
+</com.gotokeep.keep.pb.videofollowup.mvp.view.FollowUpVideoCropView>

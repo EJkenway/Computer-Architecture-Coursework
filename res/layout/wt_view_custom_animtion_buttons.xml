@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_bg" android:layout_width="@dimen/outdoor_circle_button_size" android:layout_height="@dimen/outdoor_circle_button_size" android:scaleType="centerInside" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" app:round_corner="28.0dip">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgCoverBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_center" android:duplicateParentState="true" android:layout_width="@dimen/outdoor_circle_button_size" android:layout_height="@dimen/outdoor_circle_button_size" android:scaleType="centerInside" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/purple" android:gravity="center" android:id="@id/text_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+    <com.gotokeep.keep.commonui.view.KLabelView android:id="@id/viewTip" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="18.0dip" android:layout_marginEnd="15.0dip" android:layout_alignEnd="@id/img_bg" app:klabelStyle="redDotFill" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/f7_bg" android:paddingBottom="28.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/upgradeClose" android:padding="20.0dip" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/icon_close_big_black" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/progressLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:background="@drawable/kt_bg_ota_circle_large" android:layout_width="294.0dip" android:layout_height="294.0dip" />
+            <View android:id="@id/ringSmallView" android:background="@drawable/kt_bg_ota_circle_small" android:layout_width="256.0dip" android:layout_height="256.0dip" android:layout_centerInParent="true" />
+            <com.gotokeep.keep.widget.RankCircleProgressView android:id="@id/progressView" android:layout_width="220.0dip" android:layout_height="220.0dip" android:layout_centerInParent="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="20.0sp" android:textColor="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationX="30.0dip" />
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="80.0sp" android:textColor="@color/purple" android:id="@id/progressTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_zero" />
+                <TextView android:textSize="20.0sp" android:textColor="@color/purple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_percent" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/resettingLottieView" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginBottom="25.0dip" android:scaleType="fitStart" app:lottie_autoPlay="false" app:lottie_fileName="lottie/kit_ota_finding.json" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/doneLottieView" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginBottom="25.0dip" android:scaleType="fitStart" app:lottie_autoPlay="false" app:lottie_fileName="lottie/kit_config_wifi_success.json" />
+        <ImageView android:id="@id/failedImageView" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/kt_ic_failed" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/statusLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginRight="44.0dip">
+            <TextView android:textSize="24.0sp" android:textColor="@color/gray_33" android:id="@id/statusTitleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_ota_in_progress_format" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:gravity="center_horizontal" android:id="@id/statusDetailView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_ota_in_progress_detail" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/doneButton" android:background="@drawable/light_green_bg_corner25dp" android:visibility="gone" android:layout_width="283.0dip" android:layout_height="50.0dip" android:text="@string/kt_experience_now" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/light_green" android:gravity="center" android:id="@id/quitButton" android:background="@drawable/kt_bg_rectangle_stroke_green_round_25dp" android:visibility="gone" android:layout_width="283.0dip" android:layout_height="50.0dip" android:layout_marginTop="14.0dip" android:text="@string/str_quit" />
+    </LinearLayout>
+</RelativeLayout>

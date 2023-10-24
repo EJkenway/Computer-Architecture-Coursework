@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="16.0sp" android:textColor="@color/light_green_50" android:id="@id/textNewEngineTag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wt_new_engine_tag" android:shadowColor="@color/black_10" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

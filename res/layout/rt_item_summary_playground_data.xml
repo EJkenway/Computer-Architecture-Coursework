@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryPlaygroundDataView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtSummaryCardView">
+        <RelativeLayout android:id="@id/layoutTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" style="@style/RtSummaryCardViewTitleLayout">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutPlaygroundCardTitle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imgPlaygroundCard" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/rt_ic_summary_playground_card" android:scaleType="fitXY" />
+                <TextView android:id="@id/textPlaygroundCardTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_playground_running" android:layout_marginStart="8.0dip" style="@style/RtSummaryCardViewTitleInLayout" />
+                <ImageView android:id="@id/imgPlaygroundTip" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/icon_summary_info" android:layout_marginStart="6.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutPlaygroundCardAll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textPlaygroundCardAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_playground_show_all" android:layout_marginEnd="6.0dip" />
+                <ImageView android:id="@id/imgPlaygroundCardSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/summary_brief_switch_off" />
+            </LinearLayout>
+        </RelativeLayout>
+        <include layout="@layout/rt_layout_chart_headline" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_playground_data_index" android:layout_marginStart="16.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_playground_data_duration" android:layout_marginStart="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutPlaygroundDataContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="24.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryPlaygroundDataView>

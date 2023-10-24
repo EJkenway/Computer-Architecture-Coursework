@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SportCalendarTrainGroupV2View android:background="@drawable/km_bg_8dp_white_shadow_with_stroke" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewDecoration" android:layout_width="8.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/taskRecyclerView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/viewDecoration" />
+    <View android:id="@id/guideline" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="12.0dip" app:layout_constraintBottom_toBottomOf="@id/taskRecyclerView" />
+    <com.gotokeep.keep.km.suit.mvp.view.SportTodoTipsView android:id="@id/tipsView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/viewDecoration" app:layout_constraintTop_toBottomOf="@id/guideline" />
+</com.gotokeep.keep.km.suit.mvp.view.SportCalendarTrainGroupV2View>

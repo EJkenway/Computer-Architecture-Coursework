@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/mo_bg_gradient_light_purple_top_corner_10" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/hasCustomHeader" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_80dp" app:layout_constraintEnd_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/mo_equipment_training_has_custom_made_header" />
+    <com.gotokeep.keep.commonui.widget.nestedrecyclerview.NestedChildRecyclerView android:id="@id/customEquipments" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/hasCustomHeader" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:gravity="center" android:id="@id/reCustomEquipment" android:background="@drawable/bg_fafafa_radius_8dp" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@dimen/dimen_16dp" android:text="@string/mo_equip_re_custom" android:layout_marginStart="@dimen/mo_margin_16" android:layout_marginEnd="@dimen/mo_margin_16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/customEquipments" style="@style/TextMedium" />
+</androidx.constraintlayout.widget.ConstraintLayout>

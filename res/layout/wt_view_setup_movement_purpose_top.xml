@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.setting.mvp.view.MovementPurposeTipsView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0sp" android:textColor="@color/white" android:id="@id/textPurposeTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="46.0dip" android:text="@string/setup_a_target" />
+    <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/white" android:id="@id/textPurposeDescription" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="46.0dip" android:text="@string/in_week_training_activities" android:layout_below="@id/textPurposeTips" android:lineSpacingMultiplier="1.16" />
+</com.gotokeep.keep.wt.business.setting.mvp.view.MovementPurposeTipsView>

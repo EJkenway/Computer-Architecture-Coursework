@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/viewMap" android:layout_width="fill_parent" android:layout_height="260.0dip" layout="@layout/rt_view_activity_crop_map" />
+    <include android:id="@id/viewPanel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layoutSave" android:layout_below="@id/viewMap" layout="@layout/rt_view_activity_crop_panel" />
+    <FrameLayout android:id="@id/layoutSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:id="@id/btnSave" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/rt_save_outdoor_record" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" app:buttonRadius="27.0dip" app:loadingButtonSize="large" />
+    </FrameLayout>
+    <com.gotokeep.keep.rt.widget.AnimationButtonView android:id="@id/btnBack" android:layout_width="@dimen/outdoor_circle_button_size" android:layout_height="@dimen/outdoor_circle_button_size" android:layout_marginTop="45.0dip" android:scaleType="centerInside" android:contentDescription="@string/close" android:layout_marginStart="2.0dip" android:elevation="@dimen/summary_card_elevation" app:center_icon="@drawable/icon_close_lined_dark" />
+</RelativeLayout>

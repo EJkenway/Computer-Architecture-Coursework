@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="320.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/light_green" android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/cancel" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/light_green" android:layout_gravity="right" android:id="@id/confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/confirm" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/purple" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_keloton_route_run_together_dialog" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip">
+        <include android:id="@id/buddy_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/kt_item_dialog_keloton_route_buddy" />
+        <include android:layout_gravity="right" android:id="@id/buddy_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/kt_item_dialog_keloton_route_buddy" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/change" android:background="@color/light_green" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/kt_keloton_route_buddies_change" />
+</FrameLayout>

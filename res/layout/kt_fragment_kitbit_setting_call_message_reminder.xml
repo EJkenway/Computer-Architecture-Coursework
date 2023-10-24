@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llGroup" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/callReminderSwitch" android:saveEnabled="true" app:mainText="@string/kt_kitbit_setting_phone_call_reminder" app:settingItemDesc="@string/kt_kitbit_setting_incoming_call_reminder_tip" style="@style/SettingItemSwitch" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/wechatReminderSwitch" android:saveEnabled="true" app:mainText="@string/kt_kitbit_setting_wechat_reminder" style="@style/SettingSingleItemWithClick" />
+        <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="16.0dip" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/qqReminderSwitch" android:saveEnabled="true" app:mainText="@string/kt_kitbit_setting_qq_reminder" style="@style/SettingSingleItemWithClick" />
+        <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="16.0dip" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/smsReminderSwitch" android:saveEnabled="true" app:mainText="@string/kt_kitbit_setting_sms_reminder" style="@style/SettingSingleItemWithClick" />
+        <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="16.0dip" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/otherReminderSwitch" android:saveEnabled="true" app:mainText="@string/kt_kitbit_setting_other_reminder" style="@style/SettingSingleItemWithClick" />
+        <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/light_green" android:id="@id/noReminderHelpView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12dp" android:text="@string/kt_kitbit_setting_message_help" android:layout_below="@id/llGroup" android:layout_marginStart="@dimen/dimen_16dp" />
+</RelativeLayout>

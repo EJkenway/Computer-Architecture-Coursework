@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.business.suitdetail.mvp.view.SuitDetailOutdoorSectionTitleView android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/indicator" android:background="@color/color_6d51f4" android:layout_width="3.0dip" android:layout_height="14.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/textTitle" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/textTitle" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constraintStart_toEndOf="@id/indicator" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.km.business.suitdetail.mvp.view.SuitDetailOutdoorSectionTitleView>

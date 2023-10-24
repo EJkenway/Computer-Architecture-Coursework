@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.deviceadd.view.PermissionItemView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginHorizontal="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/itemDiv" android:background="#ffefefef" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/itemLayout" android:layout_width="fill_parent" android:layout_height="96.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/itemDiv">
+        <FrameLayout android:id="@id/layoutIcon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginStart="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="@id/layoutIcon" app:layout_constraintEnd_toStartOf="@id/textDeviceArrowIcon" app:layout_constraintStart_toEndOf="@id/layoutIcon" app:layout_constraintTop_toTopOf="@id/layoutIcon">
+            <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/gray_44" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_999999" android:id="@id/desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4dp" />
+        </LinearLayout>
+        <TextView android:id="@id/textDeviceArrowIcon" android:background="@drawable/kt_ic_device_arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.kt.business.deviceadd.view.PermissionItemView>

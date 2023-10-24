@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/ysf_grey_fafafa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="35.0dip" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/equipmentAuxiliaryTitleBar" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="35.0dip" app:background_color="@color/white" app:layout_collapseMode="pin" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title="@string/mo_equipment_auxiliary" app:title_color="@color/black" style="@style/ItemCustomTitleBar" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/color_666666" android:id="@id/txtRemind" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mo_margin_16" android:layout_marginTop="95.0dip" android:layout_marginRight="@dimen/mo_margin_16" />
+    <com.gotokeep.keep.mo.common.widget.MallCanLoadMoreRecyclerView android:id="@id/equipmentAuxiliaryList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="135.0dip" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

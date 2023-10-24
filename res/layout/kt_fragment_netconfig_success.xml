@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutRoot" android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieView" android:layout_width="144.0dip" android:layout_height="144.0dip" android:layout_marginTop="144.0dip" android:scaleType="fitStart" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_fileName="lottie/kt_ota_ok.json" />
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/black_87" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/kt_net_config_bound_success_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lottieView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

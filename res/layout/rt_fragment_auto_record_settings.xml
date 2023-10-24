@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:left_icon_clickable="true" app:title="@string/auto_gene_record" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_switch_auto_record" android:background="@android:color/white" app:mainText="@string/auto_gene_record" style="@style/SettingItemSwitch" />
+    <TextView android:id="@id/text_hint" android:text="@string/rt_auto_genre_record_hint" style="@style/SettingPersonInfoDescText" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_distance" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_min_distance" app:mainText="@string/rt_auto_record_min_distance" style="@style/SettingSingleItemWithClick" />
+        <TextView android:text="@string/rt_auto_record_min_distance_hint" style="@style/SettingPersonInfoDescText" />
+    </LinearLayout>
+</LinearLayout>

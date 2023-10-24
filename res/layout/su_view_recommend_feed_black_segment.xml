@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.feedblack.mvp.view.RecommendFeedBlackSegmentView android:orientation="vertical" android:id="@id/layoutSegment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <ImageView android:layout_gravity="start|center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_feed_segment_shadow" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="start|center" android:id="@id/textSegmentCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#26000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_marginStart="24.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:layout_gravity="end|center" android:id="@id/textCollapse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/collapse" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/segmentRecyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="16.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</com.gotokeep.keep.su.social.feedblack.mvp.view.RecommendFeedBlackSegmentView>

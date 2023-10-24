@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseDetailKitbitGameView android:background="@drawable/wt_purple_white_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:maxHeight="116.0dip" android:minHeight="@dimen/dimen_80dp" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutGameTitle" android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintTop_toTopOf="parent" layout="@layout/wt_view_course_detail_kitbit_game_title" />
+    <include android:id="@id/layoutGameContent" android:layout_width="fill_parent" android:layout_height="72.0dip" app:layout_constraintTop_toBottomOf="@id/layoutGameTitle" layout="@layout/wt_view_course_detail_kitbit_game_content" />
+</com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseDetailKitbitGameView>

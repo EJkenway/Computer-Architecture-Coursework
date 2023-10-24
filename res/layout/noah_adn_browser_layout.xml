@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <ImageView android:id="@id/noah_back_icon" android:background="@drawable/sdk_inact_browser_back" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="15.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/noah_titleView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:maxLines="1" android:layout_weight="1.0" />
+        <ImageView android:id="@id/noah_close_icon" android:background="@drawable/sdk_inact_browser_close" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="20.0dip" />
+    </LinearLayout>
+    <com.noah.adn.huichuan.view.ui.widget.HCScrollFrameLayout android:orientation="vertical" android:id="@id/noah_webview_tag_scroll_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/noah_video_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/noah_webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.noah.adn.huichuan.view.ui.widget.HCScrollFrameLayout>
+</LinearLayout>

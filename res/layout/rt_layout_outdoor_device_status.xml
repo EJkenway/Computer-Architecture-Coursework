@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/viewNotBound" android:background="@color/rt_device_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner="14.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgBindGuide" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/rt_ic_home_device_not_bind" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/charm_green" android:id="@id/tvBindGuide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_home_guide_connect_device" android:layout_marginStart="2.0dip" />
+            <ImageView android:layout_width="5.0dip" android:layout_height="9.0dip" android:src="@drawable/rt_ic_right_green_slim" android:scaleType="fitXY" android:layout_marginStart="7.0dip" />
+        </LinearLayout>
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/viewDeviceBound" android:background="@color/black_03" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner="14.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/rt_ic_home_device_bind" android:scaleType="fitXY" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_heart_rate_device_connected" android:layout_marginStart="2.0dip" />
+            <ImageView android:id="@id/imgBindArrow" android:layout_width="5.0dip" android:layout_height="9.0dip" android:src="@drawable/rt_ic_right_green_slim" android:scaleType="fitXY" android:layout_marginStart="7.0dip" />
+        </LinearLayout>
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+</merge>

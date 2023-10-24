@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.equipment.summary.mvp.view.SummaryHeadView android:layout_width="fill_parent" android:layout_height="287.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <include android:id="@id/layoutLeftNormal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kt_view_summary_card_head_left_normal" />
+        <include android:id="@id/layoutLeftFree" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kt_view_summary_card_head_left_free" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+        <include android:id="@id/layoutCourse" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kt_view_summary_card_head_right_course" />
+        <include android:id="@id/layoutPuncheurLogShadowMap" android:visibility="gone" layout="@layout/kt_view_puncheur_log_summary_shadow_map" />
+        <include android:id="@id/layoutKelotonNoCourse" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kt_view_summary_card_head_right_keloton_no_course" />
+        <include android:id="@id/layoutFtp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kt_view_summary_card_head_right_ftp" />
+        <include android:id="@id/layoutPucheurFree" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kt_view_summary_card_head_right_puncheur_free" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/layoutShare" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_share_keep" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/textShare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_summary_share_keep_label_title_text" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.equipment.summary.mvp.view.SummaryHeadView>

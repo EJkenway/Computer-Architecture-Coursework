@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.SwimSegmentItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.KeepAnimationBar android:id="@id/imgPillar" android:background="@drawable/shape_corner_pace_item" android:layout_width="0.0dip" android:layout_height="@dimen/summary_pace_bg_height" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tvIndex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tvType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/turquoise_green" android:layout_gravity="center|right" android:id="@id/tvBest" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/kt_swim_segment_pillar_margin_right" android:text="@string/best_record" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:layout_gravity="center|right" android:id="@id/tvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.SwimSegmentItemView>

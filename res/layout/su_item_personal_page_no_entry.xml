@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.personalpage.mvp.entry.view.ItemNoEntryView android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_cc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/has_no_entry" android:drawableTop="@drawable/su_icon_write_entry" android:drawablePadding="17.0dip" />
+    <LinearLayout android:id="@id/containerLayout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvWrite" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="28.0dip" android:layout_marginTop="17.0dip" android:layout_marginBottom="20.0dip" android:text="@string/send_tweet" />
+    </LinearLayout>
+</com.gotokeep.keep.profile.personalpage.mvp.entry.view.ItemNoEntryView>

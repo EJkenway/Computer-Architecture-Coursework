@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.view.SwipeBackLayoutEx android:id="@id/layoutSwipeBack" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/su_layout_bgm_picker" />
+    <View android:id="@id/viewDrag" android:layout_width="fill_parent" android:layout_height="150.0dip" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.commonui.view.SwipeBackLayoutEx>

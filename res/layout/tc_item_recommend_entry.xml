@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.recommend.mvp.view.RecommendEntryView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/videoStreamView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="3:4" layout="@layout/tc_view_new_recommend_feed_video" />
+    <include android:id="@id/viewLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/videoStreamView" layout="@layout/tc_view_recommend_entry_label" />
+    <include android:id="@id/viewDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/videoStreamView" layout="@layout/tc_view_recommend_entry_desc" />
+</com.gotokeep.keep.tc.business.recommend.mvp.view.RecommendEntryView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageHeader" android:background="@drawable/snow_white_4dp_corner" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/tc_icon_add_circle_fill" android:scaleType="center" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/textName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tc_fellowship_discover_tip" android:singleLine="true" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="@id/imageHeader" app:layout_constraintStart_toEndOf="@id/imageHeader" app:layout_constraintTop_toTopOf="@id/imageHeader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

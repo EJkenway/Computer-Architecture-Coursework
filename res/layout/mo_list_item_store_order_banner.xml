@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.order.mvp.view.OrderBannerItemView android:id="@id/order_banner_item" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/pic" android:layout_width="fill_parent" android:layout_height="60.0dip" android:scaleType="fitXY" />
+    <ImageView android:id="@id/banner_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/mo_ic_store_order_banner_close" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+</com.gotokeep.keep.mo.business.order.mvp.view.OrderBannerItemView>

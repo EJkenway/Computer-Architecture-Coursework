@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/ysf_item_product_reselect_back" android:layout_width="158.0dip" android:layout_height="245.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/ysf_iv_item_recommend_empty" android:layout_width="158.0dip" android:layout_height="30.0dip" android:src="@drawable/ysf_horizontal_refresh" />
+    <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/ysf_change_batch" android:drawablePadding="10.0dip" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.evaluate.mvp.view.VipPreviewContainerView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/viewBgWhite" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <View android:background="@drawable/dc_bg_fff1d9_f7f7f7_top_corner_24" android:layout_width="fill_parent" android:layout_height="114.0dip" android:layout_marginTop="3.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutContainer" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <include android:id="@id/layoutHead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" layout="@layout/dc_item_vip_preview_head" />
+        <include android:id="@id/layoutGetData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" layout="@layout/dc_item_vip_preview_get_data" />
+        <include android:id="@id/layoutEvaluationAnalyze" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" layout="@layout/dc_item_evaluation_analyze" />
+    </LinearLayout>
+</com.gotokeep.keep.dc.business.evaluate.mvp.view.VipPreviewContainerView>

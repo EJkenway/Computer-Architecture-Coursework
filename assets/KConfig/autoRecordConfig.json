@@ -1,0 +1,6 @@
+{
+    "minAverageStepFrequency": 45,
+    "minDistance": 800,
+    "minInterval": 150,
+    "minRunAverageStepFrequency": 140
+}

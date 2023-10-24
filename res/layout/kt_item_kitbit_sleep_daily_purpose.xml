@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/step_goal_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/white_30" android:layout_width="18.0dip" android:layout_height="1.0dip" android:layout_marginLeft="27.0dip" android:layout_marginRight="27.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/description" android:layout_toRightOf="@id/divider" android:layout_centerVertical="true">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="@dimen/font_size_24sp" android:textColor="@color/white" android:id="@id/hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white" android:id="@id/hour_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/hour" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="@dimen/font_size_24sp" android:textColor="@color/white" android:id="@id/minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white" android:id="@id/minute_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/minute_1" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/white_20" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

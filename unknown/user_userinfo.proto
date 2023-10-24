@@ -1,0 +1,33 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "UserInfo";
+
+message Info {
+  //身高,单位 cm
+  uint32 height = 1;
+  //体重,单位 kg
+  uint32 weight =2;
+  //年龄,单位 年
+  uint32 age = 3;
+  //性别,0:男,1:女
+  uint32 sex = 4;
+  //跑步步长,单位 cm
+  uint32 run_step_len = 5;
+  //行走步长,单位 cm
+  uint32 walk_step_len = 6;
+  //最大心率
+  uint32 max_hr = 7;
+  //静息心率
+  uint32 rest_hr = 8;
+  //是否vip
+  uint32 is_vip = 9;
+  //佩戴的方向 1:左手 2:右手
+  uint32 wear_hand = 10;
+  uint32 run_step_len_source = 11;
+  uint32 walk_step_len_source = 12;
+}
+
+message SetStatus{
+  //1:设置失败;2:设置成功
+  uint32 status = 1;
+}

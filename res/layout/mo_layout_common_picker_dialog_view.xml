@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.aftersale.picker.CommonPickerDialogView android:layout_width="fill_parent" android:layout_height="fill_parent" app:mo_shape_corners_top_left_radius="12.0dip" app:mo_shape_corners_top_right_radius="12.0dip" app:mo_shape_solid_color="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="24.0sp" android:textColor="@color/black_87" android:id="@id/titleName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="24.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/closeIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/mo_icon_close_black" android:layout_marginEnd="24.0dip" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:id="@id/mainScrollView" android:background="@color/gray_fa" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/subScrollView" app:layout_constraintTop_toBottomOf="@id/titleName">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mainTabContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView>
+    <ScrollView android:id="@id/subScrollView" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintLeft_toRightOf="@id/mainScrollView" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/titleName">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/subTabContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/emptyView" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="124.0dip" android:layout_height="95.0dip" android:src="@drawable/mo_share_order_empty" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/mainContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="@string/mo_have_no_pick_up_time" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black_38" android:id="@id/subContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.mo.business.store.aftersale.picker.CommonPickerDialogView>

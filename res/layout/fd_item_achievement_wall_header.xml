@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.achievement.mvp.view.AchievementWallHeaderView android:orientation="vertical" android:id="@id/layout_header_root" android:layout_width="fill_parent" android:layout_height="231.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_bg" android:layout_width="262.0dip" android:layout_height="fill_parent" android:src="@drawable/fd_bg_homepage_top" android:scaleType="matrix" />
+    <ImageView android:id="@id/img_badge" android:layout_width="128.0dip" android:layout_height="128.0dip" android:layout_marginTop="86.0dip" android:layout_marginRight="23.0dip" android:layout_alignParentRight="true" />
+    <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/text_wall_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="117.0dip" style="@style/TextMedium" />
+    <ImageView android:id="@id/img_wall_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="9.0dip" android:layout_below="@id/text_wall_text" />
+</com.gotokeep.keep.fd.business.achievement.mvp.view.AchievementWallHeaderView>

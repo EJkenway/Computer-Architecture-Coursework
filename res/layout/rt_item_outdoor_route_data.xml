@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.settings.mvp.view.OutdoorRouteItemView android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="21.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/purple" android:ellipsize="end" android:id="@id/textRouteName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:maxLines="1" />
+        <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginStart="6.0dip" layout="@layout/rt_view_route_event" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutTitle">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="24.0dip">
+            <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/gray_66" android:id="@id/textRouteAddress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/gray_66" android:id="@id/textRouteWholeDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_route_distance" />
+            <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/gray_66" android:id="@id/textRoutePunchCardCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/rt_route_pioneer_count" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/gray_66" android:id="@id/textDistanceToRoute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="24.0dip" android:text="@string/rt_route_distance_from" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</com.gotokeep.keep.rt.business.settings.mvp.view.OutdoorRouteItemView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.SleepFaqView android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kitbit_sleep_tip_for_error_data" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/green" android:gravity="center" android:id="@id/sleepHelp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/kt_kitbit_sleep_tip_for_go_help" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.SleepFaqView>

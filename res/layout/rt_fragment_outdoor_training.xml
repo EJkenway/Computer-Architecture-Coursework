@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/rt_training_gradient_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_margin_top">
+            <include android:id="@id/view_top_progress" android:visibility="visible" layout="@layout/rt_view_training_top_progress" />
+        </RelativeLayout>
+        <include android:id="@id/view_before_title_bar" layout="@layout/rt_view_training_before_title_bar" />
+        <include android:id="@id/view_title_bar" layout="@layout/rt_view_training_title_bar" />
+        <com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTopViewContent android:id="@id/view_top_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/view_top_normal" android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_top_normal_height" android:layout_centerInParent="true" layout="@layout/rt_view_training_top_normal" />
+            <include android:id="@id/view_top_target" android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_top_target_pace_height" android:layout_centerInParent="true" layout="@layout/rt_view_training_top_target" />
+            <include android:id="@id/view_top_course" android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_top_dashboard_height" android:layout_centerInParent="true" layout="@layout/rt_view_training_top_course" />
+        </com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTopViewContent>
+        <View android:id="@id/viewTopContentPadding" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/view_treadmill_middle" layout="@layout/rt_view_training_treadmill_middle" />
+        </RelativeLayout>
+        <include android:id="@id/view_info" android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_info_height" layout="@layout/rt_view_training_info" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/view_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/viewPlaylistInfo" app:layout_constraintTop_toTopOf="parent" layout="@layout/rt_view_training_bottom" />
+            <include android:id="@id/viewPlaylistInfo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_playlist_info_height" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/rt_view_training_playlist_info" />
+            <include android:id="@id/view_lock" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/viewPlaylistInfo" app:layout_constraintTop_toTopOf="parent" layout="@layout/rt_view_training_lock" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <include android:id="@id/view_live_share" android:layout_width="95.0dip" android:layout_height="36.0dip" android:layout_marginTop="86.0dip" android:layout_alignParentEnd="true" layout="@layout/rt_view_training_live_share" />
+    <FrameLayout android:id="@id/layout_context_wrapper" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/view_lock_cover" android:visibility="invisible" layout="@layout/rt_view_training_lock_cover" />
+    <include android:id="@id/widget_count_down" layout="@layout/rt_widget_training_count_down" />
+    <include android:id="@id/view_audio_control" layout="@layout/rt_view_training_audio_control" />
+</RelativeLayout>

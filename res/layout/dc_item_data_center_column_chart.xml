@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterColumnChartView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.DataCenterChartRecyclerView android:id="@id/item_data_center_column_chart_recycler" android:background="@color/purple" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/dc_data_center_column_height" />
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/white_40" android:gravity="center_horizontal" android:id="@id/text_item_data_center_column_chart_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/data_center_un_block" android:drawableTop="@drawable/dc_ic_data_center_empty_block" android:drawablePadding="17.0dip" android:layout_centerVertical="true" />
+    <ImageView android:layout_width="8.0dip" android:layout_height="6.0dip" android:layout_marginBottom="-2.0dip" android:src="@drawable/arrow_train_tab" android:layout_alignBottom="@id/item_data_center_column_chart_recycler" android:layout_centerHorizontal="true" />
+</com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterColumnChartView>

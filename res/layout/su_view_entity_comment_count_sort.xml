@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.mvp.view.EntityCommentCountSortView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/textReplyCount" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="14.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/layoutSort" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@drawable/selector_community_tab_text" android:gravity="center" android:id="@id/textSortByHeat" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/comment_sequence_hot" android:paddingStart="13.0dip" android:paddingEnd="13.0dip" />
+        <View android:background="@color/iron_color" android:layout_width="0.5dip" android:layout_height="16.0dip" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@drawable/selector_community_tab_text" android:gravity="center" android:id="@id/textSortByTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/comment_sequence_time" android:paddingStart="13.0dip" android:paddingEnd="19.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutDivider" android:background="@color/community_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+</com.gotokeep.keep.su.social.comment.mvp.view.EntityCommentCountSortView>

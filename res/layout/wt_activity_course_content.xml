@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgClose" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="32.0dip" android:src="@drawable/icon_down_lined_dark" android:scaleType="centerInside" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerCourseContent" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="16.0dip" android:paddingEnd="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgClose" />
+</androidx.constraintlayout.widget.ConstraintLayout>

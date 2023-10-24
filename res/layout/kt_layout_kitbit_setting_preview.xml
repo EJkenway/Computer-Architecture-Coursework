@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/settingPreviewLayout" android:background="@drawable/kt_bg_gradient_ffffff_fafafa" android:layout_width="fill_parent" android:layout_height="@dimen/kt_kitbit_setting_preview_height" android:layout_marginBottom="@dimen/kt_kitbit_setting_preview_bottom_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/imgBackground" android:layout_width="240.0dip" android:layout_height="240.0dip" android:src="@drawable/kt_bg_b1_shell_rect" android:scaleType="fitXY" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_gravity="center" android:id="@id/b1PreviewImage" android:layout_width="50.0dip" android:layout_height="100.0dip" android:scaleType="fitXY" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_gravity="center" android:id="@id/b2PreviewImage" android:layout_width="48.0dip" android:layout_height="112.0dip" android:scaleType="fitXY" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_gravity="center" android:id="@id/b3PreviewImage" android:layout_width="64.0dip" android:layout_height="124.0dip" android:scaleType="fitXY" app:round_corner="8.0dip" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_gravity="center" android:id="@id/b4PreviewImage" android:layout_width="64.0dip" android:layout_height="129.0dip" android:scaleType="fitXY" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_gravity="center" android:id="@id/blPreviewImage" android:layout_width="64.0dip" android:layout_height="119.0dip" android:scaleType="fitXY" />
+</FrameLayout>

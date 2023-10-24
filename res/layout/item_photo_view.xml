@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.uibase.ItemTabPhotoView android:layout_width="@dimen/personal_page_photo_list_item_height" android:layout_height="@dimen/personal_page_photo_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/icon_media" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_video_type" android:scaleType="fitCenter" android:layout_alignRight="@id/photo" />
+    <ImageView android:id="@id/icon_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/personal_page_photo_list_item_margin_right" android:layout_marginRight="@dimen/personal_page_photo_list_item_margin_right" android:src="@drawable/icon_personal_photo_lock" android:scaleType="centerCrop" android:layout_alignTop="@id/photo" android:layout_alignRight="@id/photo" />
+</com.gotokeep.keep.uibase.ItemTabPhotoView>

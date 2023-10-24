@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_order_state_text" android:paddingLeft="14.0dip" android:paddingTop="19.0dip" android:paddingRight="14.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/color_price_text" android:id="@id/text_order_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stay_pay" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/img_order_state_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mo_icon_order_state_pay" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/line" style="@style/StoreLine" />
+    <RelativeLayout android:id="@id/status_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_order_state_ship_arrow" android:visibility="gone" android:layout_marginRight="14.0dip" style="@style/SettingItemArrow" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/text_order_state_desc" android:paddingLeft="14.0dip" android:paddingTop="17.0dip" android:paddingBottom="17.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_toLeftOf="@id/img_order_state_ship_arrow" android:lineSpacingMultiplier="1.2" />
+    </RelativeLayout>
+    <View android:id="@id/bottom_line" style="@style/StoreDivider" />
+</LinearLayout>

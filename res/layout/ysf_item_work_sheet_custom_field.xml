@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/ysf_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/ysf_black_222222" android:ellipsize="end" android:id="@id/ysf_tv_work_sheet_detail_custom_field_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/ysf_custom_field" android:singleLine="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/ysf_grey_999999" android:ellipsize="end" android:gravity="right" android:id="@id/ysf_tv_work_sheet_detail_custom_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:maxLines="2" android:layout_toRightOf="@id/ysf_tv_work_sheet_detail_custom_field_tag" android:layout_alignParentRight="true" />
+    <View android:background="@color/ysf_gery_959595" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

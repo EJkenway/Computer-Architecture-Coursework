@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/bg_projection_search_tv_guide" android:layout_width="204.0dip" android:layout_height="55.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/imgKs" android:background="@drawable/ic_projection_ks" android:layout_width="47.0dip" android:layout_height="47.0dip" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/imgKs" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/white" android:id="@id/textGuideTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/kt_ks_purchase_guide_title" />
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/white_50" android:id="@id/textGuideDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_ks_purchase_guide_desc" />
+    </LinearLayout>
+    <View android:background="@drawable/ic_arrow_right_lined" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginEnd="8.0dip" android:backgroundTint="@color/white" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

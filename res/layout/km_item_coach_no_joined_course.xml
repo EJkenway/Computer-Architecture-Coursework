@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.CoachNoJoinedCourseView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/nine_gray" android:id="@id/textDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/textJoin" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/textJoin" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginLeft="46.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="46.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/textDescription" />
+</com.gotokeep.keep.km.suit.mvp.view.CoachNoJoinedCourseView>

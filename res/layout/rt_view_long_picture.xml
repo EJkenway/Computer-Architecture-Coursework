@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.picture.mvp.view.OutdoorLongPictureView android:id="@id/scrollViewLongPic" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="8.0dip">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/layoutLongPicContainer" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgMapBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+                <View android:id="@id/viewGradientBackground" android:background="@drawable/shape_gradient_background_gray_f4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_detail_chart" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgDetailChart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="25.0dip" android:adjustViewBounds="true" />
+            </RelativeLayout>
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgLogo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</com.gotokeep.keep.rt.business.picture.mvp.view.OutdoorLongPictureView>

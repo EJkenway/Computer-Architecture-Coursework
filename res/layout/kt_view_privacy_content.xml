@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitPrivacyContentView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_66" android:id="@id/textContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/kt_privacy_content" android:lineSpacingExtra="4.0dip" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_66" android:id="@id/textPrivacy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/kt_privacy_complete" android:lineSpacingExtra="5.0dip" app:layout_constraintTop_toBottomOf="@id/textContent" />
+</com.gotokeep.keep.kt.business.common.mvp.view.KitPrivacyContentView>

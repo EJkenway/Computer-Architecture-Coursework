@@ -1,0 +1,21 @@
+.class public interface abstract Lo4/a$f;
+.super Ljava/lang/Object;
+.source "FactoryPools.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lo4/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "f"
+.end annotation
+
+
+# virtual methods
+.method public abstract c()Lo4/c;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end method

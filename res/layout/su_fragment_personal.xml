@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/white" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutBehaviorEx">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbarLayout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="@color/transparent" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:statusBarScrim="@android:color/transparent">
+            <com.gotokeep.keep.commonui.widget.AsyncViewStub android:id="@id/viewInfoStub" android:layout_width="fill_parent" android:layout_height="wrap_content" app:view_stub_layout="@layout/su_view_personal_info" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/black_00" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                <com.gotokeep.keep.commonui.widget.AsyncViewStub android:id="@id/viewTitleStub" android:layout_width="fill_parent" android:layout_height="wrap_content" app:view_stub_layout="@layout/su_view_personal_title" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <include android:id="@id/viewTab" layout="@layout/su_view_personal_tab" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.gotokeep.keep.commonui.widget.AsyncViewStub android:layout_gravity="bottom" android:id="@id/viewFollowStub" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="84.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="22.0dip" app:view_stub_layout="@layout/su_view_personal_follow" />
+    <com.gotokeep.keep.commonui.widget.AsyncViewStub android:id="@id/emptyViewStub" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:view_stub_layout="@layout/su_personal_entry_empty_view" />
+    <com.gotokeep.keep.commonui.widget.AsyncViewStub android:id="@id/blackListViewStub" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:view_stub_layout="@layout/su_personal_black_list_view" />
+    <com.gotokeep.keep.commonui.widget.AsyncViewStub android:id="@id/errorViewStub" android:layout_width="fill_parent" android:layout_height="fill_parent" app:view_stub_layout="@layout/su_personal_error_view" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutPersonalHolder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="82.0dip" />
+        <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include android:layout_gravity="end|bottom|center" android:id="@id/layoutPostButton" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginBottom="56.0dip" layout="@layout/su_view_post_button_layout" />
+    <com.gotokeep.keep.profile.personalpage.mvp.recommend.mvp.view.PersonalActivityEntranceView android:layout_gravity="end|bottom|center" android:id="@id/layoutActivityEntrance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="160.0dip" />
+    <ViewStub android:id="@id/layoutPersonSkeletonStub" android:visibility="visible" android:layout="@layout/su_item_person_skeleton_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

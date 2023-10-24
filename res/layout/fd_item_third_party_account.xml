@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.setting.mvp.view.ThirdPartyAccountView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="91.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageViewAccount" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginStart="46.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/textAccountName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/imageViewAccount" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imageViewLine" android:background="@color/gray_ef" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_marginEnd="46.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/imageViewAccount" app:layout_constraintRight_toRightOf="parent" />
+</com.gotokeep.keep.fd.business.setting.mvp.view.ThirdPartyAccountView>

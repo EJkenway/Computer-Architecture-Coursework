@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryProgressEventView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/rt_event_progress_height" style="@style/RtSummaryCardView">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_skin_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" style="@style/RtSummaryCardViewTitleLayout">
+                <TextView android:ellipsize="end" android:layout_width="0.0dip" android:text="@string/rt_event_progress_card_title" android:maxLines="1" android:drawableLeft="@drawable/rt_icon_active_event_progress" android:layout_weight="1.0" android:drawableStart="@drawable/rt_icon_active_event_progress" style="@style/RtSummaryCardViewTitleInLayout" />
+                <include layout="@layout/rt_layout_event_progress_percent" />
+            </LinearLayout>
+            <include layout="@layout/rt_layout_event_progress_info" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryProgressEventView>

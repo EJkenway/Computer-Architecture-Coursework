@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_margin_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar_pay_confirm" android_custom:left_icon_clickable="true" android_custom:title="@string/title_pay_confirm" style="@style/ItemCustomTitleBar" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/layout_product_name" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/title_bar_pay_confirm">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/product_name" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/text_product_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:maxLines="1" android:maxEms="14" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/layout_product_name" />
+    <RelativeLayout android:id="@id/layout_product_praise" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_below="@id/divider">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/amount_of_real_pay" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/light_green" android:id="@id/text_pay_confirm_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:text="¥1198" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.gotokeep.keep.mo.business.pay.mvp.old.PaymentItemView android:id="@id/view_pay_confirm_payment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/layout_product_praise" />
+    <include android:layout_width="fill_parent" android:layout_height="67.0dip" android:layout_below="@id/view_pay_confirm_payment" layout="@layout/mo_common_text" />
+    <Button android:textSize="18.0sp" android:id="@id/btn_pay_confirm" android:layout_width="fill_parent" android:layout_height="58.0dip" android:text="@string/btn_determine" android:layout_alignParentBottom="true" style="@style/Mo_StoreConfirmButton" />
+</RelativeLayout>

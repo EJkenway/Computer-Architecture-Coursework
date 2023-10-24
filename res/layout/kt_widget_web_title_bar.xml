@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/vBackground" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/leftButtonView" android:paddingLeft="16.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_line_arrow_left" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:gravity="start|center" android:id="@id/titleTextView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="" android:maxLines="1" android:layout_toLeftOf="@id/rightSecondButtonView" android:layout_toRightOf="@id/leftButtonView" />
+    <TextView android:gravity="center" android:id="@id/rightTextView" android:paddingRight="16.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="46.0dip" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/rightButtonView" android:paddingLeft="5.0dip" android:paddingRight="16.0dip" android:layout_width="46.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/rightSecondButtonView" android:paddingLeft="5.0dip" android:paddingRight="16.0dip" android:layout_width="46.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/rightButtonView" />
+</merge>

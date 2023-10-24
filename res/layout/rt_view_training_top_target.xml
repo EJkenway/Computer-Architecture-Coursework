@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTopTargetView android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_top_normal_height" android:translationY="@dimen/rt_training_new_top_view_translation_y"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.view.ArcScaleProgressBar android:id="@id/progress_bar_phase" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.gotokeep.keep.rt.business.training.widget.PaceTargetProgressView android:id="@id/progress_pace_target" android:padding="55.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" app:isTrain="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/view_data_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/rt_text_size_training_top_target" android:textStyle="bold" android:textColor="@color/rt_training_text_main" android:id="@id/text_current_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_distance_default_value" android:maxLines="1" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:gravity="center" android:id="@id/text_current_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/text_current_value" android:layout_marginEnd="6.0dip" android:layout_toStartOf="@id/text_current_value" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:gravity="center" android:id="@id/textCurrentUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/text_current_value" android:layout_marginEnd="6.0dip" android:layout_toEndOf="@id/text_current_value" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/container_target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white_80" android:id="@id/text_target_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_target" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/charm_green" android:id="@id/text_target_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/white_80" android:id="@id/text_target_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_meter" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTopTargetView>

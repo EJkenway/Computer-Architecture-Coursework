@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.personalpage.mvp.record.view.RecordRecommendView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/profile_personal_record_recommend_card_title" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/showLayout" layout="@layout/su_personal_record_recommend_card_item_view" />
+    <include android:id="@id/followLayout" layout="@layout/su_personal_record_recommend_card_item_view" />
+    <include android:id="@id/commentLayout" layout="@layout/su_personal_record_recommend_card_item_view" />
+    <include android:id="@id/likeLayout" layout="@layout/su_personal_record_recommend_card_item_view" />
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/purple" android:gravity="center" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/profile_personal_record_recommend_detail_data_report" />
+</com.gotokeep.keep.profile.personalpage.mvp.record.view.RecordRecommendView>

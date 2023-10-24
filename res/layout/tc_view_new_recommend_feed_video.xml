@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.recommend.mvp.view.course.AutoPlayFeedVideoView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kplayer.SingletonKeepVideoView2 android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:hideCoverInRepeat="true" app:kvScaleType="centerCrop" />
+    <com.gotokeep.keep.tc.business.recommend.mvp.view.course.AutoPlayFeedControllerView android:id="@id/controllerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.tc.business.recommend.mvp.view.course.AutoPlayFeedVideoView>

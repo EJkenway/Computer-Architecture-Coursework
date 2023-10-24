@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgBg" android:layout_width="@dimen/rt_edit_route_marker_width" android:layout_height="@dimen/rt_edit_route_marker_height" android:src="@drawable/rt_ic_edit_marker" />
+    <TextView android:textSize="10.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvIndex" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.combinepackage.mvp.view.CombinePackageCouponView android:paddingBottom="@dimen/dimen_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.view.FlowTagsLayout android:id="@id/layoutCouponTags" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" app:layout_constraintEnd_toStartOf="@id/text_more" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/color_ff5363" android:gravity="center_vertical" android:id="@id/text_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mo_get_coupon" android:letterSpacing="0.1" app:layout_constraintBottom_toBottomOf="@id/layout_coupon_tags" app:layout_constraintEnd_toStartOf="@id/arrowRight" app:layout_constraintTop_toTopOf="@id/layout_coupon_tags" />
+    <ImageView android:id="@id/arrowRight" android:layout_marginRight="14.0dip" android:src="@drawable/mo_arrow_red_right" android:layout_centerVertical="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SettingItemArrow" />
+</com.gotokeep.keep.mo.business.combinepackage.mvp.view.CombinePackageCouponView>

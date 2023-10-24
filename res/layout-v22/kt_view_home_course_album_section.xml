@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.KtHomeCourseAlbumSectionView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="60.0dip" android:paddingStart="16.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/listCourseSeries" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingHorizontal="12.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.KtHomeCourseAlbumSectionView>

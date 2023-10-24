@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/volume_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progressVolume" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginStart="@dimen/volume_bar_fine_progress_margin" android:layout_marginEnd="@dimen/volume_bar_fine_progress_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" style="?android:progressBarStyleHorizontal" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/viewIndicator" android:background="@color/white" android:layout_width="@dimen/volume_bar_fine_height" android:layout_height="@dimen/volume_bar_fine_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner="@dimen/volume_bar_fine_radius" />
+    <ImageView android:id="@id/imgVolume" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_volume_zero" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgVolumeMax" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_volume_on" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

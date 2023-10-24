@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonRouteMapPanelView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.slidepanel.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:umanoClipPanel="false" app:umanoFadeColor="@android:color/transparent" app:umanoIndicator="@id/indicator" app:umanoOverlay="false" app:umanoPanelHeight="166.0dip" app:umanoParallaxOffset="100.0dip" app:umanoViewPager="@id/viewpager">
+        <com.gotokeep.keep.map.MapViewContainer android:id="@id/map_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gotokeep.keep.commonui.view.CustomNoSwipeViewPager android:id="@id/viewpager" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+        <com.gotokeep.keep.commonui.widget.RoundDotIndicator android:id="@id/indicator" android:paddingTop="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginBottom="8.0dip" android:layout_centerHorizontal="true" app:dotColor="@color/gray_cc" app:dotMargin="6.0dip" app:dotRadius="3.0dip" app:dotSelectedColor="@color/light_green" />
+    </com.gotokeep.keep.commonui.widget.slidepanel.SlidingUpPanelLayout>
+</com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonRouteMapPanelView>

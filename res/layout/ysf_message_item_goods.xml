@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/ysf_bubble_max_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ysf_goods_content" layout="@layout/ysf_message_item_goods_inner" />
+    <View android:id="@id/ysf_holder_product_list_line" android:background="@color/ysf_grey_e6e6e6" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/ysf_blue_337EFF" android:layout_gravity="center_horizontal" android:id="@id/tv_ysf_item_message_goods_reselect" android:paddingTop="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

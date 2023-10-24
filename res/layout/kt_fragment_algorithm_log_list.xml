@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/kt_kitbit_bg_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/customTitleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:left_icon_clickable="true" app:title="请选择要上传的原始日志" style="@style/ItemCustomTitleBar" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/logRecyclerView" android:scrollbars="none" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="15.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:id="@id/tvTips" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:textColor="@color/purple" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/tvLoading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="正在从手环拉取日志列表..." />
+</FrameLayout>

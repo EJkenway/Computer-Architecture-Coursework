@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.setting.mvp.view.UserInfoItemView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/textTitle" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SettingMainText" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:gravity="end|center" android:id="@id/textContent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" app:layout_constraintEnd_toStartOf="@id/imgNext" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toEndOf="@id/textTitle" />
+    <ImageView android:id="@id/imgNext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_arrow_right_m_gray" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.fd.business.setting.mvp.view.UserInfoItemView>

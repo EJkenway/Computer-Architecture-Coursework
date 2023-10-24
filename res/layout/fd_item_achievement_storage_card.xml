@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.achievement.mvp.view.AchievementCollectionItemView android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/white_bg_corner_4dp_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/main_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/text_header" android:paddingLeft="@dimen/dimen_14dp" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_marginRight="@dimen/dimen_14dp" android:maxLines="1" android:drawableRight="@drawable/icon_common_arrow_small" android:layout_centerVertical="true" />
+        <View android:background="@color/ef_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" android:layout_below="@id/text_header" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+</com.gotokeep.keep.fd.business.achievement.mvp.view.AchievementCollectionItemView>

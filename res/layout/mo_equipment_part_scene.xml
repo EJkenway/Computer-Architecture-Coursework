@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/partAndSceneContainer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/sportPart" android:layout_width="167.0dip" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dimen_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/mo_equipment_part_scene_item" />
+    <include android:id="@id/sportScene" android:layout_width="167.0dip" android:layout_height="fill_parent" android:layout_marginStart="@dimen/mo_margin_9" android:layout_marginEnd="@dimen/dimen_16dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/mo_equipment_part_scene_item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

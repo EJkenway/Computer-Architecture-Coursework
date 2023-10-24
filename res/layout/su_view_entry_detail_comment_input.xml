@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.mvp.view.EntryDetailCommentInputView android:orientation="horizontal" android:background="@color/white" android:paddingTop="19.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imgAvatar" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginStart="14.0dip" />
+    <include android:id="@id/layoutTip" android:layout_width="0.0dip" android:layout_height="34.0dip" android:layout_weight="1.0" android:layout_marginStart="11.0dip" android:layout_marginEnd="14.0dip" layout="@layout/su_item_entry_detail_option_bottom_tip" />
+</com.gotokeep.keep.su.social.comment.mvp.view.EntryDetailCommentInputView>

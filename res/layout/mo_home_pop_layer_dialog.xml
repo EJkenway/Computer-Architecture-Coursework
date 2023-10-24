@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="290.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contentContainer" android:layout_width="290.0dip" android:layout_height="290.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/image" android:layout_width="290.0dip" android:layout_height="290.0dip" android:src="@color/gray_99" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:layout_gravity="bottom|center" android:id="@id/viewClickArea" android:layout_width="98.0dip" android:layout_height="32.0dip" android:layout_marginBottom="@dimen/dimen_16dp" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/closeImageView" android:background="@drawable/mo_ic_poplayer_close" android:layout_width="@dimen/dimen_32dp" android:layout_height="@dimen/dimen_32dp" android:layout_marginTop="@dimen/dimen_24dp" />
+</LinearLayout>

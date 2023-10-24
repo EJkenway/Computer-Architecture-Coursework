@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_distance_unit_cn" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="100.0sp" android:textColor="@color/white" android:id="@id/tvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_calories_unit_cn" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="48.0sp" android:textColor="@color/white" android:id="@id/tvCalories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vDuration" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_workout_duration" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="48.0sp" android:textColor="@color/white" android:id="@id/tvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/white_20" android:layout_width="1.5dip" android:layout_height="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white_80" android:id="@id/tvSecondaryTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_watt" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="48.0sp" android:textColor="@color/white" android:id="@id/tvSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/vResistance" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white_80" android:id="@id/tvResistanceTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_resistance_short" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="48.0sp" android:textColor="@color/white" android:id="@id/tvResistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

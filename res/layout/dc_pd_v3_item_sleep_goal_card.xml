@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SleepGoalCardView android:orientation="vertical" android:background="@drawable/dc_white_8dp_corners" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_99" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:baselineAligned="false">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/gray_22" android:id="@id/textHour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_22" android:id="@id/textHourUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="@string/hour" android:maxLines="1" android:layout_marginStart="4.0dip" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/gray_22" android:id="@id/textMinute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="4.0dip" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_22" android:id="@id/textMinuteUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="@string/minute" android:maxLines="1" android:layout_marginStart="4.0dip" />
+        <TextView android:textColor="@color/gray_cc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dc_divider" android:maxLines="1" android:layout_marginStart="2.0dip" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/gray_cc" android:id="@id/textTarget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:maxLines="1" android:layout_marginStart="2.0dip" />
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/dc_ic_sleep_target_modify" android:layout_marginStart="2.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SleepGoalCardView>

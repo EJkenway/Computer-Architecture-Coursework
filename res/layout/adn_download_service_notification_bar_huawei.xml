@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/download_service_iv" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="" style="@style/AdnNotificationLargeIcon" />
+    <ImageButton android:id="@id/download_control_btn" android:background="@drawable/adn_download_notification_control_bg" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_margin="2.0dip" android:layout_marginLeft="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="" style="@style/AdnNotificationButton" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/line" android:layout_width="200.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/download_control_btn" android:layout_toRightOf="@id/download_service_iv" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/download_type_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="6.659973dip" android:src="@drawable/adn_notification_download_type_icon" />
+            <TextView android:textStyle="normal" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@id/download_service_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/AdnNotificationTitle" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/download_service_pb" android:background="@drawable/adn_notification_progress_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.659973dip" android:layout_marginTop="1.0dip" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/adn_notification_interminate_progress" android:progressDrawable="@drawable/adn_xml_notification_progress" />
+        <ProgressBar android:id="@id/download_service_pb_running_for_intl" android:background="@color/adn_download_notification_running_progress_bg_color" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="1.0dip" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/adn_notification_interminate_progress" android:progressDrawable="@drawable/adn_xml_notification_progress_running_for_intl" />
+        <ProgressBar android:id="@id/download_service_pb_paused_for_intl" android:background="@color/adn_download_notification_paused_progress_bg_color" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="1.0dip" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/adn_notification_interminate_progress" android:progressDrawable="@drawable/adn_xml_notification_progress_paused_for_intl" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_weight="1.0">
+            <TextView android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/download_service_info" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/AdnNotificationText" />
+            <TextView android:gravity="center|right" android:id="@id/download_service_speed" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/AdnNotificationText" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

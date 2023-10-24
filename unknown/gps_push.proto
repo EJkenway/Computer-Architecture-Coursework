@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "GpsPush";
+
+message RawGpsData {
+  uint32 timestamp = 1;
+  uint32 steps = 2;
+  float lat = 3;
+  float lon = 4;
+  float alt = 5;
+  float speed = 6;
+  uint32 acc = 7;
+  uint32 is_pause = 8;
+}

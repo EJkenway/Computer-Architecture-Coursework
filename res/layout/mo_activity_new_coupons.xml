@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBar" app:left_icon_clickable="true" app:right_icon_clickable="true" app:title="@string/title_coupons" style="@style/ItemCustomTitleBar" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/layoutCoordinator" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutBehaviorEx">
+            <RelativeLayout android:id="@id/exchangePanel" android:background="@color/white" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways|snap">
+                <TextView android:textSize="13.0dip" android:textColor="@color/light_green" android:id="@id/exchangeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coupons_exchange" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <EditText android:textSize="13.0dip" android:textColor="@color/six_gray" android:textColorHint="@color/nine_gray" android:id="@id/codeInput" android:background="@drawable/mo_search_coupon_panel_background" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginRight="14.0dip" android:hint="@string/hint_input_coupon_code" android:singleLine="true" android:layout_toLeftOf="@id/exchangeButton" android:textCursorDrawable="@drawable/cursor_register_login_edit" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/six_gray" android:gravity="center" android:id="@id/textCouponsExchange" android:background="@drawable/mo_search_coupon_panel_background" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/input_exchange_code" />
+            </RelativeLayout>
+            <com.flyco.tablayout.SlidingTabLayout android:id="@id/tabLayoutCoupons" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/tab_layout_height" app:tl_indicator_color="@color/purple" app:tl_indicator_corner_radius="@dimen/tab_indicator_radius" app:tl_indicator_height="@dimen/tab_indicator_height" app:tl_indicator_margin_bottom="@dimen/tab_indicator_padding_bottom" app:tl_indicator_style="NORMAL" app:tl_indicator_width="@dimen/tab_indicator_width" app:tl_tab_space_equal="true" app:tl_textBold="true" app:tl_textSelectColor="@color/gray_22" app:tl_textUnselectColor="@color/gray_99" app:tl_textsize="@dimen/font_size_15sp" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.gotokeep.keep.mo.common.widget.ScrollNoAnimationViewPager android:id="@id/viewPagerCoupons" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.gotokeep.keep.mo.common.neterror.view.NetErrorView android:id="@id/netErrorRoot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/listEmpty" android:visibility="gone" android:layout="@layout/mo_view_store_list_empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

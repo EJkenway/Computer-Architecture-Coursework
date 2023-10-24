@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:left_icon="@drawable/icon_close_lined" app:left_icon_clickable="true" app:title="@string/rt_local_log_title" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" android:background="@color/transparent" android:layout_height="45.0dip" app:pDividerColor="@color/transparent" app:pIndicatorColor="@color/purple" app:pIndicatorHeight="2.0dip" app:pIndicatorWidth="16.0dip" app:pTabTextColor="@color/local_log_tab_selector" app:pTabTextSize="15.0sp" style="@style/default_indicator_tab_strip" />
+    <View android:id="@id/view_divider" android:background="@color/data_center_log_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

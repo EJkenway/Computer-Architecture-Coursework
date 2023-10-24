@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.StepNotificationView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/gray_fa_round_rect_bg" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/kt_kitbit_steps_to_notification" android:drawableLeft="@drawable/kt_ic_guide_step" android:drawablePadding="8.0dip" android:layout_weight="1.0" android:drawableStart="@drawable/kt_ic_guide_step" />
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_arrow_line" android:importantForAccessibility="no" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.StepNotificationView>

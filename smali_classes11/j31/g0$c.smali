@@ -1,0 +1,80 @@
+.class public final Lj31/g0$c;
+.super Lij3/p;
+.source "PuncheurReconnectPresenter.kt"
+
+# interfaces
+.implements Lhj3/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lj31/g0;->i(Lj31/g0;Lcom/gotokeep/keep/kt/business/puncheur/ReconnectStatus;Lhj3/l;ILjava/lang/Object;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lij3/p;",
+        "Lhj3/l<",
+        "Landroid/view/View;",
+        "Lwi3/s;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final g:Lj31/g0$c;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lj31/g0$c;
+
+    invoke-direct {v0}, Lj31/g0$c;-><init>()V
+
+    sput-object v0, Lj31/g0$c;->g:Lj31/g0$c;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lij3/p;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Landroid/view/View;
+
+    invoke-virtual {p0, p1}, Lj31/g0$c;->invoke(Landroid/view/View;)V
+
+    sget-object p1, Lwi3/s;->a:Lwi3/s;
+
+    return-object p1
+.end method
+
+.method public final invoke(Landroid/view/View;)V
+    .locals 1
+
+    const-string v0, "it"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-void
+.end method

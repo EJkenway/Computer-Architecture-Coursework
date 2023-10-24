@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.prime.mvp.view.PrimeComposeAssessmentView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.tc.business.prime.view.PrimeHomePostureView android:id="@id/bgPostureView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/layoutAssessment" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/layoutNoAssessment" android:background="@color/transparent" android:visibility="gone" layout="@layout/tc_layout_no_assessment" />
+        <include android:id="@id/layoutNormalAssessment" android:background="@color/transparent" android:visibility="gone" layout="@layout/tc_layout_normal_assessment" />
+        <include android:id="@id/layoutVipAssessment" android:background="@color/transparent" android:visibility="gone" layout="@layout/tc_layout_vip_assessment" />
+    </FrameLayout>
+</com.gotokeep.keep.tc.business.prime.mvp.view.PrimeComposeAssessmentView>

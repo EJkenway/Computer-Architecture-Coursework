@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.personalpage.mvp.home.view.PersonalMoreItemView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/purple" android:id="@id/txtHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_out_more" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.profile.personalpage.mvp.home.view.PersonalMoreItemView>

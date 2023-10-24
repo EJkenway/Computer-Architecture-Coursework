@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.recommend.mvp.view.SocialView android:id="@id/viewSocial" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recyclerRecommend" android:background="@color/gray_f5" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/stickyContainer" android:background="@color/white" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="54.0dip" android:paddingHorizontal="4.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layoutEmpty" android:background="@color/gray_f5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/skeletonView" layout="@layout/tc_skeleton_new_recommend_fragment" />
+</com.gotokeep.keep.tc.business.recommend.mvp.view.SocialView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitHeaderItemView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/gray_33" android:id="@id/text_suit_header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/image_more" android:layout_width="8.0dip" android:layout_height="14.5dip" android:src="@drawable/km_suit_right_arrow" android:scaleType="fitEnd" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:tint="@color/gray_99" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitHeaderItemView>

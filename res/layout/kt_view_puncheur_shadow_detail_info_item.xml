@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheurshadow.routedetail.mvp.view.PuncheurShadowRouteDetailsInfoItemView android:paddingTop="@dimen/dimen_32dp" android:paddingBottom="@dimen/dimen_32dp" android:layout_width="@dimen/dimen_108dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutRouteDataItem" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.uilib.KLKeepFontTextView android:textSize="@dimen/font_size_24sp" android:textColor="@color/white_80" android:id="@id/textInfoValue" android:layout_width="wrap_content" android:layout_height="wrap_content" app:keepFont="font/KeepDisplay-Regular.otf" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white_38" android:id="@id/textInfoName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_6dp" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <View android:id="@id/viewDetailItemDivider" android:background="@color/white_8" android:layout_width="0.5dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/layoutRouteDataItem" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/layoutRouteDataItem" />
+</com.gotokeep.keep.kt.business.puncheurshadow.routedetail.mvp.view.PuncheurShadowRouteDetailsInfoItemView>

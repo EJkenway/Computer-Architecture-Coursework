@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.share.customize.mvp.view.ShareCustomizeSquareTrackCard android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/cardView" android:layout_width="306.0dip" android:layout_height="306.0dip" android:layout_marginBottom="22.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" app:cardUseCompatPadding="false">
+        <com.gotokeep.keep.commonui.widget.roundcorner.RCConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:round_corner="8.0dip">
+            <com.gotokeep.keep.share.customize.mvp.view.ShareCardCanvasView android:id="@id/canvasView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/materialImage" android:layout_width="101.0dip" android:layout_height="28.0dip" android:layout_marginTop="14.0dip" android:layout_marginEnd="21.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="18.0sp" android:textColor="#f0ffffff" android:gravity="center" android:id="@id/distanceText" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+            <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/sh_kilometer" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="@id/distanceText" app:layout_constraintStart_toEndOf="@id/distanceText" />
+            <com.gotokeep.keep.commonui.widget.sticker.StickerContainerWidget android:id="@id/stickerLayer" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </com.gotokeep.keep.commonui.widget.roundcorner.RCConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</com.gotokeep.keep.share.customize.mvp.view.ShareCustomizeSquareTrackCard>

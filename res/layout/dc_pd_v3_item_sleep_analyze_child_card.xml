@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SleepAnalyzeItemView android:orientation="vertical" android:background="@drawable/dc_bg_rectangle_solid_fbfbfb_corner_4dp" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imgDot" android:layout_width="6.0dip" android:layout_height="6.0dip" android:src="@drawable/bg_dot_6c51f4" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/textName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="6.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:id="@id/textTag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:lineSpacingExtra="4.0dip" android:layout_marginStart="12.0dip" />
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SleepAnalyzeItemView>

@@ -1,0 +1,18 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "MenstrualCycles";
+
+message Menstrual{
+    uint32 menstrual_start = 1;
+    uint32 menstrual_end = 2;
+    uint32 easy_pregnancy_start = 3;
+    uint32 easy_pregnancy_end = 4;
+}
+
+
+message MenstrualInfo {
+    Menstrual now_menstrual = 1;
+    Menstrual next_menstrual = 2;
+    uint32 remind_flag = 3;
+}
+

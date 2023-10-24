@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/primeBackgroundMask" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/ivBgCard" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="156.0dip" android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:id="@id/viewShadow" android:visibility="gone" style="@style/action_bar_shadow_style" />
+        </FrameLayout>
+        <com.gotokeep.keep.commonui.framework.activity.title.AppBarLayoutAnim android:id="@id/appbar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.gotokeep.keep.km.suit.widget.HomePrimeCollapsingToolbar android:id="@id/titleBarWrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="84.0dip" app:contentScrim="@android:color/transparent" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+                <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" android:background="@color/transparent" android:layout_marginStart="6.0dip" app:layout_collapseMode="parallax" app:pFocusMode="initTab" style="@style/text_anim_indicator_tab_strip" />
+                <include android:layout_gravity="end" android:id="@id/layoutRightAction" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_collapseMode="parallax" layout="@layout/layout_app_bar_right_action" />
+            </com.gotokeep.keep.km.suit.widget.HomePrimeCollapsingToolbar>
+        </com.gotokeep.keep.commonui.framework.activity.title.AppBarLayoutAnim>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

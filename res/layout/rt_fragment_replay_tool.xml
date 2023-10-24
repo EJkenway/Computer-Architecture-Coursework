@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/layout_title_bar" android_custom:left_icon="@drawable/icon_arrow_left_lined" android_custom:left_icon_clickable="true" android_custom:title="@string/replay_tool" style="@style/ItemCustomTitleBar" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/edit_text_id" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/input_log_id" android:layout_weight="1.0" android:inputType="text" />
+        <Button android:id="@id/btn_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" />
+        <EditText android:id="@id/edit_text_speed" android:layout_width="50.0dip" android:layout_height="wrap_content" android:text="20" android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/cb_replay_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/replay_pause_point" />
+        <CheckBox android:id="@id/cb_auto_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_as_auto_record" android:layout_marginStart="8.0dip" />
+        <CheckBox android:id="@id/cb_keep_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/replay_keep_time" android:layout_marginStart="8.0dip" />
+        <Button android:textSize="11.0sp" android:id="@id/btnSetPlaySpeed" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/rt_long_audio_play_speed" />
+    </LinearLayout>
+    <RadioGroup android:orientation="horizontal" android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/radio_btn_running" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:text="@string/running" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/radio_btn_treadmill" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/treadmill" android:layout_weight="1.2" />
+        <RadioButton android:id="@id/radio_btn_cycling" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cycling" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/radio_btn_hiking" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/hiking" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/radio_btn_history" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/log_history" android:layout_weight="1.0" />
+    </RadioGroup>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:id="@id/text_preset" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_preset" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_log" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

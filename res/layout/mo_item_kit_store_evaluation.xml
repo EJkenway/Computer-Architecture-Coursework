@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:id="@id/text_title" android:paddingTop="20.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_14dp" android:text="@string/mo_hot_evaluation" />
+    <RelativeLayout android:padding="@dimen/mo_margin_14" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_evaluation_photo" android:layout_width="105.0dip" android:layout_height="105.0dip" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/gray_33" android:id="@id/text_evaluation_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_toRightOf="@id/img_evaluation_photo" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_66" android:id="@id/text_evaluation_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:maxLines="2" android:layout_toRightOf="@id/img_evaluation_photo" android:layout_below="@id/text_evaluation_title" />
+        <RelativeLayout android:paddingLeft="@dimen/mo_margin_14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mo_margin_14" android:layout_toRightOf="@id/img_evaluation_photo" android:layout_alignBottom="@id/img_evaluation_photo">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/img_author_avatar" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/font_size_13sp" android:id="@id/text_author_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/img_author_avatar" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/text_read_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/view_line" style="@style/StoreLine" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutPuncheurPrepare" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:background_color="@color/transparent" app:layout_constraintTop_toTopOf="parent" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_dd_40" android:gravity="center" android:id="@id/textName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="175.0dip" android:text="@string/kt_koval_training_default" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/gray_dd" android:gravity="center" android:id="@id/textTip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/kt_koval_pre_start_hint" app:layout_constraintTop_toBottomOf="@id/textName" />
+        <ImageView android:id="@id/imgStart" android:layout_width="280.0dip" android:layout_height="0.0dip" android:src="@drawable/kt_ic_images_koval_prestart" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textTip" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

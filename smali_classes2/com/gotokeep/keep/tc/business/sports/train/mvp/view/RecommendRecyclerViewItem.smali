@@ -1,0 +1,91 @@
+.class public Lcom/gotokeep/keep/tc/business/sports/train/mvp/view/RecommendRecyclerViewItem;
+.super Landroid/widget/FrameLayout;
+.source "RecommendRecyclerViewItem.java"
+
+# interfaces
+.implements Lbm/b;
+
+
+# instance fields
+.field public g:Landroidx/recyclerview/widget/RecyclerView;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    return-void
+.end method
+
+.method public static b(Landroid/view/ViewGroup;)Lcom/gotokeep/keep/tc/business/sports/train/mvp/view/RecommendRecyclerViewItem;
+    .locals 1
+
+    .line 1
+    sget v0, Lmi2/g;->b3:I
+
+    invoke-static {p0, v0}, Lcom/gotokeep/keep/common/utils/ViewUtils;->newInstance(Landroid/view/ViewGroup;I)Landroid/view/View;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/gotokeep/keep/tc/business/sports/train/mvp/view/RecommendRecyclerViewItem;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 1
+
+    .line 1
+    sget v0, Lmi2/f;->O6:I
+
+    invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
+
+    iput-object v0, p0, Lcom/gotokeep/keep/tc/business/sports/train/mvp/view/RecommendRecyclerViewItem;->g:Landroidx/recyclerview/widget/RecyclerView;
+
+    return-void
+.end method
+
+.method public getRecyclerRecommend()Landroidx/recyclerview/widget/RecyclerView;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/tc/business/sports/train/mvp/view/RecommendRecyclerViewItem;->g:Landroidx/recyclerview/widget/RecyclerView;
+
+    return-object v0
+.end method
+
+.method public getView()Landroid/view/View;
+    .locals 0
+
+    return-object p0
+.end method
+
+.method public onFinishInflate()V
+    .locals 0
+
+    .line 1
+    invoke-super {p0}, Landroid/widget/FrameLayout;->onFinishInflate()V
+
+    .line 2
+    invoke-virtual {p0}, Lcom/gotokeep/keep/tc/business/sports/train/mvp/view/RecommendRecyclerViewItem;->a()V
+
+    return-void
+.end method

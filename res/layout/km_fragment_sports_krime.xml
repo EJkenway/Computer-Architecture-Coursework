@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/skeletonView" layout="@layout/km_skeleton_sports_krime_fragment" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layoutErrorView" android:background="@color/snow_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/pullRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/userHeaderView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_1dp" app:layout_constraintBottom_toTopOf="parent" layout="@layout/km_view_prime_compose_quick_entry_card" />
+</androidx.constraintlayout.widget.ConstraintLayout>

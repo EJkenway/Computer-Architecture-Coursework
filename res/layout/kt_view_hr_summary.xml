@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.HRSummaryView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="146.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/dateView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="24.0dip">
+        <com.gotokeep.keep.kt.business.kitbit.mvp.view.HRTitleValueView android:id="@id/maxHrView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:show_divider="true" app:title="@string/kt_highest" />
+        <com.gotokeep.keep.kt.business.kitbit.mvp.view.HRTitleValueView android:id="@id/minHrView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:show_divider="true" app:title="@string/kt_lowest" />
+        <com.gotokeep.keep.kt.business.kitbit.mvp.view.HRTitleValueView android:id="@id/averageHrView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:show_divider="true" app:title="@string/kt_average" />
+        <com.gotokeep.keep.kt.business.kitbit.mvp.view.HRTitleValueView android:id="@id/restingHrView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:title="@string/kt_kitbit_resting" app:title_img="@drawable/icon_exclamation_with_circle" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.HRSummaryView>

@@ -1,0 +1,361 @@
+[{
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 1,
+		"ranges": [{
+				"level": 1,
+				"upperLimit:": 500,
+				"lowerLimit:": 905
+			},
+			{
+				"level": 2,
+				"upperLimit:": 440,
+				"lowerLimit:": 500
+			},
+			{
+				"level": 3,
+				"upperLimit:": 380,
+				"lowerLimit:": 440
+			},
+			{
+				"type": "tempo",
+				"upperLimit:": 335,
+				"lowerLimit:": 380
+			},
+			{
+				"type": "interval",
+				"upperLimit:": 305,
+				"lowerLimit:": 335
+			},
+			{
+				"type": "maximum",
+				"upperLimit:": 170,
+				"lowerLimit:": 305
+			}
+		]
+	},
+	{
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 2,
+		"ranges": [{
+				"type": "warmup",
+				"upperLimit:": 485,
+				"lowerLimit:": 890
+			},
+			{
+				"type": "easy",
+				"upperLimit:": 425,
+				"lowerLimit:": 485
+			},
+			{
+				"type": "cardio",
+				"upperLimit:": 365,
+				"lowerLimit:": 425
+			},
+			{
+				"type": "tempo",
+				"upperLimit:": 320,
+				"lowerLimit:": 365
+			},
+			{
+				"type": "interval",
+				"upperLimit:": 290,
+				"lowerLimit:": 320
+			},
+			{
+				"type": "maximum",
+				"upperLimit:": 155,
+				"lowerLimit:": 290
+			}
+
+		]
+	},
+	{
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 3,
+		"ranges": [{
+				"type": "warmup",
+				"upperLimit:": 470,
+				"lowerLimit:": 875
+			},
+			{
+				"type": "easy",
+				"upperLimit:": 410,
+				"lowerLimit:": 470
+			},
+			{
+				"type": "cardio",
+				"upperLimit:": 350,
+				"lowerLimit:": 410
+			},
+			{
+				"type": "tempo",
+				"upperLimit:": 305,
+				"lowerLimit:": 350
+			},
+			{
+				"type": "interval",
+				"upperLimit:": 275,
+				"lowerLimit:": 305
+			},
+			{
+				"type": "maximum",
+				"upperLimit:": 140,
+				"lowerLimit:": 275
+			}
+		]
+	},
+	{
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 4,
+		"ranges": [{
+				"type": "warmup",
+				"upperLimit:": 440,
+				"lowerLimit:": 845
+			},
+			{
+				"type": "easy",
+				"upperLimit:": 380,
+				"lowerLimit:": 440
+			},
+			{
+				"type": "cardio",
+				"upperLimit:": 320,
+				"lowerLimit:": 380
+			},
+			{
+				"type": "tempo",
+				"upperLimit:": 275,
+				"lowerLimit:": 320
+			},
+			{
+				"type": "interval",
+				"upperLimit:": 245,
+				"lowerLimit:": 275
+			},
+			{
+				"type": "maximum",
+				"upperLimit:": 110,
+				"lowerLimit:": 245
+			}
+		]
+	},
+	{
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 5,
+		"ranges": [{
+				"type": "warmup",
+				"upperLimit:": 425,
+				"lowerLimit:": 830
+			},
+			{
+				"type": "easy",
+				"upperLimit:": 365,
+				"lowerLimit:": 425
+			},
+			{
+				"type": "cardio",
+				"upperLimit:": 305,
+				"lowerLimit:": 365
+			},
+			{
+				"type": "tempo",
+				"upperLimit:": 260,
+				"lowerLimit:": 305
+			},
+			{
+				"type": "interval",
+				"upperLimit:": 230,
+				"lowerLimit:": 260
+			},
+			{
+				"type": "maximum",
+				"upperLimit:": 95,
+				"lowerLimit:": 230
+			}
+		]
+	}, {
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 1,
+		"ranges": [{
+				"level": 1,
+				"upperLimit:": 515,
+				"lowerLimit:": 905
+			},
+			{
+				"level": 2,
+				"upperLimit:": 455,
+				"lowerLimit:": 515
+			},
+			{
+				"level": 3,
+				"upperLimit:": 395,
+				"lowerLimit:": 455
+			},
+			{
+				"level": 4,
+				"upperLimit:": 350,
+				"lowerLimit:": 395
+			},
+			{
+				"level": 5,
+				"upperLimit:": 320,
+				"lowerLimit:": 350
+			},
+			{
+				"level": 6,
+				"upperLimit:": 185,
+				"lowerLimit:": 320
+			}
+		]
+	},
+	{
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 2,
+		"ranges": [{
+				"level": 1,
+				"upperLimit:": 500,
+				"lowerLimit:": 890
+			},
+			{
+				"level": 2,
+				"upperLimit:": 440,
+				"lowerLimit:": 500
+			},
+			{
+				"level": 3,
+				"upperLimit:": 380,
+				"lowerLimit:": 440
+			},
+			{
+				"level": 4,
+				"upperLimit:": 335,
+				"lowerLimit:": 380
+			},
+			{
+				"level": 5,
+				"upperLimit:": 305,
+				"lowerLimit:": 335
+			},
+			{
+				"level": 6,
+				"upperLimit:": 170,
+				"lowerLimit:": 305
+			}
+		]
+	},
+	{
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 3,
+		"ranges": [{
+				"level": 1,
+				"upperLimit:": 485,
+				"lowerLimit:": 890
+			},
+			{
+				"level": 2,
+				"upperLimit:": 425,
+				"lowerLimit:": 485
+			},
+			{
+				"level": 3,
+				"upperLimit:": 365,
+				"lowerLimit:": 425
+			},
+			{
+				"level": 4,
+				"upperLimit:": 320,
+				"lowerLimit:": 365
+			},
+			{
+				"level": 5,
+				"upperLimit:": 290,
+				"lowerLimit:": 320
+			},
+			{
+				"level": 6,
+				"upperLimit:": 155,
+				"lowerLimit:": 290
+			}
+		]
+	},
+	{
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 4,
+		"ranges": [{
+				"level": 1,
+				"upperLimit:": 455,
+				"lowerLimit:": 845
+			},
+			{
+				"level": 2,
+				"upperLimit:": 395,
+				"lowerLimit:": 455
+			},
+			{
+				"level": 3,
+				"upperLimit:": 335,
+				"lowerLimit:": 395
+			},
+			{
+				"level": 4,
+				"upperLimit:": 290,
+				"lowerLimit:": 335
+			},
+			{
+				"level": 5,
+				"upperLimit:": 260,
+				"lowerLimit:": 290
+			},
+			{
+				"level": 6,
+				"upperLimit:": 125,
+				"lowerLimit:": 260
+			}
+		]
+	},
+	{
+		"type": "pace",
+		"gender": "F",
+		"difficulty": 5,
+		"ranges": [{
+				"level": 1,
+				"upperLimit:": 440,
+				"lowerLimit:": 845
+			},
+			{
+				"level": 2,
+				"upperLimit:": 380,
+				"lowerLimit:": 440
+			},
+			{
+				"level": 3,
+				"upperLimit:": 320,
+				"lowerLimit:": 380
+			},
+			{
+				"level": 4,
+				"upperLimit:": 275,
+				"lowerLimit:": 320
+			},
+			{
+				"level": 5,
+				"upperLimit:": 245,
+				"lowerLimit:": 275
+			},
+			{
+				"level": 6,
+				"upperLimit:": 110,
+				"lowerLimit:": 245
+			}
+		]
+	}
+]

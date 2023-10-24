@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheurshadow.routedetail.mvp.view.PuncheurShadowRouteDetailsVideoTimeView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textStyle="bold" android:textColor="@color/white_60" android:id="@id/textVideoTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="70.0dip" android:layout_marginEnd="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <ImageView android:id="@id/imgShadowVideoMute" android:background="@drawable/kt_bg_90dp_solid_24_000000" android:padding="@dimen/dimen_8dp" android:layout_width="@dimen/dimen_40dp" android:layout_height="@dimen/dimen_40dp" android:layout_marginBottom="@dimen/dimen_20dp" android:src="@drawable/kt_bg_shadow_detail_video_mute" android:layout_marginEnd="@dimen/dimen_16dp" app:layout_constraintBottom_toTopOf="@id/textVideoTime" app:layout_constraintEnd_toEndOf="parent" />
+</com.gotokeep.keep.kt.business.puncheurshadow.routedetail.mvp.view.PuncheurShadowRouteDetailsVideoTimeView>

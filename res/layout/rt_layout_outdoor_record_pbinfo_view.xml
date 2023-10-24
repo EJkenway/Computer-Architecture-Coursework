@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.video.view.OutdoorVideoRecordPbInfoView android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview_pbinfo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="62.0dip" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutSpecialToast" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="220.0dip" android:layout_alignParentBottom="true" android:paddingStart="24.0dip" android:paddingEnd="0.0dip" android:layout_alignParentStart="true" />
+</com.gotokeep.keep.rt.business.video.view.OutdoorVideoRecordPbInfoView>

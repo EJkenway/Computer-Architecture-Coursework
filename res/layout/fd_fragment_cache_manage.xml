@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android_custom:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <LinearLayout style="@style/SettingItemWithDivider">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemTrainResourceManage" android_custom:mainText="@string/train_resource_manage" style="@style/SettingSingleItemWithClick" />
+    </LinearLayout>
+    <View android:background="@color/plan_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height_12dp" />
+    <LinearLayout style="@style/SettingItemWithDivider">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemOutdoorAudioManage" android_custom:mainText="@string/text_clear_outdoor_sound_cache" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemClearCache" android_custom:mainText="@string/clear_all_other_cache" style="@style/SettingSingleItemWithClick" />
+    </LinearLayout>
+</LinearLayout>

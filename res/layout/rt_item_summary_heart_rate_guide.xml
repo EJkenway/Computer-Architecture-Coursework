@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryHeartRateGuideView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutContent" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RtSummaryCardView">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_marginBottom="20.0dip" style="@style/RtSummaryCardViewTitleLayout">
+            <ImageView android:id="@id/imgTitle" android:layout_width="@dimen/rt_summary_title_drawable_size" android:layout_height="@dimen/rt_summary_title_drawable_size" android:src="@drawable/rt_ic_summary_heart_rate" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:id="@id/textHeartRate" android:text="@string/rt_heart_rate" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="@id/imgTitle" app:layout_constraintStart_toEndOf="@id/imgTitle" app:layout_constraintTop_toTopOf="@id/imgTitle" style="@style/RtSummaryCardViewTitleInLayout" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryHeartRateGuideView>

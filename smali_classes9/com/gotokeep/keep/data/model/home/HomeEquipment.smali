@@ -1,0 +1,78 @@
+.class public Lcom/gotokeep/keep/data/model/home/HomeEquipment;
+.super Ljava/lang/Object;
+.source "HomeEquipment.java"
+
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/gotokeep/keep/data/model/home/HomeEquipment$UnitsEntity;
+    }
+.end annotation
+
+
+# instance fields
+.field private _id:Ljava/lang/String;
+
+.field private name:Ljava/lang/String;
+
+.field private units:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/gotokeep/keep/data/model/home/HomeEquipment$UnitsEntity;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/gotokeep/keep/data/model/home/HomeEquipment$UnitsEntity;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/home/HomeEquipment;->units:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public b()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/home/HomeEquipment;->_id:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getName()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/home/HomeEquipment;->name:Ljava/lang/String;
+
+    return-object v0
+.end method

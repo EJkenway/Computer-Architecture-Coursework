@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/playerMapView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/dataViewContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/maskView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/rt_bg_video_track_mask" android:scaleType="fitXY" />
+        <com.gotokeep.keep.rt.business.video.sdk.view.DefaultVideoDataView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <include android:id="@id/creditView" layout="@layout/rt_layout_outdoor_video_record_band_view" />
+    <ImageView android:id="@id/imgMapSdkCover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/rt_video_credit" />
+</RelativeLayout>

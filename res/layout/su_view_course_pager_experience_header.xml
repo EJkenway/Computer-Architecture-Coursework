@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.course.view.CoursePagerEvaluationHeaderView android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/pagerEvaluation" android:layout_width="fill_parent" android:layout_height="91.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layoutPointContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</com.gotokeep.keep.su.social.comment.course.view.CoursePagerEvaluationHeaderView>

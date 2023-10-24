@@ -1,0 +1,40 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+
+message CaloriesGoal {
+    // 卡路里默认目标，单位千卡
+    uint32 calories_default_goal = 1;
+    // 卡路里达标提醒开关，0 ： 关闭； 1 ： 开启
+    uint32 calories_remind_switch = 2;
+    // 7 天卡路里目标，单位千卡，依次为当天到第 7 天。(不使用，保留字段)
+    //repeated uint32 calories_goal = 3;
+    // 热量目标等级 （1-3级）。(不使用，保留字段)
+    uint32 calorie_remind_goal_class = 4;
+    // 热量目标即将达成提醒开关。(不使用，保留字段)
+    uint32 calorie_remind_goal_coming_switch = 5;
+    // 基线活动消耗，单位千卡。(不使用，保留字段)
+    uint32 calorie_remind_base_goal = 6;
+}
+
+message StepsGoal {
+    // 步数达标提醒开关，0 ： 关闭； 1 ： 开启
+    uint32 step_remind_switch = 1;
+    // 步数目标值，，单位步
+    uint32 step_goal = 2;
+}
+
+message ExerciseTimeGoal
+{
+    uint32 exercise_time_remind_switch = 1;
+    uint32 exercise_time_goal_class = 2;
+    uint32 exercise_time_goal = 3;
+}
+
+message ExerciseGoal {
+    CaloriesGoal calories = 1;
+    StepsGoal steps = 2;
+    uint32 sleep = 3;
+    ExerciseTimeGoal exercise_time = 4;
+    uint32 health_remind_switch = 5;
+}
+

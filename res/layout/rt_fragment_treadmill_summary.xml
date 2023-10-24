@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_root" android:background="@color/bg_treadmill_summary_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageQrCode" android:visibility="invisible" android:layout_width="@dimen/rt_summary_qr_code_size" android:layout_height="@dimen/rt_summary_qr_code_size" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgEntryPost" android:visibility="invisible" android:layout_width="@dimen/rt_summary_entry_post_image_size" android:layout_height="@dimen/rt_summary_entry_post_image_size" />
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/mapVirtualRoute" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.map.widget.TrackReplayView android:id="@id/view_track_replay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/view_summary_background" layout="@layout/rt_view_summary_page_background" />
+    <com.gotokeep.keep.commonui.view.SummaryRecyclerView android:id="@id/recyclerView_treadmill_summary" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/layoutSummaryButtons" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/rt_view_summary_button" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_upload" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/upload_view" android:layout_width="fill_parent" android:layout_height="@dimen/rt_bottom_button_container_height" layout="@layout/rt_view_upload" />
+    </LinearLayout>
+    <include layout="@layout/rt_layout_loading" />
+    <View android:id="@id/view_mask" android:background="@color/black_70" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

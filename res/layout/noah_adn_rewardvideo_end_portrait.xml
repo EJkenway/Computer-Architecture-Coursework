@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/hc_rewardvideo_end_main" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="364.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.noah.adn.huichuan.view.ui.widget.HCRoundedNetImageView android:id="@id/noah_end_app_logo" android:layout_width="86.0dip" android:layout_height="86.0dip" android:layout_marginTop="48.0dip" />
+    <TextView android:textSize="18.0dip" android:textColor="#ff191919" android:ellipsize="end" android:gravity="center" android:id="@id/noah_end_ad_title" android:paddingLeft="36.0dip" android:paddingRight="36.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="true" />
+    <TextView android:textSize="15.0dip" android:textColor="#ff666666" android:ellipsize="end" android:gravity="center" android:id="@id/noah_end_ad_desc" android:paddingLeft="36.0dip" android:paddingRight="36.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:lines="2" />
+    <FrameLayout android:id="@id/noah_fl_download_apk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip">
+        <ProgressBar android:id="@id/noah_end_hc_progressbar" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="56.0dip" android:layout_marginRight="56.0dip" android:max="100" android:progress="100" android:progressDrawable="@drawable/adn_hor_progressbar_bg_new" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/noah_end_download_tips" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/noah_adn_btn_expire" />
+    </FrameLayout>
+</LinearLayout>

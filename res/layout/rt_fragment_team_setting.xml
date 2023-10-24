@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBarTeam" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title="@string/team_name" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemSwitchTeam" android:background="@android:color/white" app:mainText="@string/rt_start_team_setting" app:settingItemDesc="@string/rt_notice_setting_team_desc" style="@style/SettingItemSwitch" />
+</LinearLayout>

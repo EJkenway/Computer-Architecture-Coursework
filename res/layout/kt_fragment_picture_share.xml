@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.view.SwipeBackLayout android:id="@id/layout_swipe_back" android:background="@color/black_70" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/dark_purple" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" app:background_color="@color/dark_purple" app:left_icon="@drawable/icon_arrow_close_down_white" app:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+        <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" android:background="@color/transparent" android:layout_height="44.0dip" app:pDividerColor="@color/transparent" app:pIndicatorColor="@color/white" app:pIndicatorHeight="2.0dip" app:pIndicatorWidth="16.0dip" app:pTabTextColor="@color/share_tab_selector" app:pTabTextSize="15.0sp" style="@style/default_indicator_tab_strip" />
+        <View android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:background="@color/dark_purple" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="12.0dip" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="75.0dip" />
+            <include android:id="@id/layout_share_channel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/kt_view_share_channel" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.gotokeep.keep.commonui.view.SwipeBackLayout>

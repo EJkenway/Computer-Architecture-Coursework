@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layoutJoin" android:background="@drawable/bg_green_50_dp_button_click" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="47.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="47.0dip" android:layout_marginBottom="12.0dip">
+        <ImageView android:id="@id/imgBrand" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/mo_ic_band" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvJoin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="立即生成下一计划" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvPrice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="最低 ¥19/月" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageBottomScrollGuide" android:visibility="invisible" android:layout_width="16.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/mo_icon_scroll_remind" android:scaleType="center" />
+</merge>

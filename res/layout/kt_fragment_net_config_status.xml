@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.kt.business.configwifirefactor.view.KitNetConfigStatusSuccessView android:id="@id/viewSuccess" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.kt.business.configwifirefactor.view.KitNetConfigStatusOptimizedView android:id="@id/viewOptimized" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.kt.business.configwifirefactor.view.KitNetConfigIntroduceView android:id="@id/viewIntroduce" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

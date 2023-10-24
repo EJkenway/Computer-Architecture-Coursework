@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mo_margin_16" android:layout_marginRight="@dimen/mo_margin_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/courseTabs" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/mo_equipment_tab_strip" />
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/coursePager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

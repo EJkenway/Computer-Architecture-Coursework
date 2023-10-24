@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.follow.view.TimelineLiveUserListView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/viewTopDivider" android:background="@color/line_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/author_container" android:layout_width="fill_parent" android:layout_height="109.0dip" />
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="10.0dip" />
+</com.gotokeep.keep.su_core.timeline.mvp.follow.view.TimelineLiveUserListView>

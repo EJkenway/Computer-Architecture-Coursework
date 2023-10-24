@@ -1,0 +1,2592 @@
+[
+  {
+    "name": "舟山市",
+    "province": "浙江省",
+    "displayName": "舟山",
+    "amapCode": 580,
+    "hot": 0
+  },
+  {
+    "name": "温州市",
+    "province": "浙江省",
+    "displayName": "温州",
+    "amapCode": 577,
+    "hot": 0
+  },
+  {
+    "name": "台州市",
+    "province": "浙江省",
+    "displayName": "台州",
+    "amapCode": 576,
+    "hot": 0
+  },
+  {
+    "name": "绍兴市",
+    "province": "浙江省",
+    "displayName": "绍兴",
+    "amapCode": 575,
+    "hot": 0
+  },
+  {
+    "name": "衢州市",
+    "province": "浙江省",
+    "displayName": "衢州",
+    "amapCode": 570,
+    "hot": 0
+  },
+  {
+    "name": "宁波市",
+    "province": "浙江省",
+    "displayName": "宁波",
+    "amapCode": 574,
+    "hot": 0
+  },
+  {
+    "name": "丽水市",
+    "province": "浙江省",
+    "displayName": "丽水",
+    "amapCode": 578,
+    "hot": 0
+  },
+  {
+    "name": "金华市",
+    "province": "浙江省",
+    "displayName": "金华",
+    "amapCode": 579,
+    "hot": 0
+  },
+  {
+    "name": "嘉兴市",
+    "province": "浙江省",
+    "displayName": "嘉兴",
+    "amapCode": 573,
+    "hot": 0
+  },
+  {
+    "name": "杭州市",
+    "province": "浙江省",
+    "displayName": "杭州",
+    "amapCode": 571,
+    "hot": 1
+  },
+  {
+    "name": "湖州市",
+    "province": "浙江省",
+    "displayName": "湖州",
+    "amapCode": 572,
+    "hot": 0
+  },
+  {
+    "name": "玉溪市",
+    "province": "云南省",
+    "displayName": "玉溪",
+    "amapCode": 877,
+    "hot": 0
+  },
+  {
+    "name": "昭通市",
+    "province": "云南省",
+    "displayName": "昭通",
+    "amapCode": 870,
+    "hot": 0
+  },
+  {
+    "name": "西双版纳傣族自治州",
+    "province": "云南省",
+    "displayName": "西双版纳",
+    "amapCode": 691,
+    "hot": 0
+  },
+  {
+    "name": "文山壮族苗族自治州",
+    "province": "云南省",
+    "displayName": "文山",
+    "amapCode": 876,
+    "hot": 0
+  },
+  {
+    "name": "曲靖市",
+    "province": "云南省",
+    "displayName": "曲靖",
+    "amapCode": 874,
+    "hot": 0
+  },
+  {
+    "name": "普洱市",
+    "province": "云南省",
+    "displayName": "普洱",
+    "amapCode": 879,
+    "hot": 0
+  },
+  {
+    "name": "怒江傈僳族自治州",
+    "province": "云南省",
+    "displayName": "怒江",
+    "amapCode": 886,
+    "hot": 0
+  },
+  {
+    "name": "丽江市",
+    "province": "云南省",
+    "displayName": "丽江",
+    "amapCode": 888,
+    "hot": 0
+  },
+  {
+    "name": "昆明市",
+    "province": "云南省",
+    "displayName": "昆明",
+    "amapCode": 871,
+    "hot": 0
+  },
+  {
+    "name": "临沧市",
+    "province": "云南省",
+    "displayName": "临沧",
+    "amapCode": 883,
+    "hot": 0
+  },
+  {
+    "name": "红河哈尼族彝族自治州",
+    "province": "云南省",
+    "displayName": "红河",
+    "amapCode": 873,
+    "hot": 0
+  },
+  {
+    "name": "迪庆藏族自治州",
+    "province": "云南省",
+    "displayName": "迪庆",
+    "amapCode": 887,
+    "hot": 0
+  },
+  {
+    "name": "德宏傣族景颇族自治州",
+    "province": "云南省",
+    "displayName": "德宏",
+    "amapCode": 692,
+    "hot": 0
+  },
+  {
+    "name": "大理白族自治州",
+    "province": "云南省",
+    "displayName": "大理",
+    "amapCode": 872,
+    "hot": 0
+  },
+  {
+    "name": "楚雄彝族自治州",
+    "province": "云南省",
+    "displayName": "楚雄",
+    "amapCode": 878,
+    "hot": 0
+  },
+  {
+    "name": "保山市",
+    "province": "云南省",
+    "displayName": "保山",
+    "amapCode": 875,
+    "hot": 0
+  },
+  {
+    "name": "香港特别行政区",
+    "province": "香港特別行政區",
+    "displayName": "香港",
+    "amapCode": 1852,
+    "hot": 0
+  },
+  {
+    "name": "自贡市",
+    "province": "四川省",
+    "displayName": "自贡",
+    "amapCode": 813,
+    "hot": 0
+  },
+  {
+    "name": "资阳市",
+    "province": "四川省",
+    "displayName": "资阳",
+    "amapCode": 832,
+    "hot": 0
+  },
+  {
+    "name": "宜宾市",
+    "province": "四川省",
+    "displayName": "宜宾",
+    "amapCode": 831,
+    "hot": 0
+  },
+  {
+    "name": "雅安市",
+    "province": "四川省",
+    "displayName": "雅安",
+    "amapCode": 835,
+    "hot": 0
+  },
+  {
+    "name": "遂宁市",
+    "province": "四川省",
+    "displayName": "遂宁",
+    "amapCode": 825,
+    "hot": 0
+  },
+  {
+    "name": "攀枝花市",
+    "province": "四川省",
+    "displayName": "攀枝花",
+    "amapCode": 812,
+    "hot": 0
+  },
+  {
+    "name": "内江市",
+    "province": "四川省",
+    "displayName": "内江",
+    "amapCode": 1832,
+    "hot": 0
+  },
+  {
+    "name": "南充市",
+    "province": "四川省",
+    "displayName": "南充",
+    "amapCode": 817,
+    "hot": 0
+  },
+  {
+    "name": "绵阳市",
+    "province": "四川省",
+    "displayName": "绵阳",
+    "amapCode": 816,
+    "hot": 0
+  },
+  {
+    "name": "眉山市",
+    "province": "四川省",
+    "displayName": "眉山",
+    "amapCode": 1833,
+    "hot": 0
+  },
+  {
+    "name": "泸州市",
+    "province": "四川省",
+    "displayName": "泸州",
+    "amapCode": 830,
+    "hot": 0
+  },
+  {
+    "name": "凉山彝族自治州",
+    "province": "四川省",
+    "displayName": "凉山",
+    "amapCode": 834,
+    "hot": 0
+  },
+  {
+    "name": "乐山市",
+    "province": "四川省",
+    "displayName": "乐山",
+    "amapCode": 833,
+    "hot": 0
+  },
+  {
+    "name": "甘孜藏族自治州",
+    "province": "四川省",
+    "displayName": "甘孜",
+    "amapCode": 836,
+    "hot": 0
+  },
+  {
+    "name": "德阳市",
+    "province": "四川省",
+    "displayName": "德阳",
+    "amapCode": 838,
+    "hot": 0
+  },
+  {
+    "name": "广安市",
+    "province": "四川省",
+    "displayName": "广安",
+    "amapCode": 826,
+    "hot": 0
+  },
+  {
+    "name": "广元市",
+    "province": "四川省",
+    "displayName": "广元",
+    "amapCode": 839,
+    "hot": 0
+  },
+  {
+    "name": "达州市",
+    "province": "四川省",
+    "displayName": "达州",
+    "amapCode": 818,
+    "hot": 0
+  },
+  {
+    "name": "成都市",
+    "province": "四川省",
+    "displayName": "成都",
+    "amapCode": 28,
+    "hot": 1
+  },
+  {
+    "name": "巴中市",
+    "province": "四川省",
+    "displayName": "巴中",
+    "amapCode": 827,
+    "hot": 0
+  },
+  {
+    "name": "阿坝藏族羌族自治州",
+    "province": "四川省",
+    "displayName": "阿坝",
+    "amapCode": 837,
+    "hot": 0
+  },
+  {
+    "name": "日喀则市",
+    "province": "西藏自治区",
+    "displayName": "日喀则",
+    "amapCode": 892,
+    "hot": 0
+  },
+  {
+    "name": "山南市",
+    "province": "西藏自治区",
+    "displayName": "山南",
+    "amapCode": 893,
+    "hot": 0
+  },
+  {
+    "name": "那曲地区",
+    "province": "西藏自治区",
+    "displayName": "那曲",
+    "amapCode": 896,
+    "hot": 0
+  },
+  {
+    "name": "林芝市",
+    "province": "西藏自治区",
+    "displayName": "林芝",
+    "amapCode": 894,
+    "hot": 0
+  },
+  {
+    "name": "拉萨市",
+    "province": "西藏自治区",
+    "displayName": "拉萨",
+    "amapCode": 891,
+    "hot": 0
+  },
+  {
+    "name": "昌都市",
+    "province": "西藏自治区",
+    "displayName": "昌都",
+    "amapCode": 895,
+    "hot": 0
+  },
+  {
+    "name": "阿里地区",
+    "province": "西藏自治区",
+    "displayName": "阿里",
+    "amapCode": 897,
+    "hot": 0
+  },
+  {
+    "name": "榆林市",
+    "province": "陕西省",
+    "displayName": "榆林",
+    "amapCode": 912,
+    "hot": 0
+  },
+  {
+    "name": "延安市",
+    "province": "陕西省",
+    "displayName": "延安",
+    "amapCode": 911,
+    "hot": 0
+  },
+  {
+    "name": "渭南市",
+    "province": "陕西省",
+    "displayName": "渭南",
+    "amapCode": 913,
+    "hot": 0
+  },
+  {
+    "name": "咸阳市",
+    "province": "陕西省",
+    "displayName": "咸阳",
+    "amapCode": 910,
+    "hot": 0
+  },
+  {
+    "name": "铜川市",
+    "province": "陕西省",
+    "displayName": "铜川",
+    "amapCode": 919,
+    "hot": 0
+  },
+  {
+    "name": "西安市",
+    "province": "陕西省",
+    "displayName": "西安",
+    "amapCode": 29,
+    "hot": 1
+  },
+  {
+    "name": "商洛市",
+    "province": "陕西省",
+    "displayName": "商洛",
+    "amapCode": 914,
+    "hot": 0
+  },
+  {
+    "name": "汉中市",
+    "province": "陕西省",
+    "displayName": "汉中",
+    "amapCode": 916,
+    "hot": 0
+  },
+  {
+    "name": "宝鸡市",
+    "province": "陕西省",
+    "displayName": "宝鸡",
+    "amapCode": 917,
+    "hot": 0
+  },
+  {
+    "name": "安康市",
+    "province": "陕西省",
+    "displayName": "安康",
+    "amapCode": 915,
+    "hot": 0
+  },
+  {
+    "name": "玉树藏族自治州",
+    "province": "青海省",
+    "displayName": "玉树",
+    "amapCode": 976,
+    "hot": 0
+  },
+  {
+    "name": "西宁市",
+    "province": "青海省",
+    "displayName": "西宁",
+    "amapCode": 971,
+    "hot": 0
+  },
+  {
+    "name": "黄南藏族自治州",
+    "province": "青海省",
+    "displayName": "黄南",
+    "amapCode": 973,
+    "hot": 0
+  },
+  {
+    "name": "海西蒙古族藏族自治州",
+    "province": "青海省",
+    "displayName": "海西",
+    "amapCode": 977,
+    "hot": 0
+  },
+  {
+    "name": "海北藏族自治州",
+    "province": "青海省",
+    "displayName": "海北",
+    "amapCode": 970,
+    "hot": 0
+  },
+  {
+    "name": "海南藏族自治州",
+    "province": "青海省",
+    "displayName": "海南",
+    "amapCode": 974,
+    "hot": 0
+  },
+  {
+    "name": "海东市",
+    "province": "青海省",
+    "displayName": "海东",
+    "amapCode": 972,
+    "hot": 0
+  },
+  {
+    "name": "果洛藏族自治州",
+    "province": "青海省",
+    "displayName": "果洛",
+    "amapCode": 975,
+    "hot": 0
+  },
+  {
+    "name": "天津市",
+    "province": "天津市",
+    "displayName": "天津",
+    "amapCode": 22,
+    "hot": 0
+  },
+  {
+    "name": "五家渠市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "五家渠",
+    "amapCode": 1994,
+    "hot": 0
+  },
+  {
+    "name": "图木舒克市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "图木舒克",
+    "amapCode": 1998,
+    "hot": 0
+  },
+  {
+    "name": "铁门关市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "铁门关",
+    "amapCode": 1996,
+    "hot": 0
+  },
+  {
+    "name": "双河市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "双河",
+    "amapCode": 1909,
+    "hot": 0
+  },
+  {
+    "name": "石河子市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "石河子",
+    "amapCode": 993,
+    "hot": 0
+  },
+  {
+    "name": "昆玉市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "昆玉",
+    "amapCode": 1903,
+    "hot": 0
+  },
+  {
+    "name": "可克达拉市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "可克达拉",
+    "amapCode": 1999,
+    "hot": 0
+  },
+  {
+    "name": "北屯市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "北屯",
+    "amapCode": 1906,
+    "hot": 0
+  },
+  {
+    "name": "阿拉尔市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "阿拉尔",
+    "amapCode": 1997,
+    "hot": 0
+  },
+  {
+    "name": "伊犁哈萨克自治州",
+    "province": "新疆维吾尔自治区",
+    "displayName": "伊犁",
+    "amapCode": 999,
+    "hot": 0
+  },
+  {
+    "name": "乌鲁木齐市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "乌鲁木齐",
+    "amapCode": 991,
+    "hot": 0
+  },
+  {
+    "name": "吐鲁番市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "吐鲁番",
+    "amapCode": 995,
+    "hot": 0
+  },
+  {
+    "name": "塔城地区",
+    "province": "新疆维吾尔自治区",
+    "displayName": "塔城",
+    "amapCode": 901,
+    "hot": 0
+  },
+  {
+    "name": "克拉玛依市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "克拉玛依",
+    "amapCode": 990,
+    "hot": 0
+  },
+  {
+    "name": "克孜勒苏柯尔克孜自治州",
+    "province": "新疆维吾尔自治区",
+    "displayName": "克孜勒苏",
+    "amapCode": 908,
+    "hot": 0
+  },
+  {
+    "name": "喀什地区",
+    "province": "新疆维吾尔自治区",
+    "displayName": "喀什",
+    "amapCode": 998,
+    "hot": 0
+  },
+  {
+    "name": "和田地区",
+    "province": "新疆维吾尔自治区",
+    "displayName": "和田",
+    "amapCode": 903,
+    "hot": 0
+  },
+  {
+    "name": "哈密市",
+    "province": "新疆维吾尔自治区",
+    "displayName": "哈密",
+    "amapCode": 902,
+    "hot": 0
+  },
+  {
+    "name": "昌吉回族自治州",
+    "province": "新疆维吾尔自治区",
+    "displayName": "昌吉",
+    "amapCode": 994,
+    "hot": 0
+  },
+  {
+    "name": "博尔塔拉蒙古自治州",
+    "province": "新疆维吾尔自治区",
+    "displayName": "博尔塔拉",
+    "amapCode": 909,
+    "hot": 0
+  },
+  {
+    "name": "巴音郭楞蒙古自治州",
+    "province": "新疆维吾尔自治区",
+    "displayName": "巴音郭楞",
+    "amapCode": 996,
+    "hot": 0
+  },
+  {
+    "name": "阿勒泰地区",
+    "province": "新疆维吾尔自治区",
+    "displayName": "阿勒泰",
+    "amapCode": 906,
+    "hot": 0
+  },
+  {
+    "name": "阿克苏地区",
+    "province": "新疆维吾尔自治区",
+    "displayName": "阿克苏",
+    "amapCode": 997,
+    "hot": 0
+  },
+  {
+    "name": "枣庄市",
+    "province": "山东省",
+    "displayName": "枣庄",
+    "amapCode": 632,
+    "hot": 0
+  },
+  {
+    "name": "淄博市",
+    "province": "山东省",
+    "displayName": "淄博",
+    "amapCode": 533,
+    "hot": 0
+  },
+  {
+    "name": "烟台市",
+    "province": "山东省",
+    "displayName": "烟台",
+    "amapCode": 535,
+    "hot": 0
+  },
+  {
+    "name": "潍坊市",
+    "province": "山东省",
+    "displayName": "潍坊",
+    "amapCode": 536,
+    "hot": 0
+  },
+  {
+    "name": "威海市",
+    "province": "山东省",
+    "displayName": "威海",
+    "amapCode": 631,
+    "hot": 0
+  },
+  {
+    "name": "泰安市",
+    "province": "山东省",
+    "displayName": "泰安",
+    "amapCode": 538,
+    "hot": 0
+  },
+  {
+    "name": "青岛市",
+    "province": "山东省",
+    "displayName": "青岛",
+    "amapCode": 532,
+    "hot": 0
+  },
+  {
+    "name": "日照市",
+    "province": "山东省",
+    "displayName": "日照",
+    "amapCode": 633,
+    "hot": 0
+  },
+  {
+    "name": "临沂市",
+    "province": "山东省",
+    "displayName": "临沂",
+    "amapCode": 539,
+    "hot": 0
+  },
+  {
+    "name": "莱芜市",
+    "province": "山东省",
+    "displayName": "莱芜",
+    "amapCode": 634,
+    "hot": 0
+  },
+  {
+    "name": "聊城市",
+    "province": "山东省",
+    "displayName": "聊城",
+    "amapCode": 635,
+    "hot": 0
+  },
+  {
+    "name": "济南市",
+    "province": "山东省",
+    "displayName": "济南",
+    "amapCode": 531,
+    "hot": 0
+  },
+  {
+    "name": "济宁市",
+    "province": "山东省",
+    "displayName": "济宁",
+    "amapCode": 537,
+    "hot": 0
+  },
+  {
+    "name": "菏泽市",
+    "province": "山东省",
+    "displayName": "菏泽",
+    "amapCode": 530,
+    "hot": 0
+  },
+  {
+    "name": "东营市",
+    "province": "山东省",
+    "displayName": "东营",
+    "amapCode": 546,
+    "hot": 0
+  },
+  {
+    "name": "德州市",
+    "province": "山东省",
+    "displayName": "德州",
+    "amapCode": 534,
+    "hot": 0
+  },
+  {
+    "name": "滨州市",
+    "province": "山东省",
+    "displayName": "滨州",
+    "amapCode": 543,
+    "hot": 0
+  },
+  {
+    "name": "营口市",
+    "province": "辽宁省",
+    "displayName": "营口",
+    "amapCode": 417,
+    "hot": 0
+  },
+  {
+    "name": "沈阳市",
+    "province": "辽宁省",
+    "displayName": "沈阳",
+    "amapCode": 24,
+    "hot": 0
+  },
+  {
+    "name": "铁岭市",
+    "province": "辽宁省",
+    "displayName": "铁岭",
+    "amapCode": 410,
+    "hot": 0
+  },
+  {
+    "name": "盘锦市",
+    "province": "辽宁省",
+    "displayName": "盘锦",
+    "amapCode": 427,
+    "hot": 0
+  },
+  {
+    "name": "辽阳市",
+    "province": "辽宁省",
+    "displayName": "辽阳",
+    "amapCode": 419,
+    "hot": 0
+  },
+  {
+    "name": "锦州市",
+    "province": "辽宁省",
+    "displayName": "锦州",
+    "amapCode": 416,
+    "hot": 0
+  },
+  {
+    "name": "葫芦岛市",
+    "province": "辽宁省",
+    "displayName": "葫芦岛",
+    "amapCode": 429,
+    "hot": 0
+  },
+  {
+    "name": "抚顺市",
+    "province": "辽宁省",
+    "displayName": "抚顺",
+    "amapCode": 413,
+    "hot": 0
+  },
+  {
+    "name": "阜新市",
+    "province": "辽宁省",
+    "displayName": "阜新",
+    "amapCode": 418,
+    "hot": 0
+  },
+  {
+    "name": "丹东市",
+    "province": "辽宁省",
+    "displayName": "丹东",
+    "amapCode": 415,
+    "hot": 0
+  },
+  {
+    "name": "大连市",
+    "province": "辽宁省",
+    "displayName": "大连",
+    "amapCode": 411,
+    "hot": 0
+  },
+  {
+    "name": "朝阳市",
+    "province": "辽宁省",
+    "displayName": "朝阳",
+    "amapCode": 421,
+    "hot": 0
+  },
+  {
+    "name": "鞍山市",
+    "province": "辽宁省",
+    "displayName": "鞍山",
+    "amapCode": 412,
+    "hot": 0
+  },
+  {
+    "name": "本溪市",
+    "province": "辽宁省",
+    "displayName": "本溪",
+    "amapCode": 414,
+    "hot": 0
+  },
+  {
+    "name": "长春市",
+    "province": "吉林省",
+    "displayName": "长春",
+    "amapCode": 431,
+    "hot": 0
+  },
+  {
+    "name": "延边朝鲜族自治州",
+    "province": "吉林省",
+    "displayName": "延边",
+    "amapCode": 1433,
+    "hot": 0
+  },
+  {
+    "name": "通化市",
+    "province": "吉林省",
+    "displayName": "通化",
+    "amapCode": 435,
+    "hot": 0
+  },
+  {
+    "name": "松原市",
+    "province": "吉林省",
+    "displayName": "松原",
+    "amapCode": 438,
+    "hot": 0
+  },
+  {
+    "name": "四平市",
+    "province": "吉林省",
+    "displayName": "四平",
+    "amapCode": 434,
+    "hot": 0
+  },
+  {
+    "name": "辽源市",
+    "province": "吉林省",
+    "displayName": "辽源",
+    "amapCode": 437,
+    "hot": 0
+  },
+  {
+    "name": "吉林市",
+    "province": "吉林省",
+    "displayName": "吉林",
+    "amapCode": 432,
+    "hot": 0
+  },
+  {
+    "name": "白城市",
+    "province": "吉林省",
+    "displayName": "白城",
+    "amapCode": 436,
+    "hot": 0
+  },
+  {
+    "name": "白山市",
+    "province": "吉林省",
+    "displayName": "白山",
+    "amapCode": 439,
+    "hot": 0
+  },
+  {
+    "name": "镇江市",
+    "province": "江苏省",
+    "displayName": "镇江",
+    "amapCode": 511,
+    "hot": 0
+  },
+  {
+    "name": "扬州市",
+    "province": "江苏省",
+    "displayName": "扬州",
+    "amapCode": 514,
+    "hot": 0
+  },
+  {
+    "name": "盐城市",
+    "province": "江苏省",
+    "displayName": "盐城",
+    "amapCode": 515,
+    "hot": 0
+  },
+  {
+    "name": "徐州市",
+    "province": "江苏省",
+    "displayName": "徐州",
+    "amapCode": 516,
+    "hot": 0
+  },
+  {
+    "name": "无锡市",
+    "province": "江苏省",
+    "displayName": "无锡",
+    "amapCode": 510,
+    "hot": 0
+  },
+  {
+    "name": "泰州市",
+    "province": "江苏省",
+    "displayName": "泰州",
+    "amapCode": 523,
+    "hot": 0
+  },
+  {
+    "name": "苏州市",
+    "province": "江苏省",
+    "displayName": "苏州",
+    "amapCode": 512,
+    "hot": 1
+  },
+  {
+    "name": "宿迁市",
+    "province": "江苏省",
+    "displayName": "宿迁",
+    "amapCode": 527,
+    "hot": 0
+  },
+  {
+    "name": "南通市",
+    "province": "江苏省",
+    "displayName": "南通",
+    "amapCode": 513,
+    "hot": 0
+  },
+  {
+    "name": "南京市",
+    "province": "江苏省",
+    "displayName": "南京",
+    "amapCode": 25,
+    "hot": 0
+  },
+  {
+    "name": "连云港市",
+    "province": "江苏省",
+    "displayName": "连云港",
+    "amapCode": 518,
+    "hot": 0
+  },
+  {
+    "name": "淮安市",
+    "province": "江苏省",
+    "displayName": "淮安",
+    "amapCode": 517,
+    "hot": 0
+  },
+  {
+    "name": "常州市",
+    "province": "江苏省",
+    "displayName": "常州",
+    "amapCode": 519,
+    "hot": 0
+  },
+  {
+    "name": "鹰潭市",
+    "province": "江西省",
+    "displayName": "鹰潭",
+    "amapCode": 701,
+    "hot": 0
+  },
+  {
+    "name": "宜春市",
+    "province": "江西省",
+    "displayName": "宜春",
+    "amapCode": 795,
+    "hot": 0
+  },
+  {
+    "name": "新余市",
+    "province": "江西省",
+    "displayName": "新余",
+    "amapCode": 790,
+    "hot": 0
+  },
+  {
+    "name": "上饶市",
+    "province": "江西省",
+    "displayName": "上饶",
+    "amapCode": 793,
+    "hot": 0
+  },
+  {
+    "name": "萍乡市",
+    "province": "江西省",
+    "displayName": "萍乡",
+    "amapCode": 799,
+    "hot": 0
+  },
+  {
+    "name": "南昌市",
+    "province": "江西省",
+    "displayName": "南昌",
+    "amapCode": 791,
+    "hot": 0
+  },
+  {
+    "name": "九江市",
+    "province": "江西省",
+    "displayName": "九江",
+    "amapCode": 792,
+    "hot": 0
+  },
+  {
+    "name": "景德镇市",
+    "province": "江西省",
+    "displayName": "景德镇",
+    "amapCode": 798,
+    "hot": 0
+  },
+  {
+    "name": "吉安市",
+    "province": "江西省",
+    "displayName": "吉安",
+    "amapCode": 796,
+    "hot": 0
+  },
+  {
+    "name": "赣州市",
+    "province": "江西省",
+    "displayName": "赣州",
+    "amapCode": 797,
+    "hot": 0
+  },
+  {
+    "name": "抚州市",
+    "province": "江西省",
+    "displayName": "抚州",
+    "amapCode": 794,
+    "hot": 0
+  },
+  {
+    "name": "中卫市",
+    "province": "宁夏回族自治区",
+    "displayName": "中卫",
+    "amapCode": 1953,
+    "hot": 0
+  },
+  {
+    "name": "银川市",
+    "province": "宁夏回族自治区",
+    "displayName": "银川",
+    "amapCode": 951,
+    "hot": 0
+  },
+  {
+    "name": "吴忠市",
+    "province": "宁夏回族自治区",
+    "displayName": "吴忠",
+    "amapCode": 953,
+    "hot": 0
+  },
+  {
+    "name": "石嘴山市",
+    "province": "宁夏回族自治区",
+    "displayName": "石嘴山",
+    "amapCode": 952,
+    "hot": 0
+  },
+  {
+    "name": "固原市",
+    "province": "宁夏回族自治区",
+    "displayName": "固原",
+    "amapCode": 954,
+    "hot": 0
+  },
+  {
+    "name": "兴安盟",
+    "province": "内蒙古自治区",
+    "displayName": "兴安盟",
+    "amapCode": 482,
+    "hot": 0
+  },
+  {
+    "name": "通辽市",
+    "province": "内蒙古自治区",
+    "displayName": "通辽",
+    "amapCode": 475,
+    "hot": 0
+  },
+  {
+    "name": "锡林郭勒盟",
+    "province": "内蒙古自治区",
+    "displayName": "锡林郭勒",
+    "amapCode": 479,
+    "hot": 0
+  },
+  {
+    "name": "乌兰察布市",
+    "province": "内蒙古自治区",
+    "displayName": "乌兰察布",
+    "amapCode": 474,
+    "hot": 0
+  },
+  {
+    "name": "乌海市",
+    "province": "内蒙古自治区",
+    "displayName": "乌海",
+    "amapCode": 473,
+    "hot": 0
+  },
+  {
+    "name": "呼伦贝尔市",
+    "province": "内蒙古自治区",
+    "displayName": "呼伦贝尔",
+    "amapCode": 470,
+    "hot": 0
+  },
+  {
+    "name": "呼和浩特市",
+    "province": "内蒙古自治区",
+    "displayName": "呼和浩特",
+    "amapCode": 471,
+    "hot": 0
+  },
+  {
+    "name": "鄂尔多斯市",
+    "province": "内蒙古自治区",
+    "displayName": "鄂尔多斯",
+    "amapCode": 477,
+    "hot": 0
+  },
+  {
+    "name": "赤峰市",
+    "province": "内蒙古自治区",
+    "displayName": "赤峰",
+    "amapCode": 476,
+    "hot": 0
+  },
+  {
+    "name": "包头市",
+    "province": "内蒙古自治区",
+    "displayName": "包头",
+    "amapCode": 472,
+    "hot": 0
+  },
+  {
+    "name": "巴彦淖尔市",
+    "province": "内蒙古自治区",
+    "displayName": "巴彦淖尔",
+    "amapCode": 478,
+    "hot": 0
+  },
+  {
+    "name": "阿拉善盟",
+    "province": "内蒙古自治区",
+    "displayName": "阿拉善盟",
+    "amapCode": 483,
+    "hot": 0
+  },
+  {
+    "name": "伊春市",
+    "province": "黑龙江省",
+    "displayName": "伊春",
+    "amapCode": 458,
+    "hot": 0
+  },
+  {
+    "name": "双鸭山市",
+    "province": "黑龙江省",
+    "displayName": "双鸭山",
+    "amapCode": 469,
+    "hot": 0
+  },
+  {
+    "name": "绥化市",
+    "province": "黑龙江省",
+    "displayName": "绥化",
+    "amapCode": 455,
+    "hot": 0
+  },
+  {
+    "name": "齐齐哈尔市",
+    "province": "黑龙江省",
+    "displayName": "齐齐哈尔",
+    "amapCode": 452,
+    "hot": 0
+  },
+  {
+    "name": "七台河市",
+    "province": "黑龙江省",
+    "displayName": "七台河",
+    "amapCode": 464,
+    "hot": 0
+  },
+  {
+    "name": "牡丹江市",
+    "province": "黑龙江省",
+    "displayName": "牡丹江",
+    "amapCode": 453,
+    "hot": 0
+  },
+  {
+    "name": "佳木斯市",
+    "province": "黑龙江省",
+    "displayName": "佳木斯",
+    "amapCode": 454,
+    "hot": 0
+  },
+  {
+    "name": "黑河市",
+    "province": "黑龙江省",
+    "displayName": "黑河",
+    "amapCode": 456,
+    "hot": 0
+  },
+  {
+    "name": "鸡西市",
+    "province": "黑龙江省",
+    "displayName": "鸡西",
+    "amapCode": 467,
+    "hot": 0
+  },
+  {
+    "name": "鹤岗市",
+    "province": "黑龙江省",
+    "displayName": "鹤岗",
+    "amapCode": 468,
+    "hot": 0
+  },
+  {
+    "name": "哈尔滨市",
+    "province": "黑龙江省",
+    "displayName": "哈尔滨",
+    "amapCode": 451,
+    "hot": 0
+  },
+  {
+    "name": "大兴安岭地区",
+    "province": "黑龙江省",
+    "displayName": "大兴安岭",
+    "amapCode": 457,
+    "hot": 0
+  },
+  {
+    "name": "大庆市",
+    "province": "黑龙江省",
+    "displayName": "大庆",
+    "amapCode": 459,
+    "hot": 0
+  },
+  {
+    "name": "仙桃市",
+    "province": "湖北省",
+    "displayName": "仙桃",
+    "amapCode": 728,
+    "hot": 0
+  },
+  {
+    "name": "天门市",
+    "province": "湖北省",
+    "displayName": "天门",
+    "amapCode": 1728,
+    "hot": 0
+  },
+  {
+    "name": "神农架林区",
+    "province": "湖北省",
+    "displayName": "神农架",
+    "amapCode": 1719,
+    "hot": 0
+  },
+  {
+    "name": "潜江市",
+    "province": "湖北省",
+    "displayName": "潜江",
+    "amapCode": 2728,
+    "hot": 0
+  },
+  {
+    "name": "宜昌市",
+    "province": "湖北省",
+    "displayName": "宜昌",
+    "amapCode": 717,
+    "hot": 0
+  },
+  {
+    "name": "咸宁市",
+    "province": "湖北省",
+    "displayName": "咸宁",
+    "amapCode": 715,
+    "hot": 0
+  },
+  {
+    "name": "武汉市",
+    "province": "湖北省",
+    "displayName": "武汉",
+    "amapCode": 27,
+    "hot": 1
+  },
+  {
+    "name": "孝感市",
+    "province": "湖北省",
+    "displayName": "孝感",
+    "amapCode": 712,
+    "hot": 0
+  },
+  {
+    "name": "襄阳市",
+    "province": "湖北省",
+    "displayName": "襄阳",
+    "amapCode": 710,
+    "hot": 0
+  },
+  {
+    "name": "随州市",
+    "province": "湖北省",
+    "displayName": "随州",
+    "amapCode": 722,
+    "hot": 0
+  },
+  {
+    "name": "十堰市",
+    "province": "湖北省",
+    "displayName": "十堰",
+    "amapCode": 719,
+    "hot": 0
+  },
+  {
+    "name": "荆州市",
+    "province": "湖北省",
+    "displayName": "荆州",
+    "amapCode": 716,
+    "hot": 0
+  },
+  {
+    "name": "荆门市",
+    "province": "湖北省",
+    "displayName": "荆门",
+    "amapCode": 724,
+    "hot": 0
+  },
+  {
+    "name": "黄石市",
+    "province": "湖北省",
+    "displayName": "黄石",
+    "amapCode": 714,
+    "hot": 0
+  },
+  {
+    "name": "黄冈市",
+    "province": "湖北省",
+    "displayName": "黄冈",
+    "amapCode": 713,
+    "hot": 0
+  },
+  {
+    "name": "恩施土家族苗族自治州",
+    "province": "湖北省",
+    "displayName": "恩施",
+    "amapCode": 718,
+    "hot": 0
+  },
+  {
+    "name": "鄂州市",
+    "province": "湖北省",
+    "displayName": "鄂州",
+    "amapCode": 711,
+    "hot": 0
+  },
+  {
+    "name": "上海市",
+    "province": "上海市",
+    "displayName": "上海",
+    "amapCode": 21,
+    "hot": 1
+  },
+  {
+    "name": "怀化市",
+    "province": "湖南省",
+    "displayName": "怀化",
+    "amapCode": 745,
+    "hot": 0
+  },
+  {
+    "name": "长沙市",
+    "province": "湖南省",
+    "displayName": "长沙",
+    "amapCode": 731,
+    "hot": 0
+  },
+  {
+    "name": "岳阳市",
+    "province": "湖南省",
+    "displayName": "岳阳",
+    "amapCode": 730,
+    "hot": 0
+  },
+  {
+    "name": "张家界市",
+    "province": "湖南省",
+    "displayName": "张家界",
+    "amapCode": 744,
+    "hot": 0
+  },
+  {
+    "name": "株洲市",
+    "province": "湖南省",
+    "displayName": "株洲",
+    "amapCode": 733,
+    "hot": 0
+  },
+  {
+    "name": "永州市",
+    "province": "湖南省",
+    "displayName": "永州",
+    "amapCode": 746,
+    "hot": 0
+  },
+  {
+    "name": "益阳市",
+    "province": "湖南省",
+    "displayName": "益阳",
+    "amapCode": 737,
+    "hot": 0
+  },
+  {
+    "name": "湘西土家族苗族自治州",
+    "province": "湖南省",
+    "displayName": "湘西",
+    "amapCode": 743,
+    "hot": 0
+  },
+  {
+    "name": "湘潭市",
+    "province": "湖南省",
+    "displayName": "湘潭",
+    "amapCode": 732,
+    "hot": 0
+  },
+  {
+    "name": "邵阳市",
+    "province": "湖南省",
+    "displayName": "邵阳",
+    "amapCode": 739,
+    "hot": 0
+  },
+  {
+    "name": "娄底市",
+    "province": "湖南省",
+    "displayName": "娄底",
+    "amapCode": 738,
+    "hot": 0
+  },
+  {
+    "name": "衡阳市",
+    "province": "湖南省",
+    "displayName": "衡阳",
+    "amapCode": 734,
+    "hot": 0
+  },
+  {
+    "name": "郴州市",
+    "province": "湖南省",
+    "displayName": "郴州",
+    "amapCode": 735,
+    "hot": 0
+  },
+  {
+    "name": "常德市",
+    "province": "湖南省",
+    "displayName": "常德",
+    "amapCode": 736,
+    "hot": 0
+  },
+  {
+    "name": "宣城市",
+    "province": "安徽省",
+    "displayName": "宣城",
+    "amapCode": 563,
+    "hot": 0
+  },
+  {
+    "name": "芜湖市",
+    "province": "安徽省",
+    "displayName": "芜湖",
+    "amapCode": 553,
+    "hot": 0
+  },
+  {
+    "name": "宿州市",
+    "province": "安徽省",
+    "displayName": "宿州",
+    "amapCode": 557,
+    "hot": 0
+  },
+  {
+    "name": "铜陵市",
+    "province": "安徽省",
+    "displayName": "铜陵",
+    "amapCode": 562,
+    "hot": 0
+  },
+  {
+    "name": "六安市",
+    "province": "安徽省",
+    "displayName": "六安",
+    "amapCode": 564,
+    "hot": 0
+  },
+  {
+    "name": "马鞍山市",
+    "province": "安徽省",
+    "displayName": "马鞍山",
+    "amapCode": 555,
+    "hot": 0
+  },
+  {
+    "name": "黄山市",
+    "province": "安徽省",
+    "displayName": "黄山",
+    "amapCode": 559,
+    "hot": 0
+  },
+  {
+    "name": "淮北市",
+    "province": "安徽省",
+    "displayName": "淮北",
+    "amapCode": 561,
+    "hot": 0
+  },
+  {
+    "name": "合肥市",
+    "province": "安徽省",
+    "displayName": "合肥",
+    "amapCode": 551,
+    "hot": 0
+  },
+  {
+    "name": "淮南市",
+    "province": "安徽省",
+    "displayName": "淮南",
+    "amapCode": 554,
+    "hot": 0
+  },
+  {
+    "name": "阜阳市",
+    "province": "安徽省",
+    "displayName": "阜阳",
+    "amapCode": 1558,
+    "hot": 0
+  },
+  {
+    "name": "池州市",
+    "province": "安徽省",
+    "displayName": "池州",
+    "amapCode": 566,
+    "hot": 0
+  },
+  {
+    "name": "滁州市",
+    "province": "安徽省",
+    "displayName": "滁州",
+    "amapCode": 550,
+    "hot": 0
+  },
+  {
+    "name": "亳州市",
+    "province": "安徽省",
+    "displayName": "亳州",
+    "amapCode": 558,
+    "hot": 0
+  },
+  {
+    "name": "蚌埠市",
+    "province": "安徽省",
+    "displayName": "蚌埠",
+    "amapCode": 552,
+    "hot": 0
+  },
+  {
+    "name": "安庆市",
+    "province": "安徽省",
+    "displayName": "安庆",
+    "amapCode": 556,
+    "hot": 0
+  },
+  {
+    "name": "张家口市",
+    "province": "河北省",
+    "displayName": "张家口",
+    "amapCode": 313,
+    "hot": 0
+  },
+  {
+    "name": "邢台市",
+    "province": "河北省",
+    "displayName": "邢台",
+    "amapCode": 319,
+    "hot": 0
+  },
+  {
+    "name": "唐山市",
+    "province": "河北省",
+    "displayName": "唐山",
+    "amapCode": 315,
+    "hot": 0
+  },
+  {
+    "name": "石家庄市",
+    "province": "河北省",
+    "displayName": "石家庄",
+    "amapCode": 311,
+    "hot": 0
+  },
+  {
+    "name": "秦皇岛市",
+    "province": "河北省",
+    "displayName": "秦皇岛",
+    "amapCode": 335,
+    "hot": 0
+  },
+  {
+    "name": "廊坊市",
+    "province": "河北省",
+    "displayName": "廊坊",
+    "amapCode": 316,
+    "hot": 0
+  },
+  {
+    "name": "衡水市",
+    "province": "河北省",
+    "displayName": "衡水",
+    "amapCode": 318,
+    "hot": 0
+  },
+  {
+    "name": "邯郸市",
+    "province": "河北省",
+    "displayName": "邯郸",
+    "amapCode": 310,
+    "hot": 0
+  },
+  {
+    "name": "承德市",
+    "province": "河北省",
+    "displayName": "承德",
+    "amapCode": 314,
+    "hot": 0
+  },
+  {
+    "name": "沧州市",
+    "province": "河北省",
+    "displayName": "沧州",
+    "amapCode": 317,
+    "hot": 0
+  },
+  {
+    "name": "保定市",
+    "province": "河北省",
+    "displayName": "保定",
+    "amapCode": 312,
+    "hot": 0
+  },
+  {
+    "name": "济源市",
+    "province": "河南省",
+    "displayName": "济源",
+    "amapCode": 1391,
+    "hot": 0
+  },
+  {
+    "name": "驻马店市",
+    "province": "河南省",
+    "displayName": "驻马店",
+    "amapCode": 396,
+    "hot": 0
+  },
+  {
+    "name": "周口市",
+    "province": "河南省",
+    "displayName": "周口",
+    "amapCode": 394,
+    "hot": 0
+  },
+  {
+    "name": "郑州市",
+    "province": "河南省",
+    "displayName": "郑州",
+    "amapCode": 371,
+    "hot": 0
+  },
+  {
+    "name": "许昌市",
+    "province": "河南省",
+    "displayName": "许昌",
+    "amapCode": 374,
+    "hot": 0
+  },
+  {
+    "name": "新乡市",
+    "province": "河南省",
+    "displayName": "新乡",
+    "amapCode": 373,
+    "hot": 0
+  },
+  {
+    "name": "信阳市",
+    "province": "河南省",
+    "displayName": "信阳",
+    "amapCode": 376,
+    "hot": 0
+  },
+  {
+    "name": "三门峡市",
+    "province": "河南省",
+    "displayName": "三门峡",
+    "amapCode": 398,
+    "hot": 0
+  },
+  {
+    "name": "商丘市",
+    "province": "河南省",
+    "displayName": "商丘",
+    "amapCode": 370,
+    "hot": 0
+  },
+  {
+    "name": "平顶山市",
+    "province": "河南省",
+    "displayName": "平顶山",
+    "amapCode": 375,
+    "hot": 0
+  },
+  {
+    "name": "南阳市",
+    "province": "河南省",
+    "displayName": "南阳",
+    "amapCode": 377,
+    "hot": 0
+  },
+  {
+    "name": "濮阳市",
+    "province": "河南省",
+    "displayName": "濮阳",
+    "amapCode": 393,
+    "hot": 0
+  },
+  {
+    "name": "洛阳市",
+    "province": "河南省",
+    "displayName": "洛阳",
+    "amapCode": 379,
+    "hot": 0
+  },
+  {
+    "name": "漯河市",
+    "province": "河南省",
+    "displayName": "漯河",
+    "amapCode": 395,
+    "hot": 0
+  },
+  {
+    "name": "开封市",
+    "province": "河南省",
+    "displayName": "开封",
+    "amapCode": 378,
+    "hot": 0
+  },
+  {
+    "name": "焦作市",
+    "province": "河南省",
+    "displayName": "焦作",
+    "amapCode": 391,
+    "hot": 0
+  },
+  {
+    "name": "鹤壁市",
+    "province": "河南省",
+    "displayName": "鹤壁",
+    "amapCode": 392,
+    "hot": 0
+  },
+  {
+    "name": "安阳市",
+    "province": "河南省",
+    "displayName": "安阳",
+    "amapCode": 372,
+    "hot": 0
+  },
+  {
+    "name": "张掖市",
+    "province": "甘肃省",
+    "displayName": "张掖",
+    "amapCode": 936,
+    "hot": 0
+  },
+  {
+    "name": "武威市",
+    "province": "甘肃省",
+    "displayName": "武威",
+    "amapCode": 1935,
+    "hot": 0
+  },
+  {
+    "name": "天水市",
+    "province": "甘肃省",
+    "displayName": "天水",
+    "amapCode": 938,
+    "hot": 0
+  },
+  {
+    "name": "庆阳市",
+    "province": "甘肃省",
+    "displayName": "庆阳",
+    "amapCode": 934,
+    "hot": 0
+  },
+  {
+    "name": "平凉市",
+    "province": "甘肃省",
+    "displayName": "平凉",
+    "amapCode": 933,
+    "hot": 0
+  },
+  {
+    "name": "临夏回族自治州",
+    "province": "甘肃省",
+    "displayName": "临夏",
+    "amapCode": 930,
+    "hot": 0
+  },
+  {
+    "name": "陇南市",
+    "province": "甘肃省",
+    "displayName": "陇南",
+    "amapCode": 2935,
+    "hot": 0
+  },
+  {
+    "name": "兰州市",
+    "province": "甘肃省",
+    "displayName": "兰州",
+    "amapCode": 931,
+    "hot": 0
+  },
+  {
+    "name": "金昌市",
+    "province": "甘肃省",
+    "displayName": "金昌",
+    "amapCode": 935,
+    "hot": 0
+  },
+  {
+    "name": "酒泉市",
+    "province": "甘肃省",
+    "displayName": "酒泉",
+    "amapCode": 937,
+    "hot": 0
+  },
+  {
+    "name": "嘉峪关市",
+    "province": "甘肃省",
+    "displayName": "嘉峪关",
+    "amapCode": 1937,
+    "hot": 0
+  },
+  {
+    "name": "定西市",
+    "province": "甘肃省",
+    "displayName": "定西",
+    "amapCode": 932,
+    "hot": 0
+  },
+  {
+    "name": "甘南藏族自治州",
+    "province": "甘肃省",
+    "displayName": "甘南",
+    "amapCode": 941,
+    "hot": 0
+  },
+  {
+    "name": "白银市",
+    "province": "甘肃省",
+    "displayName": "白银",
+    "amapCode": 943,
+    "hot": 0
+  },
+  {
+    "name": "玉林市",
+    "province": "广西壮族自治区",
+    "displayName": "玉林",
+    "amapCode": 775,
+    "hot": 0
+  },
+  {
+    "name": "梧州市",
+    "province": "广西壮族自治区",
+    "displayName": "梧州",
+    "amapCode": 774,
+    "hot": 0
+  },
+  {
+    "name": "钦州市",
+    "province": "广西壮族自治区",
+    "displayName": "钦州",
+    "amapCode": 777,
+    "hot": 0
+  },
+  {
+    "name": "南宁市",
+    "province": "广西壮族自治区",
+    "displayName": "南宁",
+    "amapCode": 771,
+    "hot": 0
+  },
+  {
+    "name": "柳州市",
+    "province": "广西壮族自治区",
+    "displayName": "柳州",
+    "amapCode": 772,
+    "hot": 0
+  },
+  {
+    "name": "来宾市",
+    "province": "广西壮族自治区",
+    "displayName": "来宾",
+    "amapCode": 1772,
+    "hot": 0
+  },
+  {
+    "name": "贺州市",
+    "province": "广西壮族自治区",
+    "displayName": "贺州",
+    "amapCode": 1774,
+    "hot": 0
+  },
+  {
+    "name": "河池市",
+    "province": "广西壮族自治区",
+    "displayName": "河池",
+    "amapCode": 778,
+    "hot": 0
+  },
+  {
+    "name": "贵港市",
+    "province": "广西壮族自治区",
+    "displayName": "贵港",
+    "amapCode": 1755,
+    "hot": 0
+  },
+  {
+    "name": "桂林市",
+    "province": "广西壮族自治区",
+    "displayName": "桂林",
+    "amapCode": 773,
+    "hot": 0
+  },
+  {
+    "name": "防城港市",
+    "province": "广西壮族自治区",
+    "displayName": "防城港",
+    "amapCode": 770,
+    "hot": 0
+  },
+  {
+    "name": "崇左市",
+    "province": "广西壮族自治区",
+    "displayName": "崇左",
+    "amapCode": 1771,
+    "hot": 0
+  },
+  {
+    "name": "百色市",
+    "province": "广西壮族自治区",
+    "displayName": "百色",
+    "amapCode": 776,
+    "hot": 0
+  },
+  {
+    "name": "北海市",
+    "province": "广西壮族自治区",
+    "displayName": "北海",
+    "amapCode": 779,
+    "hot": 0
+  },
+  {
+    "name": "遵义市",
+    "province": "贵州省",
+    "displayName": "遵义",
+    "amapCode": 852,
+    "hot": 0
+  },
+  {
+    "name": "铜仁市",
+    "province": "贵州省",
+    "displayName": "铜仁",
+    "amapCode": 856,
+    "hot": 0
+  },
+  {
+    "name": "黔南布依族苗族自治州",
+    "province": "贵州省",
+    "displayName": "黔南",
+    "amapCode": 854,
+    "hot": 0
+  },
+  {
+    "name": "黔东南苗族侗族自治州",
+    "province": "贵州省",
+    "displayName": "黔东南",
+    "amapCode": 855,
+    "hot": 0
+  },
+  {
+    "name": "黔西南布依族苗族自治州",
+    "province": "贵州省",
+    "displayName": "黔西南",
+    "amapCode": 859,
+    "hot": 0
+  },
+  {
+    "name": "六盘水市",
+    "province": "贵州省",
+    "displayName": "六盘水",
+    "amapCode": 858,
+    "hot": 0
+  },
+  {
+    "name": "贵阳市",
+    "province": "贵州省",
+    "displayName": "贵阳",
+    "amapCode": 851,
+    "hot": 0
+  },
+  {
+    "name": "毕节市",
+    "province": "贵州省",
+    "displayName": "毕节",
+    "amapCode": 857,
+    "hot": 0
+  },
+  {
+    "name": "安顺市",
+    "province": "贵州省",
+    "displayName": "安顺",
+    "amapCode": 853,
+    "hot": 0
+  },
+  {
+    "name": "台湾省",
+    "province": "台湾省",
+    "displayName": "台湾",
+    "amapCode": 1886,
+    "hot": 0
+  },
+  {
+    "name": "运城市",
+    "province": "山西省",
+    "displayName": "运城",
+    "amapCode": 359,
+    "hot": 0
+  },
+  {
+    "name": "长治市",
+    "province": "山西省",
+    "displayName": "长治",
+    "amapCode": 355,
+    "hot": 0
+  },
+  {
+    "name": "阳泉市",
+    "province": "山西省",
+    "displayName": "阳泉",
+    "amapCode": 353,
+    "hot": 0
+  },
+  {
+    "name": "忻州市",
+    "province": "山西省",
+    "displayName": "忻州",
+    "amapCode": 350,
+    "hot": 0
+  },
+  {
+    "name": "太原市",
+    "province": "山西省",
+    "displayName": "太原",
+    "amapCode": 351,
+    "hot": 0
+  },
+  {
+    "name": "朔州市",
+    "province": "山西省",
+    "displayName": "朔州",
+    "amapCode": 349,
+    "hot": 0
+  },
+  {
+    "name": "临汾市",
+    "province": "山西省",
+    "displayName": "临汾",
+    "amapCode": 357,
+    "hot": 0
+  },
+  {
+    "name": "吕梁市",
+    "province": "山西省",
+    "displayName": "吕梁",
+    "amapCode": 358,
+    "hot": 0
+  },
+  {
+    "name": "晋中市",
+    "province": "山西省",
+    "displayName": "晋中",
+    "amapCode": 354,
+    "hot": 0
+  },
+  {
+    "name": "晋城市",
+    "province": "山西省",
+    "displayName": "晋城",
+    "amapCode": 356,
+    "hot": 0
+  },
+  {
+    "name": "大同市",
+    "province": "山西省",
+    "displayName": "大同",
+    "amapCode": 352,
+    "hot": 0
+  },
+  {
+    "name": "五指山市",
+    "province": "海南省",
+    "displayName": "五指山",
+    "amapCode": 1897,
+    "hot": 0
+  },
+  {
+    "name": "文昌市",
+    "province": "海南省",
+    "displayName": "文昌",
+    "amapCode": 1893,
+    "hot": 0
+  },
+  {
+    "name": "万宁市",
+    "province": "海南省",
+    "displayName": "万宁",
+    "amapCode": 1898,
+    "hot": 0
+  },
+  {
+    "name": "屯昌县",
+    "province": "海南省",
+    "displayName": "屯昌",
+    "amapCode": 1892,
+    "hot": 0
+  },
+  {
+    "name": "琼中黎族苗族自治县",
+    "province": "海南省",
+    "displayName": "琼中",
+    "amapCode": 1899,
+    "hot": 0
+  },
+  {
+    "name": "琼海市",
+    "province": "海南省",
+    "displayName": "琼海",
+    "amapCode": 1894,
+    "hot": 0
+  },
+  {
+    "name": "陵水黎族自治县",
+    "province": "海南省",
+    "displayName": "陵水",
+    "amapCode": 809,
+    "hot": 0
+  },
+  {
+    "name": "临高县",
+    "province": "海南省",
+    "displayName": "临高",
+    "amapCode": 1896,
+    "hot": 0
+  },
+  {
+    "name": "乐东黎族自治县",
+    "province": "海南省",
+    "displayName": "乐东",
+    "amapCode": 2802,
+    "hot": 0
+  },
+  {
+    "name": "东方市",
+    "province": "海南省",
+    "displayName": "东方",
+    "amapCode": 807,
+    "hot": 0
+  },
+  {
+    "name": "定安县",
+    "province": "海南省",
+    "displayName": "定安",
+    "amapCode": 806,
+    "hot": 0
+  },
+  {
+    "name": "澄迈县",
+    "province": "海南省",
+    "displayName": "澄迈",
+    "amapCode": 804,
+    "hot": 0
+  },
+  {
+    "name": "昌江黎族自治县",
+    "province": "海南省",
+    "displayName": "昌江",
+    "amapCode": 803,
+    "hot": 0
+  },
+  {
+    "name": "保亭黎族苗族自治县",
+    "province": "海南省",
+    "displayName": "保亭",
+    "amapCode": 801,
+    "hot": 0
+  },
+  {
+    "name": "白沙黎族自治县",
+    "province": "海南省",
+    "displayName": "白沙",
+    "amapCode": 802,
+    "hot": 0
+  },
+  {
+    "name": "三沙市",
+    "province": "海南省",
+    "displayName": "三沙",
+    "amapCode": 2898,
+    "hot": 0
+  },
+  {
+    "name": "三亚市",
+    "province": "海南省",
+    "displayName": "三亚",
+    "amapCode": 899,
+    "hot": 0
+  },
+  {
+    "name": "海口市",
+    "province": "海南省",
+    "displayName": "海口",
+    "amapCode": 898,
+    "hot": 0
+  },
+  {
+    "name": "儋州市",
+    "province": "海南省",
+    "displayName": "儋州",
+    "amapCode": 805,
+    "hot": 0
+  },
+  {
+    "name": "漳州市",
+    "province": "福建省",
+    "displayName": "漳州",
+    "amapCode": 596,
+    "hot": 0
+  },
+  {
+    "name": "泉州市",
+    "province": "福建省",
+    "displayName": "泉州",
+    "amapCode": 595,
+    "hot": 0
+  },
+  {
+    "name": "三明市",
+    "province": "福建省",
+    "displayName": "三明",
+    "amapCode": 598,
+    "hot": 0
+  },
+  {
+    "name": "厦门市",
+    "province": "福建省",
+    "displayName": "厦门",
+    "amapCode": 592,
+    "hot": 0
+  },
+  {
+    "name": "莆田市",
+    "province": "福建省",
+    "displayName": "莆田",
+    "amapCode": 594,
+    "hot": 0
+  },
+  {
+    "name": "宁德市",
+    "province": "福建省",
+    "displayName": "宁德",
+    "amapCode": 593,
+    "hot": 0
+  },
+  {
+    "name": "南平市",
+    "province": "福建省",
+    "displayName": "南平",
+    "amapCode": 599,
+    "hot": 0
+  },
+  {
+    "name": "龙岩市",
+    "province": "福建省",
+    "displayName": "龙岩",
+    "amapCode": 597,
+    "hot": 0
+  },
+  {
+    "name": "福州市",
+    "province": "福建省",
+    "displayName": "福州",
+    "amapCode": 591,
+    "hot": 0
+  },
+  {
+    "name": "肇庆市",
+    "province": "广东省",
+    "displayName": "肇庆",
+    "amapCode": 758,
+    "hot": 0
+  },
+  {
+    "name": "珠海市",
+    "province": "广东省",
+    "displayName": "珠海",
+    "amapCode": 756,
+    "hot": 0
+  },
+  {
+    "name": "湛江市",
+    "province": "广东省",
+    "displayName": "湛江",
+    "amapCode": 759,
+    "hot": 0
+  },
+  {
+    "name": "云浮市",
+    "province": "广东省",
+    "displayName": "云浮",
+    "amapCode": 766,
+    "hot": 0
+  },
+  {
+    "name": "阳江市",
+    "province": "广东省",
+    "displayName": "阳江",
+    "amapCode": 662,
+    "hot": 0
+  },
+  {
+    "name": "深圳市",
+    "province": "广东省",
+    "displayName": "深圳",
+    "amapCode": 755,
+    "hot": 1
+  },
+  {
+    "name": "清远市",
+    "province": "广东省",
+    "displayName": "清远",
+    "amapCode": 763,
+    "hot": 0
+  },
+  {
+    "name": "韶关市",
+    "province": "广东省",
+    "displayName": "韶关",
+    "amapCode": 751,
+    "hot": 0
+  },
+  {
+    "name": "汕头市",
+    "province": "广东省",
+    "displayName": "汕头",
+    "amapCode": 754,
+    "hot": 0
+  },
+  {
+    "name": "汕尾市",
+    "province": "广东省",
+    "displayName": "汕尾",
+    "amapCode": 660,
+    "hot": 0
+  },
+  {
+    "name": "梅州市",
+    "province": "广东省",
+    "displayName": "梅州",
+    "amapCode": 753,
+    "hot": 0
+  },
+  {
+    "name": "茂名市",
+    "province": "广东省",
+    "displayName": "茂名",
+    "amapCode": 668,
+    "hot": 0
+  },
+  {
+    "name": "江门市",
+    "province": "广东省",
+    "displayName": "江门",
+    "amapCode": 750,
+    "hot": 0
+  },
+  {
+    "name": "揭阳市",
+    "province": "广东省",
+    "displayName": "揭阳",
+    "amapCode": 663,
+    "hot": 0
+  },
+  {
+    "name": "惠州市",
+    "province": "广东省",
+    "displayName": "惠州",
+    "amapCode": 752,
+    "hot": 0
+  },
+  {
+    "name": "河源市",
+    "province": "广东省",
+    "displayName": "河源",
+    "amapCode": 762,
+    "hot": 0
+  },
+  {
+    "name": "佛山市",
+    "province": "广东省",
+    "displayName": "佛山",
+    "amapCode": 757,
+    "hot": 0
+  },
+  {
+    "name": "广州市",
+    "province": "广东省",
+    "displayName": "广州",
+    "amapCode": 20,
+    "hot": 1
+  },
+  {
+    "name": "东莞市",
+    "province": "广东省",
+    "displayName": "东莞",
+    "amapCode": 769,
+    "hot": 0
+  },
+  {
+    "name": "潮州市",
+    "province": "广东省",
+    "displayName": "潮州",
+    "amapCode": 768,
+    "hot": 0
+  },
+  {
+    "name": "中山市",
+    "province": "广东省",
+    "displayName": "中山",
+    "amapCode": 760,
+    "hot": 0
+  },
+  {
+    "name": "澳门特别行政区",
+    "province": "澳門特別行政區",
+    "displayName": "澳门",
+    "amapCode": 1853,
+    "hot": 0
+  },
+  {
+    "name": "重庆市",
+    "province": "重庆市",
+    "displayName": "重庆",
+    "amapCode": 23,
+    "hot": 0
+  },
+  {
+    "name": "北京市",
+    "province": "北京市",
+    "displayName": "北京",
+    "amapCode": 10,
+    "hot": 1
+  }
+]

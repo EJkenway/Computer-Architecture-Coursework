@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/img_goods_detail_title_bar" android:background="@color/white" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:alpha="0.0" />
+    <FrameLayout android:id="@id/layout_title_back" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_alignParentStart="true">
+        <ImageButton android:id="@id/btn_title_back" android:background="@drawable/mo_background_round_goods_title" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/empty" />
+        <ImageView android:layout_gravity="center" android:id="@id/back_icon" android:layout_width="wrap_content" android:layout_height="32.0dip" android:src="@drawable/mo_icon_back_white" android:contentDescription="@string/empty" />
+    </FrameLayout>
+    <com.gotokeep.keep.mo.business.store.ui.GoodsDetailTitle android:id="@id/layout_tab_title" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="@dimen/title_bar_height" android:layout_marginLeft="92.0dip" android:layout_marginRight="92.0dip" android:layout_centerInParent="true" android:alpha="0.0" android:layout_marginHorizontal="92.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black_87" android:ellipsize="end" android:gravity="center" android:id="@id/goodsName" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" android:alpha="0.0" />
+    <FrameLayout android:id="@id/layoutTitleService" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/layout_title_store">
+        <ImageButton android:id="@id/btnTitleService" android:background="@drawable/mo_background_round_goods_title" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/empty" />
+        <ImageView android:layout_gravity="center" android:id="@id/serviceIcon" android:layout_width="wrap_content" android:layout_height="32.0dip" android:src="@drawable/mo_ic_service_product_side" android:contentDescription="@string/empty" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layout_title_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="12.0dip" android:layout_toStartOf="@id/rightPoint">
+        <ImageButton android:id="@id/btn_title_share" android:background="@drawable/mo_background_round_goods_title" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/empty" />
+        <ImageView android:layout_gravity="center" android:id="@id/share_icon" android:layout_width="wrap_content" android:layout_height="32.0dip" android:src="@drawable/icon_share_android_filled" android:contentDescription="@string/empty" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layout_title_store" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/layout_title_share">
+        <ImageButton android:id="@id/btn_title_store" android:background="@drawable/mo_background_round_goods_title" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/empty" />
+        <ImageView android:layout_gravity="center" android:id="@id/home_icon" android:layout_width="wrap_content" android:layout_height="32.0dip" android:src="@drawable/mo_icon_home_white" android:contentDescription="@string/empty" />
+    </FrameLayout>
+    <View android:id="@id/rightPoint" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <View android:id="@id/title_bar_shadow" android:background="@drawable/mo_title_bar_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_below="@id/img_goods_detail_title_bar" />
+</merge>

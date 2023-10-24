@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.category.mvp.view.sections.CategoryBannerView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.tc.business.category.widget.CategoryBannerWidget android:id="@id/categoryBanner" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:indicator_selected_drawable="@drawable/tc_ic_category_banner_indicator_selected" app:indicator_unselect_drawable="@drawable/tc_ic_category_banner_indicator_unselect" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="9:2" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.tc.business.category.mvp.view.sections.CategoryBannerView>

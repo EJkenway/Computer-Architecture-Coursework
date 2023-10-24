@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:gravity="center" android:id="@id/share_img" android:layout_width="112.0dip" android:layout_height="112.0dip" android:scaleType="centerCrop" app:round_corner="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/ysf_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_leave_msg_field_item_name" android:paddingLeft="16.0dip" android:paddingRight="58.0dip" android:layout_width="wrap_content" android:layout_height="58.0dip" style="@style/ysf_leave_msg_field_list_item_value" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/ysf_lv_leave_msg_field_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="22.0dip" android:src="@drawable/ic_menu_selected" android:contentDescription="@null" />
+    <View android:layout_gravity="bottom" android:id="@id/v_transfer_divider" android:background="@color/ysf_notification_bg" android:layout_width="fill_parent" android:layout_height="@dimen/ysf_divider_height" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageTab" android:layout_width="44.0dip" android:layout_height="42.0dip" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/fd_color_rope_tab" android:layout_gravity="center" android:id="@id/textTitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tc_rope_tab_data" />
+</LinearLayout>

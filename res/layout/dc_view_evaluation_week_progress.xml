@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.evaluate.mvp.view.CurrentWeekProgressView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0dip" android:textColor="@color/gray_66" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@id/textValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <com.gotokeep.keep.refactor.business.main.view.RoundHorizontalProgressBar android:id="@id/progressBar" android:layout_width="0.0dip" android:layout_height="4.0dip" android:layout_marginTop="7.0dip" android:layout_marginEnd="56.0dip" app:backgroundColor="@color/black_05" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textValue" app:progressColor="@color/light_green" app:radius="4.0dip" />
+</com.gotokeep.keep.dc.business.evaluate.mvp.view.CurrentWeekProgressView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="74.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.skeleton.SkeletonView android:id="@id/viewDialBg" android:background="@drawable/bg_round_corner_4dp_gray_ef" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="w,137:78" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.skeleton.SkeletonView android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="17.0dip" android:layout_marginTop="12.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/viewDialBg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

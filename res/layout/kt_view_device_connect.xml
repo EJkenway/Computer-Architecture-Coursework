@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.deviceconnect.KtDeviceConnectView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layoutDeviceAdd" layout="@layout/kt_view_device_add" />
+    <include android:id="@id/layoutDeviceList" layout="@layout/kt_view_device_connect_list" />
+</com.gotokeep.keep.kt.business.deviceconnect.KtDeviceConnectView>

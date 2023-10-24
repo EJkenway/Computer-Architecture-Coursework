@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qiyukf.uikit.common.ui.imageview.MultiTouchZoomableImageView android:layout_gravity="center" android:id="@id/ysf_watch_pic_and_video_imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" />
+    <ImageView android:layout_gravity="center" android:orientation="vertical" android:id="@id/ysf_iv_watch_pic_and_video_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ysf_video_play_icon_selector" android:contentDescription="" />
+</FrameLayout>

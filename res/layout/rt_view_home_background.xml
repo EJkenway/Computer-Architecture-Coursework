@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgMapMask" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="76.0dip" android:scaleType="centerCrop" android:contentDescription="@string/map_style" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutMask" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <View android:id="@id/viewMaskTop" android:background="@drawable/rt_bg_home_top_1" android:layout_width="fill_parent" android:layout_height="123.5dip" />
+        <View android:background="@drawable/rt_bg_home_top_2" android:layout_width="fill_parent" android:layout_height="123.5dip" />
+    </LinearLayout>
+    <View android:id="@id/viewMaskBottom" android:background="@drawable/rt_bg_running_home_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="280.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</merge>

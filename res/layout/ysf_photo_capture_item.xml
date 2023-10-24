@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_photo_capture_parent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff424242" android:gravity="center" android:layout_gravity="center" android:id="@id/ysf_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ysf_photo_grid_capture" android:drawableTop="@drawable/ysf_ic_photo_camera_white_24dp" android:drawablePadding="8.0dip" />
+</FrameLayout>

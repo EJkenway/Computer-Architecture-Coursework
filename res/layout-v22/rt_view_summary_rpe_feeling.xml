@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryRpeFeelingView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutRpeTitle" layout="@layout/rt_view_summary_card_title" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtOutdoorSummaryCard">
+        <com.gotokeep.keep.train.TrainFeelView android:id="@id/viewRpeUncommitted" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="16.0dip" app:colorStyle="outdoor" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/viewRpeCommitted" android:padding="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_training_feeling_record" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:id="@id/textCommittedFeeling" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/imgCommittedFeeling" app:layout_constraintTop_toTopOf="parent" />
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgCommittedFeeling" android:layout_width="32.0dip" android:layout_height="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryRpeFeelingView>

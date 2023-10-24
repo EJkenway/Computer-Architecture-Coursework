@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.mine.view.MyHeaderUserProfileView android:id="@id/layout_user_profile" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgBg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="38.0dip" android:src="@drawable/fd_bg_mine_header" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/viewSecondEntrance" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/layoutHeaderView" layout="@layout/fd_layout_me_header_top" />
+    <include android:id="@id/layoutGuestHeaderView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" app:layout_constraintTop_toTopOf="parent" layout="@layout/fd_view_my_page_guest_header_view" />
+    <include android:id="@id/layoutUniverseHeaderView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="108.0dip" app:layout_constraintTop_toTopOf="parent" layout="@layout/fd_layout_me_header_top_avatar" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="layoutGuestHeaderView, layoutHeaderView, layoutUniverseHeaderView" />
+    <include android:id="@id/viewSecondEntrance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" app:layout_constraintTop_toBottomOf="@id/barrier" layout="@layout/fd_item_my_page_second_view" />
+</com.gotokeep.keep.fd.business.mine.view.MyHeaderUserProfileView>

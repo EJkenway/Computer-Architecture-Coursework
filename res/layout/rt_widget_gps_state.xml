@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/text_gps_color" android:gravity="center" android:id="@id/tvGpsState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_gps" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/imgGpsState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rt_ic_gps_no_signal" android:maxWidth="18.0dip" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/tvGpsState" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieGpsSearch" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="6.0dip" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/tvGpsState" app:lottie_autoPlay="true" app:lottie_fileName="lottie/rt_home_gps_searching.json" app:lottie_repeatCount="-1" />
+</RelativeLayout>

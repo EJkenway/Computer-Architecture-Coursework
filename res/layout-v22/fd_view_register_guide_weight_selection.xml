@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.account.guide.mvp.view.WeightView android:paddingLeft="28.0dip" android:paddingRight="28.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutTitle" layout="@layout/fd_view_register_guide_tips" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="36.0sp" android:textStyle="bold" android:textColor="@color/color_6d51f4" android:gravity="bottom" android:id="@id/textValue" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:minHeight="43.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutTitle" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/color_6d51f4" android:id="@id/textUnit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fd_guide_kg" android:layout_marginStart="6.0dip" app:layout_constraintBaseline_toBaselineOf="@id/textValue" app:layout_constraintStart_toEndOf="@id/textValue" />
+    <FrameLayout android:id="@id/layoutPickerContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/textValue" />
+    <include android:id="@id/layoutButtons" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/layoutPickerContainer" layout="@layout/fd_view_register_guide_bottom_buttons" />
+</com.gotokeep.keep.fd.business.account.guide.mvp.view.WeightView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.category.mvp.view.sections.CourseBigCardMoreView android:background="@drawable/tc_bg_black_05_left_corner_8dp" android:layout_width="44.0dip" android:layout_height="130.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="11.0sp" android:textColor="@color/gray_99" android:id="@id/textEnter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:ems="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgArrow" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/tc_ic_arrow_right_s_12" app:layout_constraintEnd_toEndOf="@id/textEnter" app:layout_constraintStart_toStartOf="@id/textEnter" app:layout_constraintTop_toBottomOf="@id/textEnter" />
+</com.gotokeep.keep.tc.business.category.mvp.view.sections.CourseBigCardMoreView>

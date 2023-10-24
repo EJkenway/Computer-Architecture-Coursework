@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.mydata.mvp.view.DataCenterBodyDataItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.HeartSwipeLayout android:id="@id/lay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutRecord" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="79.0dip" android:paddingHorizontal="16.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/gray_22" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/layoutSource" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutSource" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgSource" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginEnd="4.0dip" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/gray_66" android:id="@id/textSourceName" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="@id/layoutSource" app:layout_constraintEnd_toStartOf="@id/imgArrow" app:layout_constraintTop_toTopOf="@id/textTitle" app:layout_goneMarginEnd="0.0dip" />
+            <ImageView android:id="@id/imgArrow" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/dc_icon_arrow_right_ss_gray" app:layout_constraintBottom_toBottomOf="@id/textDate" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/textDate" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textDelete" android:background="@color/ysf_red_e64340" android:layout_width="100.0dip" android:layout_height="fill_parent" android:text="@string/delete" />
+    </com.gotokeep.keep.commonui.widget.HeartSwipeLayout>
+</com.gotokeep.keep.dc.business.mydata.mvp.view.DataCenterBodyDataItemView>

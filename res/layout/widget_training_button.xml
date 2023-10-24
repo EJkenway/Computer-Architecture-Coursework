@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0dip" android:clipToPadding="false" android:layout_width="@dimen/training_button_size" android:layout_height="@dimen/training_button_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:background="@drawable/bg_training_button" android:layout_width="@dimen/training_button_size_inner" android:layout_height="@dimen/training_button_size_inner" android:layout_centerInParent="true" />
+    <com.gotokeep.keep.commonui.widget.training.StopButtonProgressCircle android:id="@id/progress_circle_bg" android:layout_width="@dimen/training_button_size_inner" android:layout_height="@dimen/training_button_size_inner" android:layout_centerInParent="true" />
+    <com.gotokeep.keep.commonui.widget.training.StopButtonProgressCircle android:id="@id/progress_circle" android:layout_width="@dimen/training_button_size_inner" android:layout_height="@dimen/training_button_size_inner" android:layout_centerInParent="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/text_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/training_start" android:drawableTop="@drawable/ic_triangle_white_right" android:drawablePadding="7.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

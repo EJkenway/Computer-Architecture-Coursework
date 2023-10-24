@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.uilib.CircularImageView android:layout_gravity="center_horizontal" android:id="@id/avatar" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="32.0dip" android:src="@drawable/person_70_70" app:border_color="@color/white_100" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip">
+            <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                <RadioButton android:id="@id/male" android:background="@drawable/kt_selector_kibra_male_radio_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:button="@null" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/male" />
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                <RadioButton android:id="@id/female" android:background="@drawable/kt_selector_kibra_female_radio_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:button="@null" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/female" />
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            </RadioGroup>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                <ImageView android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/kt_ic_male" android:scaleType="fitXY" android:layout_centerVertical="true" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/male" />
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                <ImageView android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/kt_ic_female" android:scaleType="fitXY" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/male" />
+                <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </FrameLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="283.0dip" android:layout_height="56.0dip" android:layout_marginTop="36.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/nickname_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nickname" android:layout_centerVertical="true" />
+            <EditText android:textSize="18.0sp" android:textColor="@color/white" android:textColorHint="@color/white_20" android:gravity="right" android:id="@id/nick_name" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:hint="@string/kt_kibra_please_fill_in" android:singleLine="true" android:layout_toRightOf="@id/nickname_tips" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textCursorDrawable="@drawable/edit_text_cursor_green" />
+            <View android:background="@color/white_20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/height_area" android:layout_width="283.0dip" android:layout_height="56.0dip" android:layout_marginTop="12.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/height_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kibra_height" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:textColorHint="@color/white_20" android:gravity="right" android:id="@id/height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/please_choose" android:singleLine="true" android:layout_toRightOf="@id/height_tips" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <View android:background="@color/white_20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/height_tips_area" android:visibility="gone" android:layout_width="283.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:layout_gravity="center_vertical" android:background="@drawable/data_warning" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white_50" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="18.5dip" android:layout_marginLeft="8.0dip" android:text="@string/kt_kibra_height_tips" />
+        </LinearLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/birthday_area" android:layout_width="283.0dip" android:layout_height="56.0dip" android:layout_marginTop="12.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/birthday_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kibra_birthday" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:textColorHint="@color/white_20" android:gravity="right" android:id="@id/birthday" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/please_choose" android:singleLine="true" android:layout_toRightOf="@id/birthday_tips" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <View android:background="@color/white_20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/birthday_tips_area" android:visibility="gone" android:layout_width="283.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:layout_gravity="center_vertical" android:background="@drawable/data_warning" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white_50" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="18.5dip" android:layout_marginLeft="8.0dip" android:text="@string/kt_kibra_member_too_young" />
+        </LinearLayout>
+        <TextView android:enabled="false" android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/finish" android:background="@drawable/kt_bg_keloton_connect_next_enable" android:layout_width="283.0dip" android:layout_height="50.0dip" android:layout_marginTop="86.0dip" android:layout_marginBottom="28.0dip" android:text="@string/finish" android:alpha="0.5" />
+    </LinearLayout>
+</ScrollView>

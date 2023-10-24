@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="@dimen/font_size_14sp" android:id="@id/header_title" android:layout_marginLeft="@dimen/dimen_14dp" android:text="@string/mo_combo_entry" android:layout_centerVertical="true" style="@style/StoreBaseTextView" />
+    </RelativeLayout>
+    <com.gotokeep.keep.commonui.view.RecyclerSlider android:id="@id/keepers_combo_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_14dp" />
+</merge>

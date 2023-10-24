@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.meditation.mvp.view.RecommendCourseItemView android:layout_width="138.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgCover" android:layout_width="fill_parent" android:layout_height="@dimen/tc_meditation_course_height" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.tc.business.home.widget.LabelViewGroup android:id="@id/labelContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" app:layout_constraintEnd_toEndOf="@id/imgCover" app:layout_constraintStart_toStartOf="@id/imgCover" app:layout_constraintTop_toTopOf="@id/imgCover" />
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/flexboxLayout" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" app:layout_constraintBottom_toBottomOf="@id/imgCover" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" app:layout_constraintTop_toBottomOf="@id/imgCover" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/gray_99" android:ellipsize="end" android:id="@id/textFollowDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+</com.gotokeep.keep.tc.business.meditation.mvp.view.RecommendCourseItemView>

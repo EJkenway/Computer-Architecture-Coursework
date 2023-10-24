@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ssid_container" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="38.5dip" android:layout_marginRight="38.5dip">
+        <ImageView android:layout_gravity="center|left" android:id="@id/ssid_left_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_margin="12.0dip" android:src="@drawable/kt_ic_wifi_3" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/ssid_right_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_margin="12.0dip" android:src="@drawable/kt_ic_wifi_more" />
+        <View android:layout_gravity="bottom" android:background="@color/color_divider_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <EditText android:textSize="18.0sp" android:textColor="@color/three_black" android:textColorHint="@color/gray_cc" android:gravity="center_vertical" android:id="@id/ssid" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:hint="@string/kt_keloton_choose_wifi_ssid_hint" android:singleLine="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/password_container" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="38.5dip" android:layout_marginTop="6.0dip" android:layout_marginRight="38.5dip" android:layout_below="@id/ssid_container">
+        <ImageView android:layout_gravity="center|left" android:id="@id/password_left_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_margin="12.0dip" android:src="@drawable/kt_ic_wifi_password" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/password_status" android:padding="12.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/kt_ic_password_off" />
+        <View android:layout_gravity="bottom" android:background="@color/color_divider_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <EditText android:enabled="false" android:textSize="18.0sp" android:textColor="@color/three_black" android:textColorHint="@color/gray_cc" android:gravity="center_vertical" android:id="@id/password" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:hint="@string/kt_keloton_choose_wifi_password_hint" android:singleLine="true" android:inputType="textPassword" />
+    </FrameLayout>
+</RelativeLayout>

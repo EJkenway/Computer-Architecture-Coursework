@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/color_f1cf8d" android:endColor="@color/color_dcaf74" android:angle="180.0" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/mo_background_goods_detail_promotion_vip_image" />
+</layer-list>

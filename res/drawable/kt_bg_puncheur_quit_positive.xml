@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/kt_bg_14b479_corner_50dp" />
+    <item android:drawable="@drawable/kt_bg_24c789_corner_50dp" />
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#f6ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:background="@drawable/kt_bg_keloton_ring" android:layout_width="212.0dip" android:layout_height="212.0dip" android:layout_centerInParent="true" />
+    <com.gotokeep.keep.widget.RankCircleProgressView android:id="@id/progress" android:layout_width="215.0dip" android:layout_height="215.0dip" android:layout_centerInParent="true" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="72.0sp" android:textColor="@color/light_green" android:id="@id/countdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/kt_keloton_target_cooldown" android:layout_below="@id/countdown" android:layout_centerHorizontal="true" />
+</RelativeLayout>

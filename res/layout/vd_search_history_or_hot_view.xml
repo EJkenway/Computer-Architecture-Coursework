@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.vd.mvp.guide.view.SearchGuideWordView android:id="@id/layoutSearchHistory" android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_33" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_history" android:layout_marginStart="@dimen/page_horizontal_margin" />
+    <ImageView android:id="@id/imgClearHistory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:src="@drawable/icon_delete_line" android:layout_alignTop="@id/clearHistoryButton" android:layout_alignBottom="@id/clearHistoryButton" android:layout_marginEnd="2.0dip" android:layout_toStartOf="@id/clearHistoryButton" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_cc" android:id="@id/clearHistoryButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_cache" android:layout_marginEnd="@dimen/page_horizontal_margin" android:layout_alignParentEnd="true" />
+    <HorizontalScrollView android:id="@id/horizontalScrollView" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginBottom="@dimen/dimen_12dp" android:layout_below="@id/clearHistoryButton" android:paddingStart="@dimen/page_horizontal_margin" android:paddingEnd="@dimen/page_horizontal_margin">
+        <com.gotokeep.keep.uilib.FlowLayout android:id="@id/flowLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+</com.gotokeep.keep.vd.mvp.guide.view.SearchGuideWordView>

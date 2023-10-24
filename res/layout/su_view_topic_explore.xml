@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" app:background_color="@color/white" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:right_icon="@drawable/icon_search_lined_dark" app:right_icon_clickable="true" app:title="@string/su_explore_topic" app:title_color="@color/gray_33" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/topicNavRecyclerView" android:background="@color/snow_white" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="69.0dip" android:layout_below="@id/headerView" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/topicContentRecyclerView" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/topicNavRecyclerView" android:layout_below="@id/headerView" android:layout_toEndOf="@id/topicNavRecyclerView" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/viewEmptyContent" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/headerView" />
+    <View android:id="@id/shadowView" android:layout_below="@id/headerView" style="@style/action_bar_shadow_style" />
+</merge>

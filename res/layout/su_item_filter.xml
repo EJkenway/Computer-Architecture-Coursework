@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.edit.image.mvp.view.FilterItemView android:layout_width="76.0dip" android:layout_height="76.0dip" android:layout_marginRight="6.0dip" android:layout_marginEnd="6.0dip" app:cardBackgroundColor="@color/black" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/filter" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:layout_gravity="center" android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/textFilter" android:background="@color/black_50" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/effect" />
+    </FrameLayout>
+    <View android:layout_gravity="center_vertical" android:id="@id/viewBorder" android:background="@drawable/su_bg_corner_4_color_white_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.pb.edit.image.mvp.view.FilterItemView>

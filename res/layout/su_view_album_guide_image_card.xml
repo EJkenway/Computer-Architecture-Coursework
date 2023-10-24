@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageEnter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_constraintCircleRadius="6.0dip" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+    <View android:background="@drawable/su_bg_album_item_shadow" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/imageEnter" app:layout_constraintTop_toTopOf="@id/guideline" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/textDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:shadowColor="@color/black_30" android:shadowDx="0.0" android:shadowDy="3.0" android:shadowRadius="3.0" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="@id/imageEnter" app:layout_constraintStart_toStartOf="@id/imageEnter" />
+</merge>

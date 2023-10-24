@@ -1,0 +1,64 @@
+.class public final Lcom/gotokeep/keep/dc/business/datacategory/mvp/view/v3/SportUpgradeBarChartItemView$d;
+.super Ljava/lang/Object;
+.source "SportUpgradeBarChartItemView.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/gotokeep/keep/dc/business/datacategory/mvp/view/v3/SportUpgradeBarChartItemView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "d"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lij3/h;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Lcom/gotokeep/keep/dc/business/datacategory/mvp/view/v3/SportUpgradeBarChartItemView$d;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/view/ViewGroup;)Lcom/gotokeep/keep/dc/business/datacategory/mvp/view/v3/SportUpgradeBarChartItemView;
+    .locals 2
+
+    const-string v0, "viewGroup"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    new-instance v0, Lcom/gotokeep/keep/dc/business/datacategory/mvp/view/v3/SportUpgradeBarChartItemView;
+
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    invoke-direct {v0, p1}, Lcom/gotokeep/keep/dc/business/datacategory/mvp/view/v3/SportUpgradeBarChartItemView;-><init>(Landroid/content/Context;)V
+
+    .line 2
+    new-instance p1, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
+
+    const/4 v1, -0x1
+
+    invoke-direct {p1, v1, v1}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;-><init>(II)V
+
+    invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    return-object v0
+.end method

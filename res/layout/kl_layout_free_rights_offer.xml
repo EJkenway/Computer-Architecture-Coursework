@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageContent" android:background="@drawable/kl_free_rights_offer_dialog_content" android:layout_width="290.0dip" android:layout_height="290.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/btnSure" android:background="@drawable/kl_bg_free_rights_button" android:layout_width="240.0dip" android:layout_height="50.0dip" android:layout_marginBottom="28.0dip" android:text="@string/kl_free_rights_offer_btn_text" app:layout_constraintBottom_toBottomOf="@id/imageContent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <Button android:id="@id/btnClose" android:background="@drawable/kl_free_rights_dialog_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageContent" />
+</merge>

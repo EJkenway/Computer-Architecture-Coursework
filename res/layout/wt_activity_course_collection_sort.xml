@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:text="@string/wt_courses_collection_sort" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_close_lined_dark" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/textTitle" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/textTitle" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/wt_color_text_send" android:id="@id/textSave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/textTitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/textTitle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/viewRoot" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/viewStubFilterPlayer" android:layout="@layout/kt_view_puncheur_shadow_filter_player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStubPlayer" android:layout="@layout/kt_view_puncheur_shadow_player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@color/white_00" android:layout_width="@dimen/dimen_1dp" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <include android:id="@id/layoutDataBg" layout="@layout/kt_view_puncheur_shadow_data_bg" />
+    <include android:id="@id/layoutInstant" layout="@layout/kt_view_puncheur_shadow_instant" />
+    <include android:id="@id/viewData" layout="@layout/kt_view_puncheur_shadow_data" />
+    <com.gotokeep.keep.commonui.uilib.KitHeartRateView android:id="@id/viewHeartRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_marginEnd="35.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/layoutContinue" layout="@layout/kt_view_puncheur_shadow_continue" />
+    <include android:id="@id/layoutGradient" layout="@layout/kt_view_puncheur_shadow_gradient" />
+    <include android:id="@id/layoutDestination" layout="@layout/kt_view_puncheur_shadow_destination_notice" />
+    <include android:id="@id/viewLockFloatBall" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginBottom="48.0dip" android:layout_marginEnd="35.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" layout="@layout/kt_view_puncheur_shadow_lock_float_ball" />
+    <include android:id="@id/viewGesture" layout="@layout/kt_view_puncheur_shadow_gesture" />
+    <include android:id="@id/viewBgMusic" layout="@layout/kt_view_puncheur_shadow_bg_music" />
+    <include android:id="@id/viewDebug" android:visibility="gone" layout="@layout/kt_view_puncheur_shadow_debug" />
+    <include android:id="@id/viewLockDrawerLayout" android:visibility="gone" layout="@layout/kt_view_puncheur_shadow_lock_drawerlayout" />
+    <include android:id="@id/viewFinish" layout="@layout/kt_view_puncheur_shadow_finish" />
+    <com.gotokeep.keep.DefaultVideoControlView android:id="@id/defaultVideoControlView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar android:id="@id/puncheurShadowLoading" android:layout_width="24.0dip" android:layout_height="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/KeepProgressBarSmall" />
+    <include android:id="@id/viewShadowQuit" android:visibility="gone" layout="@layout/kt_view_puncheur_shadow_quit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.detail.mvp.commodity.view.CourseDetailCommodityView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="390.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/wt_course_detail_dialog_common_header" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewCommodity" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.wt.business.course.detail.mvp.commodity.view.CourseDetailCommodityView>

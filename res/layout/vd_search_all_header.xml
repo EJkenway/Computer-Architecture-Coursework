@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.vd.mvp.result.view.SearchAllHeaderView android:id="@id/headerName" android:background="@color/white" style="@style/LargeHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

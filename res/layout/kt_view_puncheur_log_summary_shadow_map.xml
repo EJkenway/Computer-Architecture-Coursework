@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurLogSummaryShadowMapView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/viewPuncheurLogShadowMap" android:layout_width="136.0dip" android:layout_height="136.0dip" android:layout_marginEnd="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurLogSummaryShadowMapView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.skeleton.SkeletonWrapperView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/view0" android:layout_width="fill_parent" android:layout_height="52.0dip" layout="@layout/kl_item_skeleton_live_music_fiter_item" />
+    <include android:id="@id/view1" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view0" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view2" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view1" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view3" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view2" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view4" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view3" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view5" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view4" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view6" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view5" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view7" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view6" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view8" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view7" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view9" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view8" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view10" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view9" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view11" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view10" layout="@layout/kl_item_skeleton_live_music_item" />
+    <include android:id="@id/view12" android:layout_width="fill_parent" android:layout_height="68.0dip" app:layout_constraintTop_toBottomOf="@id/view11" layout="@layout/kl_item_skeleton_live_music_item" />
+</com.gotokeep.keep.commonui.skeleton.SkeletonWrapperView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryShareQrCodeView android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/layout_content" android:background="@drawable/bg_summary_card_single" android:layout_width="fill_parent" android:layout_height="104.0dip" android:layout_marginTop="@dimen/rt_summary_card_margin_top" android:layout_marginBottom="@dimen/rt_summary_card_margin_bottom" android:paddingStart="23.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="@dimen/rt_summary_card_margin_horizontal" android:layout_marginEnd="@dimen/rt_summary_card_margin_horizontal">
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:id="@id/text_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_share_line" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:id="@id/text_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_long_click_qr_code" android:layout_below="@id/text_top" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:id="@id/textDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_share_keep_desc" android:layout_below="@id/text_center" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgBottomQr" android:layout_width="@dimen/rt_summary_qr_code_size" android:layout_height="@dimen/rt_summary_qr_code_size" android:src="@drawable/qr_to_share" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryShareQrCodeView>

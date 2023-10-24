@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.liveroom.mvp.view.KitbitTrainingScoreRankItemHeaderView android:layout_width="fill_parent" android:layout_height="375.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgHeaderBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <include android:id="@id/layoutNum2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layoutNum1" app:layout_constraintEnd_toStartOf="@id/layoutNum1" app:layout_constraintStart_toStartOf="parent" layout="@layout/kt_view_training_score_rank_item_header_merge" />
+    <include android:id="@id/layoutNum1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/kt_view_training_score_rank_item_header_merge" />
+    <include android:id="@id/layoutNum3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layoutNum1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/layoutNum1" layout="@layout/kt_view_training_score_rank_item_header_merge" />
+    <View android:background="@drawable/bg_white_top_corner" android:layout_width="0.0dip" android:layout_height="8.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</com.gotokeep.keep.kt.business.kitbit.liveroom.mvp.view.KitbitTrainingScoreRankItemHeaderView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:orientation="vertical" android:id="@id/layoutLottie" android:layout_width="290.0dip" android:layout_height="290.0dip" android:layout_centerInParent="true" app:round_corner="4.0dip">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/imgLottieHomePageDialog" android:layout_width="290.0dip" android:layout_height="290.0dip" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgHomePageDialog" android:layout_width="290.0dip" android:layout_height="290.0dip" />
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <View android:id="@id/viewClickArea" android:layout_width="98.0dip" android:layout_height="32.0dip" android:layout_marginBottom="16.0dip" android:layout_alignBottom="@id/layoutLottie" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/imgCloseHomePageDialog" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/ic_close_dialog" android:layout_below="@id/layoutLottie" android:layout_centerHorizontal="true" />
+</RelativeLayout>

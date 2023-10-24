@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.feedv4.mvp.view.FeedV4PictureView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.su.social.feedv4.mvp.view.HorizontalRecyclerView android:orientation="horizontal" android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/indexLayout" android:layout_width="fill_parent" android:layout_height="2.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.5dip" app:layout_constraintBottom_toBottomOf="parent" />
+    <FrameLayout android:id="@id/layoutStart" android:background="@drawable/icon_white_feed_playing" android:layout_width="58.0dip" android:layout_height="58.0dip" app:layout_constraintBottom_toBottomOf="@id/indexLayout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/recyclerView">
+        <ImageView android:layout_gravity="center" android:id="@id/imgStart" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    </FrameLayout>
+</com.gotokeep.keep.su.social.feedv4.mvp.view.FeedV4PictureView>

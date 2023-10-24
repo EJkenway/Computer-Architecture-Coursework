@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_light_gold" android:id="@id/textPriceDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="20.0sp" android:textColor="@color/pink" android:id="@id/textSalesPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/textPriceDesc" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:id="@id/textOriginalPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" app:layout_constraintBaseline_toBaselineOf="@id/textSalesPrice" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/textSalesPrice" />
+</merge>

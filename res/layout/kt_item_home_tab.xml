@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitHomeTabItemView android:paddingTop="1.0dip" android:paddingBottom="8.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgContentTab" android:layout_width="72.0dip" android:layout_height="72.0dip" android:scaleType="fitXY" app:border_width="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgContentIcon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="fitCenter" android:layout_marginStart="49.0dip" app:layout_constraintStart_toStartOf="@id/imgContentTab" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black_87" android:ellipsize="end" android:gravity="center" android:id="@id/textContentTab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="5" app:layout_constraintEnd_toEndOf="@id/imgContentTab" app:layout_constraintStart_toStartOf="@id/imgContentTab" app:layout_constraintTop_toBottomOf="@id/imgContentTab" />
+</com.gotokeep.keep.kt.business.common.mvp.view.KitHomeTabItemView>

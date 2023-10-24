@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.exercise.mvp.view.home.ExerciseHomeNavigationView android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:layout_width="wrap_content" android:layout_height="80.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="42.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@drawable/wt_exercise_home_navagation_bottom_bg" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginTop="24.0dip" app:layout_constraintTop_toBottomOf="@id/recycler" />
+</com.gotokeep.keep.wt.business.exercise.mvp.view.home.ExerciseHomeNavigationView>

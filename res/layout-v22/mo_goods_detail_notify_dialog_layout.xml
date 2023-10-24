@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsDetailNotifyDialogView android:orientation="horizontal" android:id="@id/contentView" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/mo_bg_poplayer_coupon" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="104.0dip" android:paddingHorizontal="14.0dip">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/redPackageView" android:layout_width="72.0dip" android:layout_height="72.0dip" app:lottie_autoPlay="false" app:lottie_fileName="detail/redPackage.json" app:lottie_loop="false" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/color_EC4F5B" android:layout_gravity="center_horizontal" android:id="@id/priceView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:letterSpacing="-0.05" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/noticeView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="4.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/black_60" android:id="@id/nickName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_22" android:id="@id/noticeTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/couponView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="4.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_22" android:ellipsize="end" android:id="@id/couponTip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_marginEnd="4.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/actionButton" app:layout_constraintTop_toTopOf="parent" />
+            <com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsDetailCountDownView android:id="@id/countDownView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/couponTip" />
+            <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/actionButton" android:background="@drawable/mo_background_round_corner_16dp_red" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/to_use" android:layout_marginEnd="12.0dip" android:paddingHorizontal="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsDetailNotifyDialogView>

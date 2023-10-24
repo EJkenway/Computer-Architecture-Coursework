@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBarView" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:title="@string/mo_choose_sport_welfare" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:layout_constraintBottom_toTopOf="@id/notUseWelfare" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/titleBarView" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/notUseWelfare" android:background="@color/white" android:paddingTop="19.0dip" android:paddingBottom="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mo_not_use_welfare" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

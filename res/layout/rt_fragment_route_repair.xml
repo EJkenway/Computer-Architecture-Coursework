@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/map_view_container" android:layout_width="fill_parent" android:layout_height="300.0dip" />
+    <TextView android:textColor="@color/purple" android:gravity="center_vertical" android:id="@id/tvRouteInfo" android:background="@color/gray_ee" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="路线信息" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:textSize="13.0sp" android:gravity="top" android:id="@id/tvLocations" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="每行一个坐标，逗号分隔" android:maxLines="100" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/btnRouteWalking" android:background="@drawable/light_green_bg_corner25dp" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="按步行规划" />
+            <Button android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/btnRouteDriving" android:background="@drawable/light_green_bg_corner25dp" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="按驾车规划" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

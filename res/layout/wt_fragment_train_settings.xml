@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android_custom:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_coach" android:background="@color/white" android_custom:mainText="@string/coach" android_custom:rightArrowVisible="true" style="@style/SettingSingleItemWithClick" />
+    <TextView android:text="@string/coach_select_tip" style="@style/SettingPersonInfoDescText" />
+</LinearLayout>

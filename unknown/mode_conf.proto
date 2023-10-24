@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+
+message ModeConfig {
+  //开始 UTC
+  uint32 start_utc = 1;
+  //结束 UTC
+  uint32 end_utc = 2;
+  //0 ：关闭；1 ：开启
+  uint32 mode_switch = 3;
+  //模式类别，1 ：抬腕亮屏；2 ：夜间模式；3 ：久坐提醒；4 ：勿扰模式; 5 : 午休模式
+  uint32 mode_type = 4;
+}
+
+message ModeSet {
+  repeated ModeConfig mode_conf = 1;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/tc_main_bottom_tab_height" />
+    <ViewStub android:id="@id/yogaSkeletonStub" android:layout="@layout/tc_activity_skeleton" android:inflatedId="@id/yoga_skeleton" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar_exercise" app:add_status_bar_height="false" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:right_icon="@drawable/icon_search_lined_dark" app:right_icon_clickable="true" app:title="" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recycler_view_exercise" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layout_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

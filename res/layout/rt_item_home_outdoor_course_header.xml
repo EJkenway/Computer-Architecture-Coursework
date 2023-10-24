@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.home.mvp.view.OutdoorHomeSectionTitleView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="58.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/textSectionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/viewOpen" android:background="@drawable/bg_black87_stroke_line_28_corner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/imgOpen" android:layout_width="12.0dip" android:layout_height="12.0dip" android:scaleType="fitXY" android:contentDescription="@string/open" android:layout_marginEnd="2.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black_87" android:gravity="center" android:id="@id/textOpen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_out_more" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.home.mvp.view.OutdoorHomeSectionTitleView>

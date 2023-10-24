@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.widget.layout.DraggableFrameLayout android:id="@id/layoutLoopVideo" android:background="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="109.0dip" android:layout_marginStart="14.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewAnchor" android:layout_width="1.0dip" android:layout_height="1.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.pb.edit.imagecrop.video.widget.LoopVideoView android:id="@id/viewLoopVideo" android:tag="@string/su_video_capture_content_tag" android:layout_width="0.0dip" android:layout_height="0.0dip" app:kvScaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.commonui.widget.layout.DraggableFrameLayout>

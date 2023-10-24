@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/kt_keloton_mapbox_cooldown_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kt.business.treadmill.widget.TargetProgressView android:id="@id/tpv_mapbox_target" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="12.0dip" app:bacgroundColor="#ff000000" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kt_ic_finish2x" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_dd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.5dip" android:text="@string/kt_keloton_route_cooldown_grade" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="72.0sp" android:textColor="@color/white" android:id="@id/tv_mapbox_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/kt_data_default" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_mapbox_rank_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+            <View android:background="@color/white" android:layout_width="48.0dip" android:layout_height="1.0dip" android:layout_marginRight="16.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffdddddd" android:id="@id/tv_mapbox_rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本次排名" />
+            <View android:background="@color/white" android:layout_width="48.0dip" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="43.0dip" android:layout_centerHorizontal="true">
+            <FrameLayout android:id="@id/fl_mapbox_second" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/civ_mapbox_second" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_avatar_placeholder" />
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="33.0dip" android:src="@drawable/ic_rank_top2" android:layout_below="@id/civ_mapbox_second" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/fl_mapbox_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip">
+                <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/civ_mapbox_first" android:layout_width="54.0dip" android:layout_height="54.0dip" android:src="@drawable/ic_avatar_placeholder" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="39.0dip" android:src="@drawable/ic_rank_top1" android:layout_below="@id/civ_mapbox_second" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/fl_mapbox_third" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/civ_mapbox_third" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_avatar_placeholder" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="33.0dip" android:src="@drawable/ic_rank_top3" android:layout_below="@id/civ_mapbox_first" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lav_leaf" android:layout_width="750.0dip" android:layout_height="640.0dip" android:layout_centerHorizontal="true" app:lottie_autoPlay="true" app:lottie_fileName="lottie/keloton_cooldown_leaf.json" />
+</RelativeLayout>

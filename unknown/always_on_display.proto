@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "AlwaysOnDisplay";
+
+message AlwaysOnDisplayConfig {
+    uint32 always_on_display_swtich = 1;
+        uint32 always_on_display_style = 2;
+}

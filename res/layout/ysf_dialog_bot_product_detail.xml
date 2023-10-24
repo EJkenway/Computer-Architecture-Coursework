@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ysf_bg_bot_product_detail_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/ysf_black_333333" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:text="@string/ysf_confirm_send" />
+        <include layout="@layout/ysf_include_divider" />
+        <include layout="@layout/ysf_bot_product_and_order_detail" />
+        <include layout="@layout/ysf_include_divider" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/ysf_black_333333" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ysf_tv_dialog_bot_product_detail_cancel" android:background="@drawable/ysf_bg_bot_dialog_cancel" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="4.5dip" android:text="@string/ysf_cancel" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ysf_white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ysf_tv_dialog_bot_product_detail_done" android:background="@drawable/ysf_evaluation_button_bg" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_marginLeft="4.5dip" android:layout_marginRight="8.0dip" android:text="@string/ysf_done" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryEntryView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtSummaryCardView">
+        <LinearLayout android:orientation="horizontal" style="@style/RtSummaryCardViewTitleLayout">
+            <ImageView android:id="@id/imgTitle" android:layout_width="@dimen/rt_summary_title_drawable_size" android:layout_height="@dimen/rt_summary_title_drawable_size" android:src="@drawable/rt_ic_summary_entry" />
+            <TextView android:text="@string/rt_outdoor_entry" android:layout_marginStart="10.0dip" style="@style/RtSummaryCardViewTitleInLayout" />
+            <ImageView android:id="@id/img_private" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="12.0dip" android:src="@drawable/icon_diary_timeline_lock" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="22.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_entry" android:layout_width="@dimen/rt_summary_entry_post_image_size" android:layout_height="@dimen/rt_summary_entry_post_image_size" android:layout_marginEnd="14.0dip" />
+            <com.gotokeep.keep.uilib.html.RichTextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/text_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="3" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_publish" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="22.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/rt_entry_not_published" android:layout_weight="1.0" />
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/icon_entry_camera" />
+            </LinearLayout>
+            <View android:background="@color/color_divider_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryEntryView>

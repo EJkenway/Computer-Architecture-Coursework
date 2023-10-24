@@ -1,0 +1,33 @@
+.class public final synthetic Lj11/m;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic g:Lcom/gotokeep/keep/kt/business/kitbit/widget/KitbitMainCloseView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/gotokeep/keep/kt/business/kitbit/widget/KitbitMainCloseView;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lj11/m;->g:Lcom/gotokeep/keep/kt/business/kitbit/widget/KitbitMainCloseView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object v0, p0, Lj11/m;->g:Lcom/gotokeep/keep/kt/business/kitbit/widget/KitbitMainCloseView;
+
+    invoke-static {v0, p1}, Lcom/gotokeep/keep/kt/business/kitbit/widget/KitbitMainCloseView;->Q2(Lcom/gotokeep/keep/kt/business/kitbit/widget/KitbitMainCloseView;Landroid/view/View;)V
+
+    return-void
+.end method

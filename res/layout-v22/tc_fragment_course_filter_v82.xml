@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.NestedScrollCoordinatorLayout android:id="@id/layoutBody" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/appBarLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.gotokeep.keep.tc.business.recommend.mvp.view.course.filter.TagSelectedView android:id="@id/tagCategoryRecyclerView" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="12.0dip" app:layout_scrollFlags="scroll|snap" />
+            <include android:id="@id/talentView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|snap" layout="@layout/tc_item_home_talent_list" />
+            <include android:id="@id/tagLevelRecyclerView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tc_item_home_level_selected" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/pullRecyclerView" android:background="@color/f7_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="8.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <androidx.core.widget.NestedScrollView android:id="@id/layoutFilterScrollView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layoutFilterErrorView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="110.0dip" />
+        </androidx.core.widget.NestedScrollView>
+    </com.gotokeep.keep.commonui.widget.NestedScrollCoordinatorLayout>
+    <com.gotokeep.keep.tc.business.recommend.dialog.CourseFilterDialogManager android:id="@id/dialogManager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

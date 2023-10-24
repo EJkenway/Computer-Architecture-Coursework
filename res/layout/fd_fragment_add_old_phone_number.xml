@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android_custom:left_icon="@drawable/icon_arrow_left_lined" android_custom:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="46.0dip" android:layout_marginTop="102.0dip" android:layout_marginRight="46.0dip" android:text="@string/add_old_phone_tips" android:layout_weight="1.0" />
+    <Button android:id="@id/btnCommit" android:layout_marginBottom="27.0dip" android:text="@string/confirm" style="@style/SettingButtonMainGreen" />
+</LinearLayout>

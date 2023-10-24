@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_bottom">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_card">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/image_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <ImageView android:background="@drawable/wt_bg_send_action_log_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/send_title_bar" app:add_status_bar_height="true" app:background_color="@color/purple" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:right_icon="@drawable/icon_delete_filled" app:right_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+            <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/white" android:id="@id/text_left" android:padding="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_card" android:background="@drawable/bg_corner_white_8dp" android:layout_width="fill_parent" android:layout_height="174.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/page_horizontal_margin" android:layout_marginEnd="@dimen/page_horizontal_margin">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/layout_user" android:layout_width="fill_parent" android:layout_height="84.0dip">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/image_user_icon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="12.0dip" />
+                <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/text_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:maxEms="15" android:singleLine="true" android:layout_toEndOf="@id/image_user_icon" />
+                <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_user_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_user_name" android:layout_toEndOf="@id/image_user_icon" />
+            </RelativeLayout>
+            <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/layout_train_log" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="26.0sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/text_left_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/purple" android:id="@id/text_left_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unit_group" android:layout_marginStart="3.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_left_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/exercise" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+                    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12.0sp" android:textColor="@color/purple" android:id="@id/text_mid_less_one_min" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wt_train_log_action_duration_unenough" android:layout_marginEnd="3.0dip" />
+                        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="26.0sp" android:textColor="@color/purple" android:gravity="center" android:id="@id/text_mid_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/purple" android:id="@id/text_mid_unit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unit_points" android:layout_marginStart="3.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_mid_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="end|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+                    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="26.0sp" android:textColor="@color/gray_33" android:id="@id/text_right_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_right_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/kcal_zh" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_train_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:layout_above="@id/layout_card" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true">
+            <TextView android:textSize="28.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/text_complete_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:maxEms="12" android:lineSpacingExtra="6.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/text_train_log_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_bottom" android:background="@drawable/wt_bg_fragment_send_log" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+            <ImageView android:id="@id/image_bottom_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="center" />
+            <ImageView android:id="@id/image_loading_confirm" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_rotating_loading_white_medium" android:scaleType="fitXY" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:id="@id/text_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

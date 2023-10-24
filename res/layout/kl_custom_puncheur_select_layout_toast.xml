@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_rectangle_black_72_round_8" android:paddingTop="8.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:background="@drawable/kl_anim_level_select_toast_background" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kl_puncheur_level_selected_toast_text" />
+</LinearLayout>

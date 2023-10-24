@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryWorkoutBriefItemView android:layout_width="fill_parent" android:layout_height="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/black_30" android:ellipsize="end" android:id="@id/textDetailItemNum" android:layout_width="18.0dip" android:layout_height="fill_parent" android:maxLines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/textDetailItemName" android:layout_width="120.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/textDetailItemNum" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutDetailItemsContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintStart_toEndOf="@id/textDetailItemName" />
+</com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryWorkoutBriefItemView>

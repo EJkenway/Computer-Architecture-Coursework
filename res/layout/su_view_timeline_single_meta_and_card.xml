@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.single.view.TimelineSingleMetaAndCardView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutMeta" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutMetaCard" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.gotokeep.keep.su_core.timeline.mvp.single.view.TimelineSingleMetaAndCardView>

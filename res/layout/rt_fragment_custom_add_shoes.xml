@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <requestFocus />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/addCustomTitleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_alignParentTop="true" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title="@string/rt_custom_add_shoes" app:title_color="@color/black_87" app:title_size="16.0sp" />
+    <androidx.core.widget.NestedScrollView android:id="@id/viewCustomShoesInfo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/textCommitShoesTips" android:layout_below="@id/addCustomTitleBar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/pictureSelectView" android:layout_width="166.0dip" android:layout_height="104.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/rt_view_add_shoes_picture_select" />
+            <include android:id="@id/brandSelectView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/pictureSelectView" layout="@layout/rt_view_add_shoes_brand_select" />
+            <include android:id="@id/modelView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/brandSelectView" layout="@layout/rt_view_add_shoes_edit" />
+            <include android:id="@id/introView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/modelView" layout="@layout/rt_view_add_shoes_edit" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btnSave" android:background="@color/light_green" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginBottom="8.0dip" android:text="@string/save" android:layout_alignParentBottom="true" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" app:kStyle="large" app:kText="@string/save" />
+    <TextView android:textSize="12.0sp" android:id="@id/textCommitShoesTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="18.0dip" android:text="@string/rt_upload_custom_shoes_hint" android:layout_above="@id/btnSave" android:layout_centerHorizontal="true" />
+</RelativeLayout>

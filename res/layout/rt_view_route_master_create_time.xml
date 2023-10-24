@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RouteMasterCreateTimeView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/line_white" android:layout_width="1.0dip" android:layout_height="36.0dip" android:layout_marginLeft="42.0dip" />
+    <RelativeLayout android:id="@id/layout_route_author" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentBottom="true">
+        <com.gotokeep.keep.uilib.CircleImageView android:id="@id/img_route_master_avatar" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/person_45_45" android:layout_centerVertical="true" app:circle_border_color="@color/white" app:circle_border_width="2.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/img_route_master_avatar" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/text_route_master_name" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_50" android:id="@id/text_route_create_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/rt_route_create_time" android:layout_below="@id/text_route_master_name" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RouteMasterCreateTimeView>

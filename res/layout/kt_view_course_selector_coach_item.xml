@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.KtCourseSelectorCoachItemView android:background="@drawable/kt_bg_coach_item" android:layout_width="wrap_content" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layoutAvatar" android:layout_width="@dimen/dimen_36dp" android:layout_height="@dimen/dimen_36dp" android:layout_marginStart="@dimen/dimen_6dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/imgAvatarLivingBg" android:layout_width="@dimen/dimen_36dp" android:layout_height="@dimen/dimen_36dp" android:src="@drawable/kt_bg_48dp_2dp_circle_solid_ff5363" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center" android:id="@id/imgAvatar" android:layout_width="@dimen/dimen_28dp" android:layout_height="@dimen/dimen_28dp" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/kt_color_coach_item" android:ellipsize="end" android:id="@id/textName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/dimen_12dp" android:layout_marginEnd="@dimen/dimen_24dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/layoutAvatar" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginStart="@dimen/dimen_24dp" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.KtCourseSelectorCoachItemView>

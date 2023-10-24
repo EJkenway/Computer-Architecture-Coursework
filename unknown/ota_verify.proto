@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "OtaVerify";
+message OtaVerifyRsp {
+  // 0 ：全部资源校验错误；
+  // bit0 ：1 厂测固件校验成功，0 厂测固件校验失败；
+  // bit1 ：1 商用固件校验成功，0 商用固件校验失败；
+  // bit2 ：1 UI 资源校验成功，0 UI 资源校验失败；
+  // bit2 bit1 bit0 ：111 全部资源校验正确，设备即将在 3 秒后自动重启
+  uint32 status = 1;
+}

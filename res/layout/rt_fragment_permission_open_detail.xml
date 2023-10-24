@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/layoutPermissionDetailTitleBar" android:background="@color/white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:left_icon_clickable="true" app:title="@string/setting_exercise_authority" style="@style/ItemCustomTitleBar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerPermissionOpenDetail" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/layoutGotoSystemPermission" app:layout_constraintTop_toBottomOf="@id/layoutPermissionDetailTitleBar" />
+    <RelativeLayout android:id="@id/layoutGotoSystemPermission" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="70.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <Button android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btnGotoSystemPermission" android:background="@drawable/light_green_color_corner_50dp" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="44.0dip" android:layout_marginRight="44.0dip" android:text="@string/goto_settings" android:layout_centerInParent="true" style="@style/Widget.AppCompat.Button.Borderless" />
+    </RelativeLayout>
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/viewDetailEmpty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutPermissionDetailTitleBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

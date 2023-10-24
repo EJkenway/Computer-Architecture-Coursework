@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.mvp.view.HomeKelotonView android:background="@drawable/kt_bg_home_tabs_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutClassFind" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="76.0dip" android:layout_height="76.0dip" android:src="@drawable/kt_ic_keloton_home_class_find" android:scaleType="centerInside" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_87" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:text="@string/kt_home_class_find" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vWorkoutRun" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="76.0dip" android:layout_height="76.0dip" android:src="@drawable/kt_ic_keloton_home_class_audio" android:scaleType="centerInside" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_87" android:gravity="center" android:layout_width="@dimen/kt_home_item_size" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="@string/kt_home_audio_run" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/target" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="76.0dip" android:layout_height="76.0dip" android:src="@drawable/kt_ic_keloton_home_goal" android:scaleType="centerInside" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_87" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:text="@string/kt_home_target" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vRun" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="76.0dip" android:layout_height="76.0dip" android:src="@drawable/kt_ic_keloton_home_free" android:scaleType="centerInside" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_87" android:gravity="center" android:layout_width="@dimen/kt_home_item_size" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:text="@string/kt_home_run" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.treadmill.mvp.view.HomeKelotonView>

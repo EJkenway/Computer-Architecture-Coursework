@@ -1,0 +1,92 @@
+.class public final Ll43/h;
+.super Lcom/gotokeep/keep/data/model/BaseModel;
+.source "TrainVideoCacheItemModel.kt"
+
+
+# instance fields
+.field public final a:Lcom/gotokeep/keep/data/model/home/DailyWorkout;
+
+.field public final b:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final c:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lcom/gotokeep/keep/data/model/home/DailyWorkout;Ljava/util/Set;Ljava/lang/String;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/gotokeep/keep/data/model/home/DailyWorkout;",
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+
+    const-string v0, "dailyWorkout"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "workoutResources"
+
+    invoke-static {p2, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-direct {p0}, Lcom/gotokeep/keep/data/model/BaseModel;-><init>()V
+
+    iput-object p1, p0, Ll43/h;->a:Lcom/gotokeep/keep/data/model/home/DailyWorkout;
+
+    iput-object p2, p0, Ll43/h;->b:Ljava/util/Set;
+
+    iput-object p3, p0, Ll43/h;->c:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final i1()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Ll43/h;->c:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final j1()Lcom/gotokeep/keep/data/model/home/DailyWorkout;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Ll43/h;->a:Lcom/gotokeep/keep/data/model/home/DailyWorkout;
+
+    return-object v0
+.end method
+
+.method public final k1()Ljava/util/Set;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ll43/h;->b:Ljava/util/Set;
+
+    return-object v0
+.end method

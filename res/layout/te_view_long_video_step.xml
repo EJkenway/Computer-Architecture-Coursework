@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kplayer.KeepVideoView2 android:id="@id/playerView" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" app:kvScaleType="fitCenter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgKeepOfficialLogo" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="25.829987dip" android:layout_marginTop="24.0dip" android:src="@drawable/te_light_colour_logo" android:scaleType="fitCenter" android:layout_marginStart="24.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

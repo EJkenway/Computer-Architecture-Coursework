@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonStepBgAudioControlView android:background="@color/purple_96" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/close" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/icon_close_lined" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="12.0dip" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/text_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="@string/guide_voice" android:layout_marginStart="25.0dip" />
+            <com.gotokeep.keep.refactor.business.music.MusicVolumeBar android:id="@id/guide_volume" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_playlist" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="63.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/playlist_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <com.gotokeep.keep.kt.business.treadmill.widget.KelotonMusicControlView android:id="@id/view_music_info" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="87.0dip" />
+            <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:gravity="center" android:id="@id/music_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gotokeep.keep.refactor.business.music.MusicVolumeBar android:id="@id/music_volume" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonStepBgAudioControlView>

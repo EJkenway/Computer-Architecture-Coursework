@@ -1,0 +1,1184 @@
+{
+  "ok": true,
+  "data": {
+    "hot": [
+      {
+        "alpha3": "CHN",
+        "countryCode": "86",
+        "countryName": "中國"
+      },
+      {
+        "alpha3": "HKG",
+        "countryCode": "852",
+        "countryName": "香港地區"
+      },
+      {
+        "alpha3": "MAC",
+        "countryCode": "853",
+        "countryName": "澳門地區"
+      },
+      {
+        "alpha3": "TWN",
+        "countryCode": "886",
+        "countryName": "台灣地區"
+      },
+      {
+        "alpha3": "USA",
+        "countryCode": "1",
+        "countryName": "美國"
+      },
+      {
+        "alpha3": "CAN",
+        "countryCode": "1",
+        "countryName": "加拿大"
+      },
+      {
+        "alpha3": "AUS",
+        "countryCode": "61",
+        "countryName": "澳大利亞"
+      },
+      {
+        "alpha3": "GBR",
+        "countryCode": "44",
+        "countryName": "英國"
+      },
+      {
+        "alpha3": "FRA",
+        "countryCode": "33",
+        "countryName": "法國"
+      },
+      {
+        "alpha3": "JPN",
+        "countryCode": "81",
+        "countryName": "日本"
+      },
+      {
+        "alpha3": "KOR",
+        "countryCode": "82",
+        "countryName": "韓國"
+      },
+      {
+        "alpha3": "SGP",
+        "countryCode": "65",
+        "countryName": "新加坡"
+      }
+    ],
+    "all": [
+      {
+        "alpha3": "USA",
+        "countryCode": "1",
+        "countryName": "美國"
+      },
+      {
+        "alpha3": "ABW",
+        "countryCode": "297",
+        "countryName": "阿魯巴"
+      },
+      {
+        "alpha3": "AFG",
+        "countryCode": "93",
+        "countryName": "阿富汗"
+      },
+      {
+        "alpha3": "AGO",
+        "countryCode": "244",
+        "countryName": "安哥拉"
+      },
+      {
+        "alpha3": "AIA",
+        "countryCode": "1",
+        "countryName": "安圭拉"
+      },
+      {
+        "alpha3": "ALB",
+        "countryCode": "355",
+        "countryName": "阿爾巴尼亞"
+      },
+      {
+        "alpha3": "AND",
+        "countryCode": "376",
+        "countryName": "安道爾"
+      },
+      {
+        "alpha3": "ARE",
+        "countryCode": "971",
+        "countryName": "阿聯酋"
+      },
+      {
+        "alpha3": "ARG",
+        "countryCode": "54",
+        "countryName": "阿根廷"
+      },
+      {
+        "alpha3": "ARM",
+        "countryCode": "374",
+        "countryName": "亞美尼亞"
+      },
+      {
+        "alpha3": "ASM",
+        "countryCode": "1",
+        "countryName": "美屬薩摩亞"
+      },
+      {
+        "alpha3": "ATG",
+        "countryCode": "1",
+        "countryName": "安提瓜和巴布達"
+      },
+      {
+        "alpha3": "AUS",
+        "countryCode": "61",
+        "countryName": "澳大利亞"
+      },
+      {
+        "alpha3": "AUT",
+        "countryCode": "43",
+        "countryName": "奧地利"
+      },
+      {
+        "alpha3": "AZE",
+        "countryCode": "994",
+        "countryName": "阿塞拜疆"
+      },
+      {
+        "alpha3": "BDI",
+        "countryCode": "257",
+        "countryName": "布隆迪"
+      },
+      {
+        "alpha3": "BEL",
+        "countryCode": "32",
+        "countryName": "比利時"
+      },
+      {
+        "alpha3": "BEN",
+        "countryCode": "229",
+        "countryName": "貝寧"
+      },
+      {
+        "alpha3": "BFA",
+        "countryCode": "226",
+        "countryName": "布基納法索"
+      },
+      {
+        "alpha3": "BGD",
+        "countryCode": "880",
+        "countryName": "孟加拉國"
+      },
+      {
+        "alpha3": "BGR",
+        "countryCode": "359",
+        "countryName": "保加利亞"
+      },
+      {
+        "alpha3": "BHR",
+        "countryCode": "973",
+        "countryName": "巴林"
+      },
+      {
+        "alpha3": "BHS",
+        "countryCode": "1",
+        "countryName": "巴哈馬"
+      },
+      {
+        "alpha3": "BIH",
+        "countryCode": "387",
+        "countryName": "波斯尼亞和黑塞哥維那"
+      },
+      {
+        "alpha3": "BLR",
+        "countryCode": "375",
+        "countryName": "白俄羅斯"
+      },
+      {
+        "alpha3": "BLZ",
+        "countryCode": "501",
+        "countryName": "伯利茲"
+      },
+      {
+        "alpha3": "BMU",
+        "countryCode": "1",
+        "countryName": "百慕大"
+      },
+      {
+        "alpha3": "BOL",
+        "countryCode": "591",
+        "countryName": "玻利維亞"
+      },
+      {
+        "alpha3": "BRA",
+        "countryCode": "55",
+        "countryName": "巴西"
+      },
+      {
+        "alpha3": "BRB",
+        "countryCode": "1",
+        "countryName": "巴巴多斯"
+      },
+      {
+        "alpha3": "BRN",
+        "countryCode": "673",
+        "countryName": "文萊"
+      },
+      {
+        "alpha3": "BTN",
+        "countryCode": "975",
+        "countryName": "不丹"
+      },
+      {
+        "alpha3": "BWA",
+        "countryCode": "267",
+        "countryName": "博茨瓦納"
+      },
+      {
+        "alpha3": "CAF",
+        "countryCode": "236",
+        "countryName": "中非共和國"
+      },
+      {
+        "alpha3": "CAN",
+        "countryCode": "1",
+        "countryName": "加拿大"
+      },
+      {
+        "alpha3": "CHE",
+        "countryCode": "41",
+        "countryName": "瑞士"
+      },
+      {
+        "alpha3": "CHL",
+        "countryCode": "56",
+        "countryName": "智利"
+      },
+      {
+        "alpha3": "CHN",
+        "countryCode": "86",
+        "countryName": "中國"
+      },
+      {
+        "alpha3": "CIV",
+        "countryCode": "225",
+        "countryName": "科特迪瓦"
+      },
+      {
+        "alpha3": "CMR",
+        "countryCode": "237",
+        "countryName": "喀麥隆"
+      },
+      {
+        "alpha3": "COK",
+        "countryCode": "682",
+        "countryName": "庫克群島"
+      },
+      {
+        "alpha3": "COL",
+        "countryCode": "57",
+        "countryName": "哥倫比亞"
+      },
+      {
+        "alpha3": "COM",
+        "countryCode": "269",
+        "countryName": "科摩羅"
+      },
+      {
+        "alpha3": "CPV",
+        "countryCode": "238",
+        "countryName": "佛得角"
+      },
+      {
+        "alpha3": "CRI",
+        "countryCode": "506",
+        "countryName": "哥斯達黎加"
+      },
+      {
+        "alpha3": "CUB",
+        "countryCode": "53",
+        "countryName": "古巴"
+      },
+      {
+        "alpha3": "CYM",
+        "countryCode": "1",
+        "countryName": "開曼群島"
+      },
+      {
+        "alpha3": "CYP",
+        "countryCode": "357",
+        "countryName": "塞浦路斯"
+      },
+      {
+        "alpha3": "CZE",
+        "countryCode": "420",
+        "countryName": "捷克"
+      },
+      {
+        "alpha3": "DEU",
+        "countryCode": "49",
+        "countryName": "德國"
+      },
+      {
+        "alpha3": "DJI",
+        "countryCode": "253",
+        "countryName": "吉布提"
+      },
+      {
+        "alpha3": "DMA",
+        "countryCode": "1",
+        "countryName": "多米尼克"
+      },
+      {
+        "alpha3": "DNK",
+        "countryCode": "45",
+        "countryName": "丹麥"
+      },
+      {
+        "alpha3": "DOM",
+        "countryCode": "1",
+        "countryName": "多米尼加"
+      },
+      {
+        "alpha3": "DZA",
+        "countryCode": "213",
+        "countryName": "阿爾及利亞"
+      },
+      {
+        "alpha3": "ECU",
+        "countryCode": "593",
+        "countryName": "厄瓜多爾"
+      },
+      {
+        "alpha3": "EGY",
+        "countryCode": "20",
+        "countryName": "埃及"
+      },
+      {
+        "alpha3": "ERI",
+        "countryCode": "291",
+        "countryName": "厄立特里亞"
+      },
+      {
+        "alpha3": "ESP",
+        "countryCode": "34",
+        "countryName": "西班牙"
+      },
+      {
+        "alpha3": "EST",
+        "countryCode": "372",
+        "countryName": "愛沙尼亞"
+      },
+      {
+        "alpha3": "ETH",
+        "countryCode": "251",
+        "countryName": "埃塞俄比亞"
+      },
+      {
+        "alpha3": "FIN",
+        "countryCode": "358",
+        "countryName": "芬蘭"
+      },
+      {
+        "alpha3": "FJI",
+        "countryCode": "679",
+        "countryName": "斐濟"
+      },
+      {
+        "alpha3": "FLK",
+        "countryCode": "500",
+        "countryName": "福克蘭群島"
+      },
+      {
+        "alpha3": "FRA",
+        "countryCode": "33",
+        "countryName": "法國"
+      },
+      {
+        "alpha3": "FRO",
+        "countryCode": "298",
+        "countryName": "法羅群島"
+      },
+      {
+        "alpha3": "FSM",
+        "countryCode": "691",
+        "countryName": "密克羅尼西亞聯邦"
+      },
+      {
+        "alpha3": "GAB",
+        "countryCode": "241",
+        "countryName": "加蓬"
+      },
+      {
+        "alpha3": "GBR",
+        "countryCode": "44",
+        "countryName": "英國"
+      },
+      {
+        "alpha3": "GEO",
+        "countryCode": "995",
+        "countryName": "格魯吉亞"
+      },
+      {
+        "alpha3": "GHA",
+        "countryCode": "233",
+        "countryName": "加納"
+      },
+      {
+        "alpha3": "GIB",
+        "countryCode": "350",
+        "countryName": "直布羅陀"
+      },
+      {
+        "alpha3": "GIN",
+        "countryCode": "224",
+        "countryName": "幾內亞"
+      },
+      {
+        "alpha3": "GLP",
+        "countryCode": "590",
+        "countryName": "瓜德羅普"
+      },
+      {
+        "alpha3": "GMB",
+        "countryCode": "220",
+        "countryName": "岡比亞"
+      },
+      {
+        "alpha3": "GNB",
+        "countryCode": "245",
+        "countryName": "幾內亞比紹"
+      },
+      {
+        "alpha3": "GNQ",
+        "countryCode": "240",
+        "countryName": "赤道幾內亞"
+      },
+      {
+        "alpha3": "GRC",
+        "countryCode": "30",
+        "countryName": "希臘"
+      },
+      {
+        "alpha3": "GRD",
+        "countryCode": "1",
+        "countryName": "格林納達"
+      },
+      {
+        "alpha3": "GRL",
+        "countryCode": "299",
+        "countryName": "格陵蘭"
+      },
+      {
+        "alpha3": "GTM",
+        "countryCode": "502",
+        "countryName": "危地馬拉"
+      },
+      {
+        "alpha3": "GUF",
+        "countryCode": "594",
+        "countryName": "法屬圭亞那"
+      },
+      {
+        "alpha3": "GUM",
+        "countryCode": "1",
+        "countryName": "關島"
+      },
+      {
+        "alpha3": "GUY",
+        "countryCode": "592",
+        "countryName": "圭亞那"
+      },
+      {
+        "alpha3": "HKG",
+        "countryCode": "852",
+        "countryName": "香港地區"
+      },
+      {
+        "alpha3": "HND",
+        "countryCode": "504",
+        "countryName": "洪都拉斯"
+      },
+      {
+        "alpha3": "HRV",
+        "countryCode": "385",
+        "countryName": "克羅地亞"
+      },
+      {
+        "alpha3": "HTI",
+        "countryCode": "509",
+        "countryName": "海地"
+      },
+      {
+        "alpha3": "HUN",
+        "countryCode": "36",
+        "countryName": "匈牙利"
+      },
+      {
+        "alpha3": "IDN",
+        "countryCode": "62",
+        "countryName": "印尼"
+      },
+      {
+        "alpha3": "IND",
+        "countryCode": "91",
+        "countryName": "印度"
+      },
+      {
+        "alpha3": "IRL",
+        "countryCode": "353",
+        "countryName": "愛爾蘭"
+      },
+      {
+        "alpha3": "IRN",
+        "countryCode": "98",
+        "countryName": "伊朗"
+      },
+      {
+        "alpha3": "IRQ",
+        "countryCode": "964",
+        "countryName": "伊拉克"
+      },
+      {
+        "alpha3": "ISL",
+        "countryCode": "354",
+        "countryName": "冰島"
+      },
+      {
+        "alpha3": "ISR",
+        "countryCode": "972",
+        "countryName": "以色列"
+      },
+      {
+        "alpha3": "ITA",
+        "countryCode": "39",
+        "countryName": "意大利"
+      },
+      {
+        "alpha3": "JAM",
+        "countryCode": "1",
+        "countryName": "牙買加"
+      },
+      {
+        "alpha3": "JOR",
+        "countryCode": "962",
+        "countryName": "約旦"
+      },
+      {
+        "alpha3": "JPN",
+        "countryCode": "81",
+        "countryName": "日本"
+      },
+      {
+        "alpha3": "KAZ",
+        "countryCode": "7",
+        "countryName": "哈薩克斯坦"
+      },
+      {
+        "alpha3": "KEN",
+        "countryCode": "254",
+        "countryName": "肯尼亞"
+      },
+      {
+        "alpha3": "KGZ",
+        "countryCode": "996",
+        "countryName": "吉爾吉斯斯坦"
+      },
+      {
+        "alpha3": "KHM",
+        "countryCode": "855",
+        "countryName": "柬埔寨"
+      },
+      {
+        "alpha3": "KIR",
+        "countryCode": "686",
+        "countryName": "基里巴斯"
+      },
+      {
+        "alpha3": "KNA",
+        "countryCode": "1",
+        "countryName": "聖基茨和尼維斯"
+      },
+      {
+        "alpha3": "KOR",
+        "countryCode": "82",
+        "countryName": "韓國"
+      },
+      {
+        "alpha3": "KWT",
+        "countryCode": "965",
+        "countryName": "科威特"
+      },
+      {
+        "alpha3": "LAO",
+        "countryCode": "856",
+        "countryName": "老撾"
+      },
+      {
+        "alpha3": "LBN",
+        "countryCode": "961",
+        "countryName": "黎巴嫩"
+      },
+      {
+        "alpha3": "LBR",
+        "countryCode": "231",
+        "countryName": "利比里亞"
+      },
+      {
+        "alpha3": "LBY",
+        "countryCode": "218",
+        "countryName": "利比亞"
+      },
+      {
+        "alpha3": "LCA",
+        "countryCode": "1",
+        "countryName": "聖盧西亞"
+      },
+      {
+        "alpha3": "LIE",
+        "countryCode": "423",
+        "countryName": "列支敦士登"
+      },
+      {
+        "alpha3": "LKA",
+        "countryCode": "94",
+        "countryName": "斯里蘭卡"
+      },
+      {
+        "alpha3": "LSO",
+        "countryCode": "266",
+        "countryName": "萊索托"
+      },
+      {
+        "alpha3": "LTU",
+        "countryCode": "370",
+        "countryName": "立陶宛"
+      },
+      {
+        "alpha3": "LUX",
+        "countryCode": "352",
+        "countryName": "盧森堡"
+      },
+      {
+        "alpha3": "LVA",
+        "countryCode": "371",
+        "countryName": "拉脫維亞"
+      },
+      {
+        "alpha3": "MAC",
+        "countryCode": "853",
+        "countryName": "澳門地區"
+      },
+      {
+        "alpha3": "MAR",
+        "countryCode": "212",
+        "countryName": "摩洛哥"
+      },
+      {
+        "alpha3": "MCO",
+        "countryCode": "377",
+        "countryName": "摩納哥"
+      },
+      {
+        "alpha3": "MDA",
+        "countryCode": "373",
+        "countryName": "摩爾多瓦"
+      },
+      {
+        "alpha3": "MDG",
+        "countryCode": "261",
+        "countryName": "馬達加斯加"
+      },
+      {
+        "alpha3": "MDV",
+        "countryCode": "960",
+        "countryName": "馬爾代夫"
+      },
+      {
+        "alpha3": "MEX",
+        "countryCode": "52",
+        "countryName": "墨西哥"
+      },
+      {
+        "alpha3": "MHL",
+        "countryCode": "692",
+        "countryName": "馬紹爾群島"
+      },
+      {
+        "alpha3": "MKD",
+        "countryCode": "389",
+        "countryName": "馬其頓"
+      },
+      {
+        "alpha3": "MLI",
+        "countryCode": "223",
+        "countryName": "馬里"
+      },
+      {
+        "alpha3": "MLT",
+        "countryCode": "356",
+        "countryName": "馬耳他"
+      },
+      {
+        "alpha3": "MMR",
+        "countryCode": "95",
+        "countryName": "緬甸"
+      },
+      {
+        "alpha3": "MNE",
+        "countryCode": "382",
+        "countryName": "黑山"
+      },
+      {
+        "alpha3": "MNG",
+        "countryCode": "976",
+        "countryName": "蒙古國"
+      },
+      {
+        "alpha3": "MNP",
+        "countryCode": "1",
+        "countryName": "北馬里亞納群島"
+      },
+      {
+        "alpha3": "MOZ",
+        "countryCode": "258",
+        "countryName": "莫桑比克"
+      },
+      {
+        "alpha3": "MRT",
+        "countryCode": "222",
+        "countryName": "毛里塔尼亞"
+      },
+      {
+        "alpha3": "MSR",
+        "countryCode": "1",
+        "countryName": "蒙特塞拉特"
+      },
+      {
+        "alpha3": "MTQ",
+        "countryCode": "596",
+        "countryName": "馬提尼克"
+      },
+      {
+        "alpha3": "MUS",
+        "countryCode": "230",
+        "countryName": "毛里求斯"
+      },
+      {
+        "alpha3": "MWI",
+        "countryCode": "265",
+        "countryName": "馬拉維"
+      },
+      {
+        "alpha3": "MYS",
+        "countryCode": "60",
+        "countryName": "馬來西亞"
+      },
+      {
+        "alpha3": "MYT",
+        "countryCode": "269",
+        "countryName": "馬約特"
+      },
+      {
+        "alpha3": "NAME",
+        "countryCode": "264",
+        "countryName": "納米比亞"
+      },
+      {
+        "alpha3": "NCL",
+        "countryCode": "687",
+        "countryName": "新喀里多尼亞"
+      },
+      {
+        "alpha3": "NER",
+        "countryCode": "227",
+        "countryName": "尼日爾"
+      },
+      {
+        "alpha3": "NFK",
+        "countryCode": "672",
+        "countryName": "諾福克島"
+      },
+      {
+        "alpha3": "NGA",
+        "countryCode": "234",
+        "countryName": "尼日利亞"
+      },
+      {
+        "alpha3": "NIC",
+        "countryCode": "505",
+        "countryName": "尼加拉瓜"
+      },
+      {
+        "alpha3": "NIU",
+        "countryCode": "683",
+        "countryName": "紐埃"
+      },
+      {
+        "alpha3": "NLD",
+        "countryCode": "31",
+        "countryName": "荷蘭"
+      },
+      {
+        "alpha3": "NOR",
+        "countryCode": "47",
+        "countryName": "挪威"
+      },
+      {
+        "alpha3": "NPL",
+        "countryCode": "977",
+        "countryName": "尼泊爾"
+      },
+      {
+        "alpha3": "NRU",
+        "countryCode": "674",
+        "countryName": "瑙魯"
+      },
+      {
+        "alpha3": "NZL",
+        "countryCode": "64",
+        "countryName": "新西蘭"
+      },
+      {
+        "alpha3": "OMN",
+        "countryCode": "968",
+        "countryName": "阿曼"
+      },
+      {
+        "alpha3": "PAK",
+        "countryCode": "92",
+        "countryName": "巴基斯坦"
+      },
+      {
+        "alpha3": "PAN",
+        "countryCode": "507",
+        "countryName": "巴拿馬"
+      },
+      {
+        "alpha3": "PER",
+        "countryCode": "51",
+        "countryName": "秘魯"
+      },
+      {
+        "alpha3": "PHL",
+        "countryCode": "63",
+        "countryName": "菲律賓"
+      },
+      {
+        "alpha3": "PLW",
+        "countryCode": "680",
+        "countryName": "帕勞"
+      },
+      {
+        "alpha3": "PNG",
+        "countryCode": "675",
+        "countryName": "巴布亞新幾內亞"
+      },
+      {
+        "alpha3": "POL",
+        "countryCode": "48",
+        "countryName": "波蘭"
+      },
+      {
+        "alpha3": "PRI",
+        "countryCode": "1",
+        "countryName": "波多黎各"
+      },
+      {
+        "alpha3": "PRT",
+        "countryCode": "351",
+        "countryName": "葡萄牙"
+      },
+      {
+        "alpha3": "PRY",
+        "countryCode": "595",
+        "countryName": "巴拉圭"
+      },
+      {
+        "alpha3": "PSE",
+        "countryCode": "970",
+        "countryName": "巴勒斯坦"
+      },
+      {
+        "alpha3": "PYF",
+        "countryCode": "689",
+        "countryName": "法屬波利尼西亞"
+      },
+      {
+        "alpha3": "QAT",
+        "countryCode": "974",
+        "countryName": "卡塔爾"
+      },
+      {
+        "alpha3": "REU",
+        "countryCode": "262",
+        "countryName": "留尼汪"
+      },
+      {
+        "alpha3": "ROU",
+        "countryCode": "40",
+        "countryName": "羅馬尼亞"
+      },
+      {
+        "alpha3": "RUS",
+        "countryCode": "7",
+        "countryName": "俄羅斯"
+      },
+      {
+        "alpha3": "RWA",
+        "countryCode": "250",
+        "countryName": "盧旺達"
+      },
+      {
+        "alpha3": "SAU",
+        "countryCode": "966",
+        "countryName": "沙特阿拉伯"
+      },
+      {
+        "alpha3": "SDN",
+        "countryCode": "249",
+        "countryName": "蘇丹"
+      },
+      {
+        "alpha3": "SEN",
+        "countryCode": "221",
+        "countryName": "塞內加爾"
+      },
+      {
+        "alpha3": "SGP",
+        "countryCode": "65",
+        "countryName": "新加坡"
+      },
+      {
+        "alpha3": "SHN",
+        "countryCode": "290",
+        "countryName": "聖赫勒拿"
+      },
+      {
+        "alpha3": "SLB",
+        "countryCode": "677",
+        "countryName": "所羅門群島"
+      },
+      {
+        "alpha3": "SLE",
+        "countryCode": "232",
+        "countryName": "塞拉利昂"
+      },
+      {
+        "alpha3": "SLV",
+        "countryCode": "503",
+        "countryName": "薩爾瓦多"
+      },
+      {
+        "alpha3": "SMR",
+        "countryCode": "378",
+        "countryName": "聖馬力諾"
+      },
+      {
+        "alpha3": "SOM",
+        "countryCode": "252",
+        "countryName": "索馬里"
+      },
+      {
+        "alpha3": "SXM",
+        "countryCode": "1",
+        "countryName": "荷屬聖馬丁"
+      },
+      {
+        "alpha3": "SPM",
+        "countryCode": "508",
+        "countryName": "聖皮埃爾和密克隆"
+      },
+      {
+        "alpha3": "SRB",
+        "countryCode": "381",
+        "countryName": "塞爾維亞"
+      },
+      {
+        "alpha3": "STP",
+        "countryCode": "239",
+        "countryName": "聖多美和普林西比"
+      },
+      {
+        "alpha3": "SUR",
+        "countryCode": "597",
+        "countryName": "蘇里南"
+      },
+      {
+        "alpha3": "SVK",
+        "countryCode": "421",
+        "countryName": "斯洛伐克"
+      },
+      {
+        "alpha3": "SVN",
+        "countryCode": "386",
+        "countryName": "斯洛文尼亞"
+      },
+      {
+        "alpha3": "SWE",
+        "countryCode": "46",
+        "countryName": "瑞典"
+      },
+      {
+        "alpha3": "SYC",
+        "countryCode": "248",
+        "countryName": "塞舌爾"
+      },
+      {
+        "alpha3": "SYR",
+        "countryCode": "963",
+        "countryName": "敘利亞"
+      },
+      {
+        "alpha3": "TCA",
+        "countryCode": "1",
+        "countryName": "特克斯和凱科斯群島"
+      },
+      {
+        "alpha3": "TCD",
+        "countryCode": "235",
+        "countryName": "乍得"
+      },
+      {
+        "alpha3": "TGO",
+        "countryCode": "228",
+        "countryName": "多哥"
+      },
+      {
+        "alpha3": "THA",
+        "countryCode": "66",
+        "countryName": "泰國"
+      },
+      {
+        "alpha3": "TJK",
+        "countryCode": "992",
+        "countryName": "塔吉克斯坦"
+      },
+      {
+        "alpha3": "TKL",
+        "countryCode": "690",
+        "countryName": "托克勞"
+      },
+      {
+        "alpha3": "TKM",
+        "countryCode": "993",
+        "countryName": "土庫曼斯坦"
+      },
+      {
+        "alpha3": "TLS",
+        "countryCode": "670",
+        "countryName": "東帝汶"
+      },
+      {
+        "alpha3": "TON",
+        "countryCode": "676",
+        "countryName": "湯加"
+      },
+      {
+        "alpha3": "TTO",
+        "countryCode": "1",
+        "countryName": "特立尼達和多巴哥"
+      },
+      {
+        "alpha3": "TUN",
+        "countryCode": "216",
+        "countryName": "突尼斯"
+      },
+      {
+        "alpha3": "TUR",
+        "countryCode": "90",
+        "countryName": "土耳其"
+      },
+      {
+        "alpha3": "TUV",
+        "countryCode": "688",
+        "countryName": "圖瓦盧"
+      },
+      {
+        "alpha3": "TWN",
+        "countryCode": "886",
+        "countryName": "台灣地區"
+      },
+      {
+        "alpha3": "TZA",
+        "countryCode": "255",
+        "countryName": "坦桑尼亞"
+      },
+      {
+        "alpha3": "UGA",
+        "countryCode": "256",
+        "countryName": "烏乾達"
+      },
+      {
+        "alpha3": "UKR",
+        "countryCode": "380",
+        "countryName": "烏克蘭"
+      },
+      {
+        "alpha3": "URY",
+        "countryCode": "598",
+        "countryName": "烏拉圭"
+      },
+      {
+        "alpha3": "UZB",
+        "countryCode": "998",
+        "countryName": "烏茲別克斯坦"
+      },
+      {
+        "alpha3": "VCT",
+        "countryCode": "1",
+        "countryName": "聖文森特和格林納丁斯"
+      },
+      {
+        "alpha3": "VEN",
+        "countryCode": "58",
+        "countryName": "委內瑞拉"
+      },
+      {
+        "alpha3": "VGB",
+        "countryCode": "1",
+        "countryName": "英屬維爾京群島"
+      },
+      {
+        "alpha3": "VIR",
+        "countryCode": "1",
+        "countryName": "美屬維京群島"
+      },
+      {
+        "alpha3": "VNM",
+        "countryCode": "84",
+        "countryName": "越南"
+      },
+      {
+        "alpha3": "VUT",
+        "countryCode": "678",
+        "countryName": "瓦努阿圖"
+      },
+      {
+        "alpha3": "WLF",
+        "countryCode": "681",
+        "countryName": "瓦利斯和富圖納"
+      },
+      {
+        "alpha3": "WSM",
+        "countryCode": "685",
+        "countryName": "薩摩亞"
+      },
+      {
+        "alpha3": "YEM",
+        "countryCode": "967",
+        "countryName": "也門"
+      },
+      {
+        "alpha3": "ZAF",
+        "countryCode": "27",
+        "countryName": "南非"
+      },
+      {
+        "alpha3": "ZMB",
+        "countryCode": "260",
+        "countryName": "贊比亞"
+      },
+      {
+        "alpha3": "ZWE",
+        "countryCode": "263",
+        "countryName": "津巴布韋"
+      }
+    ]
+  }
+}

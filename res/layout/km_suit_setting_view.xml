@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitSettingView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/three_gray" android:layout_gravity="center_vertical" android:id="@id/tvSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="8.0dip" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/tvTip" android:background="@drawable/km_bg_suit_gold_4dp_solid" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="14.0dip" android:layout_marginLeft="8.0dip" android:text="@string/klass_member" android:layout_toRightOf="@id/tvSetting" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:id="@id/textSettingDesc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/imgArrow" android:layout_centerVertical="true" />
+    <View android:id="@id/divider" android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginRight="14.0dip" android:layout_alignLeft="@id/tvSetting" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/imgArrow" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/icon_right_lined_gray" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/layerView" android:background="@color/white_84" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0px" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitSettingView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.video.SingleVideoView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/autoPlayVideoView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="H,16:9" app:layout_constraintTop_toTopOf="parent" layout="@layout/tc_item_home_recommend_video_autoplay" />
+    <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp" android:maxLines="1" app:layout_constraintTop_toBottomOf="@id/autoPlayVideoView" />
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_38" android:ellipsize="end" android:id="@id/textSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4dp" android:maxLines="1" app:layout_constraintTop_toBottomOf="@id/textTitle" app:layout_goneMarginTop="@dimen/dimen_8dp" />
+</com.gotokeep.keep.tc.business.home.mvp.view.video.SingleVideoView>

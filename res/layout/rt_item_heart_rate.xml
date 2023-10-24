@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.settings.mvp.view.HeartRateItemView android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:id="@id/text_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:id="@id/text_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_common_arrow_small" android:contentDescription="@string/rt_heart_rate_device" android:layout_marginEnd="4.0dip" />
+</com.gotokeep.keep.rt.business.settings.mvp.view.HeartRateItemView>

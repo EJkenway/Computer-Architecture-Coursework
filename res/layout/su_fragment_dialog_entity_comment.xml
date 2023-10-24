@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.dreamtobe.kpswitch.widget.KPSwitchRootRelativeLayout android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.view.SwipeBackLayout android:id="@id/swipeBackLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/layoutChild" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/layoutTitleContainer" android:layout_width="fill_parent" android:layout_height="52.0dip" layout="@layout/su_view_comment_dialog_title" />
+            <include android:id="@id/viewEntryContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:layout_below="@id/layoutTitleContainer" layout="@layout/su_view_entity_comment_content" />
+            <com.gotokeep.keep.su.social.entry.mvp.entry.view.EntryDetailBottomCommentView android:id="@id/viewBottomComment" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" />
+            <ViewStub android:id="@id/layoutPanel" android:layout="@layout/su_view_entry_detail_input_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </com.gotokeep.keep.commonui.view.SwipeBackLayout>
+</cn.dreamtobe.kpswitch.widget.KPSwitchRootRelativeLayout>

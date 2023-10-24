@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeFocusContainerView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/list" android:layout_width="fill_parent" android:layout_height="196.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <com.gotokeep.keep.commonui.widget.RoundDotIndicator android:id="@id/viewIndicator" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_6dp" android:layout_marginTop="@dimen/dimen_8dp" android:layout_marginBottom="@dimen/dimen_8dp" app:dotColor="@color/black_20" app:dotMargin="6.0dip" app:dotRadius="3.0dip" app:dotSelectedColor="@color/black" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/list" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeFocusContainerView>

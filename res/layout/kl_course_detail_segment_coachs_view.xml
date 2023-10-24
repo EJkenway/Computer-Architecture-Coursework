@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kl.business.keeplive.detail.mvp.view.KLCourseDetailSegmentCoachsView android:id="@id/layoutSegmentCoachs" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerCoachs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="9.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/viewTimeLine" android:background="#ffd2fae9" android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_marginStart="1.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.kl.business.keeplive.detail.mvp.view.KLCourseDetailSegmentCoachsView>

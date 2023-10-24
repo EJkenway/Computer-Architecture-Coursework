@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/viewTitleBar" app:background_color="@color/white" app:left_icon="@drawable/ic_line_arrow_left" app:left_icon_clickable="true" app:right_icon="@drawable/ic_line_search" app:right_icon_clickable="true" app:right_second_icon="@drawable/icon_scan_lined_dark" app:right_second_icon_clickable="true" app:title="@string/add_friend" app:title_color="@color/black_87" style="@style/ItemCustomTitleBar" />
+    <include android:id="@id/viewContent" layout="@layout/su_view_add_friend_content" />
+</LinearLayout>

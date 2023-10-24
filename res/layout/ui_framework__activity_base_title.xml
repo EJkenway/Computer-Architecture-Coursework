@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/ui_framework__title" app:left_icon_clickable="true" app:right_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <FrameLayout android:id="@id/ui_framework__fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ui_framework__title" />
+</RelativeLayout>

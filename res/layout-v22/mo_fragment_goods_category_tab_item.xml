@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/list_goods_category_list" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen_8dp" android:layout_marginTop="@dimen/dimen_8dp" android:layout_marginRight="@dimen/dimen_8dp" android:divider="@null" android:layout_marginHorizontal="@dimen/dimen_8dp" />
+    <com.gotokeep.keep.mo.business.order.mvp.view.ListEmptyView android:id="@id/empty_view_goods_category_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="400.0dip" />
+    <com.gotokeep.keep.mo.common.neterror.view.NetErrorView android:id="@id/netError" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

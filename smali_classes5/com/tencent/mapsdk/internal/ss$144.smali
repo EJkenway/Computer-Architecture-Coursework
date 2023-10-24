@@ -1,0 +1,91 @@
+.class public final Lcom/tencent/mapsdk/internal/ss$144;
+.super Ljava/lang/Object;
+.source "TMS"
+
+# interfaces
+.implements Lcom/tencent/mapsdk/internal/ms$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mapsdk/internal/ss;->a([IIZ)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:[I
+
+.field public final synthetic b:I
+
+.field public final synthetic c:Z
+
+.field public final synthetic d:Lcom/tencent/mapsdk/internal/ss;
+
+
+# direct methods
+.method public constructor <init>(Lcom/tencent/mapsdk/internal/ss;[IIZ)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/tencent/mapsdk/internal/ss$144;->d:Lcom/tencent/mapsdk/internal/ss;
+
+    iput-object p2, p0, Lcom/tencent/mapsdk/internal/ss$144;->a:[I
+
+    iput p3, p0, Lcom/tencent/mapsdk/internal/ss$144;->b:I
+
+    iput-boolean p4, p0, Lcom/tencent/mapsdk/internal/ss$144;->c:Z
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljavax/microedition/khronos/opengles/GL10;)V
+    .locals 6
+
+    .line 1
+    iget-object p1, p0, Lcom/tencent/mapsdk/internal/ss$144;->d:Lcom/tencent/mapsdk/internal/ss;
+
+    invoke-static {p1}, Lcom/tencent/mapsdk/internal/ss;->b(Lcom/tencent/mapsdk/internal/ss;)J
+
+    move-result-wide v0
+
+    const-wide/16 v2, 0x0
+
+    cmp-long p1, v2, v0
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 2
+    :cond_0
+    iget-object p1, p0, Lcom/tencent/mapsdk/internal/ss$144;->d:Lcom/tencent/mapsdk/internal/ss;
+
+    invoke-static {p1}, Lcom/tencent/mapsdk/internal/ss;->c(Lcom/tencent/mapsdk/internal/ss;)Lcom/tencent/mapsdk/engine/jni/JNI;
+
+    move-result-object v0
+
+    iget-object p1, p0, Lcom/tencent/mapsdk/internal/ss$144;->d:Lcom/tencent/mapsdk/internal/ss;
+
+    invoke-static {p1}, Lcom/tencent/mapsdk/internal/ss;->b(Lcom/tencent/mapsdk/internal/ss;)J
+
+    move-result-wide v1
+
+    iget-object v3, p0, Lcom/tencent/mapsdk/internal/ss$144;->a:[I
+
+    iget v4, p0, Lcom/tencent/mapsdk/internal/ss$144;->b:I
+
+    iget-boolean v5, p0, Lcom/tencent/mapsdk/internal/ss$144;->c:Z
+
+    invoke-virtual/range {v0 .. v5}, Lcom/tencent/mapsdk/engine/jni/JNI;->nativeSetIconsHidden(J[IIZ)V
+
+    return-void
+.end method

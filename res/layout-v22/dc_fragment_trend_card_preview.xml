@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.trendpreview.mvp.view.TrendCardPreviewView android:id="@id/trendCardPreviewView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/customTitleBar" android:layout_width="fill_parent" android:layout_height="44.0dip" app:add_status_bar_height="false" app:layout_constraintTop_toTopOf="parent" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title="@string/dc_edit_data_card" app:title_color="@color/black_87" app:title_size="16.0sp" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerCard" android:background="@color/fa_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:paddingHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/customTitleBar" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:gravity="center" android:id="@id/emptyView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.dc.business.trendpreview.mvp.view.TrendCardPreviewView>

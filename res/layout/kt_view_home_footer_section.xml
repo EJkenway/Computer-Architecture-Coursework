@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeFooterSectionView android:background="@color/gray_f5" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_cc" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_home_text_footer_no_more" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeFooterSectionView>

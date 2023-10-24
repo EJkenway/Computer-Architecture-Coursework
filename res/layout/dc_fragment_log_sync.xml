@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBarItem" android:layout_width="fill_parent" app:add_status_bar_height="true" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title="@string/dc_local_log_sync" app:title_color="@color/black_87" app:title_size="16.0sp" style="@style/ItemCustomTitleBar" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/llContainer" android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+                <include android:id="@id/includeOption" layout="@layout/dc_view_sync_log_option" />
+                <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            </LinearLayout>
+            <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" app:pTabTextColor="@color/dc_color_selected_black87_gray_99" app:pTabTextSize="14.0sp" style="@style/ui_framework__tab_strip" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/view_pager" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/keepLoadingButton" android:background="@drawable/dc_bg_solid_light_green_corner_27dp" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="45.0dip" android:layout_marginBottom="8.0dip" android:text="@string/dc_one_click_upload" />
+</LinearLayout>

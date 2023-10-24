@@ -1,0 +1,277 @@
+.class public final Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;
+.super Ljava/lang/Object;
+.source "TrainingRecordEntity.kt"
+
+# interfaces
+.implements Landroid/os/Parcelable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity$Creator;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/a;
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field private final lastId:Ljava/lang/String;
+
+.field private final limit:I
+
+.field private final logs:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/gotokeep/keep/data/model/community/TrainingLog;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final tabs:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/gotokeep/keep/data/model/community/TrainingTab;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final targetLog:Lcom/gotokeep/keep/data/model/community/TrainingLog;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity$Creator;
+
+    invoke-direct {v0}, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity$Creator;-><init>()V
+
+    sput-object v0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;ILjava/util/List;Ljava/util/List;Lcom/gotokeep/keep/data/model/community/TrainingLog;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "I",
+            "Ljava/util/List<",
+            "Lcom/gotokeep/keep/data/model/community/TrainingLog;",
+            ">;",
+            "Ljava/util/List<",
+            "Lcom/gotokeep/keep/data/model/community/TrainingTab;",
+            ">;",
+            "Lcom/gotokeep/keep/data/model/community/TrainingLog;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->lastId:Ljava/lang/String;
+
+    iput p2, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->limit:I
+
+    iput-object p3, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->logs:Ljava/util/List;
+
+    iput-object p4, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->tabs:Ljava/util/List;
+
+    iput-object p5, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->targetLog:Lcom/gotokeep/keep/data/model/community/TrainingLog;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->lastId:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final b()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/gotokeep/keep/data/model/community/TrainingLog;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->logs:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final c()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/gotokeep/keep/data/model/community/TrainingTab;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->tabs:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final d()Lcom/gotokeep/keep/data/model/community/TrainingLog;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->targetLog:Lcom/gotokeep/keep/data/model/community/TrainingLog;
+
+    return-object v0
+.end method
+
+.method public describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public writeToParcel(Landroid/os/Parcel;I)V
+    .locals 3
+
+    const-string p2, "parcel"
+
+    invoke-static {p1, p2}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p2, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->lastId:Ljava/lang/String;
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget p2, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->limit:I
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+
+    iget-object p2, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->logs:Ljava/util/List;
+
+    const/4 v0, 0x1
+
+    const/4 v1, 0x0
+
+    if-eqz p2, :cond_0
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-interface {p2}, Ljava/util/Collection;->size()I
+
+    move-result v2
+
+    invoke-virtual {p1, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-interface {p2}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+
+    move-result-object p2
+
+    :goto_0
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/gotokeep/keep/data/model/community/TrainingLog;
+
+    invoke-interface {v2, p1, v1}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    :cond_1
+    iget-object p2, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->tabs:Ljava/util/List;
+
+    if-eqz p2, :cond_2
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-interface {p2}, Ljava/util/Collection;->size()I
+
+    move-result v2
+
+    invoke-virtual {p1, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-interface {p2}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+
+    move-result-object p2
+
+    :goto_1
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/gotokeep/keep/data/model/community/TrainingTab;
+
+    invoke-interface {v2, p1, v1}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_1
+
+    :cond_2
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    :cond_3
+    iget-object p2, p0, Lcom/gotokeep/keep/data/model/community/TrainingRecordEntity;->targetLog:Lcom/gotokeep/keep/data/model/community/TrainingLog;
+
+    if-eqz p2, :cond_4
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-interface {p2, p1, v1}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_2
+
+    :cond_4
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    :goto_2
+    return-void
+.end method

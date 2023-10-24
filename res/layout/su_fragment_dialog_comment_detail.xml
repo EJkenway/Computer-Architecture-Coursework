@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.dreamtobe.kpswitch.widget.KPSwitchRootRelativeLayout android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layoutTitleContainer" android:layout_width="fill_parent" android:layout_height="52.0dip" layout="@layout/su_view_comment_dialog_title" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:layout_below="@id/layoutTitleContainer">
+        <include android:id="@id/viewCountSort" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="48.0dip" layout="@layout/su_view_entity_comment_count_sort" />
+        <include android:id="@id/viewEntryContent" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/su_view_entity_comment_content" />
+    </LinearLayout>
+    <com.gotokeep.keep.su.social.entry.mvp.entry.view.EntryDetailBottomCommentView android:id="@id/viewBottomComment" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/viewEmpty" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layoutTitleContainer" />
+</cn.dreamtobe.kpswitch.widget.KPSwitchRootRelativeLayout>

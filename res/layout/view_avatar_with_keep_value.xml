@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/max_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_fileName="max_value.json" app:lottie_loop="false" />
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/img_avatar_in_avatar_with_keep" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <at.grabner.circleprogress.CircleProgressView android:id="@id/progress_in_avatar_with_keep" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/avatar_verified_icon" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</merge>

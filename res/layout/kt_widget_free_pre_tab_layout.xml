@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="@dimen/dimen_96dp" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/kt_color_free_tab_item" android:layout_gravity="center" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/KtPuncheurFreeTrainingTabTextAppearance" />
+    <com.gotokeep.keep.commonui.view.KLabelView android:textColor="@color/white" android:layout_gravity="end|center|top" android:id="@id/textNew" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/setting_new" android:translationX="12.0dip" app:klabelStyle="redDotFill" />
+</FrameLayout>

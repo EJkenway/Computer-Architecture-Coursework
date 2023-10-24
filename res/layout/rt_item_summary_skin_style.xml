@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.theme.mvp.view.ItemSkinStyleView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="76.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip">
+        <ImageView android:id="@id/image_skin_style_cover" android:layout_width="fill_parent" android:layout_height="55.0dip" android:scaleType="centerCrop" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/textUpdate" android:background="@color/black_30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="@string/change" android:layout_alignBottom="@id/image_skin_style_cover" android:paddingStart="6.0dip" android:paddingEnd="0.0dip" />
+        <ImageView android:id="@id/img_skin_style_border" android:background="@drawable/rt_shape_rectangle_2dp_stroke_bg" android:layout_width="fill_parent" android:layout_height="55.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/text_skin_style_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" android:layout_below="@id/image_skin_style_cover" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/imgIsNew" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:src="@drawable/rt_icon_new_skin" android:layout_marginEnd="4.0dip" />
+</com.gotokeep.keep.rt.business.theme.mvp.view.ItemSkinStyleView>

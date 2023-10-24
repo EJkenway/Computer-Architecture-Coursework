@@ -1,0 +1,62 @@
+.class public final Lcom/gotokeep/keep/tc/business/physical/fragment/CameraHeartRateFragment$e;
+.super Ljava/lang/Object;
+.source "CameraHeartRateFragment.kt"
+
+# interfaces
+.implements Lcom/gotokeep/keep/commonui/widget/KeepAlertDialog$c;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/gotokeep/keep/tc/business/physical/fragment/CameraHeartRateFragment;->z2(Landroid/content/Context;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Landroid/content/Context;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/gotokeep/keep/tc/business/physical/fragment/CameraHeartRateFragment$e;->a:Landroid/content/Context;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Lcom/gotokeep/keep/commonui/widget/KeepAlertDialog;Lcom/gotokeep/keep/commonui/widget/KeepAlertDialog$Action;)V
+    .locals 3
+
+    const-string v0, "<anonymous parameter 0>"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p1, "<anonymous parameter 1>"
+
+    invoke-static {p2, p1}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    sget-object p1, Lcom/gotokeep/keep/tc/business/physical/activity/PhysicalListActivity;->h:Lcom/gotokeep/keep/tc/business/physical/activity/PhysicalListActivity$a;
+
+    iget-object p2, p0, Lcom/gotokeep/keep/tc/business/physical/fragment/CameraHeartRateFragment$e;->a:Landroid/content/Context;
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x2
+
+    const/4 v2, 0x0
+
+    invoke-static {p1, p2, v0, v1, v2}, Lcom/gotokeep/keep/tc/business/physical/activity/PhysicalListActivity$a;->c(Lcom/gotokeep/keep/tc/business/physical/activity/PhysicalListActivity$a;Landroid/content/Context;ZILjava/lang/Object;)V
+
+    return-void
+.end method

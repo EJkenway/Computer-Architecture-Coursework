@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitPlanV2SummaryCompletionItemView android:orientation="vertical" android:background="@drawable/bg_shadow_four_sides_correct" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_title_bar" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/tc_imageview" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="14.0dip" android:src="@drawable/icon_check_filled_green" android:scaleType="centerCrop" android:layout_marginStart="14.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/text_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="40.0dip" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="40.0dip" />
+        <ImageView android:id="@id/image_arrow" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/icon_down_arrow" android:layout_marginEnd="14.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_exercise" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="42.0dip" android:layout_marginEnd="24.0dip" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitPlanV2SummaryCompletionItemView>

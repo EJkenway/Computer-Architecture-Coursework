@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.feedv4.mvp.view.FeedV4ContentView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.su_core.timeline.widget.CustomEllipsisTextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:gravity="start" android:id="@id/textContent" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:maxLines="2" android:lineSpacingExtra="3.0dip" app:su_ellipsis="@string/su_text_ellipsis_prefix_empty" app:su_ellipsisText="@string/su_white_feed_ellipsis_text" app:su_ellipsisTextColor="#ff333333" app:su_force_ellipsis="0" />
+</com.gotokeep.keep.su.social.feedv4.mvp.view.FeedV4ContentView>

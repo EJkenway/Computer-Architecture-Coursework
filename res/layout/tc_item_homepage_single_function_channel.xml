@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.quick.FunctionChannelItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgChannel" android:layout_width="26.0dip" android:layout_height="26.0dip" android:scaleType="centerInside" app:border_width="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/black_87" android:gravity="center" android:id="@id/textChannel" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginTop="@dimen/dimen_10dp" app:layout_constraintTop_toBottomOf="@id/imgChannel" />
+</com.gotokeep.keep.tc.business.home.mvp.view.quick.FunctionChannelItemView>

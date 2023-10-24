@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kibra.mvp.view.KibraWifiListItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/kt_color_444444" android:id="@id/textWifiSsid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_20dp" android:layout_toStartOf="@id/imageWifiHasPsw" />
+    <ImageView android:id="@id/imageWifiStrength" android:layout_width="@dimen/dimen_20dp" android:layout_height="@dimen/dimen_20dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_16dp" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/imageWifiHasPsw" android:layout_width="@dimen/dimen_20dp" android:layout_height="@dimen/dimen_20dp" android:src="@drawable/kt_ic_wifi_password" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_20dp" android:layout_toStartOf="@id/imageWifiStrength" />
+</com.gotokeep.keep.kt.business.kibra.mvp.view.KibraWifiListItemView>

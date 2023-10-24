@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.customerservice.mvp.view.OrderTitleView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/three_black" android:gravity="center" android:id="@id/text_order_id" android:layout_width="wrap_content" android:layout_height="@dimen/height_50dp" android:layout_marginLeft="@dimen/dimen_14dp" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/light_green" android:gravity="center" android:id="@id/text_order_status" android:layout_width="wrap_content" android:layout_height="@dimen/height_50dp" android:layout_marginRight="@dimen/dimen_14dp" android:layout_alignParentRight="true" />
+</com.gotokeep.keep.fd.business.customerservice.mvp.view.OrderTitleView>

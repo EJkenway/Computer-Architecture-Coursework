@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.widget.HeatMapBottomSelectView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="210.0dip" android:layout_alignParentBottom="true" android:elevation="@dimen/summary_card_elevation">
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@string/rt_use_route_select_route" />
+        <androidx.legacy.widget.Space android:background="@color/rt_heat_map_divider_bg" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <RelativeLayout android:orientation="vertical" android:id="@id/rt_layout_running" android:background="@drawable/rt_heat_map_button_bottom_bg" android:layout_width="62.0dip" android:layout_height="62.0dip">
+                    <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/rt_outdoor_tab_run_icon" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/running" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <RelativeLayout android:orientation="vertical" android:id="@id/rt_layout_hiking" android:background="@drawable/rt_heat_map_button_bottom_bg" android:layout_width="62.0dip" android:layout_height="62.0dip">
+                    <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/rt_outdoor_tab_hike_icon" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/hiking" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <RelativeLayout android:orientation="vertical" android:id="@id/rt_layout_cycling" android:background="@drawable/rt_heat_map_button_bottom_bg" android:layout_width="62.0dip" android:layout_height="62.0dip">
+                    <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/rt_outdoor_tab_cycle_icon" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/cycling" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/layout_cancel" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentBottom="true">
+            <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/str_cancel" android:layout_centerInParent="true" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" app:kStyle="large" app:kText="@string/str_cancel" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.heatmap.widget.HeatMapBottomSelectView>

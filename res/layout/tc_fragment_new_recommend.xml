@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.recommend.mvp.view.NewRecommendView android:id="@id/viewNewRecommend" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.widget.CommonRefreshHeader android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gotokeep.keep.tc.business.recommend.mvp.view.RecommendCoordinatorLayout android:id="@id/layoutContent" android:background="@color/gray_f5" android:layout_width="fill_parent" android:layout_height="fill_parent" app:autoAdjustHeightAtBottomView="true">
+            <com.gotokeep.keep.commonui.view.CommonRecyclerView android:orientation="vertical" android:id="@id/precedeRecyclerView" android:tag="InterceptRequestLayout" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <com.gotokeep.keep.commonui.view.CommonRecyclerView android:orientation="horizontal" android:id="@id/listTags" android:tag="InterceptRequestLayout" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_isSticky="true" />
+            <com.gotokeep.keep.tc.business.recommend.widget.CustomConsecutiveViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.gotokeep.keep.tc.business.recommend.mvp.view.RecommendCoordinatorLayout>
+        <com.gotokeep.keep.commonui.widget.KRefreshFooter android:background="@color/gray_f5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layoutEmpty" android:background="@color/gray_f5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/skeletonView" layout="@layout/tc_skeleton_new_recommend_fragment" />
+</com.gotokeep.keep.tc.business.recommend.mvp.view.NewRecommendView>

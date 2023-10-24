@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.rt.business.home.mvp.view.HomeTitleBarView android:id="@id/myTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:id="@id/viewGpsNotice" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/notice_view_height" app:layout_constraintTop_toBottomOf="@id/myTitleBar" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/rvContents" android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/viewGpsNotice" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/viewEmpty" android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/viewGpsNotice" />
+</androidx.constraintlayout.widget.ConstraintLayout>

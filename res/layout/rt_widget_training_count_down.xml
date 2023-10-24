@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.widget.OutdoorTrainingCountDownWidget android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/container_count_down" android:background="@color/rt_gray_green" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/text_count_down_size" android:textColor="@android:color/white" android:id="@id/text_count_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:scaleX="0.0" android:scaleY="0.0" />
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.training.widget.OutdoorTrainingCountDownWidget>

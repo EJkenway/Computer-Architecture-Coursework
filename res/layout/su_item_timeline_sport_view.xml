@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.follow.view.TimelineSportView android:orientation="vertical" android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="102.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/list" android:paddingTop="@dimen/page_horizontal_margin" android:paddingBottom="@dimen/page_horizontal_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/page_horizontal_margin" android:paddingEnd="@dimen/page_horizontal_margin" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.su_core.timeline.mvp.follow.view.TimelineSportView>

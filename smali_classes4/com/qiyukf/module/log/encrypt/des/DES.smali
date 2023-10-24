@@ -1,0 +1,156 @@
+.class public Lcom/qiyukf/module/log/encrypt/des/DES;
+.super Ljava/lang/Object;
+.source "DES.java"
+
+
+# static fields
+.field private static iv:[B
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0x8
+
+    new-array v0, v0, [B
+
+    .line 1
+    fill-array-data v0, :array_0
+
+    sput-object v0, Lcom/qiyukf/module/log/encrypt/des/DES;->iv:[B
+
+    return-void
+
+    :array_0
+    .array-data 1
+        0x1t
+        0x2t
+        0x3t
+        0x4t
+        0x5t
+        0x6t
+        0x7t
+        0x8t
+    .end array-data
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static decryptDES(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {p0}, Lcom/qiyukf/module/log/encrypt/utils/Base64Utils;->decode(Ljava/lang/String;)[B
+
+    move-result-object p0
+
+    .line 2
+    new-instance v0, Ljavax/crypto/spec/IvParameterSpec;
+
+    sget-object v1, Lcom/qiyukf/module/log/encrypt/des/DES;->iv:[B
+
+    invoke-direct {v0, v1}, Ljavax/crypto/spec/IvParameterSpec;-><init>([B)V
+
+    .line 3
+    new-instance v1, Ljavax/crypto/spec/SecretKeySpec;
+
+    invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
+
+    move-result-object p1
+
+    const-string v2, "DES"
+
+    invoke-direct {v1, p1, v2}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
+
+    const-string p1, "DES/CBC/PKCS5Padding"
+
+    .line 4
+    invoke-static {p1}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+
+    move-result-object p1
+
+    const/4 v2, 0x2
+
+    .line 5
+    invoke-virtual {p1, v2, v1, v0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+
+    .line 6
+    invoke-virtual {p1, p0}, Ljavax/crypto/Cipher;->doFinal([B)[B
+
+    move-result-object p0
+
+    .line 7
+    new-instance p1, Ljava/lang/String;
+
+    invoke-direct {p1, p0}, Ljava/lang/String;-><init>([B)V
+
+    return-object p1
+.end method
+
+.method public static encryptDES(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Ljavax/crypto/spec/IvParameterSpec;
+
+    sget-object v1, Lcom/qiyukf/module/log/encrypt/des/DES;->iv:[B
+
+    invoke-direct {v0, v1}, Ljavax/crypto/spec/IvParameterSpec;-><init>([B)V
+
+    .line 2
+    new-instance v1, Ljavax/crypto/spec/SecretKeySpec;
+
+    invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
+
+    move-result-object p1
+
+    const-string v2, "DES"
+
+    invoke-direct {v1, p1, v2}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
+
+    const-string p1, "DES/CBC/PKCS5Padding"
+
+    .line 3
+    invoke-static {p1}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+
+    move-result-object p1
+
+    const/4 v2, 0x1
+
+    .line 4
+    invoke-virtual {p1, v2, v1, v0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+
+    .line 5
+    invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
+
+    move-result-object p0
+
+    invoke-virtual {p1, p0}, Ljavax/crypto/Cipher;->doFinal([B)[B
+
+    move-result-object p0
+
+    .line 6
+    invoke-static {p0}, Lcom/qiyukf/module/log/encrypt/utils/Base64Utils;->encode([B)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

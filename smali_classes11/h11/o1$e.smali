@@ -1,0 +1,93 @@
+.class public final Lh11/o1$e;
+.super Lij3/p;
+.source "KitbitInteractionUtils.kt"
+
+# interfaces
+.implements Lhj3/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lh11/o1;->g(Lsi/a;IILjava/lang/String;Loi/f;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lij3/p;",
+        "Lhj3/l<",
+        "Ljava/lang/Boolean;",
+        "Lwi3/s;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Loi/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Loi/f<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Loi/f;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Loi/f<",
+            "Ljava/lang/Boolean;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lh11/o1$e;->g:Loi/f;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lij3/p;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    invoke-virtual {p0, p1}, Lh11/o1$e;->invoke(Z)V
+
+    sget-object p1, Lwi3/s;->a:Lwi3/s;
+
+    return-object p1
+.end method
+
+.method public final invoke(Z)V
+    .locals 1
+
+    .line 2
+    iget-object p1, p0, Lh11/o1$e;->g:Loi/f;
+
+    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    invoke-interface {p1, v0}, Loi/f;->onResponse(Ljava/lang/Object;)V
+
+    return-void
+.end method

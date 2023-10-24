@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.action.mvp.view.ActionDetailAvatarItemView android:orientation="vertical" android:id="@id/wrapper_avatar_wall" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/avatar_wall_item_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/general_page_margin_left_right" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/font_size_12sp" android:textStyle="bold" android:textColor="@color/three_gray" android:id="@id/avatar_wall_item_times" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_int" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/three_gray" android:id="@id/text_avatar_wall_times_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/people" android:layout_toRightOf="@id/avatar_wall_item_times" android:layout_alignBaseline="@id/avatar_wall_item_times" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_avatar_wall_item_sub_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/finish_course" android:layout_below="@id/avatar_wall_item_times" />
+    </RelativeLayout>
+    <com.gotokeep.keep.activity.training.ui.NewPioneerView android:id="@id/avatar_wall_item_container" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/c_gray" android:gravity="center" android:id="@id/text_avatar_wall_item_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/avatar_wall_item_empty" android:layout_centerVertical="true" />
+</com.gotokeep.keep.wt.business.action.mvp.view.ActionDetailAvatarItemView>

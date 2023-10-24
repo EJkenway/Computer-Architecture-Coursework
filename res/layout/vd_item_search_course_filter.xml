@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/checkbox_text_light" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/txtView" android:background="@drawable/bg_checkbox_light" android:layout_width="fill_parent" android:layout_height="30.0dip" android:maxLines="1" android:layout_marginEnd="8.0dip" />
+</merge>

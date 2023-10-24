@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.recommend.mvp.view.entrance.Business4FindCardsView android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/cardRecyclerView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="132.0dip" android:layout_marginStart="0.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</com.gotokeep.keep.tc.business.recommend.mvp.view.entrance.Business4FindCardsView>

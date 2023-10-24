@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/view_ap_config_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" layout="@layout/kt_view_link_apconfig_change_mode" />
+    <include android:id="@id/view_ap_search" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" layout="@layout/kt_view_link_apconfig_search" />
+    <include android:id="@id/view_ap_not_find" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" layout="@layout/kt_view_link_ap_not_find" />
+</RelativeLayout>

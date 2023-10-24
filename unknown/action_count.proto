@@ -1,0 +1,31 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "ActionCount";
+
+message ActionType{
+  // 0 ： 跳绳；1 ： 深蹲；2 ：俯卧撑；3 ： 卷腹； 4 ： 开合跳； 5 ： 波比
+  uint32 type = 1;
+  // 延迟模式 0：正常延迟 1：低延迟
+  uint32 delay_mode = 2;
+  // 动作计次模式 0：按类型识别 1：按参数识别
+  uint32 count_mode = 3;
+  // 传感器方向
+  uint32 sensor_direction = 4;
+  // 滤波参数
+  uint32 filter_range = 5;
+  // 峰值参数
+  uint32 peak_val = 6;
+}
+
+message ActionStatus{
+  uint32 status = 1;
+}
+
+message ActionPush{
+  // 动作累计次数
+  uint32 count = 1;
+  // 识别到动作的 utc
+  uint32 utc = 2;
+  // 识别到动作的毫秒数
+  uint32 ms = 3;
+}

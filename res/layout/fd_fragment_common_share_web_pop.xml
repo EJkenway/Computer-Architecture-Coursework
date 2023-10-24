@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.view.SwipeBackLayout android:id="@id/layout_swipe_back" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_swipe_router" android:background="@color/black_80" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/img_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/icon_arrow_close_down_white" android:alpha="0.0" />
+        <ImageView android:id="@id/img_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/icon_story_save" android:layout_alignParentRight="true" android:alpha="0.0" />
+        <include android:alpha="0.0" layout="@layout/fd_item_common_share_web_view" />
+        <include android:alpha="0.0" layout="@layout/fd_item_common_share_action" />
+        <FrameLayout android:id="@id/layoutExtension" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</com.gotokeep.keep.commonui.view.SwipeBackLayout>

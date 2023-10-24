@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.feedv4.mvp.view.FeedV41ActionView android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/actionContainer" android:layout_width="wrap_content" android:layout_height="42.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/likeView" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_marginEnd="26.0dip">
+            <ImageView android:id="@id/likeImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_single_unlike_24" />
+            <TextView android:id="@id/likeText" style="@style/su_whiteFeedCardActionBarText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/commentView" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_marginEnd="26.0dip">
+            <ImageView android:id="@id/commentImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_timeline_comment" />
+            <TextView android:id="@id/commentText" style="@style/su_whiteFeedCardActionBarText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/collectView" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/collectImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_single_collect" />
+            <TextView android:id="@id/collectText" style="@style/su_whiteFeedCardActionBarText" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/planView" android:background="@drawable/bg_light_green_50dp_corner" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="@id/actionContainer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/actionContainer" app:layout_constraintTop_toTopOf="@id/actionContainer" />
+</com.gotokeep.keep.su.social.feedv4.mvp.view.FeedV41ActionView>

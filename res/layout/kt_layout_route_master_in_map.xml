@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/icon_bg_routes_master_tips" android:layout_width="78.0dip" android:layout_height="29.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/master_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/route_master" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="5.0dip">
+        <com.gotokeep.keep.uilib.CircleImageView android:layout_gravity="center_vertical" android:id="@id/img_route_master_avatar_in_map" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/person_45_45" app:circle_border_color="@color/light_green" app:circle_border_width="2.0dip" />
+        <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="-8.0dip" android:src="@drawable/icon_road_master" android:layout_toRightOf="@id/img_route_master_avatar_in_map" />
+    </RelativeLayout>
+</LinearLayout>

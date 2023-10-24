@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.plot.PlotRenewItemView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/containerView" android:background="@drawable/km_suit_bg_renew_round" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_width="87.0dip" android:layout_height="44.0dip" android:src="@drawable/km_pic_vip_veins_01" app:round_corner_bottom_left="8.0dip" app:round_corner_top_left="8.0dip" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="40.0" />
+            <ImageView android:layout_width="102.0dip" android:layout_height="44.0dip" android:src="@drawable/km_pic_vip_veins_02" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="13.0" />
+            <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_width="101.0dip" android:layout_height="44.0dip" android:src="@drawable/km_pic_vip_veins_03" app:round_corner_bottom_left="8.0dip" app:round_corner_top_left="8.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/vip_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/km_icon_vip" android:layout_centerVertical="true" android:layout_marginStart="11.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/color_light_gold" android:gravity="center_vertical" android:id="@id/tvRenew" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" android:text="@string/km_renew_item_content" android:layout_alignParentBottom="true" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/vip_icon" />
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/icon_more_vip" android:layout_centerVertical="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" app:tint="@color/color_light_gold" />
+    </RelativeLayout>
+</com.gotokeep.keep.km.suit.mvp.view.plot.PlotRenewItemView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/apconfig_guide" android:background="@color/keloton_connect_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="24.0sp" android:textColor="@color/purple" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/kt_kibra_apconfig_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_cc" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/kt_keloton_name" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_area">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="14.0dip" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="lottie/kibra_guide_apconfig.json" app:lottie_loop="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:id="@id/change_mode_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:layout_marginBottom="24.0dip" android:text="@string/kt_kibra_apconfig_tip" android:layout_alignParentBottom="true" android:lineSpacingMultiplier="1.2" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottom_area" android:layout_width="fill_parent" android:layout_height="105.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:layout_above="@id/change_mode_next">
+            <CheckBox android:id="@id/apconfig_confirm_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:button="@drawable/kt_selector_checkbox_square" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/apconfig_confirm_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_keloton_connect_action_confirm" />
+        </LinearLayout>
+        <TextView android:enabled="false" android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/change_mode_next" android:background="@drawable/kt_bg_keloton_connect_next_enable" android:layout_width="268.0dip" android:layout_height="50.0dip" android:text="@string/next" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="0.5" />
+    </RelativeLayout>
+</RelativeLayout>

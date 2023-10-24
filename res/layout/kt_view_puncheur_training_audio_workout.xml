@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/indicator" android:overScrollMode="never" />
+    <com.gotokeep.keep.commonui.widget.RoundDotIndicator android:id="@id/indicator" android:layout_width="80.0dip" android:layout_height="8.0dip" android:layout_marginBottom="70.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:dotColor="@color/white_20" app:dotMargin="8.0dip" app:dotRadius="4.0dip" app:dotSelectedColor="@color/white" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/vMyRank" android:background="@drawable/kt_puncheur_ranking_brief_bg" android:layout_width="146.0dip" android:layout_height="48.0dip" android:layout_marginBottom="50.0dip" android:layout_alignParentBottom="true" android:translationX="40.0dip" android:paddingStart="8.0dip" android:paddingEnd="0.0dip" android:layout_alignParentEnd="true">
+        <com.gotokeep.keep.uilib.CircleImageView android:id="@id/imgAvatar" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/person_70_70" app:circle_border_color="@color/white" app:circle_border_width="2.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_ranking_prefix" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvMyRank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_data_default" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+</RelativeLayout>

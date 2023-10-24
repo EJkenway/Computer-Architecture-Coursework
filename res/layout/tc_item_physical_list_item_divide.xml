@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.physical.mvp.view.list.PhysicalListItemDivideItemView android:background="@drawable/tc_bg_suit_two_sides_shadow" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" android:layout_marginStart="22.0dip" android:layout_marginEnd="22.0dip" />
+</com.gotokeep.keep.tc.business.physical.mvp.view.list.PhysicalListItemDivideItemView>

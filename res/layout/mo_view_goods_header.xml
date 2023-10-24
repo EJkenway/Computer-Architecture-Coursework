@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/indicator_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/image_pull" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mo_icon_pull_down" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_66" android:id="@id/refresh_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mo_goods_pull_down_tips" />
+    </LinearLayout>
+    <com.gotokeep.keep.commonui.widget.KeepAnimationView android:id="@id/img_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

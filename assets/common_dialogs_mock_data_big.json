@@ -1,0 +1,24 @@
+ {
+    "popup": {
+      "title": "恭喜获得运动奖励",
+      "subTitle": "首次运动后 7 天内成为会员，额外得百元券包，运动装备低至 5 折",
+      "image": "https://static1.keepcdn.com/ark_banana/2021/04/13/16/40/1618303204771_1029x1029.png",
+      "schema": "wwww.baidu.com",
+      "kmEntry": "lucky—Cat",
+      "style": "largePopup",
+      "track": {
+        "is_registered": true,
+        "item_id": "606c22f33c4447e224cc29c1",
+        "item_name": "招财猫大半屏弹层",
+        "type": "half"
+      },
+      "button": {
+        "directBuy": true,
+        "subTitle": "到期自动续费，次月￥40，可随时取消",
+        "membershipId4DirectBuy": 78,
+        "style": "prime",
+        "title": "40 元/月"
+      }
+    },
+    "type": "popup"
+  }

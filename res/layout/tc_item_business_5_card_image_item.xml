@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.recommend.mvp.view.entrance.Business5CardImageItemView android:background="@drawable/tc_bg_business_4_card_purple" android:layout_width="fill_parent" android:layout_height="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgChallenge" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.tc.business.recommend.mvp.view.entrance.Business5CardImageItemView>

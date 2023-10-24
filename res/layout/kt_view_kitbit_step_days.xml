@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.StepDaysView android:background="@drawable/kt_bg_step_history_chart" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.kt.business.common.widget.chart.charts.AutoCenteredChart android:id="@id/chart_step" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom|center" android:layout_width="8.0dip" android:layout_height="6.0dip" android:layout_marginBottom="-2.0dip" android:src="@drawable/arrow_train_tab" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.StepDaysView>

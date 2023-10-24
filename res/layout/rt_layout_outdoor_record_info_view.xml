@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.video.view.OutdoorVideoRecordInfoView android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="90.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container_avatar" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" android:layout_marginStart="28.0dip">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/img_avatar" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/person_45_45" app:border_color="@color/white" app:border_width="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/text_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dip" style="@style/ShadowStyle" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_70" android:id="@id/text_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="28.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:layout_marginStart="28.0dip" layout="@layout/layout_outdoor_video_distance" />
+    <View android:id="@id/view_line" android:background="@color/white" android:layout_width="14.0dip" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:transformPivotX="0.0dip" android:layout_marginStart="32.0dip" />
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/container_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginStart="28.0dip">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/text_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="8.0dip" android:drawableStart="@drawable/rt_outdoor_video_time" style="@style/ShadowStyle" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/light_green" android:id="@id/text_time_best" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/best_record" android:layout_marginStart="5.0dip" style="@style/ShadowStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/container_pace_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="28.0dip">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/text_pace_speed_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="8.0dip" android:drawableStart="@drawable/rt_outdoor_video_pace" style="@style/ShadowStyle" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/light_green" android:id="@id/text_pace_speed_step_best" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/best_record" android:layout_marginStart="5.0dip" style="@style/ShadowStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/container_cal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="28.0dip">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/text_cal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="8.0dip" android:drawableStart="@drawable/rt_outdoor_video_cal" style="@style/ShadowStyle" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.video.view.OutdoorVideoRecordInfoView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingLockView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.training.KeepTrainingStopButton android:id="@id/btnUnlock" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_centerInParent="true" app:rt_bg_color="@android:color/white" app:rt_icon="@drawable/rt_ic_new_training_lock" app:rt_is_intercept_touch_area="false" app:rt_is_visible="false" app:rt_text="@string/rt_unlock" app:rt_text_color="@color/purple" />
+    <ImageView android:id="@id/btn_lock" android:background="@drawable/rt_training_settings_bg" android:visibility="invisible" android:layout_width="@dimen/rt_training_bottom_small_button_size" android:layout_height="@dimen/rt_training_bottom_small_button_size" android:src="@drawable/rt_ic_training_lock" android:scaleType="center" android:layout_centerVertical="true" android:contentDescription="@string/rt_lock" android:layout_marginStart="32.0dip" />
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingLockView>

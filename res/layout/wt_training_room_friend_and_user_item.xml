@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.training.live.room.mvp.view.TrainingRoomFriendAndUserItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.uilib.CircleImageView android:id="@id/avatar" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/person_45_45" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/black_87" android:id="@id/textUserName" android:layout_marginStart="12.0dip" app:layout_constraintStart_toEndOf="@id/avatar" app:layout_constraintTop_toTopOf="@id/avatar" style="@style/StoreSingleLineTextView" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/black_38" android:id="@id/textUserDesc" android:layout_marginTop="6.0dip" app:layout_constraintStart_toStartOf="@id/textUserName" app:layout_constraintTop_toBottomOf="@id/textUserName" style="@style/StoreSingleLineTextView" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/gray_33" android:id="@id/textPraiseCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" app:layout_constraintBottom_toTopOf="@id/imgPraise" app:layout_constraintEnd_toEndOf="@id/imgPraise" app:layout_constraintStart_toStartOf="@id/imgPraise" />
+    <ImageView android:id="@id/imgPraise" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginBottom="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</com.gotokeep.keep.wt.business.training.live.room.mvp.view.TrainingRoomFriendAndUserItemView>

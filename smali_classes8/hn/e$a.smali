@@ -1,0 +1,66 @@
+.class public Lhn/e$a;
+.super Ljava/lang/Object;
+.source "KeepPopupMenu.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lhn/e;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "a"
+.end annotation
+
+
+# instance fields
+.field public a:I
+
+.field public b:Ljava/lang/CharSequence;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(ILjava/lang/CharSequence;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 3
+    iput p1, p0, Lhn/e$a;->a:I
+
+    .line 4
+    iput-object p2, p0, Lhn/e$a;->b:Ljava/lang/CharSequence;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lhn/e$a;->a:I
+
+    return v0
+.end method
+
+.method public b()Ljava/lang/CharSequence;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lhn/e$a;->b:Ljava/lang/CharSequence;
+
+    return-object v0
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/animContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.player.AdSplashVideoView android:layout_gravity="center" android:id="@id/videoSurfaceView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/viewCover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <ImageView android:id="@id/logo" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/splash_logo_on_white" android:scaleType="centerInside" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/kt_bg_gradient_ffffff_fafafa" android:layout_width="fill_parent" android:layout_height="278.0dip">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieAnimation" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_marginTop="12.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_fileName="lottie/gensture_control.json" app:lottie_loop="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switchAiRun" android:background="@android:color/white" android:layout_marginTop="12.0dip" app:mainText="@string/kt_kitbit_gesture_control" app:settingItemDesc="@string/kt_kitbit_gesture_control_tip" style="@style/SettingItemSwitch" />
+</LinearLayout>

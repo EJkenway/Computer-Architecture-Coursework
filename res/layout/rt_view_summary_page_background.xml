@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryPageBottomBackgroundView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/viewTop" android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:alpha="0.0" />
+    <View android:background="@drawable/rt_bg_summary_page_background_gradient" android:layout_width="fill_parent" android:layout_height="215.0dip" android:layout_alignParentBottom="true" />
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryPageBottomBackgroundView>

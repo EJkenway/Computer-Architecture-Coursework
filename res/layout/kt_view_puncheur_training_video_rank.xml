@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/vRoot" android:background="@color/transparent" android:layout_width="@dimen/kt_puncheur_video_workout_rank_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/vBack" android:background="@drawable/kt_puncheur_ranking_list_bg" android:layout_width="15.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/ivIconBack" android:layout_width="12.0dip" android:layout_height="26.0dip" android:src="@drawable/icon_back_lined" android:scaleType="centerInside" android:layout_centerInParent="true" android:translationX="3.0dip" android:rotation="180.0" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/vContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="1.0" android:translationX="0.0dip" android:layout_toEndOf="@id/vBack">
+        <RelativeLayout android:background="@drawable/kt_puncheur_ranking_list_bg" android:layout_width="@dimen/kt_puncheur_video_workout_rank_content_width" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <RelativeLayout android:id="@id/vRankingTitle" android:layout_width="fill_parent" android:layout_height="32.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="10.0dip">
+                    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="start|center" android:id="@id/tvTitleRank" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/kt_puncheur_ranking_title" />
+                </LinearLayout>
+                <TextView android:textSize="10.0dip" android:textColor="@color/white_60" android:gravity="center_vertical" android:id="@id/tvParticipatePeople" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvRanks" android:layout_width="fill_parent" android:layout_height="176.0dip" android:layout_below="@id/vRankingTitle" />
+            <View android:background="@color/white_20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/rvRanks" />
+            <FrameLayout android:id="@id/coverContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/rvRanks" android:layout_alignBottom="@id/rvRanks" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/vBrief" android:background="@drawable/kt_puncheur_ranking_handle_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="120.0dip" android:layout_height="75.0dip" android:layout_centerVertical="true" android:translationX="120.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/imgArrow" android:layout_width="11.0dip" android:layout_height="11.0dip" android:src="@drawable/icon_back_lined" android:layout_centerInParent="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/vMyRank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/kt_keloton_workout_score" android:layout_marginEnd="26.0dip" android:layout_alignParentEnd="true" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="25.0sp" android:textColor="@color/white" android:id="@id/tvBriefScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/vMyRank" android:layout_marginEnd="26.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

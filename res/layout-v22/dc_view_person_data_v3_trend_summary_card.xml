@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.trend.mvp.view.TrendSummaryCardView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/dc_bg_trend_card_summary" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner="8.0dip" />
+    <FrameLayout android:layout_width="111.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_gravity="bottom" android:id="@id/imageLeftDown" android:layout_width="111.0dip" android:layout_height="103.0dip" android:src="@drawable/dc_bg_trend_summary_left" app:round_corner_bottom_left="8.0dip" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="144.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:layout_gravity="end|center|top" android:id="@id/imageRightTop" android:layout_width="144.0dip" android:layout_height="79.0dip" android:src="@drawable/dc_bg_trend_summary_right" app:round_corner_top_right="8.0dip" />
+    </FrameLayout>
+    <ImageView android:id="@id/imageTitle" android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/dc_ic_trend_summary_title" android:scaleType="fitXY" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/listSummary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/imageTitle" />
+</com.gotokeep.keep.dc.business.trend.mvp.view.TrendSummaryCardView>

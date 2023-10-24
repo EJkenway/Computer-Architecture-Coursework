@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemRankView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs_rank" android:background="@color/transparent" android:layout_height="45.0dip" app:PindicatorAnimEnable="true" app:pDividerColor="@color/transparent" app:pIndicatorColor="@color/purple" app:pIndicatorHeight="1.0dip" app:pIndicatorWidth="16.0dip" app:pTabTextColor="@color/local_log_tab_selector" app:pTabTextSize="16.0sp" style="@style/default_indicator_tab_strip" />
+    <View android:background="@color/gray_ea" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <androidx.legacy.widget.Space android:background="@color/white" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_rank_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.legacy.widget.Space android:background="@color/white" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_all_route_rank" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center_horizontal" android:background="@color/gray_ea" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+        <TextView android:textColor="@color/gray_33" android:gravity="center" android:layout_width="fill_parent" android:layout_height="53.0dip" android:text="@string/rt_text_all_rank" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemRankView>

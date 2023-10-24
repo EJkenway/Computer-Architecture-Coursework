@@ -1,0 +1,28 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "OtaCheck";
+
+message OtaSubHead {
+  // 本资源类别，1 为厂测固件，2 为商用固件，3 为资源文件
+  uint32 type = 1;
+  // 本资源版本号
+  string version = 2;
+  // 本资源相对于整个 OTA 文件开始处的偏移
+  uint32 start_offset = 3;
+  // 本资源大小，单位字节
+  uint32 size = 4;
+  // 本资源 crc32 校验值
+  uint32 crc32 = 5;
+  // 本资源在外部 Flash 的存储地址
+  uint32 addr = 6;
+}
+message OtaFileHead {
+  // 本 OTA 文件包含的资源数量，厂测固件、商用固件和 UI 资源文件属于不同的 3 种资源
+  uint32 resources_num = 1;
+  // 各个资源的 head 信息
+  repeated OtaSubHead head = 2;
+}
+message OtaCheckRsp {
+  //是否需要 OTA 的标志，0 : 不需要 OTA，1 : 需要 OTA
+  uint32 need_ota = 1;
+}

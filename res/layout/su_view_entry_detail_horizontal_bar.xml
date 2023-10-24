@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:ellipsize="end" android:id="@id/textMetaTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/textMetaValue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+        <RatingBar android:id="@id/barRating" android:visibility="gone" android:layout_marginTop="4.0dip" style="@style/EntryDetailV2LinkRating" />
+    </LinearLayout>
+</FrameLayout>

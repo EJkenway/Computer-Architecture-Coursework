@@ -1,0 +1,64 @@
+.class public final Lcom/gotokeep/keep/data/model/outdoor/mock/StepSensorData;
+.super Lcom/gotokeep/keep/data/model/outdoor/mock/OutdoorSensorData;
+.source "OutdoorSensorData.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/a;
+.end annotation
+
+
+# instance fields
+.field private final steps:I
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/gotokeep/keep/data/model/outdoor/mock/OutdoorSensorData;-><init>()V
+
+    iput p1, p0, Lcom/gotokeep/keep/data/model/outdoor/mock/StepSensorData;->steps:I
+
+    const/4 p1, 0x2
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/gotokeep/keep/data/model/outdoor/mock/OutdoorSensorData;->f(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final g()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/gotokeep/keep/data/model/outdoor/mock/StepSensorData;->steps:I
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "steps: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v1, p0, Lcom/gotokeep/keep/data/model/outdoor/mock/StepSensorData;->steps:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

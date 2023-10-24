@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/searching" android:visibility="visible" layout="@layout/kt_view_net_config_search_seaching" />
+    <include android:id="@id/searchEmpty" android:visibility="gone" layout="@layout/kt_view_net_config_search_empty" />
+</FrameLayout>

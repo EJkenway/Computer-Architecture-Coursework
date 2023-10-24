@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:gravity="center" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/mo_kit_store_more"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

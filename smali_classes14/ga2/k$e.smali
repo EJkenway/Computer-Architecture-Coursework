@@ -1,0 +1,152 @@
+.class public final Lga2/k$e;
+.super Lij3/p;
+.source "RecommendFeedTextPresenter.kt"
+
+# interfaces
+.implements Lhj3/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lga2/k;->u1(Lcom/gotokeep/keep/data/model/timeline/postentry/PostEntry;ZLjava/lang/String;)Ljava/lang/String;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lij3/p;",
+        "Lhj3/p<",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;",
+        "Lwi3/s;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Lga2/k;
+
+.field public final synthetic h:Lcom/gotokeep/keep/data/model/timeline/postentry/PostEntry;
+
+.field public final synthetic i:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lga2/k;Lcom/gotokeep/keep/data/model/timeline/postentry/PostEntry;Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lga2/k$e;->g:Lga2/k;
+
+    iput-object p2, p0, Lga2/k$e;->h:Lcom/gotokeep/keep/data/model/timeline/postentry/PostEntry;
+
+    iput-object p3, p0, Lga2/k$e;->i:Ljava/lang/String;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1}, Lij3/p;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 10
+
+    const-string v0, "type"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "content"
+
+    invoke-static {p2, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iget-object v3, p0, Lga2/k$e;->h:Lcom/gotokeep/keep/data/model/timeline/postentry/PostEntry;
+
+    .line 2
+    iget-object v0, p0, Lga2/k$e;->g:Lga2/k;
+
+    invoke-virtual {v0}, Lga2/k;->v1()Ljava/lang/String;
+
+    move-result-object v4
+
+    const/4 v0, 0x2
+
+    new-array v0, v0, [Lwi3/f;
+
+    .line 3
+    iget-object v1, p0, Lga2/k$e;->h:Lcom/gotokeep/keep/data/model/timeline/postentry/PostEntry;
+
+    invoke-virtual {v1}, Lcom/gotokeep/keep/data/model/timeline/postentry/PostEntry;->getId()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "source_entry_id"
+
+    invoke-static {v2, v1}, Lwi3/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Lwi3/f;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    aput-object v1, v0, v2
+
+    iget-object v1, p0, Lga2/k$e;->i:Ljava/lang/String;
+
+    if-nez v1, :cond_0
+
+    const-string v1, ""
+
+    :cond_0
+    const-string v2, "source"
+
+    invoke-static {v2, v1}, Lwi3/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Lwi3/f;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    aput-object v1, v0, v2
+
+    invoke-static {v0}, Lkotlin/collections/q0;->l([Lwi3/f;)Ljava/util/Map;
+
+    move-result-object v6
+
+    const/4 v7, 0x0
+
+    const/16 v8, 0x50
+
+    const/4 v9, 0x0
+
+    const/4 v5, 0x0
+
+    move-object v1, p1
+
+    move-object v2, p2
+
+    .line 4
+    invoke-static/range {v1 .. v9}, Lwh2/z;->S(Ljava/lang/String;Ljava/lang/String;Lcom/gotokeep/keep/data/model/timeline/postentry/PostEntry;Ljava/lang/String;Lcom/gotokeep/keep/data/model/community/comment/CommentsReply;Ljava/util/Map;Lhj3/p;ILjava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/lang/String;
+
+    check-cast p2, Ljava/lang/String;
+
+    invoke-virtual {p0, p1, p2}, Lga2/k$e;->a(Ljava/lang/String;Ljava/lang/String;)V
+
+    sget-object p1, Lwi3/s;->a:Lwi3/s;
+
+    return-object p1
+.end method

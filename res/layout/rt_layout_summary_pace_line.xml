@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_left_pace_line" android:background="@color/run_min_pace" android:layout_width="14.0dip" android:layout_height="2.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/run_min_pace" android:id="@id/text_left_pace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slow" />
+    <ImageView android:id="@id/img_center_pace_line" android:layout_width="0.0dip" android:layout_height="2.0dip" android:src="@drawable/rt_bg_run_summary_divider" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/run_max_pace" android:id="@id/text_right_pace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fast" />
+    <ImageView android:id="@id/img_right_pace_line" android:background="@color/run_max_pace" android:layout_width="14.0dip" android:layout_height="2.0dip" />
+</LinearLayout>

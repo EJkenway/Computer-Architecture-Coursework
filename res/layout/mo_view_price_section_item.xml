@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center" android:id="@id/priceText" android:layout_marginTop="16.0dip" style="@style/mo_good_list_choose_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

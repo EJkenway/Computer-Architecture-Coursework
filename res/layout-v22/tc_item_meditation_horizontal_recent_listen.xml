@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.meditation.mvp.view.ListenRecentlyItemView android:layout_width="138.0dip" android:layout_height="138.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgCover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/labelGroup" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:maxLines="1" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toTopOf="@id/textFollowDesc" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:id="@id/textFollowDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:maxLines="1" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</com.gotokeep.keep.tc.business.meditation.mvp.view.ListenRecentlyItemView>

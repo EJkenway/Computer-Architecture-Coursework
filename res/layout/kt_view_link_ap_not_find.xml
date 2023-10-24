@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ap_not_found" android:background="@color/keloton_connect_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:id="@id/iv_ap_not_find" android:layout_width="fill_parent" android:layout_height="360.0dip" android:src="@drawable/kt_bg_walkman_ap_not_find" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:id="@id/ap_not_found_message" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="51.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="51.0dip" android:layout_weight="1.0" android:lineSpacingMultiplier="1.2" />
+</LinearLayout>

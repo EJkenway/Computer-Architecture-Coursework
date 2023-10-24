@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemMasterView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="14.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/text_route_master_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/rt_route_master_title" android:maxLines="1" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_route_instruction" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="10.0sp" android:textColor="@color/gray_cc" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_route_play_instruction" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/icon_outdoor_info" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="18.0dip" android:layout_marginBottom="18.0dip">
+        <com.gotokeep.keep.commonui.uilib.CircularImageView android:layout_gravity="center_vertical" android:id="@id/img_route_master_avatar" android:layout_width="54.0dip" android:layout_height="54.0dip" android:src="@drawable/person_45_45" app:border_color="@color/light_green" app:border_width="2.0dip" />
+        <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="-8.0dip" android:src="@drawable/icon_road_master" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/text_route_master_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:ellipsize="end" android:id="@id/text_route_master_description" android:layout_width="230.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/rt_route_master_description" android:maxLines="3" android:layout_below="@id/text_route_master_name" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_master_in_place" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:id="@id/text_in_place" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_in_place" />
+                    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textColor="@color/gray_33" android:id="@id/text_route_master_in_place" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day_unit" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="@color/light_green" android:id="@id/text_all_previous_route_master" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_all_previous_route_master" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemMasterView>

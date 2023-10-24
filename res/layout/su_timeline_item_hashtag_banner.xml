@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.single.view.TimelineSingleHashTagBannerView android:background="@color/white" android:paddingLeft="@dimen/page_horizontal_margin" android:paddingTop="12.0dip" android:paddingRight="@dimen/page_horizontal_margin" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:horizontalSpacing="12.0dip" app:verticalSpacing="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.su_core.timeline.widget.LinkHashtagBannerView android:id="@id/linkTag" android:background="@drawable/su_bg_hashtag_e4f4ee_round" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gotokeep.keep.su_core.timeline.mvp.single.view.HashtagBannerView android:id="@id/fellowshipTag" android:background="@drawable/su_bg_f7f5f9_corner_50" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gotokeep.keep.su_core.timeline.mvp.single.view.HashtagBannerView android:id="@id/hashTagView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.gotokeep.keep.su_core.timeline.mvp.single.view.TimelineSingleHashTagBannerView>

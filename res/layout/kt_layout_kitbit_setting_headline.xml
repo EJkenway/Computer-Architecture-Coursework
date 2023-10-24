@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutChangeDialEntry" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <androidx.cardview.widget.CardView android:layout_width="42.0dip" android:layout_height="42.0dip" app:cardBackgroundColor="#0e71c7ac" app:cardCornerRadius="21.0dip" app:cardElevation="0.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kt_ic_dial_theme" />
+        </androidx.cardview.widget.CardView>
+        <TextView android:textColor="@color/gray_33" android:id="@id/textChangeDial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/kt_kitbit_setting_change_dial" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutExploreEntry" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+        <androidx.cardview.widget.CardView android:layout_width="42.0dip" android:layout_height="42.0dip" app:cardBackgroundColor="#0e7876cf" app:cardCornerRadius="21.0dip" app:cardElevation="0.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kt_ic_expolre_kitbit" />
+        </androidx.cardview.widget.CardView>
+        <TextView android:textColor="@color/gray_33" android:id="@id/textExplore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/kt_text_explore" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutAlarmEntry" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+        <androidx.cardview.widget.CardView android:layout_width="42.0dip" android:layout_height="42.0dip" app:cardBackgroundColor="#0e7695cf" app:cardCornerRadius="21.0dip" app:cardElevation="0.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kt_ic_alarm" />
+        </androidx.cardview.widget.CardView>
+        <TextView android:textColor="@color/gray_33" android:id="@id/textKitbitAlarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/kt_kitbit_alarm" />
+    </LinearLayout>
+</LinearLayout>

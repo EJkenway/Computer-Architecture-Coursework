@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.vd.mvp.guide.view.SearchHotProductRankListView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:id="@id/ivBg" android:layout_width="0.0dip" android:layout_height="52.0dip" android:scaleType="centerCrop" android:contentDescription="@string/tc_hot_product_rank_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner_top_left="@dimen/dimen_8dp" app:round_corner_top_right="@dimen/dimen_8dp" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/hotProductListName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="@dimen/page_horizontal_margin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="13.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</com.gotokeep.keep.vd.mvp.guide.view.SearchHotProductRankListView>

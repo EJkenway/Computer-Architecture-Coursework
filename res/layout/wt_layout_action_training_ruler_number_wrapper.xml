@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.action.mvp.view.ActionTrainingRulerNumberView android:orientation="vertical" android:id="@id/wrapper_training_ruler_number" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center" android:id="@id/layout_training_ruler_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" layout="@layout/wt_layout_action_training_ruler_number" />
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/text_action_training_confirm" android:background="@drawable/light_green_corner50_shape" android:layout_width="283.0dip" android:layout_height="50.0dip" android:layout_marginBottom="@dimen/margin_27dp" android:text="@string/confirm" />
+</com.gotokeep.keep.wt.business.action.mvp.view.ActionTrainingRulerNumberView>

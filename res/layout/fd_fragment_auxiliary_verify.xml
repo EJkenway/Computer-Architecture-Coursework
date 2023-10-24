@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgBack" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/icon_arrow_left_black" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="46.0dip" app:layout_constraintTop_toBottomOf="@id/imgBack">
+        <TextView android:textSize="28.0sp" android:textColor="@color/gray_22" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/fd_auxiliary_verify" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/gray_99" android:id="@id/textTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:text="@string/fd_auxiliary_verify_tips" android:lineSpacingExtra="4.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_22" android:id="@id/textName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/fd_name" />
+        <EditText android:id="@id/editName" android:hint="@string/fd_input_name_tips" style="@style/fd_auxiliary_verify_edit_text" />
+        <View android:id="@id/viewNameDivider" style="@style/fd_auxiliary_verify_divider" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_22" android:id="@id/textIDNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/fd_ID_number" />
+        <EditText android:id="@id/editIDNumber" android:hint="@string/fd_input_ID_number_tips" style="@style/fd_auxiliary_verify_edit_text" />
+        <View android:id="@id/viewIDDivider" style="@style/fd_auxiliary_verify_divider" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_FF5B52" android:id="@id/textIDWarn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fd_input_ID_number_warn" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_22" android:id="@id/textPhoneNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/mobile_number" />
+        <EditText android:id="@id/editPhoneNumber" android:hint="@string/fd_input_phone_number_tips" android:inputType="phone" style="@style/fd_auxiliary_verify_edit_text" />
+        <View android:id="@id/viewPhoneNumberDivider" style="@style/fd_auxiliary_verify_divider" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_FF5B52" android:id="@id/textPhoneNumberWarn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fd_input_phone_number_warn" />
+        <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:id="@id/btnSubmit" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="10.0dip" android:text="@string/fd_submit_verification" app:loadingButtonSize="large" app:loadingButtonStyle="styleGreenNew" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/layoutPolicy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:id="@id/imgSelect" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/fd_ic_auxiliary_verify_uncheck" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textProtocol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

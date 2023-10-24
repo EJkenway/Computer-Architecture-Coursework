@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.widget.RankCircleProgressView android:id="@id/progress" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_marginTop="84.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/black_87" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="92.0dip" android:text="@string/kt_net_config_connect_title" app:layout_constraintEnd_toEndOf="@id/progress" app:layout_constraintStart_toStartOf="@id/progress" app:layout_constraintTop_toTopOf="@id/progress" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:id="@id/textSubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/kt_net_config_wait" app:layout_constraintEnd_toEndOf="@id/progress" app:layout_constraintStart_toStartOf="@id/progress" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <LinearLayout android:background="@drawable/kt_bg_8dp_f5f5f5" android:layout_width="310.0dip" android:layout_height="72.0dip" android:layout_marginTop="86.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/progress">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/kt_icon_netconfig_remind" android:layout_marginStart="24.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_87" android:gravity="center" android:layout_gravity="center" android:id="@id/textRemind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_net_config_connect_remind_2" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="62.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/progress">
+        <com.gotokeep.keep.kt.business.configwifirefactor.view.KitNetConfigProgressView android:id="@id/progressSearch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gotokeep.keep.kt.business.configwifirefactor.view.KitNetConfigProgressView android:id="@id/progressConfig" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gotokeep.keep.kt.business.configwifirefactor.view.KitNetConfigProgressView android:id="@id/progressConnect" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

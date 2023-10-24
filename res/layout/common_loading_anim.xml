@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/progress_dialog_content_view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/K_lottie_anim" android:layout_width="32.0dip" android:layout_height="32.0dip" app:lottie_autoPlay="true" app:lottie_fileName="lottie/K.json" app:lottie_loop="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/green" android:gravity="center_horizontal" android:id="@id/txt_K_anim_bottom" android:padding="16.0dip" android:paddingTop="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/open" />
+</LinearLayout>

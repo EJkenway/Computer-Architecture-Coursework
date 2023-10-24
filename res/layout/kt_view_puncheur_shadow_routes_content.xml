@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheurshadow.routelist.mvp.view.PuncheurShadowRoutesContentView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/layoutShadowRouteRefresh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_92dp">
+        <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/rvRouteList" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</com.gotokeep.keep.kt.business.puncheurshadow.routelist.mvp.view.PuncheurShadowRoutesContentView>

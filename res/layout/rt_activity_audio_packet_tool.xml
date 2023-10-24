@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3 2 1 GO" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playCountDown" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="运动已暂停" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playTrainPause" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="运动继续" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playTrainResume" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成运动" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playTrainStop" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自动完成运动" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playTrainAutoStop" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="到达路线起点" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playRouteStartPoint" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="到达路线终点" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playRouteEndPoint" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打破最远距离记录" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playBreakDistanceRecord" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打破最长时间记录" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playBreakDurationRecord" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_break_5km_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打破5 KM 记录" />
+                <EditText android:textSize="12.0sp" android:id="@id/edit_break_5_km" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="默认用时 3750 秒, 可输入" />
+            </LinearLayout>
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playBreak5KMRecord" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_break_10km_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打破10 KM 记录" />
+                <EditText android:textSize="12.0sp" android:id="@id/edit_break_10_km" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="默认用时 7550 秒, 可输入" />
+            </LinearLayout>
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playBreak10KMRecord" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_cross_half_marathon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跨越半马点语音" />
+                <EditText android:textSize="12.0sp" android:id="@id/ediText_cross_half_marathon_timeCost" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="默认 3750 秒, 可输入" />
+            </LinearLayout>
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playCrossHalfMarathon" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_cross_whole_marathon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跨越全马点语音" />
+                <EditText android:textSize="12.0sp" android:id="@id/ediText_cross_whole_marathon_timeCost" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="默认 7550 秒, 可输入" />
+            </LinearLayout>
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playCrossWholeMarathon" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跨公里点" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="你已经跑步/骑行/行走" />
+                    <EditText android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/edit_km" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="默认1" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="公里," />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用时" />
+                    <EditText android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/edit_timeCost" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="默认 180 秒" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最近一公里用时" />
+                    <EditText android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/edit_last_1_km" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="默认 215 秒" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/red" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大于一公里自定义输入,1公里不用管" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <CheckBox android:id="@id/cb_interval_run" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分段跑" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="剩余距离" />
+                    <EditText android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/edit_remaining_distance" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="默认 0 米" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playCrossKMPoint" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_run_target" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:text="目标相关" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成时间目标一半" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playDurationTargetHalf" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="时间目标还剩5分钟" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playDurationTargetLast5Minute" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成时间目标" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playDurationTargetFinish" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成卡路里目标一半" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playHalfOfCalorie" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成卡路里目标四分之三" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playThreeQuarterOfCalorieTarget" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成卡路里目标" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                        <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="你已经跑步" />
+                        <EditText android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/edit_calorie_km" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="默认1" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="公里," />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                        <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用时" />
+                        <EditText android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/edit_calorie_timeCost" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="默认 180 秒" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                        <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最近一公里用时" />
+                        <EditText android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/editext_calorie_last_1_km" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="默认 215 秒" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/red" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大于一公里自定义输入,1公里不用管" />
+                    </LinearLayout>
+                </LinearLayout>
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playCalorieTargetComplete" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="（音效）大幅领先于配速,当前配速 xxxx" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playPaceTargetFastest" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="（音效）降低速度,当前配速 xxxx" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playPaceTargetFast" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="（音效）保持速度,当前配速 xxxx" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playPaceTargetMatch" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="（音效）提高速度,当前配速 xxxx" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playPaceTargetSlow" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="（音效）大幅落后于配速,当前配速 xxxx" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playPaceTargetSlowest" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="配速目标跨公里(快)" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playPaceTargetCrossKmFast" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="配速目标跨公里(慢)" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playPaceTargetCrossKmSlow" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="配速目标跨公里(匹配)" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playPaceTargetCrossKmMatch" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成距离目标" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playDistanceTargetComplete" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成距离目标一半" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playHalfDistanceTarget" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跨公里,破纪录,还剩距离XXX" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playCrossKmBreakAndRemain" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跨公里,破纪录,距离目标一半" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playCrossKmBreakAndHalf" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跨公里,破纪录,距离目标完成" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playCrossKmBreakAndComplete" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="距离目标不到500米" android:layout_centerVertical="true" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:layout_width="80.0dip" android:layout_height="35.0dip" android:layout_marginLeft="25.0dip" android:text="播放" android:layout_alignParentRight="true" android:onClick="playDistanceTargetLess500" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

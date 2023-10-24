@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ysf_iv_video_progress_btn" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="18.0dip" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+    <ProgressBar android:id="@id/ysf_pb_video_progress_bar" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:progressDrawable="@drawable/ysf_video_progress_back" android:layout_toLeftOf="@id/ysf_tv_video_progress_second" android:layout_toRightOf="@id/ysf_iv_video_progress_btn" android:layout_centerVertical="true" style="?android:progressBarStyleHorizontal" />
+    <TextView android:textColor="@color/ysf_white" android:gravity="right" android:id="@id/ysf_tv_video_progress_second" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SportRecommendPreviewGroupView android:background="@drawable/km_bg_recommend_preview_item" android:paddingTop="12.0dip" android:paddingBottom="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textColor="@color/km_color_recommend_preview_item_title" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/dimen_12dp" android:layout_marginEnd="@dimen/dimen_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/previewContentLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle">
+        <include layout="@layout/km_view_sport_suit_recommend_preview_item" />
+    </LinearLayout>
+</com.gotokeep.keep.km.suit.mvp.view.SportRecommendPreviewGroupView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/delete" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_emotion_delete" android:layout_alignParentRight="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/versions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_toLeftOf="@id/delete" android:layout_alignParentLeft="true" />
+    <com.google.android.material.internal.FlowLayout android:id="@id/versionsList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/versions" app:itemSpacing="6.0dip" app:lineSpacing="4.0dip" />
+</RelativeLayout>

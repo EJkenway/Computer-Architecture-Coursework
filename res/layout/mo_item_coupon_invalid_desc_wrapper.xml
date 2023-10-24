@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/mo_coupon_explain_lower_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_cc" android:id="@id/text_coupon_explain_invalid_detail" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="@dimen/mo_margin_12" android:layout_marginRight="14.0dip" android:layout_marginBottom="2.0dip" />
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_66" android:id="@id/text_coupon_explain_invalid_reason" android:background="@color/fa_bg" android:paddingLeft="13.0dip" android:paddingTop="@dimen/mo_margin_12" android:paddingRight="13.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.5dip" android:layout_marginRight="0.5dip" android:layout_marginBottom="0.5dip" android:drawableLeft="@drawable/mo_ic_exclamation_circle_lined" android:drawablePadding="4.0dip" />
+</LinearLayout>

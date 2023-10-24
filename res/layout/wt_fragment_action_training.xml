@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_action_training" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_action_training_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/training_progress_bottom_height" />
+    <include layout="@layout/wt_layout_portrait_action_training" />
+    <com.gotokeep.keep.wt.business.action.widget.ActionRecordPreviewView android:id="@id/record_preview_control" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.training.mvp.view.StartCountDownText android:id="@id/layout_start_321_go" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/view_stub_ruler_number" android:layout="@layout/wt_layout_action_training_ruler_number_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

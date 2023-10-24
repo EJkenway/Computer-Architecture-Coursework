@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/containerRoot" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srlHeaderHeight="48.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layoutErrorView" android:background="@color/snow_white" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/refreshLayout" app:layout_constraintEnd_toEndOf="@id/refreshLayout" app:layout_constraintStart_toStartOf="@id/refreshLayout" app:layout_constraintTop_toTopOf="@id/refreshLayout" />
+    <FrameLayout android:id="@id/layoutSkeleton" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/refreshLayout" app:layout_constraintEnd_toEndOf="@id/refreshLayout" app:layout_constraintStart_toStartOf="@id/refreshLayout" app:layout_constraintTop_toTopOf="@id/refreshLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.training.traininglog.mvp.view.StationTrainLogDataSourceView android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/dimen_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StationCardFourSlide">
+        <View android:background="@drawable/wt_bg_2dp_round_9281fe" android:layout_width="4.0dip" android:layout_height="14.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/wt_data_source_title" app:layout_constraintEnd_toStartOf="@id/wt_data_source_title" app:layout_constraintTop_toTopOf="@id/wt_data_source_title" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_87" android:id="@id/wt_data_source_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="28.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/wt_train_accessories_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/wt_data_source_title" app:layout_constraintTop_toBottomOf="@id/wt_data_source_title">
+            <TextView android:textSize="13.0sp" android:textColor="@color/white_60" android:id="@id/wt_data_source_platform" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white_60" android:id="@id/wt_data_source_heart_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.wt.business.training.traininglog.mvp.view.StationTrainLogDataSourceView>

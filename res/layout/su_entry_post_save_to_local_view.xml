@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:gravity="center" android:id="@id/textSave" android:background="@drawable/bg_fafafa_stroke_efefef_conner50" android:layout_width="wrap_content" android:layout_height="26.0dip" android:text="@string/su_entry_post_save_to_local" android:drawableRight="@drawable/su_entry_post_save_check_box_checked" android:drawablePadding="4.0dip" android:drawableEnd="@drawable/su_entry_post_save_check_box_checked" android:paddingStart="8.0dip" android:paddingEnd="4.0dip" android:layout_marginEnd="@dimen/page_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

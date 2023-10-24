@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.achievement.ui.BadgeDetailItemView android:layout_width="fill_parent" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageBackground" android:layout_width="fill_parent" android:layout_height="300.0dip" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageBadge" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginTop="60.0dip" android:layout_centerHorizontal="true" />
+</com.gotokeep.keep.fd.business.achievement.ui.BadgeDetailItemView>

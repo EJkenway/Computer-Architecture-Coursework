@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.profile.level.mvp.view.ProfileLevelListView android:id="@id/rankRecyclerView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBarView" app:background_color="@color/purple" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:right_icon="@drawable/icon_share_android_filled" app:right_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+</RelativeLayout>

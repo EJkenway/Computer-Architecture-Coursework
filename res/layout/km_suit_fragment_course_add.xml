@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" android:layout_width="0.0dip" android:layout_height="44.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/course_add_indicator_tab_strip" />
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/viewPager" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_below="@id/tabs" app:layout_constraintBottom_toTopOf="@id/bottomView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tabs" />
+    <include android:id="@id/bottomView" android:layout_width="fill_parent" android:layout_height="60.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/km_suit_view_course_explorer_bottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>

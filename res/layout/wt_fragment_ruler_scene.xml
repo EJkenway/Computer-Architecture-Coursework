@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/actionRulerTitleBar" app:background_color="@color/white" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:left_icon="@drawable/wt_icon_ruler_action_back" app:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <include android:id="@id/btnStart" android:layout_width="0.0dip" android:layout_height="54.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/wt_view_ruler_scene_start" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/btnStart" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/actionRulerTitleBar">
+        <include android:id="@id/layoutActionRulerWrapper" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/wt_view_ruler_scene_wrapper" />
+        <include android:id="@id/layoutActionSetting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="47.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutActionRulerWrapper" layout="@layout/wt_view_ruler_scene_setting" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

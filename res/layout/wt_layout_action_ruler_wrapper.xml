@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.action.mvp.view.ActionRulerWrapperView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layoutRuler" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/layoutRulerTime" layout="@layout/wt_layout_action_ruler_time" />
+        <include android:id="@id/layoutRulerNumber" layout="@layout/wt_layout_action_ruler_number" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/textRulerTypeNumber" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="18.0dip" android:text="@string/action_times_count" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/textRulerTypeTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:text="@string/action_timing" android:layout_toRightOf="@id/textRulerTypeNumber" android:layout_alignBaseline="@id/textRulerTypeNumber" />
+    </RelativeLayout>
+</com.gotokeep.keep.wt.business.action.mvp.view.ActionRulerWrapperView>

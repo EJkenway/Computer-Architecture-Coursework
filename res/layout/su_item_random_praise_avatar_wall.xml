@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.su_core.randompraise.widget.RandomPraiseAvatarItem android:id="@id/activity_random_praise_user1" android:layout_width="77.0dip" android:layout_height="74.0dip" android:layout_marginLeft="26.0dip" android:layout_marginTop="24.0dip" android:layout_marginStart="26.0dip" />
+    <com.gotokeep.keep.su_core.randompraise.widget.RandomPraiseAvatarItem android:id="@id/activity_random_praise_user2" android:layout_width="87.0dip" android:layout_height="84.0dip" android:layout_marginLeft="153.0dip" android:layout_marginTop="24.0dip" android:layout_marginStart="153.0dip" />
+    <com.gotokeep.keep.su_core.randompraise.widget.RandomPraiseAvatarItem android:id="@id/activity_random_praise_user3" android:layout_width="82.0dip" android:layout_height="79.0dip" android:layout_marginLeft="86.0dip" android:layout_marginTop="94.0dip" android:layout_marginStart="86.0dip" />
+    <com.gotokeep.keep.su_core.randompraise.widget.RandomPraiseAvatarItem android:id="@id/activity_random_praise_user4" android:layout_width="77.0dip" android:layout_height="74.0dip" android:layout_marginLeft="196.0dip" android:layout_marginTop="120.0dip" android:layout_marginStart="196.0dip" />
+    <com.gotokeep.keep.su_core.randompraise.widget.RandomPraiseAvatarItem android:id="@id/activity_random_praise_user5" android:layout_width="67.0dip" android:layout_height="64.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="159.0dip" android:layout_marginStart="28.0dip" />
+    <com.gotokeep.keep.su_core.randompraise.widget.RandomPraiseAvatarItem android:id="@id/activity_random_praise_user6" android:layout_width="87.0dip" android:layout_height="84.0dip" android:layout_marginLeft="118.0dip" android:layout_marginTop="180.0dip" android:layout_marginStart="118.0dip" />
+</merge>

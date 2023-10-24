@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryQrCodeView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/rt_bg_584f60_5a487c" android:layout_width="fill_parent" android:layout_height="120.0dip">
+        <ImageView android:id="@id/imgLogo" android:layout_width="74.0dip" android:layout_height="24.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/icon_share_keep_logo" android:scaleType="centerInside" android:layout_marginStart="20.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white_20" android:id="@id/textLongClickQrCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="24.0dip" android:text="@string/rt_long_click_qr_code" android:layout_marginStart="20.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgLogo" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white_20" android:id="@id/textJoinKeepTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/rt_join_keep_to_outdoor" android:layout_marginStart="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgQrCode" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryQrCodeView>

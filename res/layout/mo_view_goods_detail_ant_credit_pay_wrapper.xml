@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.dialogs.attrs.view.SelectAttrsAntCreditPayView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="23.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="16.0dip" android:text="@string/mo_ant_credit_pay_title" />
+    <com.gotokeep.keep.mo.business.pay.mvp.view.AntCreditPaySelectorView android:id="@id/antCreditPaySelector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_99" android:id="@id/ant_pay_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" />
+</com.gotokeep.keep.mo.business.store.dialogs.attrs.view.SelectAttrsAntCreditPayView>

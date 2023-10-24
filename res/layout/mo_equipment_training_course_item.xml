@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="128.0dip" android:layout_height="@dimen/dimen_80dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:id="@id/courseCover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:round_corner="8.0dip" />
+    <ImageView android:id="@id/courseCoverMask" android:background="@drawable/mo_bg_black30_corners_8dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/courseDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/height_50dp" android:maxWidth="96.0dip" android:singleLine="true" android:layout_marginStart="@dimen/dimen_12dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.HRZoneView android:orientation="vertical" android:background="@color/white" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/divider_height_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_kitbit_hr_zone_title" />
+        <ImageView android:layout_gravity="center|right" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/icon_exclamation_with_circle" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:layout_gravity="center|right" android:id="@id/zone_desc" android:background="@android:color/transparent" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="34.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kitbit_hr_zone_tip_title" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/font_size_18sp" android:textStyle="bold" android:textColor="@color/purple" android:id="@id/totalTimeTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" />
+    <com.gotokeep.keep.kt.business.kitbit.mvp.view.HRZoneRatioView android:id="@id/hrZoneRatioView" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="24.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/hrZoneItemContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.HRZoneView>

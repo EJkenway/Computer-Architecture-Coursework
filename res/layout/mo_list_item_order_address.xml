@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_order_address" android:background="?android:selectableItemBackground" android:paddingTop="19.0dip" android:paddingBottom="19.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/selector_item_name_text_color" android:id="@id/text_order_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginBottom="4.0dip" android:singleLine="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@drawable/selector_item_name_text_color" android:id="@id/text_order_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/img_order_arrow" android:layout_below="@id/text_order_phone" android:layout_alignLeft="@id/text_order_phone" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/color_note" android:id="@id/text_order_address_clearance" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/clearance_name" android:singleLine="true" android:drawableLeft="@drawable/mo_ic_order_address_note" android:drawablePadding="4.0dip" android:layout_below="@id/text_order_address" />
+        <ImageView android:id="@id/img_order_arrow" android:layout_centerVertical="true" style="@style/SettingItemArrow" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_order_address_tip" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@drawable/selector_item_name_text_color" android:id="@id/text_order_address_tip" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/input_address_info" android:layout_centerVertical="true" />
+        <ImageView android:layout_centerVertical="true" style="@style/SettingItemArrow" />
+    </RelativeLayout>
+    <View android:id="@id/bottom_line" style="@style/StoreDivider" />
+</LinearLayout>

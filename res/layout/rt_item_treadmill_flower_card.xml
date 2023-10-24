@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.TreadmillFlowerCardView android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_treadmill_flower" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.FlowerBackground android:id="@id/view_flower" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gotokeep.keep.rt.business.summary.widget.WaterFlowerBackground android:id="@id/view_flower_watermark" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:paddingBottom="70.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/layout_calibrate" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="40.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="18.0dip">
+            <View android:id="@id/view_calibrate" android:background="@drawable/rt_shape_calibrate_bg" android:layout_width="100.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_calibrate" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="45.0dip" android:layout_height="67.0dip" android:src="@drawable/rt_ic_log_summary_page_cup" android:contentDescription="@string/km_chinese" android:layout_alignParentEnd="true" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="64.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/text_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dash_dash" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/text_distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:text="@string/km_chinese" android:layout_alignBaseline="@id/text_distance" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/text_distance" />
+            <ImageView android:id="@id/btn_doubtful_tip" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/rt_icon_treadmill_data_abnormal" android:scaleType="fitXY" android:layout_above="@id/text_distance_unit" android:contentDescription="@string/doubtful" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/text_distance" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/white_30" android:ellipsize="end" android:id="@id/text_type" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_treadmill_calibrate_title" android:maxLines="1" android:layout_marginEnd="105.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.TreadmillFlowerCardView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="40.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/imgCheck" android:visibility="visible" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/su_ic_camera_check" android:scaleType="centerInside" />
+</merge>

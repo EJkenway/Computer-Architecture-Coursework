@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "AutoConfig";
+
+message AutoMotionRecogCfg {
+    uint32 enable         = 1 ; // auto motion recognition enable setting
+    uint32 interval_min   = 2 ; // notify interval if manual ignore
+    uint32 time_threshold = 3 ;
+}

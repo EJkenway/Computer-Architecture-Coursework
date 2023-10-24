@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/chooseHandLayout" layout="@layout/kt_layout_kitbit_choose_hand" />
+    <include android:id="@id/wearingGuideLayout" android:visibility="gone" layout="@layout/kt_layout_kitbit_wearing_guide" />
+</FrameLayout>

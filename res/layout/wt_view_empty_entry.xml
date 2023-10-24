@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutHint" android:paddingTop="19.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="28.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/hintIndicatorView" android:background="@color/white_24" android:layout_width="0.0dip" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/imgHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/icon_camera_filled_gray" app:layout_constraintBottom_toTopOf="@id/hintIndicatorView" app:layout_constraintEnd_toEndOf="parent" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/white_38" android:id="@id/textHint" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/training_log_entry_tip" app:layout_constraintBottom_toBottomOf="@id/imgHint" app:layout_constraintEnd_toStartOf="@id/imgHint" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/imgHint" />
+</androidx.constraintlayout.widget.ConstraintLayout>

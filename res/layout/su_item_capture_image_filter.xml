@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.capture.mvp.view.CaptureImageFilterItemView android:layout_width="82.0dip" android:layout_height="82.0dip" app:round_corner="4.0dip" app:stroke_color="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgCover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/textFilter" android:background="@color/black_50" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="@string/effect" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</com.gotokeep.keep.pb.capture.mvp.view.CaptureImageFilterItemView>

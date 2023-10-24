@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/multiVideoBarrageInputContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="30.0dip" android:layout_marginStart="132.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/white_60" android:gravity="center_vertical" android:id="@id/textBarrageInput" android:background="@drawable/kip_bg_white20_solid_corner_17dp" android:paddingLeft="16.0dip" android:layout_width="140.0dip" android:layout_height="34.0dip" android:text="@string/train_barrage_input_string" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/btnBarrageSwitch" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/kip_icon_bullet_on" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/textBarrageInput" />
+</androidx.constraintlayout.widget.ConstraintLayout>

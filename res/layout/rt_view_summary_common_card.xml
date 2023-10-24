@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryCommonCardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutCommonDisplayTitle" layout="@layout/rt_view_summary_card_title" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="142.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip">
+        <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/layoutDisplayBg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:round_corner="16.0dip" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgCommonDisplay" android:layout_width="@dimen/rt_summary_common_card_pic_width" android:layout_height="@dimen/rt_summary_common_card_pic_height" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/textCommonDisplayTitle" android:layout_width="170.0dip" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:maxLines="1" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/black_38" android:ellipsize="end" android:id="@id/textCommonDisplayDescription" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="2" app:layout_constraintEnd_toEndOf="@id/textCommonDisplayTitle" app:layout_constraintStart_toStartOf="@id/textCommonDisplayTitle" app:layout_constraintTop_toBottomOf="@id/textCommonDisplayTitle" />
+        <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/layoutCommonDisplayButton" android:layout_width="78.0dip" android:layout_height="32.0dip" android:layout_marginBottom="13.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/textCommonDisplayTitle" app:round_corner="16.0dip">
+            <TextView android:textSize="13.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/textCommonDisplayButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_centerInParent="true" />
+        </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryCommonCardView>

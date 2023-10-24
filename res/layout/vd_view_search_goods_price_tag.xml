@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.vd.mvp.result.view.SearchGoodsPriceTagView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgSpike" android:layout_width="62.0dip" android:layout_height="14.0dip" android:src="@drawable/vd_store_goods_cart_limit_spike" />
+    <TextView android:textSize="9.0sp" android:textColor="@color/color_c48c41" android:id="@id/textPrimePrice" android:background="@drawable/vd_bg_f8efe3_conner_4dp" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vd_member_price" />
+    <TextView android:textSize="9.0sp" android:textColor="@color/color_ff666f" android:id="@id/textImmediateMinus" android:background="@drawable/vd_bg_ffeef0_conner_4dp" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vd_limit_minus" />
+</com.gotokeep.keep.vd.mvp.result.view.SearchGoodsPriceTagView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurFMTrainingPanelView android:background="@color/black_40" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kt.business.puncheur.widget.PuncheurResistancePanel android:id="@id/resistancePanel" android:layout_width="@dimen/kt_puncheur_resistance_panel_size" android:layout_height="@dimen/kt_puncheur_resistance_panel_size" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/textPanelResistance" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurFMTrainingPanelView>

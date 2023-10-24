@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.widget.HeartRateRunningView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.kt.business.treadmill.widget.HeartRateRingView android:layout_gravity="center" android:id="@id/heart_rate_ring" android:layout_width="fill_parent" android:layout_height="240.0dip" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="72.0sp" android:textColor="@color/light_blue" android:id="@id/heart_rate_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/heart_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/icon_heart_rate_green" android:layout_toRightOf="@id/heart_rate_value" android:layout_alignBottom="@id/heart_rate_value" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="@string/bpm" android:layout_below="@id/heart_rate_value" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/labels_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/kt_item_keloton_heart_rate_label" />
+        <include layout="@layout/kt_item_keloton_heart_rate_label" />
+        <include layout="@layout/kt_item_keloton_heart_rate_label" />
+        <include layout="@layout/kt_item_keloton_heart_rate_label" />
+        <include layout="@layout/kt_item_keloton_heart_rate_label" />
+        <include layout="@layout/kt_item_keloton_heart_rate_label" />
+    </FrameLayout>
+</com.gotokeep.keep.kt.business.treadmill.widget.HeartRateRunningView>

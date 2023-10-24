@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.ad.mvp.view.AdEntryBottomView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/containerAd" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:id="@id/textAdSymbol" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/advertisement" android:layout_weight="1.0" android:layout_marginStart="14.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/light_green" android:gravity="end" android:id="@id/textAdJump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_out_more" android:singleLine="true" android:drawablePadding="8.0dip" android:drawableEnd="@drawable/icon_ad_jump_arrow" android:layout_marginEnd="14.0dip" />
+</com.gotokeep.keep.ad.mvp.view.AdEntryBottomView>

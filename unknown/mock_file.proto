@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "MockFileOuter";
+
+// mock 运动、睡眠日志，用于测试
+message MockFileConfig {
+  // 配置类型：无效值 0；单次运动 1；多次运动 2；单次睡眠3 ；停止置位 4
+  uint32 config = 1;
+  // 运动（单次/多次 睡眠不设）类型，详见 [文件类型定义]
+  uint32 sport_type = 2;
+  // 开始时间（单次/多次/睡眠）（单位：秒）
+  uint32 start_utc = 3;
+  // 单次运动、睡眠时长/多次运动周期；（决定了结束时间)（单位：秒）
+  uint32 duration_sec = 4;
+  // 多次运动每次运动开始生成的间隔时间（多次运动专有）（单位：秒）
+  uint32 repeat_interval_sec = 5;
+}

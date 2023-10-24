@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.health.mvp.view.KeepKitbitGoalChartView android:background="@drawable/bg_corner_white_10dp" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:text="@string/km_active_calorie" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_33_38" android:id="@id/textUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:layout_constraintBaseline_toBaselineOf="@id/textTitle" app:layout_constraintEnd_toEndOf="parent" />
+    <FrameLayout android:id="@id/containerChart" android:layout_width="fill_parent" android:layout_height="170.0dip" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle">
+        <com.gotokeep.keep.km.health.chart.KeepBarChart android:id="@id/barChart" android:layout_width="fill_parent" android:layout_height="170.0dip" />
+        <include android:id="@id/marker" android:visibility="invisible" layout="@layout/km_view_kitbit_bar_chart_marker" />
+    </FrameLayout>
+</com.gotokeep.keep.km.health.mvp.view.KeepKitbitGoalChartView>

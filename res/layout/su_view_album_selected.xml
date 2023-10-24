@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.capture.mvp.view.AlbumSelectedView android:background="@color/gray_22" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/su_album_selected_layout_height" android:layout_alignParentBottom="true" app:layout_constraintTop_toBottomOf="@id/viewTitle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/c_gray" android:id="@id/textCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="18.0dip" android:layout_marginStart="14.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/selectedRecyclerView" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textCount" />
+</com.gotokeep.keep.pb.capture.mvp.view.AlbumSelectedView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.logsync.mvp.view.AutoRecordOptionView android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgOptionIcon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/dc_icon_setting_auto_record" />
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/black_70" android:id="@id/textOptionTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auto_gene_record" android:layout_marginStart="15.0dip" android:layout_toStartOf="@id/textOptionOpen" android:layout_toEndOf="@id/imgOptionIcon" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/black_38" android:id="@id/textOptionContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dc_record_sport_any_time" android:layout_below="@id/textOptionTitle" android:layout_marginStart="15.0dip" android:layout_toStartOf="@id/textOptionOpen" android:layout_toEndOf="@id/imgOptionIcon" />
+    <TextView android:textSize="12.0sp" android:id="@id/textOptionOpen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@id/imgOptionArrow" />
+    <ImageView android:id="@id/imgOptionArrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/icon_arrow_right" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.dc.business.logsync.mvp.view.AutoRecordOptionView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/indicator" />
+    <com.gotokeep.keep.widget.DotIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:di_color="#ffefefef" app:di_color_selected="@color/six_gray" app:di_margin="4.0dip" app:di_size="4.0dip" app:di_size_selected="6.0dip" />
+</RelativeLayout>

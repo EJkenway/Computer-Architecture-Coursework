@@ -1,0 +1,427 @@
+.class public final enum Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+.super Ljava/lang/Enum;
+.source "PersonalRecordViewModel.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "TrainingType"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/a;
+.end annotation
+
+
+# static fields
+.field public static final enum q:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+.field public static final enum r:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+.field public static final enum s:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+.field public static final enum t:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+.field public static final enum u:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+.field public static final enum v:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+.field public static final enum w:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+.field public static final synthetic x:[Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+
+# instance fields
+.field public final g:Ljava/lang/String;
+
+.field public final h:I
+
+.field public final i:I
+
+.field public final j:I
+
+.field public final n:I
+
+.field public final o:I
+
+.field public final p:I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 27
+
+    const/4 v0, 0x7
+
+    new-array v0, v0, [Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    new-instance v11, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    .line 1
+    sget v5, Lmv1/f;->O0:I
+
+    .line 2
+    sget v22, Lmv1/f;->B:I
+
+    .line 3
+    sget v23, Lmv1/f;->P0:I
+
+    .line 4
+    sget v24, Lmv1/f;->Q0:I
+
+    .line 5
+    sget v9, Lmv1/f;->N0:I
+
+    const-string v2, "TRAINING"
+
+    const/4 v3, 0x0
+
+    const-string v4, "training"
+
+    move-object v1, v11
+
+    move/from16 v6, v22
+
+    move/from16 v7, v23
+
+    move/from16 v8, v24
+
+    move/from16 v10, v22
+
+    .line 6
+    invoke-direct/range {v1 .. v10}, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;-><init>(Ljava/lang/String;ILjava/lang/String;IIIIII)V
+
+    sput-object v11, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->q:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    const/4 v1, 0x0
+
+    aput-object v11, v0, v1
+
+    new-instance v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    .line 7
+    sget v16, Lmv1/f;->H0:I
+
+    .line 8
+    sget v25, Lmv1/f;->u1:I
+
+    .line 9
+    sget v26, Lmv1/f;->K0:I
+
+    .line 10
+    sget v20, Lmv1/f;->G0:I
+
+    const-string v13, "CYCLING"
+
+    const/4 v14, 0x1
+
+    const-string v15, "cycling"
+
+    move-object v12, v1
+
+    move/from16 v17, v25
+
+    move/from16 v18, v26
+
+    move/from16 v19, v25
+
+    move/from16 v21, v25
+
+    .line 11
+    invoke-direct/range {v12 .. v21}, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;-><init>(Ljava/lang/String;ILjava/lang/String;IIIIII)V
+
+    sput-object v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->r:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    const/4 v2, 0x1
+
+    aput-object v1, v0, v2
+
+    new-instance v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    .line 12
+    sget v6, Lmv1/f;->J0:I
+
+    .line 13
+    sget v10, Lmv1/f;->I0:I
+
+    const-string v3, "HIKING"
+
+    const/4 v4, 0x2
+
+    const-string v5, "hiking"
+
+    move-object v2, v1
+
+    move/from16 v7, v25
+
+    move/from16 v8, v26
+
+    move/from16 v9, v25
+
+    move/from16 v11, v25
+
+    .line 14
+    invoke-direct/range {v2 .. v11}, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;-><init>(Ljava/lang/String;ILjava/lang/String;IIIIII)V
+
+    sput-object v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->s:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    const/4 v2, 0x2
+
+    aput-object v1, v0, v2
+
+    new-instance v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    .line 15
+    sget v6, Lmv1/f;->M0:I
+
+    .line 16
+    sget v10, Lmv1/f;->L0:I
+
+    const-string v3, "RUNNING"
+
+    const/4 v4, 0x3
+
+    const-string v5, "running"
+
+    move-object v2, v1
+
+    .line 17
+    invoke-direct/range {v2 .. v11}, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;-><init>(Ljava/lang/String;ILjava/lang/String;IIIIII)V
+
+    sput-object v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->t:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    const/4 v2, 0x3
+
+    aput-object v1, v0, v2
+
+    new-instance v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    .line 18
+    sget v16, Lmv1/f;->T0:I
+
+    .line 19
+    sget v18, Lmv1/f;->U0:I
+
+    .line 20
+    sget v19, Lmv1/f;->h:I
+
+    .line 21
+    sget v20, Lmv1/f;->S0:I
+
+    const-string v13, "YOGA"
+
+    const/4 v14, 0x4
+
+    const-string v15, "yoga"
+
+    move-object v12, v1
+
+    move/from16 v17, v22
+
+    move/from16 v21, v22
+
+    .line 22
+    invoke-direct/range {v12 .. v21}, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;-><init>(Ljava/lang/String;ILjava/lang/String;IIIIII)V
+
+    sput-object v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->u:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    const/4 v2, 0x4
+
+    aput-object v1, v0, v2
+
+    new-instance v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    .line 23
+    sget v20, Lmv1/f;->B0:I
+
+    const-string v13, "TOTALSPORT"
+
+    const/4 v14, 0x5
+
+    const-string v15, "sport"
+
+    move-object v12, v1
+
+    move/from16 v16, v20
+
+    move/from16 v18, v23
+
+    move/from16 v19, v24
+
+    .line 24
+    invoke-direct/range {v12 .. v21}, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;-><init>(Ljava/lang/String;ILjava/lang/String;IIIIII)V
+
+    sput-object v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->v:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    const/4 v2, 0x5
+
+    aput-object v1, v0, v2
+
+    new-instance v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    .line 25
+    sget v20, Lmv1/f;->R0:I
+
+    .line 26
+    sget v21, Lmv1/f;->i:I
+
+    const-string v13, "TOTALRECORD"
+
+    const/4 v14, 0x6
+
+    const-string v15, "record"
+
+    move-object v12, v1
+
+    move/from16 v16, v20
+
+    move/from16 v17, v21
+
+    .line 27
+    invoke-direct/range {v12 .. v21}, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;-><init>(Ljava/lang/String;ILjava/lang/String;IIIIII)V
+
+    sput-object v1, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->w:Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    const/4 v2, 0x6
+
+    aput-object v1, v0, v2
+
+    sput-object v0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->x:[Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;ILjava/lang/String;IIIIII)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "IIIIII)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    iput-object p3, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->g:Ljava/lang/String;
+
+    iput p4, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->h:I
+
+    iput p5, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->i:I
+
+    iput p6, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->j:I
+
+    iput p7, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->n:I
+
+    iput p8, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->o:I
+
+    iput p9, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->p:I
+
+    return-void
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+    .locals 1
+
+    const-class v0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    return-object p0
+.end method
+
+.method public static values()[Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+    .locals 1
+
+    sget-object v0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->x:[Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    invoke-virtual {v0}, [Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final a()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->o:I
+
+    return v0
+.end method
+
+.method public final b()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->p:I
+
+    return v0
+.end method
+
+.method public final c()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->j:I
+
+    return v0
+.end method
+
+.method public final d()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->n:I
+
+    return v0
+.end method
+
+.method public final e()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->h:I
+
+    return v0
+.end method
+
+.method public final f()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->i:I
+
+    return v0
+.end method
+
+.method public final g()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/profile/personalpage/viewmodel/PersonalRecordViewModel$TrainingType;->g:Ljava/lang/String;
+
+    return-object v0
+.end method

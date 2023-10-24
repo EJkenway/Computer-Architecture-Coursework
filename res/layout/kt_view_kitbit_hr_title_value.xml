@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:gravity="center" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/kt_highest" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/titleImage" android:padding="2.0dip" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/titleTextView" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/purple" android:gravity="center" android:id="@id/hrValueTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="168" android:layout_below="@id/titleTextView" android:layout_centerHorizontal="true" />
+</RelativeLayout>

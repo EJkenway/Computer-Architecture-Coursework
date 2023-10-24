@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.KitbitMainSettingUnbindView android:background="@drawable/kt_bg_conner_8dp_boader_000000" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_54dp" android:layout_marginLeft="@dimen/dimen_16dp" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginRight="@dimen/dimen_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/color_ff666f" android:id="@id/textKitbitUnbind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_unbind" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.KitbitMainSettingUnbindView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.follow.view.TimelineFollowVideoHeaderView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/textTipsView" android:paddingTop="8.0dip" android:paddingBottom="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/gray_33" android:paddingTop="20.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/recommend_name" android:layout_marginHorizontal="16.0dip" />
+</com.gotokeep.keep.su_core.timeline.mvp.follow.view.TimelineFollowVideoHeaderView>

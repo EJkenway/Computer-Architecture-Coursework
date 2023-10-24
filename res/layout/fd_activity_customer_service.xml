@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBar" app:background_color="@color/white" app:left_icon="@drawable/icon_arrow_left_black" app:title_color="@color/gray_33" style="@style/ItemCustomTitleBar" />
+    <View android:id="@id/divider" android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/titleBar" />
+    <FrameLayout android:id="@id/layoutFragmentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider" />
+    <RelativeLayout android:gravity="center" android:id="@id/sdkIconContainer" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_alignTop="@id/titleBar" android:layout_alignBottom="@id/titleBar" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

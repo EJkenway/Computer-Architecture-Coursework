@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@color/main_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/vKitbitCalorieHeader" android:visibility="gone" layout="@layout/rt_view_target_calorie_header" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/rt_target_value_font_size" android:textColor="@color/white_100" android:ellipsize="end" android:id="@id/text_target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rt_target_set_top_view_margin_top" android:layout_marginBottom="@dimen/rt_target_set_value_margin" android:maxLines="1" android:layout_marginStart="72.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:id="@id/text_target_unit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="@string/km_chinese" android:layout_alignBaseline="@id/text_target" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/text_target" />
+    <ImageView android:id="@id/img_food" android:layout_width="25.0dip" android:layout_height="25.0dip" android:scaleType="fitXY" android:layout_alignBottom="@id/text_target" android:layout_marginStart="25.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:id="@id/text_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_target" android:layout_marginStart="72.0dip" />
+    <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:textSize="12.0sp" android:gravity="center" android:id="@id/text_definition" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_target" android:layout_marginStart="72.0dip" app:kBgDisableColor="@color/gray_80" app:kBgNormalColor="@color/white" app:kBgPressedColor="@color/gray_dd" app:kOutline="true" app:kPaddingBottom="5.0dip" app:kPaddingLeft="15.0dip" app:kPaddingRight="15.0dip" app:kPaddingTop="5.0dip" app:kStyle="small" app:kText="@string/rt_target_definition" app:kTextColor="@color/white" />
+    <View android:id="@id/divider" android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/rt_target_set_divider_view_margin_top" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider" android:layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        <View android:background="@color/light_green" android:layout_width="24.0dip" android:layout_height="2.0dip" android:layout_centerVertical="true" android:layout_marginStart="27.0dip" />
+    </RelativeLayout>
+    <include android:id="@id/layout_edit_group" android:visibility="invisible" layout="@layout/rt_definition_edit_distance" />
+</RelativeLayout>

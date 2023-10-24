@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layoutTitleBack" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/imageCompareBack" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_18dp" android:src="@drawable/icon_close_lined_dark" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_20dp" />
+    </RelativeLayout>
+    <com.gotokeep.keep.kt.business.configwifi.widget.ConfigWifiConnectView android:id="@id/connectViewConfigWifi" android:layout_width="250.0dip" android:layout_height="250.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

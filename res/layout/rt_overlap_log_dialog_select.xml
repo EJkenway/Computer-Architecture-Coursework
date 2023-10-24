@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/textContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3.0sp" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:id="@id/overlapScroll" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:overScrollMode="never" app:layout_constraintTop_toBottomOf="@id/textContent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutOverlapList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

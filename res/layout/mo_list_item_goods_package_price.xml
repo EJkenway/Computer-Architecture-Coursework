@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/sub_and_add_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/text_item_package_max_num" android:layout_centerVertical="true" style="@style/StoreTotalTextView" />
+        <ImageButton android:id="@id/btn_item_package_number_reduce" android:background="@null" android:paddingLeft="14.0dip" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_number_reduce" android:layout_toLeftOf="@id/text_item_package_buy_number" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/text_item_package_buy_number" android:maxWidth="30.0dip" android:minWidth="30.0dip" android:text="1" android:layout_toLeftOf="@id/btn_item_package_number_add" android:layout_centerVertical="true" style="@style/StoreSingleLineTextView" />
+        <ImageButton android:id="@id/btn_item_package_number_add" android:background="@null" android:paddingTop="14.0dip" android:paddingRight="14.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_number_add" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_package_original" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/original_price" style="@style/StoreTotalTextView" />
+        <TextView android:id="@id/text_item_package_original_price" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" style="@style/StoreTotalTextView" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_package_save" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/mo_save" style="@style/StoreTotalTextView" />
+        <TextView android:id="@id/text_item_package_save_price" android:layout_marginRight="14.0dip" android:text="@string/zero" android:layout_alignParentRight="true" style="@style/StoreTotalTextView" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_package_total" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/combo_title" android:text="@string/combo_price" style="@style/StoreTotalTextView" />
+        <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/pink" android:id="@id/text_item_total_price" android:layout_marginRight="14.0dip" android:text="@string/zero" android:layout_alignParentRight="true" style="@style/StoreTotalTextView" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/rt_bg_live_avatar_bubbles" android:layout_width="wrap_content" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imgAvatar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/textContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

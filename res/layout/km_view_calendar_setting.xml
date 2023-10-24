@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.CalendarSettingView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/three_gray" android:layout_gravity="center_vertical" android:id="@id/tvSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" />
+    <ImageView android:id="@id/imgArrow" android:layout_width="8.0dip" android:layout_height="14.0dip" android:src="@drawable/km_ic_calendar_setting_right_arrow" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.km.suit.mvp.view.CalendarSettingView>

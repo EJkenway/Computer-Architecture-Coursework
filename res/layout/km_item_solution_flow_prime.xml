@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.prime.PrimeSolutionFlowItemView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imvIcon" android:layout_width="fill_parent" android:layout_height="105.0dip" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_22" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/dimen_8dp" android:layout_marginRight="10.0dip" android:maxLines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imvIcon" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/black_60" android:ellipsize="end" android:id="@id/textDesc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4dp" android:maxLines="1" app:layout_constraintEnd_toEndOf="@id/textTitle" app:layout_constraintStart_toStartOf="@id/textTitle" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+</com.gotokeep.keep.km.suit.mvp.view.prime.PrimeSolutionFlowItemView>

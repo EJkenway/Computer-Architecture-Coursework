@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.hotcourse.mvp.view.FitnessDiscoverWorkoutView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutCourse" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/page_horizontal_margin" android:layout_marginEnd="@dimen/page_horizontal_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/wt_item_discover_workout" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_16sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textRank" android:background="@drawable/wt_tag_bg_normal_rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="24.0dip" android:drawablePadding="4.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" app:layout_constraintEnd_toEndOf="@id/layoutCourse" app:layout_constraintTop_toTopOf="@id/layoutCourse" />
+</com.gotokeep.keep.wt.business.hotcourse.mvp.view.FitnessDiscoverWorkoutView>

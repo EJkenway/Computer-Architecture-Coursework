@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.outdoor.sdk.ViewEditBottomInfoView android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_alignParentBottom="true" android:paddingStart="28.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/containerChart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:scaleX="0.0" android:scaleY="0.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutDataContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutHeightChart" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_70" android:id="@id/tvHeightChartTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:layout_marginBottom="4.0dip" android:text="@string/pb_view_edit_altitude" />
+                <com.gotokeep.keep.pb.outdoor.mvp.view.VideoChartView android:id="@id/lineChartHeight" android:layout_width="112.0dip" android:layout_height="56.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutHeartRate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="22.0dip" app:layout_constraintStart_toEndOf="@id/layoutHeightChart" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginStart="0.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_70" android:id="@id/tvHeartRateChartTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:layout_marginBottom="4.0dip" android:text="@string/pb_view_edit_heart_rate" />
+                <com.gotokeep.keep.pb.outdoor.mvp.view.VideoChartView android:id="@id/lineChartHeartRate" android:layout_width="112.0dip" android:layout_height="56.0dip" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/imgLogo" android:layout_width="76.0dip" android:layout_height="24.0dip" android:src="@drawable/pb_video_record_logo" android:layout_alignParentBottom="true" android:alpha="0.0" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.pb.outdoor.sdk.ViewEditBottomInfoView>

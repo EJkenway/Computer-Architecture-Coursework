@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@color/purple" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:paddingTop="50.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="300.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/wrapper_content_train_more" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/vAudioVolume" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_training_settings_volume_audio" />
+                <com.gotokeep.keep.refactor.business.music.MusicVolumeBar android:id="@id/vbAudio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" />
+                <View android:background="@color/white_20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="20.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/vVideoVolume" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_training_settings_volume_video" />
+                <com.gotokeep.keep.refactor.business.music.MusicVolumeBar android:id="@id/vbVideo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" />
+                <View android:background="@color/white_20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="20.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/vBgTraining" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/kt_puncheur_training_bg_training" android:layout_weight="1.0" />
+                    <com.gotokeep.keep.commonui.view.KeepSwitchButton android:id="@id/switchBgTraining" style="@style/KeepSwitch" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/text_hint_background_training" android:layout_width="190.0dip" android:layout_height="16.5dip" android:layout_marginTop="25.0dip" android:text="@string/kt_puncheur_training_bg_training_hint" />
+                <View android:background="@color/white_20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="30.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/v_screen_lock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/kt_puncheur_training_screen_lock" android:layout_weight="1.0" />
+                <com.gotokeep.keep.commonui.view.KeepSwitchButton android:id="@id/switchScreenLock" style="@style/KeepSwitch" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:id="@id/btnClose" android:padding="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/ic_close_big" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="11.0dip" android:layout_alignParentStart="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/kt_keepkit" android:layout_centerHorizontal="true" />
+</RelativeLayout>

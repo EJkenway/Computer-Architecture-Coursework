@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="pause_next_preview_height">76.0dip</dimen>
+    <dimen name="pause_round_button_size">104.0dip</dimen>
+    <dimen name="rest_circular_progress_size">200.0dip</dimen>
+    <dimen name="rest_circular_progress_size_land">160.0dip</dimen>
+    <dimen name="rest_count_down_font_size">90.0dip</dimen>
+    <dimen name="te_rest_circular_progress_size_land">160.0dip</dimen>
+    <dimen name="te_rest_count_down_font_size">90.0dip</dimen>
+    <dimen name="te_training_index_medium_text_size">27.0dip</dimen>
+    <dimen name="te_training_landscape_pause_button_size">98.0dip</dimen>
+    <dimen name="te_training_landscape_skip_button_margin">8.0dip</dimen>
+    <dimen name="te_training_landscape_skip_button_size">96.0dip</dimen>
+    <dimen name="te_training_portrait_horizontal_margin">24.0dip</dimen>
+    <dimen name="te_training_round_button_size">56.0dip</dimen>
+    <dimen name="te_training_settings_button_top_margin">36.0dip</dimen>
+    <dimen name="training_index_medium_text_size">27.0dip</dimen>
+    <dimen name="training_landscape_skip_button_size">96.0dip</dimen>
+    <dimen name="training_landscape_vertical_margin">32.0dip</dimen>
+    <dimen name="training_large_text_size">54.0dip</dimen>
+    <dimen name="training_portrait_horizontal_margin">24.0dip</dimen>
+    <dimen name="training_portrait_input_text_margin_bottom">28.0dip</dimen>
+    <dimen name="training_round_button_size">56.0dip</dimen>
+    <dimen name="training_round_button_size_land">56.0dip</dimen>
+    <dimen name="training_round_button_vertical_margin">30.0dip</dimen>
+    <dimen name="training_settings_button_top_margin">36.0dip</dimen>
+    <dimen name="training_text_overlap_margin">-16.0dip</dimen>
+</resources>

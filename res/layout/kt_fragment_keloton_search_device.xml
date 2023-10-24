@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/view_stub_keloton_smartconfig_guide" android:layout="@layout/kt_view_keloton_connect_treadmill" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" />
+    <ViewStub android:id="@id/view_stub_kibra_smartconfig_guide" android:layout="@layout/kt_view_kibra_smartconfig_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" />
+    <include android:id="@id/smartconfig_guide_reset" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" layout="@layout/kt_view_keloton_connect_treadmill_reset" />
+    <ViewStub android:id="@id/view_stub_keloton_apconfig_guide" android:layout="@layout/kt_view_keloton_change_mode" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" />
+    <ViewStub android:id="@id/view_stub_kibra_apconfig_guide" android:layout="@layout/kt_view_kibra_change_mode" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" />
+    <ViewStub android:id="@id/view_stub_keloton_searching" android:layout="@layout/kt_view_keloton_searching" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_kibra_searching" android:layout="@layout/kt_view_kibra_searching" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_keloton_ap_not_found" android:layout="@layout/kt_view_keloton_ap_not_found" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" />
+    <ViewStub android:id="@id/view_stub_kibra_ap_not_found" android:layout="@layout/kt_view_kibra_ap_not_found" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/kt_title_bar_height" />
+</FrameLayout>

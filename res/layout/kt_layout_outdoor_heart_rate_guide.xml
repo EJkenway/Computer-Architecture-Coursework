@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="219.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.kt.kitos.heartrate.guide.widget.HeartRateFenceArcView android:id="@id/viewArc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignBottom="@id/viewArc">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:id="@id/tvNoValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_no_heart_rate" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="80.0sp" android:textColor="@color/white" android:id="@id/tvCurrentValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dash_dash" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white_50" android:id="@id/tvCurrentUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bpm" android:layout_alignBaseline="@id/tvCurrentValue" android:layout_marginStart="3.0dip" android:layout_toEndOf="@id/tvCurrentValue" />
+            <ImageView android:id="@id/ivHeartRate" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/rt_training_heart" android:layout_above="@id/tvCurrentUnit" android:layout_alignStart="@id/tvCurrentUnit" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutCourseList" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:id="@id/tvRecommend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_recommend_heart_rate" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/sea_green" android:id="@id/tvRecommendValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/imageLiving" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_fileName="kl_live_white.json" app:lottie_loop="true" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/textLiveStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" android:layout_marginEnd="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/imageLiving" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginStart="6.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

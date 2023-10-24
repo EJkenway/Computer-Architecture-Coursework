@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.uilib.shimmer.ShimmerTextView android:textSize="25.0sp" android:textColor="#ff444444" android:id="@id/swipe_text_to_unlock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:text="@string/swipe_to_unlock" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

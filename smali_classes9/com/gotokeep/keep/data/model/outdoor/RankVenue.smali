@@ -1,0 +1,48 @@
+.class public final Lcom/gotokeep/keep/data/model/outdoor/RankVenue;
+.super Ljava/lang/Object;
+.source "OutdoorSummaryRank.kt"
+
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation runtime Lkotlin/a;
+.end annotation
+
+
+# instance fields
+.field private final authorization:Z
+
+.field private final dialogDesc:Ljava/lang/String;
+
+.field private final venueId:Ljava/lang/String;
+
+
+# virtual methods
+.method public final a()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/gotokeep/keep/data/model/outdoor/RankVenue;->authorization:Z
+
+    return v0
+.end method
+
+.method public final b()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/outdoor/RankVenue;->dialogDesc:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final c()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/outdoor/RankVenue;->venueId:Ljava/lang/String;
+
+    return-object v0
+.end method

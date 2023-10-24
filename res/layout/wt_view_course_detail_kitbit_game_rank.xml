@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseDetailKitbitGameRankView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.avatar.KeepUserAvatarView android:id="@id/imgAvatar" android:layout_width="@dimen/dimen_20dp" android:layout_height="@dimen/dimen_20dp" app:avatar_img_margin="1.0dip" app:avatar_progress_bg_color="@color/white" app:avatar_progress_fg_color="@color/white" app:avatar_progress_width="1.0dip" />
+</com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseDetailKitbitGameRankView>

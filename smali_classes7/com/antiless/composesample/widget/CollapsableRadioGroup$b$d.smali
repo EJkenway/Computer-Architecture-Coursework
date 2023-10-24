@@ -1,0 +1,47 @@
+.class public final Lcom/antiless/composesample/widget/CollapsableRadioGroup$b$d;
+.super Lcom/antiless/composesample/widget/CollapsableRadioGroup$b;
+.source "CollapsableRadioGroup.kt"
+
+
+# annotations
+.annotation build Landroidx/compose/runtime/internal/StabilityInferred;
+    parameters = 0x0
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/antiless/composesample/widget/CollapsableRadioGroup$b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "d"
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/antiless/composesample/widget/CollapsableRadioGroup$b$d;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/antiless/composesample/widget/CollapsableRadioGroup$b$d;
+
+    invoke-direct {v0}, Lcom/antiless/composesample/widget/CollapsableRadioGroup$b$d;-><init>()V
+
+    sput-object v0, Lcom/antiless/composesample/widget/CollapsableRadioGroup$b$d;->a:Lcom/antiless/composesample/widget/CollapsableRadioGroup$b$d;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-direct {p0, v0}, Lcom/antiless/composesample/widget/CollapsableRadioGroup$b;-><init>(Lij3/h;)V
+
+    return-void
+.end method

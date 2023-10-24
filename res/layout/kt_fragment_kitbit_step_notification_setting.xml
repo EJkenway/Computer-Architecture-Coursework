@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:src="@drawable/img_notice_setting_guide" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemSwitchStepNotice" android:background="@android:color/white" android:layout_marginTop="12.0dip" app:mainText="@string/kt_notice_content_text" app:settingItemDesc="@string/kt_notice_setting_step_desc" style="@style/SettingItemSwitch" />
+</LinearLayout>

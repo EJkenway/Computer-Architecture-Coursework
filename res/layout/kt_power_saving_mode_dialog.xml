@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:layout_gravity="clip_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/kt_kitbit_setting_power_saving_mode_title" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:layout_gravity="clip_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kitbit_setting_power_saving_mode_remind" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.action.mvp.view.ActionDetailHeaderItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="210.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_action_detail_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_action_detail_cover" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/img_action_detail_preview" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="@dimen/general_page_margin_left_right" android:layout_marginBottom="@dimen/general_page_margin_left_right" android:src="@drawable/ic_portrait_training_video" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="28.0sp" android:textColor="@color/white" android:id="@id/text_action_detail_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/general_page_margin_left_right" android:layout_toLeftOf="@id/img_action_detail_preview" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/ShadowStyleMedium" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/text_action_detail_name" android:layout_alignLeft="@id/text_action_detail_name">
+        <ImageView android:id="@id/img_action_difficulty_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_white" />
+        <ImageView android:id="@id/img_action_difficulty_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/rating_white_normal" />
+        <ImageView android:id="@id/img_action_difficulty_three" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/rating_white_normal" />
+    </LinearLayout>
+</com.gotokeep.keep.wt.business.action.mvp.view.ActionDetailHeaderItemView>

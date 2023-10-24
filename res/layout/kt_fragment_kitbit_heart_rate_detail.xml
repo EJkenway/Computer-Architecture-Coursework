@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/kt_kitbit_bg_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.kt.business.common.widget.KitWebTitleBarView android:id="@id/headerView" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" />
+    <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

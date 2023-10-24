@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="5.5dip" android:paddingBottom="5.5dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/gray_99" android:id="@id/tvCommentName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/gray_99" android:id="@id/tvCommentCount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

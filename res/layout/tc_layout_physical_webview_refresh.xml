@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout_physical_refresh" android:background="@color/dark_brown_purple" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/image_fail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_loading_error_physical" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/text_fail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/loading_fail" android:layout_below="@id/image_fail" android:layout_centerHorizontal="true" />
+        <Button android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/button_refresh" android:background="@drawable/selector_find_refresh_btn" android:layout_width="97.0dip" android:layout_height="35.0dip" android:layout_marginTop="20.0dip" android:text="@string/click_to_refresh" android:layout_below="@id/text_fail" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,91 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "DoubleRing";
+
+message MorningNotify {
+    /**
+      * 晨起提醒使能开关
+      * 0 ：关闭
+      * 1 ：开启
+      * 默认开启
+      */
+    uint32 enable = 1;
+    /**
+      * 晨起提醒结束时间
+      * 单位分钟：min
+      * 默认值：600
+      */
+    uint32 time_start = 2;
+    /**
+      * 晨起提醒结束时间
+      * 单位分钟：min
+      * 默认值：600
+      */
+    uint32 time_end = 3;
+    /**
+      * 晨起提醒文案
+      * 最大长度 45 byte
+      */
+    bytes notify_str = 4;
+}
+
+message DoubleRingNotify {
+    /**
+      * 双环提醒使能开关
+      * 0 ：关闭
+      * 1 ：开启
+      * 默认开启
+      */
+    uint32 enable = 1;
+    /**
+      * 运动消耗目标
+      * 单位千卡
+      * 默认值：
+      */
+    uint32 calories_goal = 2;
+    /**
+      * 运动时长目标
+      * 单位分钟：min
+      * 默认值：
+      */
+    uint32 time_goal = 3;
+    /**
+      * 回顾提醒开始时间
+      * 单位分钟：min
+      * 默认值：360
+      */
+    uint32 back_start_time = 4;
+    /**
+      * 回顾提醒结束时间
+      * 单位分钟：min
+      * 默认值：719
+      */
+    uint32 back_end_time = 5;
+    /**
+      * 步数限制
+      * 默认值：100
+      */
+    uint32 limit_step = 6;
+    /**
+      * 双环达标较好的天数，不同文案提示
+      * 默认值：3
+      */
+    uint32 limit_both_goal_good = 7;
+    /**
+      * 双环达标很好的天数，不同文案提示
+      * 默认值：4
+      */
+    uint32 limit_both_goal_better = 8;
+    /**
+      * 午间提醒时刻
+      * 单位：分钟
+      * 默认值：720
+      */
+    uint32 afternoon_remind_time = 9;
+    /**
+      * 晚间提醒时刻
+      * 单位：分钟
+      * 默认值：1200
+      */
+    uint32 evening_remind_time = 10;
+}

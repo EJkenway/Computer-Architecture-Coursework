@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryChartDataItemView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textDataName" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBaseline_toBaselineOf="@id/textDataValue" app:layout_constraintStart_toStartOf="parent" />
+    <com.gotokeep.keep.rt.business.summaryv2.widget.OutdoorFontTextView android:textSize="24.0sp" android:textColor="@color/black" android:id="@id/textDataValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constraintStart_toEndOf="@id/textDataName" app:textFont="bold" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black" android:id="@id/textDataUnit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constraintBaseline_toBaselineOf="@id/textDataValue" app:layout_constraintStart_toEndOf="@id/textDataValue" />
+</com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryChartDataItemView>

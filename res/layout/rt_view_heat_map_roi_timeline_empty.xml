@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemEmptyView android:orientation="vertical" android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/rt_icon_poi_timeline_empty" android:layout_width="30.0dip" android:layout_height="31.0dip" android:layout_marginTop="135.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/tab_white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/rt_poi_timeline_empty" />
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemEmptyView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textStyle="bold" android:textColor="@color/color_6d51f4" android:id="@id/stageContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="center" android:id="@id/stageLine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/stageContent" android:layout_alignBottom="@id/stageContent" android:layout_marginStart="@dimen/dimen_14dp" android:layout_toEndOf="@id/stageContent">
+        <ImageView android:background="@color/color_6d51f4" android:layout_width="51.0dip" android:layout_height="1.0dip" android:contentDescription="@string/empty" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/color_6d51f4" android:id="@id/stageTimeContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4dp" android:layout_below="@id/stageContent" />
+</merge>

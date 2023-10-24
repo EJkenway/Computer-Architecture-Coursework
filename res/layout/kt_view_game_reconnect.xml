@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.kitos.heartrate.guide.widget.TrainReconnectView android:background="@drawable/bg_multi_video_control_top" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@drawable/kt_ic_game_reconnect_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen_4dp" app:layout_constraintBottom_toBottomOf="@id/textReconnect" app:layout_constraintEnd_toStartOf="@id/textReconnect" app:layout_constraintTop_toTopOf="@id/textReconnect" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/white" android:id="@id/textReconnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_70" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.kt.kitos.heartrate.guide.widget.TrainReconnectView>

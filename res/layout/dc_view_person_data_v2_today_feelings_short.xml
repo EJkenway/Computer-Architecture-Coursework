@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataV2TodayFeelingsShortView android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="92.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.ExposureView android:id="@id/exposureView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:orientation="horizontal" android:id="@id/layoutFeelings" android:layout_width="wrap_content" android:layout_height="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/color_9e9e9e" android:orientation="horizontal" android:id="@id/textEmpty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/dc_today_empty" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/imgArrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/dc_ic_gray_more" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataV2TodayFeelingsShortView>

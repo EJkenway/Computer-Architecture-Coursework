@@ -1,0 +1,291 @@
+.class public final Lcom/tencent/mapsdk/internal/ss$141;
+.super Ljava/lang/Object;
+.source "TMS"
+
+# interfaces
+.implements Lcom/tencent/map/tools/CallbackRunnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mapsdk/internal/ss;->a(Lcom/tencent/mapsdk/internal/ov;)I
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/tencent/map/tools/CallbackRunnable<",
+        "Ljava/lang/Integer;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/tencent/mapsdk/internal/ov;
+
+.field public final synthetic b:Lcom/tencent/mapsdk/internal/ss;
+
+
+# direct methods
+.method public constructor <init>(Lcom/tencent/mapsdk/internal/ss;Lcom/tencent/mapsdk/internal/ov;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/tencent/mapsdk/internal/ss$141;->b:Lcom/tencent/mapsdk/internal/ss;
+
+    iput-object p2, p0, Lcom/tencent/mapsdk/internal/ss$141;->a:Lcom/tencent/mapsdk/internal/ov;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method private a()Ljava/lang/Integer;
+    .locals 23
+
+    move-object/from16 v0, p0
+
+    .line 1
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->b:Lcom/tencent/mapsdk/internal/ss;
+
+    invoke-static {v1}, Lcom/tencent/mapsdk/internal/ss;->b(Lcom/tencent/mapsdk/internal/ss;)J
+
+    move-result-wide v1
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v5, v3, v1
+
+    if-nez v5, :cond_0
+
+    const/4 v1, 0x0
+
+    .line 2
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    return-object v1
+
+    .line 3
+    :cond_0
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->b:Lcom/tencent/mapsdk/internal/ss;
+
+    invoke-static {v1}, Lcom/tencent/mapsdk/internal/ss;->c(Lcom/tencent/mapsdk/internal/ss;)Lcom/tencent/mapsdk/engine/jni/JNI;
+
+    move-result-object v2
+
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->b:Lcom/tencent/mapsdk/internal/ss;
+
+    invoke-static {v1}, Lcom/tencent/mapsdk/internal/ss;->b(Lcom/tencent/mapsdk/internal/ss;)J
+
+    move-result-wide v3
+
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->a:Lcom/tencent/mapsdk/internal/ov;
+
+    .line 4
+    iget-object v5, v1, Lcom/tencent/mapsdk/internal/ov;->g:Ljava/lang/String;
+
+    .line 5
+    iget-wide v6, v1, Lcom/tencent/mapsdk/internal/ov;->j:D
+
+    .line 6
+    iget-wide v8, v1, Lcom/tencent/mapsdk/internal/ov;->k:D
+
+    .line 7
+    iget v10, v1, Lcom/tencent/mapsdk/internal/ov;->n:F
+
+    .line 8
+    iget v11, v1, Lcom/tencent/mapsdk/internal/ov;->o:F
+
+    .line 9
+    iget v12, v1, Lcom/tencent/mapsdk/internal/ov;->v:F
+
+    .line 10
+    iget v13, v1, Lcom/tencent/mapsdk/internal/ov;->w:F
+
+    .line 11
+    iget v14, v1, Lcom/tencent/mapsdk/internal/ov;->u:F
+
+    .line 12
+    invoke-virtual {v1}, Lcom/tencent/mapsdk/internal/ov;->a()F
+
+    move-result v15
+
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->a:Lcom/tencent/mapsdk/internal/ov;
+
+    .line 13
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->y:Z
+
+    move/from16 v16, v0
+
+    .line 14
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->x:Z
+
+    move/from16 v17, v0
+
+    .line 15
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->A:Z
+
+    move/from16 v18, v0
+
+    .line 16
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->B:Z
+
+    move/from16 v19, v0
+
+    .line 17
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->C:Z
+
+    move/from16 v20, v0
+
+    .line 18
+    iget v0, v1, Lcom/tencent/mapsdk/internal/ov;->E:I
+
+    move/from16 v21, v0
+
+    .line 19
+    iget v0, v1, Lcom/tencent/mapsdk/internal/ov;->D:I
+
+    move/from16 v22, v0
+
+    .line 20
+    invoke-virtual/range {v2 .. v22}, Lcom/tencent/mapsdk/engine/jni/JNI;->nativeAddMarker(JLjava/lang/String;DDFFFFFFZZZZZII)I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final synthetic run()Ljava/lang/Object;
+    .locals 23
+
+    move-object/from16 v0, p0
+
+    .line 1
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->b:Lcom/tencent/mapsdk/internal/ss;
+
+    invoke-static {v1}, Lcom/tencent/mapsdk/internal/ss;->b(Lcom/tencent/mapsdk/internal/ss;)J
+
+    move-result-wide v1
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v5, v3, v1
+
+    if-nez v5, :cond_0
+
+    const/4 v1, 0x0
+
+    .line 2
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    return-object v1
+
+    .line 3
+    :cond_0
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->b:Lcom/tencent/mapsdk/internal/ss;
+
+    invoke-static {v1}, Lcom/tencent/mapsdk/internal/ss;->c(Lcom/tencent/mapsdk/internal/ss;)Lcom/tencent/mapsdk/engine/jni/JNI;
+
+    move-result-object v2
+
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->b:Lcom/tencent/mapsdk/internal/ss;
+
+    invoke-static {v1}, Lcom/tencent/mapsdk/internal/ss;->b(Lcom/tencent/mapsdk/internal/ss;)J
+
+    move-result-wide v3
+
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->a:Lcom/tencent/mapsdk/internal/ov;
+
+    .line 4
+    iget-object v5, v1, Lcom/tencent/mapsdk/internal/ov;->g:Ljava/lang/String;
+
+    .line 5
+    iget-wide v6, v1, Lcom/tencent/mapsdk/internal/ov;->j:D
+
+    .line 6
+    iget-wide v8, v1, Lcom/tencent/mapsdk/internal/ov;->k:D
+
+    .line 7
+    iget v10, v1, Lcom/tencent/mapsdk/internal/ov;->n:F
+
+    .line 8
+    iget v11, v1, Lcom/tencent/mapsdk/internal/ov;->o:F
+
+    .line 9
+    iget v12, v1, Lcom/tencent/mapsdk/internal/ov;->v:F
+
+    .line 10
+    iget v13, v1, Lcom/tencent/mapsdk/internal/ov;->w:F
+
+    .line 11
+    iget v14, v1, Lcom/tencent/mapsdk/internal/ov;->u:F
+
+    .line 12
+    invoke-virtual {v1}, Lcom/tencent/mapsdk/internal/ov;->a()F
+
+    move-result v15
+
+    iget-object v1, v0, Lcom/tencent/mapsdk/internal/ss$141;->a:Lcom/tencent/mapsdk/internal/ov;
+
+    .line 13
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->y:Z
+
+    move/from16 v16, v0
+
+    .line 14
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->x:Z
+
+    move/from16 v17, v0
+
+    .line 15
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->A:Z
+
+    move/from16 v18, v0
+
+    .line 16
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->B:Z
+
+    move/from16 v19, v0
+
+    .line 17
+    iget-boolean v0, v1, Lcom/tencent/mapsdk/internal/ov;->C:Z
+
+    move/from16 v20, v0
+
+    .line 18
+    iget v0, v1, Lcom/tencent/mapsdk/internal/ov;->E:I
+
+    move/from16 v21, v0
+
+    .line 19
+    iget v0, v1, Lcom/tencent/mapsdk/internal/ov;->D:I
+
+    move/from16 v22, v0
+
+    .line 20
+    invoke-virtual/range {v2 .. v22}, Lcom/tencent/mapsdk/engine/jni/JNI;->nativeAddMarker(JLjava/lang/String;DDFFFFFFZZZZZII)I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method

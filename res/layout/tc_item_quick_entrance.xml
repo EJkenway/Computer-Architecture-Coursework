@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.control.mvp.view.QuickEntranceItemView android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgEntrance" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginTop="4.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.view.KLabelView android:textSize="8.0sp" android:textColor="@color/white" android:id="@id/labelView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginStart="44.0dip" app:klabelStyle="redDotFill" app:layout_constraintStart_toStartOf="@id/imgEntrance" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/textEntrance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:layout_constraintEnd_toEndOf="@id/imgEntrance" app:layout_constraintStart_toStartOf="@id/imgEntrance" app:layout_constraintTop_toBottomOf="@id/imgEntrance" />
+</com.gotokeep.keep.tc.business.control.mvp.view.QuickEntranceItemView>

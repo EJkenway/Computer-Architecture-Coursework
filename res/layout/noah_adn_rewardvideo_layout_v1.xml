@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/noah_fl_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/noah_reward_video_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+            <com.noah.replace.SdkVideoView android:id="@id/noah_hc_rewardvideo_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.noah.sdk.player.HCNetImageView android:id="@id/noah_hc_rewardvideo_img_first_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+            <com.noah.adn.huichuan.view.rewardvideo.view.HCRewardVideoBannerViewV3 android:id="@id/noah_hc_rewardvideo_banner_view" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:layout_gravity="center|right|top" android:background="#ffcdd1d5" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center|right|top" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/noah_hc_adn_logo" />
+                <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="#ff828282" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="广告" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/noah_adn_rewardvideo_topbar" />
+    <FrameLayout android:id="@id/noah_fl_falling_rain_container" android:background="@drawable/noah_hc_falling_rain_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="294.0dip" android:layout_height="29.0dip" android:layout_marginTop="172.0dip" android:src="@drawable/noah_hc_red_rain_text" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/noah_hc_reward_tips_view" android:visibility="gone" android:layout_width="323.0dip" android:layout_height="330.0dip" android:layout_marginTop="220.0dip" android:src="@drawable/noah_hc_reward_tips_bg" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/noah_hc_reward_tips_bn_close" android:background="@drawable/noah_hc_red_rain_bn_close" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="574.0dip" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.roteiro.mvp.view.RoteiroDetailTopTitleView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="8.0dip" style="@style/TextViewSingleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

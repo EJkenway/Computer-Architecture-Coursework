@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/flFragmentContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/tvConfirm" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutPrivacy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_16dp" app:layout_constraintBottom_toTopOf="@id/tvConfirm" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <androidx.appcompat.widget.AppCompatCheckBox android:layout_gravity="center_vertical" android:id="@id/checkboxPrivacy" android:background="@drawable/km_check_choose" android:layout_width="18.0dip" android:layout_height="18.0dip" android:checked="true" android:button="@null" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/gray_66" android:textColorHighlight="@color/white" android:gravity="center" android:id="@id/textPrivacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tvConfirm" android:background="@drawable/km_bg_green_corner_50dp" android:paddingTop="@dimen/dimen_15dp" android:paddingBottom="@dimen/dimen_15dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="52.0dip" android:layout_marginRight="52.0dip" android:layout_marginBottom="113.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

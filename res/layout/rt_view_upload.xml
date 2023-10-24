@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.widget.OutdoorUploadDataView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/rt_bottom_button_container_height" android:paddingStart="@dimen/font_size_45dp" android:paddingEnd="@dimen/font_size_45dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:textSize="18.0sp" android:id="@id/btn_save" android:layout_width="fill_parent" android:layout_height="@dimen/rt_bottom_green_button_height" android:text="@string/rt_save_outdoor_record" android:layout_centerInParent="true" app:buttonRadius="@dimen/rt_bottom_green_button_radius" app:loadingButtonSize="large" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:gravity="center" android:id="@id/container_send_tweet" android:background="@color/light_green" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_centerInParent="true" app:round_corner="@dimen/rt_bottom_green_button_radius">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/image_send_tweet_single" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_camera_filled" android:contentDescription="@string/send_tweet" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/text_send_tweet_single" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_keep_tweet" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/container_send_video_tweet" android:background="@color/light_green" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rt_bottom_green_button_height" android:layout_centerInParent="true" app:round_corner="@dimen/rt_bottom_green_button_radius">
+        <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:id="@id/text_send_video_tweet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/publish_my_train_video" android:layout_centerInParent="true" />
+        <RelativeLayout android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/text_send_video_tweet">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/img_video_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/send_tweet" app:border_width="0.0dip" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_player_play" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@string/send_tweet" />
+        </RelativeLayout>
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/local_save_wrapper" android:background="@color/green_disabled" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rt_bottom_green_button_height" android:layout_centerInParent="true" app:round_corner="@dimen/rt_bottom_green_button_radius">
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_record_saved_to_local" android:layout_centerInParent="true" />
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/layout_from_schedule" android:background="@color/light_green" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rt_bottom_green_button_height" android:layout_centerInParent="true" app:round_corner="@dimen/rt_bottom_green_button_radius">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/layout_schedule_send_tweet" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/text_send_tweet" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/send_keep_tweet" android:drawablePadding="8.0dip" android:layout_centerInParent="true" android:drawableStart="@drawable/icon_camera_filled" />
+            </RelativeLayout>
+            <View android:layout_gravity="center_vertical" android:id="@id/divider_schedule" android:background="@android:color/white" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/text_next_train" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/next_train" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+</com.gotokeep.keep.rt.business.summary.widget.OutdoorUploadDataView>

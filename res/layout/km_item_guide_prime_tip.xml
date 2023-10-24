@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.guide.view.PopupPrimeGuideTipLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgPoint" android:layout_width="@dimen/dimen_6dp" android:layout_height="@dimen/dimen_6dp" android:src="@drawable/km_bg_circle_dcaf74" android:layout_marginStart="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_66" android:id="@id/textTip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="9.0dip" android:layout_marginEnd="40.0dip" app:layout_constraintStart_toEndOf="@id/imgPoint" />
+</com.gotokeep.keep.km.guide.view.PopupPrimeGuideTipLayout>

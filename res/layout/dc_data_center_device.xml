@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterDeviceView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutTitle" layout="@layout/dc_data_center_common_title" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dc_white_8dp_corners" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/black_87" android:id="@id/textSource" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="22.0dip" android:text="@string/dc_source" android:layout_marginStart="18.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textSource" />
+    </LinearLayout>
+</com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterDeviceView>

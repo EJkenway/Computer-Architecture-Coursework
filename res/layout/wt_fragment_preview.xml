@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.wt.business.preview.PreviewScrollView android:id="@id/layoutScroll" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="0.0dip" android:overScrollMode="never" app:layout_constraintBottom_toTopOf="@id/layoutBottom" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gotokeep.keep.wt.business.preview.view.PreviewHeaderView android:id="@id/layoutHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gotokeep.keep.wt.business.preview.view.PreviewShareView android:id="@id/layoutShare" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <WebView android:id="@id/layoutDescription" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gotokeep.keep.wt.business.preview.view.PreviewCoverView android:id="@id/layoutCover" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.gotokeep.keep.wt.business.preview.PreviewScrollView>
+    <include android:id="@id/layoutBottom" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutScroll" layout="@layout/wt_item_preview_bottom" />
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="1.0px" app:layout_constraintBottom_toTopOf="@id/layoutBottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/descRootView" android:background="@drawable/bg_channel_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageBg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:id="@id/userAvatarLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginStart="14.0dip" app:layout_constraintBottom_toTopOf="@id/descViewWrapper" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.widget.avatar.VerifiedAvatarView android:id="@id/companyUserAvatar" android:layout_width="20.0dip" android:layout_height="20.0dip" app:iconSize="0.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:id="@id/userName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_toRightOf="@id/companyUserAvatar" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:id="@id/launchTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="@string/su_hashtag_launch_tips" android:layout_toRightOf="@id/userName" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/descViewWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/userAvatarLayout">
+        <com.gotokeep.keep.su_core.timeline.widget.CustomEllipsisTextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/descView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="4.0dip" app:html_format="true" app:su_ellipsis="@string/su_text_ellipsis_prefix" app:su_ellipsisText="@string/su_text_ellipsis_text" app:su_ellipsisTextColor="@color/gray_99" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

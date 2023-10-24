@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/tvProgressTagNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="4.0dip" app:layout_constraintLeft_toRightOf="@id/ivColorTag" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="20.0sp" android:textColor="@color/black_87" android:id="@id/tvCurrentProgressNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:keepFont="font/KeepDisplay-Bold.otf" app:layout_constraintTop_toBottomOf="@id/tvProgressTagNormal" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/tvTargetValueNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_marginStart="3.0dip" app:keepFont="font/KeepDisplay-Bold.otf" app:layout_constraintBottom_toBottomOf="@id/tvCurrentProgressNormal" app:layout_constraintLeft_toRightOf="@id/tvCurrentProgressNormal" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/gray_66" android:id="@id/tvTargetValueDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" app:layout_constraintBottom_toBottomOf="@id/tvCurrentProgressNormal" app:layout_constraintLeft_toRightOf="@id/tvTargetValueNormal" />
+</merge>

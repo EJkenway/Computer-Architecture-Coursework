@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_60" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_24sp" android:textColor="@color/black_87" android:id="@id/textValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:includeFontPadding="false" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/black_60" android:id="@id/textUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="2.0dip" app:layout_constraintBaseline_toBaselineOf="@id/textValue" app:layout_constraintBottom_toBottomOf="@id/textValue" app:layout_constraintStart_toEndOf="@id/textValue" />
+</androidx.constraintlayout.widget.ConstraintLayout>

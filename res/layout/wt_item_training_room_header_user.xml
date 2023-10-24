@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout_user" android:background="@color/main_color" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="47.0dip" android:layout_below="@id/title_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/avatar" android:background="@drawable/icon_green_gradient_circle" android:clickable="false" android:layout_width="43.0dip" android:layout_height="43.0dip" android:layout_marginLeft="14.0dip" android:src="@drawable/person_45_45" android:layout_centerVertical="true" app:border="false" app:border_width="0.0dip" />
+    <RelativeLayout android:id="@id/layout_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/avatar" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/text_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tools_text_user_name" android:maxLines="1" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/white_30" android:ellipsize="end" android:id="@id/text_user_bio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/start_live_string" android:layout_below="@id/text_user_name" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/layout_praise_bg" android:background="@drawable/gray_cc_border_circle_bg" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/img_praise" android:padding="7.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_praise_on_with_right" />
+    </LinearLayout>
+</RelativeLayout>

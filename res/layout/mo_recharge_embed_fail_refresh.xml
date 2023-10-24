@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/loadingFailedContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="150.0dip" android:layout_height="184.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageLoadingFail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_icon_dark_server" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp" android:text="@string/loading_fail" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageLoadingFail" />
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/btnRefresh" android:background="@drawable/bg_btn_register_next" android:layout_width="120.0dip" android:layout_height="@dimen/dimen_36dp" android:layout_marginTop="@dimen/dimen_12dp" android:text="@string/refresh" android:layout_alignParentBottom="true" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

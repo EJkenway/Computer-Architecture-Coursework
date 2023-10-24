@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.KeepProfileView android:id="@id/profileView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:profileStyle="messageFans" />
+    <View android:layout_gravity="bottom" android:id="@id/bottomDivider" android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="68.0dip" android:layout_marginEnd="16.0dip" />
+</merge>

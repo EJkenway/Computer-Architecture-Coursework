@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rootView" android:background="#ffffffff" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.legacy.widget.Space android:id="@id/space" android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/maskView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottomBarrier" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/maskView1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/maskView2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.share.customize.mvp.view.ShareCustomizeTabView android:id="@id/tabView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/outdoorBottomBg" android:background="@drawable/bg_gradient_white00_white_angle_270" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="120.0dip" app:layout_constraintBottom_toTopOf="@id/bottomBarrier" />
+    <FrameLayout android:id="@id/rectCardContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottomBarrier" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space" />
+    <FrameLayout android:id="@id/squareCardContainer" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottomBarrier" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space" />
+    <FrameLayout android:id="@id/trackVideoContainer" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottomBarrier" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space" />
+    <FrameLayout android:id="@id/layoutBack" android:background="@drawable/kplayer_bg_white_10_corners_25dp" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/imageBack" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_line_arrow_left_centered" />
+    </FrameLayout>
+    <com.gotokeep.keep.share.customize.mvp.view.ShareCustomizeBottomView android:id="@id/bottomBarrier" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
+    <com.gotokeep.keep.share.customize.mvp.view.ShareCustomizeCardBgGroup android:id="@id/cardBgGroup" android:layout_width="0.0dip" android:layout_height="0.0dip" app:constraint_referenced_ids="maskView1,maskView2,maskView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

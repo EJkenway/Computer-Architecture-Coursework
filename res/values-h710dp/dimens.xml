@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rt_scree_lock_target_margin_top">60.0dip</dimen>
+</resources>

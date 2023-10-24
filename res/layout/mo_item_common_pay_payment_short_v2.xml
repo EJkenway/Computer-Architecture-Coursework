@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/payRoot" android:background="@drawable/mo_bg_item_common_pay_payment_short_v2" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/image_payment_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/text_payment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wechat_pay" android:layout_marginStart="8.0dip" />
+</LinearLayout>

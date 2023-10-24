@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/mo_red_package_withdraw_success" />
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <stroke android:width="0.5dip" android:color="@color/gray_99" />
+            <corners android:radius="8.0dip" />
+        </shape>
+    </item>
+</selector>

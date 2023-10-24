@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/dimen_16dp" android:width="@dimen/dimen_16dp" />
+    <stroke android:width="@dimen/kt_questionnaire_circle_width" android:color="@color/kt_color_ff999999" />
+</shape>

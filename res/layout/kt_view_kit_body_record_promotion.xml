@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitBodyRecordPromotionView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="375.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgResource" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_cc" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" />
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/gray_33" android:layout_gravity="center_horizontal" android:id="@id/tv_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="74.5dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/promotion_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="145.5dip" />
+    <TextView android:layout_gravity="bottom|center" android:id="@id/btn_go" android:background="@drawable/bg_light_green_for_50dp_height_btn" android:visibility="gone" android:layout_width="283.0dip" android:layout_marginBottom="36.0dip" style="@style/GreenButtonInLoginAndRegister" />
+</com.gotokeep.keep.kt.business.common.mvp.view.KitBodyRecordPromotionView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <EditText android:id="@id/etFakeRunLogDistance" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="10" android:inputType="number" />
+        <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="距离（千米）" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <EditText android:id="@id/etFakeRunLogCostTime" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="10" android:inputType="number" />
+        <TextView android:layout_width="130.0dip" android:layout_height="wrap_content" android:text="耗时（s）" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <EditText android:id="@id/etFakeRunLogStartTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="例如 2019 08 10 09" />
+        <TextView android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="开始时间" />
+    </LinearLayout>
+    <TextView android:textColor="@color/salmon_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="时间的年月日小时要以空格隔开" />
+</LinearLayout>

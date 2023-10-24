@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.hardware.common.mvp.view.HardwareDataView android:id="@id/layoutContent" android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.tc.business.category.widget.CategoryToolBar android:id="@id/layoutToolbar" android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tc_need_fit_system_window="true" app:tc_show_setting="false" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/listHardwareData" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutToolbar" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutToolbar" />
+    <ViewStub android:id="@id/hardwareSkeletonView" android:layout="@layout/fd_skeleton_rope_data" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutToolbar" />
+</com.gotokeep.keep.tc.business.hardware.common.mvp.view.HardwareDataView>

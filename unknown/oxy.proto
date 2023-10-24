@@ -1,0 +1,7 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "Oxy";
+
+message DailySpo2Enable {
+    uint32 enable= 1;
+}

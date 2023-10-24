@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="250.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ysf_holder_product_item_content" layout="@layout/ysf_bot_product_and_order_detail" />
+    <include android:id="@id/ysf_holder_product_list_line" layout="@layout/ysf_include_divider" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/ysf_blue_337EFF" android:gravity="center" android:id="@id/ysf_tv_holder_product_item_reselect" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ysf_again_select" />
+</LinearLayout>

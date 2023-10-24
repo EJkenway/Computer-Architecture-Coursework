@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_suit_sport" android:background="@drawable/selector_layout" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/suit_top_line" style="@style/StoreLine" />
+    <ImageView android:id="@id/img_suit_sport_arrow" android:layout_marginRight="@dimen/dimen_14dp" android:src="@drawable/mo_icon_goods_detail_more" style="@style/SettingItemArrow" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_99" android:id="@id/text_suit_sport_info" android:paddingLeft="@dimen/dimen_14dp" android:paddingRight="@dimen/dimen_14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_33" android:id="@id/text_suit_sport_des" android:layout_toLeftOf="@id/img_suit_sport_arrow" android:layout_toRightOf="@id/text_suit_sport_info" android:layout_centerVertical="true" style="@style/StoreSingleLineTextView" />
+</RelativeLayout>

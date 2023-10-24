@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.KeepCommonSearchBar android:id="@id/searchBar" android:paddingTop="@dimen/dimen_4dp" android:paddingBottom="@dimen/dimen_4dp" android:layout_width="fill_parent" android:layout_height="@dimen/search_box_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:search_bar_cancel_text_margin_end="@dimen/dimen_16dp" app:search_bar_left_icon="@drawable/vd_icon_search" app:search_bar_margin_start="@dimen/dimen_16dp" />
+    <com.gotokeep.keep.commonui.view.CommonListContentView android:id="@id/viewListContent" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/searchBar" />
+    <View android:id="@id/shadowView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/searchBar" style="@style/action_bar_shadow_style" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.blur.BlurView android:layout_width="fill_parent" android:layout_height="fill_parent" app:autoUpdate="true" app:blurOverlayColor="#80464646" app:controllerType="texture" app:textureViewTag="contentPlayer" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutOptionInfo" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="217.0dip" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutOption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

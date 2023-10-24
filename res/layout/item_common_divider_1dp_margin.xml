@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.mvp.view.CommonDivider1DpMarginView android:background="@color/common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/dimen_29dp" android:layout_marginRight="@dimen/dimen_29dp" android:layout_marginStart="@dimen/dimen_29dp" android:layout_marginEnd="@dimen/dimen_29dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

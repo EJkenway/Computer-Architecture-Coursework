@@ -1,0 +1,88 @@
+.class public final Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment$d;
+.super Lij3/p;
+.source "ShoppingCartFragment.kt"
+
+# interfaces
+.implements Lhj3/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment;-><init>()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lij3/p;",
+        "Lhj3/a<",
+        "Lqj1/b0;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment;
+
+
+# direct methods
+.method public constructor <init>(Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment$d;->g:Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lij3/p;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lqj1/b0;
+    .locals 3
+
+    .line 1
+    new-instance v0, Lqj1/b0;
+
+    iget-object v1, p0, Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment$d;->g:Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment;
+
+    sget v2, Lrf1/e;->Mm:I
+
+    invoke-virtual {v1, v2}, Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/view/ShoppingCartView;
+
+    const-string v2, "root"
+
+    invoke-static {v1, v2}, Lij3/o;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment$d;->g:Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment;
+
+    invoke-static {v2}, Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment;->c2(Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment;)Lsj1/a;
+
+    move-result-object v2
+
+    invoke-direct {v0, v1, v2}, Lqj1/b0;-><init>(Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/view/ShoppingCartView;Lqj1/h;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/gotokeep/keep/mo/business/store/activity/shoppingcart/fragment/ShoppingCartFragment$d;->a()Lqj1/b0;
+
+    move-result-object v0
+
+    return-object v0
+.end method

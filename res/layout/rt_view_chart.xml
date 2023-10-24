@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.github.mikephil.charting.charts.LineChart android:id="@id/line_chart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+    <com.github.mikephil.charting.charts.ScatterChart android:id="@id/scatter_chart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+    <com.github.mikephil.charting.charts.CandleStickChart android:id="@id/candle_chart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+    <com.gotokeep.keep.commonui.widget.outdoorchart.ChartYAxisView android:orientation="vertical" android:id="@id/y_axis_view" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_marginStart="-5.0dip" />
+    <com.gotokeep.keep.commonui.view.ChartXAxisView android:id="@id/x_axis_view" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.StatsStandardFirstPropertyView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_38" android:id="@id/textPropertiesName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="32.0sp" android:textColor="@color/black_87" android:id="@id/textPropertiesValue" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" app:layout_constraintStart_toStartOf="@id/textPropertiesName" app:layout_constraintTop_toBottomOf="@id/textPropertiesName" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_24" android:id="@id/textPropertiesUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/textPropertiesValue" app:layout_constraintStart_toEndOf="@id/textPropertiesValue" />
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.StatsStandardFirstPropertyView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:paddingLeft="@dimen/mo_margin_14" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="@string/mo_hot_evaluation" />
+    <LinearLayout android:orientation="vertical" android:id="@id/linear_evaluation_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

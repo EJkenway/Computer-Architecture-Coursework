@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheurshadow.routedetail.mvp.view.PuncheurShadowRouteDetailsListView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dimen_90dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/listShadowDetail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.kt.business.puncheurshadow.routedetail.mvp.view.PuncheurShadowRouteDetailsListView>

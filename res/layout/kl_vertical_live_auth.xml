@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutBg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgAuthBg" android:background="@drawable/kl_bg_color_anth" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgAuthTitleBg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="350.0dip" android:src="@color/transparent" android:scaleType="fitXY" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/bgMask" android:background="@color/black_50" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.gotokeep.keep.commonui.widget.blur.BlurView android:id="@id/blurViewAuth" android:layout_width="fill_parent" android:layout_height="fill_parent" app:blurOverlayColor="@color/black_40" app:blurRadius="20.0" app:controllerType="view" app:rootViewId="@id/layoutBg" />
+    <include android:id="@id/layoutSellInfo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/actionBar" layout="@layout/kl_vertical_live_auth_content" />
+    <include android:id="@id/layoutNoLiveTips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/actionBar" layout="@layout/kl_vertical_live_auth_no_live" />
+    <include android:id="@id/layoutRetry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/actionBar" layout="@layout/kl_vertical_live_auth_failed" />
+    <include android:id="@id/layoutBuyDone" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/kl_vertical_live_auth_buy_done" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/actionBar" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="44.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/imgViewExit" android:layout_width="@dimen/dimen_24dp" android:layout_height="@dimen/dimen_24dp" android:src="@drawable/icon_puncheur_close_line" android:layout_marginEnd="@dimen/dimen_8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.diet.mvp.view.RecognitionFoodView android:layout_width="fill_parent" android:layout_height="76.0dip" android:paddingStart="40.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
+        <RelativeLayout android:id="@id/titleContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/addImg">
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="68.0dip" />
+            <TextView android:textSize="9.0sp" android:textColor="@color/gray_66" android:gravity="center" android:id="@id/confidence" android:background="@drawable/km_bg_ef_corner_2dp" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="60.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="-60.0dip" android:layout_toEndOf="@id/title" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/titleContainer" />
+        <ImageView android:id="@id/addImg" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/km_icon_add_circle" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.gotokeep.keep.km.diet.mvp.view.RecognitionFoodView>

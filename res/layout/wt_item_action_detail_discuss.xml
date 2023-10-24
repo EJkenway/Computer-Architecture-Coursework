@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.action.mvp.view.ActionDetailDiscussItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/plan_divider_color" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/text_action_detail_discuss" android:paddingLeft="14.0dip" android:paddingTop="16.0dip" android:paddingRight="5.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableRight="@drawable/settings_arrow" />
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</com.gotokeep.keep.wt.business.action.mvp.view.ActionDetailDiscussItemView>

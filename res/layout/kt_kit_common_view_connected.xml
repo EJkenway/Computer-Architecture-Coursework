@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/black_87" android:id="@id/textElectricQuantity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginBottom="@dimen/dimen_16dp" android:layout_toEndOf="@id/batteryViewSrElectricQuantity" />
+        <com.gotokeep.keep.kt.business.kitbit.widget.BatteryView android:id="@id/batteryViewSrElectricQuantity" android:layout_width="@dimen/dimen_16dp" android:layout_height="9.0dip" android:layout_marginTop="@dimen/dimen_20dp" android:layout_marginStart="@dimen/dimen_4dp" android:layout_marginEnd="@dimen/dimen_8dp" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/black_87" android:id="@id/textStatusConnecting" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_14dp" android:layout_marginBottom="@dimen/dimen_2dp" android:text="@string/kt_connecting" android:drawablePadding="6.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

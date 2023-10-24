@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.coursediscover.view.CourseDiscoverSortView android:id="@id/layout_sorts" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sorts_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.gotokeep.keep.wt.business.course.coursediscover.view.CourseDiscoverSortView>

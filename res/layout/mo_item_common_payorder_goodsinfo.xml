@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:paddingBottom="@dimen/mo_margin_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="29.0sp" android:textColor="@color/gray_33" android:id="@id/payOrderPriceView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.mo.common.widget.RLLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/payOrderGoodsNameWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_divide_16dp" android:layout_marginTop="@dimen/mo_margin_16" android:layout_marginRight="@dimen/common_divide_16dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/payOrderPriceView">
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/payOrderGoodsName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_66" android:id="@id/payOrderGoodsQtyView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </com.gotokeep.keep.mo.common.widget.RLLinearLayout>
+</merge>

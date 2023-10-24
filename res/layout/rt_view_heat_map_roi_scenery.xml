@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemSceneryView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="8.0dip" android:text="@string/rt_route_scenery" android:layout_marginStart="14.0dip" />
+        <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recycle_view_reality_images" android:layout_width="fill_parent" android:layout_height="125.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemSceneryView>

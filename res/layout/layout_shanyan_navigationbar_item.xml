@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/shanyan_view_shanyan_navigationbar_root" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/shanyan_view_navigationbar_back_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/shanyan_view_navigationbar_back" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_margin="8.0dip" android:src="@drawable/umcsdk_return_bg" android:scaleType="centerCrop" android:contentDescription="返回" />
+    </RelativeLayout>
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ff080808" android:id="@id/shanyan_view_navigationbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="导航栏标题" android:layout_centerInParent="true" />
+</RelativeLayout>

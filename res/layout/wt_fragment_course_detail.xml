@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutCourseDetailParent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/layoutBottom" app:layout_constraintTop_toTopOf="parent" layout="@layout/fragment_video_container" />
+    <FrameLayout android:id="@id/headerTabParent" android:paddingTop="?actionBarSize" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/headerTab" android:visibility="gone" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space" layout="@layout/wt_item_course_detail_tab_indicator" />
+    </FrameLayout>
+    <ViewStub android:id="@id/suitTipsStub" android:background="@color/red" android:layout="@layout/wt_layout_course_detail_suit_tips" android:layout_width="fill_parent" android:layout_height="40.0dip" app:layout_constraintBottom_toTopOf="@id/layoutBottom" />
+    <ViewStub android:id="@id/koomHintStub" android:layout="@layout/wt_view_koom_detail_hint_view" android:layout_width="fill_parent" android:layout_height="40.0dip" app:layout_constraintBottom_toTopOf="@id/layoutBottom" />
+    <ViewStub android:id="@id/operationTipsStub" android:layout="@layout/wt_layout_course_detail_operation_tips" android:layout_width="fill_parent" android:layout_height="40.0dip" app:layout_constraintBottom_toTopOf="@id/layoutBottom" />
+    <ViewStub android:id="@id/primeFreeTipsStub" android:layout="@layout/wt_item_prime_free_tips_guide" android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintBottom_toTopOf="@id/layoutBottom" />
+    <ViewStub android:id="@id/primeTipsStub" android:layout="@layout/wt_item_prime_guide" android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintBottom_toTopOf="@id/layoutBottom" />
+    <ViewStub android:id="@id/primeCourseRecommendStub" android:layout="@layout/wt_layout_course_detail_prime_course_recommend" android:layout_width="fill_parent" android:layout_height="220.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+    <ViewStub android:id="@id/primeCourseRecommendStubV3" android:layout="@layout/wt_layout_course_detail_prime_course_recommend_v3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
+    <com.gotokeep.keep.wt.business.course.detail.mvp.bottom.CourseDetailBottomView android:id="@id/layoutBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/courseDetailSkeletonStub" android:layout="@layout/wt_course_detail_skeleton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="84.0dip" />
+    <ViewStub android:id="@id/transitionSkeletonStub" android:layout="@layout/wt_course_detail_transition_skeleton" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/viewSecondaryComment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/wt_secondary_comment_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:left_icon_clickable="true" app:title="@string/tc_physical_record_list_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list_in_physical_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layout_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar" />
+</RelativeLayout>

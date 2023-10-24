@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="@drawable/fd_bg_white20_round_30dp" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@android:color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mobile_number" />
+    <TextView android:textSize="@dimen/font_size_18dp" android:textColor="@color/white" android:gravity="center|right" android:id="@id/text_country_code_in_phone_edit" android:layout_width="97.0dip" android:layout_height="fill_parent" android:text="@string/china_phone_code" android:paddingEnd="30.0dip" />
+    <ImageView android:id="@id/image_country_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fd_icon_choose_12" android:layout_centerVertical="true" android:layout_marginStart="70.0dip" />
+    <EditText android:textSize="20.0sp" android:textColor="@color/white" android:textColorHint="@color/white_50" android:id="@id/edit_phone_in_phone_edit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/input_phone_number" android:inputType="phone" android:contentDescription="Phone Number In Login" android:layout_marginStart="97.0dip" android:layout_marginEnd="@dimen/dimen_12dp" style="@style/EditTextInLoginAndRegister" />
+</RelativeLayout>

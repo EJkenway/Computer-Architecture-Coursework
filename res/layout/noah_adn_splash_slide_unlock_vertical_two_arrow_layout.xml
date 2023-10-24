@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="40.0dip" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/noah_arrow1" android:layout_width="40.0dip" android:layout_height="16.0dip" android:src="@drawable/splash_slide_unlock_arrow_vertical" android:translationY="29.0dip" />
+    <ImageView android:id="@id/noah_arrow2" android:layout_width="40.0dip" android:layout_height="16.0dip" android:src="@drawable/splash_slide_unlock_arrow_vertical" android:translationY="29.0dip" />
+</FrameLayout>

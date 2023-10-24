@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.keepersay.mvp.view.StoreKeeperSayVideoView android:layout_width="fill_parent" android:layout_height="wrap_content" android:transitionName="video_play"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/mediaContentView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.kplayer.SingletonKeepVideoView2 android:id="@id/videoView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:kvScaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.gotokeep.keep.videoplayer.widget.KeepTimelineVideoControlView android:id="@id/videoControlView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/videoView" app:layout_constraintEnd_toEndOf="@id/videoView" app:layout_constraintStart_toStartOf="@id/videoView" app:layout_constraintTop_toTopOf="@id/videoView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.mo.business.store.keepersay.mvp.view.StoreKeeperSayVideoView>

@@ -1,0 +1,7 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "FunctionControl";
+
+message PressureIndex {
+    uint32 pressure = 1;
+}

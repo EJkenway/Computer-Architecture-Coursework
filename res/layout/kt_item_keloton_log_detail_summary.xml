@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KelotonLogDetailSummaryView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.widget.FlowerBackground android:id="@id/flowerBg" android:layout_width="fill_parent" android:layout_height="@dimen/kt_keloton_summary_item_height" android:scaleX="1.2" android:scaleY="1.2" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/kt_keloton_summary_item_height" android:layout_marginBottom="32.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="112.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+                <RelativeLayout android:orientation="vertical" android:id="@id/vLevel" android:visibility="gone" android:layout_width="112.0dip" android:layout_height="112.0dip" android:layout_marginEnd="-26.0dip" android:layout_alignParentEnd="true">
+                    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgIcon" android:layout_width="112.0dip" android:layout_height="112.0dip" android:layout_centerHorizontal="true" android:translationY="-8.0dip" />
+                    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/kt_keloton_summary_bottom_bg" android:id="@id/tvLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <ImageView android:id="@id/imgCup" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="67.0dip" android:src="@drawable/kt_ic_log_detail_finish_cup" android:layout_alignTop="@id/tvDistance" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="64.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/dash_dash" android:layout_above="@id/tvType" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km_chinese" android:layout_alignBaseline="@id/tvDistance" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/tvDistance" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_30" android:ellipsize="end" android:id="@id/tvType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dash_dash" android:lines="1" android:layout_alignParentBottom="true" android:layout_marginEnd="100.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/KtSummaryCardView">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gotokeep.keep.uilib.CircleImageView android:id="@id/imgAvatar" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/person_70_70" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_toEndOf="@id/imgAvatar">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/tvUser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dash_dash" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/tvTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/dash_dash" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="@color/ef_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="20.0dip" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/kt_summary_main_data_font_size" android:textStyle="bold" android:textColor="@color/purple" android:id="@id/tvSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:layout_gravity="bottom" android:id="@id/tvSpeedUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/km_per_hour" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/kt_summary_main_data_font_size" android:textStyle="bold" android:textColor="@color/purple" android:id="@id/tvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/sum_duration" />
+                </LinearLayout>
+                <LinearLayout android:gravity="end" android:layout_gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/kt_summary_main_data_font_size" android:textStyle="bold" android:textColor="@color/purple" android:id="@id/tvCalories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_kitbit_calorie_unit" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.common.mvp.view.KelotonLogDetailSummaryView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.mvp.view.RechargeItemForEmbedVerticalView android:gravity="center" android:orientation="vertical" android:background="@drawable/mo_bg_selector_recharge_item_embed_vertical" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/kCoinIcon" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/kCoinNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/white_60" android:id="@id/kCoinCost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+</com.gotokeep.keep.mo.business.store.mvp.view.RechargeItemForEmbedVerticalView>

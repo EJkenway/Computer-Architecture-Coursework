@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.widget.refreshheader.KitbitRefreshHeader android:gravity="center" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="84.0dip">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_view" android:layout_width="24.0dip" android:layout_height="24.0dip" app:lottie_fileName="lottie/kitbit_sync_data.json" app:lottie_loop="true" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffcccccc" android:id="@id/text_refresh_info" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:text="@string/kt_header_pull_down_to_refresh" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.kitbit.widget.refreshheader.KitbitRefreshHeader>

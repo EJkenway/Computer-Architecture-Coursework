@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/viewPanel" android:layout_width="fill_parent" android:layout_height="@dimen/photo_editor_control_panel_height" />
+    <HorizontalScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/viewPanel">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutFilter" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutLiveSetting" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/tvLiveTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:text="@string/live_setting" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextMedium" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:id="@id/textLiveDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/training_setting_live_description" app:layout_constraintLeft_toLeftOf="@id/tvLiveTitle" app:layout_constraintTop_toBottomOf="@id/tvLiveTitle" />
+    <com.gotokeep.keep.commonui.view.KeepSwitchButton android:id="@id/liveSwitchButton" android:layout_marginTop="11.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/KeepSwitch" />
+    <View android:id="@id/dividerLive" android:background="@color/black_08" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_marginTop="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textLiveDescription" />
+</androidx.constraintlayout.widget.ConstraintLayout>

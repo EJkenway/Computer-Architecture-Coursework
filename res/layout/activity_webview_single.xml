@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.widget.RelativeLayout3654118 android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/webview_in_titlebar_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/headerView" />
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_alignParentTop="true" app:background_color="@color/purple" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:right_icon_clickable="true" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/headerView" />
+    <FrameLayout android:id="@id/layout_custom_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.commonui.widget.RelativeLayout3654118>

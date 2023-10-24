@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTreadmillMiddleView android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container_prompt_text" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@color/white_10" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_gps" android:textColor="@color/rt_training_text_light" android:gravity="center_horizontal" android:id="@id/text_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/treadmill_prompt" android:lineSpacingExtra="4.0dip" />
+        <View android:background="@color/white_10" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.gotokeep.keep.rt.business.training.widget.WaveBackground android:id="@id/wave_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTreadmillMiddleView>

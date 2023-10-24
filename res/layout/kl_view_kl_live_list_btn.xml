@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:id="@id/signCardBg" android:background="@drawable/kl_bg_6d51f4_corners_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center_vertical" android:id="@id/imgSign" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center|left" android:id="@id/textSign" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginLeft="2.0dip" />
+</merge>

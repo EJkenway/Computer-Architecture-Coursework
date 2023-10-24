@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.account.guide.mvp.view.preview.GoalTaskView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgIcon" android:layout_width="20.0dip" android:layout_height="20.0dip" app:layout_constraintBottom_toBottomOf="@id/textTarget" app:layout_constraintEnd_toStartOf="@id/textTarget" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/textTarget" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="26.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/textTarget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginStart="6.0dip" app:layout_constraintStart_toEndOf="@id/imgIcon" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/textUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" app:layout_constraintBottom_toBottomOf="@id/textTarget" app:layout_constraintStart_toEndOf="@id/textTarget" />
+</com.gotokeep.keep.fd.business.account.guide.mvp.view.preview.GoalTaskView>

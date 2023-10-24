@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewGain" android:background="@drawable/km_bg_ff666f_corner_360dp" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginVertical="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_60" android:ellipsize="end" android:id="@id/textGainDesc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="@id/viewGain" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/viewGain" app:layout_constraintTop_toTopOf="@id/viewGain" />
+    <View android:layout_width="fill_parent" android:layout_height="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textGainDesc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

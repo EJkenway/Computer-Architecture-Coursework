@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBar" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:right_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageDevice" android:layout_width="168.0dip" android:layout_height="168.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/titleBar" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/black_87" android:id="@id/conditionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="48.0dip" android:layout_below="@id/imageDevice" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/conditionDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/conditionTitle" android:layout_alignLeft="@id/conditionTitle" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_above="@id/finish" android:layout_below="@id/conditionDescription">
+        <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="middle" />
+    </ScrollView>
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/finish" android:background="@drawable/kt_bg_rectangle_green_round_50dp" android:visibility="gone" android:layout_width="268.0dip" android:layout_height="50.0dip" android:layout_marginBottom="28.0dip" android:text="@string/kt_finish" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutCountdown" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginStart="@dimen/dimen_6dp">
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/color_FF666F" android:gravity="center" android:id="@id/textHour" android:background="@drawable/kt_bg_pink_corner_4dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/color_FF666F" android:gravity="center" android:layout_width="9.0dip" android:layout_height="fill_parent" android:text="@string/store_countdown_colon" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/color_FF666F" android:gravity="center" android:id="@id/textMinute" android:background="@drawable/kt_bg_pink_corner_4dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/color_FF666F" android:gravity="center" android:layout_width="9.0dip" android:layout_height="fill_parent" android:text="@string/store_countdown_colon" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/color_FF666F" android:gravity="center" android:id="@id/textSecond" android:background="@drawable/kt_bg_pink_corner_4dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" />
+    </LinearLayout>
+</merge>

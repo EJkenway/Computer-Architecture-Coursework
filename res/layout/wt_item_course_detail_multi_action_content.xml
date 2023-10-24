@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseDetailMultiActionContentView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-22.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:textColor="@color/gray_22" android:id="@id/textActionListTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="动作清单" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/modifyActionLayout" android:background="@drawable/wt_bg_fafafa_radius_28dp" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center_vertical" android:id="@id/modifyActionIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/wt_icon_edit_line" android:layout_marginStart="@dimen/dimen_8dp" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_666666" android:layout_gravity="center_vertical" android:id="@id/modifyActionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="修改动作编排" android:layout_marginStart="4.0dip" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/layoutCourseDetailCourseContentView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textActionListTitle" />
+</com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseDetailMultiActionContentView>

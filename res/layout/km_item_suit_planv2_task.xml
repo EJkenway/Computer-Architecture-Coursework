@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitPlanV2TaskItemVIew android:background="@color/white" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/view_left_color" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/layout_done" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="17.0dip" android:layout_toRightOf="@id/view_left_color" android:layout_centerVertical="true">
+        <ImageView android:id="@id/image_done" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_cc" android:gravity="center" android:id="@id/text_index" android:background="@drawable/km_bg_suit_task_index" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/layout_done" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/text_task_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="10" android:singleLine="true" />
+            <TextView android:id="@id/text_icon_plus" android:visibility="gone" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/text_task_name" android:layout_centerVertical="true" style="@style/IconPlus" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/gray_99" android:id="@id/text_minute_equipments" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.km.suit.mvp.view.SuitPlanV2TaskItemVIew>

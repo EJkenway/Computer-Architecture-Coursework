@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.sportfeelings.mvp.view.SportFeelingsView android:orientation="vertical" android:id="@id/sportFeelingView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/layoutScroll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/lottieRelaxed" android:visibility="gone" android:layout_width="54.0dip" android:layout_height="54.0dip" android:src="@drawable/dc_ic_challenge_feeling" android:layout_centerHorizontal="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                <ImageView android:id="@id/lottieDifficulty" android:visibility="gone" android:layout_width="54.0dip" android:layout_height="54.0dip" android:src="@drawable/dc_ic_difficulty_feeling" android:layout_marginStart="37.0dip" android:layout_toEndOf="@id/lottieRelaxed" app:layout_constraintStart_toEndOf="@id/lottieRelaxed" />
+            </RelativeLayout>
+            <com.haibin.calendarview.CalendarView android:id="@id/calendarView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:calendar_height="48.0dip" app:calendar_padding="4.0dip" app:current_day_text_color="@color/white" app:current_month_text_color="@color/gray_99" app:day_text_size="12.0sp" app:layout_constraintTop_toTopOf="parent" app:month_view="com.gotokeep.keep.dc.business.widget.FeelingsMonthView" app:month_view_show_mode="mode_all" app:week_bar_height="0.0dip" app:week_bar_view="com.gotokeep.keep.dc.business.widget.EmptyWeekView" app:week_line_margin="14.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutBottom" android:background="@drawable/bg_shadow_white_corners_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-30.0dip">
+                <include android:id="@id/layoutFeelingsGoal" android:layout_width="fill_parent" android:layout_height="130.0dip" layout="@layout/dc_view_sport_feelings_score" />
+                <include android:id="@id/layoutEmojiBarChart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" layout="@layout/dc_view_sport_feelings_bar_chart" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBarItem" android:layout_width="fill_parent" app:add_status_bar_height="true" app:background_color="@color/transparent" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.dc.business.sportfeelings.mvp.view.SportFeelingsView>

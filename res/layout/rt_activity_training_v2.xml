@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.rt.business.training.widget.SafeCoordinatorLayout android:id="@id/parentContainer" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/mapContainer" android:paddingBottom="114.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/bottomSheetContainer" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:behavior_hideable="true" app:layout_behavior="@string/bottom_sheet_behavior">
+            <FrameLayout android:id="@id/fragmentContainer" android:background="@drawable/rt_bg_training_v2" android:paddingTop="24.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:layout_gravity="center_horizontal" android:background="@drawable/shape_bottom_sheet_affordance_black" android:layout_width="32.0dip" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" />
+        </FrameLayout>
+    </com.gotokeep.keep.rt.business.training.widget.SafeCoordinatorLayout>
+    <include android:id="@id/layoutActivityLockCover" android:visibility="invisible" layout="@layout/rt_view_training2_lock_cover" />
+    <include android:id="@id/layoutActivityCountDown" android:background="@color/color_0a9c67" layout="@layout/rt_widget_training_count_down" />
+</FrameLayout>

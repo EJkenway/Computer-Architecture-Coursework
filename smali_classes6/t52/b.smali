@@ -1,0 +1,43 @@
+.class public final synthetic Lt52/b;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lhj3/a;
+
+
+# static fields
+.field public static final synthetic g:Lt52/b;
+
+
+# direct methods
+.method public static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lt52/b;
+
+    invoke-direct {v0}, Lt52/b;-><init>()V
+
+    sput-object v0, Lt52/b;->g:Lt52/b;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    invoke-static {}, Lt52/d;->b()Lwi3/s;
+
+    move-result-object v0
+
+    return-object v0
+.end method

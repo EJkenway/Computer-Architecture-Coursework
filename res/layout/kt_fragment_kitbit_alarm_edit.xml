@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/vPreView" layout="@layout/kt_layout_kitbit_setting_preview" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemAlarm" android:layout_marginTop="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/vPreView" app:mainText="@string/kt_kitbit_set_time" style="@style/SettingSingleItemWithClick" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/repeat" android:layout_marginTop="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/itemAlarm" app:mainText="@string/repeat" app:subText="@string/kt_kitbit_never" style="@style/SettingSingleItemWithClick" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/kt_color_delete_button" android:gravity="center" android:layout_gravity="bottom" android:id="@id/delete" android:background="@color/white" android:layout_marginBottom="28.0dip" android:text="@string/kt_kitbit_setting_delete_alarm" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/SettingSingleItem" />
+</androidx.constraintlayout.widget.ConstraintLayout>

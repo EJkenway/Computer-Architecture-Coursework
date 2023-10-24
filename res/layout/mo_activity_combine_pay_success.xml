@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar" android:visibility="visible" android:layout_alignParentTop="true" app:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/empty_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutBehaviorEx">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapse_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <LinearLayout android:orientation="vertical" android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <include android:id="@id/view_store_paysuccess_header" layout="@layout/mo_view_store_pay_success_header" />
+                    <com.gotokeep.keep.mo.common.widget.AssistCashBannerEntryView android:id="@id/cash_entry" android:paddingLeft="@dimen/dimen_14dp" android:paddingRight="@dimen/dimen_14dp" android:paddingBottom="@dimen/dimen_14dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/operating_block" android:background="#fffff5cf" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                        <ImageView android:id="@id/member_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="14.0sp" android:src="@drawable/ic_class_member" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/tios_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:maxLines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/member_icon" app:layout_constraintRight_toLeftOf="@id/member_button" app:layout_constraintTop_toTopOf="parent" />
+                        <TextView android:textSize="12.0sp" android:textColor="#fff1cf8d" android:gravity="center" android:id="@id/member_button" android:layout_width="@dimen/dimen_80dp" android:layout_height="28.0dip" android:layout_marginRight="@dimen/dimen_14dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <include android:id="@id/hash_tag_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/mo_view_pay_success_hash_tag" />
+                    <View android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+                </LinearLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.gotokeep.keep.mo.business.store.mvp.view.RecommendListView android:id="@id/recommend_list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

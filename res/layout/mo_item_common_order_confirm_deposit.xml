@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.pay.mvp.view.CommonOrderConfirmDepositPreSaleItemView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.mo.business.pay.mvp.view.CommonOrderConfirmKVItemView android:id="@id/stageFirst" android:paddingTop="@dimen/dimen_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp" />
+    <com.gotokeep.keep.mo.business.pay.mvp.view.CommonOrderConfirmKVItemView android:id="@id/stageSecond" android:paddingTop="@dimen/dimen_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/black_87" android:gravity="end" android:id="@id/depositTimeText" android:paddingTop="@dimen/dimen_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/mo_color_green" android:gravity="end" android:id="@id/depositTips" android:paddingTop="@dimen/dimen_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp" />
+    <View android:background="@color/ysf_grey_EFEFEF" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginBottom="@dimen/dimen_16dp" />
+</com.gotokeep.keep.mo.business.pay.mvp.view.CommonOrderConfirmDepositPreSaleItemView>

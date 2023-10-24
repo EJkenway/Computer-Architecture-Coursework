@@ -1,0 +1,864 @@
+{
+  "dataList": [
+    {
+      "_id": "1",
+      "content": "无趣的人无不相似，有趣的人各有各的有趣。",
+      "author": "列夫·托尔斯泰"
+    },
+    {
+      "_id": "2",
+      "content": "人之所以言之凿凿，是因为知道得太少。",
+      "author": "弗朗索瓦·基佐"
+    },
+    {
+      "_id": "3",
+      "content": "虽然我走得很慢，但我从来没有后退。",
+      "author": "亚伯拉罕·林肯"
+    },
+    {
+      "_id": "5",
+      "content": "一个人的行走范围，就是他的世界。",
+      "author": "北岛"
+    },
+    {
+      "_id": "6",
+      "content": "No, no, no, no, I don\u0027t drink it no more, I\u0027m tired of waking up on the floor.",
+      "author": "Ringo Starr"
+    },
+    {
+      "_id": "7",
+      "content": "在一段不明确的时间里，我觉得自己抽象地领悟了这个世界。",
+      "author": "博尔赫斯"
+    },
+    {
+      "_id": "8",
+      "content": "世事浮云何足问，不如高卧且加餐。",
+      "author": "王维"
+    },
+    {
+      "_id": "9",
+      "content": "诚实的生活方式其实是按照自己身体的意愿行事，饿才吃饭，爱不必撒谎。",
+      "author": "加西亚·马尔克斯"
+    },
+    {
+      "_id": "10",
+      "content": "每一个不曾起舞的日子，都是对生命的辜负。",
+      "author": "尼采"
+    },
+    {
+      "_id": "11",
+      "content": "人活在世界上，快乐和痛苦本就分不清。所以我只求它货真价实。",
+      "author": "王小波"
+    },
+    {
+      "_id": "12",
+      "content": "我们始于迷惘，终于更高水平的迷惘。",
+      "author": "A·F·查尔默斯"
+    },
+    {
+      "_id": "13",
+      "content": "你不能把这个世界，让给你所鄙视的人。",
+      "author": "安·兰德"
+    },
+    {
+      "_id": "14",
+      "content": "我将告诉你太阳升起时，像一条彩带的样子。",
+      "author": "艾米莉·狄金森"
+    },
+    {
+      "_id": "15",
+      "content": "习惯就是人生的最大指导。",
+      "author": "休谟"
+    },
+    {
+      "_id": "16",
+      "content": "我知道永逝降临，并不悲伤，松林中安放着我的愿望。",
+      "author": "顾城"
+    },
+    {
+      "_id": "17",
+      "content": "The moments seize us.",
+      "author": "Boyhood"
+    },
+    {
+      "_id": "18",
+      "content": "喜欢的人的气息是从不失职的温柔路标。",
+      "author": "黄薄码"
+    },
+    {
+      "_id": "19",
+      "content": "白日放歌须纵酒，青春作伴好还乡。",
+      "author": "杜甫"
+    },
+    {
+      "_id": "20",
+      "content": "所有你能想像的一切都是真实。",
+      "author": "毕加索"
+    },
+    {
+      "_id": "21",
+      "content": "他人的头脑太过恶毒，不能作为我们自己真正幸福的栖身之所。",
+      "author": "叔本华"
+    },
+    {
+      "_id": "22",
+      "content": "白天是为了谋生，而黑夜只是为了爱。",
+      "author": "鲁米"
+    },
+    {
+      "_id": "23",
+      "content": "思考生活的意义并不能帮我们改变世界，但是可以帮我们认识自己。",
+      "author": "Gravity"
+    },
+    {
+      "_id": "24",
+      "content": "Three things can not hide for long: the Moon, the Sun and the Truth.",
+      "author": "Siddhartha"
+    },
+    {
+      "_id": "25",
+      "content": "我们领教了世界是何等的凶顽，同时又得知世界也可以变得温存和美好。",
+      "author": "村上春树"
+    },
+    {
+      "_id": "26",
+      "content": "如果没有信仰，就将运动当作信仰。",
+      "author": "Keep"
+    },
+    {
+      "_id": "27",
+      "content": "最高贵的复仇是宽容。",
+      "author": "雨果"
+    },
+    {
+      "_id": "28",
+      "content": "知者不惑，仁者不忧，勇者不惧。",
+      "author": "孔子"
+    },
+    {
+      "_id": "29",
+      "content": "我们坚持一件事情，并不是因为这样做了会有效果，而是坚信，这样做是对的。",
+      "author": "哈维尔"
+    },
+    {
+      "_id": "30",
+      "content": "我讨厌抽筋，这是对身体的背叛。",
+      "author": "海明威"
+    },
+    {
+      "_id": "31",
+      "content": "在这邪恶的世界上，没有什么能够永久，即使是我们的麻烦也不能。",
+      "author": "查尔斯·卓别林"
+    },
+    {
+      "_id": "32",
+      "content": "舌头因为说话太多而生锈，眼睛由于梦想太少而生锈。",
+      "author": "阿多尼斯"
+    },
+    {
+      "_id": "33",
+      "content": "假如我的医生告诉我，我只剩6分钟可活，我不会忧伤，我会把字打的快一点。",
+      "author": "阿西莫夫"
+    },
+    {
+      "_id": "34",
+      "content": "你读书，我跳舞，猫儿之春日日无辛苦。",
+      "author": "夏目漱石"
+    },
+    {
+      "_id": "35",
+      "content": "什么是人生最困难的事情？——与生活讲和！",
+      "author": "米奇·阿尔博姆"
+    },
+    {
+      "_id": "36",
+      "content": "就因为你喜欢我的东西，不代表我就欠你什么东西。",
+      "author": "鲍勃·迪伦"
+    },
+    {
+      "_id": "37",
+      "content": "迷失的时候，选择更艰辛的那条路。",
+      "author": "松浦弥太郎"
+    },
+    {
+      "_id": "38",
+      "content": "在夏天，世界触手可及，人也亲密直接。",
+      "author": "胡利奥·科塔萨尔"
+    },
+    {
+      "_id": "39",
+      "content": "他的心灵上已被脂肪包围，久不使用的天赋，终已泯灭。",
+      "author": "海明威"
+    },
+    {
+      "_id": "40",
+      "content": "使时间充实就是幸福。",
+      "author": "爱默生"
+    },
+    {
+      "_id": "41",
+      "content": "少女，永远清冽的浅滩。",
+      "author": "芥川龙之介"
+    },
+    {
+      "_id": "42",
+      "content": "永远年轻，永远热泪盈眶。",
+      "author": "杰克·凯鲁亚克"
+    },
+    {
+      "_id": "43",
+      "content": "一个人应该活得是自己并且干净。",
+      "author": "顾城"
+    },
+    {
+      "_id": "44",
+      "content": "且将新火试新茶。诗酒趁年华。",
+      "author": "苏轼"
+    },
+    {
+      "_id": "45",
+      "content": "In three words I can sum up everything I\u0027ve learned about life: it goes on.",
+      "author": "罗伯特·弗罗斯特"
+    },
+    {
+      "_id": "46",
+      "content": "Don\u0027t ever underestimate the heart of a champion!",
+      "author": "Rudy Tomjanovich"
+    },
+    {
+      "_id": "47",
+      "content": "Strong is the new beautiful.",
+      "author": "NIKE"
+    },
+    {
+      "_id": "48",
+      "content": "不要把你的生命献给无知平庸和低俗。",
+      "author": "王尔德"
+    },
+    {
+      "_id": "49",
+      "content": "Yesterday you said tomorrow.",
+      "author": "NIKE"
+    },
+    {
+      "_id": "50",
+      "content": "孤独就和发烧一样，在夜晚最盛。",
+      "author": "杜鲁门·卡波特"
+    },
+    {
+      "_id": "51",
+      "content": "Don\u0027t Panic.",
+      "author": "道格拉斯·亚当斯"
+    },
+    {
+      "_id": "52",
+      "content": "人不曾老去，直到悔恨取代了梦想。",
+      "author": "约翰·巴里摩"
+    },
+    {
+      "_id": "53",
+      "content": "一些人感受雨水另一些人只是淋湿自己。",
+      "author": "Bob Dylan"
+    },
+    {
+      "_id": "54",
+      "content": "面对愚昧，神们自己也缄口不言。",
+      "author": "弗里德里希·席勒"
+    },
+    {
+      "_id": "55",
+      "content": "你要在孤寂里自成一个世界。",
+      "author": "提布鲁斯"
+    },
+    {
+      "_id": "56",
+      "content": "围绕太阳公转了90圈以后，我没有遗憾，也没有更多的野心了。",
+      "author": "亚瑟·克拉克"
+    },
+    {
+      "_id": "57",
+      "content": "活在这珍贵的人间，太阳强烈，水波温柔。",
+      "author": "海子"
+    },
+    {
+      "_id": "58",
+      "content": "当前的目标并不在于发现我们是谁，而是拒绝我们是谁。",
+      "author": "福柯"
+    },
+    {
+      "_id": "59",
+      "content": "平庸这东西犹如白衬衣上的污痕，一旦染上便永远洗不掉，无可挽回。",
+      "author": "村上春树"
+    },
+    {
+      "_id": "60",
+      "content": "只要世界上还有重力，就不要把自己想得太轻。",
+      "author": "简媜"
+    },
+    {
+      "_id": "61",
+      "content": "在涅贵不缁，暧暧内含光。",
+      "author": "崔瑗"
+    },
+    {
+      "_id": "62",
+      "content": "我去旅行，是因为我决定了要去，并不是因为对风景的兴趣。",
+      "author": "加西亚·马尔克斯"
+    },
+    {
+      "_id": "63",
+      "content": "我身在此处，却离此处的世界那么遥远。",
+      "author": "李娟"
+    },
+    {
+      "_id": "64",
+      "content": "Where there is love, there is life.",
+      "author": "甘地"
+    },
+    {
+      "_id": "65",
+      "content": "许多事情越想努力做好效果就越糟，比如爱情、入睡和举止自然。",
+      "author": "C·S·刘易斯"
+    },
+    {
+      "_id": "66",
+      "content": "我只担心一件事，我怕我配不上自己所受的苦难。",
+      "author": "陀思妥耶夫斯基"
+    },
+    {
+      "_id": "67",
+      "content": "现实生活喜欢对称和轻微的时间错移。",
+      "author": "博尔赫斯"
+    },
+    {
+      "_id": "68",
+      "content": "Men and women, women and men. It will never work.",
+      "author": "Erica Jong"
+    },
+    {
+      "_id": "69",
+      "content": "所有的战争都是内战，因为所有的人类都是同胞。",
+      "author": "弗朗索瓦·费奈隆"
+    },
+    {
+      "_id": "70",
+      "content": "梦里出现的人，醒来时就该去见他，生活就是那么简单。",
+      "author": "Michèle Stalens"
+    },
+    {
+      "_id": "71",
+      "content": "乞丐并不会妒忌百万富翁，但是他肯定会妒忌收入更高的乞丐。",
+      "author": "罗素"
+    },
+    {
+      "_id": "72",
+      "content": "放荡的孤独，一如某时某地歇斯底里的张狂，带有纵情和不计后果的气味。我迷恋这味道。",
+      "author": "三岛由纪夫"
+    },
+    {
+      "_id": "73",
+      "content": "The more you know who you are and what you want, the less you let things upset you.",
+      "author": "Lost in Translation"
+    },
+    {
+      "_id": "74",
+      "content": "我独自一人，对自己的灵魂，满怀着巨大的爱情。",
+      "author": "茨维塔耶娃"
+    },
+    {
+      "_id": "75",
+      "content": "Because a man who doesn\u0027t spend time with his family can never be a real man.",
+      "author": "Vito Corleone"
+    },
+    {
+      "_id": "76",
+      "content": "世界上没有比结实的的肌肉和新鲜的皮肤更加美丽的衣裳。",
+      "author": "马雅可夫斯基"
+    },
+    {
+      "_id": "77",
+      "content": "既然目标选择了地平线，留给世界的只能是背影。",
+      "author": "汪国真"
+    },
+    {
+      "_id": "79",
+      "content": "没有鸟能比想象力飞得更高。",
+      "author": "寺山修司"
+    },
+    {
+      "_id": "80",
+      "content": "人不是别的东西，而仅仅是他自己行动的结果。",
+      "author": "萨特"
+    },
+    {
+      "_id": "81",
+      "content": "黑夜无论怎样悠长，白昼总会到来。",
+      "author": "莎士比亚"
+    },
+    {
+      "_id": "82",
+      "content": "The story’s told with facts and lies. You own the world, so never mind.",
+      "author": "Leonard Cohen"
+    },
+    {
+      "_id": "83",
+      "content": "在隆冬，我终于知道，我身上有一个不可战胜的夏天。",
+      "author": "加缪"
+    },
+    {
+      "_id": "84",
+      "content": "让我一个人呆在屋里，和我自己巨大的平静待在一起。",
+      "author": "费尔南多·佩索阿"
+    },
+    {
+      "_id": "85",
+      "content": "如果上帝赏我一段生命，我会简单装束，伏在阳光下，袒露身体和魂灵。",
+      "author": "加西亚·马尔克斯"
+    },
+    {
+      "_id": "86",
+      "content": "今晚的月色真美呀。",
+      "author": "夏目漱石"
+    },
+    {
+      "_id": "87",
+      "content": "凡不能杀死你的，终使你更加强大。",
+      "author": "尼采"
+    },
+    {
+      "_id": "88",
+      "content": "那所有的瞬间，都将湮没于时间的洪流，就像泪水消逝在雨中。",
+      "author": "罗伊·巴蒂"
+    },
+    {
+      "_id": "89",
+      "content": "享受一种穿山越岭之后的健康的疲惫感。",
+      "author": "卢梭"
+    },
+    {
+      "_id": "90",
+      "content": "命运总是在无人理睬时才显出其本色。",
+      "author": "纳博科夫"
+    },
+    {
+      "_id": "91",
+      "content": "当我瘦下来以后，世界改变了。",
+      "author": "佐佐木希"
+    },
+    {
+      "_id": "92",
+      "content": "于是我们继续挣扎，逆流而上，被不断地推回，直到回到往昔的岁月。",
+      "author": "菲茨杰拉德"
+    },
+    {
+      "_id": "93",
+      "content": "Time For Change",
+      "author": "Keep"
+    },
+    {
+      "_id": "94",
+      "content": "永远努力在你的生活之上保留一片天空。",
+      "author": "马塞尔·普鲁斯特"
+    },
+    {
+      "_id": "95",
+      "content": "人只因承担责任才是自由的。这是生活的真谛。",
+      "author": "卡夫卡"
+    },
+    {
+      "_id": "96",
+      "content": "自律给我自由",
+      "author": "Keep"
+    },
+    {
+      "_id": "103",
+      "content": "I want to live, I want to give, I\u0027ve been a miner for a heart of gold.",
+      "author": "Neil Young"
+    },
+    {
+      "_id": "104",
+      "content": "You may say I\u0027m a dreamer. But I\u0027m not the only one.",
+      "author": "John Lennon"
+    },
+    {
+      "_id": "105",
+      "content": "To fear love is to fear life.",
+      "author": "罗素"
+    },
+    {
+      "_id": "106",
+      "content": "像生于深海的鱼族，若不自燃，便只有漆黑一片。",
+      "author": "明石海人"
+    },
+    {
+      "_id": "107",
+      "content": "要想当一位出色的爱人，必须强壮且温柔。",
+      "author": "伍迪·艾伦"
+    },
+    {
+      "_id": "108",
+      "content": "一个人最初和父亲相像之日，也就是他开始衰老之时。",
+      "author": "加西亚·马尔克斯"
+    },
+    {
+      "_id": "109",
+      "content": "生活乐趣的大小是随我们对生活的关心程度而定的。",
+      "author": "蒙田"
+    },
+    {
+      "_id": "110",
+      "content": "如果能控制粗鄙的狂喜，就不会有深入骨髓的悲伤。",
+      "author": "太宰治"
+    },
+    {
+      "_id": "111",
+      "content": "此后如竟没有炬火：我便是唯一的光。",
+      "author": "鲁迅"
+    },
+    {
+      "_id": "112",
+      "content": "明月直入，无心可猜。",
+      "author": "李白"
+    },
+    {
+      "_id": "113",
+      "content": "月色与雪色之间，你是第三种绝色。",
+      "author": "余光中"
+    },
+    {
+      "_id": "114",
+      "content": "回首向来萧瑟处。归去，也无风雨也无晴。",
+      "author": "苏轼"
+    },
+    {
+      "_id": "115",
+      "content": "我永恒的灵魂，注视着你的心，纵然黑夜孤寂，白昼如焚。",
+      "author": "兰波"
+    },
+    {
+      "_id": "116",
+      "content": "整个世界是座舞台。",
+      "author": "莎士比亚"
+    },
+    {
+      "_id": "117",
+      "content": "既自以心为形役，奚惆怅而独悲？",
+      "author": "陶渊明"
+    },
+    {
+      "_id": "118",
+      "content": "起风了，唯有努力生存。",
+      "author": "保罗·瓦勒里"
+    },
+    {
+      "_id": "119",
+      "content": "When Life was a miracle, as if Zidane played for Liverpool.",
+      "author": "Emir Kusturica"
+    },
+    {
+      "_id": "120",
+      "content": "I have to turn my head until my darkness goes.",
+      "author": "The Rolling Stones"
+    },
+    {
+      "_id": "121",
+      "content": "As I remember your eyes were bluer than robin\u0027s eggs. My poetry was lousy you said.",
+      "author": "Joan Baez"
+    },
+    {
+      "_id": "122",
+      "content": "There is only one happiness in this life, to love and be loved.",
+      "author": "George Sand"
+    },
+    {
+      "_id": "123",
+      "content": "谁想看清尘世就应同它保持必要的距离。",
+      "author": "卡尔维诺"
+    },
+    {
+      "_id": "124",
+      "content": "每一个人对独处，即与己为伴的喜爱抑或憎恶，由他自身的内在价值所决定。",
+      "author": "叔本华"
+    },
+    {
+      "_id": "125",
+      "content": "我们早就该学会并且永远记住，命运要到任何地方都必须走许多弯路。",
+      "author": "若泽·萨拉马戈"
+    },
+    {
+      "_id": "126",
+      "content": "时日去悠悠，岁月去悠悠。旧情往日，都一去不可留。",
+      "author": "阿波利奈尔"
+    },
+    {
+      "_id": "127",
+      "content": "我不忧伤，也不泄气。",
+      "author": "陀思妥耶夫斯基"
+    },
+    {
+      "_id": "128",
+      "content": "今番良晤，豪兴不浅。",
+      "author": "金庸"
+    },
+    {
+      "_id": "129",
+      "content": "这是秋天，宁静的时间，书信和黄叶的时间。",
+      "author": "加莉娜·埃莫什娜"
+    },
+    {
+      "_id": "130",
+      "content": "人必须生存，必须创造。",
+      "author": "加缪"
+    },
+    {
+      "_id": "131",
+      "content": "人的伟大之处在于，他是一座桥梁而非目的。",
+      "author": "尼采"
+    },
+    {
+      "_id": "132",
+      "content": "虽然意志无力控制环境，但它可以自由决定心灵的习性。",
+      "author": "乔治·吉辛"
+    },
+    {
+      "_id": "133",
+      "content": "寂静如此完整，他能听见，自己内心的低语。",
+      "author": "杰克·吉尔伯特"
+    },
+    {
+      "_id": "134",
+      "content": "我坐在海边观浪，在松林间踱步。",
+      "author": "松本清张"
+    },
+    {
+      "_id": "135",
+      "content": "坚持到底，这不仅是抵抗，也是一种任性。",
+      "author": "加缪"
+    },
+    {
+      "_id": "136",
+      "content": "在不实与幻觉之间进退两难的只有人类。",
+      "author": "齐奥朗"
+    },
+    {
+      "_id": "137",
+      "content": "如果一个人自认为其在命运面前别无选择，这个人就已经盲目了。",
+      "author": "提图斯·李维"
+    },
+    {
+      "_id": "138",
+      "content": "I live it full, I live it wide.",
+      "author": "Leonard Cohen"
+    },
+    {
+      "_id": "139",
+      "content": "There is a crack in everything, that\u0027s how the light gets in.",
+      "author": "Leonard Cohen"
+    },
+    {
+      "_id": "140",
+      "content": "我会把我的灵魂与照片、苔藓一起，藏在一张剪贴簿里。",
+      "author": "莱昂纳德·科恩"
+    },
+    {
+      "_id": "141",
+      "content": "你永远也无法理解，为了对生活发生兴趣，我们做了多大的努力。",
+      "author": "安德烈·纪德"
+    },
+    {
+      "_id": "142",
+      "content": "做一个世界的水手，奔赴所有的码头。",
+      "author": "沃尔特·惠特曼"
+    },
+    {
+      "_id": "143",
+      "content": "每天清晨有多少双眼睛睁开，有多少人的意识苏醒过来，便有多少个世界。",
+      "author": "马塞尔·普鲁斯特"
+    },
+    {
+      "_id": "144",
+      "content": "有时候远方唤起的渴望，并非是引向陌生之地，而是一种回家的召唤。",
+      "author": "瓦尔特·本雅明"
+    },
+    {
+      "_id": "145",
+      "content": "世界上最伟大的事，是一个人懂得如何作自己的主人。",
+      "author": "蒙田"
+    },
+    {
+      "_id": "146",
+      "content": "休息过长就会发霉。",
+      "author": "沃尔特·司各特"
+    },
+    {
+      "_id": "147",
+      "content": "整夜我的背影是一条踏往星空的道路。由于这自身的善良，黎明自远方的星野赶来。",
+      "author": "布里吉特·贝根·凯利"
+    },
+    {
+      "_id": "148",
+      "content": "我将忘却感受，忘却我的天赋。那比生活经历的一切更伟大、更艰难。",
+      "author": "德里克·沃尔科特"
+    },
+    {
+      "_id": "149",
+      "content": "我将以你我间的山岳、水流以及城市来爱你。",
+      "author": "马林·索列斯库"
+    },
+    {
+      "_id": "150",
+      "content": "这些闪耀如阳光的旋律，编配成一支巍峨天空的颂歌。",
+      "author": "扎博洛茨基"
+    },
+    {
+      "_id": "151",
+      "content": "面对世界永恒的新奇，我感到我每一刻都是新生。",
+      "author": "费尔南多·佩索阿"
+    },
+    {
+      "_id": "152",
+      "content": "我了解爱无法理解的事物，我原谅爱无法原谅的一切。",
+      "author": "辛波斯卡"
+    },
+    {
+      "_id": "153",
+      "content": "去生活，去犯错，去跌倒，去胜利，去用生命再创生命。",
+      "author": "詹姆斯·乔伊斯"
+    },
+    {
+      "_id": "154",
+      "content": "自律是最强者的本能。",
+      "author": "萧伯纳"
+    },
+    {
+      "_id": "155",
+      "content": "爱就意味着学会以观察远处事物的方式审视自己。",
+      "author": "切斯瓦夫·米沃什"
+    },
+    {
+      "_id": "156",
+      "content": "比起想做的事，能做的事更重要。",
+      "author": "阿部雅世"
+    },
+    {
+      "_id": "157",
+      "content": "我不相信过去可以被修补，过去只能被超越。",
+      "author": "理查德·福特"
+    },
+    {
+      "_id": "158",
+      "content": "美就是一种意识的转变状态，一种诗意与优雅的特殊时刻。",
+      "author": "李欧纳·科仁"
+    },
+    {
+      "_id": "159",
+      "content": "人类的努力应该是没有边界的。",
+      "author": "史蒂芬·霍金"
+    },
+    {
+      "_id": "160",
+      "content": "未经审视的生活不值得度过。",
+      "author": "苏格拉底"
+    },
+    {
+      "_id": "161",
+      "content": "自由只存在于束缚之中，没有堤岸，哪来江河？",
+      "author": "金斯伯格"
+    },
+    {
+      "_id": "162",
+      "content": "时间因自己的富有而停止。",
+      "author": "伊夫·博纳富瓦"
+    },
+    {
+      "_id": "163",
+      "content": "如果你不能飞，那就奔跑。",
+      "author": "马丁·路德·金"
+    },
+    {
+      "_id": "170",
+      "content": "一个人忙得连读诗的时间都没有，根本不是生活。",
+      "author": "卡佛"
+    },
+    {
+      "_id": "171",
+      "content": "我有个原则：想到要做一件事，就一定要做到，而且要做得彻底。",
+      "author": "狄更斯"
+    },
+    {
+      "_id": "172",
+      "content": "过去属于死神，未来属于你自己。",
+      "author": "雪莱"
+    },
+    {
+      "_id": "173",
+      "content": "生活的意义在于生活本身，而不在于你如何去描写。",
+      "author": "毛姆"
+    },
+    {
+      "_id": "174",
+      "content": "青春是面对现实去想像的能力，而不是按照别人的想象来欺骗自己。",
+      "author": "毛姆"
+    },
+    {
+      "_id": "175",
+      "content": "用记忆拥抱着过去，用希望拥抱着未来。",
+      "author": "纪伯伦"
+    },
+    {
+      "_id": "176",
+      "content": "莫道桑榆晚，为霞尚满天。",
+      "author": "刘禹锡"
+    },
+    {
+      "_id": "177",
+      "content": "走吧，我们没有失去记忆，我们去寻找生命的湖。",
+      "author": "北岛"
+    },
+    {
+      "_id": "178",
+      "content": "在人生的道路上，每个人都是孤独的旅客。",
+      "author": "季羡林"
+    },
+    {
+      "_id": "179",
+      "content": "我要有能做我自己的自由，和敢做我自己的胆量。",
+      "author": "林语堂"
+    },
+    {
+      "_id": "180",
+      "content": "人生本来就是一种较广泛的艺术，每个人的生命史就是他自己的作品。",
+      "author": "朱光潜"
+    },
+    {
+      "_id": "181",
+      "content": "你的闲暇往往定了你的终身。",
+      "author": "胡适"
+    },
+    {
+      "_id": "182",
+      "content": "这个世界乱纷纷，先把自己铸炼成器。",
+      "author": "胡适"
+    },
+    {
+      "_id": "306",
+      "content": "爱是我们最高的欢乐和最深的悲愁。",
+      "author": "德里克·沃尔科特"
+    },
+    {
+      "_id": "319",
+      "content": "在屋子的上空，夕阳的贫穷，是我崭新的命运。",
+      "author": "波普拉夫斯基"
+    },
+    {
+      "_id": "320",
+      "content": "我愿从我的心走出，走在阔大的天空下。",
+      "author": "莱纳·玛利亚·里尔克"
+    },
+    {
+      "_id": "321",
+      "content": "我们爱土地，我们站着，用木鞋挖着泥土。",
+      "author": "顾城"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:paddingTop="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:id="@id/tvSettingsHeaderCustom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_settings_header_custom" />
+    </LinearLayout>
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_switch_alive" app:mainText="@string/rt_alive_service" style="@style/RtSettingItemSwitch" />
+    <include layout="@layout/rt_layout_settings_divider" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_exercise_authority" android:background="@color/white" app:mainText="@string/setting_exercise_authority" app:rightArrowVisible="true" style="@style/RtSettingSingleItemWithClick" />
+    <include layout="@layout/rt_layout_settings_divider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutSettingsHrRange" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemSettingsHrRange" android:background="@color/white" app:mainText="@string/rt_settings_hr_range" app:rightArrowVisible="true" style="@style/RtSettingSingleItemWithClick" />
+        <include layout="@layout/rt_layout_settings_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutSettingsPaceRange" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemSettingsPaceRange" android:background="@color/white" app:mainText="@string/rt_settings_pace_range" app:rightArrowVisible="true" style="@style/RtSettingSingleItemWithClick" />
+        <include layout="@layout/rt_layout_settings_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutScreenOn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_switch_screen_on" app:mainText="@string/rt_keep_screen_on" style="@style/RtSettingItemSwitch" />
+        <include layout="@layout/rt_layout_settings_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutAutoPause" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_switch_auto_pause" app:mainText="@string/rt_run_auto_pause" style="@style/RtSettingSingleItemWithClick" />
+        <com.gotokeep.keep.rt.business.settings.widget.AutoPauseSeekBar android:id="@id/auto_pause_seek_bar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/rt_layout_settings_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutDataOnLockScreen" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_switch_data_on_lock_screen" app:mainText="@string/rt_show_data_when_screen_lock" style="@style/RtSettingItemSwitch" />
+        <include layout="@layout/rt_layout_settings_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutAutoRecord" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemAutoRecordSettings" app:mainText="@string/auto_gene_record" app:rightArrowVisible="true" style="@style/RtSettingSingleItemWithClick" />
+        <include android:id="@id/layoutDividerAutoRecord" android:visibility="gone" layout="@layout/rt_layout_settings_divider" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/layoutSettingsHeaderCustomOutdoor" android:paddingTop="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_settings_header_custom_outdoor" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_live" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_switch_live_run" app:mainText="@string/rt_text_live_run" app:subText="@string/rt_live_run_desc" style="@style/RtSettingItemSwitch" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_switch_live_voice" app:mainText="@string/rt_live_run_voice" app:subText="@string/rt_live_run_sound_desc" style="@style/RtSettingItemSwitch" />
+        <include layout="@layout/rt_layout_settings_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutTeam" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemSwitchOutdoorTeam" app:mainText="@string/rt_start_team_setting" app:subText="@string/rt_notice_setting_team_desc" style="@style/RtSettingItemSwitch" />
+        <include layout="@layout/rt_layout_settings_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutRank" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemDistrictRank" app:mainText="@string/rt_settings_district_rank" style="@style/RtSettingItemSwitch" />
+        <include layout="@layout/rt_layout_settings_divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutMapSkin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_map_skin_style" app:mainText="@string/rt_map_style_skin" app:rightArrowVisible="true" style="@style/RtSettingSingleItemWithClick" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutDevices" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:paddingTop="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_settings_header_device" />
+        </LinearLayout>
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_heart_rate" app:mainText="@string/rt_heart_rate_device" app:rightArrowVisible="true" style="@style/RtSettingSingleItemWithClick" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutWheelChair" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:paddingTop="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_settings_wheel_chair" />
+        </LinearLayout>
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_switch_wheel_chair_mode" app:mainText="@string/rt_settings_wheel_chair_mode" style="@style/RtSettingItemSwitch" />
+    </LinearLayout>
+</LinearLayout>

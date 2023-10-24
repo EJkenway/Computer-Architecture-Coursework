@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_data_center_sum_circle" android:paddingBottom="16.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="170.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="120.0dip" android:baselineAligned="false">
+        <RelativeLayout android:id="@id/layout_data_center_circle_training" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_data_center_circle_training" android:background="@drawable/shape_data_center_single_sum_circle" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/icon_data_list_chart_training" android:scaleType="center" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_data_center_circle_yoga" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_data_center_circle_yoga" android:background="@drawable/shape_data_center_single_sum_circle" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/icon_entry_yoga_white" android:scaleType="center" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_data_center_circle_running" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_data_center_circle_running" android:background="@drawable/shape_data_center_single_sum_circle" android:layout_width="69.0dip" android:layout_height="69.0dip" android:src="@drawable/icon_data_list_chart_running" android:scaleType="center" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_data_center_circle_cycling" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_data_center_circle_cycling" android:background="@drawable/shape_data_center_single_sum_circle" android:layout_width="63.0dip" android:layout_height="63.0dip" android:src="@drawable/icon_data_list_chart_cycling" android:scaleType="center" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_data_center_circle_hiking" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_data_center_circle_hiking" android:background="@drawable/shape_data_center_single_sum_circle" android:layout_width="63.0dip" android:layout_height="63.0dip" android:src="@drawable/icon_data_list_chart_hiking" android:scaleType="center" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_data_center_circle_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="16.0dip" android:textColor="@color/purple" android:id="@id/text_data_center_circle_training_value" android:layout_above="@id/text_data_center_circle_training_title" android:layout_centerHorizontal="true" style="@style/DataCenterSingleTextView" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/gray_99" android:id="@id/text_data_center_circle_training_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/body_build" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="16.0dip" android:textColor="@color/purple" android:id="@id/text_data_center_circle_yoga_value" android:layout_above="@id/text_data_center_circle_yoga_title" android:layout_centerHorizontal="true" style="@style/DataCenterSingleTextView" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/gray_99" android:id="@id/text_data_center_circle_yoga_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/yoga" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="16.0dip" android:textColor="@color/purple" android:id="@id/text_data_center_circle_running_value" android:layout_above="@id/text_data_center_circle_running_title" android:layout_centerHorizontal="true" style="@style/DataCenterSingleTextView" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/gray_99" android:id="@id/text_data_center_circle_running_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/running" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="16.0dip" android:textColor="@color/purple" android:id="@id/text_data_center_circle_cycling_value" android:layout_above="@id/text_data_center_circle_cycling_title" android:layout_centerHorizontal="true" style="@style/DataCenterSingleTextView" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/gray_99" android:id="@id/text_data_center_circle_cycling_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/cycling" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="16.0dip" android:textColor="@color/purple" android:id="@id/text_data_center_circle_hiking_value" android:layout_above="@id/text_data_center_circle_hiking_title" android:layout_centerHorizontal="true" style="@style/DataCenterSingleTextView" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/gray_99" android:id="@id/text_data_center_circle_hiking_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/hiking" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

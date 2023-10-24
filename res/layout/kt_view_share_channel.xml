@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.share.mvp.view.PictureShareChannelView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="238.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/layout_long_pic_mask" android:background="@drawable/shape_gradient_background_dark_purple" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_icon_arrow_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_arrow_up" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/text_glide_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="20.0dip" android:text="@string/kt_long_pic_glide_tip" android:alpha="0.6" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" layout="@layout/kt_layout_share_channel" />
+</com.gotokeep.keep.kt.business.common.share.mvp.view.PictureShareChannelView>

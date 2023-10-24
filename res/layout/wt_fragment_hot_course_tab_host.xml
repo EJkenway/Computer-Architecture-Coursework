@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/appbar_layout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapse_layout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentScrim="@color/white" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:scrimAnimationDuration="200" app:statusBarScrim="@color/transparent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header_layout" android:layout_width="fill_parent" android:layout_height="160.0dip">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageRankTop" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/wt_bg_hot_course_cover" android:scaleType="centerCrop" />
+                <View android:background="@drawable/wt_bg_hot_course_rank_top" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/textRankName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/wt_hot_course_rank" android:layout_marginStart="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:add_status_bar_height="true" app:background_color="@color/transparent" app:left_icon="@drawable/icon_arrow_left_lined" app:title="@string/wt_hot_course_rank" app:title_color="@color/gray_33" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" android:background="@color/white" android:clipChildren="false" android:clipToPadding="false" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" app:layout_scrollFlags="noScroll" app:pIndicatorRadius="@dimen/tab_indicator_radius" app:pTabPaddingLeftRight="12.0dip" style="@style/train_indicator_tab_strip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

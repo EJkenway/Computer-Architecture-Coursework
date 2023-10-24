@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/wt_white_round_popup_dialog" android:layout_width="@dimen/popup_dialog_width" android:layout_height="220.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rel_top" android:layout_width="@dimen/popup_dialog_width" android:layout_height="140.0dip">
+        <com.gotokeep.keep.commonui.uilib.SelectableRoundedImageView android:id="@id/course_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:sriv_left_top_corner_radius="@dimen/popup_dialog_radius" app:sriv_right_top_corner_radius="@dimen/popup_dialog_radius" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/course_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/ShadowStyle" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wt_triangle" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rel_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rel_top">
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_color" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:text="@string/test_course_tip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

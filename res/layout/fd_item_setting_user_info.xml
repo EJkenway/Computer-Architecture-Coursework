@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.setting.mvp.view.SettingUserInfoItemView style="@style/SettingSingleItemWithClick"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txtTitle" android:text="@string/setting_person_info" style="@style/SettingMainText" />
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imgUserAvatar" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/person_45_45" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.fd.business.setting.mvp.view.SettingUserInfoItemView>

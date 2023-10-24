@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.mine.view.MyPageSecondView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutBecomeVip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/fd_item_my_page_become_vip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutCardPrimeInfo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <include android:id="@id/layoutCardPrimeInfoNoVip" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fd_item_my_page_prime_novip_card" />
+        <include android:id="@id/layoutCardPrimeInfoVip" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fd_item_my_page_prime_vip_card" />
+        <include android:id="@id/layoutCardPrimeInfoLiveVip" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fd_item_my_page_prime_live_vip_card" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.fd.business.mine.view.MyPageSecondView>

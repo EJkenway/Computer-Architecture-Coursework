@@ -1,0 +1,202 @@
+.class public final enum Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+.super Ljava/lang/Enum;
+.source "KsDancePadUtils.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final h:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty$a;
+
+.field public static final enum i:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+.field public static final enum j:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+.field public static final enum n:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+.field public static final enum o:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+.field public static final synthetic p:[Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+
+# instance fields
+.field public final g:Ljava/lang/String;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 4
+
+    .line 1
+    new-instance v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    const-string v1, "ALL"
+
+    const/4 v2, 0x0
+
+    const-string v3, "all"
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->i:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    .line 2
+    new-instance v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    const-string v1, "PRIMARY"
+
+    const/4 v2, 0x1
+
+    const-string v3, "primary"
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->j:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    .line 3
+    new-instance v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    const-string v1, "MEDIUM"
+
+    const/4 v2, 0x2
+
+    const-string v3, "medium"
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->n:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    .line 4
+    new-instance v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    const-string v1, "HIGH"
+
+    const/4 v2, 0x3
+
+    const-string v3, "high"
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->o:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    invoke-static {}, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->a()[Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->p:[Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    new-instance v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty$a;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty$a;-><init>(Lij3/h;)V
+
+    sput-object v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->h:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty$a;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;ILjava/lang/String;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    iput-object p3, p0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->g:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public static final synthetic a()[Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+    .locals 3
+
+    const/4 v0, 0x4
+
+    new-array v0, v0, [Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    sget-object v1, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->i:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    const/4 v2, 0x0
+
+    aput-object v1, v0, v2
+
+    sget-object v1, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->j:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    const/4 v2, 0x1
+
+    aput-object v1, v0, v2
+
+    sget-object v1, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->n:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    const/4 v2, 0x2
+
+    aput-object v1, v0, v2
+
+    sget-object v1, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->o:Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    const/4 v2, 0x3
+
+    aput-object v1, v0, v2
+
+    return-object v0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+    .locals 1
+
+    const-class v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    return-object p0
+.end method
+
+.method public static values()[Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+    .locals 1
+
+    sget-object v0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->p:[Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    invoke-virtual {v0}, [Ljava/lang/Object;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final b()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/kt/business/station/dancepad/utils/Difficulty;->g:Ljava/lang/String;
+
+    return-object v0
+.end method

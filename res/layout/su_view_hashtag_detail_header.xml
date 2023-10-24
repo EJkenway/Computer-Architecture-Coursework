@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/coverView" android:layout_width="fill_parent" android:layout_height="213.0dip" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/coverMaskView" android:background="@color/black_40" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/metaViewLayout" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="138.0dip" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.su.social.hashtag.mvp.header.view.HashtagDetailFollowView android:textSize="12.0sp" android:textColor="@color/white_100" android:gravity="center" android:id="@id/followView" android:background="@drawable/su_bg_corner_50_color_green" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:text="@string/me_follow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/metaView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="21.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/titleView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="10.0dip" android:maxLines="2" android:lineSpacingExtra="4.0dip" app:layout_constraintBottom_toTopOf="@id/metaViewLayout" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="9.0dip" app:layout_constraintTop_toBottomOf="@id/metaViewLayout" layout="@layout/su_view_hashtag_detail_header_gift" />
+</androidx.constraintlayout.widget.ConstraintLayout>

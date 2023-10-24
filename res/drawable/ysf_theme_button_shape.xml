@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/ysf_blue_337EFF" />
+    <corners android:topLeftRadius="50.0dip" android:topRightRadius="50.0dip" android:bottomLeftRadius="50.0dip" android:bottomRightRadius="50.0dip" />
+    <padding android:left="@dimen/ysf_input_send_button_padding_hor" android:top="@dimen/ysf_input_send_button_padding_ver" android:right="@dimen/ysf_input_send_button_padding_hor" android:bottom="@dimen/ysf_input_send_button_padding_ver" />
+</shape>

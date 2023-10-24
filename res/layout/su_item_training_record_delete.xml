@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.training.mvp.view.TrainingRecordDeleteItemView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageIconDelete" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="22.0dip" android:layout_marginBottom="22.0dip" android:src="@drawable/su_icon_add_circle_line" android:layout_marginStart="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/su_entry_post_sport_record_delete" android:layout_marginStart="7.0dip" app:layout_constraintBottom_toBottomOf="@id/imageIconDelete" app:layout_constraintStart_toEndOf="@id/imageIconDelete" app:layout_constraintTop_toTopOf="@id/imageIconDelete" />
+</com.gotokeep.keep.su.social.training.mvp.view.TrainingRecordDeleteItemView>

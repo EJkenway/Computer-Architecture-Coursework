@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.quick.ContentTabItemView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgContentTab" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerInside" app:border_width="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_87" android:ellipsize="end" android:gravity="center" android:id="@id/textContentTab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" android:maxEms="5" app:layout_constraintEnd_toEndOf="@id/imgContentTab" app:layout_constraintStart_toStartOf="@id/imgContentTab" app:layout_constraintTop_toBottomOf="@id/imgContentTab" />
+</com.gotokeep.keep.tc.business.home.mvp.view.quick.ContentTabItemView>

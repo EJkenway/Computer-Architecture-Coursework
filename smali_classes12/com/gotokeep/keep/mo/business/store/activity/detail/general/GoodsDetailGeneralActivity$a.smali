@@ -1,0 +1,236 @@
+.class public Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;
+.super Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;
+.source "GoodsDetailGeneralActivity.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->initView()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+
+# direct methods
+.method public constructor <init>(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c(Landroidx/recyclerview/widget/RecyclerView;)I
+    .locals 2
+
+    .line 1
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+    move-result-object p1
+
+    .line 2
+    instance-of v0, p1, Landroidx/recyclerview/widget/LinearLayoutManager;
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_0
+
+    return v1
+
+    .line 3
+    :cond_0
+    move-object v0, p1
+
+    check-cast v0, Landroidx/recyclerview/widget/LinearLayoutManager;
+
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/LinearLayoutManager;->findFirstVisibleItemPosition()I
+
+    move-result v0
+
+    if-lez v0, :cond_1
+
+    .line 4
+    iget-object p1, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    invoke-static {p1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->l4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;)I
+
+    move-result p1
+
+    return p1
+
+    .line 5
+    :cond_1
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->findViewByPosition(I)Landroid/view/View;
+
+    move-result-object p1
+
+    if-nez p1, :cond_2
+
+    return v1
+
+    .line 6
+    :cond_2
+    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
+
+    move-result v1
+
+    mul-int v0, v0, v1
+
+    .line 7
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
+
+    move-result p1
+
+    sub-int/2addr v0, p1
+
+    return v0
+.end method
+
+.method public final d(Landroidx/recyclerview/widget/RecyclerView;)V
+    .locals 5
+    .param p1    # Landroidx/recyclerview/widget/RecyclerView;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 1
+    :cond_0
+    invoke-virtual {p0, p1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->c(Landroidx/recyclerview/widget/RecyclerView;)I
+
+    move-result v0
+
+    .line 2
+    iget-object v1, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    invoke-static {v1, p1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->o4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;Landroidx/recyclerview/widget/RecyclerView;)V
+
+    const/high16 p1, 0x3f800000    # 1.0f
+
+    if-gtz v0, :cond_1
+
+    .line 3
+    iget-object v0, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->p4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;F)V
+
+    .line 4
+    iget-object v0, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    invoke-static {v0, p1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->q4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;F)V
+
+    goto :goto_0
+
+    .line 5
+    :cond_1
+    iget-object v1, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    int-to-float v0, v0
+
+    invoke-static {v1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->l4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;)I
+
+    move-result v2
+
+    int-to-float v2, v2
+
+    div-float/2addr v0, v2
+
+    invoke-static {v1, v0}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->s4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;F)F
+
+    .line 6
+    iget-object v0, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    invoke-static {v0}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->r4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;)F
+
+    move-result v0
+
+    cmpl-float v0, v0, p1
+
+    if-lez v0, :cond_2
+
+    .line 7
+    iget-object v0, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    invoke-static {v0, p1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->s4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;F)F
+
+    .line 8
+    :cond_2
+    iget-object v0, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    invoke-static {v0}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->r4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;)F
+
+    move-result v1
+
+    float-to-double v1, v1
+
+    const-wide v3, 0x400921fb54442d18L    # Math.PI
+
+    mul-double v1, v1, v3
+
+    invoke-static {v1, v2}, Ljava/lang/Math;->cos(D)D
+
+    move-result-wide v1
+
+    double-to-float v1, v1
+
+    sub-float v1, p1, v1
+
+    const/high16 v2, 0x3f000000    # 0.5f
+
+    mul-float v1, v1, v2
+
+    invoke-static {v0, v1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->s4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;F)F
+
+    .line 9
+    iget-object v0, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    invoke-static {v0}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->r4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;)F
+
+    move-result v1
+
+    invoke-static {v0, v1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->p4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;F)V
+
+    .line 10
+    iget-object v0, p0, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->a:Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;
+
+    invoke-static {v0}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->r4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;)F
+
+    move-result v1
+
+    sub-float/2addr p1, v1
+
+    invoke-static {v0, p1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;->q4(Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity;F)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
+    .locals 0
+    .param p1    # Landroidx/recyclerview/widget/RecyclerView;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/gotokeep/keep/mo/business/store/activity/detail/general/GoodsDetailGeneralActivity$a;->d(Landroidx/recyclerview/widget/RecyclerView;)V
+
+    return-void
+.end method

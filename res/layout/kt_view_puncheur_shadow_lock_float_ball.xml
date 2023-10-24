@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheurshadow.freetraining.mvp.view.PuncheurShadowLockFloatBallView android:id="@id/viewLockBall" android:background="@color/transparent" android:layout_width="36.0dip" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgLockBall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/kt_icon_puncheur_shadow_lock_float_ball" android:scaleType="centerCrop" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressFloatBall" android:layout_width="0.0dip" android:layout_height="10.0dip" android:max="100" android:progressDrawable="@drawable/kt_layer_shadow_lock_float_ball_yellow_bg" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="?android:progressBarStyleHorizontal" />
+</com.gotokeep.keep.kt.business.puncheurshadow.freetraining.mvp.view.PuncheurShadowLockFloatBallView>

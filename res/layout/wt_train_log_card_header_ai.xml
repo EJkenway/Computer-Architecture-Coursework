@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/image_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/text_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_16sp" android:textStyle="bold" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/tvScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/black_24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exercise" android:layout_marginStart="30.0dip" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/black_24" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/wt_actual_target" android:layout_weight="1.0" android:layout_marginStart="69.0dip" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/black_24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wt_complete_progress_1" />
+    </LinearLayout>
+</LinearLayout>

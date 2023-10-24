@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.mvp.view.RecommendListFooterView android:textSize="@dimen/font_size_16sp" android:textColor="@color/gray_cc" android:gravity="center" android:id="@id/footer" android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="67.0dip" android:text="@string/list_footer_no_more_data" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgLoading" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_rotating_loading_white_medium" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/layoutStart" android:layout_width="58.0dip" android:layout_height="58.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/imgStart" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/icon_feed_black_play" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutTrainController" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" app:layout_constraintEnd_toEndOf="@id/layoutStart" app:layout_constraintStart_toStartOf="@id/layoutStart" app:layout_constraintTop_toBottomOf="@id/layoutStart">
+        <LinearLayout android:gravity="center" android:id="@id/btnAddCourse" android:background="@drawable/bg_333333_20_corner_25" android:paddingLeft="20.0dip" android:paddingTop="7.0dip" android:paddingRight="20.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/iconAddCourse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_recommend_video_black_add_course" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/textAddCourse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/su_feed_v4_add_course" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnFullTrain" android:background="@drawable/bg_333333_20_corner_25" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="132.0dip" android:minHeight="36.0dip" android:text="@string/su_recommend_feed_black_full_train" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/btnAddCourse" app:layout_constraintLeft_toRightOf="@id/btnAddCourse" app:layout_constraintTop_toTopOf="@id/btnAddCourse" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

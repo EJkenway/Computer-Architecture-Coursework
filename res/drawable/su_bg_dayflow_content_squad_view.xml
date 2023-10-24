@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/su_bg_dayflow_content_squad" />
+    <item android:gravity="start" android:height="40.0dip" android:width="4.0dip" android:drawable="@drawable/su_bg_dayflow_content_squad_line" />
+</layer-list>

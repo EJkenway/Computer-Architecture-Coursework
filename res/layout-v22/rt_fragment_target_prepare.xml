@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/rt_training_prepare_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBarTargetPrepare" android:layout_width="fill_parent" android:layout_height="@dimen/home_title_bar_min_height" app:background_color="@color/transparent" app:layout_constraintTop_toTopOf="parent" app:title="@string/rt_set_target" app:title_color="@color/white" />
+    <include android:id="@id/layoutTargetInput" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/gridTargetPrepareOptions" app:layout_constraintTop_toBottomOf="@id/titleBarTargetPrepare" layout="@layout/rt_view_target_prepare_input" />
+    <GridView android:gravity="center" android:id="@id/gridTargetPrepareOptions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" android:listSelector="@android:color/transparent" android:horizontalSpacing="8.0dip" android:verticalSpacing="8.0dip" android:layout_marginHorizontal="22.0dip" app:layout_constraintBottom_toTopOf="@id/viewBottomSpace" />
+    <View android:id="@id/viewBottomSpace" android:layout_width="fill_parent" android:layout_height="200.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.achievement.mvp.view.AchievementShareButtonView android:background="@drawable/fd_bg_revolver_round_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:gravity="center" android:id="@id/text_share_button" android:background="@drawable/light_green_color_corner_25dp" android:layout_width="fill_parent" android:layout_height="@dimen/height_50dp" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="30.0dip" android:text="去晒晒我的徽章墙" />
+</com.gotokeep.keep.fd.business.achievement.mvp.view.AchievementShareButtonView>

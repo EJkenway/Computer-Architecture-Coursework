@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/map_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/record_mask_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/rt_bg_video_track_mask" android:scaleType="fitXY" />
+    <include android:id="@id/record_info_view" android:visibility="gone" layout="@layout/rt_layout_outdoor_record_info_view" />
+    <include android:id="@id/recordInfoView2" android:visibility="gone" layout="@layout/rt_layout_outdoor_record_info_2" />
+    <include android:id="@id/record_bottom_view" layout="@layout/rt_layout_outdoor_record_bottom_view" />
+    <include android:id="@id/record_share_view" layout="@layout/rt_layout_outdoor_record_share_view" />
+    <include android:id="@id/record_pbinfo_view" layout="@layout/rt_layout_outdoor_record_pbinfo_view" />
+    <include android:id="@id/record_band_view" layout="@layout/rt_layout_outdoor_video_record_band_view" />
+    <include android:id="@id/record_picture_box" layout="@layout/rt_layout_outdoor_video_record_picture_box" />
+    <include android:id="@id/record_achievement" layout="@layout/rt_layout_outdoor_record_achievement_and_trophy_view" />
+</RelativeLayout>

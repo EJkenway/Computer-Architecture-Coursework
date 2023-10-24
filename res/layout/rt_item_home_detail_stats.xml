@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.home.mvp.view.HomeDetailStatsView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.rt.business.home.mvp.view.HomeStatsView android:id="@id/viewStats" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="84.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutSubItems" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginBottom="8.0dip" android:divider="@drawable/rt_divider_home_stats" android:showDividers="middle" android:dividerPadding="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintTop_toBottomOf="@id/viewStats" />
+</com.gotokeep.keep.rt.business.home.mvp.view.HomeDetailStatsView>

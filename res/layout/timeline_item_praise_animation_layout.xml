@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/center_anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/praise_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_timeline_praise_part_right" android:layout_toRightOf="@id/center_anchor" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/praise_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_timeline_praise_left" android:layout_toLeftOf="@id/praise_right" android:layout_centerVertical="true" />
+</merge>

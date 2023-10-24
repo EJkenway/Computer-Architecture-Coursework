@@ -1,0 +1,30 @@
+{
+  "id":"5ae1412adf9abfd4289c21e6",
+  "type":"pictureWords",
+  "question":"此刻的心情？",
+  "options":[
+    {
+      "id":"5ae1411e7c4685d4e6409236",
+      "title":"",
+      "checkPicUrl":"https://static1.keepcdn.com/2018/04/26/10/1524711560606_105x105.png",
+      "uncheckPicUrl":"https://static1.keepcdn.com/2018/04/26/10/1524711560606_105x105.png",
+      "available":true
+    },
+    {
+      "id":"5ae1411e7c4685d4e6409237",
+      "title":"",
+      "checkPicUrl":"https://static1.keepcdn.com/2018/04/26/11/1524711610190_105x105.png",
+      "uncheckPicUrl":"https://static1.keepcdn.com/2018/04/26/11/1524711610190_105x105.png",
+      "available":true
+    },
+    {
+      "id":"5ae1411e7c4685d4e6409238",
+      "title":"",
+      "checkPicUrl":"https://static1.keepcdn.com/2018/04/26/10/1524711591289_105x105.png",
+      "uncheckPicUrl":"https://static1.keepcdn.com/2018/04/26/10/1524711591289_105x105.png",
+      "available":true
+    }
+  ],
+  "sliderDesc":null,
+  "available":true
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rt_icon_live_finish_bg" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_gravity="center_vertical" android:background="@color/gray_purple" android:layout_width="10.0dip" android:layout_height="2.0dip" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/gray_purple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/completed" />
+            <View android:layout_gravity="center_vertical" android:background="@color/gray_purple" android:layout_width="10.0dip" android:layout_height="2.0dip" android:layout_marginLeft="8.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_purple" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/rt_live_finish_tip" />
+    </LinearLayout>
+</RelativeLayout>

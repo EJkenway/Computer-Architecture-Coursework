@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/kt_puncheur_free_training_bg_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.6" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieBg" android:layout_width="@dimen/kt_puncheur_road_anim_width" android:layout_height="@dimen/kt_puncheur_road_anim_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    <com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurTrainingAudioWorkoutView android:id="@id/vContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_below="@id/vTop" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kt_layout_puncheur_workout_info" />
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/vTop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true">
+        <include android:id="@id/vHeartRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="20.0dip" layout="@layout/kt_layout_training_heart_rate" />
+        <ImageView android:id="@id/btnSettings" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/icon_setting_filled" />
+    </LinearLayout>
+    <com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurTrainingStepInfoView android:id="@id/vStepInfo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

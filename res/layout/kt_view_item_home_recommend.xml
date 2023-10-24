@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeRecommendItemView android:layout_width="264.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageRecommend" android:layout_width="fill_parent" android:layout_height="124.0dip" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageRecommend" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeRecommendItemView>

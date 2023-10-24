@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitGuideCardView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layoutContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip">
+        <ImageView android:id="@id/imageClose" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/ic_close_small_white" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imagePicture" android:layout_width="248.0dip" android:layout_height="98.0dip" android:layout_marginTop="45.0dip" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:background="@drawable/shape_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="143.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="16.0dip">
+            <ImageView android:id="@id/imageMore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.5dip" android:src="@drawable/ic_right_arrow_home" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="14.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:id="@id/textDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="16.0dip" android:layout_below="@id/textTitle" android:lineSpacingMultiplier="1.2" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.gotokeep.keep.kt.business.common.mvp.view.KitGuideCardView>

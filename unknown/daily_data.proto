@@ -1,0 +1,105 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "DailyData";
+
+//当天心率
+message DailyHr {
+  //心率值，默认 5 秒一个采样值，每天共 288 个
+  repeated uint32 hr = 1;
+}
+
+message Oxy {
+  uint32 utc = 1;
+  uint32 oxy = 2;
+}
+
+//当天血氧
+message DailyOxy {
+  //血氧值，每天最近 24 次主动测量的血氧值
+  repeated Oxy daily_oxy = 1;
+}
+
+//当天步数
+message DailySteps {
+  //每天步数值，默认 1 分钟一个采样值，每天共 1440 个
+  repeated uint32 steps = 1;
+}
+
+//最近一次心率
+message LastHr{
+  uint32 hr = 1;
+}
+
+message DailyCalorieRee {
+  repeated uint32 ree = 1;
+}
+
+message DailyCalorieAee {
+  repeated uint32 aee = 1;
+}
+
+
+//睡眠分片
+message SleepFrag {
+  //此睡眠分片开始 utc
+  uint32 utc = 1;
+  //此睡眠分片状态持续时间，单位 ：秒
+  uint32 duration = 2;
+  //此睡眠分片状态，0 ：清醒，1 ： 浅睡，2 ：深睡，3 ： 眼动
+  uint32 sleep_status = 3;
+}
+
+//当天睡眠
+message SleepSeg {
+  //此段睡眠的分片数据，全天最大分片数 450
+  repeated SleepFrag sleep_frag = 1;
+}
+
+
+//当天运动时长
+message DailySportTime {
+  // 长度1440 是否穿戴 0：未穿戴，1：已穿戴
+  repeated uint32 isWear= 1;
+  // 长度1440 是否运动 0：未运动，1：已运动
+  repeated uint32 isSport = 2;
+}
+
+//当天活动量
+message DailyActivity {
+    repeated uint32 activity = 1;
+}
+
+message SingleOxy {
+    uint32 utc = 1;
+    uint32 oxy = 2;
+}
+
+message WholeDayOxy {
+    repeated SingleOxy dailyOxy = 1;
+}
+
+message SingleVo2max {
+    uint32 utc = 1;
+    float vo2max = 2;
+    uint32 time_5km = 3;
+    uint32 time_10km = 4;
+    uint32 time_halfmarathon = 5;
+    uint32 time_marathon = 6;
+}
+
+message DailyVo2max {
+    repeated SingleVo2max dailyVo2max = 1;
+}
+
+message DailyResprate {
+    repeated uint32 resprate = 1;
+}
+
+message DailyRequest {
+     uint32 start_offset = 1;
+     uint32 end_offset = 2;
+}
+
+message DailyPressureIndex{
+    repeated uint32 pressure = 1;
+}

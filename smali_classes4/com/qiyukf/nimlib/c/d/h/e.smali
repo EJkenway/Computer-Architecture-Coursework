@@ -1,0 +1,23 @@
+.class public Lcom/qiyukf/nimlib/c/d/h/e;
+.super Lcom/qiyukf/nimlib/c/d/h/g;
+.source "DeleteMsgSelfBatchResponse.java"
+
+
+# annotations
+.annotation runtime Lcom/qiyukf/nimlib/c/d/b;
+    a = 0x7t
+    b = {
+        "24"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/qiyukf/nimlib/c/d/h/g;-><init>()V
+
+    return-void
+.end method

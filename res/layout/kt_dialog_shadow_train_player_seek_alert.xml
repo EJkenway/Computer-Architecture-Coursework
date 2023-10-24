@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:gravity="center" android:id="@id/textShadowPlayerSeekTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_shadow_play_seek_title" />
+    <EditText android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/editShadowPlayerSeekPosition" android:background="@drawable/kt_bg_1dp_stroke_50000000" android:padding="@dimen/dimen_8dp" android:layout_width="230.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16dp" android:hint="@string/kt_puncheur_shadow_play_seek_hint" android:inputType="number" />
+</LinearLayout>

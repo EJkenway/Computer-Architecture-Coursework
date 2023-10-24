@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.mesport.mvp.view.MySportSuitRecommendGroupView android:background="@drawable/km_bg_my_sport_suit_recommend_item" android:layout_width="wrap_content" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/previewGroupLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include layout="@layout/km_view_my_sport_suit_recommend_item" />
+    </LinearLayout>
+</com.gotokeep.keep.km.mesport.mvp.view.MySportSuitRecommendGroupView>

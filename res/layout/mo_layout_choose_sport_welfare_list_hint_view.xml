@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.pay.welfare.view.ChooseSportWelfareListHintView android:textSize="@dimen/font_size_11sp" android:textColor="@color/color_Gray_99_Light_Auxiliary" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

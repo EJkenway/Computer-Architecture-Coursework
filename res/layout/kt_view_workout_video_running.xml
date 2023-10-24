@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.widget.WorkoutVideoView android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.player.MediaPlayerView android:id="@id/viewVideo1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:resize_mode="zoom" app:surface_type="texture_view" app:use_controller="false" />
+        <com.gotokeep.keep.player.MediaPlayerView android:id="@id/viewVideo2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:resize_mode="zoom" app:surface_type="texture_view" app:use_controller="false" />
+        <com.gotokeep.keep.kt.business.treadmill.widget.VideoWorkoutProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="@dimen/kt_keloton_video_progress_height" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/progress" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/tvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_data_default" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/vHr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:background="@color/white_30" android:layout_width="1.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+                    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/tvHeartRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_data_default" />
+                    <ImageView android:layout_gravity="top" android:id="@id/imgHeartRate" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/ic_heartrate_normal" android:layout_marginStart="3.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/tvPhaseInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_data_default" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/vData" android:background="@drawable/kt_bg_workout_video_data" android:layout_width="fill_parent" android:layout_height="@dimen/kt_video_workout_data_height" android:baselineAligned="false" android:divider="@drawable/kt_divider_video_workout_data" android:layout_alignParentBottom="true" android:showDividers="middle">
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/distance" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km" android:layout_marginStart="2.0dip" />
+                </LinearLayout>
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/tvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_keloton_workout_calories" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kcal" android:layout_marginStart="2.0dip" />
+            </LinearLayout>
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/tvCalories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_target_speed" />
+            </LinearLayout>
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/tvTargetSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_actual_speed" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_actual_speed_unit" android:layout_marginStart="2.0dip" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="6.0dip">
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/tvActualSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_data_default" android:layout_centerInParent="true" />
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/tvSpeedAnim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_data_default" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/step_frequency" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/white_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_step_frequency_unit" android:layout_marginStart="2.0dip" />
+            </LinearLayout>
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/tvStep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/kt_data_default" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/vPause" android:background="@drawable/kt_bg_running_pause" android:visibility="gone" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip">
+        <ImageView android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/kt_icon_video_pause" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/vNextPhase" android:background="@color/black_40" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_next_phase" />
+            <TextView android:textSize="30.0sp" android:textColor="@color/white" android:id="@id/tvNextPhase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_data_default" />
+            <RelativeLayout android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+                <com.gotokeep.keep.widget.RankCircleProgressView android:layout_gravity="center" android:id="@id/progressCountdown" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="26.0sp" android:textColor="@color/white" android:id="@id/tvCountdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/tvSpeedChangedTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_speed_changed_manually" android:layout_centerInParent="true" />
+</com.gotokeep.keep.kt.business.treadmill.widget.WorkoutVideoView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.single.view.TimelineSingleCommentView android:orientation="vertical" android:id="@id/layout_timeline_comment_cell" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_comment" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_38" android:id="@id/text_comment_more" android:paddingBottom="14.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/su_timeline_more_comment" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+</com.gotokeep.keep.su_core.timeline.mvp.single.view.TimelineSingleCommentView>

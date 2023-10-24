@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/kt_layout_kitbit_setting_preview" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switchDoubleRingGoalNotice" android:background="@android:color/white" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:mainText="@string/kt_kitbit_setting_doublering_goal_notice" app:settingItemDesc="@string/kt_kitbit_setting_doublering_goal_notice_desc" style="@style/SettingItemSwitch" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.StatsItemView android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:ellipsize="end" android:id="@id/textStatsTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/gray_22" android:ellipsize="end" android:id="@id/textStatsValue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" />
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.StatsItemView>

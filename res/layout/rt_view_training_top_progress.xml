@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTopProgressView android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_progress_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progress_outdoor_training" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="1000" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/rt_bg_training_top_progress" style="?android:progressBarStyleHorizontal" />
+    <com.gotokeep.keep.rt.widget.LongAudioLoadingView android:id="@id/viewProgressLoading" android:background="@drawable/rt_bg_corner_2dp_color_gray33" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:initialProgressColor="@color/white_60" app:minHeight="4.0dip" app:minProgressWidth="100.0dip" app:minWidth="300.0dip" />
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTopProgressView>

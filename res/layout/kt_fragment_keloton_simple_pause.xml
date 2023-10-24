@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/v_buttons" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/layout_resume" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@android:id/background" android:background="@drawable/kt_green_24c789_circle" android:layout_width="@dimen/run_stop_button_click_area_size" android:layout_height="@dimen/run_stop_button_click_area_size" android:layout_centerInParent="true" />
+            <TextView android:textSize="24.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/resume_run" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/resume_button_circular" android:background="@drawable/kt_shape_oval_circular_green" android:layout_width="@dimen/kt_stop_button_container_size" android:layout_height="@dimen/kt_stop_button_container_size" android:layout_centerInParent="true" android:contentDescription="@string/resume_run" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_stop" android:layout_width="@dimen/run_stop_button_click_area_size" android:layout_height="@dimen/run_stop_button_click_area_size" android:layout_marginTop="@dimen/kt_pause_button_margin" android:layout_marginBottom="@dimen/kt_pause_button_margin_clipped" android:scaleX="1.34" android:scaleY="1.34">
+            <com.gotokeep.keep.kt.business.treadmill.widget.StopButton android:id="@id/button_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/white_60" android:id="@id/countdown" android:paddingTop="34.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/v_video_pause" android:visibility="gone" android:clipChildren="false" android:layout_width="272.0dip" android:layout_height="592.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_dd" android:id="@id/tv_video_pause_countdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140.0dip" android:text="@string/kt_video_pause_countdown_format" android:layout_centerHorizontal="true" android:translationY="170.0dip" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/kt_keloton_pending_start" android:contentDescription="@string/keloton_name_treadmill" android:translationY="220.0dip" android:scaleX="1.3" android:scaleY="1.3" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/kt_pending_start_top_margin" android:layout_centerHorizontal="true">
+        <TextView android:textSize="28.0sp" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/has_paused" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/gray_dd_40" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_keloton_press_resume" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/tv_stop_workout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="26.0dip" android:text="@string/kt_video_workout_exit" android:layout_marginStart="24.0dip" />
+    <com.gotokeep.keep.kt.business.treadmill.widget.VideoWorkoutProgressBar android:id="@id/progress_video_workout" android:layout_width="fill_parent" android:layout_height="@dimen/kt_keloton_video_progress_height" />
+</RelativeLayout>

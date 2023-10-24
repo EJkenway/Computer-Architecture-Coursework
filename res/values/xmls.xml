@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="xml" name="accessconfig">false</item>
+    <item type="xml" name="keep">false</item>
+    <item type="xml" name="network_security_config">false</item>
+    <item type="xml" name="standalone_badge">false</item>
+    <item type="xml" name="standalone_badge_gravity_bottom_end">false</item>
+    <item type="xml" name="standalone_badge_gravity_bottom_start">false</item>
+    <item type="xml" name="standalone_badge_gravity_top_start">false</item>
+    <item type="xml" name="standalone_badge_offset">false</item>
+</resources>

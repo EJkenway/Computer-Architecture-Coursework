@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutGuideSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/te_font_size_16dp" android:textColor="@color/black" android:id="@id/textGuideTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:text="@string/wt_action_guidance" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextMedium" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:id="@id/textGuideDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/wt_action_guidance_desc" app:layout_constraintStart_toStartOf="@id/textGuideTitle" app:layout_constraintTop_toBottomOf="@id/textGuideTitle" />
+    <com.gotokeep.keep.commonui.view.KeepSwitchButton android:id="@id/backgroundSwitch" android:layout_marginTop="11.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/textGuideTitle" style="@style/KeepSwitch" />
+    <View android:id="@id/dividerBackground" android:background="@color/black_08" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_marginTop="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textGuideDesc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

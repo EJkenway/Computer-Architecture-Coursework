@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ysf_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ysf_iv_capture_video_finish" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/ysf_ic_watch_video_finish_back" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <SurfaceView android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <ImageView android:id="@id/switch_cameras" android:layout_width="36.0dip" android:layout_height="32.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ysf_ic_cameras_select" android:layout_alignParentRight="true" android:contentDescription="" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/ysf_transparent" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/recording_id" android:background="@drawable/ysf_record_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="" />
+        <TextView android:textColor="@color/ysf_white" android:id="@id/record_times" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="00:00" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/ysf_iv_capture_cancel" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="60.0dip" android:layout_marginBottom="60.0dip" android:src="@drawable/ysf_ic_video_record_back" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/ysf_iv_capture_send" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="60.0dip" android:src="@drawable/ysf_ic_video_record_send" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/record_btn" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="" />
+    <ImageView android:id="@id/ysf_iv_video_select" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="60.0dip" android:src="@drawable/ysf_ic_add_white" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <include layout="@layout/ysf_include_video_progress_layout" />
+</RelativeLayout>

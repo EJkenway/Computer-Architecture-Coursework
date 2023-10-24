@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.guide.view.PopupPrimeGuideContrastStyleCView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/dimen_20dp" android:textColor="@color/black_87" android:id="@id/textTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/black_60" android:id="@id/textSubTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4dp" app:layout_constraintEnd_toEndOf="@id/textTitle" app:layout_constraintStart_toStartOf="@id/textTitle" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <HorizontalScrollView android:id="@id/recyclerView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="@id/textSubTitle" app:layout_constraintTop_toBottomOf="@id/textSubTitle">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgLogo" android:layout_width="1678.0dip" android:layout_height="403.0dip" android:scaleType="fitStart" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</com.gotokeep.keep.km.guide.view.PopupPrimeGuideContrastStyleCView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.widget.SportShareSnapshotWidget android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerSportList" android:background="@drawable/km_bg_gradient_ebe7ff_e4f3fd_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.km.suit.widget.SportShareSnapshotWidget>

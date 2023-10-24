@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.StatsLogItemMoreV3View android:id="@id/textMoreLog" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.widget.ExposureView android:id="@id/textMoreEx" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:gravity="center" android:background="@drawable/bg_corner_fafafa_8dp" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/dc_data_category_more_log" android:layout_marginHorizontal="16.0dip" />
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.StatsLogItemMoreV3View>

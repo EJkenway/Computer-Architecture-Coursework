@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.widget.KelotonSummaryBottomView android:gravity="center" android:orientation="vertical" android:background="@color/kt_keloton_summary_bottom_bg" android:layout_width="fill_parent" android:layout_height="@dimen/keloton_summary_empty_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/save" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_keloton_save_log" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/publish" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_camera_white" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/publish_text" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/send_tweet" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/clock" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uploading" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/offline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/kt_ic_exclamation_point_with_circle_white" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offline_saved_to_phone" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.treadmill.widget.KelotonSummaryBottomView>

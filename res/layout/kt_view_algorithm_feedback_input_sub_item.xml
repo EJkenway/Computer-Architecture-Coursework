@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/imgDeleteItem" android:paddingTop="5.0dip" android:visibility="invisible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/delete" android:tint="@color/red" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/gray_33" android:id="@id/tvItemName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="入睡时间" android:layout_weight="1.0" />
+    <EditText android:textSize="15.0dip" android:textColor="@color/gray_33" android:textColorHint="@color/gray_cc" android:id="@id/etItemValue" android:background="@drawable/kt_bg_rectangle_stroke_gray_round_5dp" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:hint="@string/please_input" android:layout_weight="2.0" android:inputType="text" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/imgAddItem" android:visibility="invisible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_add_green_circle_enable" />
+</LinearLayout>

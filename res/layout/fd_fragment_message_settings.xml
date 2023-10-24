@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" app:left_icon_clickable="true" app:title="@string/message_setting" style="@style/ItemCustomTitleBar" />
+    <LinearLayout android:id="@id/settingContainer" style="@style/SettingItemWithDivider">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemNotDisturb" app:mainText="@string/message_do_not_disturb" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemBlack" app:mainText="@string/dialog_shielding" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemReport" app:mainText="@string/report" style="@style/SettingSingleItemWithClick" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.liveroom.mvp.view.TrainCompletedCalorieRankCardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TcCardFourSlide"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.view.ResizableDrawableTextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/kt_calorie_rank" android:drawableLeft="@drawable/kt_ic_calorie_rank_dark" android:drawablePadding="8.0dip" app:drawableLeftHeight="20.0dip" app:drawableLeftWidth="20.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" />
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" />
+    <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/purple" android:gravity="center" android:id="@id/more" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/kt_load_more" />
+</com.gotokeep.keep.kt.business.kitbit.liveroom.mvp.view.TrainCompletedCalorieRankCardView>

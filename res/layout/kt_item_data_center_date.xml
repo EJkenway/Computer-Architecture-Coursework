@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitDataCenterDateItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="#ff666666" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:id="@id/day_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:drawableLeft="@drawable/data_list_icon_time" android:drawablePadding="2.0dip" android:layout_toLeftOf="@id/day_calorie" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:id="@id/day_calorie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:drawableLeft="@drawable/data_list_icon_kcal" android:drawablePadding="2.0dip" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/textRopeTimes" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:id="@id/textRopeTimes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:drawablePadding="2.0dip" android:drawableStart="@drawable/icon_data_list_count" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.kt.business.common.mvp.view.KitDataCenterDateItemView>

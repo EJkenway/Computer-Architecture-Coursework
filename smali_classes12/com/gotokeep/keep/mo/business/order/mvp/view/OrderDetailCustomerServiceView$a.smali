@@ -1,0 +1,86 @@
+.class public final Lcom/gotokeep/keep/mo/business/order/mvp/view/OrderDetailCustomerServiceView$a;
+.super Ljava/lang/Object;
+.source "OrderDetailCustomerServiceView.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/gotokeep/keep/mo/business/order/mvp/view/OrderDetailCustomerServiceView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lij3/h;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Lcom/gotokeep/keep/mo/business/order/mvp/view/OrderDetailCustomerServiceView$a;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/view/ViewGroup;)Lcom/gotokeep/keep/mo/business/order/mvp/view/OrderDetailCustomerServiceView;
+    .locals 4
+
+    const-string v0, "parent"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    .line 2
+    new-instance v0, Lcom/gotokeep/keep/mo/business/order/mvp/view/OrderDetailCustomerServiceView;
+
+    const-string v1, "context"
+
+    invoke-static {p1, v1}, Lij3/o;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {v0, p1}, Lcom/gotokeep/keep/mo/business/order/mvp/view/OrderDetailCustomerServiceView;-><init>(Landroid/content/Context;)V
+
+    .line 3
+    sget p1, Lkp1/d;->i:I
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1, v1, v1, p1}, Landroid/widget/LinearLayout;->setPadding(IIII)V
+
+    .line 4
+    new-instance p1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    const/4 v2, -0x1
+
+    const/4 v3, -0x2
+
+    invoke-direct {p1, v2, v3}, Landroid/view/ViewGroup$MarginLayoutParams;-><init>(II)V
+
+    invoke-virtual {v0, p1}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+    .line 5
+    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOrientation(I)V
+
+    const/16 p1, 0x11
+
+    .line 6
+    invoke-virtual {v0, p1}, Landroid/widget/LinearLayout;->setGravity(I)V
+
+    return-object v0
+.end method

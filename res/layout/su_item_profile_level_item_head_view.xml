@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.level.mvp.view.ProfileLevelItemHeadView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/topView" android:background="@color/main_color" android:layout_width="fill_parent" android:layout_height="43.0dip" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/run_level_top_bg" android:scaleType="fitXY" android:layout_below="@id/topView" />
+    <ImageView android:id="@id/imgMaxLevel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="500.0dip" android:layout_marginTop="-388.0dip" android:src="@drawable/t10_bg" android:scaleType="centerCrop" />
+    <ImageView android:visibility="gone" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_marginTop="64.0dip" android:src="@drawable/bg_all_level" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    <com.gotokeep.keep.profile.widget.AchievementImageView android:id="@id/imgMedalView" android:layout_width="86.0dip" android:layout_height="86.0dip" android:layout_marginTop="67.0dip" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20.0sp" android:textColor="#ff584f60" android:id="@id/tvLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:layout_below="@id/imgMedalView" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/tvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="29.0dip" android:layout_below="@id/tvLevel" android:layout_centerHorizontal="true" />
+</com.gotokeep.keep.profile.level.mvp.view.ProfileLevelItemHeadView>

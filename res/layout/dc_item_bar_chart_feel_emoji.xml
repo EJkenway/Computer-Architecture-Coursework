@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/layoutContainer" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieEmoji" android:layout_width="58.0dip" android:layout_height="58.0dip" />
+        <FrameLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/layoutBarChart" android:background="@drawable/dc_bg_corner_top_22dp_solid_ffae5f" android:layout_width="44.0dip" android:layout_height="44.0dip">
+            <com.gotokeep.keep.commonui.uilib.KLKeepFontTextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/textCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" app:keepFont="font/Rubik-BlackItalic.ttf" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_ffae5f" android:layout_gravity="bottom|center" android:id="@id/textEmojiDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+</merge>

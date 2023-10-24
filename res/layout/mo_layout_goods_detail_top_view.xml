@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/shareTips" android:background="@drawable/bg_tips_top_right_dark" android:padding="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-9.0dip" android:maxLines="1" android:layout_below="@id/titleBar" android:layout_alignParentEnd="true" />
+    <View android:id="@id/imgStatusBarLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_margin_top" android:alpha="0.0" />
+    <com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsDetailTopTitleBarView android:id="@id/titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/imgStatusBarLayout" />
+</merge>

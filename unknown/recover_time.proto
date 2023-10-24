@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "RecoverTimeWrapper";
+
+message RecoverTime{
+    uint32 enable = 1;
+    uint32 exer_rec_time = 2;
+    uint32 last_sport_utc = 3;
+}

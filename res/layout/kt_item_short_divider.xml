@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitShortDividerView android:background="#ffeaeaea" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="71.0dip" android:layout_marginRight="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

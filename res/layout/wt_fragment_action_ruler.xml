@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layoutRulerRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/actionRulerTitleBar" app:add_status_bar_height="true" app:background_color="@color/white" app:left_icon="@drawable/wt_icon_ruler_action_back" app:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <include android:id="@id/layoutActionStart" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/wt_view_action_start_button" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/layoutActionStart" android:layout_below="@id/actionRulerTitleBar">
+        <include android:id="@id/layoutActionRulerWrapper" layout="@layout/wt_layout_action_ruler_wrapper" />
+        <include android:id="@id/layoutActionSetting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layoutActionRulerWrapper" layout="@layout/wt_layout_action_ruler_setting" />
+    </RelativeLayout>
+</RelativeLayout>

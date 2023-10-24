@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.mall.impl.guide.mvp.MallHomePageGuideView android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/gameUserFirst" android:visibility="gone" android:layout_width="328.0dip" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" android:adjustViewBounds="true" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/gameUserSecond" android:visibility="gone" android:layout_width="264.0dip" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" android:adjustViewBounds="true" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/storeUserFirst" android:visibility="gone" android:layout_width="315.0dip" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/storeUserSecond" android:visibility="gone" android:layout_width="328.0dip" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/otherUser" android:visibility="gone" android:layout_width="328.0dip" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" android:adjustViewBounds="true" />
+    <ImageView android:id="@id/closeIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="23.0dip" android:src="@drawable/mo_ic_close" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    <View android:id="@id/actionButton" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginTop="115.0dip" android:layout_marginStart="80.0dip" />
+</com.gotokeep.keep.mo.business.store.mall.impl.guide.mvp.MallHomePageGuideView>

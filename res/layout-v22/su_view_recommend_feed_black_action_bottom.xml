@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.feedblack.mvp.view.RecommendFeedBlackActionBottomView android:id="@id/layoutBottomAction" android:background="#0dffffff" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="84.0dip" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="#ffcccccc" android:gravity="start|center" android:layout_gravity="start|center|top" android:id="@id/goCommentView" android:background="@drawable/bg_b3333333_radius_20dp" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginTop="14.0dip" android:text="@string/say_something" android:paddingStart="14.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintEnd_toStartOf="@id/layoutAction" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutAction" android:layout_width="238.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutLike" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/layoutComment" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_gravity="center" android:id="@id/imageLike" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_video_unlike_32" />
+            <TextView android:id="@id/textLike" android:layout_marginTop="4.0dip" style="@style/su_blackFeedActionBarText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutComment" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/layoutCollect" app:layout_constraintStart_toEndOf="@id/layoutLike" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_gravity="center" android:id="@id/imageComment" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_video_comment" />
+            <TextView android:id="@id/textComment" android:layout_marginTop="4.0dip" style="@style/su_blackFeedActionBarText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutCollect" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/layoutLink" app:layout_constraintStart_toEndOf="@id/layoutComment" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_gravity="center" android:id="@id/imageCollect" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/su_ic_video_collect_normal" />
+            <TextView android:id="@id/textCollect" android:layout_marginTop="4.0dip" style="@style/su_blackFeedActionBarText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutLink" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/layoutCalendar" app:layout_constraintStart_toEndOf="@id/layoutCollect" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_video_link" />
+            <TextView android:layout_marginTop="4.0dip" android:text="@string/su_link" style="@style/su_blackFeedActionBarText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutCalendar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/layoutLink" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_gravity="center" android:id="@id/imageCalendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_video_calendar_add" />
+            <TextView android:id="@id/textCalendar" android:layout_marginTop="4.0dip" android:text="@string/su_calendar_add" style="@style/su_blackFeedActionBarText" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.su.social.feedblack.mvp.view.RecommendFeedBlackActionBottomView>

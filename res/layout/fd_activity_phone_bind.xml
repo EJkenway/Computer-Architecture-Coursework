@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_bind_phone" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/btn_close_in_bind_phone" android:padding="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/icon_close_lined" android:tint="@color/black" />
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/title_bar_height" android:layout_marginTop="@dimen/dimen_12dp" android:text="@string/bind_mobile" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/wrapper_can_scroll_in_login_and_register" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/register_general_margin" android:layout_marginRight="@dimen/register_general_margin">
+        <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/black_60" android:ellipsize="end" android:id="@id/text_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bind_phone_desc_margin_top" android:maxLines="3" />
+        <com.gotokeep.keep.fd.business.account.login.view.PhoneEditInRegisterAndLogin android:id="@id/phone_edit_in_phone_bind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" app:nightMode="false" />
+        <com.gotokeep.keep.fd.business.account.login.view.VerificationEditInRegisterAndLogin android:id="@id/verification_edit_in_phone_bind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <com.gotokeep.keep.fd.business.account.login.view.PasswordEditInRegisterAndLogin android:id="@id/password_edit_in_phone_bind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:nightMode="false" />
+        <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:gravity="center" android:id="@id/btn_submit_in_phone_bind" android:background="@drawable/fd_btn_login" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip" android:text="@string/submit" app:loadingButtonSize="large" app:loadingButtonStyle="styleBlue" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/layout_logout" android:paddingBottom="28.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/wrapper_can_scroll_in_login_and_register" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/can_not_bind_phone" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_66" android:id="@id/text_logout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/quit_logout" />
+    </LinearLayout>
+</RelativeLayout>

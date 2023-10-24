@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="dc_item_person_data_offline_exp">false</item>
+    <item type="layout" name="dc_view_person_data_v2_trend_sport">false</item>
+    <item type="layout" name="item_view_universe_avatar_dialog">false</item>
+    <item type="layout" name="kl_layout_vertical_live_training_data_hide_view">false</item>
+    <item type="layout" name="kl_layout_vertical_live_training_data_open_view">false</item>
+    <item type="layout" name="km_item_interactive_tag_view">false</item>
+    <item type="layout" name="km_item_suit_plan_top_tag_list">false</item>
+    <item type="layout" name="km_popup_window_suit_all_filter">false</item>
+    <item type="layout" name="km_suit_purchased_plan_item">false</item>
+    <item type="layout" name="km_view_diet_card">false</item>
+    <item type="layout" name="km_view_diet_food">false</item>
+    <item type="layout" name="km_view_sport_goal_progress_double_v78">false</item>
+    <item type="layout" name="km_view_sport_goal_progress_empty">false</item>
+    <item type="layout" name="km_view_sport_goal_progress_empty_v78">false</item>
+    <item type="layout" name="km_view_sport_goal_progress_single_v78">false</item>
+    <item type="layout" name="km_view_sport_my_goal_motivation">false</item>
+    <item type="layout" name="km_view_suit_guide_pop">false</item>
+    <item type="layout" name="km_view_suit_suitable_preview">false</item>
+    <item type="layout" name="km_view_suit_v3_practice_interactive">false</item>
+    <item type="layout" name="kt_dialog_edit">false</item>
+    <item type="layout" name="kt_item_divider_with_space">false</item>
+    <item type="layout" name="kt_no_connect_bind_new_guide">false</item>
+    <item type="layout" name="kt_popup_window_puncheur_shadow_routes_sort">false</item>
+    <item type="layout" name="kt_view_focus_container_limited_free_events_section">false</item>
+    <item type="layout" name="kt_view_puncheur_home_coach">false</item>
+    <item type="layout" name="kt_view_shadow_train_altitude_map">false</item>
+    <item type="layout" name="mo_item_member_tying">false</item>
+    <item type="layout" name="mo_item_return_goods_tip">false</item>
+    <item type="layout" name="mo_view_goods_select_attribute_v2">false</item>
+    <item type="layout" name="mtrl_alert_dialog_actions">false</item>
+    <item type="layout" name="su_dialog_start_sport">false</item>
+    <item type="layout" name="su_view_course_sign_staggered_entry">false</item>
+    <item type="layout" name="tc_view_recommend_tab_content">false</item>
+    <item type="layout" name="tc_view_start_skip_hardware">false</item>
+</resources>

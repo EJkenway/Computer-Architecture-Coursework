@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" app:background_color="@color/black" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:title="@string/su_vlog_title_material_pick" app:title_color="@color/white" style="@style/ItemCustomTitleBar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/materialRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/title_bar_height" android:layout_marginBottom="58.0dip" />
+    <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/confirmButton" android:layout_width="fill_parent" android:layout_height="58.0dip" android:text="@string/confirm" app:buttonRadius="0.0dip" />
+</merge>

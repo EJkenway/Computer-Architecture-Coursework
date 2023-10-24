@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_15dp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/text_puzzle_title" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/puzzle_title" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/btn_puzzle_title_back" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/camera_header_height" android:src="@drawable/back" android:scaleType="center" />
+    <TextView android:textSize="@dimen/font_size_15dp" android:textColor="@drawable/next_button_text_color" android:gravity="center_vertical" android:id="@id/text_puzzle_title_next" android:paddingLeft="@dimen/camera_label_padding" android:paddingRight="@dimen/camera_label_padding" android:layout_width="wrap_content" android:layout_height="@dimen/camera_header_height" android:text="@string/save" android:layout_alignParentRight="true" />
+    <View android:id="@id/view_puzzle_bottom_line" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="0.100000024dip" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip" android:layout_above="@id/view_puzzle_bottom_line" android:layout_below="@id/text_puzzle_title" layout="@layout/tc_view_body_puzzle_container" />
+</RelativeLayout>

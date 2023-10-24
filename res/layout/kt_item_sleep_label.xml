@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.SleepLabelItemView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/viewDot" android:background="@drawable/kt_bg_sleep_label_dot" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:id="@id/tvDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.SleepLabelItemView>

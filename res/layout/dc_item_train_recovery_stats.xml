@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/gray_99" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Style_12_Medium" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textColor="@color/gray_22" android:id="@id/textValue" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/textUnit" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/textUnit" style="@style/Style_24_Semibold" />
+    <TextView android:textColor="@color/gray_22" android:id="@id/textUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:layout_marginStart="4.0dip" app:layout_constraintStart_toEndOf="@id/textValue" app:layout_constraintTop_toBottomOf="@id/textTitle" style="@style/Style_24_Semibold" />
+</androidx.constraintlayout.widget.ConstraintLayout>

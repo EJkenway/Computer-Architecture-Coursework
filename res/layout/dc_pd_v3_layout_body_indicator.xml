@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.BodyIndicatorCardView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.widget.tab.HorizontalScrollViewWithListener android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutIndicator" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/dc_bg_transparent_width_8dp" android:showDividers="middle" />
+    </com.gotokeep.keep.commonui.widget.tab.HorizontalScrollViewWithListener>
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.BodyIndicatorCardView>

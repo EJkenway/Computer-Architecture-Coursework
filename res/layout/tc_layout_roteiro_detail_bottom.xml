@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewTextBg" android:background="@drawable/tc_bg_roteiro_20dp_corners" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/gray_99" android:id="@id/textTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/tc_record_tips" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/viewTextBg" app:layout_constraintStart_toStartOf="@id/viewTextBg" app:layout_constraintTop_toTopOf="@id/viewTextBg" />
+    <ImageView android:id="@id/imgTextIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/icon_camera_filled_gray" android:contentDescription="@null" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/viewTextBg" app:layout_constraintEnd_toEndOf="@id/viewTextBg" app:layout_constraintTop_toTopOf="@id/viewTextBg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

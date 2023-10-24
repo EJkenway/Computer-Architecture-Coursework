@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.skeleton.SkeletonWrapperView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/banner1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_skeleton_banner_view" />
+    <View android:id="@id/viewDivide" android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="12.0dip" app:layout_constraintTop_toBottomOf="@id/banner1" />
+    <include android:id="@id/textImage" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/viewDivide" layout="@layout/item_skeleton_left_image_right_text_view" />
+</com.gotokeep.keep.commonui.skeleton.SkeletonWrapperView>

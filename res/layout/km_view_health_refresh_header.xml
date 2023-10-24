@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.health.mvp.view.KeepHealthRefreshHeader android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="84.0dip">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieView" android:layout_width="24.0dip" android:layout_height="24.0dip" app:lottie_fileName="lottie/health_home_sync_data.json" app:lottie_loop="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:id="@id/tvRefresh" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/km_health_refresh" android:layout_marginStart="17.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.km.health.mvp.view.KeepHealthRefreshHeader>

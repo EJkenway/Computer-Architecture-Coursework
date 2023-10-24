@@ -1,0 +1,14 @@
+.class public synthetic Lcom/gotokeep/keep/ad/proxy/c$a;
+.super Ljava/lang/Object;
+.source "Pinger.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/gotokeep/keep/ad/proxy/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1009
+    name = null
+.end annotation

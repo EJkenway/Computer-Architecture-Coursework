@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurTrainingVideoView android:id="@id/vContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurTrainingVideoDataView android:id="@id/vData" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurTrainingVideoView>
+    <com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurTrainingVideoRankView android:id="@id/vRank" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <com.gotokeep.keep.kt.business.puncheur.widget.PuncheurWorkoutProgressBar android:id="@id/pbWorkout" android:layout_width="fill_parent" android:layout_height="@dimen/kt_puncheur_workout_progress_bar_height" />
+    <include android:id="@id/layoutVideoHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/pbWorkout" layout="@layout/kt_layout_puncheur_score_area" />
+    <com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurLiveSettingView android:id="@id/vSetting" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurDanmakuView android:id="@id/vDanmaku" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="24.0dip" android:layout_below="@id/layoutVideoHeader" android:layout_alignParentStart="true" />
+</RelativeLayout>

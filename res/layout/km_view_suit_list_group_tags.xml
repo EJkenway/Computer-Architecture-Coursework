@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.business.suitlist.nestedmvp.view.SuitListGroupTagsView android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/black_60" android:ellipsize="end" android:id="@id/textName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="4" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/imageArrow" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imageArrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/km_ic_rope_suit_selector_angle" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="@id/textName" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/textName" app:layout_constraintTop_toTopOf="@id/textName" />
+</com.gotokeep.keep.km.business.suitlist.nestedmvp.view.SuitListGroupTagsView>

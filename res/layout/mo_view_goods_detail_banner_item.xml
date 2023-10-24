@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/goods_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/left_to_tag" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="60.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.gotokeep.keep.mo.business.store.mvp.view.GoodsDiscountLabelView android:id="@id/discount_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="@dimen/height_50dp" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:mo_labelStyle="big" />
+</merge>

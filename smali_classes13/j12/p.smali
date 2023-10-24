@@ -1,0 +1,103 @@
+.class public final Lj12/p;
+.super Lbm/a;
+.source "RoiItemDividerPresenter.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lbm/a<",
+        "Lcom/gotokeep/keep/commonui/mvp/view/CommonDivider12DpView;",
+        "Li12/i;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Lcom/gotokeep/keep/commonui/mvp/view/CommonDivider12DpView;)V
+    .locals 1
+
+    const-string v0, "view"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-direct {p0, p1}, Lbm/a;-><init>(Lbm/b;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic bind(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Li12/i;
+
+    invoke-virtual {p0, p1}, Lj12/p;->q1(Li12/i;)V
+
+    return-void
+.end method
+
+.method public q1(Li12/i;)V
+    .locals 4
+
+    const-string v0, "roiItemDividerModel"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-virtual {p1}, Li12/i;->i1()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    sget v0, Ln02/c;->y:I
+
+    goto :goto_0
+
+    :cond_0
+    sget v0, Ln02/c;->Z0:I
+
+    .line 2
+    :goto_0
+    iget-object v1, p0, Lbm/a;->view:Lbm/b;
+
+    move-object v2, v1
+
+    check-cast v2, Lcom/gotokeep/keep/commonui/mvp/view/CommonDivider12DpView;
+
+    const-string v3, "view"
+
+    invoke-static {v1, v3}, Lij3/o;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v1, Lcom/gotokeep/keep/commonui/mvp/view/CommonDivider12DpView;
+
+    invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-static {v1, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
+
+    move-result v0
+
+    invoke-virtual {v2, v0}, Landroid/view/View;->setBackgroundColor(I)V
+
+    .line 3
+    iget-object v0, p0, Lbm/a;->view:Lbm/b;
+
+    invoke-static {v0, v3}, Lij3/o;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-virtual {p1}, Li12/i;->isVisible()Z
+
+    move-result p1
+
+    invoke-static {v0, p1}, Lok/t;->M(Landroid/view/View;Z)V
+
+    return-void
+.end method

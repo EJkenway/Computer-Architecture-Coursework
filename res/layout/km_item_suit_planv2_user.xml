@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitPlanV2UserItemView android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/image_user_icon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="13.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/purple" android:id="@id/text_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/image_user_icon" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/gray_66" android:id="@id/text_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/image_user_icon" android:layout_alignParentBottom="true" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitPlanV2UserItemView>

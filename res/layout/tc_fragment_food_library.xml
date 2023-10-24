@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar_food_banks" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:right_icon="@drawable/icon_search_lined_dark" app:right_icon_clickable="true" app:title="@string/food_library" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" android:background="@color/main_color" android:layout_width="fill_parent" android:layout_height="48.0dip" app:pDividerColor="@color/transparent" app:pIndicatorColor="@color/white" app:pIndicatorHeight="2.0dip" app:pIndicatorPaddingBottom="6.0dip" app:pIndicatorWidth="30.0dip" app:pTabDividerPadding="0.0dip" app:pTabMode="scrollable" app:pTabPaddingLeftRight="20.0dip" app:pTabTextColor="@drawable/selector_step_rank_tab_text" app:pTabTextSize="18.0sp" app:pUnderlineHeight="0.0dip" />
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

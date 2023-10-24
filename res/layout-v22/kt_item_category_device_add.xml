@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.deviceadd.view.CategoryDeviceItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginVertical="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_8dp" app:layout_constraintBottom_toBottomOf="@id/icon" app:layout_constraintEnd_toStartOf="@id/actionLayout" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toTopOf="@id/icon">
+        <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/gray_44" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_999999" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/actionLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/bindButton" android:background="@drawable/kt_bg_24c789_corner_16dp" android:paddingLeft="@dimen/dimen_16dp" android:paddingTop="@dimen/dimen_7dp" android:paddingRight="@dimen/dimen_16dp" android:paddingBottom="@dimen/dimen_7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bind" android:paddingHorizontal="@dimen/dimen_16dp" android:paddingVertical="@dimen/dimen_7dp" />
+        <TextView android:id="@id/textDeviceArrowIcon" android:background="@drawable/kt_ic_device_arrow_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="1.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.deviceadd.view.CategoryDeviceItemView>

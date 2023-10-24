@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/layout_pull_recycler_view" android:background="@color/profile_items_divider_color_wide" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_cc_50" android:id="@id/text_like_list_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_people_training_with_you" android:drawableTop="@drawable/ic_live_training_room_empty" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layout_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_66" android:id="@id/textContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/dimen_7dp" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/black_40" android:id="@id/textExpand" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_18dp" android:layout_marginTop="4.0dip" android:text="@string/all_action" />
+</merge>

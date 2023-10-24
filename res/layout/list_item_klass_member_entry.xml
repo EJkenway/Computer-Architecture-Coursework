@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/icon" android:layout_width="62.0dip" android:layout_height="15.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/desc_wrapper" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_toLeftOf="@id/open_member" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/gray_33" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/price_desc" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/pink" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxLines="1" android:layout_toRightOf="@id/price_desc" android:layout_alignBottom="@id/price_desc" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_33" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/intro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/price_desc" />
+    </RelativeLayout>
+    <ImageView android:id="@id/img_member_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_more_vip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/manhattan" android:gravity="center" android:id="@id/open_member" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/klass_member_open" android:layout_toLeftOf="@id/img_member_more" android:layout_centerVertical="true" />
+</merge>

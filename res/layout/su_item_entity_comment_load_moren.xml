@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.mvp.view.EntityCommentLoadMoreView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/light_green" android:id="@id/textLoadMore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="86.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/su_comment_icon_arrow_down" app:layout_constraintBottom_toBottomOf="@id/textLoadMore" app:layout_constraintStart_toEndOf="@id/textLoadMore" app:layout_constraintTop_toTopOf="@id/textLoadMore" />
+    <View android:background="@color/ysf_grey_cccccc" android:layout_width="20.0dip" android:layout_height="0.5dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="@id/textLoadMore" app:layout_constraintEnd_toStartOf="@id/textLoadMore" app:layout_constraintTop_toTopOf="@id/textLoadMore" />
+</com.gotokeep.keep.su.social.comment.mvp.view.EntityCommentLoadMoreView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/online_service" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.mo.business.store.mvp.view.OnlineServiceView android:id="@id/online_title" android:layout_width="wrap_content" android:layout_height="@dimen/mo_order_item_height" android:layout_marginLeft="@dimen/mo_margin_14" app:indicator="@drawable/ic_order_kefu_on_service" app:titleColor="@color/gray_33" app:titleName="在线客服" app:type="order" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/online_time" android:layout_width="wrap_content" android:layout_height="@dimen/mo_order_item_height" android:layout_marginRight="@dimen/mo_margin_14" android:layout_alignParentRight="true" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.framework.activity.title.AppBarActionLayout android:layout_width="wrap_content" android:layout_height="@dimen/app_bar_right_action_layout_origin_height" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgRight" android:paddingLeft="@dimen/dimen_3dp" android:paddingRight="@dimen/dimen_3dp" android:visibility="gone" android:layout_width="@dimen/dimen_30dp" android:layout_height="fill_parent" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/imgRightSecond" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/imgRight">
+        <ImageView android:id="@id/img" android:visibility="gone" android:layout_width="@dimen/dimen_24dp" android:layout_height="@dimen/dimen_24dp" android:layout_marginRight="@dimen/dimen_8dp" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.gotokeep.keep.commonui.view.KLabelView android:textColor="@color/white" android:gravity="center" android:id="@id/myShopNumber" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationX="@dimen/dimen_8dp" android:translationY="-10.0dip" app:klabelStyle="redDotFill" app:layout_constraintEnd_toEndOf="@id/img" app:layout_constraintTop_toTopOf="@id/img" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/layoutRightSecond" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/imgRight" />
+</com.gotokeep.keep.commonui.framework.activity.title.AppBarActionLayout>

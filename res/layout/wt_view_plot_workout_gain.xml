@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.plot.detail.mvp.view.PlotWorkoutGainView android:id="@id/layoutGain" android:paddingBottom="@dimen/dimen_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/iconGain" android:background="@drawable/wt_ic_plot_workout_gain" android:layout_width="@dimen/dimen_24dp" android:layout_height="@dimen/dimen_24dp" android:layout_marginStart="@dimen/dimen_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/dimen_14dp" android:textColor="@color/gray_66" android:ellipsize="end" android:gravity="left" android:id="@id/textGainContent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/dimen_8dp" app:layout_constraintBottom_toBottomOf="@id/iconGain" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iconGain" app:layout_constraintTop_toTopOf="@id/iconGain" />
+</com.gotokeep.keep.wt.business.plot.detail.mvp.view.PlotWorkoutGainView>

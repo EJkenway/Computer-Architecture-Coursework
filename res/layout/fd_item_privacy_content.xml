@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollPolicy" android:layout_width="fill_parent" android:layout_height="215.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/textParagraphOne" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fd_privacy_first_paragraph" android:lineSpacingExtra="3.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/textParagraphTwo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/fd_privacy_second_paragraph" android:lineSpacingExtra="3.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/textParagraphThree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/fd_privacy_third_paragraph" android:lineSpacingExtra="3.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/scrollPolicy">
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:id="@id/textViewFull" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fd_read_complement" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/light_green" android:id="@id/textUserAgreement" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toEndOf="@id/textViewFull" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:id="@id/textAnd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="和" app:layout_constraintStart_toEndOf="@id/textUserAgreement" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/light_green" android:id="@id/textPrivacyPolicy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toEndOf="@id/textAnd" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

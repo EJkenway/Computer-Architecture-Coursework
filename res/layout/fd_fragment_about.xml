@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android_custom:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <RelativeLayout android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" style="@style/SettingItemWithDivider">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="44.0dip">
+                <ImageView android:id="@id/settings_about_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="58.0dip" android:src="@drawable/k" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+                <TextView android:textColor="@color/main_purple_color" android:id="@id/txt_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/default_version_text" android:layout_below="@id/settings_about_logo" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_check_update" android_custom:mainText="@string/setting_check_update" style="@style/SettingSingleItemWithClick" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_cooperate" android_custom:mainText="@string/cooperate_with_us" style="@style/SettingSingleItemWithClick" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_tort_claims" android_custom:mainText="@string/tort_claims" style="@style/SettingSingleItemWithClick" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/licence_info" android_custom:mainText="@string/licence_info" style="@style/SettingSingleItemWithClick" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/phone_contact" android:visibility="gone" android_custom:mainText="@string/contact_phone" style="@style/SettingSingleItemWithClick" />
+        </LinearLayout>
+        <TextView android:textSize="9.0sp" android:textColor="@color/text_gps_signal_tips_color" android:gravity="center" android:id="@id/txt_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="@string/right_reserved_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="0.3" />
+    </RelativeLayout>
+</LinearLayout>

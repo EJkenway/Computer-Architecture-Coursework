@@ -1,0 +1,37 @@
+.class public Lcom/gotokeep/keep/data/model/ad/AdInfoEntity;
+.super Lcom/gotokeep/keep/data/model/common/CommonResponse;
+.source "AdInfoEntity.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/gotokeep/keep/data/model/ad/AdInfoEntity$CreativeInfo;,
+        Lcom/gotokeep/keep/data/model/ad/AdInfoEntity$AdInfoData;
+    }
+.end annotation
+
+
+# instance fields
+.field private data:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/util/List<",
+            "Lcom/gotokeep/keep/data/model/ad/AdInfoEntity$AdInfoData;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/gotokeep/keep/data/model/common/CommonResponse;-><init>()V
+
+    return-void
+.end method

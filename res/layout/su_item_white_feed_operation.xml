@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.whitefeed.mvp.view.WhiteFeedOperationView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/planOperateContainer" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" app:layout_constraintEnd_toStartOf="@id/planView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:id="@id/likeView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+                <ImageView android:id="@id/likeImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_inner_unlike_24" />
+                <TextView android:textSize="@dimen/font_size_11sp" android:textColor="#ff666666" android:id="@id/likeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="26.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/commentView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+                <ImageView android:id="@id/commentImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_inner_comment" />
+                <TextView android:textSize="@dimen/font_size_11sp" android:textColor="#ff666666" android:id="@id/commentText" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="26.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="end" android:id="@id/collectView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+                <ImageView android:id="@id/collectImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_inner_collect_24" />
+                <TextView android:textSize="@dimen/font_size_11sp" android:textColor="#ff666666" android:id="@id/collectText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="26.0dip" android:maxLines="1" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/planView" android:background="@drawable/bg_light_green_50dp_corner" android:paddingLeft="21.0dip" android:paddingTop="9.0dip" android:paddingRight="21.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="16.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.su.social.whitefeed.mvp.view.WhiteFeedOperationView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.training.traininglog.mvp.view.SendTrainLogFragmentView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.wt.business.training.completion.mvp.view.CompletionRecyclerView android:id="@id/recycler" android:background="@color/snow_white" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_bottom" />
+    <com.gotokeep.keep.commonui.widget.blur.BlurView android:id="@id/barBlurView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:controllerType="texture" app:layout_constraintBottom_toBottomOf="@id/titleBarContainer" app:layout_constraintEnd_toEndOf="@id/send_title_bar" app:layout_constraintStart_toStartOf="@id/send_title_bar" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/titleBarContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/send_title_bar" app:add_status_bar_height="true" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:right_icon="@drawable/icon_delete_filled" app:right_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+        <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/white" android:gravity="center" android:id="@id/text_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/title_bar_height" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="4.0dip" />
+    </FrameLayout>
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/newStyleTitleBar" android:visibility="gone" app:add_status_bar_height="true" app:background_color="@color/transparent" app:layout_constraintTop_toTopOf="parent" app:left_icon_clickable="false" app:right_icon="@drawable/icon_more_lined_dark" app:right_icon_clickable="true" app:right_second_icon="@drawable/wt_ic_share" app:right_second_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_bottom" android:background="@drawable/wt_bg_fragment_send_log" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+            <com.gotokeep.keep.uilib.CircleImageView android:id="@id/image_bottom_video_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <ImageView android:id="@id/image_bottom_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="center" />
+            <ImageView android:id="@id/image_video_play_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_player_play" android:scaleType="center" />
+            <ImageView android:id="@id/image_loading_confirm" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_rotating_loading_white_medium" android:scaleType="fitXY" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:id="@id/text_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.gotokeep.keep.wt.business.training.traininglog.mvp.view.SendTrainLogFragmentView>

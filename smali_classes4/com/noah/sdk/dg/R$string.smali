@@ -1,0 +1,243 @@
+.class public final Lcom/noah/sdk/dg/R$string;
+.super Ljava/lang/Object;
+.source "R.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/noah/sdk/dg/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "string"
+.end annotation
+
+
+# static fields
+.field public static final adn_download_connecting_n_times:I
+
+.field public static final adn_download_fail:I
+
+.field public static final adn_download_fail_with_n_times_retry:I
+
+.field public static final adn_download_mgmt_dlg_msg_filesize_default:I
+
+.field public static final adn_download_more_n_days_left:I
+
+.field public static final adn_download_n_days_left:I
+
+.field public static final adn_download_n_hours_left:I
+
+.field public static final adn_download_n_minutes_left:I
+
+.field public static final adn_download_n_seconds_left:I
+
+.field public static final adn_download_paused:I
+
+.field public static final adn_download_paused_toast_not_space:I
+
+.field public static final adn_download_success:I
+
+.field public static final adn_downloaded_status_retrying:I
+
+.field public static final adn_downloaded_status_waiting_proxy:I
+
+.field public static final adn_downloading:I
+
+.field public static final adn_no_connecting_trying:I
+
+.field public static final adn_resume_download:I
+
+.field public static final app_name:I
+
+.field public static final noah_enter_live:I
+
+.field public static final noah_pg_detail:I
+
+.field public static final noah_pg_play:I
+
+.field public static final sdk_debug_ad_config:I
+
+.field public static final sdk_debug_ad_type:I
+
+.field public static final sdk_debug_app_key:I
+
+.field public static final sdk_debug_block_adn:I
+
+.field public static final sdk_debug_data_mock:I
+
+.field public static final sdk_debug_hook:I
+
+.field public static final sdk_debug_ideas:I
+
+.field public static final sdk_debug_reset:I
+
+.field public static final sdk_debug_slot_key:I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    sget v0, Lcom/noah/build/R$string;->adn_download_connecting_n_times:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_connecting_n_times:I
+
+    .line 2
+    sget v0, Lcom/noah/build/R$string;->adn_download_fail:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_fail:I
+
+    .line 3
+    sget v0, Lcom/noah/build/R$string;->adn_download_fail_with_n_times_retry:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_fail_with_n_times_retry:I
+
+    .line 4
+    sget v0, Lcom/noah/build/R$string;->adn_download_mgmt_dlg_msg_filesize_default:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_mgmt_dlg_msg_filesize_default:I
+
+    .line 5
+    sget v0, Lcom/noah/build/R$string;->adn_download_more_n_days_left:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_more_n_days_left:I
+
+    .line 6
+    sget v0, Lcom/noah/build/R$string;->adn_download_n_days_left:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_n_days_left:I
+
+    .line 7
+    sget v0, Lcom/noah/build/R$string;->adn_download_n_hours_left:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_n_hours_left:I
+
+    .line 8
+    sget v0, Lcom/noah/build/R$string;->adn_download_n_minutes_left:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_n_minutes_left:I
+
+    .line 9
+    sget v0, Lcom/noah/build/R$string;->adn_download_n_seconds_left:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_n_seconds_left:I
+
+    .line 10
+    sget v0, Lcom/noah/build/R$string;->adn_download_paused:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_paused:I
+
+    .line 11
+    sget v0, Lcom/noah/build/R$string;->adn_download_paused_toast_not_space:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_paused_toast_not_space:I
+
+    .line 12
+    sget v0, Lcom/noah/build/R$string;->adn_download_success:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_download_success:I
+
+    .line 13
+    sget v0, Lcom/noah/build/R$string;->adn_downloaded_status_retrying:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_downloaded_status_retrying:I
+
+    .line 14
+    sget v0, Lcom/noah/build/R$string;->adn_downloaded_status_waiting_proxy:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_downloaded_status_waiting_proxy:I
+
+    .line 15
+    sget v0, Lcom/noah/build/R$string;->adn_downloading:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_downloading:I
+
+    .line 16
+    sget v0, Lcom/noah/build/R$string;->adn_no_connecting_trying:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_no_connecting_trying:I
+
+    .line 17
+    sget v0, Lcom/noah/build/R$string;->adn_resume_download:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->adn_resume_download:I
+
+    .line 18
+    sget v0, Lcom/noah/build/R$string;->app_name:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->app_name:I
+
+    .line 19
+    sget v0, Lcom/noah/build/R$string;->noah_enter_live:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->noah_enter_live:I
+
+    .line 20
+    sget v0, Lcom/noah/build/R$string;->noah_pg_detail:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->noah_pg_detail:I
+
+    .line 21
+    sget v0, Lcom/noah/build/R$string;->noah_pg_play:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->noah_pg_play:I
+
+    .line 22
+    sget v0, Lcom/noah/build/R$string;->sdk_debug_ad_config:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->sdk_debug_ad_config:I
+
+    .line 23
+    sget v0, Lcom/noah/build/R$string;->sdk_debug_ad_type:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->sdk_debug_ad_type:I
+
+    .line 24
+    sget v0, Lcom/noah/build/R$string;->sdk_debug_app_key:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->sdk_debug_app_key:I
+
+    .line 25
+    sget v0, Lcom/noah/build/R$string;->sdk_debug_block_adn:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->sdk_debug_block_adn:I
+
+    .line 26
+    sget v0, Lcom/noah/build/R$string;->sdk_debug_data_mock:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->sdk_debug_data_mock:I
+
+    .line 27
+    sget v0, Lcom/noah/build/R$string;->sdk_debug_hook:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->sdk_debug_hook:I
+
+    .line 28
+    sget v0, Lcom/noah/build/R$string;->sdk_debug_ideas:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->sdk_debug_ideas:I
+
+    .line 29
+    sget v0, Lcom/noah/build/R$string;->sdk_debug_reset:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->sdk_debug_reset:I
+
+    .line 30
+    sget v0, Lcom/noah/build/R$string;->sdk_debug_slot_key:I
+
+    sput v0, Lcom/noah/sdk/dg/R$string;->sdk_debug_slot_key:I
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

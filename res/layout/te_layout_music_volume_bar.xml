@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/te_volume_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progressVolume" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?android:progressBarStyleHorizontal" />
+    <com.keep.trainingengine.widget.roundcorner.TeRoundRelativeLayout android:id="@id/viewIndicator" android:background="@color/charm_green" android:visibility="gone" android:layout_width="@dimen/te_volume_bar_height" android:layout_height="@dimen/te_volume_bar_height" app:layout_constraintStart_toStartOf="parent" app:te_round_corner="@dimen/te_volume_bar_radius">
+        <com.keep.trainingengine.widget.roundcorner.TeRoundRelativeLayout android:background="@color/white_30" android:layout_width="3.0dip" android:layout_height="10.0dip" android:layout_centerInParent="true" app:te_round_corner="1.5dip" />
+    </com.keep.trainingengine.widget.roundcorner.TeRoundRelativeLayout>
+    <ImageView android:id="@id/imgVolume" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/selector_ic_volume_bar" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

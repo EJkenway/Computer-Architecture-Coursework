@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/dc_tsb_no_data_mask" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgIcon" android:layout_width="38.0dip" android:layout_height="38.0dip" />
+    <TextView android:textColor="@color/color_Black_Light_Title" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" style="@style/Style_14_Medium" />
+    <TextView android:textColor="@color/color_Gray_66_Light_Secondary" android:gravity="center" android:id="@id/textDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/Style_12_Regular" />
+    <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnGoto" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="12.0dip" app:kStyle="s" app:kThemeBgStyle="primary" />
+</LinearLayout>

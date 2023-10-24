@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.uilib.CircleImageView android:id="@id/imageUserAvatar" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/person_45_45" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Space android:id="@id/spaceAvator" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="11.0dip" android:layout_marginEnd="11.0dip" app:layout_constraintBottom_toBottomOf="@id/imageUserAvatar" app:layout_constraintEnd_toEndOf="@id/imageUserAvatar" />
+    <ImageView android:id="@id/ivFansLabel" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/kl_danmaku_photo_fans_label" app:layout_constraintStart_toStartOf="@id/spaceAvator" app:layout_constraintTop_toTopOf="@id/spaceAvator" />
+</merge>

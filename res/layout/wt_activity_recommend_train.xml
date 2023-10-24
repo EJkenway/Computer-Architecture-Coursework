@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/recommend_train_title_bar" android_custom:left_icon_clickable="true" android_custom:right_icon_clickable="false" android_custom:title="@string/recommend_course" style="@style/ItemCustomTitleBar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recommend_train_list" android:background="@color/plan_divider_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/recommend_train_title_bar" />
+</RelativeLayout>

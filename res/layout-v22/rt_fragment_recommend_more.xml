@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/layoutRecommendTopInfo" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.62" layout="@layout/rt_view_home_recommend_top" />
+        <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/listRecommendMore" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="17.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="17.0dip" android:layout_marginBottom="82.0dip" android:layout_weight="0.38" android:layout_marginHorizontal="17.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/layoutRecommendMoreClose" android:background="@drawable/rt_bg_recommend_more_close" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="52.0dip" android:layout_marginStart="16.0dip">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/rt_selector_bg_edit_close" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layoutRecommendBottomButton" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="82.0dip" android:layout_alignParentBottom="true">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/rt_view_recommend_confirm" />
+    </RelativeLayout>
+</RelativeLayout>

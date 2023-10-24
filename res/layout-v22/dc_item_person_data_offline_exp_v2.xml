@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataOfflineDataExpV2View android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/dc_white_8dp_corners" android:paddingLeft="16.0dip" android:paddingTop="13.0dip" android:paddingRight="16.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="13.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieUploading" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_fileName="lottie/uploading.json" app:lottie_loop="true" />
+        <ImageView android:id="@id/imgSyncIcon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/dc_icon_datacenter_upload" />
+    </FrameLayout>
+    <TextView android:textColor="@color/gray_66" android:id="@id/textName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/dc_local_log_sync" android:layout_weight="1.0" android:layout_marginStart="8.0dip" style="@style/Style_12_Medium" />
+    <TextView android:textColor="@color/gray_99" android:id="@id/textCount" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Style_12_Regular" />
+    <ImageView android:id="@id/imgNext" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_full_arrow_right" app:tint="@color/color_Gray_CC_Light_weak" />
+</com.gotokeep.keep.dc.business.mydata.mvp.view.v2.PersonDataOfflineDataExpV2View>

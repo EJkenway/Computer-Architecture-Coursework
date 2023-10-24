@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.target.mvp.view.OutdoorTargetView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_weight="3.0" app:pDividerColor="@color/transparent" app:pIndicatorColor="@color/white" app:pIndicatorHeight="2.0dip" app:pIndicatorWidth="16.0dip" app:pTabTextColor="@color/rt_dark_tab_selector" app:pTabTextSize="15.0sp" style="@style/default_indicator_tab_strip" />
+    <com.gotokeep.keep.rt.business.home.widget.BottomSheetViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabs" />
+    <RelativeLayout android:id="@id/layoutBottom" android:background="@drawable/rt_bg_bottom_button_gradient_purple" android:layout_width="fill_parent" android:layout_height="@dimen/rt_bottom_button_container_height" android:layout_alignParentBottom="true">
+        <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:id="@id/btn_start" android:layout_width="@dimen/rt_bottom_green_button_width" android:layout_height="@dimen/rt_bottom_green_button_height" android:text="@string/rt_save_outdoor_record" android:layout_centerInParent="true" app:buttonRadius="@dimen/rt_bottom_green_button_radius" app:loadingButtonSize="large" />
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.target.mvp.view.OutdoorTargetView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.NotLatestDataTipView android:gravity="center" android:orientation="horizontal" android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieView" android:layout_width="20.0dip" android:layout_height="20.0dip" app:lottie_fileName="dc_refresh_loading.json" app:lottie_loop="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_22" android:id="@id/textRefresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dc_data_updating" android:layout_marginStart="8.0dip" />
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.NotLatestDataTipView>

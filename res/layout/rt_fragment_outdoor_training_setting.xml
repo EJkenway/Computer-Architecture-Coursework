@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layoutSettingContent" android:background="@color/color_463e4d" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/settingTitleBar" android:background="@color/color_463e4d" app:left_icon="@drawable/icon_close_white" app:left_icon_clickable="true" app:title="@string/setting" style="@style/ItemCustomTitleBar" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutTrainingSettings" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gotokeep.keep.rt.business.settings.mvp.view.OutdoorAudioSettingView android:id="@id/audioSettingView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemGuideVoice" android:background="@android:color/white" android:visibility="gone" app:mainText="@string/rt_settings_guide_voice" app:rightArrowVisible="true" app:useDarkStyle="true" style="@style/SettingSingleItemWithClick" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemSwitchVoice" app:mainText="@string/rt_voice_broadcast" app:useDarkStyle="true" style="@style/SettingSingleItemWithClick" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutVoiceController" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:id="@id/divider" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SettingItemLineDivider" />
+                <com.gotokeep.keep.commonui.widget.music.MusicVolumeBar2 android:id="@id/vbGuideVoice" android:layout_width="fill_parent" android:layout_height="@dimen/volume_bar_height" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:barStyle="fine" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View android:id="@id/dividerVoiceBottom" android:background="@color/color_3f3845" android:layout_width="fill_parent" android:layout_height="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutVoiceController" />
+            <include android:id="@id/itemRhythmAndMusic" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/rt_view_settings_rhythm_and_music" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutMetronome" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemMetronome" android:background="@color/white" android:layout_height="@dimen/setting_item_height" app:mainText="@string/rt_metronome_title" app:useDarkStyle="true" style="@style/SettingSingleItemWithClick" />
+                <View android:id="@id/dividerItemMetronome" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SettingItemLineDivider" />
+                <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemMetronomeFrequency" android:background="@color/white" app:mainText="@string/rt_metronome_frequency" app:rightArrowVisible="true" app:useDarkStyle="true" style="@style/SettingSingleItemWithClick" />
+                <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemMetronomeSound" android:background="@color/white" app:mainText="@string/rt_metronome_sound" app:useDarkStyle="true" style="@style/SettingSingleItemWithClick" />
+                <View android:background="@color/color_3f3845" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+            </LinearLayout>
+            <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemSwitchLiveVoice" android:background="@android:color/white" android:visibility="gone" app:mainText="@string/rt_setting_live_run_voice" app:useDarkStyle="true" style="@style/SettingSingleItemWithClick" />
+            <View android:id="@id/dividerLiveVoiceBottom" android:background="@color/color_3f3845" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemSwitchAutoPause" app:mainText="@string/rt_run_auto_pause" app:useDarkStyle="true" style="@style/SettingSingleItemWithClick" />
+            <View style="@style/SettingItemLineDivider" />
+            <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemSwitchScreenOn" app:mainText="@string/rt_keep_screen_on" app:useDarkStyle="true" style="@style/SettingSingleItemWithClick" />
+            <View style="@style/SettingItemLineDivider" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

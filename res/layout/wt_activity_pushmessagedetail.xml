@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" app:left_icon_clickable="true" app:title="@string/select_regular_exercise_reminders" style="@style/ItemCustomTitleBar" />
+    </RelativeLayout>
+    <ScrollView android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout style="@style/SettingItem">
+                <LinearLayout style="@style/SettingItemWithDivider">
+                    <RelativeLayout android:id="@id/monday" style="@style/SettingSingleItem">
+                        <TextView android:id="@id/mon_text" android:text="@string/monday_ch" style="@style/SettingMainText" />
+                        <ImageView android:id="@id/mondayChoose" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/remind_choose" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/tuesday" style="@style/SettingSingleItem">
+                        <TextView android:id="@id/tue_text" android:text="@string/tuesday_ch" style="@style/SettingMainText" />
+                        <ImageView android:id="@id/tuesdayChoose" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/remind_choose" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/wednesday" style="@style/SettingSingleItem">
+                        <TextView android:id="@id/wed_text" android:text="@string/wednesday_ch" style="@style/SettingMainText" />
+                        <ImageView android:id="@id/wednesdayChoose" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/remind_choose" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/thursday" style="@style/SettingSingleItem">
+                        <TextView android:id="@id/thu_text" android:text="@string/thursday_ch" style="@style/SettingMainText" />
+                        <ImageView android:id="@id/thursdayChoose" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/remind_choose" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/friday" style="@style/SettingSingleItem">
+                        <TextView android:id="@id/fri_text" android:text="@string/friday_ch" style="@style/SettingMainText" />
+                        <ImageView android:id="@id/fridayChoose" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/remind_choose" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/saturday" style="@style/SettingSingleItem">
+                        <TextView android:id="@id/sat_text" android:text="@string/saturday_ch" style="@style/SettingMainText" />
+                        <ImageView android:id="@id/saturdayChoose" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/remind_choose" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/sunday" style="@style/SettingSingleItem">
+                        <TextView android:id="@id/sun_text" android:text="@string/sunday_ch" style="@style/SettingMainText" />
+                        <ImageView android:id="@id/sundayChoose" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/remind_choose" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutScreening" android:background="@color/gray_22" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_cast_screen_header" />
+    <LinearLayout android:gravity="center" android:id="@id/layoutLogoutScreen" android:background="@drawable/bg_white_20_alpha_corner_25dp" android:visibility="gone" android:layout_width="180.0dip" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/textCurrentWifi" app:layout_constraintVertical_bias="0.4">
+        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/icon_closed_screen_small" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/textQuitScreen" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/white_60" android:gravity="center" android:id="@id/tvOutTips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/train_auto_fill_data" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutLogoutScreen" />
+    <include android:id="@id/layoutTvInstallGuidePort" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/layout_tv_install_guide" />
+    <include android:id="@id/layoutTvInstallGuideLand" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" layout="@layout/layout_tv_install_guide_land" />
+</androidx.constraintlayout.widget.ConstraintLayout>

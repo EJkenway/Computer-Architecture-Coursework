@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitLiteFoodView android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/imgLite" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" app:border="false" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:layout_toEndOf="@id/imgLite">
+        <TextView android:textSize="15.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:id="@id/tvDes" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitLiteFoodView>

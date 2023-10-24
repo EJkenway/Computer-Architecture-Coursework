@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/te_font_size_16dp" android:textColor="@color/black" android:id="@id/tvLockTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="@string/te_lock_screen" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextMedium" />
+    <com.keep.trainingengine.widget.KeepSwitchButton android:id="@id/lockSwitch" app:layout_constraintBottom_toBottomOf="@id/tvLockTitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tvLockTitle" style="@style/KeepSwitch" />
+    <View android:id="@id/dividerLock" android:background="@color/black_08" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_marginTop="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lockSwitch" />
+</androidx.constraintlayout.widget.ConstraintLayout>

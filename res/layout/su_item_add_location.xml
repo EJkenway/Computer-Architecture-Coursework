@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.post.location.mvp.view.LocationItemView android:orientation="vertical" android:background="@color/white" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgSelected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:src="@drawable/remind_choose" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/select" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_toLeftOf="@id/imgSelected" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" android:layout_toStartOf="@id/imgSelected">
+        <TextView android:textSize="14.0sp" android:textColor="@color/main_color" android:ellipsize="end" android:id="@id/textName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxEms="15" android:singleLine="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/gray_aa" android:ellipsize="end" android:id="@id/textInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="10.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</com.gotokeep.keep.pb.post.location.mvp.view.LocationItemView>

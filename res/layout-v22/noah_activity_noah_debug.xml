@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeaeded" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutIsNeedEncrypt" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_centerVertical="true" android:layout_marginHorizontal="5.0dip">
+        <CheckBox android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_cbDebugSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总开关" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        <CheckBox android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_cbIsNeedEncrypt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加密" android:layout_weight="1.0" />
+        <Button android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_btnJumpWifiConfig" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="wifi配置" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.core.widget.NestedScrollView android:id="@id/noah_svMockLayout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginHorizontal="5.0dip">
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sdk_debug_block_adn" />
+                    <EditText android:textSize="14.0sp" android:gravity="center|left" android:id="@id/noah_edi_gvAdn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:hint="可输入要屏蔽ADN的PID,多个用 , 隔开" />
+                    <com.noah.sdk.dg.view.NoahGridView android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:gravity="center" android:layout_gravity="center" android:id="@id/noah_gvAdn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:verticalSpacing="5.0dip" android:numColumns="4" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginHorizontal="5.0dip">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sdk_debug_ad_config" />
+                        <TextView android:textSize="16.0sp" android:textColor="@android:color/darker_gray" android:layout_gravity="center|right" android:id="@id/noah_tvEditMediation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="编辑" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+                        <CheckBox android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_cbDebugAppKeySW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sdk_debug_app_key" />
+                        <Spinner android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:id="@id/noah_spAppKey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+                        <CheckBox android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_cbDebugAdTypeSW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sdk_debug_ad_type" />
+                        <Spinner android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:id="@id/noah_spAdType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+                        <CheckBox android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_cbDebugMockSW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sdk_debug_data_mock" android:layout_centerVertical="true" />
+                        <Spinner android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:layout_gravity="top" android:id="@id/noah_spDataMock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                    </LinearLayout>
+                    <EditText android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/noah_etMock" android:background="@drawable/shape_edittext" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="10.0dip" android:hint="请输入mock 接口" android:maxLines="1" android:singleLine="true" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+                        <CheckBox android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_cbDebugSlotKeySW" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sdk_debug_slot_key" />
+                        <EditText android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/noah_etSlotKey" android:background="@drawable/shape_edittext" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="10.0dip" android:maxLines="1" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginHorizontal="5.0dip">
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sdk_debug_hook" />
+                    <CheckBox android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_cbHookMaterialsSwitch" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="Hook物料" android:layout_centerVertical="true" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip">
+                        <CheckBox android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_cbHookTemplateSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hook模版 (原生广告)" />
+                        <Spinner android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:id="@id/noah_spTemplateId" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_mm" android:background="@android:color/white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="10.0dip">
+        <Button android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_btn_dump_maps" android:layout_width="0.0dip" android:layout_height="48.0dip" android:text="mmm" android:layout_weight="1.0" />
+        <Button android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_btn_dump_heap" android:layout_width="0.0dip" android:layout_height="48.0dip" android:text="hhh" android:layout_weight="1.0" />
+        <Button android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:textColor="@android:color/black" android:id="@id/noah_btn_monitor" android:layout_width="0.0dip" android:layout_height="48.0dip" android:text="ttt" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center|right" android:id="@id/noah_tv_clear_ssp" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginRight="10.0dip" android:text="清除SSP" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

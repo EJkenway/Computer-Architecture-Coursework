@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.mvp.view.RechargePartItemView android:id="@id/layout_recharge_item" android:background="@drawable/mo_selector_recharge_part_item_bg" android:layout_width="136.0dip" android:layout_height="50.0dip" android:layout_marginTop="3.5dip" android:layout_marginBottom="3.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/image_coin" android:layout_width="27.5dip" android:layout_height="27.5dip" android:layout_marginLeft="12.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/gray_66" android:id="@id/text_keep_money_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/image_coin" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/text_money" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.gotokeep.keep.mo.business.store.mvp.view.RechargePartItemView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="#ff0000ff" android:id="@id/textDebugSettings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20dp" android:text="@string/kt_smart_run_debug_settings" app:layout_constraintEnd_toStartOf="@id/textDebugLog" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/textDebugLog" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_smart_run_debug_log" app:layout_constraintEnd_toStartOf="@id/textDebugAttribute" app:layout_constraintStart_toEndOf="@id/textDebugSettings" app:layout_constraintTop_toTopOf="@id/textDebugSettings" />
+    <TextView android:id="@id/textDebugAttribute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_smart_run_debug_attribute" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/textDebugLog" app:layout_constraintTop_toTopOf="@id/textDebugSettings" />
+    <include android:id="@id/layoutDebugSettings" layout="@layout/kt_fragment_smart_run_debug" />
+    <include android:id="@id/layoutDebugLog" layout="@layout/kt_fragment_smart_run_debug_log" />
+    <include android:id="@id/layoutDebugAttribute" layout="@layout/kt_fragment_smart_run_debug_attribute" />
+</androidx.constraintlayout.widget.ConstraintLayout>

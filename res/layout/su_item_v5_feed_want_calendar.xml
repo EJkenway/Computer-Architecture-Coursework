@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layoutWant" android:background="@drawable/su_bg_08000000_32dp" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_weight="1.0" android:layout_marginEnd="5.0dip">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageWant" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_video_heart_gray" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/textWant" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/su_feed_v4_add_course" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/layoutCalendar" android:background="@drawable/su_bg_08000000_32dp" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_weight="1.0" android:layout_marginStart="5.0dip">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageCalendar" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_feed_calendar" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/textCalendar" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/su_calendar_add" android:layout_marginStart="2.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

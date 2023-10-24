@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorScreenLockTitleView android:id="@id/outdoor_lock_title" android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" />
+    <com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorHeartRateView android:id="@id/view_heart_rate" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_centerVertical="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="28.0sp" android:textColor="@color/rt_training_text_main" android:id="@id/text_heart_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginEnd="4.0dip" />
+        <ImageView android:id="@id/image_heart_rate" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="7.0dip" android:src="@drawable/ic_heartrate_reminder" android:layout_toEndOf="@id/text_heart_rate" />
+    </com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorHeartRateView>
+</com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorScreenLockTitleView>

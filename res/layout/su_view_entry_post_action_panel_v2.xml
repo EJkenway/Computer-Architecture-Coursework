@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.post.main.mvp.view.KeyboardActionPanel android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/imgLayout" android:layout_width="fill_parent" android:layout_height="42.0dip" android:baselineAligned="false">
+        <ImageView android:layout_gravity="center" android:id="@id/imgAt" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/su_ic_at_lined" android:scaleType="center" android:paddingStart="@dimen/page_horizontal_margin" android:paddingEnd="10.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/imgEmotion" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/su_ic_emoji_lined" android:paddingStart="10.0dip" android:paddingEnd="20.0dip" />
+        <LinearLayout android:gravity="end|center" android:id="@id/linearAddCourse" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerTitles" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="42.0dip" />
+    <com.gotokeep.keep.pb.widget.EmotionPanelLayout android:layout_gravity="bottom" android:id="@id/emotionShow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="43.0dip" />
+</com.gotokeep.keep.pb.post.main.mvp.view.KeyboardActionPanel>

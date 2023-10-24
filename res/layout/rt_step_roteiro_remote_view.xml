@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:orientation="horizontal" android:id="@id/imageLeftBg" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginRight="114.0dip" android:layout_marginEnd="114.0dip" />
+    <ImageView android:id="@id/imageRightPicture" android:layout_width="114.0dip" android:layout_height="64.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/imageRightBg" android:layout_width="114.0dip" android:layout_height="64.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/imgLogo" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="9.5dip" android:src="@drawable/rt_ic_notification_logo" android:layout_marginStart="12.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.Compat.Notification.Title" android:textSize="12.0sp" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="8.0dip" android:text="@string/step_today" android:layout_toRightOf="@id/imgLogo" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/imgLogo" />
+    <TextView android:textAppearance="@style/TextAppearance.Compat.Notification.Title" android:textSize="14.0sp" android:id="@id/textSubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="12.0dip" />
+</RelativeLayout>

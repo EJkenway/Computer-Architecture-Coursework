@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.donkingliang.consecutivescroller.ConsecutiveScrollerLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerFeed" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/tc_view_new_recommend_tab_content_empty" />
+</com.donkingliang.consecutivescroller.ConsecutiveScrollerLayout>

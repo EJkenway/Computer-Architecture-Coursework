@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.skeleton.SkeletonWrapperView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.skeleton.SkeletonView android:id="@id/skeletonVideo" android:background="@drawable/line_white_4dp_corner" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="W,1.1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/textImage" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/skeletonVideo" layout="@layout/item_skeleton_left_image_right_text_view" />
+</com.gotokeep.keep.commonui.skeleton.SkeletonWrapperView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.coursediscover.view.CourseDiscoverOptionSortListView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_10dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/black_87" android:id="@id/textCourseDiscover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tc_course_discover_sort_option" android:layout_marginStart="@dimen/dimen_16dp" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/rvOptions" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="16.0dip" android:layout_marginStart="12.0dip" />
+</com.gotokeep.keep.wt.business.course.coursediscover.view.CourseDiscoverOptionSortListView>

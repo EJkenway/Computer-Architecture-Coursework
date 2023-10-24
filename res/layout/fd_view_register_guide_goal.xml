@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.account.guide.mvp.view.GoalView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:maxLines="2" android:lineSpacingExtra="4.0dip" android:paddingStart="28.0dip" android:paddingEnd="28.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:paddingStart="28.0dip" android:paddingEnd="28.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/textTitle">
+        <LinearLayout android:orientation="vertical" android:id="@id/groupOptions" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</com.gotokeep.keep.fd.business.account.guide.mvp.view.GoalView>

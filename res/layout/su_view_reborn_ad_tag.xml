@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.reborn.view.RebornAdTagView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/page_horizontal_margin" android:paddingEnd="@dimen/page_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_99" android:id="@id/textTag" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.su_core.timeline.mvp.reborn.view.RebornAdTagView>

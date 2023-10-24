@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="WheelArrayConstellation">
+        <item>Aquarius</item>
+        <item>Pisces</item>
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+    </string-array>
+    <string-array name="WheelArrayDefault">
+        <item>AigeStudio</item>
+        <item>Aige</item>
+        <item>爱哥</item>
+        <item>الحب  اخي</item>
+        <item>jeg elsker</item>
+        <item>사랑해요 형</item>
+        <item>Amor de irmão</item>
+        <item>armastan</item>
+        <item>愛の兄</item>
+        <item>обичам те</item>
+        <item>любовь - братa</item>
+        <item>miłość bracie</item>
+        <item>Liebe</item>
+        <item>Lamour</item>
+        <item>rakastan sinua</item>
+        <item>láska..</item>
+        <item>dragostea.</item>
+        <item>jag älskar</item>
+        <item>ljubezen, brat.</item>
+        <item>愛哥</item>
+        <item>ชอบพี่</item>
+        <item>αγάπη μου</item>
+        <item>a szerelem.</item>
+        <item>Amore, fratello.</item>
+    </string-array>
+    <string-array name="WheelArrayZodiac">
+        <item>Rat</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Hare</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Sheep</item>
+        <item>Monkey</item>
+        <item>Cock</item>
+        <item>Dog</item>
+        <item>Boar</item>
+    </string-array>
+    <integer-array name="branch_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+    <string-array name="branch_string_array">
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+    </string-array>
+    <array name="calorie_food_icons">
+        <item>@drawable/rt_icon_calorie_food_0</item>
+        <item>@drawable/rt_icon_calorie_food_1</item>
+        <item>@drawable/rt_icon_calorie_food_2</item>
+        <item>@drawable/rt_icon_calorie_food_3</item>
+        <item>@drawable/rt_icon_calorie_food_4</item>
+        <item>@drawable/rt_icon_calorie_food_5</item>
+        <item>@drawable/rt_icon_calorie_food_6</item>
+        <item>@drawable/rt_icon_calorie_food_7</item>
+        <item>@drawable/rt_icon_calorie_food_8</item>
+        <item>@drawable/rt_icon_calorie_food_9</item>
+    </array>
+    <string-array name="calorie_food_names">
+        <item>曲奇</item>
+        <item>吐司</item>
+        <item>烤鸡腿</item>
+        <item>奶油蛋糕</item>
+        <item>甜甜圈</item>
+        <item>炸薯条</item>
+        <item>爆米花</item>
+        <item>牛肉汉堡</item>
+        <item>骨汤拉面</item>
+        <item>猪肉咖喱饭</item>
+    </string-array>
+    <string-array name="chinese_week_days_start_with_zhou_monday_first">
+        <item></item>
+        <item>@string/monday_ch</item>
+        <item>@string/tuesday_ch</item>
+        <item>@string/wednesday_ch</item>
+        <item>@string/thursday_ch</item>
+        <item>@string/friday_ch</item>
+        <item>@string/saturday_ch</item>
+        <item>@string/sunday_ch</item>
+    </string-array>
+    <string-array name="chinese_week_days_start_without_prefix">
+        <item></item>
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="chinese_week_days_start_without_prefix_start_one">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+    <string-array name="cooperation">
+        <item>合作和报道请使用以下邮箱。如需反馈 Keep 使用问题或建议，请返回进入「帮助中心」提交反馈。</item>
+        <item>商务合作：business@keep.com</item>
+        <item>校园合作：keepcampus@keep.com</item>
+        <item>文章投稿：contribute@keep.com</item>
+        <item>广告合作：advertisement@keep.com</item>
+        <item>媒体报道：media@keep.com</item>
+    </string-array>
+    <string-array name="dayflow_summary_week_label">
+        <item>日</item>
+        <item></item>
+        <item>二</item>
+        <item></item>
+        <item>四</item>
+        <item></item>
+        <item>六</item>
+    </string-array>
+    <string-array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="food_guide_more_items">
+        <item>更新个人信息</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="genders">
+        <item>@string/female</item>
+        <item>@string/male</item>
+    </string-array>
+    <string-array name="km_daily_goal_week_array">
+        <item>@string/km_daily_goal_monday</item>
+        <item>@string/km_daily_goal_tuesday</item>
+        <item>@string/km_daily_goal_wednesday</item>
+        <item>@string/km_daily_goal_thursday</item>
+        <item>@string/km_daily_goal_friday</item>
+        <item>@string/km_daily_goal_saturday</item>
+        <item>@string/km_daily_goal_sunday</item>
+    </string-array>
+    <string-array name="km_sports_tab_week_title_array">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+    <string-array name="kt_android_wear_capabilities">
+        <item>@string/mobile_path_launch_train_activity</item>
+        <item>@string/mobile_path_launch_outdoor_activity</item>
+        <item>@string/mobile_path_receive_heartrate</item>
+        <item>@string/mobile_path_receive_training_control</item>
+        <item>@string/mobile_path_receive_outdoor_control</item>
+        <item>@string/path_heart_rate_range</item>
+        <item>@string/path_workout_calorie</item>
+        <item>@string/path_workout_control</item>
+        <item>@string/path_workout_prepare</item>
+        <item>@string/path_workout_start</item>
+        <item>@string/path_workout_stop</item>
+        <item>@string/path_workout_type_common</item>
+        <item>@string/path_workout_update</item>
+    </string-array>
+    <string-array name="kt_array_week">
+        <item>@string/sunday_ch</item>
+        <item>@string/monday_ch</item>
+        <item>@string/tuesday_ch</item>
+        <item>@string/wednesday_ch</item>
+        <item>@string/thursday_ch</item>
+        <item>@string/friday_ch</item>
+        <item>@string/saturday_ch</item>
+    </string-array>
+    <string-array name="kt_puncheur_free_mode_select_bg_color">
+        <item>\#33000000</item>
+        <item>\#36000000</item>
+        <item>\#3D000000</item>
+        <item>\#4A000000</item>
+        <item>\#5C000000</item>
+        <item>\#6E000000</item>
+        <item>\#82000000</item>
+        <item>\#99000000</item>
+        <item>\#AD000000</item>
+        <item>\#C2000000</item>
+        <item>\#D6000000</item>
+        <item>\#E6000000</item>
+        <item>\#F2000000</item>
+        <item>\#Fc000000</item>
+        <item>\#FF000000</item>
+    </string-array>
+    <string-array name="kt_puncheur_free_mode_select_bg_position">
+        <item>0</item>
+        <item>0</item>
+        <item>0.01</item>
+        <item>0.03</item>
+        <item>0.05</item>
+        <item>0.08</item>
+        <item>0.13</item>
+        <item>0.18</item>
+        <item>0.25</item>
+        <item>0.33</item>
+        <item>0.43</item>
+        <item>0.54</item>
+        <item>0.68</item>
+        <item>0.83</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="kt_puncheur_shadow_detail_mask_gradient_color">
+        <item>\#00141414</item>
+        <item>\#03141414</item>
+        <item>\#0D141414</item>
+        <item>\#1C141414</item>
+        <item>\#2E141414</item>
+        <item>\#42141414</item>
+        <item>\#59141414</item>
+        <item>\#73141414</item>
+        <item>\#8C141414</item>
+        <item>\#A6141414</item>
+        <item>\#BD141414</item>
+        <item>\#D1141414</item>
+        <item>\#E3141414</item>
+        <item>\#F2141414</item>
+        <item>\#Ec141414</item>
+        <item>\#141414</item>
+    </string-array>
+    <string-array name="kt_puncheur_shadow_detail_mask_gradient_position">
+        <item>0</item>
+        <item>0.0117</item>
+        <item>0.029</item>
+        <item>0.065</item>
+        <item>0.109</item>
+        <item>0.165</item>
+        <item>0.231</item>
+        <item>0.304</item>
+        <item>0.385</item>
+        <item>0.4688</item>
+        <item>0.551</item>
+        <item>0.645</item>
+        <item>0.733</item>
+        <item>0.824</item>
+        <item>0.908</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="kt_station_course_mask_colors">
+        <item>\#00000000</item>
+        <item>\#03000000</item>
+        <item>\#08000000</item>
+        <item>\#0F000000</item>
+        <item>\#1A000000</item>
+        <item>\#26000000</item>
+        <item>\#33000000</item>
+        <item>\#40000000</item>
+        <item>\#4D000000</item>
+        <item>\#59000000</item>
+        <item>\#66000000</item>
+        <item>\#70000000</item>
+        <item>\#78000000</item>
+        <item>\#7D000000</item>
+        <item>\#80000000</item>
+    </string-array>
+    <string-array name="kt_station_course_mask_positions">
+        <item>0</item>
+        <item>0.09</item>
+        <item>0.17</item>
+        <item>0.24</item>
+        <item>0.31</item>
+        <item>0.37</item>
+        <item>0.44</item>
+        <item>0.50</item>
+        <item>0.56</item>
+        <item>0.63</item>
+        <item>0.69</item>
+        <item>0.76</item>
+        <item>0.83</item>
+        <item>0.91</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="kt_station_mask_colors">
+        <item>\#003C3C40</item>
+        <item>\#083B3B3F</item>
+        <item>\#173A3A3E</item>
+        <item>\#2938383C</item>
+        <item>\#3D36363A</item>
+        <item>\#57343437</item>
+        <item>\#70313134</item>
+        <item>\#8A2E2E31</item>
+        <item>\#A32A2A2D</item>
+        <item>\#BA27272A</item>
+        <item>\#D1242426</item>
+        <item>\#E3212123</item>
+        <item>\#F21E1E21</item>
+        <item>\#FC1D1D1F</item>
+        <item>\#FF1C1C1E</item>
+    </string-array>
+    <string-array name="kt_station_mask_positions">
+        <item>0</item>
+        <item>0.01</item>
+        <item>0.03</item>
+        <item>0.07</item>
+        <item>0.12</item>
+        <item>0.19</item>
+        <item>0.26</item>
+        <item>0.34</item>
+        <item>0.43</item>
+        <item>0.52</item>
+        <item>0.62</item>
+        <item>0.72</item>
+        <item>0.81</item>
+        <item>0.91</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="kt_station_sleep_time">
+        <item>@string/kt_kbean_device_sleep_setting_time_5</item>
+        <item>@string/kt_kbean_device_sleep_setting_time_15</item>
+        <item>@string/kt_kbean_device_sleep_setting_time_30</item>
+    </string-array>
+    <string-array name="lunar_first_of_month">
+        <item>春节</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="lunar_str">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+    <string-array name="market_package_name_array">
+        <item>com.baidu.appsearch</item>
+        <item>com.tencent.android.qqdownloader</item>
+        <item>com.qihoo.appstore</item>
+        <item>com.huawei.appmarket</item>
+        <item>com.xiaomi.market</item>
+        <item>com.oppo.market</item>
+        <item>com.vivo.market</item>
+        <item>com.wandoujia.phoenix2</item>
+        <item>com.pp.assistant</item>
+        <item>com.hiapk.marketpho</item>
+    </string-array>
+    <string-array name="metronome_names">
+        <item>默认</item>
+        <item>清脆</item>
+        <item>重击</item>
+        <item>平静</item>
+    </string-array>
+    <string-array name="month_string_array">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+    <string-array name="outdoor_debug_tool_menu">
+        <item>完成页自动上传开关</item>
+        <item>离线记录自动上传开关</item>
+        <item>QQ 音乐开关</item>
+        <item>户外音频管理调试</item>
+        <item>模拟步数</item>
+        <item>地图样式测试工具</item>
+        <item>步数融合调试</item>
+        <item>查看步数中心数据库</item>
+        <item>回放工具</item>
+        <item>NEW! 新回放工具</item>
+        <item>导出本地数据到 sdcard</item>
+        <item>重置Flags</item>
+        <item>一键开练测试</item>
+        <item>启动户外运动(带结果回调)</item>
+        <item>7.0 新 UI 控件测试</item>
+        <item>轨迹动画合成动态帧时间模式</item>
+        <item>记录合并(仅跑步)</item>
+        <item>从 sdcard 导入</item>
+        <item>强制/取消强制使用海外地图</item>
+        <item>语音包测试工具</item>
+        <item>某品牌本地导入</item>
+        <item>直接打开课程准备页</item>
+        <item>G-Sensor 采样率调整</item>
+        <item>传感器信息收集状态切换</item>
+        <item>测试语音连接</item>
+        <item>导出埋点日志</item>
+        <item>今日步数基数</item>
+        <item>路线补完 POC</item>
+        <item>华为运动健康服务测试</item>
+        <item>路线编辑工具类型选择</item>
+        <item>强制定位SDK选择</item>
+        <item>强制地图类型选择</item>
+    </string-array>
+    <string-array name="phoneNumber">
+        <item>@string/empty</item>
+        <item>客服热线服务时间：9:00 – 21:00 * 365。如需反馈 Keep 使用问题或建议，请返回进入「帮助中心」提交反馈。</item>
+        <item>客服热线：4006-321-666</item>
+    </string-array>
+    <string-array name="solar_festival">
+        <item>0101元旦</item>
+        <item>0214情人节</item>
+        <item>0308妇女节</item>
+        <item>0312植树节</item>
+        <item>0315消权日</item>
+        <item>0401愚人节</item>
+        <item>0422地球日</item>
+        <item>0501劳动节</item>
+        <item>0504青年节</item>
+        <item>0601儿童节</item>
+        <item>0701建党节</item>
+        <item>0801建军节</item>
+        <item>0910教师节</item>
+        <item>1001国庆节</item>
+        <item>1031万圣节</item>
+        <item>1111光棍节</item>
+        <item>1224平安夜</item>
+        <item>1225圣诞节</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+    </string-array>
+    <string-array name="special_festivals">
+        <item>母亲节</item>
+        <item>父亲节</item>
+        <item>感恩节</item>
+    </string-array>
+    <string-array name="su_capture_all_tab_array">
+        <item>相册</item>
+        <item>拍照</item>
+        <item>拍视频</item>
+        <item>玩法库</item>
+    </string-array>
+    <string-array name="su_capture_tab_array">
+        <item>相册</item>
+        <item>拍照</item>
+        <item>拍视频</item>
+    </string-array>
+    <string-array name="su_capture_tab_capture_array">
+        <item>拍照</item>
+    </string-array>
+    <string-array name="su_capture_tab_photo_array">
+        <item>相册</item>
+        <item>拍照</item>
+    </string-array>
+    <string-array name="su_capture_tab_photo_only_array">
+        <item>相册</item>
+    </string-array>
+    <integer-array name="su_flag_guide_cloud_username_color">
+        <item>0xFF8C5E19</item>
+        <item>0xFF7A3E42</item>
+        <item>0xFF5859A8</item>
+        <item>0xFF2F6358</item>
+    </integer-array>
+    <string-array name="su_like_toast_egg_array">
+        <item>谢谢你的鼓励~</item>
+        <item>点赞多多，更可能被推荐哦</item>
+        <item>为人点赞，手有余香</item>
+        <item>给你比个❤️</item>
+        <item>谢谢你的喜欢呀</item>
+        <item>爱点赞的人都有好运气</item>
+    </string-array>
+    <string-array name="tort_claims">
+        <item>[未成年人守护] 举报请使用儿童守护邮箱联系方式，[互联网算法推荐不合规 / 违法和不良信息] 举报请使用举报邮箱联系方式。如需反馈 Keep 使用问题或建议，请返回 [帮助中心] 提交反馈。</item>
+        <item>举报邮箱：report@keep.com</item>
+        <item>儿童守护邮箱：kids@keep.com</item>
+        <item>举报电话：010–86399205</item>
+    </string-array>
+    <string-array name="tradition_festival">
+        <item>除夕</item>
+        <item>0101春节</item>
+        <item>0115元宵</item>
+        <item>0505端午</item>
+        <item>0707七夕</item>
+        <item>0815中秋</item>
+        <item>0909重阳</item>
+    </string-array>
+    <integer-array name="trunk_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="trunk_string_array">
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+    </string-array>
+    <string-array name="week_string_array">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>公斤</item>
+        <item>斤</item>
+        <item>磅</item>
+    </string-array>
+    <string-array name="year_view_week_string_array">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ysf_iv_file_icon" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginTop="103.0dip" android:src="@drawable/ysf_message_file_icon_unknown_preview" android:scaleType="fitXY" android:contentDescription="@null" />
+        <com.qiyukf.unicorn.widget.FileNameTextView android:id="@id/tv_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:ysf_fntMaxLines="2" app:ysf_fntTextColor="@color/ysf_black_333333" app:ysf_fntTextSize="20.0sp" />
+        <TextView android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_grey_999999" android:id="@id/tv_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="205.0dip">
+            <com.qiyukf.unicorn.widget.ProgressButton android:id="@id/ysf_progress_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" app:ysf_progress_btn_bg_color="@color/ysf_blue_337EFF" app:ysf_progress_btn_bg_second_color="@color/ysf_blue_9ac0fe" app:ysf_progress_btn_radius="2.0" app:ysf_progress_btn_text_color="@color/ysf_white" app:ysf_progress_btn_text_covercolor="@color/ysf_white" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/iv_stop_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/ysf_ic_file_download_stop" android:contentDescription="@null" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/ysf_text_size_12" android:textColor="@color/ysf_grey_999999" android:gravity="center" android:id="@id/tv_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/ysf_file_open_tips" />
+    </LinearLayout>
+</ScrollView>

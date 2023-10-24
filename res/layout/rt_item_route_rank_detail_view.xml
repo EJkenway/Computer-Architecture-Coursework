@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip">
+            <ImageView android:id="@id/img_top_three_background" android:background="@drawable/person_45_45" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/gray_66" android:gravity="center" android:id="@id/text_route_ranking_no" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:layout_centerInParent="true" android:layout_marginEnd="2.0dip" />
+        </RelativeLayout>
+        <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/img_ranking_user_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/person_45_45" android:layout_marginStart="12.0dip" app:circle_border_color="@color/white" app:circle_border_width="2.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/text_ranking_userName" android:layout_width="150.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="15.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="28.0dip">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textColor="@color/gray_66" android:id="@id/text_ranking_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/text_value_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/count" android:layout_marginStart="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonRouteGalleryView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="8.0dip" android:text="@string/kt_keloton_route_gallery" />
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/gallery" android:layout_width="fill_parent" android:layout_height="125.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="14.0dip" />
+</com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonRouteGalleryView>

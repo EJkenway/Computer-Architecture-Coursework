@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.BodyDataGraphCardView android:background="@drawable/bg_white_top_corner_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.dc.business.datacategory.mvp.view.StatsTimeUnitHeaderView android:id="@id/statsTimeUnit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="14.0dip" android:layout_marginHorizontal="14.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <include android:orientation="horizontal" android:id="@id/layoutPageTitle" android:layout_width="fill_parent" android:layout_height="56.0dip" app:layout_constraintTop_toBottomOf="@id/statsTimeUnit" layout="@layout/dc_layout_graph_date_title" />
+    <com.gotokeep.keep.dc.business.widget.statsbarchart.panel.PercentLineLayout android:id="@id/linePanel" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/layoutPageTitle">
+        <com.gotokeep.keep.dc.business.widget.statsbarchart.panel.SingleStatsPanelLayout android:id="@id/statsPanel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.gotokeep.keep.dc.business.widget.statsbarchart.panel.PercentLineLayout>
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.BodyDataGraphCardView>

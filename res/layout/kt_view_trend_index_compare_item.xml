@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kibra.mvp.view.KibraTrendIndexCompareView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_20dp">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageIndexIcon" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/black_70" android:id="@id/textTrendCompareTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/dimen_8dp" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_14sp" android:textColor="@color/black_87" android:gravity="center_vertical" android:id="@id/textTrendCompareStartData" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/black_38" android:id="@id/textTrendCompareStartDataUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_2dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_14sp" android:textColor="@color/black_87" android:gravity="center_vertical" android:id="@id/textTrendCompareEndData" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/black_38" android:id="@id/textTrendCompareEndDataUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_2dp" />
+        </LinearLayout>
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageDiffResult" android:layout_width="@dimen/dimen_10dp" android:layout_height="@dimen/dimen_10dp" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.kibra.mvp.view.KibraTrendIndexCompareView>

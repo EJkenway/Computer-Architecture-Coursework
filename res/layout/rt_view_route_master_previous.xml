@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RouteMasterPreviousView android:layout_width="fill_parent" android:layout_height="280.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/main_color" android:layout_width="fill_parent" android:layout_height="280.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/icon_route_master_all_previous" android:layout_width="81.0dip" android:layout_height="91.0dip" android:layout_marginTop="25.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/text_route_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:maxLines="1" />
+        <View android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="28.0dip" />
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/layout_current_route_master_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <include layout="@layout/rt_item_route_master_view" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RouteMasterPreviousView>

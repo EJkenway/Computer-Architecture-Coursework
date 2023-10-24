@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.stream.StreamTopView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/textModuleTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:maxLines="1" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/light_green" android:ellipsize="end" android:id="@id/textLabel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="1" app:layout_constraintTop_toBottomOf="@id/textModuleTitle" />
+    <View android:id="@id/viewDivider" android:layout_width="fill_parent" android:layout_height="8.0dip" app:layout_constraintTop_toBottomOf="@id/textLabel" app:layout_goneMarginTop="10.0dip" />
+    <include android:id="@id/layoutEntry" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/viewDivider" layout="@layout/tc_view_home_video_top_entry" />
+</com.gotokeep.keep.tc.business.home.mvp.view.stream.StreamTopView>

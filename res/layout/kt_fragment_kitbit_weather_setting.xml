@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/kt_layout_kitbit_setting_preview" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/switchWeatherSetting" android:layout_marginTop="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/settingPreviewLayout" app:mainText="@string/kt_kitbit_weather_setting_title" app:subText="" style="@style/SettingSingleItemWithClick" />
+    <TextView android:layout_marginBottom="26.0dip" android:text="@string/kt_kitbit_weather_setting_tips" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/switchWeatherSetting" style="@style/KtSettingTips" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/setting_switch_thumb_on" android:id="@id/textWeatherHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="64.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

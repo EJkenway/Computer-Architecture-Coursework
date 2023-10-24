@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/viewTitleBar" android:layout_alignParentTop="true" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:right_icon="@drawable/icon_search_lined_dark" app:right_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <include android:id="@id/viewTypePager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/viewTitleBar" layout="@layout/su_view_user_list_view_pager" />
+</RelativeLayout>

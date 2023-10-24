@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.training.mvp.view.BaseTrainingLayout android:id="@id/wrapper_activity_training" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/view_stub_land_train_ui_longvideo" android:layout="@layout/view_stub_landscape_train_longvideo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_train_video_parent_surfaceview" android:layout="@layout/view_stub_train_video_content_surfaceview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_train_video_parent_textureview" android:layout="@layout/view_stub_train_video_content_textureview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/layout_screen_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/layout_float_page_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/resolution_parent" android:background="@drawable/bg_gradient_long_video_step" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="end|center" android:id="@id/recycler_view_resolution" android:layout_width="165.0dip" android:layout_height="wrap_content" android:layout_marginRight="88.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layout_kt_wrapper" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.training.mvp.view.LockView android:id="@id/lock_view_in_training" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.training.mvp.view.TrainingSettingView android:id="@id/setting_view_in_training" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_audio_debug" android:layout="@layout/view_audio_debug" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.training.mvp.view.BaseTrainingLayout>

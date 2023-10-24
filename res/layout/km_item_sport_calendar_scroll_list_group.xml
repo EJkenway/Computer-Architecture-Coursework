@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.sportmine.SportCalendarTrainScrollListView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.recyclerview.NestChildScrollerRecyclerView android:id="@id/listCourse" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxHeight="278.0dip" />
+    <View android:id="@id/topMaskView" android:background="@drawable/bg_gradient_fff_100_to_0" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="34.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/bottomMaskView" android:background="@drawable/bg_gradient_white0_100" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="34.0dip" />
+</com.gotokeep.keep.km.suit.mvp.view.sportmine.SportCalendarTrainScrollListView>

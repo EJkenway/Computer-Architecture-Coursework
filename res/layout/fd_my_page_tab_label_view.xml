@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.mine.view.MyPageTabLabelView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageIcon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/icon_info_line" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/gray_99" android:ellipsize="end" android:id="@id/textCommentLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30天内完成训练的课程可发布评价" android:maxLines="1" android:singleLine="true" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/imageIcon" app:layout_constraintStart_toEndOf="@id/imageIcon" app:layout_constraintTop_toTopOf="@id/imageIcon" />
+</com.gotokeep.keep.fd.business.mine.view.MyPageTabLabelView>

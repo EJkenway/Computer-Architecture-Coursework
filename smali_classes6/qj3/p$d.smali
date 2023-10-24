@@ -1,0 +1,95 @@
+.class public final Lqj3/p$d;
+.super Lij3/p;
+.source "_Sequences.kt"
+
+# interfaces
+.implements Lhj3/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lqj3/p;->t(Lqj3/i;)Lqj3/i;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lij3/p;",
+        "Lhj3/l<",
+        "TT;",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final g:Lqj3/p$d;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lqj3/p$d;
+
+    invoke-direct {v0}, Lqj3/p$d;-><init>()V
+
+    sput-object v0, Lqj3/p$d;->g:Lqj3/p$d;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lij3/p;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Boolean;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)",
+            "Ljava/lang/Boolean;"
+        }
+    .end annotation
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 1
+    :goto_0
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lqj3/p$d;->invoke(Ljava/lang/Object;)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    return-object p1
+.end method

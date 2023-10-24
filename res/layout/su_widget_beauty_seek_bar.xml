@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/textLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginStart="50.0dip" />
+    <SeekBar android:id="@id/seekBar" android:background="@null" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginLeft="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="40.0dip" android:maxHeight="1.0dip" android:max="100" android:progressDrawable="@drawable/su_seek_bar_settings" android:minHeight="1.0dip" android:thumb="@drawable/su_bg_white_circle" />
+</merge>

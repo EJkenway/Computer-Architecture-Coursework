@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.mvp.view.EntryDetailCommentLikeCountView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.su_core.timeline.widget.KeepLikeAvatarListView android:id="@id/likeAvatars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/page_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/txtLikeCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/likeAvatars" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_arrow_line" android:layout_marginEnd="@dimen/page_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.su.social.comment.mvp.view.EntryDetailCommentLikeCountView>

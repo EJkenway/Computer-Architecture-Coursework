@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.audiopackage.mvp.view.AudioLineView android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="81.0dip" android:layout_marginStart="81.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

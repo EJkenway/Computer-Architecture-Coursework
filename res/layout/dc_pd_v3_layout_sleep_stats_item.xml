@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.SleepStatsItemView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_99" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <ImageView android:id="@id/imgTips" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:baselineAligned="false">
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/gray_22" android:layout_gravity="bottom" android:id="@id/textFirst" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="4.0dip" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_22" android:layout_gravity="bottom" android:id="@id/textFirstUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hour" android:maxLines="1" android:layout_marginEnd="4.0dip" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/gray_22" android:layout_gravity="bottom" android:id="@id/textSecond" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="4.0dip" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_22" android:layout_gravity="bottom" android:id="@id/textSecondUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minute" android:maxLines="1" />
+    </LinearLayout>
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.SleepStatsItemView>

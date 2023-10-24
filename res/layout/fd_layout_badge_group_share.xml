@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.achievement.mvp.view.GroupBadgeShareView android:orientation="vertical" android:background="@color/indigo_purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/fd_layout_badge_wall_share_header" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_radius_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-109.0dip" android:layout_marginStart="@dimen/dimen_14dp" android:layout_marginEnd="@dimen/dimen_14dp">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center_horizontal" android:id="@id/img_group_badge" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="24.0dip" />
+        <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/three_black" android:layout_gravity="center_horizontal" android:id="@id/text_group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_badge_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" layout="@layout/item_share_footer_qrcode_with_join_text" />
+    </LinearLayout>
+    <include layout="@layout/fd_layout_badge_wall_share_footer" />
+</com.gotokeep.keep.fd.business.achievement.mvp.view.GroupBadgeShareView>

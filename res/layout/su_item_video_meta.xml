@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageExpandMeta" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="1.0dip" android:tint="@color/white_80" android:layout_marginStart="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/textExpandMeta" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:gravity="center_vertical" android:id="@id/textExpandMeta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/imageExpandMeta" app:layout_constraintTop_toTopOf="parent" />
+</merge>

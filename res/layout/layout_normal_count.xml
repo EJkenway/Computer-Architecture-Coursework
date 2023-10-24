@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_28dp" android:textColor="@color/train_total_timer" android:id="@id/tvCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/train_number_000" android:layout_marginStart="16.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/train_total_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/train_unit_count" android:layout_marginStart="2.0dip" />
+    <View android:layout_gravity="center_vertical" android:id="@id/divider" android:background="@color/black_10" android:visibility="gone" android:layout_width="2.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" />
+</merge>

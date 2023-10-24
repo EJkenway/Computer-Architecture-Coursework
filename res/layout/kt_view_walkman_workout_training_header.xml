@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.walkman.mvp.view.WalkmanWorkoutTrainingHeaderView android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kt.business.treadmill.widget.WorkoutProgressView android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="@dimen/font_size_12dp" android:layout_marginBottom="@dimen/font_size_24dp" app:kt_backgroundColor="#1a000000" app:kt_dividerColor="#28000000" app:kt_dividerCoverColor="#28000000" app:kt_dividerMargin="2.0dip" app:kt_dividerWidth="1.0dip" app:kt_progressColor="@color/sea_green" />
+    <include layout="@layout/kt_view_walkman_training_header_info" />
+    <include layout="@layout/kt_view_walkman_training_top_target" />
+</com.gotokeep.keep.kt.business.walkman.mvp.view.WalkmanWorkoutTrainingHeaderView>

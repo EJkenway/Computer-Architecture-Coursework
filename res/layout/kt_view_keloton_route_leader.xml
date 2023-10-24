@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonRouteLeaderView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/kt_route_master_title" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/gray_cc" android:layout_gravity="center|right" android:id="@id/instruction" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:text="@string/kt_text_route_play_instruction" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="18.0dip" android:layout_marginBottom="18.0dip">
+        <com.gotokeep.keep.commonui.uilib.CircularImageView android:layout_gravity="center_vertical" android:id="@id/avatar" android:layout_width="54.0dip" android:layout_height="54.0dip" android:src="@drawable/person_45_45" app:border_color="@color/light_green" app:border_width="2.0dip" />
+        <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="-8.0dip" android:src="@drawable/icon_road_master" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:ellipsize="end" android:id="@id/description" android:layout_width="230.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="3" android:layout_below="@id/name" />
+            <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/days_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_text_in_place" />
+                <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="24.0sp" android:textColor="@color/gray_33" android:id="@id/days" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day_unit" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_green" android:id="@id/previous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_keloton_route_previous_leaders" android:layout_below="@id/days_container" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.treadmill.mvp.view.KelotonRouteLeaderView>

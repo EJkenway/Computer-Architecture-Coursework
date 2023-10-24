@@ -1,0 +1,83 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "Weather";
+
+enum WeatherType{
+        CLEAR_DAY           = 0;//晴（白天）
+        CLEAR_NIGHT         = 1;//晴（夜间）
+        PARTLY_CLOUDY_DAY   = 2;//多云（白天）
+        PARTLY_CLOUDY_NIGHT = 3;//多云（夜间）
+        CLOUDY              = 4;//阴
+        LIGHT_RAIN          = 5;//小雨
+        MODERATE_RAIN       = 6;//中雨
+        HEAVY_RAIN          = 7;//大雨
+        STORM_RAIN          = 8;//暴雨
+        LIGHT_HAZE          = 9;//轻度雾霾
+        MODERATE_HAZE       = 10;//中度雾霾
+        HEAVY_HAZE          = 11;//重度雾霾
+        FOG                 = 12;//雾
+        LIGHT_SNOW          = 13;//小雪
+        MODERATE_SNOW       = 14;//中雪
+        HEAVY_SNOW          = 15;//大雪
+        STORM_SNOW          = 16;//暴雪
+        DUST                = 17;//浮尘
+        SAND                = 18;//沙尘
+        STRONG_WIND         = 19;//大风
+}
+
+enum WindDir{
+        N    = 0; // 北
+        NNE  = 1; // 北东北
+        NE   = 2; // 东北
+        ENE  = 3; // 东东北
+        E    = 4; // 东
+        ESE  = 5; // 东东南
+        SE   = 6; // 东南
+        SSE  = 7; // 南东南
+        S    = 8; // 南
+        SSW  = 9; // 南西南
+        SW   = 10;// 西南
+        WSW  = 11;// 西西南
+        W    = 12;// 西
+        WNW  = 13;// 西西北
+        NW   = 14;// 西北
+        NNW  = 15;// 北西北
+}
+
+message WeatherItem {
+        uint32 utc                  = 1;
+        uint32 weather_type         = 2;
+        // 当天最高气温，单位：℃ ，取值范围 [ -128 , 127 ]
+        sint32 high_temperature     = 3;
+        // 当天最低气温，单位：℃ ，取值范围 [ -128 , 127 ]
+        sint32 low_temperature      = 4;
+        // 空气质量，单位：空气质量指数 AQI ，取值范围 [ 0 , 500 ]
+        uint32 air_quality          = 5;
+        // 风力，单位：级  ，取值范围 [ 0 ，19 ]
+        uint32 wind_strenth         = 6;
+        //风向，单位：无，取值范围 [ 0 , 15 ] , 参考 E_WIND_DIR 定义
+        uint32 wind_direction       = 7;
+        // 湿度，单位：%  ，取值范围 [ 0 , 100 ]
+        uint32 humidness            = 8;
+}
+
+message WeatherInfo {
+    // 地区，最大长度 45 byte
+    string location              = 1;
+    // 实时温度，单位：℃ ，取值范围 [ -128 , 127 ]
+    sint32  realtime_temperature = 2;
+    // 天气信息，按 weather_t 定义，  最大 5 组
+    repeated WeatherItem weather   = 3;
+    // 120 小时气温、天气类型预报
+    ForecastWeather forecast_weather = 4;
+}
+
+message WeatherHour {
+        sint32 forecast_temperature     = 1;
+        uint32 forecast_weather_type    = 2;
+}
+
+message ForecastWeather {
+    uint32   forecast_utc                 = 1;
+    repeated WeatherHour weather_hour  = 2;
+}

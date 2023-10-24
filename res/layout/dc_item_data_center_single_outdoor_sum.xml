@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterSumOutdoorView android:background="@android:color/white" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="start" android:id="@id/txt_single_sum_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_cc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/distance_unit_bracket" android:layout_alignParentRight="true" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="42.0dip" android:textStyle="bold" android:textColor="@color/tab_purple" android:id="@id/txt_minute_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="13.0dip" android:text="@string/zero_point_zero" android:layout_below="@id/txt_single_sum_title" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@id/txt_minute_count" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/item_data_center_single_sum_entry_count_wrapper" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:layout_gravity="start" android:id="@id/txt_count_title" android:text="@string/done_unit_bracket" style="@style/DataCenterUnitTextView" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:layout_gravity="start" android:id="@id/txt_count_value" android:text="@string/zero_int" style="@style/DataCenterValueNumTextView" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/item_data_center_single_sum_day_count_wrapper" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.5">
+            <TextView android:id="@id/txt_data_center_day_count_title" android:text="@string/cumulative_time" style="@style/DataCenterUnitTextView" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:id="@id/txt_day_count_value" android:text="@string/empty_time_in_hours" style="@style/DataCenterValueNumTextView" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/item_data_center_single_sum_average_speed_wrapper" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.5">
+            <TextView android:id="@id/txt_average_pace_speed" android:text="@string/average_pace" style="@style/DataCenterUnitTextView" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:id="@id/txt_pace_speed_value" android:text="@string/dc_cycle_default_value" style="@style/DataCenterValueNumTextView" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:id="@id/item_data_center_single_sum_calorie_count_wrapper" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:layout_gravity="end" android:text="@string/consume_calorie_bracket" style="@style/DataCenterUnitTextView" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:layout_gravity="end" android:id="@id/txt_calorie_value" android:text="@string/zero_int" style="@style/DataCenterValueNumTextView" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterSumOutdoorView>

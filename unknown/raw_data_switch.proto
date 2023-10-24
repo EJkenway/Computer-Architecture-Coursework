@@ -1,0 +1,120 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "RawData";
+
+message RawDataSwitch {
+  /*
+
+  | 传感器           | 对应值 |
+| :--------------- | :----- |
+| 加速度计         | 0x01   |
+| 陀螺仪           | 0x02   |
+| 磁力计           | 0x03   |
+| GPS              | 0x04   |
+| PPG GREEN        | 0x05   |
+| PPG RED INFRARED | 0x06   |
+| AMBIENT          | 0x07   |
+| 其他             | 0x08   |
+   */
+  //对应的传感器id
+  uint32 sensor_id = 1;
+  //原始数据采集开关状态，0：开关关闭，1：开关打开，2：设备不存在，3：频率错误
+  uint32 status = 2;
+  //采样频率
+  uint32 freq = 3;
+  //采样开始 utc
+  uint32 start_utc = 4;
+  //采样结束 utc
+  uint32 end_utc = 5;
+}
+
+message RawDataSwitchSum {
+  //每个设备的原始数据采集开关，有效设别个数，最大 10
+  repeated RawDataSwitch switch = 1;
+  //传输标志,0:离线存储传输，1:实时传输
+  uint32 trans_flag = 2;
+}
+
+
+message AxisData{
+  int32 x = 1;
+  int32 y = 2;
+  int32 z = 3;
+}
+
+message PpgData{
+  int32 ppg_green = 1;
+  int32 ppg_red = 2;
+  int32 ppg_infrared = 3;
+}
+
+message GpsData{
+  double lon = 1;
+  double lat = 2;
+}
+message RawDataPush {
+  uint32  utc                     = 1;
+  //佩戴状态 1:未佩戴 2:佩戴
+  uint32 weared                   = 2;
+  //血氧
+  uint32 blood_oxy                = 3;
+  //心率
+  uint32 heart_rate               = 4;
+  //步数
+  uint32 step                     = 5;
+  //aac频率误差
+  uint32 acc_offset               = 6;
+  //acc采样频率
+  uint32 acc_rate                 = 7;
+  //ppg蔡妍频率
+  uint32 ppg_rate                 = 8;
+  //ppg频率误差
+  uint32 ppg_offset               = 9;
+  //加速度
+  repeated AxisData  acc          = 10;
+  //陀螺仪
+  repeated AxisData  gyro         = 11;
+  //地磁
+  repeated AxisData  mag          = 12;
+  //PPG
+  repeated PpgData  ppg           = 13;
+  //环境光
+  repeated int32  ambient         = 14;
+  //gps
+  GpsData gps                     = 15;
+  //电流值
+  int32 elec                      = 16;
+  //电流增益
+  int32 gain                      = 17;
+  // 游泳圈数
+  int32 swim_laps                   = 18;
+  // 泳姿
+  int32 swim_style                  = 19;
+  // app 下发的配速 (单位:秒/公里)
+  int32 pace_app                    = 20;
+  // 手环配速 (单位:秒/公里)
+  int32 pace_local                  = 21;
+  // 手环步频 (单位:步/秒)
+  int32 stride_fre                    = 22;
+  // ppg B4
+  repeated PpgDataB4 ppgB4            = 23;
+  repeated PpgSpo2 spo2               = 24;
+  repeated PpgWear wear               = 25;
+  int32 heart_lvl                     = 26;
+  int32 ppg_acc_cnt                   = 27;
+  repeated AxisData  ppg_acc          = 28;
+  repeated AxisData  ppg_gyro         = 29;
+}
+
+message PpgDataB4{
+    repeated int32 ppg = 1;
+}
+
+message PpgSpo2{
+    repeated int32 spo2 = 1;
+}
+
+message PpgWear{
+    repeated int32 wear = 1;
+}
+

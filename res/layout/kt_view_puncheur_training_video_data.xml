@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/vData" android:background="@drawable/kt_puncheur_training_data_bg" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="75.0dip" android:baselineAligned="true" android:layout_alignParentBottom="true">
+        <RelativeLayout android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/tvTitleDistance" android:text="@string/distance" style="@style/KtPuncheurVideoDataTitle" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvDistance" android:text="@string/kt_data_default" android:layout_above="@id/tvTitleDistance" style="@style/KtPuncheurVideoDataValue" />
+        </RelativeLayout>
+        <View android:layout_gravity="center_vertical" android:background="@color/white_20" android:visibility="invisible" android:layout_width="1.5dip" android:layout_height="12.0dip" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/tvResistanceTitle" android:text="@string/kt_puncheur_resistance_short" style="@style/KtPuncheurVideoDataTitle" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvResistance" android:text="@string/kt_data_default" android:layout_above="@id/tvResistanceTitle" style="@style/KtPuncheurVideoDataValue" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvResistanceAnim" android:text="@string/kt_data_default" android:layout_above="@id/tvResistanceTitle" style="@style/KtPuncheurVideoDataValue" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="24.0dip" android:textColor="@color/light_green" android:gravity="center" android:id="@id/tvResistanceChange" android:background="@drawable/kt_bg_workout_score_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/tvResistance" android:layout_alignBottom="@id/tvResistance" android:alpha="0.0" android:translationX="-8.0dip" android:layout_toEndOf="@id/tvResistance" />
+        </RelativeLayout>
+        <View android:layout_gravity="center_vertical" android:background="@color/white_20" android:layout_width="1.5dip" android:layout_height="12.0dip" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layoutAimRange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <TextView android:id="@id/tvTitleGoal" android:text="@string/kt_puncheur_rpm" style="@style/KtPuncheurVideoDataTitle" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/light_green" android:id="@id/tvGoal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationY="0.5dip" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvActualOfGoal" android:text="@string/kt_score_default" android:layout_above="@id/layoutAimRange" style="@style/KtPuncheurVideoDataValue" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/vResistanceMark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_above="@id/layoutAimRange" android:alpha="0.0" android:layout_toEndOf="@id/tvActualOfGoal">
+                <TextView android:textSize="12.0sp" android:textColor="@color/kt_resistance_mark" android:id="@id/tvMark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/heart_rate_remind_higher" android:layout_marginStart="5.0dip" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imgMark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kt_icon_resistance_lower" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:layout_gravity="center_vertical" android:background="@color/white_20" android:layout_width="1.5dip" android:layout_height="12.0dip" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/tvTitleCalories" android:text="@string/consume_calorie" style="@style/KtPuncheurVideoDataTitle" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvCalories" android:text="@string/kt_data_default" android:layout_above="@id/tvTitleCalories" style="@style/KtPuncheurVideoDataValue" />
+        </RelativeLayout>
+        <View android:layout_gravity="center_vertical" android:background="@color/white_20" android:visibility="invisible" android:layout_width="1.5dip" android:layout_height="12.0dip" />
+        <RelativeLayout android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/tvSecondaryTitle" android:text="@string/kt_puncheur_watt" style="@style/KtPuncheurVideoDataTitle" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:id="@id/tvSecondary" android:text="@string/kt_data_default" android:layout_above="@id/tvSecondaryTitle" style="@style/KtPuncheurVideoDataValue" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include android:id="@id/vTip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/kt_puncheur_workout_tip_height" android:layout_above="@id/vData" layout="@layout/kt_layout_tip_dialog_bottom_arrow" />
+</RelativeLayout>

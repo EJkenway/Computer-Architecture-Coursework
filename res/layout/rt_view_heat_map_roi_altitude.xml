@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemAltitudeView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/dimen_14dp" android:paddingRight="@dimen/dimen_14dp" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_altitude" />
+        <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.gotokeep.keep.commonui.uilib.KeepAnimationTextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_tip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.gotokeep.keep.commonui.widget.outdoorchart.OutdoorChartView android:id="@id/chart_view" android:layout_width="fill_parent" android:layout_height="@dimen/summary_chart_layout_height" android:layout_marginLeft="@dimen/summary_chart_left_margin" android:layout_marginRight="@dimen/summary_chart_right_margin" android:layout_marginBottom="@dimen/summary_chart_bottom_margin" android:layout_marginStart="@dimen/summary_chart_left_margin" android:layout_marginEnd="@dimen/summary_chart_right_margin" />
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemAltitudeView>

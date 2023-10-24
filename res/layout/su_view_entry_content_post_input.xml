@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.uilib.RichEditText android:textSize="15.0sp" android:textColor="@color/gray_33" android:textColorHint="@color/gray_cc" android:gravity="top" android:id="@id/textRichEditView" android:background="@color/transparent" android:padding="16.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="146.0dip" android:lineSpacingExtra="2.0dip" android:overScrollMode="always" android:textCursorDrawable="@drawable/edit_text_cursor_green" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:rich_type="emotion" />
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_cc" android:id="@id/textCountNum" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/textRichEditView" />
+</merge>

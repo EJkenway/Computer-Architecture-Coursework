@@ -1,0 +1,6 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+
+message CommonRspStatus{
+    uint32 status = 1;
+}

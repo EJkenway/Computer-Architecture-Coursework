@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/kt_layout_kitbit_setting_preview" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/settingSwitchWorkoutNotice" app:mainText="@string/training_remind" style="@style/SettingSingleItemWithClick" />
+    <TextView android:text="@string/kt_kitbit_workout_notice_tips" style="@style/KtSettingTips" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/itemViewDetail" android:padding="14.0dip" android:layout_marginTop="26.0dip" android:text="@string/kt_kitbit_workout_notice_detail" android:drawableRight="@drawable/kt_kibra_setting_right_arrow" android:drawableEnd="@drawable/kt_kibra_setting_right_arrow" style="@style/SettingSingleItemWithClick" />
+</LinearLayout>

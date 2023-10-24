@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.motivation.SportGoalMotivationView android:id="@id/layoutColorBg" android:background="@drawable/km_bg_8dp_white_shadow_with_stroke" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutGoalEmpty" android:visibility="gone" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/km_view_sport_goal_motivation_empty" />
+    <include android:id="@id/layoutGoalProgress" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/km_view_sport_goal_motivation_progress" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/goalBarrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="layoutGoalEmpty, layoutGoalProgress" />
+    <FrameLayout android:id="@id/layoutOfflineInGoal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/bottomSpace" app:layout_constraintTop_toBottomOf="@id/goalBarrier" />
+    <androidx.legacy.widget.Space android:id="@id/bottomSpace" android:layout_width="fill_parent" android:layout_height="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/layoutOfflineInGoal" />
+</com.gotokeep.keep.km.suit.mvp.view.motivation.SportGoalMotivationView>

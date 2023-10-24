@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutContentView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_22" android:id="@id/textName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dc_record_weight_unit" android:paddingStart="16.0dip" android:paddingEnd="32.0dip" />
+    <com.gotokeep.keep.dc.widget.record.RecordInputView android:id="@id/recordInputView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="32.0dip" />
+</LinearLayout>

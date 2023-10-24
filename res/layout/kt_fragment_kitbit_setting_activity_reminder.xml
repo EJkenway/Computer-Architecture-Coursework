@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/kt_layout_kitbit_setting_preview" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switchActivityReminder" app:mainText="@string/kt_kitbit_setting_activity_reminder_setting" style="@style/SettingSingleItemWithClick" />
+    <TextView android:layout_marginBottom="16.0dip" android:text="@string/kt_kitbit_setting_activity_reminder_tips" style="@style/KtSettingTips" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/activityReminderTime" app:mainText="@string/kt_reminder_time" style="@style/SettingSingleItemWithClick" />
+</merge>

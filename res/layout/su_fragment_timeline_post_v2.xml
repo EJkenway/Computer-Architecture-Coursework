@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.post.main.mvp.view.EntryPostView android:orientation="vertical" android:id="@id/viewEntryPost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/routeTrackView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/su_view_entry_post_route_track" />
+    <com.gotokeep.keep.pb.post.main.utils.CustomScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="114.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/linearPostEntry" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/titleView" layout="@layout/su_view_entry_post_title_v2" />
+            <include android:id="@id/viewVideo" layout="@layout/su_view_entry_post_video" />
+            <include android:id="@id/viewPictures" android:visibility="gone" layout="@layout/su_view_entry_post_picture" />
+            <include android:id="@id/viewRating" layout="@layout/su_view_entry_post_rating_v2" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.CourseForumClassificationView android:id="@id/viewCourseForumClassification" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.EntryPostTitleView android:id="@id/viewTitleInput" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.EntryPostInputView android:id="@id/viewInput" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/viewShareEntry" android:visibility="gone" layout="@layout/su_view_entry_post_share_entry" />
+            <include android:id="@id/viewHeading" layout="@layout/su_view_entry_post_extra" />
+            <include android:id="@id/viewInsert" layout="@layout/pb_view_entry_post_course_insert" />
+            <View android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            <include android:id="@id/metaBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="@dimen/page_horizontal_margin" android:layout_marginEnd="@dimen/page_horizontal_margin" layout="@layout/su_view_entry_post_meta_bar" />
+            <include android:id="@id/viewSportRecord" android:visibility="gone" layout="@layout/su_view_entry_post_sport_record_v2" />
+            <include android:id="@id/viewHashtag" layout="@layout/su_view_entry_post_hashtag_v2" />
+            <include android:id="@id/viewSyncFellowship" android:visibility="gone" layout="@layout/su_view_entry_post_sync_fellowship_v2" />
+            <include android:id="@id/viewLocation" layout="@layout/su_view_entry_post_location_v2" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.permission.EntryPostPermissionEntryView android:id="@id/permissionView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.DayflowCheckViewV2 android:id="@id/viewDayflowCheck" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.EntryPostSynchronizeMyEntryView android:id="@id/synchronizeEntryView" android:paddingLeft="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip" android:paddingStart="14.0dip" />
+            <com.gotokeep.keep.pb.post.main.mvp.view.EntryPostSynchronizeCompanyEntryView android:id="@id/syncToCompanyGroupEntryView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <include android:id="@id/fellowshipConfirmView" android:visibility="gone" layout="@layout/su_view_entry_post_fellowship_confirm" />
+            <FrameLayout android:id="@id/frameEntryPost" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/viewPrivacy" layout="@layout/su_view_entry_post_privacy" />
+                <include android:id="@id/viewFollowupPrivacy" android:visibility="gone" layout="@layout/su_view_video_followup_privacy" />
+                <include android:id="@id/synchronizeToFellowship" android:visibility="gone" layout="@layout/su_view_entry_post_synchronize_to_fellowship" />
+                <com.gotokeep.keep.pb.post.main.mvp.view.EntryPostSaveToLocalView android:id="@id/saveToLocalView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </com.gotokeep.keep.pb.post.main.utils.CustomScrollView>
+    <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/buttonPublish" android:layout_width="300.0dip" android:layout_height="54.0dip" android:layout_marginBottom="28.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" app:kStyle="large" app:kText="@string/publish" />
+    <include android:id="@id/viewInsertPanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/pb_view_entry_post_course_insert" />
+    <include android:id="@id/actionPanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/su_view_entry_post_action_panel_v2" />
+</com.gotokeep.keep.pb.post.main.mvp.view.EntryPostView>

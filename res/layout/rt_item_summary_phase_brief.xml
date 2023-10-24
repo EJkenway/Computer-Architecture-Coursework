@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryPhaseBriefItemView android:layout_width="fill_parent" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewHighlightBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/black_30" android:gravity="center" android:id="@id/textBriefItemNum" android:layout_width="18.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/textBriefItemFastest" android:layout_width="36.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/textBriefItemNum" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutBriefItemsContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintStart_toEndOf="@id/textBriefItemFastest" />
+</com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryPhaseBriefItemView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kt.business.common.widget.KitWebTitleBarView android:id="@id/title_bar" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar">
+        <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/back_web_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/vgBindParent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>

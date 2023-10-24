@@ -1,0 +1,51 @@
+{
+  "template_id": "6",
+  "template_apply_style_ids": [
+    "3"
+  ],
+  "template_content": {
+    "ad": {
+      "visible": "1"
+    },
+    "cta": {
+      "visible": "1",
+      "bg_color": "#1423B383",
+      "text_size": "12",
+      "text_color": "#FF23B383",
+      "mar_top": "10",
+      "mar_right": "10",
+      "corner_r": "14"
+    },
+    "cover": {
+      "visible": "1",
+      "mar_top": "4",
+      "mar_left": "10",
+      "mar_bottom": "3",
+      "corner_r": "5"
+    },
+    "dislike": {
+      "visible": "1",
+      "bg_color": "#33000000",
+      "bd_color": "#14ffffff",
+      "corner_r": "6.5"
+    },
+    "ad_source": {
+      "visible": "1",
+      "text_size": "10",
+      "mar_top": "13",
+      "mar_left": "12",
+      "text_color": "#59999999",
+      "mar_right": "10"
+    },
+    "ad_desc": {
+      "visible": "1",
+      "text_size": "11",
+      "mar_left": "14",
+      "text_color": "#222222",
+      "mar_bottom": "4"
+    },
+    "ad_title": {
+      "visible": "0"
+    }
+  }
+}

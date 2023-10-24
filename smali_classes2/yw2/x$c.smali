@@ -1,0 +1,82 @@
+.class public final Lyw2/x$c;
+.super Lij3/p;
+.source "SearchCardMorePresenter.kt"
+
+# interfaces
+.implements Lhj3/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lyw2/x;-><init>(Lcom/gotokeep/keep/vd/mvp/result/view/SearchCardMoreView;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lij3/p;",
+        "Lhj3/a<",
+        "Ldx2/f;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Lyw2/x;
+
+
+# direct methods
+.method public constructor <init>(Lyw2/x;)V
+    .locals 0
+
+    iput-object p1, p0, Lyw2/x$c;->g:Lyw2/x;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lij3/p;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ldx2/f;
+    .locals 2
+
+    .line 1
+    new-instance v0, Landroidx/lifecycle/ViewModelProvider;
+
+    iget-object v1, p0, Lyw2/x$c;->g:Lyw2/x;
+
+    invoke-static {v1}, Lyw2/x;->q1(Lyw2/x;)Lcom/gotokeep/keep/vd/activity/SearchActivity;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
+
+    const-class v1, Ldx2/f;
+
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v0
+
+    check-cast v0, Ldx2/f;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lyw2/x$c;->a()Ldx2/f;
+
+    move-result-object v0
+
+    return-object v0
+.end method

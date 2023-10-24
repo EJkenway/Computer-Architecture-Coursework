@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.AsyncViewStub android:id="@id/txLivePlayerViewStub" android:layout_width="fill_parent" android:layout_height="fill_parent" app:view_stub_layout="@layout/view_live_player_content_view_tx" />
+    <com.gotokeep.keep.commonui.widget.AsyncViewStub android:id="@id/kPlayerViewStub" android:layout_width="fill_parent" android:layout_height="fill_parent" app:view_stub_layout="@layout/view_live_player_content_view_kplayer" />
+</merge>

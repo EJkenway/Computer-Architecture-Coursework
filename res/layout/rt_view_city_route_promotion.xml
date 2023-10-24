@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.widget.HeatMapCityRoutePromotionView android:background="@drawable/rt_city_promotion_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="92.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager android:id="@id/pager_city_route_promotion" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="14.0dip" android:overScrollMode="never" />
+    <com.gotokeep.keep.commonui.widget.indicator.TransferDotsIndicator android:id="@id/indicator_route" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:dotSelectedColor="@color/light_green" app:dotsColor="@color/gray_dd" app:dotsCornerRadius="4.0dip" app:dotsSize="4.0dip" app:dotsSpacing="2.0dip" app:dotsWidthFactor="3" />
+</com.gotokeep.keep.rt.business.heatmap.widget.HeatMapCityRoutePromotionView>

@@ -1,0 +1,81 @@
+[{
+	"type": "heartRate",
+	"gender": "M",
+	"ranges": [{
+			"level": 1,
+			"upperLimit:": 95,
+			"lowerLimit:": 76,
+			"levelName": "放松身体"
+		},
+		{
+			"level": 2,
+			"upperLimit:": 114,
+			"lowerLimit:": 95,
+			"levelName": "暖身激活"
+		},
+		{
+			"level": 3,
+			"upperLimit:": 133,
+			"lowerLimit:": 114,
+			"levelName": "高效燃脂"
+		},
+		{
+			"level": 4,
+			"upperLimit:": 152,
+			"lowerLimit:": 133,
+			"levelName": "心肺提升"
+		},
+		{
+			"level": 5,
+			"upperLimit:": 171,
+			"lowerLimit:": 152,
+			"levelName": "强度冲击"
+		},
+		{
+			"level": 6,
+			"upperLimit:": 190,
+			"lowerLimit:": 171,
+			"levelName": "极限突破"
+		}
+	]
+}, {
+	"type": "heartRate",
+	"gender": "F",
+	"ranges": [{
+			"level": 1,
+			"upperLimit:": 95,
+			"lowerLimit:": 76,
+			"levelName": "放松身体"
+		},
+		{
+			"level": 2,
+			"upperLimit:": 114,
+			"lowerLimit:": 95,
+			"levelName": "暖身激活"
+		},
+		{
+			"level": 3,
+			"upperLimit:": 133,
+			"lowerLimit:": 114,
+			"levelName": "高效燃脂"
+		},
+		{
+			"level": 4,
+			"upperLimit:": 152,
+			"lowerLimit:": 133,
+			"levelName": "心肺提升"
+		},
+		{
+			"level": 5,
+			"upperLimit:": 171,
+			"lowerLimit:": 152,
+			"levelName": "强度冲击"
+		},
+		{
+			"level": 6,
+			"upperLimit:": 190,
+			"lowerLimit:": 171,
+			"levelName": "极限突破"
+		}
+	]
+}]

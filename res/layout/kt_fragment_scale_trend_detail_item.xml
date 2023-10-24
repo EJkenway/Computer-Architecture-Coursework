@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/kt_color_FAFAFA" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gotokeep.keep.kt.business.kibra.widget.KtScaleTrendDetailSelectTimeView android:id="@id/layoutSelectTime" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/layoutTrendDetailChart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layoutSelectTime" layout="@layout/kt_layout_scale_trend_chart" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutIndex" android:background="@drawable/background_fafafa_ffffff" android:layout_width="fill_parent" android:layout_height="117.0dip" android:layout_below="@id/layoutTrendDetailChart">
+                <TextView android:gravity="center" android:id="@id/textDateCenter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12dp" android:text="1" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="56.0dip" />
+                <LinearLayout android:id="@id/layoutDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="56.0dip">
+                    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_60" android:gravity="start" android:id="@id/textDate1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+                    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_60" android:gravity="end" android:id="@id/textDate2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="1" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_60" android:gravity="end" android:id="@id/textDate3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="1" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_60" android:gravity="end" android:id="@id/textDate4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="1" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <include android:id="@id/layoutTrendRecord" android:layout_width="fill_parent" android:layout_height="212.0dip" android:layout_marginTop="-55.0dip" android:layout_below="@id/layoutIndex" android:layout_marginStart="@dimen/dimen_12dp" android:layout_marginEnd="@dimen/dimen_12dp" layout="@layout/kt_layout_trend_detail_record" />
+            <RelativeLayout android:id="@id/layoutSetPurposeWeight" android:background="@drawable/kt_shadow_top2_bottom6_horizontal4" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="@dimen/dimen_6dp" android:layout_below="@id/layoutTrendRecord" android:layout_marginStart="@dimen/dimen_12dp" android:layout_marginEnd="@dimen/dimen_12dp">
+                <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/black_87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置目标体重" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_16dp" />
+                <ImageView android:id="@id/imageSetPurpose" android:layout_width="@dimen/dimen_14dp" android:layout_height="@dimen/dimen_14dp" android:src="@drawable/kt_icon_arrow_right_m" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_21dp" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/black_38" android:id="@id/textSetPurpose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_5dp" android:layout_toStartOf="@id/imageSetPurpose" />
+            </RelativeLayout>
+            <View android:layout_width="wrap_content" android:layout_height="@dimen/dimen_80dp" android:layout_below="@id/layoutSetPurposeWeight" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

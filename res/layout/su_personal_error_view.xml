@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.profile.personalpage.mvp.main.view.PersonalErrorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBar" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="56.0dip" app:add_status_bar_height="true" app:background_color="@color/purple" app:left_icon="@drawable/icon_arrow_left_lined" app:left_icon_clickable="true" app:title_color="@color/purple" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/viewBgWhit" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/keepEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.gotokeep.keep.profile.personalpage.mvp.main.view.PersonalErrorView>

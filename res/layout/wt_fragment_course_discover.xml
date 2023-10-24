@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.coursediscover.view.CourseDiscoverDrawerLayout android:id="@id/dlCourseDiscover" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/title_bar_fitness" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:background_color="@android:color/white" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:right_icon="@drawable/icon_search_lined_dark" app:right_icon_clickable="true" app:title="@string/wt_all_course" app:title_size="20.0sp" />
+        <com.gotokeep.keep.wt.business.course.coursediscover.widget.CourseDiscoverRecyclerView android:id="@id/recycler_fitness" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar_fitness" />
+        <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/keep_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <include android:id="@id/course_select_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_bar_fitness" layout="@layout/wt_item_course_discover_select_container" />
+        <FrameLayout android:orientation="vertical" android:id="@id/options_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/course_select_container">
+            <View android:id="@id/view_bottom_mask" android:background="@color/black_50" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/popup_view_container" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </RelativeLayout>
+    <include android:layout_gravity="end" android:id="@id/optionMoreView" android:layout_width="320.0dip" android:layout_height="fill_parent" layout="@layout/wt_layout_course_discover_option_more" />
+</com.gotokeep.keep.wt.business.course.coursediscover.view.CourseDiscoverDrawerLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.post.main.view.EntryPostBottomSelectView android:orientation="vertical" android:background="@drawable/bg_white_top_corner_8dp" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center_horizontal" android:background="@drawable/bg_d8d8d8_corner_4dp" android:layout_width="40.0dip" android:layout_height="6.0dip" android:layout_marginTop="12.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="193.0dip" android:layout_marginTop="14.0dip">
+        <FrameLayout android:orientation="vertical" android:id="@id/layoutMedia" android:background="@drawable/bg_fafafa_stroke_efefef_corner_8dp" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingHorizontal="8.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/pb_image_or_video" />
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="96.0dip" android:layout_height="128.0dip" android:layout_marginTop="46.0dip" android:src="@drawable/icon_post_template_media" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutTemplate" android:background="@drawable/su_bg_entry_post_template" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="8.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/pb_chose_template" android:layout_marginStart="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_full_arrow_right" android:tint="@color/gray_66" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/textTitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/textTitle" />
+            <HorizontalScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="128.0dip" android:layout_marginTop="46.0dip" android:layout_marginStart="8.0dip" app:layout_constraintTop_toTopOf="parent">
+                <LinearLayout android:orientation="horizontal" android:id="@id/scrollTemplate" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </HorizontalScrollView>
+            <View android:id="@id/indexBgView" android:background="@drawable/bg_eaeaea_corner_4dp" android:layout_width="24.0dip" android:layout_height="3.0dip" android:layout_marginBottom="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+            <View android:id="@id/indexView" android:background="@drawable/kt_bg_24c789_corner_50dp" android:layout_width="12.0dip" android:layout_height="3.0dip" app:layout_constraintBottom_toBottomOf="@id/indexBgView" app:layout_constraintStart_toStartOf="@id/indexBgView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</com.gotokeep.keep.pb.post.main.view.EntryPostBottomSelectView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.overviews.mvp.view.OverviewsMainView android:orientation="vertical" android:id="@id/container" android:background="@color/gray_f5" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dc_bg_overviews" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.dc.widget.refreshheader.FixedRefreshHeaderView android:gravity="center" android:orientation="horizontal" android:id="@id/fixedRefreshView" android:layout_width="fill_parent" android:layout_height="60.0dip" android:alpha="0.0" app:layout_constraintTop_toBottomOf="@id/navigationBar" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/smartRefreshLayout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlHeaderHeight="48.0dip">
+        <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <include android:id="@id/skeletonView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar" layout="@layout/dc_view_overviews_skeleton" />
+    <com.gotokeep.keep.dc.business.mydata.mvp.view.v3.NavigationBarView android:id="@id/navigationBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imageRecord" android:visibility="gone" android:layout_width="88.0dip" android:layout_height="72.0dip" android:src="@drawable/dc_ic_record_body_data" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/layoutEmptyView" android:background="@color/snow_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar" />
+</com.gotokeep.keep.dc.business.overviews.mvp.view.OverviewsMainView>

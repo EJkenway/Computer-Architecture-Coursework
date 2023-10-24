@@ -1,0 +1,22 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "OtaFile";
+
+message OtaFileNextSeg {
+  // 1 为厂测固件，2 为商用固件，3 为资源文件
+  uint32 type = 1;
+  // 请求的本段数据大小，单位字节，最大 4096
+  uint32 size = 2;
+  // 需要的本段资源数据相对于整个 OTA 文件开始处的偏移
+  uint32 offset = 3;
+}
+message OtaFileDataSeg {
+  // 0:正常，1:打开文件失败，2:读取数据错误, 3:已到文件末尾
+  uint32 status = 1;
+  // 本段数据大小，单位字节，最大 4096
+  uint32 size = 2;
+  // 本段数据的 crc32 值
+  uint32 crc32 = 3;
+  // 本段数据值
+  bytes file_data = 4;
+}

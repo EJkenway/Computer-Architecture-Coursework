@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.target.mvp.view.OutdoorTargetPrepareView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutCustomWorkout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" app:layout_constraintEnd_toEndOf="parent" layout="@layout/rt_view_prepare_custom_workout" />
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/viewTargetPrepareTab" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginStart="6.0dip" app:layout_constraintEnd_toStartOf="@id/layoutCustomWorkout" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:pAutoFixScreenWidth="false" app:pDividerColor="@color/transparent" app:pIndicatorColor="@color/light_green" app:pIndicatorHeight="4.0dip" app:pIndicatorPaddingBottom="0.0dip" app:pIndicatorRadius="4.0dip" app:pIndicatorWidth="14.0dip" app:pTabTextColor="@color/rt_prepare_target_tab_selector" app:pTabTextSize="15.0sp" style="@style/default_indicator_tab_strip" />
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/viewTargetPreparePager" android:layout_width="fill_parent" android:layout_height="86.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</com.gotokeep.keep.rt.business.target.mvp.view.OutdoorTargetPrepareView>

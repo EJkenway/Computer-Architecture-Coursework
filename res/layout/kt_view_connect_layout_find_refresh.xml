@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout_find_refresh" android:background="@color/keloton_connect_bg" android:paddingTop="@dimen/kt_title_bar_height" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/image_fail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_find_error" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/font_size_12dp" android:textColor="@color/six_gray" android:id="@id/text_fail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/network_failure" android:layout_below="@id/image_fail" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/font_size_12dp" android:textColor="@color/nine_gray" android:id="@id/text_fail_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/check_network_and_refresh" android:layout_below="@id/text_fail" android:layout_centerHorizontal="true" />
+        <Button android:textSize="@dimen/font_size_14dp" android:textColor="#ffffffff" android:id="@id/button_refresh" android:background="@drawable/light_green_bg_corner25dp" android:layout_width="97.0dip" android:layout_height="35.0dip" android:layout_marginTop="12.0dip" android:text="@string/refresh" android:layout_below="@id/text_fail_desc" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

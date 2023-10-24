@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageStatus" android:layout_width="102.0dip" android:layout_height="102.0dip" android:layout_marginTop="240.0dip" android:src="@drawable/kt_ic_warning" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="24.0sp" android:textColor="@color/gray_33" android:id="@id/textStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageStatus" />
+    <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnBottom" android:layout_width="285.0dip" android:layout_height="54.0dip" android:layout_marginBottom="24.0dip" app:kText="@string/kt_upload_log" app:kTextColor="@color/white" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

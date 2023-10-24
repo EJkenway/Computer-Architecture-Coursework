@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.refactor.business.main.mvp.view.MainDrawerLayout android:id="@id/drawer_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_tab_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.widget.tab.container.WindowInsetsViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tab_line" android:layout_centerHorizontal="true" />
+        <View android:orientation="vertical" android:id="@id/tab_line" android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/tabs" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageUnderTab" android:layout_width="fill_parent" android:layout_height="56.0dip" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+        <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" android:clipChildren="false" android:clipToPadding="false" android:layout_alignParentBottom="true" style="@style/main_tab_strip_no_indicator" />
+    </RelativeLayout>
+    <include android:layout_gravity="start" android:id="@id/view_main_slide" android:layout_width="280.0dip" android:layout_height="fill_parent" layout="@layout/view_main_slide" />
+</com.gotokeep.keep.refactor.business.main.mvp.view.MainDrawerLayout>

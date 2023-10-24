@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutContentView" android:background="@drawable/bg_white_top_corner_12dp" android:paddingTop="12.0dip" android:paddingBottom="34.0dip" android:layout_width="fill_parent" android:layout_height="500.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageIndicator" android:background="@drawable/bg_black_20_corner_4" android:layout_width="40.0dip" android:layout_height="6.0dip" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@id/textTitle" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/dc_record_heart_rate" android:paddingVertical="11.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.gotokeep.keep.commonui.view.CustomScrollView android:id="@id/layoutScroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:gravity="center" android:id="@id/textDescription" android:paddingLeft="20.0dip" android:paddingTop="11.0dip" android:paddingRight="20.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dc_record_heart_rate_tips" android:lineSpacingExtra="2.0dip" android:paddingHorizontal="20.0dip" android:paddingVertical="11.0dip" />
+                <EditText android:background="@color/red" android:layout_width="1.0px" android:layout_height="0.0px" android:cursorVisible="false" android:inputType="none" android:importantForAutofill="no" />
+                <com.gotokeep.keep.dc.business.record.mvp.view.RecordItemView android:id="@id/layoutMaxHeartRate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="16.0dip" />
+                <com.gotokeep.keep.dc.business.record.mvp.view.RecordItemView android:id="@id/layoutRestHeartRate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="16.0dip" />
+                <View android:id="@id/viewScrollBottom" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+            </LinearLayout>
+        </com.gotokeep.keep.commonui.view.CustomScrollView>
+        <View android:id="@id/viewGrident" android:background="@drawable/dc_bg_gradient_top_bottom_white_0_to_white" android:layout_width="fill_parent" android:layout_height="43.0dip" android:alpha="0.0" />
+    </FrameLayout>
+    <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:enabled="false" android:textSize="18.0sp" android:textColor="@color/white_60" android:id="@id/keepLoadingButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:minHeight="54.0dip" android:text="@string/save" android:layout_marginHorizontal="20.0dip" />
+</LinearLayout>

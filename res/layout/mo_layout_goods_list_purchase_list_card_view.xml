@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.goodslist.view.GoodsListPurchaseListCardView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/goodsImageContainer" android:background="@drawable/mo_background_boder_fa_round_conner_8dp_ef" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/goodsImage" android:layout_width="74.0dip" android:layout_height="74.0dip" />
+    </FrameLayout>
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/color_ff666f" android:gravity="bottom" android:id="@id/salePrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:textAlignment="gravity" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/goodsImageContainer" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/black_38" android:id="@id/originPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constraintBaseline_toBaselineOf="@id/salePrice" app:layout_constraintLeft_toRightOf="@id/salePrice" />
+</com.gotokeep.keep.mo.business.store.activity.goodslist.view.GoodsListPurchaseListCardView>

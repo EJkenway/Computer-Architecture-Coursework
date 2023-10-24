@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.business.suitdetail.mvp.view.SuitDetailSectionRestView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageDot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/km_circle_dot" android:layout_marginStart="30.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/color_666666" android:gravity="center_vertical" android:id="@id/tvTitle" android:background="@drawable/bg_f4_6dp_corner" android:paddingLeft="35.0dip" android:paddingRight="35.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginStart="50.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/color_666666" android:id="@id/tvRestTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/tvTitle" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.km.business.suitdetail.mvp.view.SuitDetailSectionRestView>

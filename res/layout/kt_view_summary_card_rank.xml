@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.equipment.summary.mvp.view.SummaryRankView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/KtSummaryCardPadding">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip">
+            <ImageView android:id="@id/imgTitle" android:layout_width="4.0dip" android:layout_height="14.0dip" android:src="@drawable/kt_bg_2dp_9281fe" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_87" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_puncheur_summary_workout_rank_score_title" android:layout_marginStart="8.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_87" android:gravity="end|center" android:id="@id/tvRankOfMine" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_87" android:gravity="center" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="\#" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_87" android:gravity="center" android:layout_width="58.0dip" android:layout_height="wrap_content" android:text="@string/kt_puncheur_workout_user" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_87" android:gravity="end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/kt_puncheur_score" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/vItems" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginEnd="2.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/vMore" android:background="@drawable/kt_bg_white_03_corner_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="14.0dip" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/tvMore" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/kt_puncheur_ranking_full" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.equipment.summary.mvp.view.SummaryRankView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:orientation="vertical" android:paddingBottom="@dimen/divider_height_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/online_kefu_wrapper" android:background="@color/white" android:paddingLeft="@dimen/mo_margin_16" android:paddingRight="@dimen/mo_margin_16" android:layout_width="fill_parent" android:layout_height="@dimen/mo_order_item_height">
+        <com.gotokeep.keep.mo.business.store.mvp.view.OnlineServiceView android:id="@id/online_kefu" android:layout_width="wrap_content" android:layout_height="@dimen/mo_order_item_height" app:indicator="@drawable/ic_order_kefu_on_service" app:titleColor="@color/gray_66" app:titleName="在线客服" app:type="order" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/online_kefu_time" android:layout_width="wrap_content" android:layout_height="@dimen/mo_order_item_height" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/online_phone_wrapper" android:background="@color/white" android:paddingLeft="@dimen/mo_margin_16" android:paddingRight="@dimen/mo_margin_16" android:layout_width="fill_parent" android:layout_height="@dimen/mo_order_item_height" android:layout_marginTop="0.5dip">
+        <com.gotokeep.keep.mo.business.store.mvp.view.OnlineServiceView android:id="@id/online_phone" android:layout_width="wrap_content" android:layout_height="@dimen/mo_order_item_height" app:indicator="@drawable/mo_ic_order_kefu_tel_service" app:titleColor="@color/gray_33" app:titleName="电话客服" app:type="order" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/online_phone_time" android:layout_width="wrap_content" android:layout_height="@dimen/mo_order_item_height" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</merge>

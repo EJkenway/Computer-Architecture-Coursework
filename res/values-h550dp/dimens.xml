@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bind_phone_desc_margin_top">74.0dip</dimen>
+    <dimen name="green_button_margin_bottom">27.0dip</dimen>
+    <dimen name="green_button_text_size">18.0sp</dimen>
+    <dimen name="outdoor_horizontal_margin">46.0dip</dimen>
+    <dimen name="pick_distance_picker_margin_top">54.0dip</dimen>
+    <dimen name="pick_distance_prompt_margin_bottom">16.0dip</dimen>
+    <dimen name="pick_distance_title_margin_top">97.0dip</dimen>
+    <dimen name="pick_distance_title_text_size">28.0sp</dimen>
+    <dimen name="picker_item_text_size_normal_large">29.0sp</dimen>
+    <dimen name="picker_item_text_size_selected_large">36.0sp</dimen>
+    <dimen name="video_record_margin_top">37.0dip</dimen>
+</resources>

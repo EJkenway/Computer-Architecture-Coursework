@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/address_container" android:paddingLeft="@dimen/mo_margin_14" android:paddingTop="19.0dip" android:paddingRight="@dimen/mo_margin_14" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_size_14sp" android:id="@id/text_order_detail_phone" android:layout_marginBottom="5.5dip" android:text="@string/phone_colon" android:singleLine="true" style="@style/StoreBaseTextView" />
+        <TextView android:textSize="@dimen/font_size_14sp" android:id="@id/text_order_detail_address" android:text="@string/shipping_address_colon" android:layout_below="@id/text_order_detail_phone" style="@style/StoreBaseTextView" />
+    </RelativeLayout>
+    <View android:id="@id/view_order_detail_id_card_line" android:layout_marginTop="12.0dip" style="@style/StoreLine" />
+    <RelativeLayout android:id="@id/layout_order_detail_add_id_card" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_order_detail_arrow" style="@style/SettingItemArrow" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/color_price_text" android:id="@id/text_order_detail_id_card_hint" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="3.0dip" android:text="@string/add_id_card_info" android:layout_toLeftOf="@id/img_order_detail_arrow" android:layout_alignParentLeft="true" style="@style/StoreBaseTextView" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/color_note" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/detail_clearance_name" android:layout_below="@id/text_order_detail_id_card_hint" android:layout_alignLeft="@id/text_order_detail_id_card_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_order_detail_id_card" android:background="?android:selectableItemBackground" android:paddingTop="11.0dip" android:paddingRight="14.0dip" android:paddingBottom="11.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/text_order_detail_id_card" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/StoreBaseTextView" />
+        <TextView android:layout_marginLeft="14.0dip" android:text="@string/id_card_info" android:singleLine="true" android:layout_centerVertical="true" style="@style/StoreBaseTextView" />
+    </RelativeLayout>
+    <View style="@style/StoreDivider" />
+</LinearLayout>

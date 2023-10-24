@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.training.traininglog.mvp.view.StationTrainLogPerformanceView android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StationCardFourSlide">
+        <View android:background="@drawable/wt_bg_2dp_round_9281fe" android:layout_width="4.0dip" android:layout_height="14.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/textDataTitle" app:layout_constraintEnd_toStartOf="@id/textDataTitle" app:layout_constraintTop_toTopOf="@id/textDataTitle" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_87" android:id="@id/textDataTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/station_train_performance" android:layout_marginStart="28.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/viewProfessionalPerformance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="23.0dip" layout="@layout/wt_station_boxing_professional_performance" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <include android:layout_gravity="center_horizontal" android:id="@id/viewFirstScore" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/wt_station_boxing_score_info_layout" />
+                <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <include android:layout_gravity="center_horizontal" android:id="@id/viewSecondScore" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/wt_station_boxing_score_info_layout" />
+                <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <include android:layout_gravity="center_horizontal" android:id="@id/viewThirdScore" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/wt_station_boxing_score_info_layout" />
+                <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <include android:layout_gravity="center_horizontal" android:id="@id/viewFourthScore" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/wt_station_boxing_score_info_layout" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gotokeep.keep.wt.business.training.traininglog.mvp.view.StationTrainLogPerformanceView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.courseintro.mvp.view.CourseIntroActionStepView android:paddingLeft="14.0dip" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="82.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_action" android:layout_width="90.0dip" android:layout_height="58.0dip" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toLeftOf="@id/imageSet" android:layout_toRightOf="@id/img_action">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0sp" android:textColor="@color/light_green" android:ellipsize="end" android:id="@id/text_action_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/six_gray" android:id="@id/text_train_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_alignParentBottom="true" style="@style/TextMedium" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/imageSet" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/imageview_mediaplayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.5dip" android:src="@drawable/ic_keep_plus_play" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/keep_icon_button_default_text" android:textColor="@color/gray_66" android:id="@id/textview_mediaplayer_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tc_keep_plus_play" android:layout_below="@id/imageview_mediaplayer" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/imageview_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_class_subject_lock" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.gotokeep.keep.wt.business.courseintro.mvp.view.CourseIntroActionStepView>

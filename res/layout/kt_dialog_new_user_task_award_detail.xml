@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:layout_width="290.0dip" android:layout_height="315.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/kt_bg_10dp_ffffff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="18.0sp" android:textColor="@color/gray_22" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="152.0dip" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/kt_color_18150E" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textIKnow" android:background="@drawable/kt_bg_27dp_dcaf74_9e9c384" android:layout_width="240.0dip" android:layout_height="54.0dip" android:layout_marginTop="16.0dip" android:text="@string/i_got_it" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <ImageView android:id="@id/imageTitleBg" android:layout_width="fill_parent" android:layout_height="132.0dip" android:src="@drawable/kt_ic_new_user_task_award_title" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

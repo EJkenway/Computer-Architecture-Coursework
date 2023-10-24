@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/viewTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/su_view_album_title" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip">
+        <include android:id="@id/viewSelected" android:background="@color/gray_22" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="115.0dip" layout="@layout/su_view_album_selected" />
+        <com.gotokeep.keep.pb.capture.mvp.view.AlbumMediaListView android:id="@id/viewMediaList" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.gotokeep.keep.pb.capture.mvp.view.AlbumFolderListView android:id="@id/viewFolderList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" />
+    <include layout="@layout/su_layout_album_storage_permission" />
+</FrameLayout>

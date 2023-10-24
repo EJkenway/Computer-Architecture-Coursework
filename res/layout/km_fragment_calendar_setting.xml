@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/fa_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/layoutRemindTime" android:visibility="gone" layout="@layout/km_view_calendar_setting" />
+            <View android:layout_width="@dimen/font_size_180dp" android:layout_height="@dimen/dimen_12dp" />
+            <include android:id="@id/layoutCoachList" android:visibility="gone" layout="@layout/km_view_calendar_setting" />
+        </LinearLayout>
+    </ScrollView>
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

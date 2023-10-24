@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/gotokeep/keep/commonui/framework/activity/title/CustomTitleBarItem$d;
+.super Ljava/lang/Object;
+.source "CustomTitleBarItem.java"
+
+# interfaces
+.implements Lcom/gotokeep/keep/commonui/framework/activity/title/CustomTitleBarItem$g;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/gotokeep/keep/commonui/framework/activity/title/CustomTitleBarItem;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "d"
+.end annotation
+
+
+# virtual methods
+.method public abstract g()V
+.end method

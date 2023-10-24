@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.achievement.mvp.view.BadgeWallShareView android:orientation="vertical" android:id="@id/scrollView_long_pic" android:background="@color/indigo_purple" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fd_layout_badge_wall_share_header" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_radius_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-109.0dip" android:layout_marginStart="@dimen/dimen_14dp" android:layout_marginEnd="@dimen/dimen_14dp">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_badge_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" layout="@layout/item_share_footer_qrcode_with_join_text" />
+    </LinearLayout>
+    <include layout="@layout/fd_layout_badge_wall_share_footer" />
+</com.gotokeep.keep.fd.business.achievement.mvp.view.BadgeWallShareView>

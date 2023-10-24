@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummarySubmitRouteView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtSummaryCardView">
+        <RelativeLayout style="@style/RtSummaryCardViewTitleLayout">
+            <ImageView android:id="@id/imgTitle" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_summary_route" android:scaleType="fitXY" />
+            <TextView android:text="@string/rt_submit_route" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/imgTitle" style="@style/RtSummaryCardViewTitleInLayout" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/light_green" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_summary_contribute" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="22.0dip" android:layout_marginBottom="24.0dip">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_entry" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginEnd="14.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/text_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="3" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_66" android:id="@id/text_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/rt_summary_contribute_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummarySubmitRouteView>

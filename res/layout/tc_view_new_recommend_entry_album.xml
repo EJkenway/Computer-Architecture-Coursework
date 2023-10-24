@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.recommend.mvp.view.container.EntryAlbumView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.tc.business.recommend.mvp.view.NonScrollableRecyclerView android:orientation="horizontal" android:id="@id/albumRecyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintDimensionRatio="3:4" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/imagePlay" android:background="@drawable/bg_black_20_corner_25" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_full_playing" android:tint="@color/white_80" />
+    </FrameLayout>
+</com.gotokeep.keep.tc.business.recommend.mvp.view.container.EntryAlbumView>

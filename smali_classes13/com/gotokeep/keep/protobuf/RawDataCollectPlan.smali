@@ -1,0 +1,37 @@
+.class public final Lcom/gotokeep/keep/protobuf/RawDataCollectPlan;
+.super Ljava/lang/Object;
+.source "RawDataCollectPlan.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/gotokeep/keep/protobuf/RawDataCollectPlan$RawDataCollectPlanStatus;,
+        Lcom/gotokeep/keep/protobuf/RawDataCollectPlan$RawDataCollectPlanStatusOrBuilder;,
+        Lcom/gotokeep/keep/protobuf/RawDataCollectPlan$RawDataCollectPlanCmd;,
+        Lcom/gotokeep/keep/protobuf/RawDataCollectPlan$RawDataCollectPlanCmdOrBuilder;
+    }
+.end annotation
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static registerAllExtensions(Lcom/google/protobuf/q;)V
+    .locals 0
+
+    return-void
+.end method

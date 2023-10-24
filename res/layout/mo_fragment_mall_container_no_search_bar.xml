@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/mallContainerLayout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.mo.business.store.mall.impl.headerskin.mvp.view.MallSectionHeaderSkinView android:id="@id/mallSkin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <com.gotokeep.keep.mo.common.widget.MallHomePullRecyclerView android:id="@id/mallHomePullRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <com.gotokeep.keep.mo.common.widget.SimpleSkeletonView android:id="@id/simpleSkeletonView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-104.0dip" app:mo_bgDrawable="@drawable/mo_bg_goods_detail_skeleton" app:mo_scanDrawable="@drawable/mo_ic_goods_detail_skeleton_scan" />
+    <ViewStub android:id="@id/mallNetErrorVS" android:layout="@layout/mo_view_net_error_wrapper" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+</FrameLayout>

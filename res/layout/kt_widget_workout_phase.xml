@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.widget.WorkoutPhaseRunningView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="400.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="0.14" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="72.0sp" android:textColor="@color/light_green" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="00:00" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff999999" android:id="@id/phase_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:layout_marginBottom="30.0dip" android:layout_below="@id/duration" android:layout_centerHorizontal="true" />
+    <com.gotokeep.keep.kt.business.treadmill.widget.WorkoutBarProgressView android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_below="@id/phase_name" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="72.0sp" android:textColor="@color/light_green" android:id="@id/speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="0" android:layout_below="@id/progress" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:text="@string/kt_unit_kmh" android:layout_below="@id/speed" android:layout_centerHorizontal="true" />
+</com.gotokeep.keep.kt.business.treadmill.widget.WorkoutPhaseRunningView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kl.business.keeplive.livelist.mvp.view.KLLiveListBannerView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kl.business.keeplive.livelist.mvp.view.KLLoopViewPager android:id="@id/klLiveListBannerViewPager" android:background="@color/transparent" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.widget.RoundDotIndicator android:id="@id/klLiveListBannerViewIndicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="6.0dip" android:layout_marginBottom="6.0dip" app:dotColor="@color/gray_fa_40" app:dotMargin="8.0dip" app:dotRadius="3.0dip" app:dotSelectedColor="@color/fa_bg" app:layout_constraintBottom_toBottomOf="parent" />
+</com.gotokeep.keep.kl.business.keeplive.livelist.mvp.view.KLLiveListBannerView>

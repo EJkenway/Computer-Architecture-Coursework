@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieProgress" android:layout_width="246.0dip" android:layout_height="190.0dip" android:layout_marginTop="32.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_fileName="dc_recovery_progress.json" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieBubble" android:layout_width="246.0dip" android:layout_height="190.0dip" app:layout_constraintBottom_toBottomOf="@id/lottieProgress" app:layout_constraintEnd_toEndOf="@id/lottieProgress" app:layout_constraintStart_toStartOf="@id/lottieProgress" app:layout_constraintTop_toTopOf="@id/lottieProgress" app:lottie_autoPlay="true" app:lottie_fileName="dc_recovery_bubble.json" app:lottie_loop="true" />
+    <com.gotokeep.keep.dc.widget.CustomCornerFrameLayout android:id="@id/layoutWave" android:layout_width="186.0dip" android:layout_height="186.0dip" app:layout_constraintBottom_toBottomOf="@id/lottieProgress" app:layout_constraintEnd_toEndOf="@id/lottieProgress" app:layout_constraintStart_toStartOf="@id/lottieProgress">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="bottom" android:id="@id/lottieWave" android:layout_width="186.0dip" android:layout_height="9.0dip" app:lottie_autoPlay="true" app:lottie_fileName="dc_recovery_wave.json" app:lottie_loop="true" />
+    </com.gotokeep.keep.dc.widget.CustomCornerFrameLayout>
+</merge>

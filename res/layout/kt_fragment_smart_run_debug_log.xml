@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/textDebugLog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/height_50dp" android:text="@string/kt_smart_run_debug_load_log" android:layout_marginStart="@dimen/dimen_40dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <EditText android:id="@id/editHeart" android:layout_width="200.0dip" android:layout_height="49.0dip" android:hint="请输入 LogID" android:maxLines="2" android:layout_marginEnd="@dimen/dimen_40dp" app:layout_constraintBottom_toBottomOf="@id/textDebugLog" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/textDebugLog" />
+    <Button android:id="@id/btnConfirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_40dp" android:text="@android:string/ok" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textDebugLog" />
+</androidx.constraintlayout.widget.ConstraintLayout>

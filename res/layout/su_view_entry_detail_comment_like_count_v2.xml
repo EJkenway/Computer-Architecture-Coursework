@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.mvp.view.EntryDetailV2CommentLikeCountView android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <com.gotokeep.keep.su_core.timeline.widget.KeepLikeAvatarListView android:id="@id/likeAvatars" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/gray_99" android:ellipsize="end" android:id="@id/txtLikeCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="8.0dip" style="@style/Style_14_Regular" />
+        <ImageView android:id="@id/imgArrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_full_arrow_right" />
+    </LinearLayout>
+    <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</com.gotokeep.keep.su.social.comment.mvp.view.EntryDetailV2CommentLikeCountView>

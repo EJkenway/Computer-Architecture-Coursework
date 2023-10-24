@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.feedblack.mvp.view.RecommendFeedBlackActionSideView android:orientation="vertical" android:id="@id/layoutSideAction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutProfile" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.widget.avatar.KeepUserAvatarView android:id="@id/viewAvatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:avatar_img_margin="1.5dip" app:avatar_progress_bg_color="@color/white" app:avatar_progress_fg_color="@color/white" app:avatar_progress_width="1.5dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/su_color_white_white80" android:gravity="center" android:id="@id/textFollowStatus" android:background="@drawable/su_bg_green_black20_corner_50dp" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:minWidth="40.0dip" android:minHeight="18.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutLike" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/imageLike" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_video_unlike_32" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textLike" android:layout_width="wrap_content" android:layout_height="18.0dip" android:minWidth="52.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutComment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/imageComment" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_video_comment_shadow" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textComment" android:layout_width="wrap_content" android:layout_height="18.0dip" android:minWidth="52.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutCollect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/imageCollect" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/su_ic_video_collect_normal" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textCollect" android:layout_width="wrap_content" android:layout_height="18.0dip" android:minWidth="52.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutWork" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/imageWork" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_video_heart_white" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textWork" android:layout_width="wrap_content" android:layout_height="18.0dip" android:minWidth="52.0dip" android:text="@string/su_feed_v4_add_course" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_video_link_shadow" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="18.0dip" android:minWidth="52.0dip" android:text="@string/su_link" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutCalendar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/imageCalendar" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_video_calendar_add" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/textCalendar" android:layout_width="wrap_content" android:layout_height="18.0dip" android:minWidth="52.0dip" android:text="@string/su_calendar_add" />
+    </LinearLayout>
+</com.gotokeep.keep.su.social.feedblack.mvp.view.RecommendFeedBlackActionSideView>

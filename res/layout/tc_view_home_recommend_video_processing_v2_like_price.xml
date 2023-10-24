@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.stream.process.VideoProcessingV2PriceLikeView android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/layoutFavorite" android:layout_width="82.0dip" android:layout_height="66.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/imgFavorite" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="13.0dip" android:src="@drawable/tc_ic_liked_24dp" android:layout_marginEnd="22.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/gray_99" android:id="@id/textFavorite" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/imgFavorite" app:layout_constraintStart_toStartOf="@id/imgFavorite" app:layout_constraintTop_toBottomOf="@id/imgFavorite" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.gotokeep.keep.tc.business.home.widget.StreamPriceWidget android:id="@id/priceWidget" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.tc.business.home.mvp.view.stream.process.VideoProcessingV2PriceLikeView>

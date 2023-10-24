@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:id="@id/container_radio" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <RadioButton android:id="@id/btn_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/open" />
+        <RadioButton android:id="@id/btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close" />
+    </RadioGroup>
+    <EditText android:textColorHint="@color/gray_99" android:id="@id/input_sample_rate" android:layout_width="fill_parent" android:layout_height="60.0dip" android:hint="建议取值在20~50之间" android:inputType="text" />
+</LinearLayout>

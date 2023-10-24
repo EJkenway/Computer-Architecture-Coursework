@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/back_web_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.kt.business.common.widget.KitWebTitleBarView android:id="@id/title_bar" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" />
+    <com.gotokeep.keep.uibase.webview.KeepWebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/title_bar_height" />
+</FrameLayout>

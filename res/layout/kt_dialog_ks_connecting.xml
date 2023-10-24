@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/kt_bg_ks_connecting" android:layout_width="123.0dip" android:layout_height="93.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_width="@dimen/dimen_32dp" android:layout_height="@dimen/dimen_32dp" android:layout_marginTop="@dimen/common_divide_16dp" android:layout_marginBottom="@dimen/dimen_8dp" app:lottie_autoPlay="true" app:lottie_fileName="lottie/station/kt_ks_connecting.json" app:lottie_loop="true" />
+    <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_check_ks_connecting" />
+</LinearLayout>

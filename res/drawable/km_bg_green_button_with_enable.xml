@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/km_bg_dark_green_corner_25dp" />
+    <item android:drawable="@drawable/light_green_color_corner_25dp" />
+</selector>

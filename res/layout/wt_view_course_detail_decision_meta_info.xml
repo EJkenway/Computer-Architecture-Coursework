@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseDetailDecisionMetaInfoView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="@color/color_Gray_33_Light_Primary" android:id="@id/textDifficult" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/gf" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_Gray_66_Light_Secondary" android:id="@id/textDifficult1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="@id/textDifficult" app:layout_constraintTop_toBottomOf="@id/textDifficult" />
+</com.gotokeep.keep.wt.business.course.detail.mvp.listmvp.view.CourseDetailDecisionMetaInfoView>

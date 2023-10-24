@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/map_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/mapVirtualRoute" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/mapMask" android:background="@color/black_40" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.rt.business.virtualroute.VirtualRouteSwitch android:id="@id/virtualRouteSwitch" android:visibility="gone" android:layout_width="145.0dip" android:layout_height="36.0dip" android:layout_marginTop="42.0dip" android:layout_centerHorizontal="true" />
+    <include android:id="@id/layoutGpsSignal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" layout="@layout/rt_training_gps_state" />
+    <include android:id="@id/view_map_data" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip" layout="@layout/rt_view_training_map_data" />
+</RelativeLayout>

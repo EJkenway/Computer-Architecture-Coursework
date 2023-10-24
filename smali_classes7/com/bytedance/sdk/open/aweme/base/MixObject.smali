@@ -1,0 +1,85 @@
+.class public Lcom/bytedance/sdk/open/aweme/base/MixObject;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bytedance/sdk/open/aweme/base/IMediaObject;
+
+
+# instance fields
+.field public mMediaPaths:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/bytedance/sdk/open/aweme/base/MixObject;->mMediaPaths:Ljava/util/ArrayList;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public checkArgs()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public serialize(Landroid/os/Bundle;)V
+    .locals 2
+
+    iget-object v0, p0, Lcom/bytedance/sdk/open/aweme/base/MixObject;->mMediaPaths:Ljava/util/ArrayList;
+
+    const-string v1, "AWEME_EXTRA_MIX_MESSAGE_PATH"
+
+    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
+
+    return-void
+.end method
+
+.method public type()I
+    .locals 1
+
+    const/4 v0, 0x6
+
+    return v0
+.end method
+
+.method public unserialize(Landroid/os/Bundle;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/bytedance/sdk/open/aweme/base/MixObject;->mMediaPaths:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+
+    const-string v0, "AWEME_EXTRA_MIX_MESSAGE_PATH"
+
+    invoke-virtual {p1, v0}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    iput-object p1, p0, Lcom/bytedance/sdk/open/aweme/base/MixObject;->mMediaPaths:Ljava/util/ArrayList;
+
+    :cond_0
+    return-void
+.end method

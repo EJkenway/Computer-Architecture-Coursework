@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kt.business.basebusiness.newuserguide.mvp.view.NewUserGuideSingleProgressBar android:id="@id/singleProcessBar" android:layout_width="fill_parent" android:layout_height="2.0dip" android:progressDrawable="@drawable/kt_progress_new_user_guide" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <com.gotokeep.keep.kt.business.basebusiness.newuserguide.mvp.view.NewUserGuideMultiProgressBar android:id="@id/multiProgressBar" android:layout_width="fill_parent" android:layout_height="2.0dip" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

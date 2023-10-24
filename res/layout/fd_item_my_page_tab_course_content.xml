@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.mine.view.MyPageCourseTabContentView android:orientation="vertical" android:id="@id/tabCourseView" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabStrip" app:pTabTextStyle="normal" style="@style/fd_my_page_course_tab_strip" />
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</com.gotokeep.keep.fd.business.mine.view.MyPageCourseTabContentView>

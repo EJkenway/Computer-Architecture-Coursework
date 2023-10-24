@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dataInfoView" android:visibility="gone" layout="@layout/rt_layout_outdoor_record_info_2" />
+    <include android:id="@id/dataBottomView" layout="@layout/rt_layout_outdoor_record_bottom_view" />
+    <include android:id="@id/dataPbInfoView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" layout="@layout/rt_layout_outdoor_record_pbinfo_view" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryPeripheralGoodsView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutCard" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RtSummaryCardView">
+        <RelativeLayout android:orientation="horizontal" style="@style/RtSummaryCardViewTitleLayout">
+            <ImageView android:id="@id/imgTitle" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/rt_ic_side_goods" android:layout_marginEnd="10.0dip" />
+            <TextView android:id="@id/textTitle" android:text="@string/rt_side_goods" android:layout_toEndOf="@id/imgTitle" style="@style/RtSummaryCardViewTitleInLayout" />
+        </RelativeLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutRankContent" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgPic" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/imgPic" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="15.0sp" android:textColor="@color/gray_22" android:id="@id/textName" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/textDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/viewProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <ProgressBar android:id="@id/progressCalorie" android:layout_width="110.0dip" android:layout_height="3.0dip" android:max="100" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/rt_bg_progress_gray_light_green" style="?android:progressBarStyleHorizontal" />
+                    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="12.0sp" android:textColor="@color/light_green" android:id="@id/textCurrent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+                    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="12.0sp" android:textColor="@color/gray_44" android:id="@id/textTotal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgViewAll" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/icon_arrow_right_s_gray" android:layout_alignParentEnd="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryPeripheralGoodsView>

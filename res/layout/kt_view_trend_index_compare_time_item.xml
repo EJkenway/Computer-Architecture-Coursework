@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kibra.mvp.view.KibraTrendIndexCompareTimeView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_20dp">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_width="28.0dip" android:layout_height="28.0dip" />
+        <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/black_70" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/dimen_8dp" />
+        <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_38" android:gravity="center_vertical" android:id="@id/textTrendStartTime" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/dimen_2dp" />
+        <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_38" android:gravity="center_vertical" android:id="@id/textTrendEndTime" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/dimen_2dp" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_width="@dimen/dimen_10dp" android:layout_height="@dimen/dimen_10dp" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.kibra.mvp.view.KibraTrendIndexCompareTimeView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:id="@id/btn_upload_all" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/text_all_upload" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" app:buttonRadius="27.0dip" app:loadingButtonSize="large" />
+</LinearLayout>

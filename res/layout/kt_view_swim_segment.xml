@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.SwimSegmentView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TcCardFourSlide"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <com.gotokeep.keep.commonui.view.ResizableDrawableTextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:id="@id/textHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:drawableLeft="@drawable/kt_ic_timer_lined_dark" android:drawablePadding="8.0dip" app:drawableLeftHeight="20.0dip" app:drawableLeftWidth="20.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/feedbackSwimContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerInParent="true">
+            <com.gotokeep.keep.commonui.view.ResizableDrawableTextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/feedbackSwim" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_kitbit_calibrate_data" />
+            <ImageView android:id="@id/imageFeedback" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="@dimen/dimen_14dp" android:src="@drawable/kt_icon_comment_new" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="12.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="end" android:id="@id/textCount" android:layout_width="24.0dip" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:text="@string/kt_swim_count" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="end" android:id="@id/textType" android:layout_width="38.0dip" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:text="@string/kt_swim_type" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:layout_gravity="right" android:id="@id/textTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_14dp" android:text="@string/kt_swim_duration" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/segmentContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="18.0dip" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.SwimSegmentView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterLogDetailHeaderView android:background="@color/white" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_log_detail_header_divider" android:background="@color/data_center_log_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:id="@id/layout_day_log_top_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/view_log_detail_header_divider">
+        <TextView android:textSize="14.0sp" android:textColor="@color/data_center_date_title" android:id="@id/person_train_day_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="5.0dip" android:contentDescription="Training Date In History" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:id="@id/person_train_day_calorie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:drawableLeft="@drawable/data_list_icon_kcal" android:drawablePadding="2.0dip" android:layout_alignBaseline="@id/person_train_day_title" android:layout_alignParentRight="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:id="@id/person_train_day_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:drawableLeft="@drawable/data_list_icon_time" android:drawablePadding="2.0dip" android:layout_toLeftOf="@id/person_train_day_calorie" android:layout_alignBaseline="@id/person_train_day_calorie" />
+    </RelativeLayout>
+</com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterLogDetailHeaderView>

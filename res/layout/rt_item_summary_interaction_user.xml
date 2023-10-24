@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryInteractionUserItemView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/layoutInteractionAvatar" android:background="@drawable/white_circle" android:padding="1.0dip" android:layout_width="33.0dip" android:layout_height="33.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.gotokeep.keep.uilib.CircleImageView android:id="@id/imgInteractionAvatar" android:layout_width="31.0dip" android:layout_height="31.0dip" app:circle_border_overlay="false" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+    <ImageView android:id="@id/imgInteractionCheer" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryInteractionUserItemView>

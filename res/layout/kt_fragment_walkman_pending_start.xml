@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@color/purple" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/back" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="34.0dip" android:src="@drawable/icon_arrow_left_lined" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/menu" android:padding="10.0dip" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/icon_setting_filled" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_below="@id/menu">
+        <TextView android:textSize="28.0sp" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_walkman_free_walking" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/gray_dd_40" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="6.0dip" android:text="@string/kt_walkman_stand_start" android:layout_weight="1.0" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kt_bg_walkman_pending_start" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_dd_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:text="@string/kt_keloton_name" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

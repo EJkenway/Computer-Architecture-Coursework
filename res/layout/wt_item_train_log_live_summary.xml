@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.training.traininglog.mvp.view.TrainLogLiveSummaryView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TcCardFourSlide"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="14.0dip" layout="@layout/wt_train_log_card_header" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="44.0dip">
+        <TextView android:gravity="center_vertical" android:id="@id/text_complete" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gotokeep.keep.wt.business.training.traininglog.widget.TrainLogLiveAvaterView android:id="@id/layout_complete" android:layout_width="fill_parent" android:layout_height="@dimen/height_36dp" android:layout_marginTop="20.0dip" />
+        <TextView android:gravity="center_vertical" android:id="@id/text_like" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <com.gotokeep.keep.wt.business.training.traininglog.widget.TrainLogLiveAvaterView android:id="@id/layout_like" android:layout_width="fill_parent" android:layout_height="@dimen/height_36dp" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.wt.business.training.traininglog.mvp.view.TrainLogLiveSummaryView>

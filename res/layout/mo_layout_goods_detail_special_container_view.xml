@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsDetailSportUnlockCardView android:id="@id/unlockCardView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" app:layout_constraintBottom_toTopOf="@id/bottomView" app:layout_constraintLeft_toLeftOf="parent" />
+    <com.gotokeep.keep.mo.business.store.activity.detail.special.view.GoodsDetailSpecialBottomView android:id="@id/bottomView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
+    <com.gotokeep.keep.mo.common.widget.SimpleSkeletonView android:id="@id/skeletonView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:mo_bgDrawable="@drawable/mo_bg_goods_detail_skeleton" app:mo_scanDrawable="@drawable/mo_ic_goods_detail_skeleton_scan" />
+    <ViewStub android:id="@id/netError" android:layout="@layout/mo_view_net_error_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <com.gotokeep.keep.mo.business.store.activity.detail.special.view.GoodsDetailSpecialTitleBarView android:id="@id/titleBarView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layoutMyEquipment" android:layout_width="128.0dip" android:layout_height="128.0dip">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgMyEquipment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/rt_bg_using_shoe" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgEquipmentUsage" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginBottom="9.0dip" android:src="@drawable/rt_bg_using_shoe_check" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_marginEnd="9.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/textMyEquipmentName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="6.0dip" android:maxLines="1" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/textMyEquipmentDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:maxLines="1" />
+</LinearLayout>

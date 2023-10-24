@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.achievement.ui.AchievementCardItem android:orientation="vertical" android:layout_width="@dimen/achievement_card_width_big" android:layout_height="@dimen/achievement_card_height_big" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

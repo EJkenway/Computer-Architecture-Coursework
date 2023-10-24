@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryItemPaceCardView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_item_pace" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtSummaryCardSingleItem">
+        <RelativeLayout android:id="@id/layout_detail_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="14.0dip" android:layout_marginEnd="16.0dip">
+            <com.gotokeep.keep.commonui.uilib.KeepAnimationBar android:id="@id/img_pace_color" android:background="@drawable/shape_corner_pace_item" android:layout_width="0.0dip" android:layout_height="@dimen/summary_pace_bg_height" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/summary_pace_bg_height">
+                <TextView android:textSize="@dimen/summary_text_size" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="end" android:id="@id/text_km_marker" android:layout_width="38.0dip" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="11.0dip" />
+                <com.gotokeep.keep.commonui.uilib.KeepAnimationTextView android:textSize="@dimen/summary_text_size" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/text_km_pace" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" app:keepTextStyle="textStyleQuote" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/text_special_point_time_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryItemPaceCardView>

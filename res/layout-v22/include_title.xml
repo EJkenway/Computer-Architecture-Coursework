@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:id="@id/noah_flTitleLayout" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@android:color/black" android:gravity="center" android:id="@id/noah_viewBack" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="back" android:maxLines="1" android:singleLine="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/noah_tvLeft" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="60.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/noah_tvTitle_parent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="@android:color/background_dark" android:id="@id/noah_tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="标题" android:layout_marginVertical="5.0dip" />
+        <View android:id="@id/noah_tvTitle_div" android:background="@android:color/background_dark" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.5dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/noah_tvTitle2_parent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="75.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@android:color/background_dark" android:id="@id/noah_tvTitle2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="标题2" android:layout_marginVertical="5.0dip" />
+        <View android:id="@id/noah_tvTitle_div2" android:background="@android:color/background_dark" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.5dip" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center|right" android:id="@id/noah_tvRight" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" />
+</FrameLayout>

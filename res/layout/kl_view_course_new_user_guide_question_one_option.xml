@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutRoot" android:background="@drawable/kt_bg_select_new_user_guide_course_interactive_item" android:layout_width="134.0dip" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieEmoji" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_imageAssetsFolder="images" app:lottie_loop="false" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white_87" android:id="@id/textContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/lottieEmoji" app:layout_constraintTop_toTopOf="parent" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieComplete" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginStart="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/lottieEmoji" app:layout_constraintTop_toTopOf="parent" app:lottie_loop="false" />
+</androidx.constraintlayout.widget.ConstraintLayout>

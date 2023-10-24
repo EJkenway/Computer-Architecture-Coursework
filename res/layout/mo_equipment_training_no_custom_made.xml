@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_white_top_corner_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/moEquipmentCustomMadeTitle" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="@dimen/mo_margin_18" android:text="@string/mo_equip_custom_made" android:layout_marginStart="@dimen/dimen_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextMedium" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/dimen_144dp" android:layout_marginTop="@dimen/mo_margin_18" android:layout_marginStart="@dimen/mo_margin_16" android:layout_marginEnd="@dimen/mo_margin_16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/moEquipmentCustomMadeTitle" layout="@layout/mo_equipment_training_no_custom_made_card" />
+</androidx.constraintlayout.widget.ConstraintLayout>

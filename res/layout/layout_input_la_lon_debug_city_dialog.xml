@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <RadioButton android:id="@id/btn_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/location_domestic" />
+        <RadioButton android:id="@id/btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_foreign" />
+    </RadioGroup>
+    <EditText android:id="@id/text_latitude" android:layout_width="fill_parent" android:layout_height="60.0dip" android:hint="enter latitude" android:inputType="text" />
+    <View android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <EditText android:id="@id/text_longitude" android:layout_width="fill_parent" android:layout_height="60.0dip" android:hint="enter longitude" android:inputType="text" />
+</LinearLayout>

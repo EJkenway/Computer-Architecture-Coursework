@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ysf_bg_bot_product_detail_dialog" android:layout_width="158.0dip" android:layout_height="245.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ysf_iv_item_recommend_img" android:layout_width="158.0dip" android:layout_height="158.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/ysf_black_333333" android:ellipsize="end" android:id="@id/ysf_tv_item_recommend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:maxLines="2" />
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="#fffe6112" android:ellipsize="end" android:id="@id/ysf_tv_item_recommend_attr1" android:layout_width="50.0dip" android:layout_height="wrap_content" android:maxWidth="65.0dip" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/ysf_grey_cccccc" android:ellipsize="end" android:layout_gravity="right" android:id="@id/ysf_tv_item_recommend_attr2" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:maxWidth="65.0dip" android:maxLines="1" />
+    </FrameLayout>
+</LinearLayout>

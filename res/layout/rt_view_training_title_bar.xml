@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTitleBarView android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_title_bar_height" android:paddingStart="26.0dip" android:paddingEnd="22.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layoutTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="20.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="140.0dip" android:maxLines="1" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/white_80" android:ellipsize="end" android:id="@id/textPlayerLoadingDescription" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="140.0dip" android:text="@string/rt_loading_description" android:maxLines="1" />
+    </RelativeLayout>
+    <include android:id="@id/viewGpsSignal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/layoutTitle" layout="@layout/rt_view_training_gps_signal" />
+    <ImageView android:id="@id/btn_debug" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/rt_ic_debug" android:layout_below="@id/layoutTitle" android:contentDescription="@string/settings" android:layout_marginStart="16.0dip" android:layout_alignStart="@id/layoutTitle" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_operation" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+        <com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingHeartRateView android:id="@id/view_heart_rate" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginBottom="-4.0dip" android:layout_marginEnd="16.0dip">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="28.0sp" android:textColor="@color/white_80" android:id="@id/textHeartRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" />
+            <ImageView android:id="@id/image_heart_rate" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/ic_heartrate_reminder" android:layout_toEndOf="@id/textHeartRate" />
+        </com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingHeartRateView>
+        <ImageView android:id="@id/btn_settings" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/icon_setting_filled" android:scaleType="fitXY" android:contentDescription="@string/settings" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingTitleBarView>

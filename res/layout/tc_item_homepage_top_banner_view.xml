@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.banner.TopBannerView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgBanner" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="W,21:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/viewBg" android:background="@drawable/bg_black30_left_bottom_8dp" android:layout_width="32.0dip" android:layout_height="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgClose" android:layout_width="@dimen/dimen_16dp" android:layout_height="@dimen/dimen_16dp" android:src="@drawable/ic_home_banner_close" app:layout_constraintBottom_toBottomOf="@id/viewBg" app:layout_constraintEnd_toEndOf="@id/viewBg" app:layout_constraintStart_toStartOf="@id/viewBg" app:layout_constraintTop_toTopOf="@id/viewBg" />
+</com.gotokeep.keep.tc.business.home.mvp.view.banner.TopBannerView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android_custom:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_33" android:id="@id/txt_current_login_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/login_tip_phone" android:alpha="0.8" />
+            <LinearLayout android:orientation="horizontal" android:layout_height="60.0dip" style="@style/SettingItem">
+                <TextView android:text="@string/phone_number" style="@style/SettingMainText" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:gravity="center_vertical" android:id="@id/txt_mask_phone" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:layout_weight="1.0" android:layout_marginStart="18.0dip" />
+                <Button android:textSize="@dimen/font_size_12sp" android:textColor="@color/white" android:id="@id/btn_action" android:background="@drawable/background_setting_change_password" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="16.0dip" android:text="@string/change_password" android:layout_marginEnd="14.0dip" style="@style/Widget.AppCompat.Button.Borderless" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_66" android:id="@id/txt_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:text="@string/add_phone_number_tip" android:layout_marginStart="14.0dip" />
+            <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="40.0dip" android:layout_marginBottom="12.0dip" android:text="@string/bind_third" android:alpha="0.8" android:layout_marginStart="14.0dip" />
+            <LinearLayout style="@style/SettingItemWithDivider">
+                <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_wechat" android_custom:mainText="@string/wechat" style="@style/SettingItemSwitch" />
+                <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_wei_bo" android_custom:mainText="@string/wei_bo" style="@style/SettingItemSwitch" />
+                <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_qq" android_custom:mainText="@string/qq" style="@style/SettingItemSwitch" />
+                <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_huawei" android:visibility="gone" android_custom:mainText="@string/huawei" style="@style/SettingItemSwitch" />
+            </LinearLayout>
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/textCloseAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="57.5dip" android:layout_marginBottom="28.0dip" android:text="@string/fd_keep_close_account" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

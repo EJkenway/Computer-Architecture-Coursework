@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.widget.refreshheader.KitbitNoLoadingRefreshHeader android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="105.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:layout_gravity="bottom|center" android:id="@id/textRefreshInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_header_pull_down_to_refresh" />
+    </FrameLayout>
+</com.gotokeep.keep.kt.business.kitbit.widget.refreshheader.KitbitNoLoadingRefreshHeader>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/open_member_button" android:background="@drawable/bg_gradient_dcaf74_to_f1cf8d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

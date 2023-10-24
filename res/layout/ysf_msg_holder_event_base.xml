@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/ysf_bubble_content_max_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ysf_text_size_16sp" android:textColor="@color/ysf_black_333333" android:gravity="left" android:id="@id/ysf_tv_msg_event_base_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/ysf_divider_evaluation_event_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <include layout="@layout/ysf_include_divider" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/ysf_text_size_16" android:textColor="@color/ysf_grey_666666" android:gravity="center" android:id="@id/ysf_btn_msg_event_base" android:background="@drawable/ysf_holder_event_btn_bg" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="12.0dip" android:text="@string/ysf_cancel_in_queue" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ysf_ll_msg_event_base_btn_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

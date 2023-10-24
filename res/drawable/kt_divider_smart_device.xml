@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/kt_smart_device_saved_item_margin_left_and_right" android:insetRight="@dimen/kt_smart_device_saved_item_margin_left_and_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <size android:height="0.5dip" />
+        <solid android:color="@color/line_white" />
+    </shape>
+</inset>

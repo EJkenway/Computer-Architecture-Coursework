@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view_task_item" android:background="@drawable/shape_adn_dl_item_bg_night" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_centerVertical="true">
+        <com.noah.sdk.download.manager.view.roundimageview.RoundedImageView android:id="@id/iv_task_logo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/noah_ic_dl_task_item_default_icon" />
+        <com.noah.sdk.download.manager.view.roundimageview.RoundedImageView android:id="@id/iv_task_logo_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/shape_adn_dl_icon_bg_night" />
+    </RelativeLayout>
+    <View android:id="@id/view_task_read_point" android:background="@drawable/shape_adn_dl_red_point_night" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="38.0dip" android:layout_marginTop="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_task_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="12.0dip" android:textColor="#ff222222" android:ellipsize="end" android:id="@id/tv_task_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxEms="6" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+            <com.noah.sdk.download.manager.view.AdnDlTaskStatusView android:id="@id/iv_task_state" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff999999" android:id="@id/tv_task_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/iv_task_close" android:background="@drawable/shape_adn_dl_close_night" android:padding="4.0dip" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/ic_dl_task_item_close" android:layout_toRightOf="@id/ll_task_info" />
+</RelativeLayout>

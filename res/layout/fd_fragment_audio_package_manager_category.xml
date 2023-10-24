@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android_custom:left_icon="@drawable/icon_arrow_left_lined" android_custom:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingItemWithDivider">
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_train_audio_manage" android_custom:mainText="@string/train_audio_manager" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_run_audio_manage" android_custom:mainText="@string/run_audio_manager" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_cycling_audio_manage" android_custom:mainText="@string/cycling_audio_manager" style="@style/SettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_hiking_audio_manage" android_custom:mainText="@string/hiking_audio_manager" style="@style/SettingSingleItemWithClick" />
+    </LinearLayout>
+</LinearLayout>

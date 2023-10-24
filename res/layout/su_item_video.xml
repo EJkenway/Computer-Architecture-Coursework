@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.longvideo.view.FeedVideoView android:id="@id/feedVideoView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kplayer.SingletonKeepVideoView2 android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:kvScaleType="centerCrop" />
+    <com.gotokeep.keep.videoplayer.widget.KeepTimelineVideoControlView android:id="@id/controlView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:orientation="horizontal" android:id="@id/followVideoTag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_alignParentTop="true" android:layout_alignParentStart="true" layout="@layout/profile_view_entry_label" />
+</com.gotokeep.keep.su_core.timeline.mvp.longvideo.view.FeedVideoView>

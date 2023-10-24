@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "SportAutoPause";
+// 自动暂停
+message SportAutoPauseItem {
+    uint32 period = 1;
+    uint32 threshold = 2;
+    uint32 cycle = 3;
+    uint32 count = 4;
+}
+
+message SportAutoPauseItems {
+    SportAutoPauseItem sport_walk = 1;
+    SportAutoPauseItem sport_running = 2;
+    SportAutoPauseItem sport_count = 3;
+    SportAutoPauseItem sport_activity = 4;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.athleticassessment.mvp.view.AthleticDownloadView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/loadingImage" android:layout_width="fill_parent" android:layout_height="198.0dip" android:scaleType="fitXY" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_fileName="lottie/km_athletic_resource_loading.json" app:lottie_loop="true" />
+    <TextView android:textSize="80.0sp" android:textColor="@color/km_color_fffeff" android:id="@id/textHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km_resoure_is_loading" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="80.0sp" android:textColor="@color/km_color_fffeff" android:id="@id/textLoadingHint" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/textHint" app:layout_constraintLeft_toRightOf="@id/textHint" />
+</com.gotokeep.keep.km.athleticassessment.mvp.view.AthleticDownloadView>

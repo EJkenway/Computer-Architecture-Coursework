@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="32.0dip" android:paddingEnd="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_cc" android:gravity="center" android:layout_width="42.0dip" android:layout_height="fill_parent" android:text="@string/sharp" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_light" android:gravity="start|center" android:id="@id/textPhaseName" android:layout_width="100.0dip" android:layout_height="fill_parent" android:text="@string/name" />
+    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_light" android:gravity="center" android:id="@id/text_distance" android:layout_width="40.0dip" android:layout_height="fill_parent" android:text="@string/km_chinese" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_light" android:gravity="center" android:id="@id/text_time" android:layout_width="60.0dip" android:layout_height="fill_parent" android:text="@string/sum_time" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_light" android:gravity="center" android:id="@id/textTitlePace" android:layout_width="60.0dip" android:layout_height="fill_parent" android:text="@string/average_pace" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_light" android:gravity="end|center" android:id="@id/textTitleHeartRate" android:layout_width="50.0dip" android:layout_height="fill_parent" android:text="@string/rt_average_heart_rate" android:layout_marginEnd="5.0dip" />
+</LinearLayout>

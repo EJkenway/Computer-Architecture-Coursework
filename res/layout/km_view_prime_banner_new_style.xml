@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.prime.PrimeBannerView android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.km.suit.widget.PrimeBannerWidget android:id="@id/bannerViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:need_adapt_image="true" app:scroll_delay_time="5" app:scroll_period_time="5" />
+    <com.gotokeep.keep.commonui.widget.RoundDotIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginBottom="8.0dip" app:dotColor="@color/gray_fa_40" app:dotMargin="8.0dip" app:dotRadius="3.0dip" app:dotSelectedColor="@color/white" app:layout_constraintBottom_toBottomOf="@id/bannerViewPager" app:layout_constraintStart_toStartOf="@id/bannerViewPager" />
+</com.gotokeep.keep.km.suit.mvp.view.prime.PrimeBannerView>

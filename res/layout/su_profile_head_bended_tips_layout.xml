@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/fansAndFollowLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/topDivider" android:background="@color/plan_divider_color" android:layout_width="fill_parent" android:layout_height="12.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/pink" android:gravity="center" android:id="@id/textMessage" android:layout_width="wrap_content" android:layout_height="55.0dip" android:text="@string/personal_baned" android:drawablePadding="9.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/icon_personal_baned" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/topDivider" />
+    <View android:id="@id/dividerBottom" android:background="@color/plan_divider_color" android:layout_width="fill_parent" android:layout_height="12.0dip" app:layout_constraintTop_toBottomOf="@id/textMessage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

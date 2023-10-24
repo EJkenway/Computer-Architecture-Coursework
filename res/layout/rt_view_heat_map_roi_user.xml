@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemUserView android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/container_left_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="14.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:id="@id/text_person_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/gray_33" android:id="@id/text_latest_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+    </LinearLayout>
+    <com.gotokeep.keep.activity.training.ui.PioneerView android:id="@id/pioneer_view" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_33" android:id="@id/text_pioneer_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignTop="@id/pioneer_view" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/pioneer_view" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/rt_finish_route" android:layout_below="@id/text_pioneer_count" android:layout_alignStart="@id/text_pioneer_count" />
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemUserView>

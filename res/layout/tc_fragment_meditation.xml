@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.meditation.mvp.view.MeditationPageView android:id="@id/pageView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableAutoLoadMore="false">
+        <androidx.core.widget.NestedScrollView android:id="@id/nestedScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/layoutBanner" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tc_view_meditation_header_banner" />
+                <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerView" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-43.0dip" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/customTitleBar" android:layout_width="fill_parent" android:layout_height="@dimen/tc_meditation_title_bar_height" app:add_status_bar_height="true" app:layout_constraintTop_toTopOf="parent" app:left_icon_clickable="true" app:title="@string/meditation" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:layout_width="fill_parent" android:layout_height="600.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/skeletonView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/tc_skeleton_meditation_home" />
+</com.gotokeep.keep.tc.business.meditation.mvp.view.MeditationPageView>

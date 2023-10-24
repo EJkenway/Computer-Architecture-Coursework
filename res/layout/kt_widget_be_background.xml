@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_fire_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/img_fire" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:layout_above="@id/img_fire_under" android:alpha="0.0" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/img_flash" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:layout_above="@id/img_fire_under" android:alpha="0.0" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_fire_under" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/img_bomb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:lottie_autoPlay="false" app:lottie_loop="false" />
+</merge>

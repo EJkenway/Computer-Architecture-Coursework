@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_back" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="26.5dip" android:src="@drawable/icon_close_lined" />
+    <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_current_rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="33.5dip" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_current_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="11.0dip" android:alpha="0.5" />
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="26.0dip" android:alpha="0.1" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

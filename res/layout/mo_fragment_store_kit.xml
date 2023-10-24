@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.widget.KeepSwipeRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/imgBanner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerKitStore" android:paddingTop="130.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        </RelativeLayout>
+    </com.gotokeep.keep.commonui.widget.KeepSwipeRefreshLayout>
+    <com.gotokeep.keep.mo.common.neterror.view.NetErrorView android:id="@id/netError" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

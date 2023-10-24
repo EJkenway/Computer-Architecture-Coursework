@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.SleepStageItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_14sp" android:textStyle="bold" android:textColor="@color/ysf_black_222222" android:id="@id/stageName" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/stageName" app:layout_constraintStart_toEndOf="@id/stageName" app:layout_constraintTop_toTopOf="@id/stageName" />
+    <com.gotokeep.keep.commonui.view.RTLProgressBar android:layout_gravity="center_vertical" android:id="@id/bar" android:layout_width="130.0dip" android:layout_height="8.0dip" android:layout_marginTop="4.0dip" app:layout_constraintBottom_toBottomOf="@id/stageName" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/stageName" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.SleepStageItemView>

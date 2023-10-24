@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "FsDataWrapper";
+
+message FsData {
+  bytes head = 1;
+  bytes ctrl = 2;
+  bytes fsn = 3;
+  bytes length = 4;
+  message payload {
+
+  };
+  bytes crc = 6;
+}

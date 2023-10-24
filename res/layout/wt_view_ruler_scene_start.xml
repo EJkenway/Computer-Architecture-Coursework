@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.scene.ruler.mvp.view.RulerSceneStartView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:textSize="@dimen/font_size_18sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textActionDetailStart" android:background="@drawable/light_green_corner50_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" app:kStyle="large" />
+</com.gotokeep.keep.wt.scene.ruler.mvp.view.RulerSceneStartView>

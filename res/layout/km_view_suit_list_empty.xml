@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.business.suitlist.mvp.view.SuitListEmptyView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.gotokeep.keep.km.business.suitlist.mvp.view.SuitListEmptyView>

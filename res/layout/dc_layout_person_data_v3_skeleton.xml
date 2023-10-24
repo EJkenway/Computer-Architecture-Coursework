@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.skeleton.SkeletonView android:id="@id/view1" android:background="@drawable/bg_corner_25_ef" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.skeleton.SkeletonView android:background="@drawable/bg_corner_25_ef" android:layout_width="50.0dip" android:layout_height="10.0dip" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="@id/view1" app:layout_constraintLeft_toRightOf="@id/view1" app:layout_constraintTop_toTopOf="@id/view1" />
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.main.mvp.view.HomeMoreItemView android:layout_width="fill_parent" android:layout_height="125.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_more_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgMask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/text_more_title" android:layout_width="230.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="38.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white_70" android:ellipsize="end" android:id="@id/text_hash_tag_desc" android:layout_width="230.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="70.0dip" android:maxLines="1" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="24.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/text_plan_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/arrow_white" />
+    </LinearLayout>
+</com.gotokeep.keep.tc.main.mvp.view.HomeMoreItemView>

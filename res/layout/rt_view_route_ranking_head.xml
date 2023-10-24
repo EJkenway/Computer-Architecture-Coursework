@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RouteRankingHeaderView android:orientation="horizontal" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="203.0dip" android:baselineAligned="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="50.0dip">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:layout_gravity="center_vertical" android:id="@id/img_ranking_second_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/person_45_45" app:circle_border_color="@color/purple" app:circle_border_width="2.0dip" />
+            <ImageView android:background="@drawable/icon_route_ranking_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text_ranking_second_user_name" android:layout_width="82.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:maxLines="1" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/text_ranking_second_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/text_second_value_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="8.0dip" android:text="@string/count" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="76.0dip" android:layout_marginTop="33.0dip">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:layout_gravity="center_vertical" android:id="@id/img_ranking_first_avatar" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/person_45_45" app:circle_border_color="@color/purple" app:circle_border_width="2.0dip" />
+            <ImageView android:background="@drawable/icon_route_ranking_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text_ranking_first_user_name" android:layout_width="82.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:maxLines="1" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/text_ranking_first_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/text_first_value_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="8.0dip" android:text="@string/count" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="50.0dip">
+            <com.gotokeep.keep.commonui.uilib.CircularImageView android:layout_gravity="center_vertical" android:id="@id/img_ranking_third_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/person_45_45" app:circle_border_color="@color/purple" app:circle_border_width="2.0dip" />
+            <ImageView android:background="@drawable/icon_route_ranking_third" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="3" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_50" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text_ranking_third_user_name" android:layout_width="82.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:maxLines="1" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/text_ranking_third_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/text_third_value_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="8.0dip" android:text="@string/count" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RouteRankingHeaderView>

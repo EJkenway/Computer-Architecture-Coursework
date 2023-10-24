@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.xtool.mvp.view.OutdoorActivityCropPanelView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="55.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:id="@id/tvDistanceTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_crop_distance_tip_format" android:layout_centerVertical="true" />
+        <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="32.0sp" android:textColor="@color/purple" android:id="@id/tvCropDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dash_dash" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvDistanceUnit" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/tvDistanceUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km_chinese" android:layout_alignBaseline="@id/tvCropDistance" android:layout_marginStart="4.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:id="@id/vCropTool" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.gotokeep.keep.rt.widget.PlusMinusControl android:id="@id/pmStart" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.gotokeep.keep.commonui.widget.seekbar.RangeSeekBar android:id="@id/sbCrop" android:layout_width="fill_parent" android:layout_height="40.0dip" app:rsb_gravity="center" app:rsb_mode="range" app:rsb_progress_color="@color/light_green" app:rsb_progress_default_color="@color/gray_ee" app:rsb_progress_height="3.0dip" app:rsb_progress_radius="1.5dip" app:rsb_thumb_drawable="@drawable/seekbar_thumb_btn_small_pressed" app:rsb_thumb_height="36.0dip" app:rsb_thumb_inactivated_drawable="@drawable/seekbar_thumb_btn_small" app:rsb_thumb_scale_ratio="1.0" app:rsb_thumb_width="36.0dip" />
+            <com.gotokeep.keep.rt.widget.PlusMinusControl android:id="@id/pmEnd" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_cc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/rt_xtool_only_once_tip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.xtool.mvp.view.OutdoorActivityCropPanelView>

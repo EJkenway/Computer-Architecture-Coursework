@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:ellipsize="end" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:maxLines="1" android:layout_marginStart="@dimen/page_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/share_view_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip" android:maxLines="1" android:layout_marginEnd="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/time" />
+    <ImageView android:id="@id/img_more" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_timeline_more" android:scaleType="center" android:paddingStart="14.0dip" android:paddingEnd="@dimen/page_horizontal_margin" app:layout_constraintBottom_toBottomOf="@id/time" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/time" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.avatar.KeepUserAvatarView android:id="@id/imgAvatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="22.0dip" app:avatar_img_margin="0.0dip" app:avatar_progress_bg_color="@android:color/transparent" app:avatar_progress_fg_color="@android:color/transparent" app:avatar_progress_width="0.0dip" />
+    <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/trainScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/kt_six_zero" android:layout_alignParentTop="true" android:layout_marginStart="9.0dip" android:layout_toEndOf="@id/imgAvatar" />
+</merge>

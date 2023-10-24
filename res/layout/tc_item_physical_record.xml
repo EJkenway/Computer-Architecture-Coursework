@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:textColor="@color/green" android:id="@id/text_score_in_physical_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="13.0dip" />
+    <TextView android:textColor="@color/green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/score" android:layout_toRightOf="@id/text_score_in_physical_record" android:layout_alignBaseline="@id/text_score_in_physical_record" />
+    <TextView android:textColor="@color/gray_99" android:id="@id/text_date_in_physical_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_score_in_physical_record" android:layout_alignLeft="@id/text_score_in_physical_record" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/settings_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" android:layout_alignParentBottom="true" />
+</merge>

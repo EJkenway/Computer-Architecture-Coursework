@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.debugtool.mvp.view.ReplayLogItemView android:gravity="center_vertical" android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:id="@id/text_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2017-10-31 15:31:47 跑步机跑步 2km" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_aa" android:ellipsize="start" android:id="@id/text_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="584fb83c8c26a3071517f655_9223370527419668807_rn" android:singleLine="true" />
+</com.gotokeep.keep.rt.business.debugtool.mvp.view.ReplayLogItemView>

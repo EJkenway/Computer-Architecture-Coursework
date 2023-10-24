@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryCommonTitleCardView android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="42.0dip" style="@style/RtSummaryCardTitleView">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutTitleContent" android:clipChildren="false" style="@style/RtSummaryCardViewTitleLayout">
+            <com.gotokeep.keep.commonui.view.ResizableDrawableTextView android:ellipsize="end" android:maxLines="1" android:drawableStart="@drawable/ic_summary_pace" app:drawableLeftHeight="@dimen/rt_summary_title_drawable_size" app:drawableLeftWidth="@dimen/rt_summary_title_drawable_size" style="@style/RtSummaryCardViewTitleInLayout" />
+            <TextView android:id="@id/text_chart_tip" android:layout_width="0.0dip" android:text="@string/rt_step_frequency_data_offset_text" android:layout_weight="1.0" style="@style/RtSummaryCardViewTip" />
+            <ImageView android:id="@id/img_switch" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/summary_brief_switch_off" android:scaleType="fitXY" android:paddingStart="4.0dip" android:paddingEnd="0.0dip" />
+            <ImageView android:id="@id/imgDetailChart" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/rt_ic_detail_chart" android:layout_marginStart="12.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryCommonTitleCardView>

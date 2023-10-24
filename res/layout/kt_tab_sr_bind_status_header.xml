@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitTabSrBindStatusHeader android:orientation="vertical" android:paddingTop="@dimen/dimen_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutSrStatus" android:layout_width="fill_parent" android:layout_height="125.0dip" android:layout_below="@id/layoutSrStatus">
+        <View android:id="@id/viewSrTop" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/dimen_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/font_size_18sp" android:textStyle="bold" android:textColor="@color/kt_color_171D2C" android:id="@id/textSrTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="@dimen/kt_sr_title_left_margin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/viewSrTop" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageSrHeader" android:layout_width="@dimen/kt_sr_image_width_height" android:layout_height="@dimen/kt_sr_image_width_height" android:layout_marginEnd="@dimen/dimen_10" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <include android:id="@id/includeSrNoBind" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/textSrTitle" layout="@layout/kt_kitsr_view_no_bind" />
+        <include android:id="@id/includeSrConnectFailed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/textSrTitle" layout="@layout/kt_kitsr_view_connect_failed" />
+        <include android:id="@id/includeSrConnect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/textSrTitle" layout="@layout/kt_kitsr_view_connect" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/viewBottomDivide" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_10dp" />
+    <include android:id="@id/srUnClaimData" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/imageSrHeader" layout="@layout/kt_view_sr_unclaim_notice" />
+    <include android:id="@id/includeGivingVipNotice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/kt_view_giving_vip_notice" />
+</com.gotokeep.keep.kt.business.common.mvp.view.KitTabSrBindStatusHeader>

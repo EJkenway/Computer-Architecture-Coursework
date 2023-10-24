@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterLogEmptyView android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/data_center_log_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+    <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/gray_99" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/data_center_no_movement_record" />
+</com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterLogEmptyView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBarInNetDiagnose" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:left_icon_clickable="true" app:title="@string/net_diagnose" />
+    <TextView android:id="@id/btnActionInNetDiagnose" android:layout_marginBottom="27.0dip" android:text="@string/start_net_diagnose" android:layout_alignParentBottom="true" style="@style/SettingButtonMainGreen" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/wrapperCompleteInNetDiagnose" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btnActionInNetDiagnose" android:layout_below="@id/titleBarInNetDiagnose">
+        <TextView android:textSize="29.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="101.0dip" android:text="@string/net_diagnose_complete" android:drawableLeft="@drawable/net_complete" android:drawablePadding="12.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="25.0dip" android:text="@string/hint_net_diagnose_complete" />
+        <ScrollView android:background="@drawable/setting_layer_shape" android:padding="14.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="168.0dip" android:layout_marginLeft="44.0sp" android:layout_marginTop="42.0dip" android:layout_marginRight="44.0sp">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/textDiagnoseResult" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/wrapperStartNetDiagnose" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="52.0dip" android:layout_below="@id/titleBarInNetDiagnose">
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginRight="46.0dip" android:text="@string/hint_start_diagnose" />
+        <ScrollView android:id="@id/wrapperDiagnoseProgress" android:background="@drawable/setting_layer_shape" android:padding="14.0dip" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="168.0dip" android:layout_marginLeft="44.0sp" android:layout_marginTop="26.5dip" android:layout_marginRight="44.0sp">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:id="@id/textDiagnoseProgress" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/wrapperFailInNetDiagnose" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titleBarInNetDiagnose">
+        <TextView android:textSize="29.0sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="101.0dip" android:text="@string/net_dialog_fail" android:drawableLeft="@drawable/net_error" android:drawablePadding="12.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="25.0dip" android:text="@string/hint_net_diagnose_fail" />
+    </LinearLayout>
+</RelativeLayout>

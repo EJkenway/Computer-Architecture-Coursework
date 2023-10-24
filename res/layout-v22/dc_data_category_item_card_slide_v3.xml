@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SlideV3GraphCardView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.dc.business.datacategory.mvp.view.StatsTimeUnitHeaderView android:id="@id/statsTimeUnit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="14.0dip" android:layout_marginHorizontal="14.0dip" />
+    <include android:id="@id/statsPropertiesInfo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" app:layout_constraintTop_toTopOf="parent" layout="@layout/dc_slide_v3_properties_header_view" />
+    <FrameLayout android:orientation="vertical" android:id="@id/layoutChartContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.gotokeep.keep.dc.business.datacategory.mvp.view.v3.SlideV3GraphCardView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutScreening" android:background="@color/gray_22" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" layout="@layout/te_layout_tv_install_guide" />
+    <include layout="@layout/te_layout_project_screen_search_device_for_land_video" />
+    <include layout="@layout/te_view_screening_control" />
+</androidx.constraintlayout.widget.ConstraintLayout>

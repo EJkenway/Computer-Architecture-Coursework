@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/snow_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/store_title_bar_address_edit" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:left_icon_clickable="true" app:title="@string/mo_glutton_edit_address" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.mo.business.store.address.view.StoreAddressScrollView android:id="@id/scroller_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layout_constraintTop_toBottomOf="@id/store_title_bar_address_edit">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/mo_activity_address_edit_content" />
+            <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:textSize="@dimen/font_size_18sp" android:id="@id/store_address_save" android:layout_width="280.0dip" android:layout_height="50.0dip" android:layout_marginTop="40.0dip" android:text="@string/save" android:layout_below="@id/store_layout_default" android:layout_centerHorizontal="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:loadingButtonSize="normal" app:loadingButtonStyle="styleDefault" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.gotokeep.keep.mo.business.store.address.view.StoreAddressScrollView>
+    <com.gotokeep.keep.mo.common.neterror.view.NetErrorView android:id="@id/netError" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/store_title_bar_address_edit" />
+    <View android:id="@id/mask" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/store_title_bar_address_edit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

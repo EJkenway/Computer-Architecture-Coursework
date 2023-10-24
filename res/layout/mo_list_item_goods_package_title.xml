@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/gray_33" android:id="@id/text_goods_package_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_goods_package_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:maxLines="2" android:lineSpacingMultiplier="1.2" app:layout_constraintTop_toBottomOf="@id/text_goods_package_title" />
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/layout_save_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:layout_constraintTop_toBottomOf="@id/text_goods_package_desc">
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_goods_package_price_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mo_goods_package_price" />
+        <TextView android:textSize="19.0sp" android:textColor="@color/pink" android:id="@id/text_goods_package_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:lineSpacingMultiplier="1.2" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/pink" android:id="@id/text_goods_package_price_start" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/mo_start" android:maxLines="2" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:id="@id/text_goods_package_price_single" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+</merge>

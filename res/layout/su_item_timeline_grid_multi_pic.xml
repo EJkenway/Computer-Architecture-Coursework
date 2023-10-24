@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.timeline.mvp.single.view.TimelineSingleMultiPictureGridView android:paddingTop="@dimen/su_multi_pic_grid_padding" android:paddingBottom="@dimen/su_multi_pic_grid_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/page_horizontal_margin" android:paddingEnd="@dimen/page_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

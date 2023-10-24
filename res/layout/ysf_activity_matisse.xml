@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ysf_toolbar" android:background="@color/ysf_tips_background_fefcec" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ysf_selected_album" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:drawableRight="@drawable/ysf_ic_arrow_drop_down_white_24dp" />
+        <TextView android:textSize="@dimen/ysf_text_size_14" android:textColor="@color/ysf_tips_text_f76a24" android:ellipsize="end" android:gravity="center" android:id="@id/message_tips_label" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ysf_file_limit_str" android:maxLines="2" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/ysf_bottom_toolbar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="4.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ff0077d9" android:layout_gravity="start" android:id="@id/ysf_button_preview" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ysf_button_preview" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ysf_originalLayout" android:padding="16.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.qiyukf.unicorn.mediaselect.internal.ui.widget.CheckRadioView android:layout_gravity="center_vertical" android:id="@id/ysf_original" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ysf_ic_preview_radio_off" />
+            <TextView android:enabled="true" android:textSize="14.0sp" android:textColor="#deffffff" android:layout_gravity="center_vertical" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ysf_button_original" android:paddingStart="4.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="#ff03a9f4" android:layout_gravity="end" android:id="@id/ysf_button_apply" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/ysf_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ysf_bottom_toolbar" android:layout_below="@id/ysf_toolbar" />
+    <FrameLayout android:id="@id/ysf_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ysf_bottom_toolbar" android:layout_below="@id/ysf_toolbar">
+        <TextView android:textSize="16.0sp" android:textColor="#4d000000" android:gravity="center" android:layout_gravity="center" android:id="@id/ysf_empty_view_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ysf_empty_text" android:drawableTop="@drawable/ysf_ic_empty" android:drawablePadding="8.0dip" />
+    </FrameLayout>
+</RelativeLayout>

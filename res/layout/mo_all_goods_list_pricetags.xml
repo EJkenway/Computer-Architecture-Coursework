@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:id="@id/priceTags" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="112.0dip" android:layout_below="@id/layoutPromotion"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

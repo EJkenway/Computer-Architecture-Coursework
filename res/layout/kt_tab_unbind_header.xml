@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.common.mvp.view.KitTabUnBindHeaderView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/vContent" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/gray_33" android:id="@id/tvSubtype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/gray_33" android:id="@id/tvTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tvSubtype" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/tvTip">
+            <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btnBind" android:layout_width="82.0dip" android:layout_height="30.0dip" app:kPaddingBottom="0.0dip" app:kPaddingLeft="0.0dip" app:kPaddingRight="0.0dip" app:kPaddingTop="0.0dip" app:kStyle="small" app:kText="@string/kt_card_bind_device" />
+            <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:textSize="12.0sp" android:gravity="center" android:id="@id/btnKnowMore" android:layout_width="82.0dip" android:layout_height="30.0dip" android:layout_marginStart="14.0dip" app:kBorderWidth="0.5dip" app:kOutline="true" app:kPaddingBottom="0.0dip" app:kPaddingLeft="0.0dip" app:kPaddingRight="0.0dip" app:kPaddingTop="0.0dip" app:kStyle="small" app:kText="@string/learn_more" app:kTextColor="@color/light_green" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgSubtype" android:layout_width="124.0dip" android:layout_height="124.0dip" android:scaleType="centerInside" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.kt.business.common.mvp.view.KitTabUnBindHeaderView>

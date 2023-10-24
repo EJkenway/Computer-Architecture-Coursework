@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.HeatMapRouteGroupView android:layout_width="142.0dip" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="15.0dip" app:round_corner="8.0dip" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgGroup" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/line_white_8dp_corner" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/textGroupName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/rt_route_group_view" android:maxLines="1" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/imgGroup" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.HeatMapRouteGroupView>

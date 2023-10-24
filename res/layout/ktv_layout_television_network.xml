@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/viewStubMobileNetworkPrompt" android:layout="@layout/ktv_layout_view_stub_mobile_network_prompt" android:inflatedId="@id/mobileNetworkPrompt" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStubNetworkDownPrompt" android:layout="@layout/ktv_layout_view_stub_network_down_prompt" android:inflatedId="@id/networkDownPrompt" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStubOtherPrompt" android:layout="@layout/ktv_layout_view_stub_other_prompt" android:inflatedId="@id/otherPrompt" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStubStreamErrorPrompt" android:layout="@layout/ktv_layout_view_stub_stream_error_prompt" android:inflatedId="@id/streamErrorPrompt" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

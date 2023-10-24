@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.widget.KitbitMainBottomView android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/viewCenterLine" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageIcon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="8.0dip" app:layout_constraintEnd_toEndOf="@id/viewCenterLine" app:layout_constraintStart_toStartOf="@id/viewCenterLine" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/gray_22" android:id="@id/textName" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/viewCenterLine" app:layout_constraintStart_toStartOf="@id/viewCenterLine" app:layout_constraintTop_toBottomOf="@id/imageIcon" />
+    <View android:id="@id/fakeView" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="1.0px" />
+</com.gotokeep.keep.kt.business.kitbit.widget.KitbitMainBottomView>

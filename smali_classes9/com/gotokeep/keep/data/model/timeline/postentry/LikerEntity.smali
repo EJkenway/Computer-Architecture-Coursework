@@ -1,0 +1,152 @@
+.class public final Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;
+.super Ljava/lang/Object;
+.source "LikerEntity.kt"
+
+# interfaces
+.implements Ljava/io/Serializable;
+.implements Landroid/os/Parcelable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity$Creator;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/a;
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field private final avatarList:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private likeCount:I
+
+.field private final likersLinkUrls:Ljava/lang/String;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity$Creator;
+
+    invoke-direct {v0}, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity$Creator;-><init>()V
+
+    sput-object v0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/List;Ljava/lang/String;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/lang/String;",
+            "I)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->avatarList:Ljava/util/List;
+
+    iput-object p2, p0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->likersLinkUrls:Ljava/lang/String;
+
+    iput p3, p0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->likeCount:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->avatarList:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public final b()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->likeCount:I
+
+    return v0
+.end method
+
+.method public final c(I)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->likeCount:I
+
+    return-void
+.end method
+
+.method public describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public writeToParcel(Landroid/os/Parcel;I)V
+    .locals 0
+
+    const-string p2, "parcel"
+
+    invoke-static {p1, p2}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p2, p0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->avatarList:Ljava/util/List;
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeStringList(Ljava/util/List;)V
+
+    iget-object p2, p0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->likersLinkUrls:Ljava/lang/String;
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget p2, p0, Lcom/gotokeep/keep/data/model/timeline/postentry/LikerEntity;->likeCount:I
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+
+    return-void
+.end method

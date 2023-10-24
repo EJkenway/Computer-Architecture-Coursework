@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingAudioControlView android:background="@drawable/rt_bg_training_audio_control" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/icon_close_lined" android:layout_marginStart="16.0dip" />
+    <TextView android:textSize="28.0sp" android:textColor="@color/white" android:id="@id/textPageTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:text="@string/rt_audio_control" android:layout_below="@id/img_close" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/textPageTitle" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_playlist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutPlaylistTitle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/white" android:id="@id/textPlayListTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/rt_training_playlist_title_format" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/imgPlaylist" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/icon_right_lined" />
+                </LinearLayout>
+                <com.gotokeep.keep.commonui.widget.music.PlaylistControlView android:id="@id/viewPlaylistControl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+                <com.gotokeep.keep.commonui.widget.music.MusicVolumeBar2 android:id="@id/vb_playlist" android:layout_width="fill_parent" android:layout_height="@dimen/volume_bar_height" android:layout_marginTop="34.0dip" />
+                <View android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="24.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/text_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="@string/guide_voice" />
+                <com.gotokeep.keep.commonui.widget.music.MusicVolumeBar2 android:id="@id/vb_voice" android:layout_width="fill_parent" android:layout_height="@dimen/volume_bar_height" android:layout_marginTop="20.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutNoPlaylist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <View android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/textNoPlaylistTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="@string/rt_training_playlist_title_format" />
+                <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginTop="21.0dip" app:round_corner="26.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/textNoPlaylistSelect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="@string/rt_training_playlist_select_format" android:layout_centerInParent="true" />
+                </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_interval_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <View android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/rt_phase_detail_guide" android:layout_weight="1.0" />
+                    <com.gotokeep.keep.commonui.view.KeepSwitchButton android:id="@id/switch_interval_detail" style="@style/KeepSwitch" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingAudioControlView>

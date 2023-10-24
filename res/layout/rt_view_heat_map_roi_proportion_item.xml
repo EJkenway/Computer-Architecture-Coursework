@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.widget.RoiItemProportionItem android:gravity="center" android:orientation="horizontal" android:id="@id/layout_route_running" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_12sp" android:id="@id/text_route_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/rt_main_run" android:id="@id/text_route_proportion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+</com.gotokeep.keep.rt.business.heatmap.widget.RoiItemProportionItem>

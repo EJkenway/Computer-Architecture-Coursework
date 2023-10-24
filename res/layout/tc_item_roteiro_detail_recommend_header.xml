@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.roteiro.mvp.view.RoteiroDetailRecommendHeaderView android:background="@color/white" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/gray_33" android:id="@id/textHeaderName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/imgHeaderMore" android:padding="5.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/tc_suit_right_arrow" android:scaleType="fitEnd" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.tc.business.roteiro.mvp.view.RoteiroDetailRecommendHeaderView>

@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "HardwareControl";
+
+message VibrationUnit {
+    uint32 type = 1;
+    uint32 time = 2;
+    uint32 strength = 3;
+}
+
+message Vibration {
+    repeated VibrationUnit vibration_unit = 1;
+}
+
+message VibrationState {
+    uint32 status = 1;
+}

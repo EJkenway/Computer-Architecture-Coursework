@@ -1,0 +1,94 @@
+.class public final Lfu0/b$j;
+.super Lij3/p;
+.source "EquipmentBaseTrainSession.kt"
+
+# interfaces
+.implements Lhj3/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lfu0/b;->onTrainingDataUpdate(Lcom/gotokeep/keep/kt/api/observer/ITrainData;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lij3/p;",
+        "Lhj3/l<",
+        "Lcom/gotokeep/keep/kt/api/observer/IEquipmentSession<",
+        "TT;>;",
+        "Lwi3/s;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Lcom/gotokeep/keep/kt/api/observer/ITrainData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lcom/gotokeep/keep/kt/api/observer/ITrainData;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lfu0/b$j;->g:Lcom/gotokeep/keep/kt/api/observer/ITrainData;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lij3/p;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/gotokeep/keep/kt/api/observer/IEquipmentSession;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/gotokeep/keep/kt/api/observer/IEquipmentSession<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    const-string v0, "it"
+
+    invoke-static {p1, v0}, Lij3/o;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iget-object v0, p0, Lfu0/b$j;->g:Lcom/gotokeep/keep/kt/api/observer/ITrainData;
+
+    invoke-interface {p1, v0}, Lcom/gotokeep/keep/kt/api/observer/IEquipmentSession;->onTrainingDataUpdate(Lcom/gotokeep/keep/kt/api/observer/ITrainData;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/gotokeep/keep/kt/api/observer/IEquipmentSession;
+
+    invoke-virtual {p0, p1}, Lfu0/b$j;->a(Lcom/gotokeep/keep/kt/api/observer/IEquipmentSession;)V
+
+    sget-object p1, Lwi3/s;->a:Lwi3/s;
+
+    return-object p1
+.end method

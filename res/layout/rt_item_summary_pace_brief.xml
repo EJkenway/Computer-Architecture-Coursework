@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryItemPaceBriefCardView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_item_pace" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="14.0dip" android:paddingEnd="18.0dip" style="@style/RtSummaryCardSingleItem">
+        <TextView android:textSize="10.0sp" android:textColor="@color/gray_cc" android:gravity="center" android:id="@id/text_km_marker" android:layout_width="20.0dip" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:rotation="-90.0" />
+        <ImageView android:id="@id/img_fastest" android:visibility="invisible" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/rt_ic_run_speed_best" android:scaleType="fitXY" android:contentDescription="@string/fastest" android:layout_marginStart="2.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/text_marathon" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="2.0dip" />
+        <com.gotokeep.keep.commonui.uilib.KeepAnimationBar android:id="@id/img_pace_color" android:background="@drawable/shape_corner_pace_item" android:layout_width="0.0dip" android:layout_height="@dimen/summary_pace_brief_bg_height" android:layout_marginStart="2.0dip" />
+        <TextView android:textSize="@dimen/summary_text_size" android:textColor="@color/gray_99" android:id="@id/text_km_pace" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="5.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/text_special_point_time_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryItemPaceBriefCardView>

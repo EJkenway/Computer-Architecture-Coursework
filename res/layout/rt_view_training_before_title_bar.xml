@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingBeforeTitleBarView android:layout_width="fill_parent" android:layout_height="@dimen/rt_training_title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/btn_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_close_lined" android:contentDescription="@string/close" android:layout_marginStart="22.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageView android:id="@id/btn_debug" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/rt_ic_debug" android:contentDescription="@string/settings" android:layout_marginEnd="8.0dip" />
+        <ImageView android:id="@id/btn_settings" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/icon_setting_filled" android:contentDescription="@string/settings" android:layout_marginEnd="22.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/rt_training_text_main" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="200.0dip" android:maxLines="1" android:maxLength="10" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/container_switch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/rt_training_text_main" android:gravity="center_vertical" android:id="@id/btn_outdoor" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/rt_outdoor_running" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/rt_training_text_light" android:gravity="center_vertical" android:id="@id/btn_indoor" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/rt_indoor_running" android:layout_marginStart="46.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingBeforeTitleBarView>

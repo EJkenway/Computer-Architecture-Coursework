@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ui_framework__fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/anchor" android:layout_width="1.0px" android:layout_height="1.0px" />
+</FrameLayout>

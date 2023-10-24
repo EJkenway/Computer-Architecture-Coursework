@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store2.view.GoodsDetailCouponInfoItemView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:layout_gravity="center" android:id="@id/preTagTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_4dp" android:layout_marginRight="@dimen/dimen_4dp" android:singleLine="true" android:layout_marginHorizontal="@dimen/dimen_4dp" />
+    <com.gotokeep.keep.mo.business.store2.view.VerticalDashedLinedView android:id="@id/tagDiv" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="18.0dip" app:mo_dash_line_width="1.0dip" app:mo_line_color="@color/color_ff5363" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:layout_gravity="center" android:id="@id/tagTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_4dp" android:layout_marginRight="@dimen/dimen_4dp" android:singleLine="true" android:layout_marginHorizontal="@dimen/dimen_4dp" />
+</com.gotokeep.keep.mo.business.store2.view.GoodsDetailCouponInfoItemView>

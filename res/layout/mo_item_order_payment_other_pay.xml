@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mo_other_payment_type" />
+    <ImageView android:id="@id/imageView" android:layout_width="@dimen/dimen_18dp" android:layout_height="@dimen/dimen_18dp" android:src="@drawable/ic_line_arrow_right" android:scaleType="centerCrop" android:rotation="90.0" android:layout_marginStart="4.0dip" app:tint="@color/gray_99" />
+</LinearLayout>

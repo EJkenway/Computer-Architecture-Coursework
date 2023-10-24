@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="32.0sp" android:textColor="@color/light_green" android:id="@id/ktv_heart_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginEnd="4.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_cc" android:id="@id/ktv_heart_rate_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/bpm" android:layout_toRightOf="@id/ktv_heart_rate" android:layout_alignBottom="@id/ktv_heart_rate" android:layout_toEndOf="@id/ktv_heart_rate" />
+    <ImageView android:id="@id/iv_route_icon_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_heart_rate_green" android:layout_toRightOf="@id/ktv_heart_rate" android:layout_above="@id/ktv_heart_rate_title" android:translationY="4.0dip" android:layout_toEndOf="@id/ktv_heart_rate" />
+</RelativeLayout>

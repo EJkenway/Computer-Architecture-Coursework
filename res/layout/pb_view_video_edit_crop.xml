@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutCut" android:background="@color/black" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutPlay" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginBottom="@dimen/dimen_24dp" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/su_bg_edit_play_button" android:contentDescription="@string/play_video" />
+        <TextView android:textSize="@dimen/font_size_10sp" android:textColor="@color/white" android:id="@id/textVideoTotalDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4dp" />
+    </LinearLayout>
+    <include android:id="@id/thumbnailLayout" android:layout_width="0.0dip" android:layout_height="@dimen/font_size_45dp" android:layout_marginBottom="4.0dip" android:layout_marginEnd="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="@id/layoutPlay" app:layout_constraintEnd_toEndOf="@id/cropIndicatorLayout" app:layout_constraintStart_toEndOf="@id/layoutPlay" layout="@layout/pb_view_video_segment_frame" />
+    <FrameLayout android:id="@id/cropIndicatorLayout" android:paddingRight="@dimen/dimen_16dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layoutPlay" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/layoutPlay">
+        <com.gotokeep.keep.pb.edit.imagecrop.video.widget.VideoEditCropIndicatorView android:id="@id/cropIndicatorView" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

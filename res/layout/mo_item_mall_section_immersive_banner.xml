@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.mall.impl.sections.ibanner.mvp.view.MallSectionImmersiveBannerView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/immersiveBannerImage" android:background="@drawable/place_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2dp" android:scaleType="fitXY" android:adjustViewBounds="true" />
+    <View android:layout_gravity="bottom" android:background="@drawable/mo_bg_shape_shadow_top_16" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+</com.gotokeep.keep.mo.business.store.mall.impl.sections.ibanner.mvp.view.MallSectionImmersiveBannerView>

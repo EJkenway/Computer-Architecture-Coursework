@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingInfoView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/container_icon" android:paddingTop="13.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+        <ImageView android:id="@id/img_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/rt_training_info_pace_speed" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="@string/rt_speed" android:alpha="0.4" />
+        <ImageView android:id="@id/img_middle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/rt_training_info_time" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="@string/sum_time" android:alpha="0.4" />
+        <ImageView android:id="@id/img_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/rt_training_info_calorie" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="@string/rt_calorie" android:alpha="0.4" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/container_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="28.0sp" android:textColor="@color/rt_training_text_main" android:id="@id/text_left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_dash_dash" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/rt_new_training_info" android:id="@id/text_left_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/rt_pace" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.15">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="28.0sp" android:textColor="@color/rt_training_text_main" android:id="@id/text_middle_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_dash_dash" android:maxLines="1" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/rt_new_training_info" android:id="@id/text_middle_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/rt_total_time" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="28.0sp" android:textColor="@color/rt_training_text_main" android:id="@id/text_right_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_dash_dash" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/rt_new_training_info" android:id="@id/text_right_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/rt_kilo_cal" android:contentDescription="@string/rt_calorie" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.training.mvp.view.OutdoorTrainingInfoView>

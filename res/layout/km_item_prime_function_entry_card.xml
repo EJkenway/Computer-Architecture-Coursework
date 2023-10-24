@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.prime.PrimeFunctionEntryItemView android:background="@drawable/km_bg_8dp_solid_with_fff3de" android:layout_width="109.0dip" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/color_a7660f" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_12dp" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginRight="@dimen/dimen_12dp" android:lines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/textDesc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_marginEnd="@dimen/dimen_32dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/textTitle" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/ivIcon" android:layout_width="@dimen/dimen_36dp" android:layout_height="@dimen/dimen_36dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</com.gotokeep.keep.km.suit.mvp.view.prime.PrimeFunctionEntryItemView>

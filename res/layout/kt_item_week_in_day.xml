@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.DayInWeekCheckView android:orientation="horizontal" android:background="@drawable/setting_background_click" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/black_70" android:id="@id/day_in_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_14dp" />
+    <CheckBox android:layout_gravity="end|center" android:id="@id/checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="14.0dip" android:button="@drawable/selector_cbox" />
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.DayInWeekCheckView>

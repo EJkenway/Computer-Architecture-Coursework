@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SettingBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" app:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+            <LinearLayout style="@style/SettingItem">
+                <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/su_teenager_setting_mode_item" app:mainText="@string/setting_teenager_mode" style="@style/SettingItemSwitch" />
+            </LinearLayout>
+            <TextView android:text="@string/su_setting_teenager_mode_tip" style="@style/SettingPersonInfoDescText" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

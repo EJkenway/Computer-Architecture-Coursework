@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBarTeam" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title="@string/miracast_setting_name" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemAutoSearchProjectionDevice" android:background="@android:color/white" app:mainText="@string/auto_search_miracast_device" style="@style/SettingItemSwitch" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemFullScreen" android:background="@android:color/white" android:visibility="gone" android:layout_marginTop="8.0dip" app:mainText="@string/bad_screen_full_screen" app:settingItemDesc="@string/bad_screen_full_screen_desc" style="@style/SettingItemSwitch" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemKeepLink" android:background="@android:color/white" android:visibility="gone" android:layout_marginTop="8.0dip" app:mainText="@string/keep_link_enabled" style="@style/SettingItemSwitch" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemLeBoLink" android:background="@android:color/white" android:visibility="gone" android:layout_marginTop="8.0dip" app:mainText="@string/le_bo_link_disabled" app:settingItemDesc="@string/le_bo_link_disabled_desc" style="@style/SettingItemSwitch" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.training.completion.mvp.view.LogEquipmentItemCardView android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img" android:background="@drawable/bg_white_radius_4dp" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+    <View android:background="@drawable/bg_8000000_corner_4dp" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/img" app:layout_constraintEnd_toEndOf="@id/img" app:layout_constraintStart_toStartOf="@id/img" app:layout_constraintTop_toTopOf="@id/img" />
+    <TextView android:textSize="13.0sp" android:textColor="#deffffff" android:ellipsize="end" android:id="@id/textName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/img" />
+    <TextView android:textSize="12.0sp" android:textColor="#61ffffff" android:ellipsize="end" android:id="@id/textDesc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="@id/img" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/img" />
+</com.gotokeep.keep.wt.business.training.completion.mvp.view.LogEquipmentItemCardView>

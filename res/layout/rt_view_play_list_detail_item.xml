@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.playlist.mvp.view.PlaylistDetailItemView android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/rt_playlist_main_text_selector" android:ellipsize="end" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="6.0dip" />
+        <com.gotokeep.keep.commonui.view.KLabelView android:id="@id/text_new_online_tag" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" app:klabelStyle="badgeNew" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/rt_playlist_secondary_text_selector" android:ellipsize="end" android:id="@id/text_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" android:layout_below="@id/container_title" />
+    <ImageView android:id="@id/img_status" android:layout_width="25.0dip" android:layout_height="25.0dip" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/download" android:layout_alignParentEnd="true" />
+    <ProgressBar android:id="@id/progress_status" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.rt.business.playlist.mvp.view.PlaylistDetailItemView>

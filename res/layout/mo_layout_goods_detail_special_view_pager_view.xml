@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.detail.special.view.GoodsDetailSpecialViewPagerView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/imageContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/mo_layout_goods_detail_special_image_and_animation" />
+</com.gotokeep.keep.mo.business.store.activity.detail.special.view.GoodsDetailSpecialViewPagerView>

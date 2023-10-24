@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/myTitleBar" app:left_icon="@drawable/icon_close_big_black" app:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="fitStart" app:lottie_autoPlay="true" app:lottie_fileName="lottie/kit_config_wifi_success.json" />
+    <TextView android:textSize="24.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/kt_walkman_security_turned_on" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginRight="46.0dip" android:text="@string/kt_walkman_insurance_success_tips" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/finish" android:background="@drawable/kt_bg_shape_walkman_next" android:layout_width="283.0dip" android:layout_height="50.0dip" android:layout_marginTop="29.0dip" android:layout_marginBottom="28.0dip" android:text="@string/kt_finish" />
+</LinearLayout>

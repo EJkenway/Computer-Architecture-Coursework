@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.stream.EntryOperationView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_99" android:gravity="center_vertical" android:id="@id/textPraiseCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_timeline_praise_normal" android:drawablePadding="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_99" android:gravity="center_vertical" android:id="@id/textCommentCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_timeline_comment" android:drawablePadding="4.0dip" android:layout_marginStart="28.0dip" app:layout_constraintStart_toEndOf="@id/textPraiseCount" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.tc.business.home.mvp.view.stream.EntryOperationView>

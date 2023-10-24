@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.home.mvp.view.HomeEquipmentView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/viewCard" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RtSummaryCardView">
+        <RelativeLayout android:id="@id/layoutTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" style="@style/RtSummaryCardViewTitleLayout">
+            <ImageView android:id="@id/imgTitle" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/rt_ic_shoe_card" android:scaleType="fitXY" />
+            <TextView android:text="@string/rt_summary_equip_title" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/imgTitle" style="@style/RtSummaryCardViewTitleInLayout" />
+            <ImageView android:id="@id/viewClose" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_close_physical_result" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutNoShoe" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+            <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/viewStrongBg" android:background="@drawable/rt_bg_summary_equip_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" app:round_corner="8.0dip" />
+            <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgStrong" android:layout_width="196.0dip" android:layout_height="fill_parent" android:src="@drawable/rt_ic_equip_promo" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="parent" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/textStrongTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/rt_summary_equip_empty_title" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="118.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black_38" android:ellipsize="end" android:id="@id/textStrongSubtitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/rt_summary_equip_empty_subtitle" android:maxLines="1" app:layout_constraintEnd_toEndOf="@id/textStrongTitle" app:layout_constraintStart_toStartOf="@id/textStrongTitle" app:layout_constraintTop_toBottomOf="@id/textStrongTitle" />
+            <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/viewStrongAction" android:background="@color/white" android:layout_width="72.0dip" android:layout_height="30.0dip" android:layout_marginBottom="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/textStrongTitle" app:round_corner="16.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="@color/light_green" android:ellipsize="end" android:gravity="center" android:id="@id/textStrongAction" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/rt_summary_equip_empty_button" android:maxLines="1" android:layout_centerInParent="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+            </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutShoe" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+            <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:id="@id/viewShoe" android:background="@color/gray_fa" android:layout_width="72.0dip" android:layout_height="72.0dip" app:round_corner="6.0dip">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgShoe" android:layout_width="72.0dip" android:layout_height="72.0dip" android:scaleType="centerInside" android:layout_centerInParent="true" />
+            </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" android:layout_marginStart="12.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/black_87" android:ellipsize="end" android:id="@id/textShoeName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/textShoeAchievement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:layout_below="@id/textShoeName" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.gotokeep.keep.rt.business.home.mvp.view.HomeEquipmentView>

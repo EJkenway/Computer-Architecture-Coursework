@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/headerWrapper" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/su_view_hashtag_detail_header" />
+    <View android:id="@id/headerCoverViewDivider" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <com.gotokeep.keep.su.social.hashtag.mvp.header.view.HashtagDetailHeaderTagView android:id="@id/headerTagView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gotokeep.keep.su.social.hashtag.mvp.header.view.HashtagDetailFollowupView android:id="@id/viewFollowup" android:paddingLeft="16.0dip" android:paddingTop="18.0dip" android:paddingRight="16.0dip" android:paddingBottom="18.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="18.0dip" />
+    <com.gotokeep.keep.su.social.hashtag.mvp.header.view.HashtagDetailRelatedCardView android:id="@id/relatedCardView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gotokeep.keep.su.social.hashtag.mvp.header.view.HashtagDetailHeaderGeneralModuleView android:id="@id/headerGeneralModuleView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/relatedViewDivider" android:background="@color/keloton_connect_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+</LinearLayout>

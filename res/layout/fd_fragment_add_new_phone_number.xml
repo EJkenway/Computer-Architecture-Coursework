@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SettingItemWithDivider"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" phone:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <com.gotokeep.keep.fd.base.ui.PhoneEditText android:id="@id/phoneEditText" android:layout_width="wrap_content" android:layout_height="wrap_content" phone:areaCodeTextColor="@color/tab_purple" phone:dividerColor="@color/setting_layer_gray" phone:editHint="" phone:iconVisible="false" phone:mainBackground="@color/white" />
+    <include layout="@layout/layout_verify_code" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/container_password" android:layout_height="60.0dip" style="@style/SettingItem">
+        <TextView android:gravity="center_vertical" android:layout_height="fill_parent" android:text="@string/password" style="@style/SettingMainText" />
+        <EditText android:id="@id/editPassword" style="@style/SettingEditTextPassword" />
+    </LinearLayout>
+    <Button android:id="@id/btnSubmit" android:text="@string/submit" style="@style/SettingButtonMainGreen" />
+</LinearLayout>

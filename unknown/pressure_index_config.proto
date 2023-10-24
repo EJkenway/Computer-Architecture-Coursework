@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+
+message PressureIndexConfig {
+    uint32 start_time = 1;
+    uint32 end_time = 2;
+    uint32 switch = 3;
+    uint32 remind = 4;
+}

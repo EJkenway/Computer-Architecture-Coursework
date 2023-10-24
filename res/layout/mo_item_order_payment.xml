@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/payContainer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_payment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="middle" />
+    <include android:id="@id/otherPayment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="42.0dip" layout="@layout/mo_item_order_payment_other_pay" />
+    <View android:id="@id/bottom_divider" android:visibility="gone" style="@style/StoreDivider" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/payNotice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="16.0dip" android:text="@string/mo_payment_rule_tips" />
+</LinearLayout>

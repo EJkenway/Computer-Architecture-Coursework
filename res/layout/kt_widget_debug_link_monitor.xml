@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="150.0dip" android:layout_height="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="8.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvType" android:background="@color/green" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="--" android:layout_weight="1.0" />
+    <TextView android:textSize="8.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvDevice" android:background="@drawable/kt_selector_debug_link_monitor_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="--" android:layout_weight="1.0" />
+    <TextView android:textSize="8.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvBle" android:background="@drawable/kt_selector_debug_link_monitor_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="BLE" android:layout_weight="1.0" />
+    <TextView android:textSize="8.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvWifi" android:background="@drawable/kt_selector_debug_link_monitor_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Wi-Fi" android:layout_weight="1.0" />
+    <TextView android:textSize="8.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvCurrent" android:background="@color/dark_brown_purple" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="--" android:layout_weight="1.0" />
+</LinearLayout>

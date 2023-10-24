@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "WatchFace";
+
+message WatchFaceConfig {
+    uint32 wf_num = 1;
+    uint32 wf_main_id = 2;
+    repeated uint32 wf_id_list = 3;
+}
+
+message WatchfaceStatus {
+    uint32 status = 1;
+}

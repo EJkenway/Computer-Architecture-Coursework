@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="94.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.roundcorner.RCImageView android:id="@id/img_bg_suit_workout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:round_corner="8.0dip" />
+    <View android:background="@drawable/mo_bg_black40_corner_8dp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/icon_lock" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/icon_lock_filled" android:tint="@color/white" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_toRightOf="@id/icon_lock" android:layout_centerVertical="true">
+        <TextView android:textSize="8.0dip" android:textColor="@color/gray_33" android:id="@id/plus_tag" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/mo_suit_prime_plus_guid" android:layout_above="@id/tv_workout_name" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_workout_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="上肢核心训练" android:singleLine="true" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_workout_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="17 分钟" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

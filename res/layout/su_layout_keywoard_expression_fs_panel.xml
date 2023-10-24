@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_input_view" layout="@layout/su_item_bottom_input_mvp_view" />
+    <cn.dreamtobe.kpswitch.widget.KPSwitchFSPanelFrameLayout android:id="@id/panel_root" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/textTemplateContainer" android:background="@color/gray_fa" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/layout_emotion_panel" layout="@layout/su_item_keyboard_expression_panel" />
+    </cn.dreamtobe.kpswitch.widget.KPSwitchFSPanelFrameLayout>
+</LinearLayout>

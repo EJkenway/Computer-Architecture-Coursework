@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.setting.mvp.view.AvatarInfoItemView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="114.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tipsText" android:text="@string/update_avatar" style="@style/SettingMainText" />
+    <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/userAvatar" android:layout_width="84.0dip" android:layout_height="84.0dip" android:src="@drawable/take_photo_on" android:layout_centerVertical="true" android:layout_marginEnd="48.0dip" android:layout_alignParentEnd="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_arrow_right_m_gray" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+</com.gotokeep.keep.fd.business.setting.mvp.view.AvatarInfoItemView>

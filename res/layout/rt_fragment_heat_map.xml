@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/map_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/layoutCompleteMap" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/viewRouteGroup" android:visibility="gone" android:layout_width="142.0dip" android:layout_height="36.0dip" android:layout_marginBottom="182.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="17.0dip" layout="@layout/rt_view_heat_map_route_group" />
+        <com.gotokeep.keep.commonui.widget.SimpleSlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/title_bar_height" sothree:umanoClipPanel="false" sothree:umanoDragView="@id/list_route_detail" sothree:umanoFadeColor="@android:color/transparent" sothree:umanoPanelHeight="@dimen/rt_heat_map_panel_height" sothree:umanoParallaxOffset="100.0dip" sothree:umanoScrollableView="@id/list_route_detail" xmlns:sothree="http://schemas.android.com/apk/res-auto">
+            <View android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:id="@id/view_slide_content" layout="@layout/rt_view_heat_map_slide_content" />
+        </com.gotokeep.keep.commonui.widget.SimpleSlidingUpPanelLayout>
+        <include android:id="@id/view_buttons" layout="@layout/rt_view_heat_map_buttons" />
+        <include android:id="@id/view_city_route_promotion" layout="@layout/rt_view_city_route_promotion" />
+    </RelativeLayout>
+    <include android:id="@id/layoutRouteDetail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/rt_layout_route_only_detail" />
+</RelativeLayout>

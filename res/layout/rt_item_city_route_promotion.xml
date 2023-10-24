@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/rt_city_promotion_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="2.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_star" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/rt_icon_route_recommended_star" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/purple" android:id="@id/text_route_desc" android:paddingBottom="1.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/img_next" android:layout_toRightOf="@id/img_star" android:layout_centerVertical="true" />
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/img_next" android:layout_width="6.0dip" android:layout_height="10.0dip" android:src="@drawable/ic_right_arrow_home" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

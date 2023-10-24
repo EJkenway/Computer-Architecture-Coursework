@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0dip" android:textColor="@color/gray_33" android:id="@id/textEquipmentNameLandscape" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBaseline_toBaselineOf="@id/textEquipmentValueLandscape" app:layout_constraintStart_toStartOf="parent" />
+    <com.keep.trainingengine.widget.KeepFontTextView android:textSize="37.0dip" android:textColor="@color/gray_33" android:id="@id/textEquipmentValueLandscape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="7.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/textEquipmentNameLandscape" />
+    <TextView android:textSize="20.0dip" android:textColor="@color/gray_33" android:id="@id/textEquipmentUnitLandscape" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBaseline_toBaselineOf="@id/textEquipmentValueLandscape" app:layout_constraintStart_toEndOf="@id/textEquipmentValueLandscape" />
+</androidx.constraintlayout.widget.ConstraintLayout>

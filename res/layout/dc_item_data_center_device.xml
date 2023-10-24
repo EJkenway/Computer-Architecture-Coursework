@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterDeviceItemView android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageIcon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginStart="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/black_70" android:ellipsize="end" android:id="@id/textName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="14.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/imageIcon" app:layout_constraintEnd_toStartOf="@id/imgSelectState" app:layout_constraintStart_toEndOf="@id/imageIcon" app:layout_constraintTop_toTopOf="@id/imageIcon" />
+    <ImageView android:id="@id/imgSelectState" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginEnd="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.dc.business.datacenter.mvp.view.DataCenterDeviceItemView>

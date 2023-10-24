@@ -1,0 +1,98 @@
+.class public final Low2/l$b;
+.super Ljava/lang/Object;
+.source "SearchCourseFilterAdapter.kt"
+
+# interfaces
+.implements Lsl/a$d;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Low2/l;->z()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V::",
+        "Lbm/b;",
+        "M:",
+        "Lcom/gotokeep/keep/data/model/BaseModel;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lsl/a$d;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Low2/l;
+
+
+# direct methods
+.method public constructor <init>(Low2/l;)V
+    .locals 0
+
+    iput-object p1, p0, Low2/l$b;->a:Low2/l;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic a(Lbm/b;)Lbm/a;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/gotokeep/keep/vd/mvp/result/view/SearchCourseFilterItemView;
+
+    invoke-virtual {p0, p1}, Low2/l$b;->b(Lcom/gotokeep/keep/vd/mvp/result/view/SearchCourseFilterItemView;)Lbm/a;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final b(Lcom/gotokeep/keep/vd/mvp/result/view/SearchCourseFilterItemView;)Lbm/a;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/gotokeep/keep/vd/mvp/result/view/SearchCourseFilterItemView;",
+            ")",
+            "Lbm/a<",
+            "Lcom/gotokeep/keep/vd/mvp/result/view/SearchCourseFilterItemView;",
+            "Lcom/gotokeep/keep/data/model/search/SearchCourseFilterItem;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lyw2/n0;
+
+    const-string v1, "it"
+
+    invoke-static {p1, v1}, Lij3/o;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v1, p0, Low2/l$b;->a:Low2/l;
+
+    invoke-static {v1}, Low2/l;->F(Low2/l;)I
+
+    move-result v1
+
+    iget-object v2, p0, Low2/l$b;->a:Low2/l;
+
+    invoke-static {v2}, Low2/l;->G(Low2/l;)Lhj3/l;
+
+    move-result-object v2
+
+    invoke-direct {v0, p1, v1, v2}, Lyw2/n0;-><init>(Lcom/gotokeep/keep/vd/mvp/result/view/SearchCourseFilterItemView;ILhj3/l;)V
+
+    return-object v0
+.end method

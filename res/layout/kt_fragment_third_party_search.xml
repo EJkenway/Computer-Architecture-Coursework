@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/title_bar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:id="@id/left_button" android:paddingLeft="16.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_close_big_black" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+    </FrameLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/kt_bg_heart_rate_search_device" android:layout_width="131.0dip" android:layout_height="142.0dip" android:layout_marginTop="56.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="56.5dip" android:layout_marginRight="48.0dip" android:layout_marginBottom="28.0dip">
+                <TextView android:textSize="28.0sp" android:textColor="@color/gray_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_heart_rate_search_device" />
+                <ImageView android:id="@id/searching_view" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_rotating_loading_gray_medium" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" />
+            <com.gotokeep.keep.kt.business.heart.mvp.view.ThirdPartyHeartRateContainerView android:orientation="vertical" android:id="@id/container_heart_rate_device" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

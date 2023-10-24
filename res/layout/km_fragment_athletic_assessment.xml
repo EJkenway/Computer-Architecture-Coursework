@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/viewStubPermissions" android:layout="@layout/km_layout_assessment_permissions" android:inflatedId="@id/assessmentPermissions" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStubDownload" android:layout="@layout/km_layout_athletic_download_view" android:inflatedId="@id/assessmentDownload" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStubCalibration" android:layout="@layout/km_layout_athletic_calibration_view" android:inflatedId="@id/assessmentCalibration" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStubExplaination" android:layout="@layout/km_layout_athletic_explanation_view" android:inflatedId="@id/assessmentExplaination" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStubDetect" android:layout="@layout/km_layout_athletic_detect" android:inflatedId="@id/athleticDetect" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStuActionFinish" android:layout="@layout/km_layout_athletic_action_finish_view" android:inflatedId="@id/athleticActionFinish" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStuReportGenerating" android:layout="@layout/km_layout_athletic_report_generating_view" android:inflatedId="@id/athleticReportGenerating" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStuReportGeneratingB" android:layout="@layout/km_layout_athletic_report_b" android:inflatedId="@id/athleticReportGeneratingB" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStuVolumeTip" android:layout="@layout/km_layout_athletic_volume_tip_view" android:inflatedId="@id/athleticVolumeTip" android:layout_width="wrap_content" android:layout_height="49.0dip" android:layout_marginTop="@dimen/dimen_72dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

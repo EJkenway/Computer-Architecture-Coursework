@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/motto_top_motto_icon" android:layout_width="27.0dip" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/ic_motto_quote" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_18dp" android:textColor="@color/gray_22" android:id="@id/motto_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="3" android:layout_marginStart="9.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/motto_top_motto_icon" app:layout_constraintTop_toTopOf="parent" style="@style/TextMedium" />
+    <TextView android:textSize="@dimen/font_size_14dp" android:textColor="@color/gray_99" android:id="@id/motto_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/motto_content" app:layout_constraintStart_toStartOf="@id/motto_content" app:layout_constraintTop_toBottomOf="@id/motto_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.CircleRestView android:id="@id/progressStep" android:layout_width="51.0dip" android:layout_height="51.0dip" app:max="100" app:roundColor="#1a808080" app:roundProgressColor="@color/light_green" app:roundProgressWidth="3.0dip" app:roundStyle="STROKE" app:roundWidth="3.0dip" app:textColor="@color/transparent" app:textSize="0.0sp" app:useRoundPaint="false" />
+    <ImageView android:id="@id/imgStepIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

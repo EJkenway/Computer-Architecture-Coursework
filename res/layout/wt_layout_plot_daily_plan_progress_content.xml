@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewIcon" android:background="@drawable/wt_icon_plot_plan_current_stage_done" android:layout_width="@dimen/dimen_20dp" android:layout_height="@dimen/dimen_20dp" app:layout_constraintStart_toStartOf="@id/textTitle" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_87" android:gravity="center_vertical" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="5.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/viewIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

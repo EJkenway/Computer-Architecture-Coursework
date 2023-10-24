@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutRoot" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutPlayer" layout="@layout/kt_view_puncheur_shadow_training_player" />
+    <include android:id="@id/layoutDataBg" layout="@layout/kt_view_puncheur_shadow_data_bg" />
+    <include android:id="@id/layoutInstant" layout="@layout/kt_view_puncheur_shadow_instant" />
+    <include android:id="@id/layoutIncrease" layout="@layout/kt_view_puncheur_shadow_increase" />
+    <include android:id="@id/layoutContinue" layout="@layout/kt_view_puncheur_shadow_continue" />
+    <include android:id="@id/layoutGradient" layout="@layout/kt_view_puncheur_shadow_gradient" />
+    <include android:id="@id/layoutDestination" layout="@layout/kt_view_puncheur_shadow_destination_notice" />
+    <include android:id="@id/layoutNext" layout="@layout/kt_view_puncheur_shadow_next" />
+    <include android:id="@id/layoutPlayerStatusBar" layout="@layout/kt_view_puncheur_shadow_training_player_status" />
+    <include android:id="@id/layoutSmartIntensity" layout="@layout/kt_view_puncheur_shadow_training_smart_intensity" />
+    <include android:id="@id/layoutGestureView" layout="@layout/kt_view_puncheur_shadow_training_gesture" />
+    <include android:id="@id/layoutPlayerControl" layout="@layout/kt_view_puncheur_shadow_training_player_control" />
+    <include android:id="@id/layoutFinish" layout="@layout/kt_view_puncheur_shadow_finish" />
+    <include android:id="@id/layoutExit" layout="@layout/kt_view_puncheur_shadow_training_exit" />
+    <com.gotokeep.keep.DefaultVideoControlView android:id="@id/shadowCoachVideoControlView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar android:id="@id/puncheurShadowLoading" android:layout_width="24.0dip" android:layout_height="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/KeepProgressBarSmall" />
+</androidx.constraintlayout.widget.ConstraintLayout>

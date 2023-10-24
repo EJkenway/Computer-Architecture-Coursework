@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/kt_layout_kitbit_setting_preview" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/switch_stand_reminder" android:layout_marginBottom="12.0dip" app:mainText="@string/kt_kitbit_setting_stand_reminder" style="@style/SettingSingleItemWithClick" />
+    <TextView android:layout_marginBottom="26.0dip" android:text="@string/kt_kitbit_setting_stand_reminder_tips" style="@style/KtSettingTips" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_start_time_stand_reminder" app:mainText="@string/kt_start_time" style="@style/SettingSingleItemWithClick" />
+    <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_end_time_stand_reminder" android:layout_marginTop="0.5dip" app:mainText="@string/kt_end_time" style="@style/SettingSingleItemWithClick" />
+</merge>

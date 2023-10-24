@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.HRZoneItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/gray_66" android:layout_gravity="center_vertical" android:id="@id/text_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dash_dash" android:lines="1" />
+        <com.gotokeep.keep.refactor.business.main.view.RoundHorizontalProgressBar android:layout_gravity="center_vertical" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginLeft="92.0dip" android:layout_marginRight="88.0dip" app:backgroundColor="@android:color/transparent" app:isShowRoundAtZeroPercent="true" app:progressColor="@color/light_green" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/text_range" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dash_dash" android:lines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/text_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="92.0dip" android:text="@string/dash_dash" android:lines="1" />
+    </FrameLayout>
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.HRZoneItemView>

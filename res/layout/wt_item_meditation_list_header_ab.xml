@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.meditation.mvp.view.MeditationTabHeadItemView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="180.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layoutContainer" android:background="@drawable/wt_pic_video_ab" android:layout_width="fill_parent" android:layout_height="160.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="24.0sp" android:textColor="@color/meditation_list" android:id="@id/textMeditation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="34.0dip" android:text="@string/meditation" />
+        <ImageView android:id="@id/imagePlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/wt_play_list_ab" android:layout_toRightOf="@id/textMeditation" android:layout_alignTop="@id/textMeditation" android:layout_alignBottom="@id/textMeditation" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/meditation_list" android:id="@id/textBanner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="37.0dip" android:text="@string/yoga_desc" android:layout_below="@id/textMeditation" android:layout_alignLeft="@id/textMeditation" android:lineSpacingMultiplier="1.5" />
+    </RelativeLayout>
+</com.gotokeep.keep.wt.business.meditation.mvp.view.MeditationTabHeadItemView>

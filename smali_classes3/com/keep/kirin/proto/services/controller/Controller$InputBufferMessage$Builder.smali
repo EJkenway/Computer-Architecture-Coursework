@@ -1,0 +1,178 @@
+.class public final Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage$Builder;
+.super Lcom/google/protobuf/GeneratedMessageLite$b;
+.source "Controller.java"
+
+# interfaces
+.implements Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Builder"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/protobuf/GeneratedMessageLite$b<",
+        "Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;",
+        "Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage$Builder;",
+        ">;",
+        "Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessageOrBuilder;"
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 1
+
+    .line 2
+    invoke-static {}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;->access$400()Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/google/protobuf/GeneratedMessageLite$b;-><init>(Lcom/google/protobuf/GeneratedMessageLite;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/keep/kirin/proto/services/controller/Controller$1;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage$Builder;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public clearFocused()Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+
+    invoke-static {v0}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;->access$900(Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;)V
+
+    return-object p0
+.end method
+
+.method public clearText()Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+
+    invoke-static {v0}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;->access$600(Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;)V
+
+    return-object p0
+.end method
+
+.method public getFocused()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+
+    invoke-virtual {v0}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;->getFocused()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getText()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+
+    invoke-virtual {v0}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;->getText()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getTextBytes()Lcom/google/protobuf/i;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+
+    invoke-virtual {v0}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;->getTextBytes()Lcom/google/protobuf/i;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public setFocused(Z)Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+
+    invoke-static {v0, p1}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;->access$800(Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;Z)V
+
+    return-object p0
+.end method
+
+.method public setText(Ljava/lang/String;)Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+
+    invoke-static {v0, p1}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;->access$500(Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;Ljava/lang/String;)V
+
+    return-object p0
+.end method
+
+.method public setTextBytes(Lcom/google/protobuf/i;)Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;
+
+    invoke-static {v0, p1}, Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;->access$700(Lcom/keep/kirin/proto/services/controller/Controller$InputBufferMessage;Lcom/google/protobuf/i;)V
+
+    return-object p0
+.end method

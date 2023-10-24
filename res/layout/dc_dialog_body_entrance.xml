@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_white_top_corner_12dp" android:paddingTop="12.0dip" android:paddingBottom="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgDrag" android:layout_width="40.0dip" android:layout_height="6.0dip" android:src="@drawable/dc_bg_solid_d8d8d8_corner_4dp" />
+    <TextView android:textColor="@color/color_Black_Light_Title" android:layout_gravity="start" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginStart="16.0dip" style="@style/Style_24_Semibold" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutPanel" android:paddingLeft="32.0dip" android:paddingTop="24.0dip" android:paddingRight="32.0dip" android:paddingBottom="24.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+</LinearLayout>

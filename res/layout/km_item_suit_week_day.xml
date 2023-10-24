@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="25.0dip" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="29.0dip">
+        <View android:id="@id/view_day_selected" android:background="@drawable/km_suit_calendar_bg" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <TextView android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/text_day" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/img_completed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/km_icon_suit_finish" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/c_gray" android:gravity="center" android:id="@id/text_week_day_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.me.mvp.view.MePageEntryLineView android:orientation="horizontal" android:background="@color/white" android:paddingLeft="14.0dip" android:paddingTop="4.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" android:paddingHorizontal="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layoutContainer1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include android:id="@id/layoutDraft" layout="@layout/fd_view_me_page_entry_draft" />
+        <include android:id="@id/layoutEntry1" layout="@layout/fd_view_me_page_entry_item" />
+    </FrameLayout>
+    <include android:id="@id/layoutEntry2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="4.0dip" layout="@layout/fd_view_me_page_entry_item" />
+    <include android:id="@id/layoutEntry3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="4.0dip" layout="@layout/fd_view_me_page_entry_item" />
+</com.gotokeep.keep.fd.business.me.mvp.view.MePageEntryLineView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.bodydata.mvp.view.BodyRecordEmptyAlbumView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/three_gray" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/add_silhouette" android:drawableLeft="@drawable/icon_camera_purple" android:drawablePadding="7.0dip" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_cc" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/add_silhouette_tips" />
+    <View android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="45.0dip" />
+</com.gotokeep.keep.tc.bodydata.mvp.view.BodyRecordEmptyAlbumView>

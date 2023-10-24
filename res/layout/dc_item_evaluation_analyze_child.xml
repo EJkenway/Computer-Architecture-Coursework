@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dc.business.evaluate.mvp.view.EvaluationAnalyzeChildView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/color_Black_Light_Title" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="10.0dip" style="@style/Style_16_Medium" />
+    <TextView android:textColor="@color/color_Gray_66_Light_Secondary" android:id="@id/textDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginStart="18.0dip" style="@style/Style_12_Regular" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imageDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:adjustViewBounds="true" android:layout_marginStart="18.0dip" />
+</com.gotokeep.keep.dc.business.evaluate.mvp.view.EvaluationAnalyzeChildView>

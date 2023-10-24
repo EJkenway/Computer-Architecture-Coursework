@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/avatar_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gotokeep.keep.commonui.uilib.CircularImageView android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        <ImageView android:layout_gravity="right" android:id="@id/leader" android:visibility="invisible" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/icon_road_master" />
+    </FrameLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_66" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="36.0sp" android:textColor="@color/three_black" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/gray_99" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

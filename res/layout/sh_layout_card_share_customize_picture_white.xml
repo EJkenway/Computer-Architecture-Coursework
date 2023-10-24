@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.share.customize.mvp.view.ShareCustomizeLongPictureCard android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/cardView" android:background="@drawable/bg_stroke_efefef_corner_8dp" android:layout_width="281.0dip" android:layout_height="500.0dip" android:layout_marginBottom="22.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" app:cardUseCompatPadding="false">
+        <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip">
+            <ImageView android:layout_gravity="top" android:id="@id/cardImageView" android:layout_width="fill_parent" android:layout_height="800.0dip" android:layout_marginBottom="16.0dip" android:scaleType="centerCrop" />
+        </androidx.core.widget.NestedScrollView>
+        <View android:layout_gravity="bottom|center" android:id="@id/bottomBg" android:background="@drawable/bg_gradient_white00_f9f8f4_white_angle_270" android:layout_width="fill_parent" android:layout_height="115.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/bottomImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:src="@drawable/icon_arrow_up" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff7c7b7b" android:layout_gravity="bottom|center" android:id="@id/bottomTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/long_pic_glide_tip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.cardview.widget.CardView>
+</com.gotokeep.keep.share.customize.mvp.view.ShareCustomizeLongPictureCard>

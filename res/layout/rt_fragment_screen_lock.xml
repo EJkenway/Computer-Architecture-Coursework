@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/lock_container" android:background="@drawable/rt_training_gradient_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/view_lock_title" layout="@layout/rt_view_screen_lock_title" />
+        <include android:layout_gravity="center_vertical" android:id="@id/view_normal_screen_lock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" layout="@layout/rt_view_screen_lock_data_normal" />
+        <include android:id="@id/view_target_screen_lock" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/rt_scree_lock_target_margin_top" android:layout_above="@id/text_unlock" android:layout_below="@id/view_lock_title" layout="@layout/rt_view_screen_lock_target_container" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white_20" android:id="@id/text_unlock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:text="@string/swipe_unlock" android:drawableRight="@drawable/rt_screen_lock_unlock_arrow" android:drawablePadding="10.0dip" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:drawableEnd="@drawable/rt_screen_lock_unlock_arrow" />
+    </RelativeLayout>
+</FrameLayout>

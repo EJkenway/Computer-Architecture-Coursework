@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24.0dip</dimen>
+    <dimen name="pause_round_button_size">84.0dip</dimen>
+    <dimen name="rest_circular_progress_size">132.0dip</dimen>
+    <dimen name="rest_circular_progress_size_land">106.0dip</dimen>
+    <dimen name="rest_count_down_font_size">76.0dip</dimen>
+    <dimen name="training_landscape_vertical_margin">12.0dip</dimen>
+</resources>

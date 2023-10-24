@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/kt_chart_container_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.github.mikephil.charting.charts.LineChart android:id="@id/chartLine" android:layout_width="fill_parent" android:layout_height="@dimen/kt_chart_content_height" />
+    <com.github.mikephil.charting.charts.ScatterChart android:id="@id/chartScatter" android:layout_width="fill_parent" android:layout_height="@dimen/kt_chart_content_height" />
+    <com.github.mikephil.charting.charts.BarChart android:id="@id/chartBar" android:layout_width="fill_parent" android:layout_height="@dimen/kt_chart_content_height" />
+    <com.gotokeep.keep.commonui.view.ChartXAxisView android:id="@id/xAxis" android:layout_width="fill_parent" android:layout_height="@dimen/kt_chart_x_axis_height" android:layout_alignParentBottom="true" />
+    <com.gotokeep.keep.kt.business.common.KitChartYAxisView android:orientation="vertical" android:id="@id/yAxis" android:layout_width="30.0dip" android:layout_height="fill_parent" android:translationY="-10.0dip" android:layout_marginStart="-5.0dip" />
+</RelativeLayout>

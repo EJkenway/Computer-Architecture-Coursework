@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurFMTrainingRotateGuideView android:background="@color/black_40" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgRotate" android:layout_width="128.0dip" android:layout_height="128.0dip" android:src="@drawable/kt_icon_puncheur_free_rotate" app:layout_constraintBottom_toTopOf="@id/textRotate" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:textSize="@dimen/ysf_text_size_20" android:textColor="@color/white" android:id="@id/textRotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:text="@string/kt_puncheur_free_rotate_tips" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgRotate" />
+</com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurFMTrainingRotateGuideView>

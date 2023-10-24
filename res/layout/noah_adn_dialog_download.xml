@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/adn_dialog_download_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hc_download_dialog_title" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffbbbbbb" android:id="@id/noah_adn_dialog_download_remind" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/hc_download_dialog_remind" android:layout_toRightOf="@id/adn_dialog_download_title" android:layout_alignBaseline="@id/adn_dialog_download_title" />
+        <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="#ff2696ff" android:id="@id/noah_adn_dialog_download_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hc_download_dialog_cancel" android:layout_alignBaseline="@id/adn_dialog_download_title" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="25.5dip">
+        <com.noah.adn.huichuan.view.ui.widget.HCRoundedNetImageView android:id="@id/noah_adn_dialog_download_app_logo" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="84.0dip">
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/noah_adn_dialog_download_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffbbbbbb" android:id="@id/noah_adn_dialog_download_version_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_toRightOf="@id/noah_adn_dialog_download_app_name" android:layout_alignBaseline="@id/noah_adn_dialog_download_app_name" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/noah_adn_dialog_download_download_btn" android:background="@drawable/shape_bg_hc_download_dialog_btn" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/hc_download_dialog_btn" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="#ff2696ff" android:id="@id/noah_adn_dialog_download_permission" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="10.0dip" android:text="@string/noah_hc_download_dialog_permission" />
+        <View android:id="@id/noah_adn_dialog_download_divider" android:background="#ffeeeeee" android:layout_width="1.0dip" android:layout_height="8.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff2696ff" android:id="@id/noah_adn_dialog_download_privacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="10.0dip" android:text="@string/noah_hc_download_dialog_privacy" />
+        <View android:id="@id/noah_adn_dialog_download_divider_2" android:background="#ffeeeeee" android:layout_width="1.0dip" android:layout_height="8.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff2696ff" android:id="@id/noah_adn_dialog_function_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="10.0dip" android:text="@string/noah_hc_download_dialog_function_desc" />
+    </LinearLayout>
+    <TextView android:textSize="10.0dip" android:textColor="#ffbbbbbb" android:layout_gravity="center" android:id="@id/noah_adn_dialog_download_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+</merge>

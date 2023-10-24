@@ -1,0 +1,85 @@
+.class public final Lc00/a;
+.super Lc00/g;
+.source "AllSportCardProcessor.kt"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lc00/g;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public b()Ljava/util/Map;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Lb00/b;",
+            ">;"
+        }
+    .end annotation
+
+    const/4 v0, 0x3
+
+    new-array v0, v0, [Lwi3/f;
+
+    .line 1
+    new-instance v1, Lc00/b;
+
+    invoke-direct {v1}, Lc00/b;-><init>()V
+
+    const-string v2, "TREND_ALL_SPORT_GRAPH_SPORT_CALENDAR"
+
+    invoke-static {v2, v1}, Lwi3/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Lwi3/f;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    aput-object v1, v0, v2
+
+    .line 2
+    new-instance v1, Lc00/d;
+
+    invoke-direct {v1}, Lc00/d;-><init>()V
+
+    const-string v2, "TREND_ALL_SPORT_GRAPH_DAY_COMPARE"
+
+    invoke-static {v2, v1}, Lwi3/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Lwi3/f;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    aput-object v1, v0, v2
+
+    .line 3
+    new-instance v1, Lc00/o;
+
+    invoke-direct {v1}, Lc00/o;-><init>()V
+
+    const-string v2, "TREND_ALL_SPORT_GRAPH_WEEK_AVG"
+
+    invoke-static {v2, v1}, Lwi3/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Lwi3/f;
+
+    move-result-object v1
+
+    const/4 v2, 0x2
+
+    aput-object v1, v0, v2
+
+    .line 4
+    invoke-static {v0}, Lkotlin/collections/q0;->l([Lwi3/f;)Ljava/util/Map;
+
+    move-result-object v0
+
+    return-object v0
+.end method

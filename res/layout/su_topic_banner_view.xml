@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.topic.mvp.view.TopicBannerView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.banner.BannerWidget android:id="@id/imageBanner" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="W,24:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.su.widget.DotIndicator android:id="@id/dotIndicator" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:di_color="@color/gray_fa_40" app:di_color_selected="@color/gray_fa" app:di_margin="4.0dip" app:di_size="6.0dip" app:di_size_selected="6.0dip" app:layout_constraintBottom_toBottomOf="@id/imageBanner" app:layout_constraintEnd_toEndOf="@id/imageBanner" app:layout_constraintStart_toStartOf="@id/imageBanner" />
+</com.gotokeep.keep.su.social.topic.mvp.view.TopicBannerView>

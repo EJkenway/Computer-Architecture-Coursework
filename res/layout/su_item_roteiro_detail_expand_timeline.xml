@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.dayflow.roteiro.mvp.view.RoteiroDetailExpandView android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/purple" android:gravity="center" android:layout_gravity="center" android:id="@id/textExpandTimeline" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/dayflow_expand_all" android:drawableLeft="@drawable/ic_arrow_down_collection" android:drawablePadding="10.0dip" android:drawableStart="@drawable/ic_arrow_down_collection" />
+</com.gotokeep.keep.dayflow.roteiro.mvp.view.RoteiroDetailExpandView>

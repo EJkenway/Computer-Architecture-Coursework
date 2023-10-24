@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_enhance" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:paddingTop="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rt_settings_header_audio" />
+        </LinearLayout>
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/item_switch_voice" app:mainText="@string/rt_voice_broadcast" style="@style/RtSettingItemSwitch" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/item_audio_packet" android:background="@android:color/white" app:mainText="@string/rt_choice_sound_settings" style="@style/RtSettingSingleItemWithClick" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutMetronome" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/rt_layout_settings_divider" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItemSwitch android:id="@id/itemMetronome" android:background="@color/white" android:layout_height="@dimen/setting_item_height" app:mainText="@string/rt_metronome_title" style="@style/RtSettingItemSwitch" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemMetronomeFrequency" android:background="@color/white" app:mainText="@string/rt_metronome_frequency" style="@style/RtSettingSingleItemWithClick" />
+        <com.gotokeep.keep.commonui.widget.settings.SettingItem android:id="@id/itemMetronomeSound" android:background="@color/white" app:mainText="@string/rt_metronome_sound" style="@style/RtSettingSingleItemWithClick" />
+    </LinearLayout>
+</LinearLayout>

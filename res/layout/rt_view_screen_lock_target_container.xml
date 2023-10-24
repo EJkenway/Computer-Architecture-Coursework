@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorScreenLockTargetView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/rt_view_screen_lock_target_top_info" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include android:id="@id/view_lock_data_target" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/rt_view_screen_lock_data_target" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</com.gotokeep.keep.rt.business.screenlock.mvp.view.OutdoorScreenLockTargetView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.training.traininglog.mvp.view.LogDoubtfulView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/topSpace" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutContent" android:layout_width="fill_parent" android:layout_height="45.0dip" app:layout_constraintTop_toBottomOf="@id/topSpace">
+        <View android:background="@drawable/wt_km_bg_4dp_solid_ffe9e7" android:layout_width="fill_parent" android:layout_height="45.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/imgInvalidLog" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_exclamation_filled_red" android:layout_marginStart="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/three_gray" android:id="@id/textInvalidTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/imgInvalidLog" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="13.0sp" android:id="@id/textAction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wt_check_reason" android:layout_marginEnd="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/iconMore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_common_arrow_small" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Space android:id="@id/bottomSpace" android:layout_width="fill_parent" android:layout_height="12.0dip" app:layout_constraintTop_toBottomOf="@id/layoutContent" />
+</com.gotokeep.keep.wt.business.training.traininglog.mvp.view.LogDoubtfulView>

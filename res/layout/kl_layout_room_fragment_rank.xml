@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layoutCollapse" android:background="@drawable/kl_bg_room_rank_little" android:layout_width="18.0dip" android:layout_height="56.0dip" android:layout_centerVertical="true" android:layout_toEndOf="@id/layoutData">
+        <com.gotokeep.keep.commonui.widget.blur.BlurView android:id="@id/blurViewCollapse" android:layout_width="fill_parent" android:layout_height="fill_parent" app:blurOverlayColor="@color/kl_color_gauss_dark4" app:controllerType="texture" app:cornerRadiusRightBottom="8.0dip" app:cornerRadiusRightTop="8.0dip" />
+        <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/kl_icon_collapse" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layoutData" android:background="@drawable/kl_bg_room_rank" android:layout_width="187.0dip" android:layout_height="fill_parent">
+        <com.gotokeep.keep.commonui.widget.blur.BlurView android:id="@id/blurView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:blurOverlayColor="@color/kl_color_gauss_dark4" app:controllerType="texture" />
+        <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" style="@style/kl_text_anim_indicator_tab_strip" />
+        <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabs" android:layout_centerHorizontal="true" />
+        <View android:background="@color/white_20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/tabs" />
+    </RelativeLayout>
+</RelativeLayout>

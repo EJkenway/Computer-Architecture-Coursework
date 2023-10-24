@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.map.MapViewContainer android:id="@id/map_view_container" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout android:gravity="center" android:id="@id/btnChangeStyle" android:background="@color/light_green" android:layout_width="240.0dip" android:layout_height="@dimen/rt_bottom_green_button_height" android:layout_marginBottom="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:round_corner="@dimen/rt_bottom_green_button_radius">
+        <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Change Style" android:layout_centerVertical="true" />
+    </com.gotokeep.keep.commonui.widget.roundcorner.RoundRelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:background="@color/black_40" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/mapSdkContainer" android:layout_width="260.0dip" android:layout_height="416.0dip" android:layout_marginTop="50.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/viewCurrent" android:background="@color/red" android:layout_width="10.0dip" android:layout_height="10.0dip" />
+        <RelativeLayout android:id="@id/viewMask" android:background="@color/black_40" android:visibility="gone" android:layout_width="300.0dip" android:layout_height="600.0dip" android:layout_marginTop="50.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ProgressBar android:id="@id/progressBarLoading" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" style="@style/KeepProgressBarSmall" />
+        </RelativeLayout>
+        <com.gotokeep.keep.player.MediaPlayerView android:id="@id/mediaPlayer" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="300.0dip" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <ScrollView android:background="@color/black_40" android:layout_width="fill_parent" android:layout_height="100.0dip">
+                <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/tvLogs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnPlay" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="play" />
+                <View android:layout_width="16.0dip" android:layout_height="1.0dip" />
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnStop" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="stop" />
+                <View android:layout_width="16.0dip" android:layout_height="1.0dip" />
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnPauseResume" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="pause" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnCompose" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="compose" />
+                <View android:layout_width="16.0dip" android:layout_height="1.0dip" />
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnCover" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="封面" />
+                <View android:layout_width="16.0dip" android:layout_height="1.0dip" />
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnToggleSize" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="large" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnShowData" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="显示数据" />
+                <View android:layout_width="16.0dip" android:layout_height="1.0dip" />
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnHideData" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="隐藏数据" />
+                <View android:layout_width="16.0dip" android:layout_height="1.0dip" />
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnPerspective" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="切换视角" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnMapStyle" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="map style" />
+                <View android:layout_width="16.0dip" android:layout_height="1.0dip" />
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnMapSkin" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="map skin" />
+                <View android:layout_width="16.0dip" android:layout_height="1.0dip" />
+                <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnTrackSkin" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" app:kText="track skin" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/imgCover" android:layout_width="100.0dip" android:layout_height="200.0dip" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

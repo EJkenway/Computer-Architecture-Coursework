@@ -1,0 +1,18 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "RunningGuide";
+
+message RunningGuideControl
+{
+    uint32 enable = 1;
+}
+
+message RunningState {
+    uint32 running_state = 1;
+}
+
+message RunningGuideDialog {
+    string dialog_content = 1;
+    uint32 green_button = 2;
+    uint32 black_button = 3;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.feedv4.mvp.view.FeedV4ActionView android:layout_width="fill_parent" android:layout_height="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/space" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/actionContainer" app:layout_constraintStart_toStartOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/actionContainer" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toStartOf="@id/planView" app:layout_constraintStart_toEndOf="@id/space" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/likeView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/likeImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_single_unlike_24" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/likeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="1.0dip" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/commentView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/commentImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_timeline_comment" />
+                <TextView android:textSize="13.0sp" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/commentText" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="1.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/collectView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/collectImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_single_collect" />
+                <TextView android:textSize="13.0sp" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/collectText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="1.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/planView" android:background="@drawable/bg_light_green_50dp_corner" android:layout_width="120.0dip" android:layout_height="36.0dip" android:layout_marginTop="4.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.su.social.feedv4.mvp.view.FeedV4ActionView>

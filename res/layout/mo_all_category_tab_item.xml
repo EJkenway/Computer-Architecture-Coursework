@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.mvp.view.AllCategoryTabItemView android:paddingTop="@dimen/dimen_20dp" android:paddingBottom="@dimen/dimen_20dp" android:layout_width="94.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/tabSelected" android:background="@color/color_846ffe" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_14sp" android:textStyle="bold" android:textColor="@color/color_666666" android:ellipsize="end" android:gravity="center" android:id="@id/textTabName" android:paddingLeft="@dimen/dimen_3dp" android:paddingRight="@dimen/dimen_3dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.mo.business.store.mvp.view.AllCategoryTabItemView>

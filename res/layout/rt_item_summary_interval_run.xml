@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summary.mvp.view.SummaryItemIntervalRunView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RtSummaryCardSingleItem">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_item_interval_run" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="31.0dip" android:paddingEnd="9.0dip">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/gray_cc" android:gravity="center" android:id="@id/textNo" android:layout_width="42.0dip" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_dark" android:ellipsize="end" android:gravity="start|center" android:id="@id/textName" android:layout_width="100.0dip" android:layout_height="fill_parent" android:maxLines="1" />
+            <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_light" android:gravity="center" android:id="@id/textDistance" android:layout_width="40.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_light" android:gravity="center" android:id="@id/textTime" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_light" android:gravity="center" android:id="@id/textPace" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/outdoor_summary_text_light" android:gravity="center" android:id="@id/textHeartRate" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_marginEnd="5.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</com.gotokeep.keep.rt.business.summary.mvp.view.SummaryItemIntervalRunView>

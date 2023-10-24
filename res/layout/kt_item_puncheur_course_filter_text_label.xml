@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurCourseFilterTextLabelView android:layout_width="fill_parent" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@drawable/kt_bg_000000_select_24c789" android:ellipsize="end" android:gravity="center" android:id="@id/textLabel" android:background="@drawable/kt_bg_fafafa_select_24c789" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.PuncheurCourseFilterTextLabelView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.treadmill.widget.StepChartRunningView android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="72.0sp" android:textColor="#ff24c789" android:id="@id/frequency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="0" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:layout_marginBottom="4.0dip" android:text="@string/kt_keloton_step" />
+    <com.gotokeep.keep.kt.business.treadmill.widget.ChartViewXAxisView android:id="@id/cvxv_x_axis" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginTop="72.0dip" android:layout_marginRight="14.0dip" app:xTextColor="@color/gray_cc" app:xTextSize="14.0sp" />
+    <FrameLayout android:orientation="horizontal" android:id="@id/v_chart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="84.0dip">
+        <com.github.mikephil.charting.charts.ScatterChart android:id="@id/chart" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginRight="18.0dip" />
+        <com.gotokeep.keep.kt.business.treadmill.widget.StepChartYAxisView android:layout_gravity="right" android:id="@id/y_axis" android:layout_width="18.0dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" />
+    </FrameLayout>
+</com.gotokeep.keep.kt.business.treadmill.widget.StepChartRunningView>

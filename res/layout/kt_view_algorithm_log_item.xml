@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.algorithmaid.mvp.view.AlgoLogItemView android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip" style="@style/TcCardFourSlide"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="200.0dip" android:text="拳击" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:id="@id/tvStatus" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="未上传" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="开始时间： " />
+        <TextView android:id="@id/tvStartTime" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2019.08.16 17:55" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="时长：" />
+        <TextView android:id="@id/tvEndTime" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1分钟" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.algorithmaid.mvp.view.AlgoLogItemView>

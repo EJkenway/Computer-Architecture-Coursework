@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurTrainingFreeResistanceListItemView android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewProgressBackground" android:background="@drawable/kt_bg_puncheur_free_resistance_item" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/progressResistanceDuration" app:layout_constraintEnd_toEndOf="@id/progressResistanceDuration" app:layout_constraintStart_toStartOf="@id/progressResistanceDuration" app:layout_constraintTop_toTopOf="@id/progressResistanceDuration" />
+    <ProgressBar android:id="@id/progressResistanceDuration" android:layout_width="0.0dip" android:layout_height="0.0dip" android:max="100" android:progressDrawable="@drawable/kt_layer_puncheur_training_resistance_bg" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="?android:progressBarStyleHorizontal" />
+</com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurTrainingFreeResistanceListItemView>

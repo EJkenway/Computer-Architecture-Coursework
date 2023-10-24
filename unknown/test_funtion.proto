@@ -1,0 +1,19 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+option java_outer_classname = "TestFuncion";
+
+message CleanEphemeris {
+  uint32 status = 1;
+}
+
+message ResetRsp {
+  uint32 status = 1;
+}
+
+message PowerOffRsp {
+  uint32 status = 1;
+}
+
+message BroadcastInfo {
+    uint32 length = 1;
+}

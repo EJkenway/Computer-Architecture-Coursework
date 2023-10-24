@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.meditation.mvp.view.HorizontalSlideContainerView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" layout="@layout/tc_view_meditation_horizontal_header" />
+    <com.gotokeep.keep.tc.business.meditation.mvp.view.HorizontalScrollListView android:orientation="horizontal" android:id="@id/listView" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toBottomOf="@id/layoutHeader" />
+</com.gotokeep.keep.tc.business.meditation.mvp.view.HorizontalSlideContainerView>

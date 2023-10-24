@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.km.suit.mvp.view.SuitReGeneratePlanView android:background="@drawable/bg_fafafa_radius_4dp" android:padding="@dimen/dimen_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgPlan" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/km_ic_sub_task_edit" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_66" android:ellipsize="end" android:id="@id/textExhibit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/imgPlan" app:layout_constraintTop_toTopOf="parent" />
+</com.gotokeep.keep.km.suit.mvp.view.SuitReGeneratePlanView>

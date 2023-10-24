@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_ff666f" android:id="@id/timeDay" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/color_ff666f" android:id="@id/timeHours" android:background="@drawable/mo_background_round_corner_4dp_pink" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/color_ff666f" android:id="@id/colonFirst" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:text="@string/mo_colon" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/color_ff666f" android:id="@id/timeMin" android:background="@drawable/mo_background_round_corner_4dp_pink" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/color_ff666f" android:id="@id/colonSecond" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:text="@string/mo_colon" />
+    <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/color_ff666f" android:id="@id/timeSec" android:background="@drawable/mo_background_round_corner_4dp_pink" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_ff666f" android:id="@id/timerHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mo_will_be_invalid" />
+</LinearLayout>

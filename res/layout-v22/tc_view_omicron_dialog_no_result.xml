@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgIcon" android:layout_width="120.0dip" android:layout_height="120.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="28.0dip" android:textStyle="bold" android:textColor="@color/black_87" android:gravity="center" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/tc_exercise_to_promote_immunity" app:layout_constraintTop_toBottomOf="@id/imgIcon" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/gray_33" android:gravity="center" android:id="@id/textSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/tc_warm_up_before_exercise" app:layout_constraintTop_toBottomOf="@id/textTitle" />
+    <com.gotokeep.keep.commonui.widget.button.KeepStyleButton android:id="@id/btnKnow" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="20.0dip" android:layout_marginHorizontal="20.0dip" app:kStyle="large" app:kText="@string/i_know" app:layout_constraintTop_toBottomOf="@id/textSubtitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

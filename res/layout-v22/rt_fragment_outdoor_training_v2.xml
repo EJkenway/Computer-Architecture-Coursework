@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/rt_new_training_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layoutExpandData" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/layoutTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/rt_view_training_new_title_bar" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layoutTitleBar">
+            <RelativeLayout android:gravity="bottom" android:id="@id/layoutTopArea" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.16">
+                <include android:id="@id/layoutTrainingMainInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/rt_view_training_top_info" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="bottom" android:id="@id/layoutCenterArea" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <include android:id="@id/layoutTrainingInfo" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_centerInParent="true" layout="@layout/rt_view_training_info" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layoutBottomArea" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.3">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <include android:id="@id/layoutBottomButtons" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/layoutAudioCard" app:layout_constraintTop_toTopOf="parent" layout="@layout/rt_view_training_bottom" />
+                    <include android:id="@id/layoutAudioCard" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/rt_view_training_audio_card" />
+                    <include android:id="@id/layoutLock" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/layoutAudioCard" app:layout_constraintTop_toTopOf="parent" layout="@layout/rt_view_training_lock" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <include android:id="@id/layoutLiveShare" android:layout_width="95.0dip" android:layout_height="36.0dip" android:layout_marginTop="36.0dip" android:layout_below="@id/layoutTitleBar" android:layout_alignParentEnd="true" layout="@layout/rt_view_training_live_share" />
+    </RelativeLayout>
+    <include android:id="@id/layoutCollapseData" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/rt_view_training_collapse_data" />
+    <include android:id="@id/layoutLockCover" android:visibility="invisible" layout="@layout/rt_view_training2_lock_cover" />
+    <include android:id="@id/layoutCountDown" layout="@layout/rt_widget_training_count_down" />
+</RelativeLayout>

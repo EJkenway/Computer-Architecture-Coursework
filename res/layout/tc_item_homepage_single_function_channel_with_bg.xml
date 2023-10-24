@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.tc.business.home.mvp.view.quick.FunctionChannelWithBgItemView android:padding="@dimen/dimen_12dp" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/black_72" android:gravity="start" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_constrainedWidth="true" app:layout_constraintEnd_toStartOf="@id/imgChannel" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgChannel" android:layout_width="18.0dip" android:layout_height="18.0dip" android:scaleType="centerInside" app:border_width="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/black_38" android:id="@id/textSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4dp" android:maxLines="1" app:layout_constraintTop_toBottomOf="@id/imgChannel" />
+</com.gotokeep.keep.tc.business.home.mvp.view.quick.FunctionChannelWithBgItemView>

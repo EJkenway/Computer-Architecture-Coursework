@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/layoutParent" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.wt.business.albums.detail.mvp.view.CourseCollectionDetailTopView android:id="@id/layoutTop" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <com.gotokeep.keep.wt.business.albums.detail.mvp.view.CourseCollectionDetailListView android:id="@id/layoutList" android:background="@drawable/wt_bg_course_collection_detail" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="24.0dip" app:layout_constraintBottom_toBottomOf="@id/divider1" app:layout_constraintTop_toBottomOf="@id/tvDesc" app:layout_goneMarginTop="32.0dip" />
+    <androidx.constraintlayout.widget.Group android:id="@id/scheduleButtonGroup" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="divider1,tvAdd" />
+    <View android:id="@id/divider1" android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="60.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvAdd" android:background="@drawable/wt_bg_50dp_round_green_nosize" android:layout_width="283.0dip" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" android:text="@string/wt_add_course" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider1" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/errorView" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

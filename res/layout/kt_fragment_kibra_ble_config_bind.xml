@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/keloton_connect_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/toolbar" app:background_color="@color/white" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title_color="@color/gray_33" style="@style/ItemCustomTitleBar" />
+    <include android:id="@id/kibra_ble_config_bind" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip" layout="@layout/kt_view_kibra_ble_config_bind" />
+</FrameLayout>

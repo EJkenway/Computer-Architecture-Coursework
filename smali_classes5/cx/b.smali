@@ -1,0 +1,45 @@
+.class public final synthetic Lcx/b;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lsl/a$d;
+
+
+# static fields
+.field public static final synthetic a:Lcx/b;
+
+
+# direct methods
+.method public static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcx/b;
+
+    invoke-direct {v0}, Lcx/b;-><init>()V
+
+    sput-object v0, Lcx/b;->a:Lcx/b;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lbm/b;)Lbm/a;
+    .locals 1
+
+    new-instance v0, Lfx/h0;
+
+    check-cast p1, Lcom/gotokeep/keep/dc/business/datacenter/mvp/view/DataCenterSumTrainView;
+
+    invoke-direct {v0, p1}, Lfx/h0;-><init>(Lcom/gotokeep/keep/dc/business/datacenter/mvp/view/DataCenterSumTrainView;)V
+
+    return-object v0
+.end method

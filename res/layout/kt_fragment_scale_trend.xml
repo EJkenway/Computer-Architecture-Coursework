@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgScaleTrendMainBg" android:layout_width="fill_parent" android:layout_height="430.0dip" android:src="@drawable/kt_bg_scale_trend" android:scaleType="fitXY" android:adjustViewBounds="true" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/smartRefreshLayoutTrend" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/titleBarViewTrend">
+        <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/recyclerViewTrend" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" app:layoutManager="LinearLayoutManager" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.gotokeep.keep.kt.business.kibra.widget.KibraTitleBar android:id="@id/titleBarViewTrend" android:layout_width="fill_parent" android:layout_height="wrap_content" app:kt_title="@string/kt_scale_trend" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

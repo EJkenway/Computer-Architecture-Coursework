@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="220.0dip" android:layout_height="122.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="@string/wt_guide_ruler_tips" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="21.0dip" android:layout_height="58.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/wt_bg_ruler_guide_tips" />
+</LinearLayout>

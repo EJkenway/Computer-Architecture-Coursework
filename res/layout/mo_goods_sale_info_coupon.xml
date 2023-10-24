@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mo_margin_18" android:layout_marginBottom="9.0dip" android:layout_toLeftOf="@id/text_goods_detail_sales">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/pink" android:id="@id/text_goods_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero" />
+                <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/color_market_price_text" android:gravity="center" android:id="@id/txtDiscountedCoupon" android:paddingLeft="@dimen/dimen_10dp" android:paddingRight="@dimen/dimen_10dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="5.0dip" />
+                <include android:id="@id/new_user_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="0.0dip" android:layout_toRightOf="@id/text_goods_market_price" android:layout_alignTop="@id/text_goods_market_price" layout="@layout/mo_view_store_new_user_tag" />
+                <com.gotokeep.keep.mo.business.store.mvp.view.CalorieCoinTipsView android:id="@id/calorie_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/mo_margin_15" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toRightOf="@id/text_goods_market_price" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="center_vertical" android:layout_gravity="center|right" android:id="@id/text_goods_detail_sales" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sold_number" />
+        </FrameLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_999999" android:gravity="center" android:id="@id/textOriginPrefix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mo_common_pay_origin_price" android:layout_marginEnd="@dimen/dimen_2dp" />
+            <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/color_market_price_text" android:gravity="center" android:id="@id/text_range_goods_origin_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" />
+            <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/color_market_price_text" android:gravity="center" android:id="@id/text_goods_origin_price" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.commonui.widget.RelativeLayout3654118 android:id="@id/ui_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/imgBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/ui_framework__fragment_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.gotokeep.keep.commonui.widget.RelativeLayout3654118>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeCourseSelectorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/black" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_course_new" android:layout_marginStart="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/black_60" android:id="@id/textMore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_view_all" android:drawableEnd="@drawable/kt_icon_arrow_right_s" android:layout_marginEnd="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/coachList" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/courseList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</com.gotokeep.keep.kt.business.puncheur.mvp.view.main.KtHomeCourseSelectorView>

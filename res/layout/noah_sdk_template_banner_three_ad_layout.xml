@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noah.sdk.business.render.view.RoundFrameLayout android:id="@id/rl_stencil_native_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.noah.sdk.business.render.view.RoundFrameLayout android:id="@id/noah_fl_stencil_native_ad_layout" android:layout_width="248.0dip" android:layout_height="40.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="3.0dip" />
+        <com.noah.sdk.business.render.view.AnimTextView android:gravity="center" android:id="@id/noah_tv_stencil_native_cta" android:layout_width="72.0dip" android:layout_height="26.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="14.0dip" android:text="@string/sdk_native_ad_download_now" android:layout_alignParentRight="true" />
+        <com.noah.sdk.business.render.view.RoundFrameLayout android:layout_gravity="right" android:id="@id/noah_rrl_stencil_native_close" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_alignParentRight="true">
+            <ImageView android:background="@drawable/sdk_native_dislike" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.noah.sdk.business.render.view.RoundFrameLayout>
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:ellipsize="end" android:id="@id/noah_tv_stencil_native_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="4.0dip" android:maxWidth="260.0dip" android:maxLines="1" android:singleLine="true" android:layout_below="@id/noah_fl_stencil_native_ad_layout" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="10.0dip" android:id="@id/noah_tv_stencil_native_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:maxLines="1" android:singleLine="true" android:layout_toRightOf="@id/noah_tv_stencil_native_desc" android:layout_below="@id/noah_tv_stencil_native_cta" />
+    </RelativeLayout>
+</com.noah.sdk.business.render.view.RoundFrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/rootLayout" android:background="@color/white" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/createPostLayout" android:layout_alignParentTop="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutBehaviorEx">
+            <com.gotokeep.keep.su.social.hashtag.mvp.header.view.HashtagDetailHeaderView android:id="@id/toolbarLayout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentScrim="#00000000" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <include layout="@layout/su_layout_hash_tag_detail_header" />
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                    <include layout="@layout/su_view_hashtag_detail_title_bar_view" />
+                </androidx.appcompat.widget.Toolbar>
+            </com.gotokeep.keep.su.social.hashtag.mvp.header.view.HashtagDetailHeaderView>
+            <FrameLayout android:id="@id/tabContainer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabLayout" style="@style/train_indicator_tab_strip" />
+                <View android:layout_gravity="bottom" android:id="@id/tabLineView" android:background="@color/line_white" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/netWorkEmptyView" android:background="@color/white" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/emptyLayout" android:background="@color/white" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip">
+        <com.gotokeep.keep.commonui.image.view.KeepImageView android:id="@id/emptyIcon" android:background="@drawable/empty_icon_entry_list" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_66" android:gravity="center" android:id="@id/emptyDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/su_hashtag_empty_description" android:layout_below="@id/emptyIcon" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/createPostLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.gotokeep.keep.commonui.widget.KeepLoadingButton android:textColor="@color/white" android:gravity="center" android:id="@id/createPostBtn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/su_hashtag_detail_participation" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" app:buttonRadius="27.0dip" app:loadingButtonSize="large" />
+    </FrameLayout>
+</RelativeLayout>

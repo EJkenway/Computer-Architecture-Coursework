@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su_core.gallery.mvp.view.MusicChooseView android:background="@drawable/shape_bg_corner_16_color_242424" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gotokeep.keep.su_core.gallery.MarqueeTextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/textSelectMusic" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:text="@string/su_story_bgm_title" android:singleLine="true" android:drawableLeft="@drawable/icon_album_music_select" android:drawablePadding="8.0dip" android:marqueeRepeatLimit="marquee_forever" android:paddingEnd="8.0dip" />
+    <View android:id="@id/viewDivider" android:background="@color/white_6" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginStart="12.0dip" />
+    <ImageView android:id="@id/imageMusicClose" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/icon_album_music_select_close" android:layout_marginStart="6.0dip" />
+</com.gotokeep.keep.su_core.gallery.mvp.view.MusicChooseView>

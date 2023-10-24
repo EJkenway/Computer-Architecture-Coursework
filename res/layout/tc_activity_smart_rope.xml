@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/containerSpace" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/tabBackground" android:layout_width="0.0dip" android:layout_height="79.0dip" android:layout_marginTop="@dimen/dimen_10dp" android:src="@drawable/tc_bg_rope_tab_shadow" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <Space android:id="@id/containerSpace" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/tabBackground" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btnRepoTab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" app:layout_constraintEnd_toStartOf="@id/btnStart" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/tabBackground">
+        <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/tc_state_rope_tab_rope" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/fd_color_rope_tab" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tc_rope_tab_rope" />
+    </LinearLayout>
+    <ImageView android:id="@id/btnStart" android:background="@drawable/tc_ic_hardware_start_shape" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginBottom="14.5dip" android:src="@drawable/tc_ic_rope_start" app:layout_constraintBottom_toBottomOf="@id/tabBackground" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btnRepoData" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/tabBackground" app:layout_constraintStart_toEndOf="@id/btnStart" app:layout_constraintTop_toTopOf="@id/btnRepoTab">
+        <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/tc_state_rope_tab_data" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/fd_color_rope_tab" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tc_rope_tab_data" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

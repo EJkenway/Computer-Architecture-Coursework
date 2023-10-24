@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.mvp.view.SwimSwolfView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TcCardFourSlide"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="14.0dip">
+        <com.gotokeep.keep.commonui.view.ResizableDrawableTextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="@string/kt_swolf_card_title" android:drawableLeft="@drawable/kt_ic_swolf_dark" android:drawablePadding="8.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="0.0dip" android:layout_alignParentStart="true" app:drawableLeftHeight="20.0dip" app:drawableLeftWidth="20.0dip" />
+        <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/gray_99" android:gravity="center_vertical" android:id="@id/tvRangeTip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_swolf_card_description" android:drawableRight="@drawable/icon_exclamation_with_circle" android:drawablePadding="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="5.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/purple" android:id="@id/textAvgTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_swolf_card_average" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="34.0sp" android:textColor="@color/light_green" android:id="@id/tvAverageSwolf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginStart="60.0dip">
+            <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/purple" android:id="@id/textBestTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kt_swolf_card_best" />
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView android:textSize="34.0sp" android:textColor="@color/light_green" android:id="@id/tvBestSwolf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/summary_chart_left_margin" android:layout_marginTop="10.0dip" android:layout_marginBottom="@dimen/summary_chart_bottom_margin" android:layout_marginStart="@dimen/summary_chart_left_margin">
+        <com.github.mikephil.charting.charts.LineChart android:id="@id/chartView" android:layout_width="fill_parent" android:layout_height="220.0dip" />
+    </LinearLayout>
+</com.gotokeep.keep.kt.business.kitbit.mvp.view.SwimSwolfView>

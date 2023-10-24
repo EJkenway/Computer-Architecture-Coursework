@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/font_size_14sp" android:textColor="@color/gray_66" android:id="@id/textFlowType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/textMoney" />
+        <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_99" android:id="@id/textDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:text="提现至微信账号 大普洱" android:singleLine="true" android:layout_toLeftOf="@id/textTime" android:layout_below="@id/textFlowType" />
+        <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/gray_99" android:id="@id/textTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/textMoney" android:layout_alignParentRight="true" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/light_green" android:id="@id/textMoney" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/textFlowType" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="@color/gray_ef" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

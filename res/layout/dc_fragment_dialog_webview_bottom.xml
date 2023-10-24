@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_white_top_corner_12dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/imgDrag" android:layout_width="25.0dip" android:layout_height="4.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/dc_bg_d8d8d8_corner_2dp" />
+        <com.gotokeep.keep.activity.find.ui.NestedWebView android:id="@id/keepWebView" android:layout_width="fill_parent" android:layout_height="384.0dip" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

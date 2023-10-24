@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/kt_color_FAFAFA" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/viewHeader" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:add_status_bar_height="true" app:background_color="@android:color/transparent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:left_icon="@drawable/ic_line_arrow_left" app:title="@string/kt_kitbit_setting_more" app:title_color="@color/black_87" />
+    <com.gotokeep.keep.commonui.view.CommonRecyclerView android:id="@id/listSettingMore" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4dp" android:overScrollMode="never" app:layoutManager="LinearLayoutManager" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/viewHeader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

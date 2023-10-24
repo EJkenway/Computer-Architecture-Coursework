@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.kitbit.liveroom.mvp.view.TrainCompletedScoreCardPointView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/text_point" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/divider" android:background="@color/white_30" android:layout_width="1.0dip" android:layout_height="14.0dip" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/text_point" app:layout_constraintStart_toEndOf="@id/text_point" app:layout_constraintTop_toTopOf="@id/text_point" />
+</com.gotokeep.keep.kt.business.kitbit.liveroom.mvp.view.TrainCompletedScoreCardPointView>

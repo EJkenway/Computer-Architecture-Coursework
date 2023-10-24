@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alice_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/headerView" android_custom:left_icon="@drawable/icon_arrow_left_lined" android_custom:left_icon_clickable="true" style="@style/ItemCustomTitleBar" />
+    <LinearLayout android:orientation="horizontal" android:layout_height="60.0dip" style="@style/SettingItem">
+        <TextView android:gravity="center_vertical" android:layout_height="fill_parent" android:text="@string/old_phone_number" style="@style/SettingMainText" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_66" android:gravity="center_vertical" android:id="@id/txtPhone" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_weight="1.0" android:layout_marginStart="14.0dip" />
+    </LinearLayout>
+    <TextView android:id="@id/txtPhoneInvalidTip" android:layout_marginBottom="41.0dip" android:text="@string/phone_invalid_tip" android:drawableLeft="@drawable/verify_phone" android:drawablePadding="2.0dip" android:drawableStart="@drawable/verify_phone" style="@style/SettingPersonInfoDescText" />
+    <include layout="@layout/layout_verify_code" />
+    <Button android:id="@id/btnSubmit" android:text="@string/submit" style="@style/SettingButtonMainGreen" />
+</LinearLayout>

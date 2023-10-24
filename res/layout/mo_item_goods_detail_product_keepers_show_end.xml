@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsProductSideKeepersShowEndView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/ysf_grey_cccccc" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginBottom="@dimen/dimen_16dp" android:text="@string/mo_keepers_show_no_more" />
+</com.gotokeep.keep.mo.business.store.activity.detail.view.GoodsProductSideKeepersShowEndView>

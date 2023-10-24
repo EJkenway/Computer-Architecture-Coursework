@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryPhaseBriefView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layoutPhaseBriefTitle" layout="@layout/rt_view_summary_card_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutPhaseBriefContainer" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dip" android:paddingVertical="16.0dip" style="@style/RtOutdoorSummaryCard" />
+</com.gotokeep.keep.rt.business.summaryv2.mvp.view.OutdoorSummaryPhaseBriefView>

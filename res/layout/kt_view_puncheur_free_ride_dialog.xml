@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurFreeRideDialogView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.kt.puncheur.view.PuncheurQuitConfirmView android:id="@id/puncheurQuitConfirmView" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="252.0dip" android:layout_height="fill_parent" android:translationX="252.0dip" app:layout_constraintEnd_toEndOf="parent" />
+    <com.gotokeep.keep.kt.puncheur.view.PuncheurQuitConfirmVerticalView android:id="@id/puncheurQuitConfirmVerticalView" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
+</com.gotokeep.keep.kt.business.puncheur.freetrain.mvp.view.PuncheurFreeRideDialogView>

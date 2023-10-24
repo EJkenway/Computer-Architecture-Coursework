@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/recommendRoot" android:layout_width="fill_parent" android:layout_height="233.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_66" android:gravity="center_vertical" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="35.0dip" android:text="@string/people_that_match_your_interests" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="@color/gray_99" android:gravity="center" android:id="@id/textRecommendMore" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="35.0dip" android:text="@string/more" android:drawableRight="@drawable/icon_recommend_topic_arrow_right" android:layout_marginEnd="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="184.0dip" android:layout_marginTop="35.0dip" android:layout_marginBottom="16.0dip" />
+    <com.gotokeep.keep.profile.personalpage.mvp.recommend.mvp.view.PersonalRecommendGuideView android:layout_gravity="center" android:id="@id/guideView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

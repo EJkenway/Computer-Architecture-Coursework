@@ -1,0 +1,33 @@
+.class public final synthetic Lfg3/c;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic g:Lcom/keep/trainingengine/widget/music/PlaylistControlView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/keep/trainingengine/widget/music/PlaylistControlView;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lfg3/c;->g:Lcom/keep/trainingengine/widget/music/PlaylistControlView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object v0, p0, Lfg3/c;->g:Lcom/keep/trainingengine/widget/music/PlaylistControlView;
+
+    invoke-static {v0, p1}, Lcom/keep/trainingengine/widget/music/PlaylistControlView;->S2(Lcom/keep/trainingengine/widget/music/PlaylistControlView;Landroid/view/View;)V
+
+    return-void
+.end method

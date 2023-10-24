@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.wt.business.meditation.mvp.view.MeditationPlayButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layout_circle" android:layout_width="104.5dip" android:layout_height="104.5dip">
+        <com.gotokeep.keep.commonui.uilib.CircleRestView android:id="@id/progress_bar_download_meditation" android:layout_width="fill_parent" android:layout_height="fill_parent" app:max="1000" app:roundColor="@color/meditation_progress_color" app:roundProgressColor="@color/white" app:roundStyle="STROKE" app:roundWidth="1.5dip" app:textColor="@color/transparent" app:textSize="0.0sp" />
+        <ImageView android:id="@id/img_middle_icon" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/wt_meditation_play" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.gotokeep.keep.wt.business.meditation.mvp.view.MeditationPlayButton>

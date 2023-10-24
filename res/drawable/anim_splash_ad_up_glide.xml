@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_000" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_001" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_002" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_003" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_004" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_005" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_006" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_007" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_008" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_009" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_010" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_011" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_012" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_013" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_014" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_015" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_016" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_017" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_018" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_019" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_020" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_021" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_022" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_023" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_024" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_025" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_026" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_027" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_028" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_029" />
+    <item android:duration="30" android:drawable="@drawable/splash_up_glide_anim_030" />
+</animation-list>

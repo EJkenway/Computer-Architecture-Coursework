@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "com.gotokeep.keep.protobuf";
+
+message GestureControl {
+    /**
+      * 手势控制开关设置（APP <---> BAND）
+      * 0 ： 关闭
+      * 1 ： 打开
+      * 默认关闭，由 APP 设置 / 回读
+      * */
+    uint32 enable = 1;
+}

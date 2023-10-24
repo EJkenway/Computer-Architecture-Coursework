@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.store.activity.detail.special.view.GoodsDetailSpecialSlideCardView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/backImage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <androidx.viewpager2.widget.ViewPager2 android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/bottomViewPager" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="311.0dip" />
+    <androidx.viewpager2.widget.ViewPager2 android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/topViewPager" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="311.0dip" />
+</com.gotokeep.keep.mo.business.store.activity.detail.special.view.GoodsDetailSpecialSlideCardView>

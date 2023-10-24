@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/viewTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/su_fragment_entry_post_course_list_explore_header_pager" />
+    <include android:id="@id/viewTypePager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/viewTitleBar" layout="@layout/su_view_entry_post_course_list_view_pager" />
+</RelativeLayout>

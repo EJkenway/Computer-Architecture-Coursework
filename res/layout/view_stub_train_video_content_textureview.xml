@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/normal_video_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/view_stub_double_surface" android:layout="@layout/view_stub_train_video_content_double_texture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/bottomBarrageContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/view_stub_barrage" android:layout="@layout/view_stub_train_video_barrage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip" android:layout_alignParentTop="true" />
+    </FrameLayout>
+    <ViewStub android:id="@id/view_stub_portrait_train_ui_new" android:layout="@layout/layout_portrait_train_ui_new" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_landscape_train_ui_new" android:layout="@layout/layout_landscape_train_ui_new" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_land_train_ui_full" android:layout="@layout/view_stub_landscape_train_ui_full" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.training.mvp.view.StartCountDownText android:id="@id/layout_start_count_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/combo_view_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_record_video" android:layout="@layout/view_training_record" android:layout_width="84.0dip" android:layout_height="150.0dip" android:layout_marginTop="49.0dip" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutLeftTop" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/total_time_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip">
+            <com.gotokeep.keep.commonui.uilib.KeepFontTextView2 android:textSize="@dimen/font_size_28dp" android:textColor="@color/train_total_timer" android:id="@id/total_timer_in_training" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="playLastAction" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.gotokeep.keep.training.mvp.view.RestView android:id="@id/rest_view_in_training" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/topBarrageContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.training.mvp.view.PauseView android:id="@id/pause_view_in_training" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gotokeep.keep.training.mvp.view.TotalProgressBar android:id="@id/bottom_progress_bar_in_training" android:layout_width="fill_parent" android:layout_height="4.0dip">
+        <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="1000" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/progress_in_train_top" style="?android:progressBarStyleHorizontal" />
+    </com.gotokeep.keep.training.mvp.view.TotalProgressBar>
+    <ViewStub android:id="@id/viewStubQuickBarrage" android:layout="@layout/view_stub_train_video_quick_barrage" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginBottom="12.0dip" android:layout_above="@id/container_kt_liveroom" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip" />
+    <ViewStub android:id="@id/viewStubQuickLandBarrage" android:layout="@layout/view_stub_train_video_quick_barrage_land" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="37.0dip" android:layout_toLeftOf="@id/container_kt_liveroom" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container_kt_liveroom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/training_landscape_input_text_top_margin" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true">
+        <ViewStub android:id="@id/barrage_input_view_stub" android:layout="@layout/view_stub_train_barrage_input" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.gotokeep.keep.training.mvp.view.LiveTrainingView android:id="@id/live_users" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewStub android:id="@id/barrage_action_view_stub" android:layout="@layout/view_stub_train_barrage_action" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

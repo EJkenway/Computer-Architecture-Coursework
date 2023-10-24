@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.mo.business.order.mvp.view.OrderItemFooterMoreListView android:orientation="vertical" android:background="@drawable/bg_fafafa_radius_8dp" android:paddingTop="@dimen/dimen_8dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen_16dp" android:layout_marginRight="@dimen/dimen_16dp" android:layout_marginBottom="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/itemContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/gray_99_20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/dimen_8dp" />
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/txtDismiss" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginBottom="@dimen/dimen_16dp" android:text="@string/cancel" />
+</com.gotokeep.keep.mo.business.order.mvp.view.OrderItemFooterMoreListView>

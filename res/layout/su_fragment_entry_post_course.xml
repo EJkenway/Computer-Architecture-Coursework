@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.pb.post.course.mvp.view.EntryPostListContentView android:id="@id/viewListContent" android:background="@color/white" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gotokeep.keep.commonui.widget.pullrecyclerview.PullRecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/shadowView" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/searchView" style="@style/action_bar_shadow_style" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:layout_gravity="center_horizontal" android:id="@id/viewEmptyContent" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="160.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/searchView" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutGuide" android:background="@color/white" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/searchView">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="139.0dip" android:src="@drawable/icon_location_error_big" android:contentDescription="@string/location_error" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/main_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/no_longer_feeling_lonely_when_fitness" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_99" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:maxWidth="220.0dip" android:text="@string/location_permission_tip" android:lineSpacingExtra="5.0dip" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Group android:id="@id/contentView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:constraint_referenced_ids="recyclerView,searchView" />
+</com.gotokeep.keep.pb.post.course.mvp.view.EntryPostListContentView>

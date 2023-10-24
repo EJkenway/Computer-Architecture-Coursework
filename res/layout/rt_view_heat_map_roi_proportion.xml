@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemProportionView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_13sp" android:textColor="@color/gray_33" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="60.0dip" android:text="@string/rt_use_route_proportion" android:layout_marginStart="14.0dip" />
+    <com.gotokeep.keep.commonui.view.RoiProportionProgressBar android:id="@id/progress_route_proportion" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" app:divider_Space="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_container" android:layout_width="fill_parent" android:layout_height="80.0dip" />
+</com.gotokeep.keep.rt.business.heatmap.mvp.view.RoiItemProportionView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.su.social.comment.course.view.CourseForumContentView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <androidx.cardview.widget.CardView android:id="@id/fellowshipCard" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="68.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_16dp" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/dimen_8dp" app:cardElevation="0.0dip">
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:background="@drawable/bg_line_white_corner_gray_ef_8dp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pic_workout_circle" android:scaleType="fitStart" />
+                <com.gotokeep.keep.commonui.image.view.KeepImageView android:layout_gravity="center_vertical" android:id="@id/fellowshipImage" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" />
+                <RelativeLayout android:layout_gravity="start|center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="76.0dip" android:layout_marginEnd="120.0dip">
+                    <View android:background="@drawable/su_purple_80_underline" android:layout_width="wrap_content" android:layout_height="8.0dip" android:layout_alignLeft="@id/fellowshipName" android:layout_alignRight="@id/fellowshipName" android:layout_alignBottom="@id/fellowshipName" />
+                    <TextView android:textSize="@dimen/font_size_16sp" android:textStyle="bold" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/fellowshipName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/view_training_score_progress_end" android:gravity="center" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/go_have_a_look" android:drawableRight="@drawable/icon_arrow_right_s_light_gray" android:drawablePadding="2.0dip" android:layout_marginEnd="@dimen/dimen_14dp" />
+                <TextView android:textSize="@dimen/font_size_11sp" android:textColor="@color/black_60" android:gravity="center" android:layout_gravity="start|bottom|center" android:id="@id/fellowshipDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_marginStart="76.0dip" />
+            </androidx.cardview.widget.CardView>
+            <androidx.appcompat.widget.Toolbar android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                <com.gotokeep.keep.commonui.framework.activity.title.CustomTitleBarItem android:id="@id/titleBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:background_color="@color/white" app:left_icon="@drawable/icon_arrow_left_black" app:left_icon_clickable="true" app:title="@string/su_entity_comment_course_page_title" app:title_color="@color/purple" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <com.gotokeep.keep.commonui.widget.tab.PagerSlidingTabStrip android:id="@id/tabs" style="@style/train_indicator_tab_strip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.gotokeep.keep.commonui.view.CommonViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.gotokeep.keep.commonui.uilib.KeepEmptyView android:id="@id/viewEmptyContent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@id/btnPost" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginBottom="50.0dip" android:src="@drawable/su_icon_edit_white" android:layout_marginEnd="@dimen/page_horizontal_margin" app:backgroundTint="@color/light_green" />
+</com.gotokeep.keep.su.social.comment.course.view.CourseForumContentView>

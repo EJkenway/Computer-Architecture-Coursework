@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gotokeep.keep.fd.business.screenshot.view.PictureShareView android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgWechat" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/selector_icon_share_wechat_circle_white" android:contentDescription="@string/wechat" />
+    <ImageView android:id="@id/imgMoment" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="24.0dip" android:src="@drawable/selector_icon_share_wechat_moment_circle_white" android:contentDescription="@string/wechat_moments" android:layout_marginStart="24.0dip" />
+    <ImageView android:id="@id/imgQQ" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="24.0dip" android:src="@drawable/selector_icon_share_qq_circle_white" android:contentDescription="@string/qq" android:layout_marginStart="24.0dip" />
+    <ImageView android:id="@id/imgQzone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="24.0dip" android:src="@drawable/selector_icon_share_qzone_circle_white" android:contentDescription="@string/qzone" android:layout_marginStart="24.0dip" />
+    <ImageView android:id="@id/imgWeibo" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="24.0dip" android:src="@drawable/selector_icon_share_weibo_circle_white" android:contentDescription="@string/wei_bo" android:layout_marginStart="24.0dip" />
+</com.gotokeep.keep.fd.business.screenshot.view.PictureShareView>
