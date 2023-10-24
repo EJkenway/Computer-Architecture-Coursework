@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.widget.LeTitleBar android:id="@id/titleBar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="56.0dip" app:contentInsetStartWithNavigation="0.0dip" app:tBackImage="@drawable/ic_arrow_back_grey" app:tBorderColor="@color/black10" app:tBorderWidth="1.0dip" app:tShowBorder="true" app:tTitleText="图片库使用实例" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/imgLocalCircle" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+            <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/imgNetwork" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+            <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/imgRoundedCorners" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+            <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/imgCircle" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+            <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/imgBlur" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+            <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/imgGif" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

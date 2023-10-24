@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginTop="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.commonui.widget.APTextView android:textSize="13.0dip" android:textColor="#ff242424" android:gravity="center" android:id="@id/left_btn" android:background="@drawable/com_alipay_mobile_beehive_grid_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <View android:layout_width="30.0dip" android:layout_height="fill_parent" />
+    <com.alipay.mobile.commonui.widget.APTextView android:textSize="13.0dip" android:textColor="#ff242424" android:gravity="center" android:id="@id/right_btn" android:background="@drawable/com_alipay_mobile_beehive_grid_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

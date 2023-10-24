@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_container" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.ledongli.ldl.pose.aimotion.business.interact.view.horizontal.HPoseDetectView android:id="@id/posedetect_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.ledongli.ldl.pose.aimotion.business.interact.view.horizontal.HPoseInteractView android:id="@id/interact_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.ledongli.ldl.pose.aimotion.business.interact.view.horizontal.HPosePrepareView android:id="@id/prepare_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="54.0dip" android:layout_height="42.0dip" android:src="@drawable/aimotion_back_icon_2" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_upload_video" android:background="#ff272731" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_upload_going" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="@dimen/sp_18" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上传数据中" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="请稍等" />
+            <cn.ledongli.ldl.pose.view.CustomProgressView android:id="@id/pro_view" android:layout_width="119.0dip" android:layout_height="20.0dip" android:layout_marginTop="34.0dip" app:progress_bg_color="@color/black" app:progress_color="@color/red_ff6022" app:progress_height="12.0dip" app:radius="7.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/sp_18" android:textColor="@color/white" android:id="@id/tv_upload_fail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="数据上传失败" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_cancel_upload" android:background="@drawable/pose_shape_bg_grey_24" android:layout_width="160.0dip" android:layout_height="48.0dip" android:layout_marginBottom="@dimen/dp_40" android:text="取消上传" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_retry_upload" android:background="@drawable/pose_shape_bg_red_24" android:layout_width="160.0dip" android:layout_height="48.0dip" android:layout_marginBottom="15.0dip" android:text="重试" app:layout_constraintBottom_toTopOf="@id/tv_cancel_upload" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

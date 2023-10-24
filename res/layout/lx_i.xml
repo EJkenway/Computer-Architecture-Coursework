@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/qc_i_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lenovo.sdk.mdi.p.LXMediaPlayer android:id="@id/qc_i_vd" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/qc_i_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="24.5dip">
+        <ImageView android:id="@id/qc_i_mute_btn" android:visibility="visible" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/lx_mute_img_selector" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/qc_i_closed" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/lx_r_back" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/qc_i_bottom" android:background="@drawable/lx_m_b_rd_bg" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerVertical="true">
+        <com.lenovo.sdk.il.LXImageView android:id="@id/qc_i_icon" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="5.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/qc_i_tv_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/qc_i_tv_btn" android:layout_toRightOf="@id/qc_i_icon" android:layout_alignTop="@id/qc_i_icon" android:layout_alignBottom="@id/qc_i_icon" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:ellipsize="end" android:id="@id/qc_i_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/qc_i_tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/qc_i_tv_btn" android:background="@drawable/lx_m_b_rd_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="下载" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.lenovo.sdk.il.LXImageView android:id="@id/qc_i_mark" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <include layout="@layout/lx_reward_c_p" />
+</RelativeLayout>

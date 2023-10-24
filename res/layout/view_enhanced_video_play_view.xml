@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/vs_video_download_play_zone" android:layout="@layout/view_video_download_play" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/vs_video_stream_play_zone" android:layout="@layout/view_video_stream_play" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

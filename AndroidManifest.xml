@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="cn.ledongli.ldl" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <permission android:name="cn.ledongli.ldl.openadsdk.permission.TT_PANGOLIN" android:protectionLevel="signature"/>
+    <uses-permission android:name="cn.ledongli.ldl.openadsdk.permission.TT_PANGOLIN"/>
+    <uses-permission android:name="miui.permission.READ_STEPS"/>
+    <uses-permission android:name="com.zui.uhealth.permission.READ_PROVIDER"/>
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE"/>
+    <permission android:name="cn.ledongli.ldl.push.permission.MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="cn.ledongli.ldl.push.permission.MESSAGE"/>
+    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE"/>
+    <permission android:name="cn.ledongli.ldl.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="cn.ledongli.ldl.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <uses-permission android:name="com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON"/>
+    <uses-permission android:name="cn.ledongli.ldl.permission.MIPUSH_RECEIVE"/>
+    <permission android:name="cn.ledongli.ldl.permission.MIPUSH_RECEIVE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <queries>
+        <intent>
+            <action android:name="*"/>
+            <data android:scheme="tbopen"/>
+        </intent>
+        <package android:name="com.eg.android.AlipayGphone"/>
+        <package android:name="com.eg.android.AlipayGphoneRC"/>
+        <package android:name="hk.alipay.wallet"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+        <package android:name="com.google.android.gms"/>
+        <package android:name="com.android.vending"/>
+        <package android:name="com.android.creator"/>
+        <package android:name="com.mdid.msa"/>
+        <package android:name="com.samsung.android.deviceidservice"/>
+        <package android:name="com.coolpad.deviceidsupport"/>
+        <package android:name="com.heytap.openid"/>
+        <package android:name="com.huawei.hwid"/>
+        <package android:name="com.huawei.hwid.tv"/>
+        <package android:name="com.huawei.hms"/>
+        <package android:name="com.asus.msa.SupplementaryDID"/>
+        <package android:name="com.zui.deviceidservice"/>
+        <package android:name="com.google.ar.core"/>
+    </queries>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true"/>
+    <uses-permission android:name="com.vivo.assistant.permission.access.provider"/>
+    <uses-permission android:name="com.vivo.assistant.permission.sport.broadcast"/>
+    <uses-permission android:name="com.vivo.assistant.StepProvider"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.hihonor.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.hihonor.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.hihonor.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="freemme.permission.msa"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <permission android:name="cn.ledongli.ldl.permission.PROCESS_PUSH_MSG" android:protectionLevel="signature"/>
+    <permission android:name="cn.ledongli.ldl.permission.PUSH_PROVIDER" android:protectionLevel="signature"/>
+    <permission android:name="cn.ledongli.ldl.permission.PUSH_WRITE_PROVIDER" android:protectionLevel="signature"/>
+    <uses-permission android:name="cn.ledongli.ldl.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission android:name="cn.ledongli.ldl.permission.PUSH_PROVIDER"/>
+    <uses-permission android:name="com.meizu.flyme.permission.PUSH"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ZTE_HEARTYSERVICE_MANAGEMENT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="乐动力" android:largeHeap="true" android:name="cn.ledongli.ldl.application.XiaobaiApplication" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="true" android:supportsPictureInPicture="false" android:supportsRtl="false" android:theme="@style/Theme.Ledongli" android:usesCleartextTraffic="true">
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:fitsSystemWindows="true" android:launchMode="singleTop" android:name="cn.ledongli.ldl.activity.SplashScreenActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.activity.JumpActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <data android:host="jump" android:scheme="ledongliopen"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:host="platformapi" android:scheme="ledongliopen"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.home.activity.MainTabActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="main_tab" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.feedback.FeedbackV2Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="feedback" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.contentrecommend.ContentRecommendActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.wizard.WizardWebViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.newWebView">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="wizard_webview" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.setting.SettingActivityV2" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.message.activity.MessageCenterActivityV2" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="message_center" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/app_name" android:name="cn.ledongli.ldl.wxapi.WXPayEntryActivity"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.popup.EncourageAlertActivity" android:screenOrientation="portrait" android:theme="@style/LeDialog.NoBackground.NoClose">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="encourage_alert" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.vplayer.activity.AgendaListActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoSwipe"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.vplayer.activity.TestComboActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoSwipe"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.vplayer.activity.ComboListActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoSwipe">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="combo_list" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.vplayer.activity.ComboDetailActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="combo_detail" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.vplayer.activity.PopNotCompleteActivity" android:screenOrientation="portrait" android:theme="@style/LeDialog.NoBackground.NoClose"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="cn.ledongli.vplayer.ui.activity.VPlayerActivity" android:screenOrientation="sensorLandscape" android:theme="@style/VPlayerTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="cn.ledongli.vplayer.ui.activity.TrainVideoActivity" android:screenOrientation="sensorLandscape" android:theme="@style/MainTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="cn.ledongli.vplayer.ui.activity.AudioControlActivity" android:screenOrientation="sensorLandscape" android:theme="@style/Theme.Ledongli.TransparentFullScreenActivity"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="cn.ledongli.ldl.daemon.LockScreenActivity" android:screenOrientation="portrait" android:taskAffinity="cn.ledongli.lock" android:theme="@android:style/Theme.Wallpaper.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.share.activity.SportsCompletedShareActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.home.activity.DataCenterActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="data_center" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="cn.ledongli.ldl.setting.ScreenAlwaysOnActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Wallpaper.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="screen_always_on" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.vplayer.activity.PreviewComboActivity" android:screenOrientation="portrait" android:theme="@style/MainTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent100481185"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTop" android:name="cn.ledongli.ldl.wxapi.WXEntryActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.setting.UserInfoBasicActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.setting.StepGoalSettingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="step_goal_setting" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.setting.PhoneBindActivityV3" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="phone_verification_code" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.account.activity.PhoneLoginActivityV2" android:screenOrientation="portrait"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.account.activity.LoginActivityV2" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="login" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.account.activity.MemoryLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.activity.StreamMediaActivity" android:screenOrientation="landscape"/>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.photo.impl.ui.BoxingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:name="cn.ledongli.ldl.photo.preview.GPreviewActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:name="cn.ledongli.ldl.photo.preview.GPVideoPlayerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.ugc.activity.TopicListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.ugc.activity.UgcCommentsActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.ugc.activity.LatestTopicActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.ugc.activity.OperationsTopicActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.view.photodetail.ShowImageFromWebActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="false" android:name="cn.ledongli.ldl.history.WalkHistoryActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="walk_history" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.home.activity.TrainingCompletedActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.archive.activity.DimensionRecordActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="cn.ledongli.ldl.archive.activity.ArchiveActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="archive" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.archive.activity.DimensionDetailActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.archive.activity.AddPhotoRecordActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.archive.activity.PhotoRecordsActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.alibaba.verificationsdk.ui.VerifyActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:name="cn.ledongli.ldl.wizard.PermissionsGuideActivity" android:screenOrientation="portrait" android:taskAffinity="cn.ledongli.permission.guide" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="permissions_guide" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="cn.ledongli.ldl.ResultActivity" android:theme="@style/tbresult"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.training.ui.activity.MainTrainingActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="main_training" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="cn.ledongli.ldl.training.ui.activity.ComboSearchActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.training.ui.activity.CourseFilterActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="course_filter" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.authorize.ui.activity.AccountAuthorizeActivity" android:screenOrientation="portrait" android:theme="@style/LeDialog.NoBackground.NoClose">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="bind_taobao" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerSummaryActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.alipay.sdk.app.H5AuthActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="cn.ledongli.ldl.push.ThirdPushClickedActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="cn.ledongli.ldl" android:path="/thirdpush" android:scheme="agoo"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.notification.activity.NotificationSettingActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.notification.activity.NotificationTimeSettingActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.home.steprecord.StepRecordActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="step_record" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.account.activity.AccountLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.account.activity.ChangePasswordActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.campus.activity.CampusRegisteredActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.campus.activity.CampusNoFitnessRemindActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="false" android:name="cn.ledongli.ldl.detail.SportHistoryActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:launchMode="singleTask" android:name="cn.ledongli.ldl.pose.business.bigfight.BigFightHomepageActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="bigfight" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.mobile.auth.gatewayauth.LoginAuthActivity" android:screenOrientation="behind" android:theme="@style/authsdk_activity_dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.mobile.auth.gatewayauth.activity.AuthWebVeiwActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.activity.AICourseResultActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <data android:host="aiCourseResult" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.cmic.sso.sdk.activity.LoginAuthActivity" android:screenOrientation="behind" android:theme="@style/authsdk_activity_dialog"/>
+        <receiver android:name="cn.ledongli.ldl.MeiZuPushMsgReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.meizu.c2dm.intent.RECEIVE"/>
+                <category android:name="cn.ledongli.ldl"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.sina.weibo.sdk.net.DownloadService"/>
+        <service android:enabled="true" android:exported="true" android:name="cn.ledongli.ldl.service.LedongliService"/>
+        <service android:enabled="true" android:name="cn.ledongli.ldl.service.QueryDataService">
+            <intent-filter>
+                <action android:name="cn.ledongli.ldl.ledongliservice"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:label="@string/app_name" android:name="cn.ledongli.ldl.daemon.DaemonService" android:process=":daemon"/>
+        <service android:exported="true" android:label="@string/app_name" android:name="cn.ledongli.ldl.service.KeepAliveService" android:process=":data"/>
+        <service android:exported="true" android:label="@string/app_name" android:name="cn.ledongli.ldl.daemon.DaemonService$InnerService" android:process=":daemon"/>
+        <service android:name="cn.ledongli.ldl.phenix.jobservice.MyJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":data"/>
+        <service android:exported="true" android:name="cn.ledongli.ldl.phenix.account.AccountSyncService" android:process=":data">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter"/>
+        </service>
+        <service android:exported="true" android:name="cn.ledongli.ldl.phenix.account.AccountAuthService" android:process=":data">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <provider android:authorities="cn.ledongli.ldl:channel" android:exported="false" android:name="com.taobao.accs.AccsIPCProvider" android:process=":channel"/>
+        <service android:exported="true" android:name="com.taobao.accs.ChannelService" android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.taobao.accs.ChannelService$KernelService" android:process=":channel"/>
+        <service android:exported="true" android:name="com.taobao.accs.data.MsgDistributeService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.taobao.accs.internal.AccsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":channel"/>
+        <service android:exported="true" android:name="org.android.agoo.accs.AgooService" android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.taobao.agoo.TaobaoMessageIntentReceiverService" android:process=":channel">
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="cn.ledongli.ldl.TaobaoIntentService" android:process=":channel">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.taobao.orange.service.OrangeApiService">
+            <intent-filter>
+                <action android:name="com.taobao.orange.service.OrangeApiService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.alibaba.analytics.AnalyticsService" android:process=":channel"/>
+        <receiver android:label="NetworkConnection" android:name="cn.ledongli.ldl.receiver.ConnectionChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.ledongli.ldl.receiver.AppInstallReceiver" android:process=":data">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.ledongli.ldl.receiver.PowerChangedReceiver" android:process=":data">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.ledongli.ldl.receiver.MediaButtonReceiver" android:process=":data">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.ledongli.ldl.notification.receiver.StepAlarmReceiver" android:process=":data"/>
+        <receiver android:name="cn.ledongli.ldl.notification.receiver.RunnerAlarmReceiver" android:process=":data"/>
+        <receiver android:name="cn.ledongli.ldl.notification.receiver.TrainAlarmReceiver" android:process=":data"/>
+        <receiver android:name="com.taobao.accs.EventReceiver" android:process=":channel">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.taobao.accs.ServiceReceiver" android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.taobao.agoo.AgooCommondReceiver" android:process=":channel">
+            <intent-filter>
+                <action android:name="cn.ledongli.ldl.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="cn.ledongli.ldl.provider" android:exported="false" android:multiprocess="false" android:name="cn.ledongli.ldl.phenix.account.AccountProvider" android:syncable="true"/>
+        <provider android:authorities="cn.ledongli.ldl.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:authorities="cn.ledongli.ldl.runner.provider.RunnerUIPreferenceProvider" android:enabled="true" android:exported="false" android:name="cn.ledongli.ldl.runner.provider.RunnerUIPreferenceProvider"/>
+        <meta-data android:name="XIAOMI_APPID" android:value="\ 2882303761517133774"/>
+        <meta-data android:name="XIAOMI_APPKEY" android:value="\ 5481713399774"/>
+        <meta-data android:name="OPPO_APP_KEY" android:value="5sjL29TK91WCW4Kc84cg4wWco"/>
+        <meta-data android:name="OPPO_APP_SECRET" android:value="cd941e5204c172fCd25f5e5126cba3a1"/>
+        <meta-data android:name="MEIZU_APP_ID" android:value="111334"/>
+        <meta-data android:name="MEIZU_APP_KEY" android:value="9d1fde650d3b4f25a945cd8a702a73ad"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="0f7ebcb2b1f2b13476e50ca440f847a6"/>
+        <meta-data android:name="com.huawei.hms.client.appid" android:value="appid=10096710"/>
+        <meta-data android:name="MW_APPID" android:value="FK86WFW2O6X14KDRW7JGHX06PRH7EXZK"/>
+        <meta-data android:name="com.vivo.push.app_id" android:value="100037514"/>
+        <meta-data android:name="com.vivo.push.api_key" android:value="dbd975cdc0b13067898fdcfeb4abf1ad"/>
+        <meta-data android:name="android.max_aspect" android:value="2.5"/>
+        <activity android:exported="true" android:name="cn.ledongli.ldl.appbundle.AppBundleInstallerActivity" android:theme="@style/Theme.ActivityDialogStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="dynamicfeature" android:scheme="youku"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.ledongli.ldl.appbundle.demo.FeaturesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="dynamicfeature" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.ledongli.ldl.city.LeCityListActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="city_list" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.home.activity.AISportActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.share.activity.SportsFinishShareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.debug.SchemeDebugActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.debug.DebugActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="egg" android:scheme="ledongli"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.ledongli.ldl.egg"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.debug.DebugUIComponentActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.debug.DebugSystemPageTestActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.debug.DebugImageActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.debug.DebugGPSActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.share.activity.BigFightFinishShareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:fitsSystemWindows="true" android:launchMode="singleInstance" android:name="cn.ledongli.ldl.activity.GuideUpdateActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.home.activity.AIMotionResultActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <data android:host="aiMotionResult" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="anetwork.channel.aidl.NetworkService">
+            <intent-filter>
+                <action android:name="anetwork.channel.aidl.IRemoteNetworkGetter"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="mtopsdk.xstate.XStateService">
+            <intent-filter>
+                <action android:name="mtopsdk.xstate.aidl.IXState"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.dinamicx.activity.DXPageActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="dx" android:path="/page" android:scheme="ledongliopen"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.ledongli.ldl.pose.aibqcourse.activity.VideoPermissionSettingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="video_permission_setting" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.ledongli.ldl.pose.aibqcourse.activity.AIRopingCommonResultActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ai_common_result_page" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="cn.ledongli.ldl.pose.bigfight.BigFightGuideActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.business.freerecord.FreeSportActivity" android:screenOrientation="portrait" android:theme="@style/NotitleTheme"/>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.business.bigfight.BigFightDataResultActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="bigfight_data_result" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.bigfight.record.BigFightRecordActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.business.bigfight.BigFightRulerActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme"/>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.bigfight.impl.res.BigFightResDownloadActivity" android:screenOrientation="portrait" android:theme="@style/commonui_foodLibTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aimotion.business.interact.AIMotionDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <data android:host="sports" android:path="/ai/motion/detailpage" android:scheme="ledongli"/>
+                <data android:host="ai_motion_detail" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aimotion.business.phoneplace.PhonePlaceActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <data android:host="ai_motion_phone_place" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aimotion.business.phoneplace.PhonePlaceActivityH" android:screenOrientation="landscape" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_motion_phone_place_h" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aimotion.business.interact.VAIDetectActivity" android:screenOrientation="portrait" android:theme="@style/NotitleTheme"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aimotion.business.interact.HAIDetectActivity" android:screenOrientation="landscape" android:theme="@style/NotitleTheme"/>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aielite.AIEliteLoadingActivity" android:screenOrientation="portrait" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_elite_motion_start" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aielite.VAIEliteDetectActivity" android:screenOrientation="portrait" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_elite_sports_detect" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aielite.HAIEliteDetectActivity" android:screenOrientation="landscape" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_elite_sports_detect_h" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aibqcourse.activity.VideoUploadActivity" android:screenOrientation="portrait" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_elite_video_upload" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.cocos.AICocosPlayActivity" android:screenOrientation="portrait" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_cocos_game_start" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.cocos.HAICocosPlayActivity" android:screenOrientation="landscape" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_cocos_game_start_h" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.cocos.aimotion.AICocosPoseSportsActivity" android:screenOrientation="landscape" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_cocos_pose_start" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.ledongli.ldl.pose.aibqcourse.activity.AIBusinessResultActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ai_business_result_page" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.cocos.aimotion.AICocosDanceSportsActivity" android:screenOrientation="portrait" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_cocos_dance_start" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aielite.bodycheck.AILivingBodyCheckActivity" android:screenOrientation="portrait" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_body_checking_start" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.pose.aielite.bodycheck.HAILivingBodyCheckActivity" android:screenOrientation="landscape" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_body_checking_start_h" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.pose.aielite.AIMultiMotionActionActivity" android:screenOrientation="portrait" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_multi_sports_start" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.pose.aielite.HAIMultiActionActivity" android:screenOrientation="landscape" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="ai_multi_sports_start_h" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.ledongli.ldl.pose.aielite.IjkplayerActivity" android:theme="@style/NotitleTheme">
+            <intent-filter>
+                <data android:host="video_play" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.face.ui.activity.FaceRecognizeActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="face_recognize" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.face.ui.activity.full.FaceRecognizeFullActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="face_full_recognize" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.face.ui.activity.full.HFaceRecognizeFullActivity" android:screenOrientation="landscape" android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="face_full_recognize_h" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.face.ui.activity.FaceRegisterActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="face_register" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.face.ui.activity.FaceManagerActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="face_manager" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.ledongli.ldl.face.ui.activity.FaceDebugActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="face_debug" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.face.ui.activity.FaceAgreementBaseActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="face_agreement" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.scanQR.QRCodeScanActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="scan_code" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.adsdk.activity.AdsOriginalActivity" android:screenOrientation="portrait" android:theme="@style/AdPageThemeDefault">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ads/original/page" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="cn.ledongli.ldl.gdt.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.qq.e.comm.GDTFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/gdt_file_path"/>
+        </provider>
+        <provider android:authorities="cn.ledongli.ldl.TTFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.bytedance.sdk.openadsdk.TTFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/pangle_file_paths"/>
+        </provider>
+        <provider android:authorities="cn.ledongli.ldl.TTMultiProvider" android:exported="false" android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"/>
+        <provider android:authorities="cn.ledongli.ldl.bd.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.baidu.mobads.sdk.api.BdFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/bd_file_paths"/>
+        </provider>
+        <provider android:authorities="cn.ledongli.ldl.lxProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.lenovo.sdk.a.LXProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/lx_path"/>
+        </provider>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.smartdevice.activity.AddSmartDeviceActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="device_manager" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.photo.impl.ui.BoxingViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboard|orientation|screenLayout|screenSize" android:name="cn.ledongli.ldl.fitnessCourse.FitnessCourseActivity" android:screenOrientation="portrait" android:theme="@style/aisports_notitleTheme">
+            <intent-filter>
+                <data android:host="sports" android:path="/fitnesscourse_ai_test" android:scheme="alisports"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.fitnessCourse.activity.PhonePlaceActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <data android:host="ai_fitness_phone_place" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.fitnessCourse.activity.PhonePlaceActivityH" android:screenOrientation="landscape" android:theme="@style/aisports_notitleTheme">
+            <intent-filter>
+                <data android:host="ai_fitness_phone_place_h" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|orientation|screenLayout|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.fitnessCourse.activity.ChangeOrientationActivity">
+            <intent-filter>
+                <data android:host="sports" android:path="/change_orientation" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.fitnessCourse.activity.DetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <data android:host="sports" android:path="/ai/fitness/detailpage" android:scheme="ledongli"/>
+                <data android:host="ai_fitness_detailpage" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="cn.ledongli.ldl.fitnessCourse.ai.business.interact.VAIDetectActivity" android:screenOrientation="portrait" android:theme="@style/aisports_notitleTheme"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.fitnessCourse.ai.business.interact.HAIDetectActivity" android:screenOrientation="landscape" android:theme="@style/aisports_notitleTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.course.activity.CourseListActivity" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <data android:host="fitnesscourse_list" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.course.activity.MotionStartActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <data android:host="fitnesscourse_motion_start" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.course.activity.MotionStartActivityH" android:screenOrientation="landscape" android:theme="@style/aisports_notitleTheme">
+            <intent-filter>
+                <data android:host="fitnesscourse_motion_start_h" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.player.test.AICourseVPlayerActivity" android:theme="@style/MainTheme">
+            <intent-filter>
+                <data android:host="ai_play_video" android:scheme="ledongli"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="agent.commonservice.load" android:value="com.alipay.mobile.framework.service.ClientServicesLoader"/>
+        <meta-data android:name="appkey" android:value="20211014"/>
+        <meta-data android:name="mobilegw.appid" android:value="LDL_AND"/>
+        <meta-data android:name="mobilegw.rpcVersion" android:value="V2"/>
+        <meta-data android:name="nebulamng_bundleid" android:value="com.alisports.app"/>
+        <meta-data android:name="UCSDKAppKey" android:value="GNuQkP0zR21fxEp+A6JF+Ofgymn5znw4SP9pZRkks6fjxMBrupk1UIovw5OhYd1hbbln24v9GzQUhpNHQlViFw=="/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="ariver_manifest" android:value="cn.ledongli.ldl.miniapp.InsideManifest"/>
+        <meta-data android:name="openPlat_permissionCheckRpcName" android:value="alipay.openservice.pkgcore.packagepermission.check.nologin"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="cn.ledongli.ldl.miniapp.extension.CustomNebulaActivity" android:screenOrientation="portrait" android:theme="@style/tablauncher_theme_ldl" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="cn.ledongli.ldl.miniapp.extension.CustomTransNebulaActivity" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.signin.SignInHistoryActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerStartActivityV2" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="runner" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerBrowseActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.signin.SignInActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="sign_in" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.runner.ui.activity.LCMRunnerLockScreenActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="cn.ledongli.ldl.runner.ui.activity.LCMRunnerRecordActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="runner_record" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.LCMRunnerOfflineMapActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerHistoryActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerDetailActivityV2" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar">
+            <intent-filter>
+                <action android:name="cn.ledongli.ldl.runner.ui.detail"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerOrbitDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerStopStretchActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.NoActionBar"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerSettingDetailActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerSettingActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.ui.activity.RunnerPaceSelectedActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.route.list.RouteListActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.runner.route.detail.RouteDetailActivity" android:screenOrientation="portrait" android:theme="@style/RunnerNoActionBarTheme"/>
+        <provider android:authorities="cn.ledongli.ldl.provider.ActivityProvider" android:enabled="true" android:exported="true" android:name="cn.ledongli.ldl.runner.datebase.provider.ActivityProvider" android:process=":remote" android:protectionLevel="signatureOrSystem"/>
+        <provider android:authorities="cn.ledongli.ldl.common.preference.dpreference.PreferenceProvider" android:enabled="true" android:exported="false" android:name="cn.ledongli.ldl.runner.preference.dpreference.RunnerPreferenceProvider"/>
+        <service android:exported="true" android:name="cn.ledongli.ldl.runner.remote.service.RunningService" android:process=":remote">
+            <intent-filter>
+                <action android:name="cn.ledongli.ldl.runner.remote.service.RunningService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="cn.ledongli.ldl.runner.remote.daemon.service.DaemonService" android:process=":daemon"/>
+        <service android:exported="true" android:name="cn.ledongli.ldl.runner.remote.daemon.service.DaemonService$InnerService" android:process=":daemon"/>
+        <service android:enabled="true" android:exported="true" android:name="cn.ledongli.ldl.runner.remote.daemon.service.DaemonJobScheduleService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":daemon"/>
+        <receiver android:enabled="true" android:exported="true" android:name="cn.ledongli.ldl.runner.remote.receiver.RunningStatusChangeReceiver">
+            <intent-filter>
+                <action android:name="cn.ledongli.runner.STATUS_CHANGE"/>
+                <action android:name="cn.ledongli.runner.STATUS_RECOVERY"/>
+                <action android:name="cn.ledongli.runner.RUNNING_STOP"/>
+                <action android:name="cn.ledongli.runner.SPEED_EXCEPTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="cn.ledongli.ldl.runner.remote.daemon.broadcast.DaemonBroadcastReceiver"/>
+        <service android:foregroundServiceType="location" android:name="com.amap.api.location.APSService"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="cn.ledongli.ldl.account.activity.AccountBindActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.account.activity.ChangeProfileInfoActivity" android:screenOrientation="portrait" android:theme="@style/FoodLibTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="changeprofile" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="cn.ledongli.ldl.setting.PushManagerActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="push_msg_manager" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="android.taobao.windvane.runtimepermission.PermissionActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="cn.ledongli.ldl.webview.LeWVUCWebViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.newWebView" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="webview" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="cn.ledongli.ldl.webview.LeWVUCWebViewActivityH" android:screenOrientation="landscape" android:theme="@style/Theme.Ledongli.newWebView" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="webview_h" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="cn.ledongli.ldl.webview.AuthTaobaoWebViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Ledongli.newWebView" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="webview_taobao_auth" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.ali.user.mobile.login.ui.UserLoginActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeLogin" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.ali.user.mobile.login.ui.HalfTransparentUserLoginActivity" android:screenOrientation="behind" android:theme="@style/AliUserLoginTransparentTheme" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.login.ui.H5ContainerActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:name="com.ali.user.mobile.webview.WebViewActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.webview.AliUserRegisterWebviewActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.webview.HtmlActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.register.ui.AliUserRegisterActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="reg.taobao.com" android:path="/member/new_register.jhtml" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.register.ui.AliUserRegisterChoiceRegionActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="my.m.taobao.com" android:pathPrefix="/go/openMobileArea" android:scheme="http"/>
+                <data android:host="my.m.taobao.com" android:pathPrefix="/go/openMobileArea" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.ui.AliUserVerificationActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ali.user.mobile.bind.NewAccountBindActivity" android:screenOrientation="behind" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.ali.user.mobile.webview.SnsAuthWebViewActivity" android:screenOrientation="portrait" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.aliuser.sns.auth"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:launchMode="singleTask" android:name="com.taobao.login4android.scan.QrScanActivity" android:screenOrientation="portrait" android:theme="@style/AliUserAppThemeBase" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="passport" android:path="/qrlogin" android:scheme="youku"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:launchMode="singleTask" android:name="com.taobao.login4android.login.LoginGatewayActivity" android:theme="@style/AliUserTransparentTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.taobao.android.sso.v2.result.ResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <service android:exported="true" android:name="com.alisports.ldl.lesc.core.LeJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.huawei.hms.support.api.push.service.HmsMsgService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="org.android.agoo.huawei.HuaweiPushMessageService">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.heytap.msp.push.service.CompatibleDataMessageCallbackService" android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE">
+            <intent-filter>
+                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.heytap.msp.push.service.DataMessageCallbackService" android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE">
+            <intent-filter>
+                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"/>
+                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.vivo.push.sdk.service.CommandClientService" android:permission="com.push.permission.UPSTAGESERVICE"/>
+        <receiver android:name="org.android.agoo.vivo.PushMessageReceiverImpl">
+            <intent-filter>
+                <action android:name="com.vivo.pushclient.action.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:name="com.xiaomi.push.service.XMPushService" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="false" android:name="com.xiaomi.push.service.XMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler" android:permission="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService"/>
+        <receiver android:exported="true" android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="org.android.agoo.xiaomi.MiPushBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.taobao.android.service.AidlBridgeService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alibaba.poplayer.aidlManager.PopAidlService">
+            <intent-filter>
+                <action android:name="com.alibaba.action.aidl.poplayer"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.alibaba.poplayer.layermanager.TableCanvasService"/>
+        <activity android:exported="false" android:name="com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"/>
+                <action android:name="com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"/>
+                <action android:name="com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <meta-data android:name="org.chromium.content.browser.NUM_SANDBOXED_SERVICES" android:value="1"/>
+        <meta-data android:name="org.chromium.content.browser.SANDBOXED_SERVICES_NAME" android:value="com.taobao.uc.service.SandboxedProcessService"/>
+        <service android:isolatedProcess="true" android:name="com.taobao.uc.service.SandboxedProcessService0" android:process=":sandboxed_process0"/>
+        <meta-data android:name="org.chromium.content.browser.SANDBOXED_PRIVILEGED_SERVICES_NAME" android:value="com.taobao.uc.service.SandboxedPrivilegedProcessService"/>
+        <service android:isolatedProcess="false" android:name="com.taobao.uc.service.SandboxedPrivilegedProcessService0" android:process=":sandboxed_privilege_process0"/>
+        <meta-data android:name="org.chromium.content.browser.NUM_GPU_SERVICES" android:value="1"/>
+        <meta-data android:name="org.chromium.content.browser.GPU_SERVICES_NAME" android:value="com.taobao.uc.service.GpuProcessService"/>
+        <service android:isolatedProcess="false" android:name="com.taobao.uc.service.GpuProcessService0" android:process=":gpu_process"/>
+        <service android:name="com.alibaba.ut.abtest.internal.debug.whitelist.EvoAccsService">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.youku.ribut.demo.AliRibutDemoActivity" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="ribut" android:scheme="youku"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTask" android:name="com.youku.ribut.demo.ScanActivity" android:windowSoftInputMode="adjustPan"/>
+        <provider android:authorities="cn.ledongli.ldl.update.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.taobao.update.provider.UpdateProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/apk_paths"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|layoutDirection|locale|orientation" android:exported="false" android:launchMode="singleTop" android:name="com.taobao.android.preview.DXTemplatePreviewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:launchMode="singleTop" android:name="com.alisports.ai.bigfight.ui.deteck.fight.BigFightActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:launchMode="singleTop" android:name="com.alisports.ai.bigfight.ui.deteck.TestEasyViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:launchMode="singleTop" android:name="com.alisports.ai.bigfight.ui.hand.HandTouchLyingActivity" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:launchMode="singleTop" android:name="com.alisports.ai.bigfight.ui.hand.HandTouchStandActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.sina.weibo.sdk.share.WbShareResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.sina.weibo.sdk.share.WbShareTransActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.sina.weibo.sdk.share.WbShareToStoryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.ali.user.open.core.webview.BaseWebViewActivity" android:screenOrientation="portrait" android:theme="@style/AliMember.Base.AppTheme"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:multiprocess="true" android:name="com.ali.user.open.tbauth.ui.TbAuthWebViewActivity" android:screenOrientation="portrait" android:theme="@style/AliMember.Base.AppTheme">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:multiprocess="true" android:name="com.ali.user.open.tbauth.ui.TbAuthActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:multiprocess="true" android:name="com.ali.user.open.tbauth.ui.ICBUAuthActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <receiver android:name="com.ali.user.open.receiver.SessionSyncReceiver">
+            <intent-filter>
+                <action android:name="aliuser_sync_session"/> //此处必需指定action，否则监听不到 </intent-filter>
+        </receiver>
+        <activity android:launchMode="singleTop" android:name="com.ali.user.open.ucc.webview.UccWebViewActivity" android:screenOrientation="portrait" android:theme="@style/AliMember.Base.AppTheme">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:multiprocess="true" android:name="com.ali.user.open.ucc.ui.UccActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="com.alibaba-inc.check.login.status.resume" android:value="0"/>
+        </activity>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.alibaba.android.split.core.missingsplits.MissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleInstance" android:name="com.alipay.sdk.app.PayResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.alipay.sdk.app.AlipayResultActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.alipay.sdk.app.H5OpenAuthActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.alipay.sdk.app.APayEntranceActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.samsung.android.health.permission.read" android:value="com.samsung.health.step_count"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.amnet.service.AmnetService$InnerService" android:process=":push"/>
+        <service android:enabled="true" android:exported="false" android:label="AmnetMainProcService" android:name="com.alipay.mobile.common.amnet.service.AmnetMainProcService"/>
+        <activity android:exported="false" android:name="com.youku.appbundle.core.DefaultObtainUserConfirmationDialog" android:screenOrientation="behind" android:theme="@style/Theme.ActivityDialogStyle"/>
+        <service android:exported="false" android:name="com.youku.appbundle.core.splitrequest.splitinfo.SplitUpdateService"/>
+        <service android:exported="false" android:name="com.youku.appbundle.core.splitinstall.remote.SplitInstallService">
+            <intent-filter>
+                <action android:name="com.youku.appbundle.play.core.splitinstall.BIND_SPLIT_INSTALL_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.youku.appbundle.core.splitinstall.SplitCleanService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:name="com.beizi.ad.AdActivity"/>
+        <service android:exported="false" android:name="com.beizi.ad.DownloadService"/>
+        <service android:exported="false" android:multiprocess="true" android:name="com.qq.e.comm.DownloadService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.ADActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.PortraitADActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.LandscapeADActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.RewardvideoPortraitADActivity" android:theme="@android:style/Theme.Light.NoTitleBar">
+            <meta-data android:name="android.notch_support" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.RewardvideoLandscapeADActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar">
+            <meta-data android:name="android.notch_support" android:value="true"/>
+        </activity>
+        <activity android:multiprocess="true" android:name="com.qq.e.ads.DialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="ZEUS_PLUGIN_PANGLE" android:value="{                 apiVersionCode:4607,                 packageName:com.byted.pangle,                 minPluginVersion:4607,                 internalPath:1694131332,                 internalVersionCode:4607,                 signature:'MIIDfTCCAmWgAwIBAgIEfRwYPjANBgkqhkiG9w0BAQsFADBvMQswCQYDVQQGEwJDTjEQMA4GA1UECBMHQmVpamluZzEQMA4GA1UEBxMHQmVpamluZzESMBAGA1UEChMJQnl0ZURhbmNlMQ8wDQYDVQQLEwZQYW5nbGUxFzAVBgNVBAMTDkNodWFuIFNoYW4gSmlhMB4XDTIxMTEwODA2MjQzOVoXDTQ2MTEwMjA2MjQzOVowbzELMAkGA1UEBhMCQ04xEDAOBgNVBAgTB0JlaWppbmcxEDAOBgNVBAcTB0JlaWppbmcxEjAQBgNVBAoTCUJ5dGVEYW5jZTEPMA0GA1UECxMGUGFuZ2xlMRcwFQYDVQQDEw5DaHVhbiBTaGFuIEppYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIBKeRL+4mfCn1SLYv6OemfwwItkjlLPyqOEugkV6lanFTcZgLwEl5LIkL0y28UncPtMX1Mii6DzCdJ/plw7S9+RT/hYDneu339IKWojaU2qai/5FokHlQ0MMnYl5yry00ghVPsl1u+03cQA2ZnjIMiFhrBJpQzHt7IYvq2aEEMBcY8uT7iFoBI848e1mL1joVS2z02C3NliP7ZNARkXH+rTQAlCJulT5IZk+V/PTaKqzgNrkhsKh0/tBmU7m8u79x/xpgGsE19H18AgS4P/9/MDCRe2Z35boZeccaUy2MXCwv3djzUcDk3rRzQPYzdpyyRnrFMuhiKesc5VHgUMs9kCAwEAAaMhMB8wHQYDVR0OBBYEFENENrNWGzc2WhxdvhoMDs57U70zMA0GCSqGSIb3DQEBCwUAA4IBAQAHqDCrmvyBBmIGXwuL1rwS/Qv9ZJIZykBIaNMm+H1IfitCl4yXd9N2n+PjE0UZtxZ21UZOt9wAr+RFiSl5YRXqpt7WLARTy4YW3RiQ+wiL7bshzeSYBoSiC427Bfeq0WjwY0/jHlr8uouppyJOz++6U9hrYX2EW/6UjH5XlWiKQJ6b2ZzPcP8Xpg/TJn4tWvXJP6jw9kRRP2GmMttY78leWQst2QEZILmWJubXRLPj9O+qx2uP9oGTD4sc1vb9hzkOHBIHzGaalqLFbbGaeFpLFHoGTsnOfPTwUVKDZYmxbkcmR1bp7eYOW+nSQNMLn0FjDewZl5l37Sa/gz0WVHon'             }"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity_T" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Landscape_Activity" android:screenOrientation="landscape" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Activity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity_T" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <provider android:authorities="cn.ledongli.ldl.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost" android:exported="false" android:name="com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager" android:process=":downloader"/>
+        <provider android:authorities="cn.ledongli.ldl.pangle.servermanager.main" android:exported="false" android:name="com.bytedance.sdk.openadsdk.stub.server.MainServerManager"/>
+        <provider android:authorities="cn.ledongli.ldl.pangle.provider.proxy.main" android:exported="false" android:name="com.bytedance.pangle.provider.MainProcessProviderProxy"/>
+        <provider android:authorities="cn.ledongli.ldl.pangle.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.bytedance.pangle.FileProvider"/>
+        <activity android:exported="false" android:name="com.ss.android.downloadlib.addownload.compliance.AppPrivacyPolicyActivity"/>
+        <activity android:exported="false" android:name="com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.downloadlib.activity.TTDelegateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.downloadlib.activity.JumpKllkActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="false" android:name="com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.appdownloader.DownloadHandlerService"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity" android:theme="@android:style/Theme.Dialog"/>
+        <service android:enabled="true" android:exported="false" android:name="com.ss.android.socialbase.appdownloader.RetryJobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService" android:process=":downloader">
+            <intent-filter>
+                <action android:name="com.ss.android.socialbase.downloader.remote"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.notification.DownloadNotificationService"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.DownloadService"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.impls.DownloadHandleService"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.AdWebViewActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.KsFullScreenVideoActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.KsFullScreenLandScapeVideoActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.KsRewardVideoActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.KSRewardLandScapeVideoActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.FeedDownloadActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$KsTrendsActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileVideoDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ChannelDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$EpisodeDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$RequestInstallPermissionActivity" android:theme="@style/TransparentDialogActivity">
+            <intent-filter>
+                <action android:name="intent.action.requestInstallPermission"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity1" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$GoodsPlayBackActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity2" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity3" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity4" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity5" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity6" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity7" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity8" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity9" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity10" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop1" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop2" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance1" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance2" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$DeveloperConfigActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivity" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTop1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTop2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTask1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTask2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleInstance1" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleInstance2" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <service android:name="com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService"/>
+        <service android:name="com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService"/>
+        <service android:exported="false" android:name="com.kwad.sdk.api.proxy.app.DownloadService"/>
+        <service android:exported="false" android:name="com.kwad.sdk.api.proxy.app.ServiceProxyRemote" android:process=":kssdk_remote"/>
+        <provider android:authorities="cn.ledongli.ldl.adFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.kwad.sdk.api.proxy.app.AdSdkFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/ksad_file_paths"/>
+        </provider>
+        <service android:name="com.ubix.ssp.open.comm.DownloadService"/>
+        <activity android:name="com.ubix.ssp.open.comm.AdActivity"/>
+        <provider android:authorities="cn.ledongli.ldl.UBiXFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.ubix.ssp.open.comm.UBiXFileProvider"/>
+        <activity android:name="com.ubix.ssp.open.comm.UBiXWebViewActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:name="com.ubix.ssp.open.comm.UBiXVideoActivity"/>
+        <provider android:authorities="cn.ledongli.ldl.UbixDataContentProvider" android:enabled="true" android:exported="false" android:name="com.ubix.ssp.ad.core.monitor.data.UbixDataContentProvider"/>
+        <provider android:authorities="cn.ledongli.ldl.mediation.now.UbixDataContentProvider" android:exported="false" android:name="com.ubixnow.utils.monitor.data.UbixDataContentProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.baidu.mobads.sdk.api.AppActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.baidu.mobads.sdk.api.MobRewardVideoActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.baidu.mobads.sdk.api.BdShellActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:name="com.jd.ad.sdk.bl.adinteraction.deeplink.JADWebViewActivity" android:theme="@style/JadWebTheme"/>
+        <provider android:authorities="cn.ledongli.ldl.JADMultiProvider" android:exported="false" android:name="com.jd.ad.sdk.dl.cache.multiprocess.JADMultiProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:exported="false" android:hardwareAccelerated="true" android:name="com.lenovo.sdk.mc.LXHWebActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:exported="false" android:hardwareAccelerated="true" android:name="com.lenovo.sdk.u.a.mc.LXActivity" android:screenOrientation="portrait"/>
+        <service android:exported="false" android:launchMode="singleInstance" android:name="com.lenovo.sdk.inf.DownloadService" android:process=":download">
+            <intent-filter>
+                <action android:name="com.lenovo.sdk.inf.DOWNLOAD_SERVICE"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.lenovo.sdk.u.a.mc.LXPortraitRewardActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <provider android:authorities="cn.ledongli.ldl.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <meta-data android:name="android.app.lib_name" android:value="cocos2djs"/>
+        <activity android:exported="false" android:name="org.cocos2dx.lib.test.CCGameTestHomePage" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="test_game" android:scheme="youku"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.cocos2dx.lib.action.LAUNCH_GAME_HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="org.cocos2dx.lib.test.CCTestOneGamePage" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="org.cocos2dx.lib.action.TEST_ONE_GAME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="org.cocos2dx.lib.test.CCTestMultiGamePage" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="org.cocos2dx.lib.action.TEST_MULTI_GAME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="org.cocos2dx.lib.test.CCTestOnePortGamePage" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="org.cocos2dx.lib.action.PLAY_ONE_PORT_GAME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="org.cocos2dx.lib.test.CCTestOneVideoPage" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="org.cocos2dx.lib.action.PLAY_ONE_VIDEO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="org.cocos2dx.lib.test.CCTestGameRenderDataSinkPage" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="org.cocos2dx.lib.action.TEST_GAME_SINK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="org.cocos2dx.lib.test.CCTestOneCameraPage" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="org.cocos2dx.lib.action.PLAY_ONE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:directBootAware="true" android:name="com.huawei.hms.support.api.push.PushMsgReceiver" android:permission="cn.ledongli.ldl.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:name="com.huawei.hms.support.api.push.PushReceiver" android:permission="cn.ledongli.ldl.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="cn.ledongli.ldl.huawei.push.provider" android:exported="true" android:name="com.huawei.hms.support.api.push.PushProvider" android:permission="cn.ledongli.ldl.permission.PUSH_PROVIDER" android:readPermission="cn.ledongli.ldl.permission.PUSH_PROVIDER" android:writePermission="cn.ledongli.ldl.permission.PUSH_WRITE_PROVIDER"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:push" android:value="push:5.3.0.303"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:push:push" android:value="1"/>
+        <service android:exported="true" android:name="com.meizu.cloud.pushsdk.NotificationService"/>
+        <receiver android:name="com.meizu.cloud.pushsdk.MzPushSystemReceiver" android:permission="com.meizu.flyme.permission.PUSH">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.PUSH_SYSTEM"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="sdk_version_vivo" android:value="484"/>
+        <meta-data android:name="local_iv" android:value="MzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsMzIsMzgsMzcsMzYsMzUsMzQsMzMsI0AzNCwzMiwzMywzNywzMywzNCwzMiwzMywzMywzMywzNCw0MSwzNSwzNSwzMiwzMiwjQDMzLDM0LDM1LDM2LDM3LDM4LDM5LDQwLDQxLDMyLDM4LDM3LDMzLDM1LDM0LDMzLCNAMzQsMzIsMzMsMzcsMzMsMzQsMzIsMzMsMzMsMzMsMzQsNDEsMzUsMzIsMzIsMzI"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:hardwareAccelerated="true" android:name="com.alipay.mobile.beehive.template.ui.DemoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.compositeui.multilevel.MultilevelSelectActivity_" android:theme="@style/Transparent" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <meta-data android:name="com.alipay.mobile.beehive.com_alipay_mobile_beehive_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.scansdk.activity.ToolsCaptureActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <meta-data android:name="com.alipay.android.phone.scancode.export.com_alipay_android_phone_scancode_export_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity" android:theme="@style/h5_transparent" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.alipay.mobile.nebulacore.ui.H5FileChooserActivity" android:theme="@style/h5_transparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5NetworkCheckActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|touchscreen" android:name="com.alipay.mobile.nebulacore.dev.ui.H5BugMeSettingsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity0" android:taskAffinity=":lite1" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity1" android:taskAffinity=":lite1" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity2" android:taskAffinity=":lite2" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity3" android:taskAffinity=":lite3" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity4" android:taskAffinity=":lite4" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity5" android:taskAffinity=":lite5" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.nebulacore.ui.H5NebulaAppActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransLandscapeActivity" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebula.appcenter.apphandler.loadingview.H5LoadingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <meta-data android:name="com.alipay.mobile.nebula.com_alipay_mobile_nebula_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.nebulaconfig.com_alipay_mobile_nebulaconfig_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:name="com.alipay.mobile.nebulax.inside.contact.H5ContactTransparentActivity"/>
+        <activity android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaRestoreActivity" android:noHistory="true"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|smallestScreenSize" android:name="com.alipay.mobile.nebulaappproxy.activity.MiniProgramOpenSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|smallestScreenSize|touchscreen" android:name="com.alipay.mobile.nebulaappproxy.ipc.H5ProcessTransActivity" android:theme="@style/TransparentNoAnimationTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Lite1" android:process=":lite1" android:screenOrientation="portrait" android:taskAffinity=":lite1" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Lite2" android:process=":lite2" android:screenOrientation="portrait" android:taskAffinity=":lite2" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Lite3" android:process=":lite3" android:screenOrientation="portrait" android:taskAffinity=":lite3" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Lite4" android:process=":lite4" android:screenOrientation="portrait" android:taskAffinity=":lite4" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Lite5" android:process=":lite5" android:screenOrientation="portrait" android:taskAffinity=":lite5" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main" android:screenOrientation="portrait" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$AppInsideMain" android:screenOrientation="portrait" android:taskAffinity=":app_inside" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaTransActivity$Lite5" android:process=":lite5" android:taskAffinity=":lite5" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaTransActivity$Lite4" android:process=":lite4" android:taskAffinity=":lite4" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaTransActivity$Lite3" android:process=":lite3" android:taskAffinity=":lite3" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaTransActivity$Lite2" android:process=":lite2" android:taskAffinity=":lite2" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaTransActivity$Lite1" android:process=":lite1" android:taskAffinity=":lite1" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaTransActivity$Main" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.alipay.mobile.nebulaappproxy.view.IntegrationSettingActivity_" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.alipay.mobile.nebulaintegration.com_alipay_mobile_nebulaintegration_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.nebulauc.com_alipay_mobile_nebulauc_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <service android:exported="false" android:name="com.alipay.mobile.common.fgbg.FgBgMonitorService"/>
+        <service android:exported="true" android:name="com.alipay.mobile.common.job.JobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.alipay.mobile.common.job.JobTriggerReceiver">
+            <intent-filter>
+                <action android:name="com.alipay.mobile.common.job.Trigger"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.alipay.android.phone.mobilesdk.commonbizservice.com_alipay_android_phone_mobilesdk_commonbizservice_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.common.service.com_alipay_mobile_common_service_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:name="com.alipay.mobile.core.loading.impl.LoadingPage"/>
+        <activity android:name="com.alipay.mobile.core.region.ui.ChangeRegionActivity"/>
+        <service android:exported="false" android:name="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService1"/>
+        <service android:exported="false" android:name="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService2"/>
+        <service android:exported="false" android:name="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService3"/>
+        <service android:exported="false" android:name="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService4"/>
+        <service android:exported="false" android:name="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService5"/>
+        <activity android:name="com.alipay.mobile.liteprocess.LiteProcessActivity$LiteProcessActivity1" android:noHistory="true" android:taskAffinity=":lite1" android:theme="@style/Transparent"/>
+        <activity android:name="com.alipay.mobile.liteprocess.LiteProcessActivity$LiteProcessActivity2" android:noHistory="true" android:taskAffinity=":lite2" android:theme="@style/Transparent"/>
+        <activity android:name="com.alipay.mobile.liteprocess.LiteProcessActivity$LiteProcessActivity3" android:noHistory="true" android:taskAffinity=":lite3" android:theme="@style/Transparent"/>
+        <activity android:name="com.alipay.mobile.liteprocess.LiteProcessActivity$LiteProcessActivity4" android:noHistory="true" android:taskAffinity=":lite4" android:theme="@style/Transparent"/>
+        <activity android:name="com.alipay.mobile.liteprocess.LiteProcessActivity$LiteProcessActivity5" android:noHistory="true" android:taskAffinity=":lite5" android:theme="@style/Transparent"/>
+        <service android:exported="false" android:name="com.alipay.mobile.liteprocess.ipc.IpcMsgServer"/>
+        <meta-data android:name="com.alipay.android.liteprocess.com_alipay_android_liteprocess_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite1" android:process=":lite1"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite2" android:process=":lite2"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite3" android:process=":lite3"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite4" android:process=":lite4"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite5" android:process=":lite5"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInMainProcess"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInPushProcess"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LinkTransactionService"/>
+        <service android:enabled="false" android:exported="false" android:name="com.alipay.android.phone.mobilesdk.permission.utils.FakeService"/>
+        <receiver android:enabled="false" android:exported="false" android:name="com.alipay.android.phone.mobilesdk.permission.utils.FakeReceiver"/>
+        <meta-data android:name="com.alipay.android.phone.mobilesdk.permission.com_alipay_android_phone_mobilesdk_permission_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.mascanengine.com_alipay_mobile_mascanengine_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.bqcscanservice.com_alipay_mobile_bqcscanservice_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.android.phone.mobilesdk.apm.com_alipay_android_phone_mobilesdk_apm_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <service android:exported="true" android:name="com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService" android:permission="android.permission.BIND_NFC_SERVICE">
+            <intent-filter>
+                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.nfc.cardemulation.host_apdu_service" android:resource="@xml/tiny_app_apdu_service"/>
+        </service>
+        <meta-data android:name="network_run_single_process" android:value="true"/>
+        <meta-data android:name="only_bifrost_std_h2_module" android:value="true"/>
+        <meta-data android:name="only_push_switch" android:value="true"/>
+        <meta-data android:name="use_amnet_service" android:value="true"/>
+        <meta-data android:name="use_amdc" android:value="true"/>
+        <meta-data android:name="amdc.dg" android:value="mqp"/>
+        <meta-data android:name="apnetwork.startup.listener" android:value="com.alipay.ariver.network.NetworkStartupListener"/>
+        <service android:name="com.alibaba.ariver.ipc.RemoteCallService"/>
+        <activity android:exported="false" android:launchMode="standard" android:name="com.alipay.mobile.h5plugin.H5MapActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.alipay.mobile.base.commonbiz.com_alipay_mobile_base_commonbiz_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.android.phone.mobilesdk.tianyanadapter.com_alipay_android_phone_mobilesdk_tianyanadapter_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.android.phone.wallet.aompnetwork.NebulaBundle2AARMetaInfoConfigZZZ" android:value="v1.mpaas.meta.info.nebula"/>
+        <meta-data android:name="android.phone.mobilesdk.clipboard.android_phone_mobilesdk_clipboard_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.network.ccdn.com_alipay_mobile_network_ccdn_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.android.mapassist.ui.MapMainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.android.mapassist.ui.MapAssistActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.android.mapassist.ui.RouteDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <meta-data android:name="com.alipay.mobile.map.com_alipay_mobile_map_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.common.lbs.com_alipay_mobile_common_lbs_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:name="com.alipay.mobile.aompfilemanager.pdf.PdfViewer" android:screenOrientation="portrait"/>
+        <activity android:name="com.alipay.mobile.aompfilemanager.filepicker.FilePickerMainActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.alipay.mobile.aompfilemanager.com_alipay_mobile_aompfilemanager_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.aompfilemanager.NebulaBundle2AARMetaInfoConfigZZZ" android:value="v1.mpaas.meta.info.nebula"/>
+        <service android:exported="true" android:name="com.alipay.mobile.aompdevice.nfc.service.TinyAppHostApduService" android:permission="android.permission.BIND_NFC_SERVICE">
+            <intent-filter>
+                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.nfc.cardemulation.host_apdu_service" android:resource="@xml/tiny_app_apdu_service"/>
+        </service>
+        <meta-data android:name="com.alipay.mobile.aompdevice.NebulaBundle2AARMetaInfoConfigZZZ" android:value="v1.mpaas.meta.info.nebula"/>
+        <service android:name="org.altbeacon.beacon.service.ScanJob" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="com.alipay.android.phone.bluetoothsdk.NebulaBundle2AARMetaInfoConfigZZZ" android:value="v1.mpaas.meta.info.nebula"/>
+        <meta-data android:name="com.alipay.android.phone.bluetoothsdk.com_alipay_android_phone_bluetoothsdk_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.aompfavorite.NebulaBundle2AARMetaInfoConfigZZZ" android:value="v1.mpaas.meta.info.nebula"/>
+        <meta-data android:name="com.alipay.mobile.aompfavorite.com_alipay_mobile_aompfavorite_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.cityselect.ui.ProvinceCityListActivity_" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.cityselect.ui.SelectCityActivity_" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.cityselect.ui.SelectAreaActivity_" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.cityselect.ui.SelectAreaSubActivity_" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.cityselect.ui.SelectCityTinyActivity_" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <meta-data android:name="com.alipay.mobile.beecitypicker.NebulaBundle2AARMetaInfoConfigZZZ" android:value="v1.mpaas.meta.info.nebula"/>
+        <meta-data android:name="com.alipay.mobile.beecitypicker.com_alipay_mobile_beecitypicker_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.poiselect.ui.PoiSelectActivity_" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.poiselect.ui.LocationDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:exported="false" android:launchMode="standard" android:name="com.alipay.mobile.location.openlocation.H5MapActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.alipay.mobile.beelocationpicker.com_alipay_mobile_beelocationpicker_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.mobile.beelocationpicker.NebulaBundle2AARMetaInfoConfigZZZ" android:value="v1.mpaas.meta.info.nebula"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:hardwareAccelerated="true" android:name="com.alipay.android.phone.mobilecommon.multimediabiz.biz.live.LiveDownloadActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:hardwareAccelerated="true" android:name="com.alipay.android.phone.mobilecommon.multimediabiz.biz.live.ARTVCModuleDownloadActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <meta-data android:name="com.alipay.android.phone.mobilecommon.multimediabiz.com_alipay_android_phone_mobilecommon_multimediabiz_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="com.alipay.multimedia.apxmmusic.com_alipay_multimedia_apxmmusic_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:configChanges="keyboardHidden|layoutDirection|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:label="TestActivity" android:name="com.alipay.mobile.beehive.video.TestActivity"/>
+        <activity android:configChanges="keyboardHidden|layoutDirection|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:label="VPreviewTestActivity" android:name="com.alipay.mobile.beehive.video.VPreviewTestActivity"/>
+        <activity android:configChanges="keyboardHidden|layoutDirection|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:label="VPreviewTestActivity" android:name="com.alipay.mobile.beehive.video.LivePlayerTestActivity"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.imageedit.activity.DoodleActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.imageedit.v2.BeeImageEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <meta-data android:name="android.phone.wallet.beeimageedit.android_phone_wallet_beeimageedit_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.capture.activity.CaptureActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.alipay.mobile.beehive.capture.activity.RecordPreviewActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity android:configChanges="keyboard|layoutDirection|orientation|screenSize" android:name="com.alipay.mobile.beehive.capture.activity.PortraitCaptureActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|layoutDirection|orientation|screenSize" android:name="com.alipay.mobile.beehive.capture.activity.PortraitRecordPreview" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|layoutDirection|orientation|screenSize" android:name="com.alipay.mobile.beehive.capture.activity.PortraitCaptureExtendActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard" android:name="com.alipay.mobile.beehive.capture.activity.LandscapeCaptureActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard" android:name="com.alipay.mobile.beehive.capture.activity.LandscapeCaptureForCarInsuranceActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard" android:name="com.alipay.mobile.beehive.capture.activity.LandscapeRecordPreview" android:screenOrientation="sensorLandscape"/>
+        <meta-data android:name="android.phone.wallet.beecapture.android_phone_wallet_beecapture_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:launchMode="singleTask" android:name="com.alipay.mobile.beehive.audio.activity.GeneralAudioPlayActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <meta-data android:name="android.phone.wallet.beeaudio.android_phone_wallet_beeaudio_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:hardwareAccelerated="true" android:name="com.alipay.mobile.beehive.photo.ui.PhotoSelectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation" android:hardwareAccelerated="true" android:name="com.alipay.mobile.beehive.photo.ui.PhotoPreviewActivity" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:hardwareAccelerated="true" android:name="com.alipay.mobile.beehive.photo.ui.PhotoEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:hardwareAccelerated="true" android:name="com.alipay.mobile.beehive.photo.ui.RemotePhotoGridActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:name="com.alipay.mobile.beehive.photo.ui.BrowsePhotoAsListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation" android:hardwareAccelerated="true" android:name="com.alipay.mobile.beehive.photo.ui.VideoPreviewEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation" android:hardwareAccelerated="true" android:name="com.alipay.mobile.beehive.photo.ui.VideoPreviewEditActivityWithFilter" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|navigation" android:hardwareAccelerated="true" android:name="com.alipay.mobile.beehive.photo.ui.VideoPreviewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <meta-data android:name="android.phone.wallet.beephoto.NebulaBundle2AARMetaInfoConfigZZZ" android:value="v1.mpaas.meta.info.nebula"/>
+        <meta-data android:name="android.phone.wallet.beephoto.android_phone_wallet_beephoto_FrameworkMetaInfo" android:value="v1.mpaas.meta.info.framework"/>
+        <meta-data android:name="android.phone.wallet.tracedebug.NebulaBundle2AARMetaInfoConfigZZZ" android:value="v1.mpaas.meta.info.nebula"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:hardwareAccelerated="true" android:name="com.taobao.android.ultron.common.UltronSwitchActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="test.taobao.com" android:path="/newultron/switch.htm" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="cn.ledongli.ldl.aaidinitprovider" android:exported="false" android:initOrder="500" android:name="com.huawei.hms.aaid.InitProvider"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:opendevice" android:value="opendevice:5.1.1.306"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:opendevice:push" android:value="1"/>
+        <meta-data android:name="com.google.ar.core.min_apk_version" android:value="211680000"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:name="com.google.ar.core.InstallActivity" android:theme="@android:style/Theme.Material.Light.Dialog.Alert"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:5.3.0.304"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:base:hmscore" android:value="1"/>
+        <meta-data android:name="availableLoaded" android:value="yes"/>
+        <provider android:authorities="cn.ledongli.ldl.hms.update.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.huawei.hms.update.provider.UpdateProvider"/>
+        <provider android:authorities="cn.ledongli.ldl.hms.device.validate.spoofprovider" android:exported="false" android:grantUriPermissions="false" android:name="com.huawei.hms.device.provider.CheckHmsProvider"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <provider android:authorities="cn.ledongli.ldl.updateSdk.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"/>
+        <service android:exported="false" android:name="com.taobao.slide.accs.SlideAccsService"/>
+        <activity android:configChanges="fontScale|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:name="com.huawei.hms.activity.BridgeActivity" android:screenOrientation="behind" android:theme="@style/Base_Translucent">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.huawei.hms.activity.EnableServiceActivity"/>
+        <provider android:authorities="cn.ledongli.ldl.AGCInitializeProvider" android:exported="false" android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"/>
+        <service android:exported="false" android:name="com.huawei.agconnect.core.ServiceDiscovery"/>
+        <meta-data android:name="com.google.ar.core" android:value="required"/>
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
+        <activity android:name="cn.ledongli.ldl.mapnavi.arnavi.ARNavigationX5Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ar_navi" android:scheme="ledongli"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.brtbeacon.wx.map.BRTMapWebViewActivity"/>
+        <provider android:authorities="cn.ledongli.ldl.com.android.alibaba.ip.server.InstantRunContentProvider" android:multiprocess="false" android:name="com.android.alibaba.ip.server.InstantRunContentProvider"/>
+        <meta-data android:name="multidex_enable" android:value="true"/>
+    </application>
+</manifest>

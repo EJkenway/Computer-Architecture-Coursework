@@ -1,0 +1,89 @@
+.class public Lcom/ali/ha/fulltrace/event/FPSEvent;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/ali/ha/fulltrace/IReportRawByteEvent;
+
+
+# instance fields
+.field public a:F
+
+.field public a:J
+
+.field public b:F
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    invoke-static {}, Lcom/ali/ha/fulltrace/TimeUtils;->a()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lcom/ali/ha/fulltrace/event/FPSEvent;->a:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getBody()[B
+    .locals 4
+
+    .line 1
+    iget v0, p0, Lcom/ali/ha/fulltrace/event/FPSEvent;->a:F
+
+    invoke-static {v0}, Lcom/ali/ha/fulltrace/ByteUtils;->c(F)[B
+
+    move-result-object v0
+
+    .line 2
+    iget v1, p0, Lcom/ali/ha/fulltrace/event/FPSEvent;->b:F
+
+    invoke-static {v1}, Lcom/ali/ha/fulltrace/ByteUtils;->c(F)[B
+
+    move-result-object v1
+
+    const/4 v2, 0x2
+
+    new-array v2, v2, [[B
+
+    const/4 v3, 0x0
+
+    aput-object v0, v2, v3
+
+    const/4 v0, 0x1
+
+    aput-object v1, v2, v0
+
+    .line 3
+    invoke-static {v2}, Lcom/ali/ha/fulltrace/ByteUtils;->f([[B)[B
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getTime()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/ali/ha/fulltrace/event/FPSEvent;->a:J
+
+    return-wide v0
+.end method
+
+.method public getType()S
+    .locals 1
+
+    .line 1
+    sget-short v0, Lcom/ali/ha/fulltrace/ProtocolConstants;->j:S
+
+    return v0
+.end method

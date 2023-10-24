@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/activity_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_result_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/layout_agenda_filter_retry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_fitness_no_net" />
+    <include android:id="@id/layout_agenda_no_training" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_fitness_find_no_training" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.amap.api.maps.TextureMapView android:id="@id/textureMapView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.widget.LeTitleBar android:id="@id/toolbarRunnerDetail" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:tBackImage="@drawable/ic_arrow_back_grey" app:tBackgroundColor="@color/transparent" app:tCenterTitle="true" app:tTitleText="跑步路线" />
+    <cn.ledongli.ldl.widget.LeButton android:textSize="14.0dip" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/btnRouteStart" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_margin="20.0dip" android:text="@string/start_running_route" app:btnRound="true" app:normalBackgroundColor="@color/run_main_origin" app:pressedBackgroundColor="@color/run_main_origin_dark" />
+    <RelativeLayout android:id="@id/rl_anim_bg" android:background="#ffff6022" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_invalaid_record_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_close_view" android:visibility="gone" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_40" android:layout_marginTop="44.0dip">
+        <ImageView android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:layout_marginLeft="16.0dip" android:layout_marginTop="55.0dip" android:src="@drawable/ic_left_back_grey" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/img_zero_view" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginTop="110.0dip" android:src="@drawable/ai_sport_result_num_zero_icon" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="28.0dip" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/tv_invalid_title" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="未检测到有效运动" android:layout_below="@id/img_zero_view" />
+    <TextView android:textSize="@dimen/sp_14" android:textColor="@color/gray_99" android:gravity="center" android:id="@id/tv_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="如果你运动了但未检测到，可能是\n光线太暗、网络异常、或是动作不标准" android:layout_below="@id/tv_invalid_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_restart" android:background="@drawable/ai_restart_button_bg" android:layout_width="300.0dip" android:layout_height="48.0dip" android:layout_marginBottom="32.0dip" android:text="再试一次" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/color_333333" android:id="@id/tab_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AI运动" android:includeFontPadding="false" android:layout_alignParentBottom="true" />
+    <TextView android:id="@id/tv_redPoint" android:background="@drawable/shape_red_point" android:visibility="visible" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_toRightOf="@id/tab_text" android:layout_above="@id/tab_text" />
+</RelativeLayout>

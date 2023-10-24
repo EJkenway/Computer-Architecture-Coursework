@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.beehive.imageedit.v2.view.CustomImageView android:id="@id/image_canvas" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="top" android:background="@drawable/ic_top_mask" android:layout_width="fill_parent" android:layout_height="96.0dip" />
+    <View android:layout_gravity="bottom" android:background="@drawable/ic_bottom_mask" android:layout_width="fill_parent" android:layout_height="138.0dip" />
+    <ViewSwitcher android:id="@id/vs_op" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/image_fade_in" android:outAnimation="@anim/image_fade_out">
+        <include layout="@layout/image_edit_opt_layout" />
+        <include layout="@layout/image_edit_clip_layout" />
+    </ViewSwitcher>
+</FrameLayout>

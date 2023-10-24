@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="right" android:id="@id/ivHideFilterPanel" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_panel" android:scaleType="center" android:contentDescription="@string/remove_filter_panel" />
+    <com.alipay.mobile.antui.basic.AUHorizontalListView android:id="@id/filterList" android:background="#c1000000" android:layout_width="fill_parent" android:layout_height="114.0dip" />
+</LinearLayout>

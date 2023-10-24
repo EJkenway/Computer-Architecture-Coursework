@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/activity_light_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/appbar_articles" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar_articles" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="?colorPrimary" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:scrimVisibleHeightTrigger="90.0dip" app:statusBarScrim="?colorPrimaryDark" app:titleEnabled="false">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/combo_detail_header" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_combo_detail" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="1.0dip" app:layout_collapseMode="pin" app:navigationIcon="@drawable/ic_arrow_back_white" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ll_motion_group" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="62.0dip" android:layout_centerVertical="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:background="@color/record_grey_line" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/iv_plan_preview" android:background="@drawable/plan_preview_lock_white" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_plan_preview_des" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/iv_plan_preview" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <include android:id="@id/layout_not_net" android:visibility="gone" layout="@layout/layout_no_net" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

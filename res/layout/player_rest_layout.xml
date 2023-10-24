@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.vplayer.ui.view.PlayerRestView android:background="@color/player_base_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vplayer="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_above="@id/tv_resume" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/progress_container" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <cn.ledongli.vplayer.ui.view.roundcornerprogressbar.RoundCornerProgressBar android:id="@id/progress_bar" android:layout_width="180.0dip" android:layout_height="44.0dip" vplayer:rcRadius="4.0dip" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:background="@drawable/btn_clear_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="继续训练" android:layout_alignLeft="@id/progress_bar" android:layout_alignTop="@id/progress_bar" android:layout_alignRight="@id/progress_bar" android:layout_alignBottom="@id/progress_bar" style="@style/TextAppereance.Size16" />
+            </RelativeLayout>
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/tv_rest_motion_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" style="@style/TextAppereance.Combo.Title" />
+            <TextView android:id="@id/tv_rest_mid_line" android:background="@color/white30" android:layout_width="2.0px" android:layout_height="wrap_content" android:layout_marginTop="68.0dip" android:layout_alignParentRight="true" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/progress_container" android:layout_centerHorizontal="true">
+                <TextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_rest_time_des" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="72.0dip" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/motion_rest_des" android:layout_toRightOf="@id/tv_rest_time_des" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_content" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/motion_des" style="@style/TextAppereance.Combo.Title" />
+            <android.taobao.windvane.extra.uc.WVUCWebView android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="68.0dip" style="@style/TextAppereance.Combo.Content" />
+            <TextView android:id="@id/tv_instruction" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/tv_desc" style="@style/TextAppereance.Combo.Content" />
+        </RelativeLayout>
+    </LinearLayout>
+</cn.ledongli.vplayer.ui.view.PlayerRestView>

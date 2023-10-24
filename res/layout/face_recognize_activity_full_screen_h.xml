@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/face_preview_contain" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <cn.ledongli.ldl.face.ui.view.CameraFullPreview android:id="@id/face_preview_camera" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.ledongli.ldl.face.ui.view.FaceRectView android:id="@id/face_rect_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:strokeColor="@android:color/white" app:strokeWidth="10.0dip" />
+        <FrameLayout android:id="@id/face_status_bg" android:background="@drawable/face_recognize_full_screen_green_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="48.0dip">
+            <TextView android:textSize="55.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/face_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="脸正对屏幕" android:maxLines="5" android:ems="1" android:includeFontPadding="false" />
+            <TextView android:textSize="55.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/face_tips_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成验证" android:maxLines="5" android:ems="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <cn.ledongli.ldl.face.ui.view.FaceFullLoadingView android:id="@id/face_loading_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

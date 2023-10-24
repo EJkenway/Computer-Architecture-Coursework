@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:text="步数1100步" android:singleLine="true" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/coin_text_light_color" android:id="@id/tv_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip" android:text="2019-11-12" android:layout_below="@id/tv_desc" />
+    <TextView android:textSize="16.0dip" android:textColor="#ffff6744" android:id="@id/tv_currency_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="+11" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

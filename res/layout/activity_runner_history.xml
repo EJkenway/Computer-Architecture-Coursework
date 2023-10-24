@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/activity_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.widget.LeTitleBar android:id="@id/title_bar_history" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:tBackImage="@drawable/ic_arrow_back_grey" app:tTitleText="@string/runner_history_title" />
+    <FrameLayout android:id="@id/fl_runner_history" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

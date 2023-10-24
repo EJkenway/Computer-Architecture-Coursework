@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/a1" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A001 仰卧起坐" android:onClick="situp" />
+    <Button android:id="@id/a2" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A002 深蹲" android:onClick="squat" />
+    <Button android:id="@id/a3" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A003 平板支撑" android:onClick="plank" />
+    <Button android:id="@id/a4" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A004 高抬腿" android:onClick="highleglift" />
+    <Button android:id="@id/a5" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A005 俯卧撑" android:onClick="pushup" />
+    <Button android:id="@id/a6" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A006 开合跳" android:onClick="jumpingjack" />
+    <Button android:id="@id/a7" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A007 跳绳" android:onClick="ropeskipping" />
+    <Button android:id="@id/a8" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A008 四足俯卧撑" android:onClick="easypushup" />
+    <Button android:id="@id/a9" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A009 卷腹" android:onClick="crunch" />
+    <Button android:id="@id/a10" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="A010 桥臀" android:onClick="hipbridge" />
+</LinearLayout>

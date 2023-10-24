@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.widget.LeTitleBar android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:tBackImage="@drawable/ic_arrow_back_grey" app:tTitleText="我的打卡记录" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/layoutNetworkError" android:visibility="gone" layout="@layout/layout_network_error" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/layoutNoData" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/no_data" android:background="@drawable/mine_sign_in_llist_null" android:layout_width="94.0dip" android:layout_height="94.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="暂无记录" android:layout_below="@id/no_data" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <com.jcodecraeer.xrecyclerview.XRecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

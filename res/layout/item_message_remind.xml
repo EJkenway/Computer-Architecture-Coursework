@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/activity_light_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/TextGreyLightColor" android:gravity="center" android:id="@id/tv_remind" android:background="@drawable/black_title_bg" android:layout_width="145.0dip" android:layout_height="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/message_center_load_error" android:maxLines="1" />
+</LinearLayout>

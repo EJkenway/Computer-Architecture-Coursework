@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.mobile.antui.basic.AULinearLayout android:orientation="vertical" android:id="@id/provincecitylist_layout" android:background="@color/client_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aui="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.antui.basic.AUTitleBar android:layout_gravity="center_horizontal" android:id="@id/provincecitylist_titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" aui:titleText="@string/regionselect_titlebar" />
+    <com.alipay.mobile.antui.basic.AUListView android:id="@id/provincecitylist_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+</com.alipay.mobile.antui.basic.AULinearLayout>

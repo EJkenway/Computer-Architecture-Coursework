@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.person.mvp.view.PersonHeaderView android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.widget.image.LeImageView android:layout_gravity="center_vertical" android:id="@id/imgAvatar" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/default_circle" android:scaleType="centerCrop" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <include android:id="@id/headerVipView" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/usercenter_header_vip_view" />
+    <cn.ledongli.ldl.view.LoginTipsUserCenterLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/login_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</cn.ledongli.ldl.person.mvp.view.PersonHeaderView>

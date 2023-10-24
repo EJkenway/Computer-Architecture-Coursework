@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/linear_layout_title_root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear_layout_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/main_training_footer" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+        <View android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    </LinearLayout>
+    <View android:id="@id/view_top_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="24.0dip">
+        <View android:background="@color/run_main_origin" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+        <View android:layout_width="8.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/le_color_grey_8" android:layout_gravity="center_vertical" android:id="@id/text_view_main_training_section_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/view_border_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+</LinearLayout>

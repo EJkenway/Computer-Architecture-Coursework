@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.antui.basic.AUTextView android:textSize="14.0dip" android:textColor="#ff9b9b9b" android:id="@id/city_grid_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" />
+    <com.alipay.mobile.beehive.cityselect.view.ExpandableGridView android:id="@id/city_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:listSelector="@android:color/transparent" android:horizontalSpacing="8.0dip" android:verticalSpacing="8.0dip" android:stretchMode="columnWidth" android:numColumns="4" />
+    <com.alipay.mobile.antui.basic.AUTextView android:textSize="16.0dip" android:textColor="#ff333333" android:gravity="center" android:id="@id/location_fail" android:background="@drawable/au_button_bg_for_sub" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" />
+</merge>

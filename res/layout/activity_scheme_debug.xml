@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="15.0sp" android:id="@id/schemeEditText" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="100.0dip" android:minHeight="50.0dip" android:text="ledongliopen://jump?type=" />
+    <cn.ledongli.ldl.widget.LeButton android:textColor="@color/white" android:gravity="center" android:id="@id/gotoButton" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:text="点击跳转上方输入的scheme地址" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" app:btnRadius="8.0dip" app:layout_constraintTop_toBottomOf="@id/schemeEditText" app:normalBackgroundColor="@color/blue" app:pressedBackgroundColor="#cc009aff" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/gotoButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

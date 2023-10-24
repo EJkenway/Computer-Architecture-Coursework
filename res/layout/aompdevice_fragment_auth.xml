@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/aomp_dialog_bg_auth" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="22.0sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="已准备好扫描" android:includeFontPadding="false" />
+        <com.alipay.android.phone.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/iv_lottie" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="22.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="将护照正面紧贴手机背面，请勿移动" android:includeFontPadding="false" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_marginTop="30.0dip" android:layout_marginBottom="45.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="#ff0076ff" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/aomp_btn_bg_cancel" android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="取消" android:includeFontPadding="false" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_indicator" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

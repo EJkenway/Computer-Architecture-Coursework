@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/rl_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/rl_container_content" android:background="@drawable/business_guide_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37.0dip" android:layout_marginRight="37.0dip" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/business_color_050505" android:gravity="center" android:id="@id/tv_title" android:background="@drawable/business_radius_bg_8" android:paddingTop="25.0dip" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="放弃的原因是" />
+            <View android:background="@color/business_dialog_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/business_color_050505" android:gravity="center" android:id="@id/tv_nodo" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/business_before_going_unknow" />
+            <View android:background="@color/business_dialog_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/business_color_050505" android:gravity="center" android:id="@id/tv_timelong" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/business_before_going_aim_difficult" />
+            <View android:background="@color/business_dialog_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/business_color_050505" android:gravity="center" android:id="@id/tv_goany" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/business_going_other" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_close" android:padding="8.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dialog_close" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

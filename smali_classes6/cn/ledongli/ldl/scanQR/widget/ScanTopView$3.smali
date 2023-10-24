@@ -1,0 +1,123 @@
+.class public Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcn/ledongli/ldl/scanQR/widget/ScanTopView;->onGetMaProportionAndSource(FI)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# static fields
+.field private static transient synthetic $ipChange:Lcom/android/alibaba/ip/runtime/IpChange;
+
+
+# instance fields
+.field public final synthetic this$0:Lcn/ledongli/ldl/scanQR/widget/ScanTopView;
+
+.field public final synthetic val$v:F
+
+.field public final synthetic val$zoom:I
+
+
+# direct methods
+.method public constructor <init>(Lcn/ledongli/ldl/scanQR/widget/ScanTopView;IF)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;->this$0:Lcn/ledongli/ldl/scanQR/widget/ScanTopView;
+
+    iput p2, p0, Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;->val$zoom:I
+
+    iput p3, p0, Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;->val$v:F
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 4
+
+    sget-object v0, Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;->$ipChange:Lcom/android/alibaba/ip/runtime/IpChange;
+
+    const-string v1, "4209"
+
+    invoke-static {v0, v1}, Lcom/android/alibaba/ip/runtime/AndroidInstantRuntime;->support(Lcom/android/alibaba/ip/runtime/IpChange;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    const/4 v2, 0x1
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    const/4 v3, 0x0
+
+    aput-object p0, v2, v3
+
+    invoke-interface {v0, v1, v2}, Lcom/android/alibaba/ip/runtime/IpChange;->ipc$dispatch(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+
+    .line 1
+    :cond_0
+    iget-object v0, p0, Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;->this$0:Lcn/ledongli/ldl/scanQR/widget/ScanTopView;
+
+    iget-object v0, v0, Lcn/ledongli/ldl/scanQR/widget/BaseScanTopView;->mActivity:Lcn/ledongli/ldl/scanQR/QRCodeScanActivity;
+
+    if-eqz v0, :cond_1
+
+    .line 2
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "onGetMaProportionAndSource setZoom zoom="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v1, p0, Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;->val$zoom:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ",v="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v1, p0, Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;->val$v:F
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "scan\uff1aScanTopView"
+
+    invoke-static {v1, v0}, Lcn/ledongli/ldl/utils/Log;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 3
+    iget-object v0, p0, Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;->this$0:Lcn/ledongli/ldl/scanQR/widget/ScanTopView;
+
+    iget-object v0, v0, Lcn/ledongli/ldl/scanQR/widget/BaseScanTopView;->mActivity:Lcn/ledongli/ldl/scanQR/QRCodeScanActivity;
+
+    iget v1, p0, Lcn/ledongli/ldl/scanQR/widget/ScanTopView$3;->val$zoom:I
+
+    invoke-virtual {v0, v1}, Lcn/ledongli/ldl/scanQR/QRCodeScanActivity;->setZoom(I)V
+
+    :cond_1
+    return-void
+.end method

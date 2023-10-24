@@ -1,0 +1,267 @@
+.class public Lcom/alibaba/ariver/commonability/map/sdk/impl/web/model/MarkerOptionsImpl;
+.super Lcom/alibaba/ariver/commonability/map/sdk/impl/web/WebMapSDKNode;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/alibaba/ariver/commonability/map/sdk/impl/web/WebMapSDKNode<",
+        "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+        ">;",
+        "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+        "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final TAG:Ljava/lang/String; = "MarkerOptionsImpl"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    invoke-direct {v0}, Lcom/alipay/mobile/map/web/model/MarkerOptions;-><init>()V
+
+    invoke-direct {p0, v0}, Lcom/alibaba/ariver/commonability/map/sdk/impl/web/WebMapSDKNode;-><init>(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public anchor(FF)Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(FF)",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+            "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/alibaba/ariver/commonability/map/sdk/api/RVMapSDKNode;->mSDKNode:Ljava/lang/Object;
+
+    check-cast v0, Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    invoke-virtual {v0, p1, p2}, Lcom/alipay/mobile/map/web/model/MarkerOptions;->anchor(FF)Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    return-object p0
+.end method
+
+.method public draggable(Z)Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(Z)",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+            "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+            ">;"
+        }
+    .end annotation
+
+    const-string p1, "MarkerOptionsImpl"
+
+    const-string v0, "draggable is not found"
+
+    .line 1
+    invoke-static {p1, v0}, Lcom/alibaba/ariver/kernel/common/utils/RVLogger;->w(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-object p0
+.end method
+
+.method public icon(Lcom/alibaba/ariver/commonability/map/sdk/api/model/IBitmapDescriptor;)Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IBitmapDescriptor;",
+            ")",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+            "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+            ">;"
+        }
+    .end annotation
+
+    if-eqz p1, :cond_0
+
+    .line 1
+    invoke-interface {p1}, Lcom/alibaba/ariver/commonability/map/sdk/api/IMapSDKNode;->getSDKNode()Ljava/lang/Object;
+
+    move-result-object p1
+
+    .line 2
+    instance-of v0, p1, Lcom/alipay/mobile/map/web/model/BitmapDescriptor;
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    iget-object v0, p0, Lcom/alibaba/ariver/commonability/map/sdk/api/RVMapSDKNode;->mSDKNode:Ljava/lang/Object;
+
+    check-cast v0, Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    check-cast p1, Lcom/alipay/mobile/map/web/model/BitmapDescriptor;
+
+    invoke-virtual {v0, p1}, Lcom/alipay/mobile/map/web/model/MarkerOptions;->icon(Lcom/alipay/mobile/map/web/model/BitmapDescriptor;)Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    :cond_0
+    return-object p0
+.end method
+
+.method public position(Lcom/alibaba/ariver/commonability/map/sdk/api/model/ILatLng;)Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/ILatLng;",
+            ")",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+            "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+            ">;"
+        }
+    .end annotation
+
+    if-eqz p1, :cond_0
+
+    .line 1
+    invoke-interface {p1}, Lcom/alibaba/ariver/commonability/map/sdk/api/IMapSDKNode;->getSDKNode()Ljava/lang/Object;
+
+    move-result-object p1
+
+    .line 2
+    instance-of v0, p1, Lcom/alipay/mobile/map/web/model/LatLng;
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    iget-object v0, p0, Lcom/alibaba/ariver/commonability/map/sdk/api/RVMapSDKNode;->mSDKNode:Ljava/lang/Object;
+
+    check-cast v0, Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    check-cast p1, Lcom/alipay/mobile/map/web/model/LatLng;
+
+    invoke-virtual {v0, p1}, Lcom/alipay/mobile/map/web/model/MarkerOptions;->position(Lcom/alipay/mobile/map/web/model/LatLng;)Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    :cond_0
+    return-object p0
+.end method
+
+.method public setFlat(Z)Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(Z)",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+            "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+            ">;"
+        }
+    .end annotation
+
+    const-string p1, "MarkerOptionsImpl"
+
+    const-string/jumbo v0, "setFlat is not found"
+
+    .line 1
+    invoke-static {p1, v0}, Lcom/alibaba/ariver/kernel/common/utils/RVLogger;->w(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-object p0
+.end method
+
+.method public snippet(Ljava/lang/String;)Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+            "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/alibaba/ariver/commonability/map/sdk/api/RVMapSDKNode;->mSDKNode:Ljava/lang/Object;
+
+    check-cast v0, Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    invoke-virtual {v0, p1}, Lcom/alipay/mobile/map/web/model/MarkerOptions;->snippet(Ljava/lang/String;)Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    return-object p0
+.end method
+
+.method public title(Ljava/lang/String;)Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+            "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/alibaba/ariver/commonability/map/sdk/api/RVMapSDKNode;->mSDKNode:Ljava/lang/Object;
+
+    check-cast v0, Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    invoke-virtual {v0, p1}, Lcom/alipay/mobile/map/web/model/MarkerOptions;->title(Ljava/lang/String;)Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    return-object p0
+.end method
+
+.method public visible(Z)Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(Z)",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+            "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/alibaba/ariver/commonability/map/sdk/api/RVMapSDKNode;->mSDKNode:Ljava/lang/Object;
+
+    check-cast v0, Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    invoke-virtual {v0, p1}, Lcom/alipay/mobile/map/web/model/MarkerOptions;->visible(Z)Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    return-object p0
+.end method
+
+.method public zIndex(F)Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(F)",
+            "Lcom/alibaba/ariver/commonability/map/sdk/api/model/IMarkerOptions<",
+            "Lcom/alipay/mobile/map/web/model/MarkerOptions;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/alibaba/ariver/commonability/map/sdk/api/RVMapSDKNode;->mSDKNode:Ljava/lang/Object;
+
+    check-cast v0, Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    invoke-virtual {v0, p1}, Lcom/alipay/mobile/map/web/model/MarkerOptions;->zIndex(F)Lcom/alipay/mobile/map/web/model/MarkerOptions;
+
+    return-object p0
+.end method

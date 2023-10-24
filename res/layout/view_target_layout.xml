@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="70.0dip" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/circle_big_bg" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/small" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/circle_bg" android:layout_centerInParent="true" />
+</RelativeLayout>

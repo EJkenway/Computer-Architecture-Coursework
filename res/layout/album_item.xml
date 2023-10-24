@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/bucket_item_bg" android:paddingLeft="16.0dip" android:paddingRight="26.599976dip" android:layout_width="fill_parent" android:layout_height="@dimen/albumitem_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_photo" android:layout_width="85.0dip" android:layout_height="85.0dip" android:layout_centerVertical="true">
+        <ImageView android:background="@drawable/album_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <ImageView android:id="@id/iv_album" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:scaleType="centerCrop" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/rl_photo" android:layout_centerVertical="true">
+        <TextView android:textSize="17.0dip" android:textColor="@android:color/black" android:id="@id/tv_album_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="13.0dip" android:id="@id/tv_album_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_selected" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/album_selected" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/big_fight_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_ruler" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <cn.ledongli.ldl.widget.LeTitleBar android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:tAddStatusBarHeight="true" app:tBackImage="@drawable/ic_arrow_back_white_small" app:tBackgroundColor="@color/transparent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

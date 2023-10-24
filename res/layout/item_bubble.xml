@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="52.0dip" android:layout_height="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_bubble" android:background="@drawable/circle_yellow_28" android:layout_width="52.0dip" android:layout_height="52.0dip" />
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center|top" android:id="@id/tv_currency" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:maxLines="1" android:shadowColor="#4cff6022" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:fontFamily="PingFangSC-Semibold" />
+    <TextView android:textSize="9.0dip" android:textColor="@color/white" android:gravity="bottom|center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="9.0dip" android:maxLines="1" android:shadowColor="#4cff6022" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_alignParentBottom="true" />
+</RelativeLayout>

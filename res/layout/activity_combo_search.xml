@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root_combo_search" android:background="@color/main_training_footer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_combo_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_combo_search" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/frame_layout_combo_search_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/linear_layout_combos_search_hint" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/linear_layout_combos_hot_words" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="52.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/le_color_grey_7" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/everyone_search" />
+                </FrameLayout>
+                <cn.ledongli.ldl.widget.tagview.TagContainerLayout android:id="@id/tag_view_combo_hot_words" android:layout_width="fill_parent" android:layout_height="wrap_content" app:container_background_color="#00000000" app:container_border_color="#00000000" app:container_border_radius="0.0dip" app:container_border_width="0.0dip" app:container_enable_drag="false" app:horizontal_interval="12.0dip" app:tag_background_color="@color/community_mask" app:tag_border_color="#00000000" app:tag_border_width="0.0dip" app:tag_clickable="true" app:tag_corner_radius="16.0dip" app:tag_horizontal_padding="15.0dip" app:tag_text_color="@color/le_color_grey_7" app:tag_text_size="14.0sp" app:tag_theme="none" app:tag_vertical_padding="6.0dip" app:vertical_interval="16.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linear_layout_combos_search_history" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="52.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/le_color_grey_7" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_history" />
+                    <ImageView android:layout_gravity="end|center" android:id="@id/image_view_history_delete" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_dustbin" android:contentDescription="@string/app_name" />
+                </FrameLayout>
+                <cn.ledongli.ldl.widget.tagview.TagContainerLayout android:id="@id/tag_view_combo_history" android:layout_width="fill_parent" android:layout_height="wrap_content" app:container_background_color="#00000000" app:container_border_color="#00000000" app:container_border_radius="0.0dip" app:container_border_width="0.0dip" app:container_enable_drag="false" app:horizontal_interval="12.0dip" app:tag_background_color="@color/community_mask" app:tag_border_color="#00000000" app:tag_border_width="0.0dip" app:tag_clickable="true" app:tag_corner_radius="16.0dip" app:tag_horizontal_padding="15.0dip" app:tag_text_color="@color/le_color_grey_7" app:tag_text_size="14.0sp" app:tag_theme="none" app:tag_vertical_padding="6.0dip" app:vertical_interval="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <com.lapism.searchview.SearchView android:id="@id/search_view_combo" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.lapism.searchview.SearchBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

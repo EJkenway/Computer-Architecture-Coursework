@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="280.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/root_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.ledongli.mediaplayer.widget.IjkVideoView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="280.0dip" />
+        <RelativeLayout android:id="@id/rl_bottom_view" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_below="@id/video_view">
+            <ImageView android:id="@id/iv_select" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/pose_icon_checked" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff999999" android:id="@id/tv_no_guild" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="不再主动指导" android:layout_toRightOf="@id/iv_select" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/tv_motion_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/iv_select" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_continue" android:background="@drawable/shape_dialog_button" android:layout_width="110.0dip" android:layout_height="48.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

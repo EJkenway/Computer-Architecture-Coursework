@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="110.0dip">
+        <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/image_view_combo_summary" android:layout_width="160.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/app_name" />
+        <View android:layout_width="12.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/le_color_grey_8" android:id="@id/text_view_combo_summary_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="1.0dip" android:layout_height="8.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/le_color_grey_7" android:id="@id/text_view_combo_summary_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="1.0dip" android:layout_height="8.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/discovery_text_count" android:id="@id/text_view_participant_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/food_grey_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

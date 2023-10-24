@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aui="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.antui.basic.AUTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" aui:titleText="@string/def_map_title_text" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/map_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="top" android:orientation="horizontal" android:id="@id/route_info" android:background="@drawable/bubbles_bg" android:paddingLeft="20.0dip" android:paddingTop="14.0dip" android:paddingRight="20.0dip" android:paddingBottom="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/route_info_iv" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/route_info_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:ellipsize="end" android:id="@id/route_start_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <ImageView android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="#ffcccccc" />
+                <TextView android:ellipsize="end" android:id="@id/route_target_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <ImageView android:layout_width="1.0px" android:layout_height="fill_parent" android:src="#ffcccccc" />
+            <ImageButton android:id="@id/route_close" android:background="#00000000" android:paddingLeft="14.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="0.0dip" android:src="@drawable/route_close" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/route_group" android:background="@drawable/bubbles_bg" android:paddingLeft="5.0dip" android:paddingTop="14.0dip" android:paddingRight="5.0dip" android:paddingBottom="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip">
+            <ImageButton android:id="@id/route_detail" android:background="@android:color/transparent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:src="@drawable/route_detail_selector" android:scaleType="centerInside" />
+            <ImageButton android:background="@android:color/transparent" android:layout_width="1.0px" android:layout_height="fill_parent" android:src="#ffcccccc" />
+            <ImageButton android:id="@id/bus_route" android:background="@android:color/transparent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:src="@drawable/bus_route_selector" android:scaleType="centerInside" />
+            <ImageButton android:id="@id/car_route" android:background="@android:color/transparent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:src="@drawable/car_route_selector" android:scaleType="centerInside" />
+            <ImageButton android:id="@id/foot_route" android:background="@android:color/transparent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:src="@drawable/foot_route_selector" android:scaleType="centerInside" />
+        </LinearLayout>
+        <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/my_location" android:background="@drawable/bubbles_bg" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/my_location" android:scaleType="centerInside" />
+    </FrameLayout>
+</LinearLayout>

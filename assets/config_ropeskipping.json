@@ -1,0 +1,16 @@
+{
+    "action":"ropeskipping",
+    "config":{
+        "y_dist_thre_ratio":0.1,   
+        "double_skip_cnt_thre":4, 
+        "double_skip_valley_cnt_thre":20,   
+        "check_cycle_start_cnt":10,  
+        "reasonable_cycle_ratio":2.0, 
+        "y_nosie_mean":3.0, 
+        "min_sequence_len":1,   
+        "noise_ratio_PH1":0.1,
+        "noise_ratio_PH2":0.3,
+        "noise_ratio_PH3":0.55,
+        "valley_wave_noise_thre":0.1
+    }
+}

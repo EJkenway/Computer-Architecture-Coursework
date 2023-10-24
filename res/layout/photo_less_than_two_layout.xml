@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.beehive.photo.view.CustomImageView android:id="@id/single_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/image_couple_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alipay.mobile.beehive.photo.view.CustomImageView android:id="@id/image1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        <View android:background="@android:color/transparent" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+        <com.alipay.mobile.beehive.photo.view.CustomImageView android:id="@id/image2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

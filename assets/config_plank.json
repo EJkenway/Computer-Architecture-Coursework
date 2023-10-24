@@ -1,0 +1,13 @@
+{
+    "action":"plank",
+    "config":{
+        "back_angle_thre":140,
+        "leg_angle_thre":160,
+        "min_init_cnt":10,
+        "noise_ratio_hard":0.3,
+        "noise_ratio_easy":0.5,
+        "noise_ratio_easy_plus":1.0,
+        "max_angle_noise":20,
+        "max_NG_cnt":45
+    }
+}

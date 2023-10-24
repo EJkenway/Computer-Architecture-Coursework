@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layoutOpenHealthTips" android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/imgHealthTrumpet" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/home_health_tips_trumpet_icon" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" android:layout_marginEnd="6.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/textOpenHealthTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启计步授权，可查看今日步数，" android:layout_toRightOf="@id/imgHealthTrumpet" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去开启" android:layout_centerVertical="true" android:layout_marginEnd="3.0dip" android:layout_toEndOf="@id/textOpenHealthTips" />
+        <ImageView android:id="@id/imgHealthClose" android:padding="3.0dip" android:visibility="visible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/home_health_tips_close_icon" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

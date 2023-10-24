@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.view.LoopViewPager android:id="@id/hot_carousel_pager" android:fadingEdge="none" android:clipChildren="false" android:layout_width="328.0dip" android:layout_height="fill_parent" android:spacing="0.0dip" android:layout_centerHorizontal="true" />
+    <cn.ledongli.ldl.view.viewpagerindicator.CirclePageIndicator android:id="@id/hot_carousel_indicator" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:fillColor="@color/white" app:pageColor="@color/white30" app:strokeColor="@color/clear" app:strokeWidth="0.0dip" />
+</RelativeLayout>

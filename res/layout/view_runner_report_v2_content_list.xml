@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.runner.ui.view.detail.RunnerDetailReportContent android:id="@id/ll_runner_report_content" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/left_container" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="47.0dip">
+        <RelativeLayout android:orientation="vertical" android:id="@id/rl_pacr_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/TextGreyLightColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="平均配速" android:layout_centerInParent="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/TextGreyLightColor" android:gravity="center" android:id="@id/pace_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5:36" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_toLeftOf="@id/rl_pacr_title">
+            <TextView android:textSize="12.0sp" android:textColor="@color/TextGreyLightColor" android:gravity="center|left" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="距离" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/TextGreyLightColor" android:gravity="center|left" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/pace" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/TextGreyLightColor" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="比上一公里" android:layout_toRightOf="@id/rl_pacr_title" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/iv_pace_divider" android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/left_container" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/iv_pace_divider" />
+</cn.ledongli.ldl.runner.ui.view.detail.RunnerDetailReportContent>

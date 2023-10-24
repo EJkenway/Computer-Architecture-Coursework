@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.beehive.photo.view.APLoadingView android:layout_gravity="center" android:id="@id/loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.alipay.mobile.antui.basic.AUPullRefreshView android:id="@id/pullrefreshview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alipay.mobile.beehive.photo.view.PhotoGridView android:id="@id/gv_photo" android:scrollbars="@null" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:horizontalSpacing="@dimen/sticky_item_horizontalSpacing" android:verticalSpacing="@dimen/sticky_item_verticalSpacing" android:stretchMode="columnWidth" android:columnWidth="100.0dip" android:numColumns="auto_fit" />
+    </com.alipay.mobile.antui.basic.AUPullRefreshView>
+    <FrameLayout android:id="@id/tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

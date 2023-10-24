@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/loadingView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_image" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="50.0dip" android:src="@drawable/pose_ai_error_net" android:scaleType="centerInside" android:layout_above="@id/tv_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="24.0sp" android:textColor="@color/black" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载失败" android:layout_centerInParent="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="可能是网络连接或者其他原因" android:layout_below="@id/tv_title" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_contain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_retry" android:background="@drawable/ai_cocos_net_error_retry" android:focusable="true" android:clickable="true" android:layout_width="300.0dip" android:layout_height="54.0dip" android:text="重试" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/pose_ai_loading_exit_bg" android:visibility="visible" android:layout_width="300.0dip" android:layout_height="54.0dip" android:layout_marginTop="14.0dip" android:text="退出" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.mobile.commonui.widget.APRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.commonui.widget.APFrameLayout android:id="@id/flow_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alipay.mobile.commonui.widget.APImageView android:id="@id/flow_last_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" />
+        <com.alipay.mobile.commonui.widget.APImageView android:id="@id/flow_normal_icon" android:layout_width="24.0dip" android:layout_height="88.0dip" android:scaleType="fitXY" />
+    </com.alipay.mobile.commonui.widget.APFrameLayout>
+    <com.alipay.mobile.commonui.widget.APTextView android:textSize="16.0dip" android:textColor="#ff00aaee" android:id="@id/flow_main_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/flow_icon_container" />
+    <com.alipay.mobile.commonui.widget.APTextView android:textSize="13.399994dip" android:textColor="#ff999999" android:id="@id/flow_secondary_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/flow_main_info" android:layout_alignLeft="@id/flow_main_info" />
+    <com.alipay.mobile.commonui.widget.APTextView android:textSize="13.399994dip" android:textColor="#ff999999" android:id="@id/flow_third_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/flow_secondary_info" android:layout_alignLeft="@id/flow_main_info" />
+</com.alipay.mobile.commonui.widget.APRelativeLayout>

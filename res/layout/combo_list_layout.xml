@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/activity_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/recycler_loading_view" layout="@layout/recycler_loading_view" />
+    <include android:id="@id/layout_agenda_filter_retry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_no_net" />
+    <include android:id="@id/layout_agenda_no_training" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_find_no_training" />
+</FrameLayout>

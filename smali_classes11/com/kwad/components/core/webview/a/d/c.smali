@@ -1,0 +1,17 @@
+.class public interface abstract Lcom/kwad/components/core/webview/a/d/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract J(Z)V
+.end method
+
+.method public abstract ga()V
+.end method
+
+.method public abstract gg()V
+.end method
+
+.method public abstract gh()V
+.end method

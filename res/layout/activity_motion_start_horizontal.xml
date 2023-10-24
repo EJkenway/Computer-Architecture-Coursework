@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.mediaplayer.widget.IjkVideoView android:layout_gravity="bottom|center" android:id="@id/motion_video" android:layout_width="375.0dip" android:layout_height="375.0dip" android:layout_marginBottom="60.0dip" />
+    <cn.ledongli.ldl.widget.image.LeImageView android:layout_gravity="bottom|center" android:id="@id/motion_video_img" android:background="@color/white" android:layout_width="375.0dip" android:layout_height="375.0dip" android:layout_marginBottom="60.0dip" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/course_action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" layout="@layout/course_actionbar_layout" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/course_action_bar">
+            <TextView android:textSize="25.0dip" android:textColor="@color/aisports_color_333333" android:id="@id/first_begin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="第一个动作 " />
+            <TextView android:textSize="25.0dip" android:textColor="@color/aisports_color_333333" android:ellipsize="end" android:id="@id/motion_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="手腕脚踝环绕(右)  " android:maxLines="1" android:maxEms="8" />
+        </LinearLayout>
+        <Button android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/motion_start_button" android:background="@drawable/shape_30dp_corners_btn" android:layout_width="240.0dip" android:layout_height="48.0dip" android:layout_marginTop="55.0dip" android:layout_marginBottom="30.0dip" android:text="开始第一个动作" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

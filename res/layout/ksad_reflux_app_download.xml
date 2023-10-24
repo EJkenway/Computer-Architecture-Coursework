@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ksad_reflux_app_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ksad_default_app_icon" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="9.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/ksad_reflux_app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="11.0dip" android:textColor="#c2ffffff" android:ellipsize="end" android:id="@id/ksad_reflux_app_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <com.kwad.components.ad.widget.DownloadProgressView android:id="@id/ksad_reflux_app_download_btn" android:layout_width="64.0dip" android:layout_height="22.0dip" app:ksad_backgroundDrawable="@drawable/ksad_reflux_top_app_download_before_bg" app:ksad_downloadLeftTextColor="@color/ksad_reward_main_color" app:ksad_downloadRightTextColor="@color/ksad_reward_main_color" app:ksad_downloadingFormat="%s%%" app:ksad_progressDrawable="@drawable/ksad_reflux_top_download_progress" app:ksad_textColor="@color/ksad_reward_main_color" app:ksad_textSize="12.0sp" />
+</LinearLayout>

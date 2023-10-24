@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/custom_img" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/custom_text_size" android:textColor="@color/custom_text_color" android:gravity="center" android:id="@id/custom_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/aisports_white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0dip" android:textColor="@color/color_3A3A3A" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="6.0dip" android:text="@string/fitness_course_change_screen_title" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/color_333333" android:id="@id/tv_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="4.0dip" android:text="@string/fitness_course_change_screen_landspace_subtitle" android:layout_below="@id/tv_title" />
+    <ImageView android:id="@id/imageview" android:layout_width="343.0dip" android:layout_height="307.0dip" android:src="@drawable/fitness_course_change_landspace" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+</RelativeLayout>

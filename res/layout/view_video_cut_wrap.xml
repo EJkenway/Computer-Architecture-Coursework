@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/lv_thumb_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/di_video_list_margin" android:layout_marginBottom="@dimen/di_video_list_margin" />
+    <com.alipay.mobile.beehive.photo.view.video.VideoWindowView android:id="@id/vwv_video_window" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

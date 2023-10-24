@@ -1,0 +1,11 @@
+{
+  "runtime":  {
+    "uri": "build-in"
+  },
+  "width": 192,
+  "height": 192,
+  "fps": 30,
+  "frameCount": 85,
+  "frameBegin": 0,
+  "frameEnd": 84
+}

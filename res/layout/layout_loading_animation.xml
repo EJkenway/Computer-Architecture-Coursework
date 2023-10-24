@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/scroll_view_loading" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <ImageView android:id="@id/image_view_loading_animation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-8.0dip" android:src="@drawable/icon_loading" android:scaleType="fitXY" android:contentDescription="@string/app_name" android:layout_marginStart="-8.0dip" />
+    </HorizontalScrollView>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_loading" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+</RelativeLayout>

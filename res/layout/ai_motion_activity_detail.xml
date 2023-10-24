@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:background="@color/white" android:focusableInTouchMode="false" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fl_bottom" android:layout_below="@id/rl_title" android:overScrollMode="never">
+        <RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/rl_header" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+                <TextView android:textSize="28.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="left" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="课程标题" android:singleLine="true" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_title">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/ll_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/gray_99" android:id="@id/tv_calories_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="每分钟消耗12千卡" android:layout_toRightOf="@id/ll_text" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_video" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_marginTop="31.0dip" android:layout_below="@id/rl_header">
+                <cn.ledongli.mediaplayer.widget.IjkVideoView android:id="@id/motion_video_view" android:layout_width="355.0dip" android:layout_height="355.0dip" android:layout_centerInParent="true" />
+                <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_video_background" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="32.0dip" android:layout_below="@id/rl_video">
+                <TextView android:textSize="12.0dip" android:textColor="@color/black80" android:gravity="left" android:id="@id/tv_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <View android:id="@id/line_view_button" android:background="@drawable/ai_fadingedge" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_above="@id/fl_bottom" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/fl_bottom" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_start" android:background="@drawable/aisports_bottom_bg" android:layout_width="300.0dip" android:layout_height="fill_parent" android:text="开始运动" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/progress_view" android:visibility="visible" android:layout_width="300.0dip" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <ProgressBar android:id="@id/progress_bar" android:layout_width="300.0dip" android:layout_height="fill_parent" android:maxHeight="48.0dip" android:progress="0" android:progressDrawable="@drawable/ai_detail_downloading_bg" android:minHeight="48.0dip" style="?android:progressBarStyleHorizontal" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_downloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在加载课程资源.." android:alpha="0.8" />
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ly_not_net" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/layout_not_net" layout="@layout/layout_no_net" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/dark_grey_group" android:gravity="center" android:id="@id/tv_combo_out_line" android:background="@color/main_training_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/combo_state_is_outline" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_title" android:background="@color/white" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ImageView android:id="@id/iv_back" android:paddingLeft="16.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_arrow_back_grey" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/title_bar_name" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/iv_back" android:layout_centerVertical="true" />
+            <View android:id="@id/view_line" android:background="#0d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

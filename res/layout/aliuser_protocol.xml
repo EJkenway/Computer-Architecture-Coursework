@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/aliuser_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/aliuser_protocol_inset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aliuser_space_20" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/aliuser_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <ImageView android:layout_gravity="right" android:id="@id/aliuser_protocol_cancel" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aliuser_ic_dialog_close" />
+        <TextView android:textAppearance="@style/AliUserMenuTextAppearance" android:textColor="#ff333333" android:gravity="center_horizontal" android:id="@id/aliuser_reg_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aliuser_space_12" android:layout_marginBottom="@dimen/aliuser_space_12" />
+        <TextView android:textAppearance="@style/AliUserMenuTextAppearance" android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aliuser_space_12" android:text="@string/aliuser_protocol_title" />
+        <View android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textAppearance="@style/AliUserMenuTextAppearance" android:textSize="@dimen/aliuser_textsize_small" android:id="@id/aliuser_protocal_tip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="@dimen/aliuser_space_12" android:layout_marginBottom="@dimen/aliuser_space_20" android:text="@string/aliuser_login2reg_protocol" />
+        <LinearLayout android:orientation="vertical" android:id="@id/aliuser_protocal_ll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/aliuser_textsize_small" android:textColor="@color/aliuser_color_orange" android:id="@id/aliuser_tb_protocal" android:layout_marginBottom="@dimen/aliuser_space_8" android:text="@string/aliuser_tb_protocal" style="@style/AliUserFuncTextAppearance" />
+            <TextView android:textSize="@dimen/aliuser_textsize_small" android:textColor="@color/aliuser_color_orange" android:id="@id/aliuser_policy_protocal" android:layout_marginBottom="@dimen/aliuser_space_8" android:text="@string/aliuser_policy_protocal" style="@style/AliUserFuncTextAppearance" />
+            <TextView android:textSize="@dimen/aliuser_textsize_small" android:textColor="@color/aliuser_color_orange" android:id="@id/aliuser_law_protocal" android:layout_marginBottom="@dimen/aliuser_space_8" android:text="@string/aliuser_law_protocal" style="@style/AliUserFuncTextAppearance" />
+            <TextView android:textSize="@dimen/aliuser_textsize_small" android:textColor="@color/aliuser_color_orange" android:id="@id/aliuser_alipay_protocal" android:layout_marginBottom="@dimen/aliuser_space_8" android:text="@string/aliuser_alipay_protocal" style="@style/AliUserFuncTextAppearance" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/aliuser_protocol_button_layout" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <Button android:textColor="@color/aliuser_color_gray" android:id="@id/aliuser_protocol_disagree" android:background="@null" android:visibility="visible" android:layout_width="0.0dip" android:text="@string/aliuser_protocol_disagree" android:layout_weight="1.0" style="@style/AliUserButtonStyle" />
+            <Button android:id="@id/aliuser_protocol_agree" android:visibility="visible" android:layout_width="0.0dip" android:text="@string/aliuser_protocol_agree" android:layout_weight="1.0" style="@style/AliUserButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

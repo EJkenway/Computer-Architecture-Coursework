@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/course_dialog" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:background="@drawable/shape_10dp_corners_vertical" android:layout_width="fill_parent" android:layout_height="570.0dip">
+        <cn.ledongli.mediaplayer.widget.IjkVideoView android:layout_gravity="center_horizontal" android:id="@id/motion_video" android:background="@color/white" android:layout_width="355.0dip" android:layout_height="355.0dip" android:layout_marginTop="50.0dip" />
+        <cn.ledongli.ldl.widget.image.LeImageView android:layout_gravity="center_horizontal" android:id="@id/motion_video_img" android:background="@color/white" android:layout_width="355.0dip" android:layout_height="355.0dip" android:layout_marginTop="50.0dip" android:scaleType="centerCrop" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/watch_action_course" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="16.0dip" android:text="查看动作详细讲解  >" />
+        <RelativeLayout android:gravity="center" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="191.0dip">
+            <ImageView android:id="@id/course_stop" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="50.0dip" android:src="@drawable/course_stop" android:scaleType="centerInside" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/course_play" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginLeft="32.0dip" android:layout_marginBottom="32.0dip" android:src="@drawable/course_play" android:scaleType="centerInside" android:layout_toRightOf="@id/course_stop" android:layout_alignParentBottom="true" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_toRightOf="@id/course_play" android:layout_alignParentBottom="true">
+                <TextView android:textSize="12.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="bottom|center" android:id="@id/action_tips" android:layout_width="48.0dip" android:layout_height="53.0dip" android:text="手腕脚踝环绕(右) " android:maxLines="3" />
+                <ImageView android:layout_width="8.0dip" android:layout_height="4.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/angle" />
+                <ImageView android:id="@id/course_next" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="50.0dip" android:src="@drawable/next_enable" android:scaleType="centerInside" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

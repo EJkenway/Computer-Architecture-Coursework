@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextureView android:id="@id/textue_show" android:layout_width="fill_parent" android:layout_height="300.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <Button android:id="@id/btn_start" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Start" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_stop" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Stop" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_release" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Release" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <Button android:id="@id/btn_pause" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Pause" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_resume" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Resume" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_set_surface" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Call setSurface" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

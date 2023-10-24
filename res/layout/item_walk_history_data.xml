@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="4.0" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/discovery_text_name" android:gravity="center" android:id="@id/tv_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/discovery_text_name" android:gravity="center" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_week" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/tv_total_steps" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="PingFangSC" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/homepager_step" android:gravity="center" android:id="@id/tv_total_cals" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="PingFangSC" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/homepager_step" android:gravity="center" android:id="@id/tv_total_km" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="PingFangSC" />
+    </LinearLayout>
+    <ImageView android:background="@color/food_grey_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

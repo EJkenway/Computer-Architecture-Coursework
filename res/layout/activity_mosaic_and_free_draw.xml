@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.beehive.imageedit.views.DoodleView android:layout_gravity="center" android:id="@id/doodleView" android:background="#ff140d08" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/horListView" />
+    <com.alipay.mobile.antui.basic.AUHorizontalListView android:id="@id/horListView" android:background="#ff141414" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_above="@id/line" />
+    <View android:id="@id/line" android:background="#ff3d3d3d" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_above="@id/action_panel" />
+    <RelativeLayout android:id="@id/action_panel" android:background="#ff141414" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0dip" android:textColor="@drawable/sel_text_bg" android:id="@id/cancelTv" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@drawable/sel_text_bg" android:id="@id/done" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:text="@string/send" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="480.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/bg_homepage_head_sport_card" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="运动得卡币" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" />
+        <ImageView android:id="@id/iv_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/bg_homepage_sport_card_down" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ry_sport_contain" android:background="@color/white" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

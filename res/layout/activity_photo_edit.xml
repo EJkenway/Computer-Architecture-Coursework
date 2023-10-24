@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.beehive.photo.view.PhotoView android:id="@id/iv_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_bottom_bar" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/ll_bottom_bar" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="@drawable/btn_text_selector" android:gravity="center" android:id="@id/bt_cancel" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+        <Button android:textColor="@drawable/btn_text_selector" android:gravity="center" android:id="@id/bt_rotate" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/rotate" android:layout_weight="1.0" />
+        <Button android:textColor="@drawable/btn_text_selector" android:gravity="center" android:id="@id/bt_done" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/finish" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

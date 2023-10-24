@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_0" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_1" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_2" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_3" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_4" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_5" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_6" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_7" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_8" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_9" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_10" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_11" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_12" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_13" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_14" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_15" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_16" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_17" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_18" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_19" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_20" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_21" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_22" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_23" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_24" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_25" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_26" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_27" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_28" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_29" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_30" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_31" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_32" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_33" />
+    <item android:duration="34" android:drawable="@drawable/commonui_loading_orange_34" />
+</animation-list>

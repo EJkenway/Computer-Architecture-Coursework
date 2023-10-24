@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/fitness_appbar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="cn.ledongli.ldl.home.view.AppBarLayoutBehavior">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways">
+                <include android:id="@id/layout_channel_data" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_channel_fitness_header_data" />
+                <cn.ledongli.ldl.view.CommonBannerView android:id="@id/banner_fitness_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="28.0dip" />
+                <cn.ledongli.ldl.home.view.FitmessDataLabelView android:id="@id/layout_fitness_course" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+                <cn.ledongli.ldl.home.view.FitmessDataLabelView android:id="@id/layout_fitness_hotcourses" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" />
+                <cn.ledongli.ldl.home.view.FitmessDataLabelView android:id="@id/layout_fitness_operating" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" />
+            </LinearLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/tv_channel_fitness_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/channel_everybody_watching" android:includeFontPadding="false" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/fl_channel_fitness_ugc" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintTop_toBottomOf="@id/tv_channel_fitness_title" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

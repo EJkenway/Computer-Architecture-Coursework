@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_game_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.pose.cocos.aimotion.views.AICocosDanceLoadingView android:id="@id/cl_loading" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.pose.view.AICocosPlayErrorView android:id="@id/permission_error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:error_type="3" />
+    <ImageView android:id="@id/coverView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="120.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

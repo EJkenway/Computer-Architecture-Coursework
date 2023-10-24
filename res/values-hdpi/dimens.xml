@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="h5_audialog_content_auth_content_maxheight">300.0px</dimen>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:id="@id/ll_title_back" android:layout_width="100.0dip" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_left_back_grey" />
+    </LinearLayout>
+    <TextView android:textSize="20.0dip" android:textColor="#ff7b7c87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="恭喜完成" android:fontFamily="PingFangSC-Regular" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:src="@drawable/share_trophy" />
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ff454653" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:layout_marginBottom="28.0dip" android:text="3分钟快速热身" android:fontFamily="PingFangSC-Semibold" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0" android:layout_below="@id/tv_name">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="13.0dip" android:textColor="#ff7b7c87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="时间" android:layout_centerHorizontal="true" android:fontFamily="PingFangSC-Regular" />
+            <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff454653" android:id="@id/tv_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:fontFamily="PingFangSC-Semibold" />
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff454653" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="min" android:fontFamily="PingFangSC-Semibold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="13.0dip" android:textColor="#ff7b7c87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="消耗" android:layout_centerHorizontal="true" android:fontFamily="PingFangSC-Regular" />
+            <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff454653" android:id="@id/tv_cal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:fontFamily="PingFangSC-Semibold" />
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff454653" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="kcal" android:fontFamily="PingFangSC-Semibold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="13.0dip" android:textColor="#ff7b7c87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="次数" android:layout_centerHorizontal="true" android:fontFamily="PingFangSC-Regular" />
+            <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff454653" android:id="@id/tv_frequency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:fontFamily="PingFangSC-Semibold" />
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff454653" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="次" android:fontFamily="PingFangSC-Semibold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_uploaded" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="49.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_uploaded_tip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/traning_done" />
+            <TextView android:textSize="16.0dip" android:textColor="#ffff7e3e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上传成功" />
+        </LinearLayout>
+        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_trend" android:background="@drawable/corner_orange_6" android:visibility="gone" android:layout_width="320.0dip" android:layout_height="46.0dip" android:layout_marginTop="29.0dip" android:text="打卡" android:layout_above="@id/tv_share" android:fontFamily="PingFangSC-Regular" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffff7e3e" android:gravity="center" android:id="@id/tv_share" android:background="@drawable/corner_orange_border_6" android:layout_width="320.0dip" android:layout_height="46.0dip" android:layout_marginTop="14.0dip" android:text="分享" android:layout_alignParentBottom="true" android:fontFamily="PingFangSC-Regular" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_feel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="81.0dip">
+        <TextView android:textSize="13.0dip" android:textColor="#ff7b7c87" android:gravity="center" android:id="@id/ll_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="选择感受并上传成绩" android:layout_centerHorizontal="true" android:fontFamily="PingFangSC-Regular" />
+        <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:paddingTop="28.0dip" android:paddingBottom="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="4.0" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/tv_combo_fine" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="60.0dip" android:text="很轻松" android:drawableTop="@drawable/combo_fine_grey" android:drawablePadding="8.0dip" android:layout_weight="1.0" android:fontFamily="PingFangSC-Regular" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/tv_combo_ok" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="60.0dip" android:text="感觉不错" android:drawableTop="@drawable/combo_ok_grey" android:drawablePadding="10.0dip" android:layout_weight="1.0" android:fontFamily="PingFangSC-Regular" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/tv_combo_hard" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="60.0dip" android:text="非常累" android:drawableTop="@drawable/combo_hard_grey" android:drawablePadding="10.0dip" android:layout_weight="1.0" android:fontFamily="PingFangSC-Regular" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/tv_combo_unbearable" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="60.0dip" android:text="无法完成" android:drawableTop="@drawable/combo_unbearable_grey" android:drawablePadding="10.0dip" android:layout_weight="1.0" android:fontFamily="PingFangSC-Regular" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

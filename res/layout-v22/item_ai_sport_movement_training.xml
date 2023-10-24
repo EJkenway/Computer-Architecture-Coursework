@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.home.dinamicx.aisport.widget.AISportMovementTraining android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/sp_16" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tv_tab_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_17" android:text="@string/ai_sport_movement_training" app:layout_constraintLeft_toLeftOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_tab_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/tv_tab_hint" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_channel_aisport" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20" android:layout_below="@id/rv_tab_list" android:layout_alignWithParentIfMissing="true" android:paddingHorizontal="10.0dip" />
+    <include android:id="@id/layout_auto_load_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_below="@id/rv_tab_list" layout="@layout/layout_no_net" />
+</cn.ledongli.ldl.home.dinamicx.aisport.widget.AISportMovementTraining>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center" android:id="@id/face_register" android:background="@color/red" android:layout_width="100.0dip" android:layout_height="50.0dip" android:text="注册人脸" android:layout_centerVertical="true" />
+    <TextView android:gravity="center" android:id="@id/face_recognize" android:background="@color/red" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="检测识别人脸" android:layout_toRightOf="@id/face_register" android:layout_centerVertical="true" />
+    <TextView android:gravity="center" android:id="@id/face_recognize_count_down" android:background="@color/red" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="倒计时人脸识别" android:layout_toRightOf="@id/face_recognize" android:layout_centerVertical="true" />
+    <TextView android:gravity="center" android:id="@id/face_full_recognize" android:background="@color/red" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="全屏检测识别人脸竖屏" android:layout_toRightOf="@id/face_register" android:layout_centerVertical="true" />
+    <TextView android:gravity="center" android:id="@id/face_full_recognize_h" android:background="@color/red" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="全屏检测识别人脸横屏屏" android:layout_toRightOf="@id/face_register" android:layout_centerVertical="true" />
+    <TextView android:gravity="center" android:id="@id/face_manager" android:background="@color/red" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="人脸管理" android:layout_toRightOf="@id/face_recognize" android:layout_centerVertical="true" />
+</LinearLayout>

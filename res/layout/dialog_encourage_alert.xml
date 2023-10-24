@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bg_corner_white" android:padding="0.0dip" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:minWidth="254.0dip" android:minHeight="270.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_encourage_close" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bt_common_black_close" android:layout_alignParentRight="true" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/TextGreyHeavyColor" android:gravity="center" android:id="@id/tv_dialog_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="赐个好评吧，亲~\n您的支持是我们前进的动力" />
+    <ImageView android:id="@id/split_line" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="22.0dip" android:layout_below="@id/tv_dialog_msg" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="219.0dip" android:layout_marginTop="29.0dip" android:layout_below="@id/split_line" android:layout_centerHorizontal="true">
+        <Button android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/bt_encourage" android:background="@drawable/corner_yellow_3" android:layout_width="204.0dip" android:layout_height="48.0dip" android:text="很不错，赞一个" />
+        <Button android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/bt_feedback" android:background="@drawable/corner_red_3" android:layout_width="204.0dip" android:layout_height="48.0dip" android:layout_marginTop="25.0dip" android:text="不好用，去吐槽" android:layout_below="@id/bt_encourage" />
+        <Button android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/bt_cancel" android:background="@drawable/corner_orange_3" android:layout_width="204.0dip" android:layout_height="48.0dip" android:layout_marginTop="25.0dip" android:text="残忍地拒绝" android:layout_below="@id/bt_feedback" />
+    </RelativeLayout>
+</RelativeLayout>

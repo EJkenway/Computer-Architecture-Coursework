@@ -1,0 +1,57 @@
+[
+  {
+    "key": "inside_disableIntranetCheck",
+    "value":"YES"
+  },
+  {
+    "key": "h5_disablePkgPermissionCheck",
+    "value": "YES"
+  },
+  {
+    "key": "h5_preRenderConfig",
+    "value": "{\"shouldUsePreRender\":\"YES\",\"prerenderPage\":\"\"}"
+  },
+  {
+    "key": "h5_ucCoreMultiProcess_30",
+    "value": "{\"mode\":0}"
+  },
+  {
+    "key": "h5OfflineModeAppid",
+    "value": "[\"2019081266236008\",\"2021003105689125\"]"
+  },
+  {
+    "key": "h5_HideTitleBarAppIdWhiteList",
+    "value": "[\"2019081266236008\",\"2021003105689125\"]"
+  },
+  {
+    "key": "ta_tinyappUseNewMenu",
+    "value": "all"
+  },
+  {
+    "key": "h5_enableUseMenuRpc",
+    "value": "yes"
+  },
+  {
+    "key": "h5_preConnectInSetup",
+    "value": "YES"
+  },
+  {
+    "key":"ta_saveFile_whiteList",
+    "value":"[\"cn.ledongli.ldl/h5/download/temp\",\"cn.ledongli.ldl/files/multimedia\",\"cn.ledongli.ldl/cache\",\"cn.ledongli.ldl/files/h5container/image/temp\"]"
+  },
+  {
+    "key":"h5_uploadFile_whiteList",
+    "value":"[\"cn.ledongli.ldl/h5/download/temp\",\"cn.ledongli.ldl/files/multimedia\",\"cn.ledongli.ldl/cache\",\"cn.ledongli.ldl/files/h5container/image/temp\"]"
+  },
+  {
+    "key": "ta_load_global_appxng",
+    "value": "true"
+  },
+  {"key":"android_ccdn_switch",
+    "value":"{\"stl\": \"29383527\",\"switch\": \"64,64,64\",\"h5type\": \"1\",\"h5hosts\": {\"gw.alicdn.com\": \"64,64,64\",\"mdn.alicdn.com\": \"64,64,64\",\"tfs.alipayobjects.com\": \"64,64,64\",\"t.alipayobjecs.com\": \"64,64,64\",\"zos.alipayobjects.com\": \"64,64,64\",\"gw.alipayobjects.com\": \"64,64,64\",\"g.alicdn.com\": \"64,64,64\",\"oalipay-dl-django.alicdn.com\": \"64,64,64\",\"cbu01.alicdn.com\": \"64,64,64\",\"at.alicdn.com\": \"64,64,64\",\"gma.alicdn.com\": \"64,64,64\"},\"h5bizs\": {},\"appswitch\": \"64,64,64\",\"applist\": {\"2019050964438129\": \"64,64,64\",\"2019051564665361\": \"64,64,64\",\"2019072565980504\": \"64,64,64\",\"2019052365379124\": \"64,64,64\",\"2021001198600118\": \"64,64,64\",\"2019061065476744\": \"64,64,64\",\"2019081466230502\": \"64,64,64\",\"2017072607907880\": \"64,64,64\",\"2021001137690027\": \"64,64,64\",\"2021001137683011\": \"64,64,64\",\"2021001106676398\": \"64,64,64\",\"2021001152636289\": \"64,64,64\",\"2021001100671073\": \"64,64,64\",\"2021001154605385\": \"64,64,64\",\"2021001152630129\": \"64,64,64\",\"2019081265992055\": \"64,64,64\",\"2021001115616363\": \"64,64,64\",\"2021001103626002\": \"64,64,64\",\"2021001137691021\": \"64,64,64\",\"2019100867897024\": \"64,64,64\",\"2021001142654010\": \"64,64,64\",\"2018072560844004\": \"64,64,64\",\"2018030502317554\": \"64,64,64\",\"2019112569217612\": \"64,64,64\",\"2019112569217609\": \"64,64,64\",\"2018112062226732\": \"64,64,64\",\"2018090761255717\": \"64,64,64\",\"2018030502317859\": \"64,64,64\",\"2017050407110255\": \"64,64,64\",\"2021001127627457\": \"64,64,64\",\"2018122962720386\": \"64,64,64\",\"2021001110676437\": \"64,64,64\",\"2021001130678644\": \"64,64,64\",\"2019092667862040\": \"64,64,64\",\"2018112262208014\": \"64,64,64\",\"2018092761568006\": \"64,64,64\",\"2021001135698634\": \"64,64,64\",\"2018073060792690\": \"64,64,64\",\"2019121069775441\": \"64,64,64\"},\"ipcSwitch\": \"64,64,64\",\"preConnSwitch\": \"64,64,64\",\"searchListenSwitch\": \"64,64,64\",\"searchPreDownSwitch\": \"64,64,64\",\"pkgCallbackMerge\": \"64,64,64\",\"loadLocalPkgParallel\": \"64,64,64\"}"
+  },
+  {
+    "key": "ta_keepTimerAppWhiteList",
+    "value": "2021003125641017"
+  }
+]

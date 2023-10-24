@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qq.e.ads.nativ.widget.NativeAdContainer android:id="@id/native_ad_container" android:background="@color/white" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="27.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center" android:id="@id/feed_content_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.qq.e.ads.nativ.MediaView android:id="@id/feed_gdt_media_view" android:background="#ff000000" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="23.0dip" />
+            <ImageView android:id="@id/feed_img_poster" android:layout_width="150.0dip" android:layout_height="23.0dip" android:scaleType="fitXY" />
+        </FrameLayout>
+        <ImageView android:id="@id/feed_close" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/adsdk_feed_back" android:layout_toRightOf="@id/feed_content_container" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_feed_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="10.0dip" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/tv_feed_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="9.0dip" android:textColor="#ffbebebe" android:ellipsize="end" android:id="@id/tv_feed_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="9.0dip" android:textColor="#ff57abff" android:id="@id/feed_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.qq.e.ads.nativ.widget.NativeAdContainer>

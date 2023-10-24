@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mask" android:background="@drawable/touch_white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/font_size_16" android:textColor="@color/record_grey_font" android:id="@id/tv_archive_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/app_name" android:layout_marginStart="@dimen/margin_25" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/iv_archive_del" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/archive_del_icon" android:layout_centerVertical="true" android:contentDescription="@string/app_name" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/font_size_16" android:textColor="@color/TextGreyHeavyColor" android:gravity="center" android:id="@id/tv_archive_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/iv_archive_del" />
+</RelativeLayout>

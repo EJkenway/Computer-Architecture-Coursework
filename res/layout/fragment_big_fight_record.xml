@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/big_fight_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.widget.LeTitleBar android:id="@id/titleBarRecord" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:tAddStatusBarHeight="true" app:tBackImage="@drawable/ic_arrow_back_white_small" app:tBackgroundColor="@color/transparent" app:tTitleText="@string/big_fight_record" app:tTitleTextColor="@color/white" />
+    <com.jcodecraeer.xrecyclerview.XRecyclerView android:id="@id/recyclerViewRecord" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+</LinearLayout>

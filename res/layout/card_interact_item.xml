@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/drawable_card_interact_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/interact_line" android:background="@color/card_option_divider_line_grey" android:layout_width="1.0px" android:layout_height="@dimen/card_option_divider_line_height" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/interact_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="6.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@drawable/drawable_card_interact_text" android:ellipsize="end" android:gravity="center" android:id="@id/interact_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/interact_icon" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/AU_COLOR_UNIVERSAL_BG_PRESSED"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_enabled="false" android:drawable="@color/AU_COLOR_UNIVERSAL_BG" />
+            <item android:state_enabled="true" android:state_pressed="false" android:drawable="@color/AU_COLOR_UNIVERSAL_BG" />
+        </selector>
+    </item>
+</ripple>

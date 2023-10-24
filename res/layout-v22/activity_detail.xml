@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:background="@color/aisports_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.fitnessCourse.common.widget.LScrollView android:id="@id/scroll_view" android:focusableInTouchMode="false" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fl_bottom" android:overScrollMode="never">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/rl_video_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="254.0dip">
+                <cn.ledongli.mediaplayer.widget.IjkVideoView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_video_background" android:background="@color/aisports_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_video_pause" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/fitness_course_video_pause_icon" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_header" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/rl_video_view">
+                <TextView android:textSize="28.0dip" android:textColor="@color/color_333333" android:ellipsize="end" android:gravity="left" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="课程标题" android:singleLine="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/tv_title">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/color_666666" android:layout_gravity="center_vertical" android:id="@id/tv_difficulty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fitness_course_text_difficulty" />
+                    <cn.ledongli.ldl.course.view.AirRatingBar android:layout_gravity="center_vertical" android:id="@id/ar_combo_difficulty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" app:ratingDefault="@drawable/fitness_course_start_default" app:ratingDefaultSelectNum="1.0" app:ratingDistance="2.0dip" app:ratingHeight="10.0dip" app:ratingIsFull="true" app:ratingSelect="@drawable/fitness_course_star_select" app:ratingSelectable="false" app:ratingTotalNum="5" />
+                    <include layout="@layout/widget_vertical_line" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/color_999999" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/tv_poeple" android:background="@drawable/aisports_text_gray_bg" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:maxWidth="260.0dip" android:text="已有0人参与" android:layout_toRightOf="@id/tv_complete_count" android:layout_below="@id/ll_text" />
+                    <include layout="@layout/widget_vertical_line" />
+                    <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/tv_complete_count" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginRight="6.0dip" android:text="已完成0次" android:lines="1" android:layout_below="@id/ll_text" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ai_motion_gray_corner_bg" android:layout_width="fill_parent" android:layout_height="61.0dip" android:layout_marginTop="30.0dip" android:weightSum="5.0" android:layout_below="@id/ll_text">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <RelativeLayout android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/iv_target_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/target_icon" android:scaleType="fitCenter" />
+                            <TextView android:textSize="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="目标" android:layout_toRightOf="@id/iv_target_icon" />
+                        </RelativeLayout>
+                        <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:id="@id/rl_target_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:text="减脂营" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                        <RelativeLayout android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/iv_time_icon" android:padding="2.0dip" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/time_icon" android:scaleType="fitCenter" />
+                            <TextView android:textSize="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="时长" android:layout_toRightOf="@id/iv_time_icon" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:id="@id/tv_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="0分钟" android:layout_below="@id/iv_time_icon" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                        <RelativeLayout android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/iv_calo_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/cal_icon" android:scaleType="fitCenter" />
+                            <TextView android:textSize="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="消耗" android:layout_toRightOf="@id/iv_calo_icon" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:id="@id/tv_calories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="0千卡" android:layout_below="@id/iv_calo_icon" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <View android:layout_gravity="center_vertical" android:background="#33000000" android:layout_width="0.5dip" android:layout_height="50.0dip" android:layout_marginLeft="14.0dip" />
+                    <LinearLayout android:gravity="left" android:orientation="vertical" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_weight="2.0">
+                        <RelativeLayout android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/iv_body_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/motion_part" android:scaleType="fitCenter" />
+                            <TextView android:textSize="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="训练部位" android:layout_toRightOf="@id/iv_body_icon" />
+                        </RelativeLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/rl_body_layout" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/tv_body_title" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_video" android:paddingLeft="17.0dip" android:paddingRight="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_below="@id/rl_header" android:paddingHorizontal="17.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/color_3A3A3A" android:gravity="center" android:id="@id/tv_content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="动作列表" />
+                <View android:id="@id/line_view" android:background="@drawable/fadingedge" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_above="@id/recyclerView" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_content_text" android:overScrollMode="never" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="32.0dip" android:layout_below="@id/rl_video">
+                <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:gravity="left" android:id="@id/tv_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </cn.ledongli.ldl.fitnessCourse.common.widget.LScrollView>
+    <View android:id="@id/line_view_button" android:background="@drawable/fadingedge" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_above="@id/fl_bottom" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/fl_bottom" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_start" android:background="@drawable/aisports_detail_bottom_bg" android:layout_width="300.0dip" android:layout_height="fill_parent" android:text="@string/fitness_course_start_motion" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/progress_view" android:visibility="visible" android:layout_width="300.0dip" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <ProgressBar android:id="@id/progress_bar" android:layout_width="300.0dip" android:layout_height="fill_parent" android:maxHeight="48.0dip" android:progress="0" android:progressDrawable="@drawable/aisports_detail_downloading_bg" android:minHeight="48.0dip" style="?android:progressBarStyleHorizontal" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_downloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fitness_course_donwing_resource" android:alpha="0.8" />
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ly_not_net" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/layout_not_net" layout="@layout/layout_no_net" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/dark_grey_group" android:gravity="center" android:id="@id/tv_combo_out_line" android:background="@color/main_training_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/combo_state_is_outline" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_title" android:background="@color/white" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ImageView android:id="@id/iv_back" android:paddingLeft="16.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_arrow_back_grey" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/title_bar_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/iv_back" android:layout_centerVertical="true" />
+            <View android:id="@id/view_line" android:background="#0d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

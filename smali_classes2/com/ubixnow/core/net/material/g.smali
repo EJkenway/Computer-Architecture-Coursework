@@ -1,0 +1,163 @@
+.class public Lcom/ubixnow/core/net/material/g;
+.super Lcom/ubixnow/utils/net/base/b;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/ubixnow/utils/net/base/b$b;->b:Lcom/ubixnow/utils/net/base/b$b;
+
+    invoke-direct {p0, v0}, Lcom/ubixnow/utils/net/base/b;-><init>(Lcom/ubixnow/utils/net/base/b$b;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Lcom/ubixnow/utils/net/schedule/a$a;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/ubixnow/utils/net/schedule/a$a;->b:Lcom/ubixnow/utils/net/schedule/a$a;
+
+    return-object v0
+.end method
+
+.method public b(Ljava/net/HttpURLConnection;)V
+    .locals 2
+
+    const-string v0, "Content-Type"
+
+    const-string v1, "application/x-protobuf"
+
+    .line 1
+    invoke-virtual {p1, v0, v1}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public c()[B
+    .locals 3
+
+    .line 1
+    new-instance v0, Lcom/ubixnow/pb/api/nano/i;
+
+    invoke-direct {v0}, Lcom/ubixnow/pb/api/nano/i;-><init>()V
+
+    .line 2
+    invoke-static {}, Lcom/ubixnow/core/api/UMNAdManager;->getInstance()Lcom/ubixnow/core/api/UMNAdManager;
+
+    move-result-object v1
+
+    iget-object v1, v1, Lcom/ubixnow/core/api/UMNAdManager;->mConfig:Lcom/ubixnow/core/api/UMNAdConfig;
+
+    iget-object v1, v1, Lcom/ubixnow/core/api/UMNAdConfig;->appId:Ljava/lang/String;
+
+    iput-object v1, v0, Lcom/ubixnow/pb/api/nano/i;->d:Ljava/lang/String;
+
+    .line 3
+    sget-object v1, Lcom/ubixnow/core/b;->b:Ljava/lang/String;
+
+    iput-object v1, v0, Lcom/ubixnow/pb/api/nano/i;->c:Ljava/lang/String;
+
+    .line 4
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "appId "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v2, v0, Lcom/ubixnow/pb/api/nano/i;->d:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, " "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v2, v0, Lcom/ubixnow/pb/api/nano/i;->c:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "------MaterialWlistProcessor"
+
+    invoke-static {v2, v1}, Lcom/ubixnow/utils/log/a;->b(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 5
+    invoke-static {v0}, Lcom/ubixnow/pb/google/j;->a(Lcom/ubixnow/pb/google/j;)[B
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public d()Ljava/lang/String;
+    .locals 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v1, Lcom/ubixnow/core/utils/b$a;->a:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "/mob/mediation/material/wlist"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 2
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "url "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "------MaterialWlistProcessor"
+
+    invoke-static {v2, v1}, Lcom/ubixnow/utils/log/a;->b(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public getName()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

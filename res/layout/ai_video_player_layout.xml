@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/player_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_resume" android:layout_width="200.0dip" android:layout_height="100.0dip" android:text="resume" />
+        <Button android:id="@id/btn_pause" android:layout_width="200.0dip" android:layout_height="100.0dip" android:text="pause" />
+        <Button android:id="@id/btn_next" android:layout_width="200.0dip" android:layout_height="100.0dip" android:text="next" />
+        <Button android:id="@id/btn_pre" android:layout_width="200.0dip" android:layout_height="100.0dip" android:text="pre" />
+    </LinearLayout>
+    <cn.ledongli.ldl.player.AIPlayer android:id="@id/aiplayer" android:layout_width="160.0dip" android:layout_height="220.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

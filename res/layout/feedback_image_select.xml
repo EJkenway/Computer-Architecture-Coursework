@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="80.0dip" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_image_select" android:background="@drawable/feedback_add" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <Button android:id="@id/btn_image_del" android:background="@drawable/feedback_del" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="48.0dip" />
+    <View android:layout_width="5.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/btn_image_del" />
+</RelativeLayout>

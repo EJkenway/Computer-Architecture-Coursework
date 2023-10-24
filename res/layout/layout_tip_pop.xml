@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tip_down_icon" android:layout_width="@dimen/tip_pop_arrow_width" android:layout_height="4.0dip" android:src="@drawable/tip_pop_arrow" android:scaleType="fitXY" />
+    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tip_text" android:background="@drawable/tip_pop_bg" android:paddingLeft="@dimen/tip_pop_text_margin" android:paddingTop="9.0dip" android:paddingRight="@dimen/tip_pop_text_margin" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" /> tip_pop_arrow.png <ImageView android:id="@id/tip_up_icon" android:layout_width="12.0dip" android:layout_height="4.0dip" android:src="@drawable/tip_pop_arrow" android:scaleType="fitXY" android:rotationX="180.0" />
+</LinearLayout>

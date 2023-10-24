@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <padding android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip" />
+            <solid android:color="#ff66aaff" />
+            <stroke android:width="1.0px" android:color="#ffffffff" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <padding android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip" />
+            <solid android:color="#ff66aaff" />
+            <stroke android:width="1.0px" android:color="#ffffffff" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <padding android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip" />
+            <solid android:color="#ccff7e3e" />
+            <stroke android:width="1.0px" android:color="#ffffffff" />
+        </shape>
+    </item>
+    <item android:drawable="@color/rect_grey">
+        <shape android:shape="rectangle">
+            <padding android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip" />
+            <solid android:color="#33333333" />
+            <stroke android:width="1.0px" android:color="#ffffffff" />
+        </shape>
+    </item>
+</selector>

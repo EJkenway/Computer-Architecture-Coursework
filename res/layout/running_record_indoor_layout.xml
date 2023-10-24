@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_indoor_running" app:layout_constraintBottom_toTopOf="@id/layout_data_record" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/layout_data_record" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/running_record_view" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/running_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/indoor_running" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/rl_runner_count_down_view" android:visibility="visible" layout="@layout/running_count_down_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

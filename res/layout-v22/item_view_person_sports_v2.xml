@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.person.mvp.view.PersonSportDataViewV2 android:orientation="horizontal" android:id="@id/root_view" android:background="@drawable/usercenter_person_sports_data_bg" android:layout_width="fill_parent" android:layout_height="113.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_data_center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:text="今日运动（千卡）" />
+        <TextView android:textSize="21.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_calorie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_sport_trend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="2.0dip" android:alpha="0.7" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_currency" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:text="运动趋势（7日）" />
+        <FrameLayout android:id="@id/lineChartContainer" android:layout_width="130.0dip" android:layout_height="72.0dip" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+</cn.ledongli.ldl.person.mvp.view.PersonSportDataViewV2>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:mytablayout="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/rl_toolbar" android:background="#ffddf0ff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.ledongli.ldl.home.tablayout.MyTabLayout android:id="@id/tb_maintitle_layout" android:background="#ffddf0ff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:layout_marginStart="16.0dip" mytablayout:myTabGravity="left" mytablayout:mytabBothSidePadding="17.0dip" mytablayout:mytabIndicatorColor="#ff999999" mytablayout:mytabIndicatorHeight="2.0dip" mytablayout:mytabLineOffset="5.0dip" mytablayout:mytabMode="unfixed" mytablayout:mytabSelectedTextColor="@color/TextGreyHeavyColor" mytablayout:mytabTextAppearance="@style/HomeTabLayoutTextStyle" />
+    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/vp_maintitle_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

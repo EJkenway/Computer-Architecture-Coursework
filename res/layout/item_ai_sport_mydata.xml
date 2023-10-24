@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.home.dinamicx.aisport.widget.AISportMyDataTopView android:paddingTop="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_data_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.ledongli.ldl.pose.aibqcourse.view.CustomTextView android:textSize="70.0sp" android:textColor="@color/black" android:id="@id/tv_label_fitness_cal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginBottom="10.0dip" android:text="0" app:layout_constraintBottom_toTopOf="@id/tv_cal_hint" app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView android:textSize="@dimen/sp_18" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="10.0dip" android:text="千卡" app:layout_constraintBottom_toTopOf="@id/tv_cal_hint" app:layout_constraintLeft_toRightOf="@id/tv_label_fitness_cal" />
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/gray_666" android:id="@id/tv_cal_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="AI运动总消耗" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+        <LinearLayout android:id="@id/ll_more_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent">
+            <TextView android:textSize="11.0sp" android:textColor="@color/all_class_text_gray_11" android:id="@id/tv_sport_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0次运动记录" />
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/homepage_ai_home_to_more_data_icon" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <cn.ledongli.ldl.view.LoginTipsLayout android:gravity="center_vertical" android:id="@id/login_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</cn.ledongli.ldl.home.dinamicx.aisport.widget.AISportMyDataTopView>

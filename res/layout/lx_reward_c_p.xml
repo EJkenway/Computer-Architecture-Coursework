@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/qc_rd_c" android:background="#b3000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/qc_rd_c_c" android:visibility="visible" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="24.5dip" android:src="@drawable/lx_r_back" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/qc_rd_c_ll" android:background="@drawable/lx_m_b_rd_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="37.5dip" android:layout_marginRight="37.5dip" android:layout_centerInParent="true">
+        <com.lenovo.sdk.il.LXImageView android:id="@id/qc_rd_c_ic" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="35.0dip" android:layout_marginBottom="20.0dip" />
+        <TextView android:textSize="19.0sp" android:textColor="#ff333333" android:gravity="center" android:layout_gravity="center" android:id="@id/qc_rd_c_n" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff999999" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/qc_rd_c_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="14.5dip" android:layout_marginRight="15.0dip" android:maxLines="2" />
+        <RatingBar android:id="@id/qc_rd_c_rat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:rating="3.0" style="?android:ratingBarStyleSmall" />
+        <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/qc_rd_c_btn" android:background="@drawable/lx_m_b_rd_c_btn" android:layout_width="230.0dip" android:layout_height="44.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip" android:text="马上下载" />
+    </LinearLayout>
+</RelativeLayout>

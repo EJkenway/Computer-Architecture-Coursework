@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.mobile.antui.basic.AURelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aui="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.antui.basic.AUTitleBar android:id="@id/location_detail_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" aui:titleText="@string/location_info" />
+    <com.alipay.mobile.antui.basic.AULinearLayout android:id="@id/location_detail_map_container" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/location_detail_titlebar" />
+    <com.alipay.mobile.antui.basic.AURelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <com.alipay.mobile.antui.basic.AUImageView android:id="@id/location_detail_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/locate_bg_selector" android:scaleType="fitXY" />
+        <com.alipay.mobile.antui.basic.AUImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/location_gray" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    </com.alipay.mobile.antui.basic.AURelativeLayout>
+    <com.alipay.mobile.antui.basic.AUButton android:textSize="16.0dip" android:gravity="center" android:id="@id/location_detail_share_location" android:background="@drawable/location_navi_share" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_margin="20.0dip" android:text="@string/location_share" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</com.alipay.mobile.antui.basic.AURelativeLayout>

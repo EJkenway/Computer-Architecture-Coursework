@@ -1,0 +1,93 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+AliRibutChannelInterface <|.. NetworkChannel
+AliRibutChannelInterface <|.. OrangeChannel
+AliRibutChannelInterface <|.. SandBoxChannel
+
+NetworkChannel ..> Interceptor
+Interceptor ..> Callback
+
+ChannelManager ..> AliRibutChannelInterface
+
+interface AliRibutChannelInterface{
+    void ributDidConnect()
+
+    void ributDidFailConnect()
+
+    void receiveData(JSONObject jsonData)
+}
+
+class ChannelManager{
+    //存储所有自定义频道
+    Map<String, AliRibutChannelInterface> mExtensionMap;
+    //存储默认频道
+    Map<String, AliRibutChannelInterface> mDefaultMap;
+    public ChannelManager()
+
+    public void putChannel(String channelName,
+     AliRibutChannelInterface ributChannel)
+
+    public void removeChannel(String channelName)
+
+    public void clearChannel()
+
+    public Map<String, AliRibutChannelInterface> getExtensionMap()
+
+    public Set<String> getAllChannelKey()
+
+    public Set<String> getAllExtensionKey()
+
+    public AliRibutChannelInterface getChannel(String channel)
+
+    public boolean containsKey(String channel)
+}
+
+class NetworkChannel {
+    private Interceptor interceptor;
+    private Map<String,String> mockDataMap = new HashMap;
+
+    private void registerInterceptor()
+
+    private RequestInfo handlerMonitor(Request request)
+
+    private void unRegisterInterceptor()
+
+    private String getMockData(String apiName)
+
+    private synchronized void update(MockDataBean mockDataBean)
+
+    private synchronized void deleteAllMockData()
+}
+
+class OrangeChannel {
+    private void initTitleBar(JSONArray columns)
+
+    private void initItemContent(JSONArray dataSource)
+}
+
+class SandBoxChannel{
+    public void getSandBoxFileList()
+
+    private JSONArray getDirJson(List<File> fileList)
+
+    public void getSandBoxSingleFile(String filepath)
+
+    public void formatDataToSend(String message, String event, String filename)
+
+    public void formatDataToSend(String message, String event)
+}
+
+class Interceptor{
+   //网络拦截器
+   Future intercept()
+}
+
+class Callback{
+    //具体拦截回调
+    void onResponseCode(int responseCode, Map<String, List<String>> headers)
+
+    void onDataReceiveSize(int index, int total, ByteArray byteArray)
+
+    void onFinish(DefaultFinishEvent event)
+}
+@enduml

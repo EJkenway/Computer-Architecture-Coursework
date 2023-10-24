@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alisports.ai.common.view.RecordVideoWaterMarkView android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/viewBottom" android:background="@drawable/shape_video_record_bottom_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/textVideoTimeType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_alignTop="@id/viewBottom" android:layout_marginStart="36.0dip" android:layout_marginEnd="36.0dip" />
+    <com.alisports.ai.common.view.RecordVideoLabelView android:id="@id/labelWaterDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_alignTop="@id/textVideoTimeType" android:layout_alignStart="@id/textVideoTimeType" />
+    <com.alisports.ai.common.view.RecordVideoLabelView android:id="@id/labelWaterCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/labelWaterDuration" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/labelWaterDuration" />
+    <com.alisports.ai.common.view.RecordVideoLabelView android:id="@id/labelWaterCalorie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/labelWaterDuration" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/labelWaterCount" />
+</com.alisports.ai.common.view.RecordVideoWaterMarkView>

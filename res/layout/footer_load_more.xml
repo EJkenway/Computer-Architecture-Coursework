@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.mobile.antui.basic.AULinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.antui.basic.AULinearLayout android:gravity="center" android:orientation="horizontal" android:padding="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alipay.mobile.antui.basic.AUProgressBar android:id="@android:id/progress" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="8.0dip" />
+        <com.alipay.mobile.antui.basic.AUTextView android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/poiselect_searching" />
+    </com.alipay.mobile.antui.basic.AULinearLayout>
+</com.alipay.mobile.antui.basic.AULinearLayout>

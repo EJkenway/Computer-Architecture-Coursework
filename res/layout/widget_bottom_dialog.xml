@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@id/action_dialog_linearlayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@id/action_dialog_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textSize="14.0sp" android:id="@id/action_dialog_botbtn" android:background="@drawable/selector_widget_actiondialog_single" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="8.0dip" android:layout_weight="0.0" />
+</LinearLayout>

@@ -1,0 +1,70 @@
+.class public final Lcom/alipay/mobile/aompfilemanager/c$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/alipay/mobile/aompfilemanager/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "c"
+.end annotation
+
+
+# static fields
+.field public static final activity_file_picker_main:I
+
+.field public static final activity_page_list:I
+
+.field public static final files_recycler_view_item:I
+
+.field public static final item_page_image:I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    const-string v0, "layout"
+
+    const-string v1, "activity_file_picker_main"
+
+    .line 1
+    invoke-static {v0, v1}, Lcom/mpaas/project/aar/convert/converter/FinalR;->invokeRInnerClassIntWithOutException(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v1
+
+    sput v1, Lcom/alipay/mobile/aompfilemanager/c$c;->activity_file_picker_main:I
+
+    const-string v1, "activity_page_list"
+
+    .line 2
+    invoke-static {v0, v1}, Lcom/mpaas/project/aar/convert/converter/FinalR;->invokeRInnerClassIntWithOutException(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v1
+
+    sput v1, Lcom/alipay/mobile/aompfilemanager/c$c;->activity_page_list:I
+
+    const-string v1, "files_recycler_view_item"
+
+    .line 3
+    invoke-static {v0, v1}, Lcom/mpaas/project/aar/convert/converter/FinalR;->invokeRInnerClassIntWithOutException(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v1
+
+    sput v1, Lcom/alipay/mobile/aompfilemanager/c$c;->files_recycler_view_item:I
+
+    const-string v1, "item_page_image"
+
+    .line 4
+    invoke-static {v0, v1}, Lcom/mpaas/project/aar/convert/converter/FinalR;->invokeRInnerClassIntWithOutException(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v0
+
+    sput v0, Lcom/alipay/mobile/aompfilemanager/c$c;->item_page_image:I
+
+    return-void
+.end method

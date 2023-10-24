@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/frame_layout_auto_load" android:background="@color/ActivityBgV2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout_base" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.ledongli.ldl.view.ObservableScrollView android:orientation="vertical" android:id="@id/sv_datacenter" android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_auto_load" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <include android:id="@id/layout_auto_load_error" android:visibility="gone" layout="@layout/layout_no_net" />
+            </RelativeLayout>
+        </cn.ledongli.ldl.view.ObservableScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_title" android:background="@color/white" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ImageView android:id="@id/iv_back" android:paddingLeft="16.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_back_white_small" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_my_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的运动卡币" android:layout_toRightOf="@id/iv_back" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/tv_coin_info" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/coin_info_v1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_title" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="运动卡币" android:layout_centerInParent="true" android:fontFamily="PingFangSC-Medium" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

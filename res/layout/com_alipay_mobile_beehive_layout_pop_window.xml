@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/drop_down_icon" android:layout_width="@dimen/window_arrow_width" android:layout_height="5.0dip" android:src="@drawable/corner_arrow" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <com.alipay.mobile.beehive.template.view.CornerListView android:id="@id/pop_list" android:background="@drawable/com_alipay_mobile_beehive_pop_window_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_below="@id/drop_down_icon" />
+    <ImageView android:id="@id/drop_up_icon" android:layout_width="@dimen/window_arrow_width" android:layout_height="5.0dip" android:src="@drawable/corner_arrow" android:scaleType="fitXY" android:layout_below="@id/pop_list" android:layout_alignParentRight="true" android:rotationX="180.0" />
+</RelativeLayout>

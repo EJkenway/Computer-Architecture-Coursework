@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStartWithNavigation="0.0dip" />
+    <FrameLayout android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <SurfaceView android:id="@id/points_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alisports.ai.bigfight.ui.deteck.fight.view.RectView android:id="@id/rect_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:gravity="center" android:id="@id/change_camera" android:background="@null" android:layout_width="100.0dip" android:layout_height="50.0dip" android:text="changeCamera" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <com.alisports.ai.bigfight.ui.hand.TargetView android:id="@id/target" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="200.0dip" android:layout_marginStart="50.0dip" />
+</RelativeLayout>

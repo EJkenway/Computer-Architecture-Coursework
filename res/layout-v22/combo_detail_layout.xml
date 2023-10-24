@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/activity_light_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/appbar_articles" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar_articles" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="?colorPrimary" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:scrimVisibleHeightTrigger="90.0dip" app:statusBarScrim="?colorPrimaryDark" app:titleEnabled="false">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/combo_detail_header" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_combo_detail" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="1.0dip" app:layout_collapseMode="pin" app:navigationIcon="@drawable/ic_arrow_back_white" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ll_motion_group" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="62.0dip" android:layout_centerVertical="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_bottom_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:id="@id/tv_start" android:background="@color/essentialOrangeColor" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="开始训练" style="@style/TextAppereance.Size16" />
+        <FrameLayout android:id="@id/progress_view" android:background="@color/white20" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/progress_bar" android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="50.0dip" android:maxHeight="50.0dip" android:progressDrawable="@drawable/combo_progress_bar" android:minHeight="50.0dip" style="?android:progressBarStyleHorizontal" />
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/tv_downloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在下载" style="@style/TextAppereance.Size16" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ly_not_net" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_combo_no_network" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="1.0dip" android:titleTextColor="@color/TextGreyHeavyColor" app:layout_collapseMode="pin" app:navigationIcon="@drawable/ic_arrow_back_grey" />
+        <include android:id="@id/layout_not_net" layout="@layout/layout_no_net" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/dark_grey_group" android:gravity="center" android:id="@id/tv_combo_out_line" android:background="@color/main_training_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/combo_state_is_outline" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

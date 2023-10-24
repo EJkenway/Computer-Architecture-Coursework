@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget
+    id="youku"
+    version="1.0.0">
+    <plugin name="player">
+        <param
+            name="major_level"
+            value="10" />
+        <param
+            name="enable"
+            value="true" />
+        <param
+            name="layer"
+            value="layer_video" />
+    </plugin>
+
+    <!--请求播放信息loading-->
+    <plugin name="player_request_loading">
+        <param
+            name="major_level"
+            value="300" />
+        <param
+            name="enable"
+            value="true" />
+        <param
+            name="layer"
+            value="layer_control" />
+    </plugin>
+
+    <!--播放出错界面-->
+    <plugin name="player_error">
+        <param
+            name="major_level"
+            value="110" />
+        <param
+            name="enable"
+            value="true" />
+        <param
+            name="layer"
+            value="layer_control" />
+    </plugin>
+</widget>

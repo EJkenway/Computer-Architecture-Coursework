@@ -1,0 +1,149 @@
+.class public final Lcom/alibaba/android/split/core/tasks/d;
+.super Lcom/alibaba/android/split/core/tasks/f;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<TResult:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/alibaba/android/split/core/tasks/f<",
+        "TTResult;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field private a:Lcom/alibaba/android/split/core/tasks/OnSuccessListener;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/alibaba/android/split/core/tasks/OnSuccessListener<",
+            "-TTResult;>;"
+        }
+    .end annotation
+.end field
+
+.field private final a:Ljava/lang/Object;
+
+.field private final a:Ljava/util/concurrent/Executor;
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/concurrent/Executor;Lcom/alibaba/android/split/core/tasks/OnSuccessListener;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Executor;",
+            "Lcom/alibaba/android/split/core/tasks/OnSuccessListener<",
+            "-TTResult;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Lcom/alibaba/android/split/core/tasks/f;-><init>()V
+
+    .line 2
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    iput-object v0, p0, Lcom/alibaba/android/split/core/tasks/d;->a:Ljava/lang/Object;
+
+    .line 3
+    iput-object p1, p0, Lcom/alibaba/android/split/core/tasks/d;->a:Ljava/util/concurrent/Executor;
+
+    .line 4
+    iput-object p2, p0, Lcom/alibaba/android/split/core/tasks/d;->a:Lcom/alibaba/android/split/core/tasks/OnSuccessListener;
+
+    return-void
+.end method
+
+.method public static b(Lcom/alibaba/android/split/core/tasks/d;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/alibaba/android/split/core/tasks/d;->a:Ljava/lang/Object;
+
+    return-object p0
+.end method
+
+.method public static c(Lcom/alibaba/android/split/core/tasks/d;)Lcom/alibaba/android/split/core/tasks/OnSuccessListener;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/alibaba/android/split/core/tasks/d;->a:Lcom/alibaba/android/split/core/tasks/OnSuccessListener;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/alibaba/android/split/core/tasks/Task;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/alibaba/android/split/core/tasks/Task<",
+            "TTResult;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p1}, Lcom/alibaba/android/split/core/tasks/Task;->k()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 2
+    iget-object v0, p0, Lcom/alibaba/android/split/core/tasks/d;->a:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    .line 3
+    :try_start_0
+    iget-object v1, p0, Lcom/alibaba/android/split/core/tasks/d;->a:Lcom/alibaba/android/split/core/tasks/OnSuccessListener;
+
+    if-nez v1, :cond_0
+
+    .line 4
+    monitor-exit v0
+
+    return-void
+
+    .line 5
+    :cond_0
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 6
+    new-instance v0, Lcom/alibaba/android/split/core/tasks/SuccessRunnable;
+
+    invoke-direct {v0, p0, p1}, Lcom/alibaba/android/split/core/tasks/SuccessRunnable;-><init>(Lcom/alibaba/android/split/core/tasks/d;Lcom/alibaba/android/split/core/tasks/Task;)V
+
+    .line 7
+    iget-object p1, p0, Lcom/alibaba/android/split/core/tasks/d;->a:Ljava/util/concurrent/Executor;
+
+    invoke-interface {p1, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p1
+
+    .line 8
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw p1
+
+    :cond_1
+    :goto_0
+    return-void
+.end method

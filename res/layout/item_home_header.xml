@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.home.dinamicx.HomeHeaderView android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/viewStatusBar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <RelativeLayout android:id="@id/layoutTitle" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:gravity="center_vertical" android:id="@id/imgTitle" android:visibility="visible" android:layout_width="45.0dip" android:layout_height="19.0dip" android:src="@drawable/ic_header_title" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/currency_ly" android:background="@drawable/bg_home_title" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/iv_currency_icon" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/home_ic_currency" />
+            <cn.ledongli.ldl.view.RiseNumberTextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/color_333333" android:id="@id/txt_total_currency" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="0" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_333333" android:id="@id/txt_unlogin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="运动当钱花" />
+            <ImageView android:id="@id/img_arrow" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="13.0dip" android:src="@drawable/home_currency_arrow" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/viewDivider" android:background="@color/gray_f7" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</cn.ledongli.ldl.home.dinamicx.HomeHeaderView>

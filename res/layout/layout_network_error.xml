@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@color/main_training_footer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ig_web_page_no_network" android:background="@drawable/discover_no_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/dark_grey_group" android:id="@id/tx_web_page_no_network_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/network_not_available" android:layout_below="@id/ig_web_page_no_network" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/btn_retry_leweb" android:background="@drawable/video_not_net_sel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/retry" android:layout_below="@id/tx_web_page_no_network_des" android:layout_centerHorizontal="true" />
+</RelativeLayout>

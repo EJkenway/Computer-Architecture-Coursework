@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.webview.LeWVWebView android:id="@id/reduce_web_page" android:background="@color/activity_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_title" />
+    <ProgressBar android:id="@id/progress_bar_webstore" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:progress="0" android:secondaryProgress="0" android:progressDrawable="@drawable/webview_progressbar_color" style="?android:progressBarStyleHorizontal" />
+</RelativeLayout>

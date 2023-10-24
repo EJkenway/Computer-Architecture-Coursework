@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_capture_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aui="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/cameraContainer" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alipay.mobile.beehive.capture.views.CaptureV2MaskView android:id="@id/capture_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/control_panel" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <Button android:id="@id/btn_capture" android:background="@drawable/selector_capture_v2_btn" android:layout_width="66.29999dip" android:layout_height="66.29999dip" android:layout_marginRight="33.299988dip" android:layout_below="@id/tv_tips" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/title_panel" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_toLeftOf="@id/control_panel" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.alipay.mobile.antui.iconfont.AUIconView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" aui:iconfontColor="#ffffffff" aui:iconfontSize="19.299988dip" aui:iconfontUnicode="@string/iconfont_system_tipsxian" />
+            <TextView android:textSize="10.599976dip" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/capture" />
+        </LinearLayout>
+        <com.alipay.mobile.antui.iconfont.AUIconView android:id="@id/ivBack" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/back" aui:iconfontColor="#ffffffff" aui:iconfontSize="22.699982dip" aui:iconfontUnicode="@string/iconfont_cancel" />
+    </RelativeLayout>
+</RelativeLayout>

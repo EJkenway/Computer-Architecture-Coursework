@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:visibility="visible" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/tv_loading_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="加载中..." android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ly_permission_container" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tv_try_again" android:paddingHorizontal="16.0dip">
+        <ImageView android:id="@id/iv_image" android:layout_width="fill_parent" android:layout_height="200.0dip" android:src="@drawable/permission_deny" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <TextView android:textSize="28.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_permission_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="摄像头权限未开启" android:layout_below="@id/iv_image" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="#ff9d9db3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="开启摄像头权限才能进行运动" android:layout_below="@id/tv_permission_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="96.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_try_again" android:background="@drawable/aisports_bottom_bg" android:layout_width="160.0dip" android:layout_height="48.0dip" android:text="重新开启" />
+        <TextView android:textSize="15.0dip" android:textColor="#ff9d9db3" android:gravity="center" android:id="@id/tv_exit" android:background="@drawable/ai_hit_exit_btn_bg" android:layout_width="160.0dip" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:text="退出运动" />
+    </LinearLayout>
+    <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_ai_elite_resource_loading" />
+    <cn.ledongli.ldl.pose.view.AIEliteErrorView android:id="@id/permission_error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:error_type="3" />
+</RelativeLayout>

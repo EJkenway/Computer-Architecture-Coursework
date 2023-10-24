@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/game_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@id/cc_game_view_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@id/cc_prepare_game_btn" android:layout_width="wrap_content" android:layout_height="@dimen/cc_btn_height" android:text="准备" />
+        <Button android:id="@id/cc_create_game_btn" android:layout_width="wrap_content" android:layout_height="@dimen/cc_btn_height" android:text="创建" />
+        <Button android:id="@id/cc_destroy_game_btn" android:layout_width="wrap_content" android:layout_height="@dimen/cc_btn_height" android:text="销毁" />
+        <Button android:id="@id/cc_one_game_page_btn" android:layout_width="wrap_content" android:layout_height="@dimen/cc_btn_height" android:text="单实例页" />
+        <Button android:id="@id/cc_multi_game_page_btn" android:layout_width="wrap_content" android:layout_height="@dimen/cc_btn_height" android:text="多实例页" />
+        <Button android:id="@id/cc_record_game_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/cc_btn_height" android:text="录屏" />
+    </LinearLayout>
+</LinearLayout>

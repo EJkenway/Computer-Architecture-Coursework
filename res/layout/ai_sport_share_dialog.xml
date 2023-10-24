@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_share_bot" android:background="@drawable/webcontainer_shape_top_corners_vertical_8" android:layout_width="fill_parent" android:layout_height="274.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_pyq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" app:layout_constraintBottom_toTopOf="@id/tv_cancel" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/ll_wxhy">
+            <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/img_share_wechat_pyq" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="朋友圈" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_wxhy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" app:layout_constraintBottom_toTopOf="@id/tv_cancel" app:layout_constraintLeft_toRightOf="@id/ll_pyq" app:layout_constraintRight_toLeftOf="@id/ll_xlwb">
+            <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/img_share_wechat_friend" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="微信好友" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_xlwb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" app:layout_constraintBottom_toTopOf="@id/tv_cancel" app:layout_constraintLeft_toRightOf="@id/ll_wxhy" app:layout_constraintRight_toLeftOf="@id/ll_save_img">
+            <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/img_share_weibo" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="新浪微博" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_save_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" app:layout_constraintBottom_toTopOf="@id/tv_cancel" app:layout_constraintLeft_toRightOf="@id/ll_xlwb" app:layout_constraintRight_toRightOf="parent">
+            <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/img_save_picture" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/gray_99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="保存图片" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/tv_cancel" android:background="@color/white" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="91.0dip" android:text="取消" app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/img_share" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="37.0dip" android:layout_marginRight="37.0dip" android:layout_marginBottom="220.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

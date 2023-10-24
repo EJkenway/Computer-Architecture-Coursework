@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f5f9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aui="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.antui.basic.AUTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" aui:titleText="@string/map_route_title_text" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/route_info_bg" android:paddingLeft="20.0dip" android:paddingTop="22.0dip" android:paddingRight="20.0dip" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <ImageView android:id="@id/route_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" />
+        <TextView android:textSize="22.0dip" android:gravity="center_vertical" android:id="@id/route_overview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView android:id="@id/route_list" android:background="@drawable/bubbles_bg" android:padding="5.0dip" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="14.0dip" android:listSelector="@android:color/transparent" android:overScrollFooter="@null" />
+</LinearLayout>

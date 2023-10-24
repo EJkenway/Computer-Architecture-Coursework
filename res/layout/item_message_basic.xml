@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_start" android:background="#ffe3e3e7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip">
+        <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/civ_img" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/default_rect" android:scaleType="centerCrop" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/discovery_text_name" android:ellipsize="end" android:id="@id/tv_nick_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="6" android:layout_centerVertical="true" android:layout_marginEnd="12.0dip" android:layout_toEndOf="@id/civ_img" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff454653" android:ellipsize="end" android:id="@id/tv_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@id/tv_time" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toEndOf="@id/tv_nick_name" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/food_text_hint" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0dip" android:textColor="@color/discovery_text_name" android:gravity="center_vertical" android:id="@id/tv_content" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="16.0dip" android:lineSpacingExtra="4.0dip" android:layout_marginStart="63.0dip" />
+    <RelativeLayout android:id="@id/rl_replied_content" android:background="@drawable/corner_grey_v3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginStart="63.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/discovery_text_name" android:id="@id/tv_replied_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_centerVertical="true" android:lineSpacingExtra="4.0dip" />
+    </RelativeLayout>
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <View android:background="#ffe3e3e7" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

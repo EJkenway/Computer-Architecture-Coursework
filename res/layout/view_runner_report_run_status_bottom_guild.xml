@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.runner.ui.view.detail.RunnerDetailFeedBackView android:id="@id/view_feedback" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/rl_bottom_button_invalid_code" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="116.0dip">
+        <TextView android:textSize="11.0dip" android:textColor="@color/colorPrimaryFood" android:gravity="center" android:background="#ffff254b" android:clickable="true" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="开启运动权限，获取准确运动数据" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="44.0dip" android:layout_marginRight="16.0dip" android:weightSum="2.0">
+            <cn.ledongli.ldl.widget.LeButton android:textSize="15.0dip" android:textStyle="bold" android:id="@id/btn_complete_invalid_code" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginRight="6.0dip" android:text="完成" android:layout_weight="1.0" android:layout_centerHorizontal="true" app:btnRound="true" app:normalBackgroundColor="@color/colorPrimaryFood" app:normalStrokeColor="@color/color_CCCCCC" app:normalStrokeWidth="0.5dip" app:normalTextColor="@color/color_333333" app:pressedBackgroundColor="@color/gray_999" />
+            <cn.ledongli.ldl.widget.LeButton android:textSize="15.0dip" android:textStyle="bold" android:id="@id/btn_permission_invalid_code" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginLeft="6.0dip" android:text="开启运动权限" android:layout_weight="1.0" android:layout_centerHorizontal="true" app:btnRound="true" app:normalBackgroundColor="@color/run_ff6022" app:normalTextColor="@color/white" app:pressedBackgroundColor="@color/gray_999" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/ll_bottom_button" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="84.0dip">
+        <cn.ledongli.ldl.widget.LeButton android:textSize="15.0dip" android:textStyle="bold" android:id="@id/btn_complete" android:visibility="visible" android:layout_width="285.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:text="完成" app:btnRound="true" app:normalBackgroundColor="@color/run_ff6022" app:normalTextColor="@color/white" app:pressedBackgroundColor="@color/gray_999" />
+    </LinearLayout>
+</LinearLayout>

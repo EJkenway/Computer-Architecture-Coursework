@@ -1,0 +1,323 @@
+{
+  "api": "mtop.alisports.ldl.dinamicx.data.get",
+  "data": {
+    "container": {
+      "data": [
+        {
+          "containerType": "dinamicx",
+          "name": "ldl_model_home_combo_head",
+          "type": [
+            "199779"
+          ],
+          "url": "https://ossgw.alicdn.com/rapid-oss-bucket/1631016718988/ldl_model_home_combo_head.zip",
+          "version": "9"
+        },
+        {
+          "containerType": "dinamicx",
+          "name": "ldl_model_ai_home_filter",
+          "type": [
+            "202052"
+          ],
+          "url": "https://ossgw.alicdn.com/rapid-oss-bucket/1631951342372/ldl_model_ai_home_filter.zip",
+          "version": "4"
+        },
+        {
+          "containerType": "dinamicx",
+          "name": "ldl_model_home_course_list",
+          "type": [
+            "199849"
+          ],
+          "url": "https://ossgw.alicdn.com/rapid-oss-bucket/1631067533258/ldl_model_home_course_list.zip",
+          "version": "44"
+        },
+        {
+          "containerType": "dinamicx",
+          "name": "module_home_banner",
+          "type": [
+            "184719"
+          ],
+          "url": "https://ossgw.alicdn.com/rapid-oss-bucket/1624018763943/module_home_banner.zip",
+          "version": "7"
+        },
+        {
+          "containerType": "dinamicx",
+          "name": "ldl_model_home_ai_reco_list",
+          "type": [
+            "201515"
+          ],
+          "url": "https://ossgw.alicdn.com/rapid-oss-bucket/1631775913235/ldl_model_home_ai_reco_list.zip",
+          "version": "3"
+        },
+        {
+          "containerType": "dinamicx",
+          "name": "ldl_model_home_ai_data",
+          "type": [
+            "199512"
+          ],
+          "url": "https://ossgw.alicdn.com/rapid-oss-bucket/1630927314008/ldl_model_home_ai_data.zip",
+          "version": "1"
+        }
+      ]
+    },
+    "data": {
+      "ldl_home_AI_data_sec_ledongli_homepage": {
+        "fields": {
+          "bgColor": "#FFFFFF",
+          "useOfflineData": false
+        },
+        "id": "ldl_home_AI_data_sec_ledongli_homepage",
+        "type": "199512"
+      },
+      "ldl_AI_home_recommend_combos_sec_ledongli_homepage_i_0": {
+        "fields": {
+          "totalDuration": 652,
+          "difficulty": 3,
+          "spm": "a2122j.14003364.course.1",
+          "totalCalorie": 240,
+          "comboName": "进阶减脂·心肺攀升·嘉辉陪练",
+          "imageUrl": "https://img.alicdn.com/imgextra/i1/O1CN01kcYidG1eLdXTqbZWm_!!6000000003855-2-tps-768-480.png",
+          "ukCodeName": "C967",
+          "id": 790,
+          "class": "com.alisports.ldl.dto.ComboVO",
+          "useOfflineData": false
+        },
+        "id": "ldl_AI_home_recommend_combos_sec_ledongli_homepage_i_0",
+        "type": "199849"
+      },
+      "ldl_AI_home_recommend_combos_sec_ledongli_homepage_i_2": {
+        "fields": {
+          "totalDuration": 481,
+          "difficulty": 2,
+          "spm": "a2122j.14003364.course.3",
+          "totalCalorie": 150,
+          "comboName": "入门塑形·马甲线养成·张垚陪练",
+          "imageUrl": "https://img.alicdn.com/imgextra/i2/O1CN016MQhjA1Oc5uzSA1uf_!!6000000001725-2-tps-768-480.png",
+          "ukCodeName": "C965",
+          "id": 788,
+          "class": "com.alisports.ldl.dto.ComboVO",
+          "useOfflineData": false
+        },
+        "id": "ldl_AI_home_recommend_combos_sec_ledongli_homepage_i_2",
+        "type": "199849"
+      },
+      "ldl_AI_home_recommend_combos_sec_ledongli_homepage_i_1": {
+        "fields": {
+          "totalDuration": 636,
+          "difficulty": 3,
+          "spm": "a2122j.14003364.course.2",
+          "totalCalorie": 180,
+          "comboName": "进阶塑形·马甲线养成·嘉辉陪练",
+          "imageUrl": "https://img.alicdn.com/imgextra/i4/O1CN01ltIVUM1UEdK45mOdk_!!6000000002486-2-tps-768-480.png",
+          "ukCodeName": "C966",
+          "id": 789,
+          "class": "com.alisports.ldl.dto.ComboVO",
+          "useOfflineData": false
+        },
+        "id": "ldl_AI_home_recommend_combos_sec_ledongli_homepage_i_1",
+        "type": "199849"
+      },
+      "ldl_home_AI_reco_list_sec_ledongli_homepage": {
+        "fields": {
+          "showFilter": true,
+          "themeCode": "LDLXBSYDZK",
+          "filterList": [
+            {
+              "code": "DZKCS",
+              "title": "全部"
+            },
+            {
+              "code": "LDLLSDZ",
+              "title": "拉伸"
+            },
+            {
+              "code": "LDLQSDZ",
+              "title": "全身"
+            },
+            {
+              "code": "LDLSZDZ",
+              "title": "上肢"
+            },
+            {
+              "code": "LDLXZDZ",
+              "title": "下肢"
+            },
+            {
+              "code": "LDLYFDZ",
+              "title": "腰腹"
+            }
+          ],
+          "useOfflineData": false
+        },
+        "id": "ldl_home_AI_reco_list_sec_ledongli_homepage",
+        "type": "201515"
+      },
+      "module_AI_home_new_banner_sec_ledongli_homepage": {
+        "fields": {
+          "indicator": {
+            "offColor": "#FFD4D8DE",
+            "onColor": "#FFFF6D2A"
+          },
+          "bannerList": [
+            {
+              "spm": "a2122j.11791392.LedongliUnderButtonBanner.7",
+              "appVersion": "",
+              "groupId": "",
+              "imageUrl": "https://gw.alicdn.com/imgextra/i1/O1CN01CNpqpC26Rs9jgngli_!!6000000007659-2-tps-686-160.png",
+              "tag": "",
+              "class": "com.alisports.ldl.domain.model.BannerItem",
+              "jumpUrl": "https://market.m.taobao.com/app/front-end-group/running-activities-index/pages/Race/index.html?needLogin=1"
+            },
+            {
+              "spm": "a2122j.11791392.LedongliUnderButtonBanner.10",
+              "appVersion": "",
+              "groupId": "",
+              "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01XQ7Nhm1fsRVGPbw63_!!6000000004062-2-tps-686-160.png",
+              "tag": "",
+              "class": "com.alisports.ldl.domain.model.BannerItem",
+              "jumpUrl": "https://market.m.taobao.com/app/front-end-group/fat-reduce-battalion/pages/index/index.html?needLogin=1"
+            }
+          ],
+          "useOfflineData": false
+        },
+        "id": "module_AI_home_new_banner_sec_ledongli_homepage",
+        "type": "184719"
+      },
+      "ai_home_training_recommend_sec_ledongli_homepage": {
+        "fields": {
+          "useOfflineData": false,
+          "modules": [
+            {
+              "arrowIcon": "https://img.alicdn.com/imgextra/i4/O1CN011eVo2b1WEket6S5yR_!!6000000002757-2-tps-42-42.png",
+              "backgroundColor": "#00ACFF",
+              "titleColor": "#FFFFFF",
+              "title": "每日减脂",
+              "jumpUrl": "ledongliopen://jump?type=1&data=https://market.m.taobao.com/app/front-end-group/ai-3d-game/pages/CourseList/index.html?courseTag=%7B%22theme%22%3A%5B%221%22%5D%2C%22area%22%3A%5B%220%22%5D%2C%22duration%22%3A%5B%22-1%22%5D%7D"
+            },
+            {
+              "arrowIcon": "https://img.alicdn.com/imgextra/i4/O1CN011eVo2b1WEket6S5yR_!!6000000002757-2-tps-42-42.png",
+              "backgroundColor": "#0046FF",
+              "titleColor": "#FFFFFF",
+              "title": "办公室必备",
+              "jumpUrl": "ledongliopen://jump?type=1&data=https://market.m.taobao.com/app/front-end-group/ai-3d-game/pages/CourseList/index.html?courseTag=%7B%22theme%22%3A%5B%223%22%5D%2C%22area%22%3A%5B%22-1%22%5D%2C%22duration%22%3A%5B%22-1%22%5D%7D"
+            },
+            {
+              "arrowIcon": "https://img.alicdn.com/imgextra/i4/O1CN011eVo2b1WEket6S5yR_!!6000000002757-2-tps-42-42.png",
+              "backgroundColor": "#FF6022",
+              "titleColor": "#FFFFFF",
+              "title": "每天 3 分钟",
+              "jumpUrl": "ledongliopen://jump?type=1&data=https://market.m.taobao.com/app/front-end-group/ai-3d-game/pages/CourseList/index.html?courseTag=%7B%22theme%22%3A%5B%222%22%2C%225%22%5D%2C%22area%22%3A%5B%22-1%22%5D%2C%22duration%22%3A%5B%221%22%5D%7D"
+            }
+          ]
+        },
+        "id": "ai_home_training_recommend_sec_ledongli_homepage",
+        "type": "202052"
+      },
+      "simple_column_empty_list_sec_ledongli_homepage": {
+        "id": "simple_column_empty_list_sec_ledongli_homepage",
+        "layout": {
+          "type": "linear"
+        },
+        "type": ""
+      },
+      "module_home_header_container_sec_ledongli_homepage": {
+        "id": "module_home_header_container_sec_ledongli_homepage",
+        "layout": {
+          "type": "linear"
+        },
+        "type": ""
+      },
+      "module_slider_container_sec_ledongli_homepage": {
+        "id": "module_slider_container_sec_ledongli_homepage",
+        "layout": {
+          "style": {
+            "padding": [
+              "4ap",
+              "0ap",
+              "0ap",
+              "0ap"
+            ],
+            "vGap": "0ap",
+            "hGap": "0ap"
+          },
+          "type": "linear"
+        },
+        "type": ""
+      },
+      "root": {
+        "id": "root",
+        "type": ""
+      },
+      "ldl_container_home_recommend_combos_sec_ledongli_homepage": {
+        "id": "ldl_container_home_recommend_combos_sec_ledongli_homepage",
+        "layout": {
+          "style": {
+            "padding": [
+              "10np",
+              "15.5np",
+              "10np",
+              "15.5np"
+            ],
+            "vGap": "8ap",
+            "hGap": "8ap"
+          },
+          "type": "linear"
+        },
+        "type": ""
+      },
+      "ldl_home_course_head_all_sec_ledongli_homepage": {
+        "fields": {
+          "rightImg": "https://gw.alicdn.com/tfs/TB1smPnFND1gK0jSZFKXXcJrVXa-21-33.png",
+          "spm": "a2122j.11791392.course.more",
+          "appVersion": "9.8.9",
+          "titleColor": "#333333",
+          "jumpTextColor": "#b2b2b2",
+          "title": "推荐课程",
+          "jumpText": "查看全部",
+          "useOfflineData": false,
+          "jumpUrl": "ledongliopen://jump?type=1&data=https%3A%2F%2Fmarket.m.taobao.com%2Fapp%2Ffront-end-group%2Fai-3d-game%2Fpages%2FCourseList%2Findex.html"
+        },
+        "id": "ldl_home_course_head_all_sec_ledongli_homepage",
+        "type": "199779"
+      }
+    },
+    "endpoint": {
+      "protocolVersion": "3.0"
+    },
+    "global": {},
+    "hierarchy": {
+      "root": "root",
+      "structure": {
+        "simple_column_empty_list_sec_ledongli_homepage": [
+          "ldl_home_AI_reco_list_sec_ledongli_homepage"
+        ],
+        "module_home_header_container_sec_ledongli_homepage": [
+          "ldl_home_AI_data_sec_ledongli_homepage"
+        ],
+        "module_slider_container_sec_ledongli_homepage": [
+          "module_AI_home_new_banner_sec_ledongli_homepage"
+        ],
+        "root": [
+          "module_home_header_container_sec_ledongli_homepage",
+          "module_slider_container_sec_ledongli_homepage",
+          "ldl_container_home_recommend_combos_sec_ledongli_homepage",
+          "simple_column_empty_list_sec_ledongli_homepage"
+        ],
+        "ldl_container_home_recommend_combos_sec_ledongli_homepage": [
+          "ldl_home_course_head_all_sec_ledongli_homepage",
+          "ai_home_training_recommend_sec_ledongli_homepage",
+          "ldl_AI_home_recommend_combos_sec_ledongli_homepage_i_0",
+          "ldl_AI_home_recommend_combos_sec_ledongli_homepage_i_1",
+          "ldl_AI_home_recommend_combos_sec_ledongli_homepage_i_2"
+        ]
+      }
+    },
+    "linkage": {},
+    "protocol": "ultronage",
+    "reload": true,
+    "serverTime": 1632631911454
+  },
+  "ret": [
+    "SUCCESS::调用成功"
+  ],
+  "v": "1.0"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/image_color_primary" android:layout_gravity="top" android:id="@id/tv_cancel" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/image_cancel" android:onClick="onClick" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="end|center|top" android:id="@id/tv_done" android:background="@drawable/com_alipay_mobile_beeimageedit_btn_blue_selector" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/image_done" android:includeFontPadding="false" android:onClick="onClick" />
+    </FrameLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_op_sub" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewSwitcher android:id="@id/vs_op_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:measureAllChildren="true">
+            <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorGroup android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/cg_colors" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkedButton="@id/default_checked_color">
+                <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:id="@id/cr_first_selected" android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" android:button="@null" app:image_color="@color/image_color_0" />
+                <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_1" />
+                <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:id="@id/default_checked_color" android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_2" />
+                <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_3" />
+                <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_4" />
+                <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_5" />
+                <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_6" />
+            </com.alipay.mobile.beehive.imageedit.v2.view.ImageColorGroup>
+            <TextView android:textSize="12.0sp" android:textColor="@color/image_color_0" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/image_mosaic_tip" />
+        </ViewSwitcher>
+        <ImageButton android:id="@id/btn_undo" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_btn_undo" android:onClick="onClick" android:contentDescription="@string/image_undo" />
+    </LinearLayout>
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/rg_modes" android:background="@drawable/image_bg_bottom" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:textColor="#ffffffff" android:gravity="center" android:id="@id/btn_clip" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_ic_clip" android:onClick="onClick" android:contentDescription="@string/image_clip" />
+        <Space android:id="@id/space_doodle" android:layout_width="@dimen/image_mode_space" android:layout_height="wrap_content" />
+        <RadioButton android:textColor="#ffffffff" android:gravity="center" android:id="@id/rb_mosaic" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/image_btn_mosaic" android:onClick="onClick" />
+        <Space android:id="@id/space_mosaic" android:visibility="gone" android:layout_width="@dimen/image_mode_space" android:layout_height="wrap_content" />
+        <RadioButton android:textColor="#ffffffff" android:gravity="center" android:id="@id/rb_doodle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/image_btn_doodle" android:onClick="onClick" />
+    </RadioGroup>
+</LinearLayout>

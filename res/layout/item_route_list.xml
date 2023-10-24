@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.runner.route.list.RouteItemView android:background="?android:selectableItemBackground" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/tv_route_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/black50" android:id="@id/tv_route_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_route_name" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/black50" android:id="@id/tv_route_location_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_route_distance" />
+    <View android:background="@color/black10" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" app:layout_constraintTop_toBottomOf="@id/tv_route_distance" />
+</cn.ledongli.ldl.runner.route.list.RouteItemView>

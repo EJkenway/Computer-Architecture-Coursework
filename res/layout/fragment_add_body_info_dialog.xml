@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="@dimen/margin_16" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_18" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_bodyinfo_title" android:background="@color/main_orange" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/archive_dimension_weight" />
+    <RelativeLayout android:id="@id/rl_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/tv_bodyinfo_title" android:layout_centerInParent="true" android:layout_centerHorizontal="true">
+        <NumberPicker android:id="@id/show_number_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="30.0sp" android:textColor="@color/dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="." android:layout_toRightOf="@id/show_number_picker" android:layout_centerVertical="true" android:layout_toEndOf="@id/show_number_picker" />
+        <NumberPicker android:id="@id/show_number_picker2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/show_number_picker" android:layout_alignTop="@id/show_number_picker" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/show_number_picker" />
+        <TextView android:textSize="24.0sp" android:textColor="@color/dark" android:id="@id/tv_bodyinfo_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="kg" android:layout_toRightOf="@id/show_number_picker2" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/show_number_picker2" />
+    </RelativeLayout>
+    <Button android:textSize="@dimen/font_size_18" android:textColor="@color/white" android:id="@id/btn_bodyinfo_ok" android:background="@color/main_orange" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="@dimen/margin_16" android:text="@string/confirm" android:layout_below="@id/rl_picker" android:layout_marginStart="@dimen/margin_16" android:layout_marginEnd="@dimen/margin_16" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStartWithNavigation="0.0dip" />
+    <FrameLayout android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <SurfaceView android:id="@id/points_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alisports.ai.bigfight.ui.deteck.fight.view.RectView android:id="@id/rect_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alisports.ai.bigfight.ui.deteck.fight.view.RectView android:id="@id/bone_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

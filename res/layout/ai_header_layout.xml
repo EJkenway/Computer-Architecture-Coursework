@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_ai_header_view" android:layout_width="fill_parent" android:layout_height="180.0dip">
+        <ImageView android:id="@id/iv_banner" android:background="#ff00ff00" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_record_layout" android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0" android:layout_below="@id/iv_banner">
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="13.0pt" android:id="@id/tv_calory_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1285" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总消耗（千卡）" android:layout_below="@id/tv_calory_text" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="13.0pt" android:id="@id/tv_duration_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1285" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总时长（分钟）" android:layout_below="@id/tv_duration_text" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="13.0pt" android:id="@id/tv_count_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1285" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成次数" android:layout_below="@id/tv_count_text" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

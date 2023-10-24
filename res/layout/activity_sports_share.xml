@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff3f4f7" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="software"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="0.5dip" app:contentInsetStartWithNavigation="0.0dip" />
+    <View android:id="@id/separate" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/toolbar" />
+    <cn.ledongli.ldl.share.view.CustomScrollViewPager android:id="@id/vp" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="417.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/separate" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_info" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/vp" android:layout_centerHorizontal="true">
+        <View android:background="@drawable/horizontal_dash" android:layout_width="95.0dip" android:layout_height="1.0dip" android:layout_marginBottom="49.0dip" android:layerType="software" />
+        <TextView android:textSize="13.0dip" android:textColor="#ff7b7c87" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="49.0dip" android:text="分享成果到" />
+        <View android:background="@drawable/horizontal_dash" android:layout_width="95.0dip" android:layout_height="1.0dip" android:layout_marginBottom="49.0dip" android:layerType="software" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_bottom" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/vp">
+        <LinearLayout android:gravity="center" android:id="@id/ll_ugc" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="13.0dip" android:textColor="#ff7b7c87" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="社区" android:drawableTop="@drawable/share_ugc" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/ll_moment" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="13.0dip" android:textColor="#ff7b7c87" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="朋友圈" android:drawableTop="@drawable/share_moment" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/ll_wechat" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="13.0dip" android:textColor="#ff7b7c87" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="好友" android:drawableTop="@drawable/share_wechat" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/ll_weibo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="13.0dip" android:textColor="#ff7b7c87" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="微博" android:drawableTop="@drawable/share_weibo" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

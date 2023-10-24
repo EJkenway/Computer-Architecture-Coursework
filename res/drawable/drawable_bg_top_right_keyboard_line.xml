@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <inset android:insetLeft="@dimen/AU_DIVIDER_SPACE3" android:insetBottom="@dimen/AU_DIVIDER_SPACE3">
+            <shape android:shape="rectangle">
+                <stroke android:width="@dimen/AU_DIVIDER_SPACE1" android:color="@color/number_keyboard_digital_line" />
+                <solid android:color="@color/number_keyboard_digital_press" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset android:insetLeft="@dimen/AU_DIVIDER_SPACE3" android:insetBottom="@dimen/AU_DIVIDER_SPACE3">
+            <shape android:shape="rectangle">
+                <stroke android:width="@dimen/AU_DIVIDER_SPACE1" android:color="@color/number_keyboard_digital_line" />
+                <solid android:color="@android:color/transparent" />
+            </shape>
+        </inset>
+    </item>
+</selector>

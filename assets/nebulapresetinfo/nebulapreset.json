@@ -1,0 +1,92 @@
+{
+  "stat": "success",
+  "resultCode": 100,
+  "resultMsg": "操作成功",
+  "data": [
+    {
+      "fallback_base_url": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/88wl44928nq/",
+      "app_type": 1,
+      "package_url": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692-sign/rg9w0seoxdf.amr",
+      "extend_info": {
+        "appxVersion": "1.24.6"
+      },
+      "auto_install": 0,
+      "nbl_id": "AP_66666692",
+      "app_dist": "CN",
+      "app_id": "66666692",
+      "icon_url": "https://appstoreisvpic.alipayobjects.com/prod/04843e84-f1fd-4717-a230-1c72de99aa5d.png",
+      "package_nick": "1.276.1",
+      "release_type": "ONLINE",
+      "version": "1.276.2006151546.1",
+      "main_url": "/www/",
+      "vhost": "https://66666692.h5app.alipay.com",
+      "size": "253444",
+      "name": "小程序示例",
+      "app_desc": "小程序官方示例Demo，展示已支持的接口能力及组件。"
+    },
+    {
+      "fallback_base_url": "https://gw.alipayobjects.com/os/nebulamng/AP_68687360/4nm89a6klkl/",
+      "app_type": 1,
+      "package_url": "https://gw.alipayobjects.com/os/nebulamng/AP_68687360-sign/4nm89a6klkl.amr",
+      "third_platform": null,
+      "preset": 0,
+      "extend_info": {
+        "launchParams": {
+          "nbapptype": "res"
+        },
+        "aiDownload": "YES"
+      },
+      "auto_install": 0,
+      "nbl_id": "AP_68687360",
+      "patch": null,
+      "app_dist": "CN",
+      "sub_url": [],
+      "app_id": "68687360",
+      "icon_url": "https://gw.alipayobjects.com/zos/rmsportal/rirDfEjfhZjYdneHUDDt.png",
+      "package_nick": "0.8.8",
+      "local_report": 0,
+      "api_permission": "",
+      "release_type": "ONLINE",
+      "version": "0.8.2004141847.31",
+      "main_url": "/www/",
+      "vhost": "https://68687360.h5app.alipay.com",
+      "app_channel": 1,
+      "size": "42864",
+      "unique": "2005",
+      "download_type": 0,
+      "name": "Paladin小游戏框架资源包",
+      "online": 1,
+      "app_desc": "Paladin小游戏框架资源包",
+      "down_type": 0
+    },
+    {
+      "fallback_base_url": "https://gw.alipayobjects.com/os/nebulamng/AP_68687209/gmb8s6lym0h/",
+      "app_type": 1,
+      "package_url": "https://gw.alipayobjects.com/os/nebulamng/AP_68687209-sign/gmb8s6lym0h.amr",
+      "extend_info": {"launchParams":{"cubeRuntimeSupportMin":"1","cubeRuntimeSupportMax":"102","webRuntimeSupportMin":"1","webRuntimeSupportMax":"27","nbapptype":"res"},"appxVersion":"2.6.6","aiDownload":"YES"},
+      "auto_install": 0,
+      "nbl_id": "AP_68687209",
+      "app_dist": "CN",
+      "app_id": "68687209",
+      "icon_url": "https://appstoreisvpic.alipayobjects.com/prod/04843e84-f1fd-4717-a230-1c72de99aa5d.png",
+      "package_nick": "0.4.434",
+      "release_type": "ONLINE",
+      "version": "0.4.2012022107.31",
+      "main_url": "/www/",
+      "vhost": "https://68687209.h5app.alipay.com",
+      "size": "253444",
+      "name": "小程序示例",
+      "app_desc": "小程序官方示例Demo，展示已支持的接口能力及组件。"
+    }
+  ],
+  "config": {
+    "pr": {
+      "4": "129600",
+      "common": "864000"
+    },
+    "al": 3,
+    "ur": 3600
+  },
+  "removeAppIdList": [],
+  "discardData": {}
+}

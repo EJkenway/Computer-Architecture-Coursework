@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_white_radius_6dp" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+        <cn.ledongli.ldl.view.NumberFontTextView android:textSize="32.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/courseDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:includeFontPadding="false" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="公里" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+        <cn.ledongli.ldl.view.NumberFontTextView android:textSize="32.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/courseTotalTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:includeFontPadding="false" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="用时" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+        <cn.ledongli.ldl.view.NumberFontTextView android:textSize="32.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/courseAveragePace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pace_default" android:includeFontPadding="false" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/coursePaceDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="平均配速" />
+    </LinearLayout>
+</LinearLayout>

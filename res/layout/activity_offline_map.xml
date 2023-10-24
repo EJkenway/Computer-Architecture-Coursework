@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/activity_light_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.widget.LeTitleBar android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:tBackImage="@drawable/ic_arrow_back_grey" app:tTitleText="离线地图" />
+    <View android:background="@color/TextGreyLightColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/shape_offline_header" android:layout_width="204.0dip" android:layout_height="32.0dip" android:layout_marginTop="12.0dip" android:weightSum="2.0">
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/selector_offline_map_header" android:gravity="center" android:id="@id/tv_header_left" android:background="@drawable/bg_offline_header_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/offline_map_total" android:layout_weight="1.0" />
+        <View android:background="@color/offline_header_shape" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/selector_offline_map_header" android:gravity="center" android:id="@id/tv_header_right" android:background="@drawable/bg_offline_header_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/offline_map_downloaded" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/TextGreyLightColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="12.0dip" />
+    <androidx.viewpager.widget.ViewPager android:layout_gravity="center" android:id="@id/content_viewpager" android:visibility="gone" android:persistentDrawingCache="animation" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

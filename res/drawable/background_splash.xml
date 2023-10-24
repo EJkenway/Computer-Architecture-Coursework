@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:opacity="opaque"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/white" />
+    <item android:bottom="50.0dip">
+        <bitmap android:gravity="bottom|center" android:src="@drawable/splash_bottom_icon" />
+    </item>
+</layer-list>

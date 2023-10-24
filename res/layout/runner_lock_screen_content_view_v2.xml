@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.runner.ui.view.subview.RunnerLockScreenView android:id="@id/lock_screen" android:background="@color/black30" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:prvandroid="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_running_lock_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="72.0dip" android:src="@drawable/runner_screen_on_logo" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_lock_screen" android:layout_width="312.0dip" android:layout_height="300.0dip" android:layout_marginTop="30.0dip" android:layout_below="@id/img_running_lock_logo" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="98.0dip">
+            <TextView android:textSize="10.0dip" android:textColor="#7fffffff" android:id="@id/tv_lock_screen_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/lock_total_distance" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="60.0dip" android:textColor="#ffffffff" android:id="@id/tv_lock_screen_distance_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_distance_init" android:layout_below="@id/tv_lock_screen_distance" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_lock_screen_duration" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" android:baselineAligned="false">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="10.0dip" android:textColor="#7fffffff" android:id="@id/tv_lock_screen_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/lock_total_duration" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@id/tv_lock_screen_duration_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/lock_time_init" android:layout_below="@id/tv_lock_screen_duration" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="10.0dip" android:textColor="#7fffffff" android:id="@id/tv_lock_screen_cal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/lock_work_out" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@id/tv_lock_screen_cal_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/lock_calory_init" android:layout_below="@id/tv_lock_screen_cal" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:baselineAligned="false" android:layout_below="@id/ll_lock_screen_duration">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="10.0dip" android:textColor="#7fffffff" android:id="@id/tv_lock_screen_average_velocity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/lock_average_speed" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@id/tv_lock_screen_average_velocity_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/lock_speed_init" android:layout_below="@id/tv_lock_screen_average_velocity" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="10.0dip" android:textColor="#7fffffff" android:id="@id/tv_lock_screen_pace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/lock_record_pace" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@id/tv_lock_screen_pace_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/lock_speed_init" android:layout_below="@id/tv_lock_screen_pace" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginTop="10.0dip" android:baselineAligned="false">
+            <cn.ledongli.ldl.runner.ui.view.conpoments.CircleProgressImageView android:id="@id/ib_lock_screen_stop" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_centerInParent="true" android:contentDescription="@string/app_name" prvandroid:image_resID="@drawable/lock_view_stop" prvandroid:ring_color="@color/white" prvandroid:ring_width="1.5dip" />
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/ib_lock_screen_start_pause" android:background="@drawable/lock_view_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <cn.ledongli.ldl.view.GradientView android:id="@id/gv_slide_to_unlock" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_lock_screen" prvandroid:SlideColor="@color/white" prvandroid:StringToShow="@string/slide_to_unlock" prvandroid:TextColor="@color/white50" prvandroid:TextSize="18.0dip" />
+    <ImageView android:id="@id/take_photo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/ic_camera" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+</cn.ledongli.ldl.runner.ui.view.subview.RunnerLockScreenView>

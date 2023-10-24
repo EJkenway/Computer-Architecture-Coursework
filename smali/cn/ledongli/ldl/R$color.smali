@@ -1,0 +1,2313 @@
+.class public final Lcn/ledongli/ldl/R$color;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcn/ledongli/ldl/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "color"
+.end annotation
+
+
+# static fields
+.field public static final AUT_A_COLOR_BRAND_1:I = 0x7f060000
+
+.field public static final AUT_BUTTON_WARN_GHOST_COLOR:I = 0x7f060001
+
+.field public static final AUT_BUTTON_WARN_GHOST_COLOR_DISABLE:I = 0x7f060002
+
+.field public static final AUT_BUTTON_WARN_GHOST_COLOR_PRESSED:I = 0x7f060003
+
+.field public static final AUT_COLOR_BRAND_1:I = 0x7f060004
+
+.field public static final AUT_COLOR_BRAND_2:I = 0x7f060005
+
+.field public static final AUT_COLOR_DARKGREEN_1:I = 0x7f060006
+
+.field public static final AUT_COLOR_DARKGREEN_2:I = 0x7f060007
+
+.field public static final AUT_COLOR_DIVIDER_BACKGROUND:I = 0x7f060008
+
+.field public static final AUT_COLOR_DIVIDER_LINE:I = 0x7f060009
+
+.field public static final AUT_COLOR_DIVIDER_TRANSPARENT_LINE:I = 0x7f06000a
+
+.field public static final AUT_COLOR_FILL_GREY_BASE:I = 0x7f06000b
+
+.field public static final AUT_COLOR_FILL_GREY_DARK:I = 0x7f06000c
+
+.field public static final AUT_COLOR_FILL_GREY_INVERSE:I = 0x7f06000d
+
+.field public static final AUT_COLOR_FILL_GREY_LIGHT:I = 0x7f06000e
+
+.field public static final AUT_COLOR_FILL_PRIMARY:I = 0x7f06000f
+
+.field public static final AUT_COLOR_FILL_PRIMARY_LIGHT:I = 0x7f060010
+
+.field public static final AUT_COLOR_FILL_WARNING:I = 0x7f060011
+
+.field public static final AUT_COLOR_GOLDEN_1:I = 0x7f060012
+
+.field public static final AUT_COLOR_GOLDEN_2:I = 0x7f060013
+
+.field public static final AUT_COLOR_GOLDEN_3:I = 0x7f060014
+
+.field public static final AUT_COLOR_IRONBLACK_1:I = 0x7f060015
+
+.field public static final AUT_COLOR_IRONBLACK_2:I = 0x7f060016
+
+.field public static final AUT_COLOR_MARKETING_MASK:I = 0x7f060017
+
+.field public static final AUT_COLOR_ORANGE_1:I = 0x7f060018
+
+.field public static final AUT_COLOR_ORANGE_2:I = 0x7f060019
+
+.field public static final AUT_COLOR_PINK_1:I = 0x7f06001a
+
+.field public static final AUT_COLOR_PINK_2:I = 0x7f06001b
+
+.field public static final AUT_COLOR_POMONAGREEN_1:I = 0x7f06001c
+
+.field public static final AUT_COLOR_POMONAGREEN_2:I = 0x7f06001d
+
+.field public static final AUT_COLOR_PRODUCT_MASK:I = 0x7f06001e
+
+.field public static final AUT_COLOR_PURPLE_1:I = 0x7f06001f
+
+.field public static final AUT_COLOR_PURPLE_2:I = 0x7f060020
+
+.field public static final AUT_COLOR_RED_1:I = 0x7f060021
+
+.field public static final AUT_COLOR_RED_2:I = 0x7f060022
+
+.field public static final AUT_COLOR_ROYALLIGHT_1:I = 0x7f060023
+
+.field public static final AUT_COLOR_ROYALLIGHT_2:I = 0x7f060024
+
+.field public static final AUT_COLOR_SKYBULE_1:I = 0x7f060025
+
+.field public static final AUT_COLOR_SKYBULE_2:I = 0x7f060026
+
+.field public static final AUT_COLOR_TANGERINE_1:I = 0x7f060027
+
+.field public static final AUT_COLOR_TANGERINE_2:I = 0x7f060028
+
+.field public static final AUT_COLOR_TEXT_BASE:I = 0x7f060029
+
+.field public static final AUT_COLOR_TEXT_PRIMARY:I = 0x7f06002a
+
+.field public static final AUT_COLOR_TEXT_PRIMARY_LIGHT:I = 0x7f06002b
+
+.field public static final AUT_COLOR_TEXT_SUBTITLE:I = 0x7f06002c
+
+.field public static final AUT_COLOR_TEXT_TITLE:I = 0x7f06002d
+
+.field public static final AUT_COLOR_TEXT_WARNING:I = 0x7f06002e
+
+.field public static final AUT_COLOR_TEXT_WEAK:I = 0x7f06002f
+
+.field public static final AUT_MODAL_BODY_COLOR:I = 0x7f060030
+
+.field public static final AUT_MODAL_CONTENT_BACKGROUNDCOLOR:I = 0x7f060031
+
+.field public static final AUT_MODAL_FOOTER_COLOR:I = 0x7f060032
+
+.field public static final AUT_MODAL_FOOTER_COLOR_DISABLE:I = 0x7f060033
+
+.field public static final AUT_MODAL_FOOTER_COLOR_PRESSED:I = 0x7f060034
+
+.field public static final AUT_MODAL_MASK_BACKGROUNDCOLOR:I = 0x7f060035
+
+.field public static final AUT_MODAL_TITLE_COLOR:I = 0x7f060036
+
+.field public static final AU_COLOR1:I = 0x7f060037
+
+.field public static final AU_COLOR10:I = 0x7f060038
+
+.field public static final AU_COLOR11:I = 0x7f060039
+
+.field public static final AU_COLOR12:I = 0x7f06003a
+
+.field public static final AU_COLOR13:I = 0x7f06003b
+
+.field public static final AU_COLOR14:I = 0x7f06003c
+
+.field public static final AU_COLOR15:I = 0x7f06003d
+
+.field public static final AU_COLOR16:I = 0x7f06003e
+
+.field public static final AU_COLOR17:I = 0x7f06003f
+
+.field public static final AU_COLOR18:I = 0x7f060040
+
+.field public static final AU_COLOR19:I = 0x7f060041
+
+.field public static final AU_COLOR2:I = 0x7f060042
+
+.field public static final AU_COLOR20:I = 0x7f060043
+
+.field public static final AU_COLOR21:I = 0x7f060044
+
+.field public static final AU_COLOR22:I = 0x7f060045
+
+.field public static final AU_COLOR24:I = 0x7f060046
+
+.field public static final AU_COLOR28:I = 0x7f060047
+
+.field public static final AU_COLOR29:I = 0x7f060048
+
+.field public static final AU_COLOR3:I = 0x7f060049
+
+.field public static final AU_COLOR30:I = 0x7f06004a
+
+.field public static final AU_COLOR31:I = 0x7f06004b
+
+.field public static final AU_COLOR32:I = 0x7f06004c
+
+.field public static final AU_COLOR33:I = 0x7f06004d
+
+.field public static final AU_COLOR34:I = 0x7f06004e
+
+.field public static final AU_COLOR35:I = 0x7f06004f
+
+.field public static final AU_COLOR36:I = 0x7f060050
+
+.field public static final AU_COLOR37:I = 0x7f060051
+
+.field public static final AU_COLOR38:I = 0x7f060052
+
+.field public static final AU_COLOR39:I = 0x7f060053
+
+.field public static final AU_COLOR4:I = 0x7f060054
+
+.field public static final AU_COLOR40:I = 0x7f060055
+
+.field public static final AU_COLOR41:I = 0x7f060056
+
+.field public static final AU_COLOR42:I = 0x7f060057
+
+.field public static final AU_COLOR5:I = 0x7f060058
+
+.field public static final AU_COLOR6:I = 0x7f060059
+
+.field public static final AU_COLOR7:I = 0x7f06005a
+
+.field public static final AU_COLOR8:I = 0x7f06005b
+
+.field public static final AU_COLOR9:I = 0x7f06005c
+
+.field public static final AU_COLOR_AMOUNT_ASS:I = 0x7f06005d
+
+.field public static final AU_COLOR_ANT_LOADING:I = 0x7f06005e
+
+.field public static final AU_COLOR_APP_BLUE:I = 0x7f06005f
+
+.field public static final AU_COLOR_APP_GREEN:I = 0x7f060060
+
+.field public static final AU_COLOR_APP_RED:I = 0x7f060061
+
+.field public static final AU_COLOR_APP_YELLOW:I = 0x7f060062
+
+.field public static final AU_COLOR_ASS_CONTENT:I = 0x7f060063
+
+.field public static final AU_COLOR_BG_DISABLE:I = 0x7f060064
+
+.field public static final AU_COLOR_BUTTON_PRESS:I = 0x7f060065
+
+.field public static final AU_COLOR_CLIENT_BG1:I = 0x7f060066
+
+.field public static final AU_COLOR_CLIENT_BG2:I = 0x7f060067
+
+.field public static final AU_COLOR_DIALOG_DIVIDER_COLOR:I = 0x7f060068
+
+.field public static final AU_COLOR_DIALOG_LIST_PRESS:I = 0x7f060069
+
+.field public static final AU_COLOR_DIALOG_LIST_V2_PRESS:I = 0x7f06006a
+
+.field public static final AU_COLOR_ERROR:I = 0x7f06006b
+
+.field public static final AU_COLOR_FLOAT_MENU_V2_WINDOW_BG:I = 0x7f06006c
+
+.field public static final AU_COLOR_HINT:I = 0x7f06006d
+
+.field public static final AU_COLOR_HOME_PAGE_TITLEBAR_BG:I = 0x7f06006e
+
+.field public static final AU_COLOR_HOME_PAGE_TITLEBAR_TEXT:I = 0x7f06006f
+
+.field public static final AU_COLOR_ICON_DEFAULT:I = 0x7f060070
+
+.field public static final AU_COLOR_ITEM_PRESSED:I = 0x7f060071
+
+.field public static final AU_COLOR_ITEM_V2_PRESS:I = 0x7f060072
+
+.field public static final AU_COLOR_KEY_REMIND:I = 0x7f060073
+
+.field public static final AU_COLOR_LINE:I = 0x7f060074
+
+.field public static final AU_COLOR_LINK:I = 0x7f060075
+
+.field public static final AU_COLOR_LINK_DISABLE:I = 0x7f060076
+
+.field public static final AU_COLOR_LINK_DISABLE_V2:I = 0x7f060077
+
+.field public static final AU_COLOR_LINK_PRESSED:I = 0x7f060078
+
+.field public static final AU_COLOR_LINK_PRESSED_V2:I = 0x7f060079
+
+.field public static final AU_COLOR_LINK_TEXT_PRESSED_V2:I = 0x7f06007a
+
+.field public static final AU_COLOR_LINK_V2:I = 0x7f06007b
+
+.field public static final AU_COLOR_LIST_PRESS:I = 0x7f06007c
+
+.field public static final AU_COLOR_MAIN_CONTENT:I = 0x7f06007d
+
+.field public static final AU_COLOR_MASK:I = 0x7f06007e
+
+.field public static final AU_COLOR_SEARCH_EDIT_HINT_COLOR:I = 0x7f06007f
+
+.field public static final AU_COLOR_SEARCH_INPUT_BG:I = 0x7f060080
+
+.field public static final AU_COLOR_SEARCH_INPUT_BG_TRANS:I = 0x7f060081
+
+.field public static final AU_COLOR_SEARCH_INPUT_HINT:I = 0x7f060082
+
+.field public static final AU_COLOR_SEARCH_INPUT_ICON:I = 0x7f060083
+
+.field public static final AU_COLOR_SUB_CONTENT:I = 0x7f060084
+
+.field public static final AU_COLOR_TEXT_DISABLE:I = 0x7f060085
+
+.field public static final AU_COLOR_TITLE:I = 0x7f060086
+
+.field public static final AU_COLOR_UNIVERSAL_BG:I = 0x7f060087
+
+.field public static final AU_COLOR_UNIVERSAL_BG_PRESSED:I = 0x7f060088
+
+.field public static final AU_COLOR_UNIVERSAL_WHITE_DISABLE_V2:I = 0x7f060089
+
+.field public static final AU_COLOR_UNIVERSAL_WHITE_PRESSED_V2:I = 0x7f06008a
+
+.field public static final AU_COLOR_UNIVERSAL_WHITE_TEXT_PRESSED_V2:I = 0x7f06008b
+
+.field public static final AU_COLOR_UNIVERSAL_WHITE_V2:I = 0x7f06008c
+
+.field public static final AU_COLOR_WARN:I = 0x7f06008d
+
+.field public static final AU_COLOR_WARN_DISABLE:I = 0x7f06008e
+
+.field public static final AU_COLOR_WARN_PRESSED:I = 0x7f06008f
+
+.field public static final AU_COLOR_WARN_TEXT_PRESSED:I = 0x7f060090
+
+.field public static final AU_COLOR_WEAK:I = 0x7f060091
+
+.field public static final AU_COLOR_WEAK_DISABLE:I = 0x7f060092
+
+.field public static final AU_COLOR_WEAK_PRESSED:I = 0x7f060093
+
+.field public static final AU_COLOR_WEAK_TEXT_PRESSED:I = 0x7f060094
+
+.field public static final ActivityBgV2:I = 0x7f060095
+
+.field public static final B_A:I = 0x7f060096
+
+.field public static final C_white:I = 0x7f060097
+
+.field public static final CampusActivityBg:I = 0x7f060098
+
+.field public static final CampusGreyTextColor:I = 0x7f060099
+
+.field public static final CampusOrangeTextColor:I = 0x7f06009a
+
+.field public static final CampusRemindRed:I = 0x7f06009b
+
+.field public static final E_black_light_3:I = 0x7f06009c
+
+.field public static final F_black_light_4:I = 0x7f06009d
+
+.field public static final G:I = 0x7f06009e
+
+.field public static final G_black_light_5:I = 0x7f06009f
+
+.field public static final H_orange_light_1:I = 0x7f0600a0
+
+.field public static final K_black_light_6:I = 0x7f0600a1
+
+.field public static final LeColorOrange:I = 0x7f0600a2
+
+.field public static final LionEditDeep:I = 0x7f0600a3
+
+.field public static final LionEditHint:I = 0x7f0600a4
+
+.field public static final LionEditLight:I = 0x7f0600a5
+
+.field public static final LionOrange:I = 0x7f0600a6
+
+.field public static final PersonCenterBlue:I = 0x7f0600a7
+
+.field public static final PersonCenterOrange:I = 0x7f0600a8
+
+.field public static final PersonTextGreyColor:I = 0x7f0600a9
+
+.field public static final PersonTextGreyLightColor:I = 0x7f0600aa
+
+.field public static final SlateGray:I = 0x7f0600ab
+
+.field public static final T:I = 0x7f0600ac
+
+.field public static final TextColorBlack:I = 0x7f0600ad
+
+.field public static final TextGreyHeavyColor:I = 0x7f0600ae
+
+.field public static final TextGreyLightColor:I = 0x7f0600af
+
+.field public static final TextGreyMiddleColor:I = 0x7f0600b0
+
+.field public static final TextMGreyHeavyColor:I = 0x7f0600b1
+
+.field public static final TextMGreyLightColor:I = 0x7f0600b2
+
+.field public static final UIControlStateHighlighted:I = 0x7f0600b3
+
+.field public static final abc_background_cache_hint_selector_material_dark:I = 0x7f0600b4
+
+.field public static final abc_background_cache_hint_selector_material_light:I = 0x7f0600b5
+
+.field public static final abc_btn_colored_borderless_text_material:I = 0x7f0600b6
+
+.field public static final abc_btn_colored_text_material:I = 0x7f0600b7
+
+.field public static final abc_color_highlight_material:I = 0x7f0600b8
+
+.field public static final abc_decor_view_status_guard:I = 0x7f0600b9
+
+.field public static final abc_decor_view_status_guard_light:I = 0x7f0600ba
+
+.field public static final abc_hint_foreground_material_dark:I = 0x7f0600bb
+
+.field public static final abc_hint_foreground_material_light:I = 0x7f0600bc
+
+.field public static final abc_primary_text_disable_only_material_dark:I = 0x7f0600bd
+
+.field public static final abc_primary_text_disable_only_material_light:I = 0x7f0600be
+
+.field public static final abc_primary_text_material_dark:I = 0x7f0600bf
+
+.field public static final abc_primary_text_material_light:I = 0x7f0600c0
+
+.field public static final abc_search_url_text:I = 0x7f0600c1
+
+.field public static final abc_search_url_text_normal:I = 0x7f0600c2
+
+.field public static final abc_search_url_text_pressed:I = 0x7f0600c3
+
+.field public static final abc_search_url_text_selected:I = 0x7f0600c4
+
+.field public static final abc_secondary_text_material_dark:I = 0x7f0600c5
+
+.field public static final abc_secondary_text_material_light:I = 0x7f0600c6
+
+.field public static final abc_tint_btn_checkable:I = 0x7f0600c7
+
+.field public static final abc_tint_default:I = 0x7f0600c8
+
+.field public static final abc_tint_edittext:I = 0x7f0600c9
+
+.field public static final abc_tint_seek_thumb:I = 0x7f0600ca
+
+.field public static final abc_tint_spinner:I = 0x7f0600cb
+
+.field public static final abc_tint_switch_track:I = 0x7f0600cc
+
+.field public static final accent_material_dark:I = 0x7f0600cd
+
+.field public static final accent_material_light:I = 0x7f0600ce
+
+.field public static final activity_bg:I = 0x7f0600cf
+
+.field public static final activity_light_bg:I = 0x7f0600d0
+
+.field public static final ai_completed_share_line_color:I = 0x7f0600d1
+
+.field public static final ai_completed_share_name_text_color:I = 0x7f0600d2
+
+.field public static final ai_completed_share_to_hint_text_color:I = 0x7f0600d3
+
+.field public static final ai_completed_share_unit_hint:I = 0x7f0600d4
+
+.field public static final ai_completed_share_yellow_bg:I = 0x7f0600d5
+
+.field public static final ai_sport_item_bg_0:I = 0x7f0600d6
+
+.field public static final ai_sport_item_bg_1:I = 0x7f0600d7
+
+.field public static final ai_sport_item_bg_2:I = 0x7f0600d8
+
+.field public static final ai_sport_item_bg_3:I = 0x7f0600d9
+
+.field public static final aisports_black:I = 0x7f0600da
+
+.field public static final aisports_black50:I = 0x7f0600db
+
+.field public static final aisports_color_333333:I = 0x7f0600dc
+
+.field public static final aisports_color_f3f4f7:I = 0x7f0600dd
+
+.field public static final aisports_color_ff7e00:I = 0x7f0600de
+
+.field public static final aisports_transparent:I = 0x7f0600df
+
+.field public static final aisports_white:I = 0x7f0600e0
+
+.field public static final aliuser_account_list_divider:I = 0x7f0600e1
+
+.field public static final aliuser_account_list_title_bar_color:I = 0x7f0600e2
+
+.field public static final aliuser_account_multi_sub_title_gray:I = 0x7f0600e3
+
+.field public static final aliuser_bg_color:I = 0x7f0600e4
+
+.field public static final aliuser_bg_transparent:I = 0x7f0600e5
+
+.field public static final aliuser_cancel_red:I = 0x7f0600e6
+
+.field public static final aliuser_color333:I = 0x7f0600e7
+
+.field public static final aliuser_color444:I = 0x7f0600e8
+
+.field public static final aliuser_color444_alpha:I = 0x7f0600e9
+
+.field public static final aliuser_color444_alpha_20:I = 0x7f0600ea
+
+.field public static final aliuser_color_black:I = 0x7f0600eb
+
+.field public static final aliuser_color_ccc:I = 0x7f0600ec
+
+.field public static final aliuser_color_d8:I = 0x7f0600ed
+
+.field public static final aliuser_color_dark_gray:I = 0x7f0600ee
+
+.field public static final aliuser_color_delete_dialog:I = 0x7f0600ef
+
+.field public static final aliuser_color_gray:I = 0x7f0600f0
+
+.field public static final aliuser_color_hint_gray:I = 0x7f0600f1
+
+.field public static final aliuser_color_input_gray:I = 0x7f0600f2
+
+.field public static final aliuser_color_light_gray:I = 0x7f0600f3
+
+.field public static final aliuser_color_lightest_gray:I = 0x7f0600f4
+
+.field public static final aliuser_color_orange:I = 0x7f0600f5
+
+.field public static final aliuser_color_orange_alpha:I = 0x7f0600f6
+
+.field public static final aliuser_color_orange_alpha_20:I = 0x7f0600f7
+
+.field public static final aliuser_color_orange_left:I = 0x7f0600f8
+
+.field public static final aliuser_color_orange_left_press:I = 0x7f0600f9
+
+.field public static final aliuser_color_orange_right:I = 0x7f0600fa
+
+.field public static final aliuser_color_orange_right_press:I = 0x7f0600fb
+
+.field public static final aliuser_color_red:I = 0x7f0600fc
+
+.field public static final aliuser_color_taobao:I = 0x7f0600fd
+
+.field public static final aliuser_color_white:I = 0x7f0600fe
+
+.field public static final aliuser_color_white_alpha:I = 0x7f0600ff
+
+.field public static final aliuser_color_white_alpha_20:I = 0x7f060100
+
+.field public static final aliuser_color_yiouku_right:I = 0x7f060101
+
+.field public static final aliuser_contact_click_color:I = 0x7f060102
+
+.field public static final aliuser_contact_default_item_color:I = 0x7f060103
+
+.field public static final aliuser_contact_item_bg:I = 0x7f060104
+
+.field public static final aliuser_default_bg:I = 0x7f060105
+
+.field public static final aliuser_default_text_color:I = 0x7f060106
+
+.field public static final aliuser_dot_orange:I = 0x7f060107
+
+.field public static final aliuser_edittext_bg_color_activated:I = 0x7f060108
+
+.field public static final aliuser_edittext_bg_color_normal:I = 0x7f060109
+
+.field public static final aliuser_func_text_color:I = 0x7f06010a
+
+.field public static final aliuser_global_background:I = 0x7f06010b
+
+.field public static final aliuser_list_line_color:I = 0x7f06010c
+
+.field public static final aliuser_login_button_text_color:I = 0x7f06010d
+
+.field public static final aliuser_new_edit_text_color:I = 0x7f06010e
+
+.field public static final aliuser_region_bg_color:I = 0x7f06010f
+
+.field public static final aliuser_region_chosen_color:I = 0x7f060110
+
+.field public static final aliuser_region_list_divider:I = 0x7f060111
+
+.field public static final aliuser_selected_country_color:I = 0x7f060112
+
+.field public static final aliuser_send_sms_disable_textcolor:I = 0x7f060113
+
+.field public static final aliuser_send_sms_text_color:I = 0x7f060114
+
+.field public static final aliuser_send_sms_text_color_new:I = 0x7f060115
+
+.field public static final aliuser_text_color_hint:I = 0x7f060116
+
+.field public static final aliuser_text_light_gray:I = 0x7f060117
+
+.field public static final all_class_text_gray_11:I = 0x7f060118
+
+.field public static final amber:I = 0x7f060119
+
+.field public static final androidx_core_ripple_material_light:I = 0x7f06011a
+
+.field public static final androidx_core_secondary_text_default_material_light:I = 0x7f06011b
+
+.field public static final app_orange:I = 0x7f06011c
+
+.field public static final arome_background_color:I = 0x7f06011d
+
+.field public static final arome_recent_app_accent_title_color:I = 0x7f06011e
+
+.field public static final arome_recent_app_sub_title_color:I = 0x7f06011f
+
+.field public static final arome_recent_app_title_color:I = 0x7f060120
+
+.field public static final au_base_dialog_button_bg_color:I = 0x7f060121
+
+.field public static final au_base_dialog_button_text_color:I = 0x7f060122
+
+.field public static final au_base_dialog_button_text_color_warning:I = 0x7f060123
+
+.field public static final au_button_background_fff:I = 0x7f060124
+
+.field public static final au_button_background_transparent:I = 0x7f060125
+
+.field public static final au_button_text_for_main2:I = 0x7f060126
+
+.field public static final au_button_text_for_text:I = 0x7f060127
+
+.field public static final au_button_text_for_text_sub:I = 0x7f060128
+
+.field public static final au_button_textcolor_black:I = 0x7f060129
+
+.field public static final au_button_textcolor_blue:I = 0x7f06012a
+
+.field public static final au_button_textcolor_ccc:I = 0x7f06012b
+
+.field public static final au_button_textcolor_gray:I = 0x7f06012c
+
+.field public static final au_button_textcolor_warn:I = 0x7f06012d
+
+.field public static final au_button_textcolor_white:I = 0x7f06012e
+
+.field public static final au_pop_tip_view_triangle:I = 0x7f06012f
+
+.field public static final au_v2_button_textcolor_black:I = 0x7f060130
+
+.field public static final backgroudColor:I = 0x7f060131
+
+.field public static final background:I = 0x7f060132
+
+.field public static final background_floating_material_dark:I = 0x7f060133
+
+.field public static final background_floating_material_light:I = 0x7f060134
+
+.field public static final background_material_dark:I = 0x7f060135
+
+.field public static final background_material_light:I = 0x7f060136
+
+.field public static final background_tab_pressed:I = 0x7f060137
+
+.field public static final bg_fight_rect:I = 0x7f060138
+
+.field public static final bg_fight_rect_green:I = 0x7f060139
+
+.field public static final bg_fight_rect_red:I = 0x7f06013a
+
+.field public static final bg_fight_rect_yellow:I = 0x7f06013b
+
+.field public static final big_fight_main:I = 0x7f06013c
+
+.field public static final big_fight_red:I = 0x7f06013d
+
+.field public static final bigfight_black:I = 0x7f06013e
+
+.field public static final bigfight_color_f3f4f7:I = 0x7f06013f
+
+.field public static final bigfight_color_ff7e00:I = 0x7f060140
+
+.field public static final bigfight_color_seg_blue:I = 0x7f060141
+
+.field public static final bigfight_score_shadow:I = 0x7f060142
+
+.field public static final bigfight_transparent:I = 0x7f060143
+
+.field public static final bigfight_white:I = 0x7f060144
+
+.field public static final bind_tv_color:I = 0x7f060145
+
+.field public static final black:I = 0x7f060146
+
+.field public static final black05:I = 0x7f060147
+
+.field public static final black10:I = 0x7f060148
+
+.field public static final black1A:I = 0x7f060149
+
+.field public static final black20:I = 0x7f06014a
+
+.field public static final black30:I = 0x7f06014b
+
+.field public static final black50:I = 0x7f06014c
+
+.field public static final black60:I = 0x7f06014d
+
+.field public static final black70:I = 0x7f06014e
+
+.field public static final black80:I = 0x7f06014f
+
+.field public static final black_10:I = 0x7f060150
+
+.field public static final black_20:I = 0x7f060151
+
+.field public static final black_30:I = 0x7f060152
+
+.field public static final black_40:I = 0x7f060153
+
+.field public static final black_50:I = 0x7f060154
+
+.field public static final black_60:I = 0x7f060155
+
+.field public static final black_70:I = 0x7f060156
+
+.field public static final black_80:I = 0x7f060157
+
+.field public static final black_90:I = 0x7f060158
+
+.field public static final black_alpha_80:I = 0x7f060159
+
+.field public static final black_light:I = 0x7f06015a
+
+.field public static final black_overlay:I = 0x7f06015b
+
+.field public static final blue:I = 0x7f06015c
+
+.field public static final blueColor:I = 0x7f06015d
+
+.field public static final blue_0052FF:I = 0x7f06015e
+
+.field public static final blue_3C7:I = 0x7f06015f
+
+.field public static final bosom_header_background:I = 0x7f060160
+
+.field public static final bottom_line_blue:I = 0x7f060161
+
+.field public static final bottom_line_green:I = 0x7f060162
+
+.field public static final bottom_line_orange:I = 0x7f060163
+
+.field public static final boxing_colorAccent:I = 0x7f060164
+
+.field public static final boxing_colorPrimary:I = 0x7f060165
+
+.field public static final boxing_colorPrimaryAlpha:I = 0x7f060166
+
+.field public static final boxing_colorPrimaryDark:I = 0x7f060167
+
+.field public static final bright_foreground_disabled_material_dark:I = 0x7f060168
+
+.field public static final bright_foreground_disabled_material_light:I = 0x7f060169
+
+.field public static final bright_foreground_inverse_material_dark:I = 0x7f06016a
+
+.field public static final bright_foreground_inverse_material_light:I = 0x7f06016b
+
+.field public static final bright_foreground_material_dark:I = 0x7f06016c
+
+.field public static final bright_foreground_material_light:I = 0x7f06016d
+
+.field public static final business_color_050505:I = 0x7f06016e
+
+.field public static final business_color_FF6D0F:I = 0x7f06016f
+
+.field public static final business_dialog_divider:I = 0x7f060170
+
+.field public static final business_pose_bg_color_4:I = 0x7f060171
+
+.field public static final business_pose_bg_color_5:I = 0x7f060172
+
+.field public static final business_pose_bg_color_6:I = 0x7f060173
+
+.field public static final business_pose_bg_color_7:I = 0x7f060174
+
+.field public static final business_pose_bg_color_8:I = 0x7f060175
+
+.field public static final business_pose_bg_color_9:I = 0x7f060176
+
+.field public static final button_material_dark:I = 0x7f060177
+
+.field public static final button_material_light:I = 0x7f060178
+
+.field public static final button_text_selector:I = 0x7f060179
+
+.field public static final c126:I = 0x7f06017a
+
+.field public static final c201:I = 0x7f06017b
+
+.field public static final capsule_button_text_color:I = 0x7f06017c
+
+.field public static final captureBlue:I = 0x7f06017d
+
+.field public static final card_option_clicked:I = 0x7f06017e
+
+.field public static final card_option_divider_line_grey:I = 0x7f06017f
+
+.field public static final card_option_normal:I = 0x7f060180
+
+.field public static final card_option_offical:I = 0x7f060181
+
+.field public static final card_transparent:I = 0x7f060182
+
+.field public static final cardview_dark_background:I = 0x7f060183
+
+.field public static final cardview_light_background:I = 0x7f060184
+
+.field public static final cardview_shadow_end_color:I = 0x7f060185
+
+.field public static final cardview_shadow_start_color:I = 0x7f060186
+
+.field public static final channel_match_all_text_color:I = 0x7f060187
+
+.field public static final channel_table_select:I = 0x7f060188
+
+.field public static final channel_table_unselect:I = 0x7f060189
+
+.field public static final circle_mask:I = 0x7f06018a
+
+.field public static final citylist_item_TextColorBlack:I = 0x7f06018b
+
+.field public static final citylist_item_click_color:I = 0x7f06018c
+
+.field public static final citylist_item_default_color:I = 0x7f06018d
+
+.field public static final clear:I = 0x7f06018e
+
+.field public static final client_bg:I = 0x7f06018f
+
+.field public static final coin_text_light_color:I = 0x7f060190
+
+.field public static final col_dark_hint:I = 0x7f060191
+
+.field public static final col_default_bg:I = 0x7f060192
+
+.field public static final col_white:I = 0x7f060193
+
+.field public static final colorAccentFood:I = 0x7f060194
+
+.field public static final colorBackground:I = 0x7f060195
+
+.field public static final colorBlack:I = 0x7f060196
+
+.field public static final colorDefault:I = 0x7f060197
+
+.field public static final colorEnableFalse:I = 0x7f060198
+
+.field public static final colorGrey:I = 0x7f060199
+
+.field public static final colorLandscapeBarBg:I = 0x7f06019a
+
+.field public static final colorLightGray:I = 0x7f06019b
+
+.field public static final colorPortraitBarBg:I = 0x7f06019c
+
+.field public static final colorPrimaryDarkFood:I = 0x7f06019d
+
+.field public static final colorPrimaryFood:I = 0x7f06019e
+
+.field public static final colorRecordCancel:I = 0x7f06019f
+
+.field public static final colorRecordNormal:I = 0x7f0601a0
+
+.field public static final colorRed:I = 0x7f0601a1
+
+.field public static final colorText:I = 0x7f0601a2
+
+.field public static final colorUnSelected:I = 0x7f0601a3
+
+.field public static final colorWhite:I = 0x7f0601a4
+
+.field public static final color_0052FF:I = 0x7f0601a5
+
+.field public static final color_00D4AA:I = 0x7f0601a6
+
+.field public static final color_00DCB3:I = 0x7f0601a7
+
+.field public static final color_111111:I = 0x7f0601a8
+
+.field public static final color_1483FF:I = 0x7f0601a9
+
+.field public static final color_1483FF_20:I = 0x7f0601aa
+
+.field public static final color_1483FF_70:I = 0x7f0601ab
+
+.field public static final color_333333:I = 0x7f0601ac
+
+.field public static final color_3A3A3A:I = 0x7f0601ad
+
+.field public static final color_3C71FF:I = 0x7f0601ae
+
+.field public static final color_555E75:I = 0x7f0601af
+
+.field public static final color_666666:I = 0x7f0601b0
+
+.field public static final color_90949f:I = 0x7f0601b1
+
+.field public static final color_97908D:I = 0x7f0601b2
+
+.field public static final color_999999:I = 0x7f0601b3
+
+.field public static final color_BCEE4F:I = 0x7f0601b4
+
+.field public static final color_BEDCFF:I = 0x7f0601b5
+
+.field public static final color_C0CAE1:I = 0x7f0601b6
+
+.field public static final color_CCCCCC:I = 0x7f0601b7
+
+.field public static final color_DEDFE0:I = 0x7f0601b8
+
+.field public static final color_E0E0E0:I = 0x7f0601b9
+
+.field public static final color_E1E1E1:I = 0x7f0601ba
+
+.field public static final color_E3D4CE:I = 0x7f0601bb
+
+.field public static final color_E5ECF3:I = 0x7f0601bc
+
+.field public static final color_E9E9E9:I = 0x7f0601bd
+
+.field public static final color_EAE3EA:I = 0x7f0601be
+
+.field public static final color_EAEAEA:I = 0x7f0601bf
+
+.field public static final color_ECF3F9:I = 0x7f0601c0
+
+.field public static final color_EDEDED:I = 0x7f0601c1
+
+.field public static final color_F1F1F1:I = 0x7f0601c2
+
+.field public static final color_F1F8FB:I = 0x7f0601c3
+
+.field public static final color_F4F4F5:I = 0x7f0601c4
+
+.field public static final color_F5F5F5:I = 0x7f0601c5
+
+.field public static final color_F5F8FC:I = 0x7f0601c6
+
+.field public static final color_F6FAFD:I = 0x7f0601c7
+
+.field public static final color_F7FBFE:I = 0x7f0601c8
+
+.field public static final color_FAFCFF:I = 0x7f0601c9
+
+.field public static final color_FAFDFF:I = 0x7f0601ca
+
+.field public static final color_FBFDFF:I = 0x7f0601cb
+
+.field public static final color_FCFEFF:I = 0x7f0601cc
+
+.field public static final color_FF492B:I = 0x7f0601cd
+
+.field public static final color_FF6022:I = 0x7f0601ce
+
+.field public static final color_FF6022_5:I = 0x7f0601cf
+
+.field public static final color_FFB602:I = 0x7f0601d0
+
+.field public static final color_FFC800:I = 0x7f0601d1
+
+.field public static final color_FFEEE0:I = 0x7f0601d2
+
+.field public static final color_FFFFFF:I = 0x7f0601d3
+
+.field public static final color_FFFFFF_30:I = 0x7f0601d4
+
+.field public static final color_b2b2b2:I = 0x7f0601d5
+
+.field public static final color_f3f4f7:I = 0x7f0601d6
+
+.field public static final color_f7f7f7:I = 0x7f0601d7
+
+.field public static final color_ff7e00:I = 0x7f0601d8
+
+.field public static final color_transparent:I = 0x7f0601d9
+
+.field public static final community_black_main:I = 0x7f0601da
+
+.field public static final community_mask:I = 0x7f0601db
+
+.field public static final community_topic_content:I = 0x7f0601dc
+
+.field public static final community_topic_edit:I = 0x7f0601dd
+
+.field public static final community_topic_title:I = 0x7f0601de
+
+.field public static final console_container_background:I = 0x7f0601df
+
+.field public static final console_toggle_button_background:I = 0x7f0601e0
+
+.field public static final course_blue:I = 0x7f0601e1
+
+.field public static final course_plan_orange:I = 0x7f0601e2
+
+.field public static final course_yellow:I = 0x7f0601e3
+
+.field public static final custom_callout_black_style_arrow_color:I = 0x7f0601e4
+
+.field public static final custom_callout_black_style_desc_color:I = 0x7f0601e5
+
+.field public static final custom_callout_black_style_split_color:I = 0x7f0601e6
+
+.field public static final custom_callout_black_style_time_color:I = 0x7f0601e7
+
+.field public static final custom_callout_black_style_time_unit_color:I = 0x7f0601e8
+
+.field public static final custom_callout_white_style_arrow_color:I = 0x7f0601e9
+
+.field public static final custom_callout_white_style_desc_color:I = 0x7f0601ea
+
+.field public static final custom_callout_white_style_split_color:I = 0x7f0601eb
+
+.field public static final custom_callout_white_style_time_color:I = 0x7f0601ec
+
+.field public static final custom_callout_white_style_time_unit_color:I = 0x7f0601ed
+
+.field public static final custom_text_color:I = 0x7f0601ee
+
+.field public static final custon_text_backgroud:I = 0x7f0601ef
+
+.field public static final dark:I = 0x7f0601f0
+
+.field public static final dark_cover:I = 0x7f0601f1
+
+.field public static final dark_grey:I = 0x7f0601f2
+
+.field public static final dark_grey_button:I = 0x7f0601f3
+
+.field public static final dark_grey_group:I = 0x7f0601f4
+
+.field public static final dark_orange_button:I = 0x7f0601f5
+
+.field public static final dark_purple:I = 0x7f0601f6
+
+.field public static final datacenter_badge_dec:I = 0x7f0601f7
+
+.field public static final default_circle_indicator_fill_color:I = 0x7f0601f8
+
+.field public static final default_circle_indicator_page_color:I = 0x7f0601f9
+
+.field public static final default_circle_indicator_stroke_color:I = 0x7f0601fa
+
+.field public static final default_cover_color:I = 0x7f0601fb
+
+.field public static final default_drawable_color:I = 0x7f0601fc
+
+.field public static final default_line_indicator_selected_color:I = 0x7f0601fd
+
+.field public static final default_line_indicator_unselected_color:I = 0x7f0601fe
+
+.field public static final default_menu_bg:I = 0x7f0601ff
+
+.field public static final default_remote_debug_modal_bg_color:I = 0x7f060200
+
+.field public static final default_title_indicator_footer_color:I = 0x7f060201
+
+.field public static final default_title_indicator_selected_color:I = 0x7f060202
+
+.field public static final default_title_indicator_text_color:I = 0x7f060203
+
+.field public static final default_trace_debug_modal_bg_color:I = 0x7f060204
+
+.field public static final default_underline_indicator_selected_color:I = 0x7f060205
+
+.field public static final department1:I = 0x7f060206
+
+.field public static final department10:I = 0x7f060207
+
+.field public static final department11:I = 0x7f060208
+
+.field public static final department12:I = 0x7f060209
+
+.field public static final department13:I = 0x7f06020a
+
+.field public static final department14:I = 0x7f06020b
+
+.field public static final department15:I = 0x7f06020c
+
+.field public static final department16:I = 0x7f06020d
+
+.field public static final department17:I = 0x7f06020e
+
+.field public static final department18:I = 0x7f06020f
+
+.field public static final department19:I = 0x7f060210
+
+.field public static final department2:I = 0x7f060211
+
+.field public static final department20:I = 0x7f060212
+
+.field public static final department21:I = 0x7f060213
+
+.field public static final department22:I = 0x7f060214
+
+.field public static final department23:I = 0x7f060215
+
+.field public static final department24:I = 0x7f060216
+
+.field public static final department25:I = 0x7f060217
+
+.field public static final department26:I = 0x7f060218
+
+.field public static final department27:I = 0x7f060219
+
+.field public static final department28:I = 0x7f06021a
+
+.field public static final department29:I = 0x7f06021b
+
+.field public static final department3:I = 0x7f06021c
+
+.field public static final department30:I = 0x7f06021d
+
+.field public static final department4:I = 0x7f06021e
+
+.field public static final department5:I = 0x7f06021f
+
+.field public static final department6:I = 0x7f060220
+
+.field public static final department7:I = 0x7f060221
+
+.field public static final department8:I = 0x7f060222
+
+.field public static final department9:I = 0x7f060223
+
+.field public static final design_bottom_navigation_shadow_color:I = 0x7f060224
+
+.field public static final design_default_color_primary:I = 0x7f060225
+
+.field public static final design_default_color_primary_dark:I = 0x7f060226
+
+.field public static final design_error:I = 0x7f060227
+
+.field public static final design_fab_shadow_end_color:I = 0x7f060228
+
+.field public static final design_fab_shadow_mid_color:I = 0x7f060229
+
+.field public static final design_fab_shadow_start_color:I = 0x7f06022a
+
+.field public static final design_fab_stroke_end_inner_color:I = 0x7f06022b
+
+.field public static final design_fab_stroke_end_outer_color:I = 0x7f06022c
+
+.field public static final design_fab_stroke_top_inner_color:I = 0x7f06022d
+
+.field public static final design_fab_stroke_top_outer_color:I = 0x7f06022e
+
+.field public static final design_snackbar_background_color:I = 0x7f06022f
+
+.field public static final design_tint_password_toggle:I = 0x7f060230
+
+.field public static final detail_bg_color:I = 0x7f060231
+
+.field public static final dialog_divider:I = 0x7f060232
+
+.field public static final dim_foreground_disabled_material_dark:I = 0x7f060233
+
+.field public static final dim_foreground_disabled_material_light:I = 0x7f060234
+
+.field public static final dim_foreground_material_dark:I = 0x7f060235
+
+.field public static final dim_foreground_material_light:I = 0x7f060236
+
+.field public static final discovery_background:I = 0x7f060237
+
+.field public static final discovery_highlight:I = 0x7f060238
+
+.field public static final discovery_highlight10:I = 0x7f060239
+
+.field public static final discovery_highlight20:I = 0x7f06023a
+
+.field public static final discovery_highlight50:I = 0x7f06023b
+
+.field public static final discovery_highlight80:I = 0x7f06023c
+
+.field public static final discovery_text_count:I = 0x7f06023d
+
+.field public static final discovery_text_main:I = 0x7f06023e
+
+.field public static final discovery_text_name:I = 0x7f06023f
+
+.field public static final divider:I = 0x7f060240
+
+.field public static final drag_loading_divide_grey:I = 0x7f060241
+
+.field public static final effect_package_bg:I = 0x7f060242
+
+.field public static final emotion_btn_gray:I = 0x7f060243
+
+.field public static final emotion_btn_white:I = 0x7f060244
+
+.field public static final emui_color_gray_1:I = 0x7f060245
+
+.field public static final emui_color_gray_10:I = 0x7f060246
+
+.field public static final emui_color_gray_7:I = 0x7f060247
+
+.field public static final error_color_material_dark:I = 0x7f060248
+
+.field public static final error_color_material_light:I = 0x7f060249
+
+.field public static final essentialGreenColor:I = 0x7f06024a
+
+.field public static final essentialOrangeColor:I = 0x7f06024b
+
+.field public static final essentialOrangeColorDown:I = 0x7f06024c
+
+.field public static final et_hint_color:I = 0x7f06024d
+
+.field public static final event_down:I = 0x7f06024e
+
+.field public static final event_up:I = 0x7f06024f
+
+.field public static final feed_content_user_name_color:I = 0x7f060250
+
+.field public static final feed_message_left_text_delete:I = 0x7f060251
+
+.field public static final feed_message_left_text_normal:I = 0x7f060252
+
+.field public static final feed_option_seprator:I = 0x7f060253
+
+.field public static final filter_blue:I = 0x7f060254
+
+.field public static final filter_et_bg:I = 0x7f060255
+
+.field public static final filter_genericbtn_color:I = 0x7f060256
+
+.field public static final filter_selected_color:I = 0x7f060257
+
+.field public static final filter_unselected_color:I = 0x7f060258
+
+.field public static final florid_title_bar_back_pressed_color:I = 0x7f060259
+
+.field public static final food_black_text:I = 0x7f06025a
+
+.field public static final food_black_trans80:I = 0x7f06025b
+
+.field public static final food_grey_line:I = 0x7f06025c
+
+.field public static final food_light_black_text:I = 0x7f06025d
+
+.field public static final food_stats_bar_bg:I = 0x7f06025e
+
+.field public static final food_text_hint:I = 0x7f06025f
+
+.field public static final foreground_material_dark:I = 0x7f060260
+
+.field public static final foreground_material_light:I = 0x7f060261
+
+.field public static final gray:I = 0x7f060262
+
+.field public static final gray9094:I = 0x7f060263
+
+.field public static final grayF4F5:I = 0x7f060264
+
+.field public static final gray_33:I = 0x7f060265
+
+.field public static final gray_55:I = 0x7f060266
+
+.field public static final gray_555EF:I = 0x7f060267
+
+.field public static final gray_66:I = 0x7f060268
+
+.field public static final gray_666:I = 0x7f060269
+
+.field public static final gray_99:I = 0x7f06026a
+
+.field public static final gray_999:I = 0x7f06026b
+
+.field public static final gray_DEDF:I = 0x7f06026c
+
+.field public static final gray_E1:I = 0x7f06026d
+
+.field public static final gray_EA:I = 0x7f06026e
+
+.field public static final gray_b2:I = 0x7f06026f
+
+.field public static final gray_cc:I = 0x7f060270
+
+.field public static final gray_ed:I = 0x7f060271
+
+.field public static final gray_f5:I = 0x7f060272
+
+.field public static final gray_f7:I = 0x7f060273
+
+.field public static final gray_light:I = 0x7f060274
+
+.field public static final green_tie_account:I = 0x7f060275
+
+.field public static final grep_ripple:I = 0x7f060276
+
+.field public static final grep_ripple_circle:I = 0x7f060277
+
+.field public static final grey_1:I = 0x7f060278
+
+.field public static final grey_group:I = 0x7f060279
+
+.field public static final grey_transparent:I = 0x7f06027a
+
+.field public static final grey_transparent_line:I = 0x7f06027b
+
+.field public static final groupmanagement_grey_left:I = 0x7f06027c
+
+.field public static final groupmanagement_grey_left_null:I = 0x7f06027d
+
+.field public static final groupmanagement_grey_line:I = 0x7f06027e
+
+.field public static final gym_item_cate_label_text_color:I = 0x7f06027f
+
+.field public static final gym_item_divider_line_color:I = 0x7f060280
+
+.field public static final gym_item_orange_text_color:I = 0x7f060281
+
+.field public static final gym_item_sec_line_text_color:I = 0x7f060282
+
+.field public static final gym_item_service_label_text_color:I = 0x7f060283
+
+.field public static final gym_main_background_color:I = 0x7f060284
+
+.field public static final gym_order_server_error_color:I = 0x7f060285
+
+.field public static final h5_au_button_text_for_text:I = 0x7f060286
+
+.field public static final h5_card_background:I = 0x7f060287
+
+.field public static final h5_card_shadow:I = 0x7f060288
+
+.field public static final h5_lite_blue:I = 0x7f060289
+
+.field public static final h5_mainTextColor:I = 0x7f06028a
+
+.field public static final h5_nav_bar:I = 0x7f06028b
+
+.field public static final h5_nav_bar_bottomline:I = 0x7f06028c
+
+.field public static final h5_nav_bar_divider:I = 0x7f06028d
+
+.field public static final h5_nav_menu_divider:I = 0x7f06028e
+
+.field public static final h5_provider:I = 0x7f06028f
+
+.field public static final h5_provider_text:I = 0x7f060290
+
+.field public static final h5_subBtnEnableFalse:I = 0x7f060291
+
+.field public static final h5_transparent:I = 0x7f060292
+
+.field public static final h5_web_loading_bottom_tip_text:I = 0x7f060293
+
+.field public static final h5_web_loading_default_bg:I = 0x7f060294
+
+.field public static final h5_web_loading_dot_dark:I = 0x7f060295
+
+.field public static final h5_web_loading_dot_dark_new:I = 0x7f060296
+
+.field public static final h5_web_loading_dot_light:I = 0x7f060297
+
+.field public static final h5_web_loading_dot_light_new:I = 0x7f060298
+
+.field public static final h5_web_loading_text:I = 0x7f060299
+
+.field public static final h5_white:I = 0x7f06029a
+
+.field public static final highlighted_text_material_dark:I = 0x7f06029b
+
+.field public static final highlighted_text_material_light:I = 0x7f06029c
+
+.field public static final home_feed_name_link_pressed:I = 0x7f06029d
+
+.field public static final home_feed_text_pressed:I = 0x7f06029e
+
+.field public static final home_header_seprator_line:I = 0x7f06029f
+
+.field public static final home_reward_orange:I = 0x7f0602a0
+
+.field public static final home_text_count:I = 0x7f0602a1
+
+.field public static final homepager_step:I = 0x7f0602a2
+
+.field public static final image_color_0:I = 0x7f0602a3
+
+.field public static final image_color_1:I = 0x7f0602a4
+
+.field public static final image_color_2:I = 0x7f0602a5
+
+.field public static final image_color_3:I = 0x7f0602a6
+
+.field public static final image_color_4:I = 0x7f0602a7
+
+.field public static final image_color_5:I = 0x7f0602a8
+
+.field public static final image_color_6:I = 0x7f0602a9
+
+.field public static final image_color_7:I = 0x7f0602aa
+
+.field public static final image_color_accent:I = 0x7f0602ab
+
+.field public static final image_color_primary:I = 0x7f0602ac
+
+.field public static final image_color_text:I = 0x7f0602ad
+
+.field public static final indicate_color:I = 0x7f0602ae
+
+.field public static final indicator_select_style_bright:I = 0x7f0602af
+
+.field public static final indicator_select_style_dark:I = 0x7f0602b0
+
+.field public static final indicator_unselect_style_bright:I = 0x7f0602b1
+
+.field public static final indicator_unselect_style_dark:I = 0x7f0602b2
+
+.field public static final indigo:I = 0x7f0602b3
+
+.field public static final integration_setting_item_background_color:I = 0x7f0602b4
+
+.field public static final interact_bg_color:I = 0x7f0602b5
+
+.field public static final interact_bg_color_press:I = 0x7f0602b6
+
+.field public static final interact_text_color:I = 0x7f0602b7
+
+.field public static final interact_text_color_press:I = 0x7f0602b8
+
+.field public static final item_press:I = 0x7f0602b9
+
+.field public static final item_update_bg_normal:I = 0x7f0602ba
+
+.field public static final item_update_bg_pressed:I = 0x7f0602bb
+
+.field public static final jad_banner_color_accent:I = 0x7f0602bc
+
+.field public static final jad_color_accent:I = 0x7f0602bd
+
+.field public static final jad_color_primary:I = 0x7f0602be
+
+.field public static final jad_color_primary_dark:I = 0x7f0602bf
+
+.field public static final jad_common_half_alpha:I = 0x7f0602c0
+
+.field public static final jad_common_white:I = 0x7f0602c1
+
+.field public static final jad_default_window_bg:I = 0x7f0602c2
+
+.field public static final jad_feed_color_accent:I = 0x7f0602c3
+
+.field public static final jad_feed_white:I = 0x7f0602c4
+
+.field public static final jad_interstitial_color_accent:I = 0x7f0602c5
+
+.field public static final jad_splash_white:I = 0x7f0602c6
+
+.field public static final jad_white:I = 0x7f0602c7
+
+.field public static final ksad_88_white:I = 0x7f0602c8
+
+.field public static final ksad_99_black:I = 0x7f0602c9
+
+.field public static final ksad_99_white:I = 0x7f0602ca
+
+.field public static final ksad_black_6c:I = 0x7f0602cb
+
+.field public static final ksad_black_alpha100:I = 0x7f0602cc
+
+.field public static final ksad_black_alpha20:I = 0x7f0602cd
+
+.field public static final ksad_black_alpha35:I = 0x7f0602ce
+
+.field public static final ksad_black_alpha50:I = 0x7f0602cf
+
+.field public static final ksad_default_dialog_bg_color:I = 0x7f0602d0
+
+.field public static final ksad_default_privacy_link_color:I = 0x7f0602d1
+
+.field public static final ksad_default_shake_btn_bg_color:I = 0x7f0602d2
+
+.field public static final ksad_gray_9c:I = 0x7f0602d3
+
+.field public static final ksad_jinniu_end_origin_color:I = 0x7f0602d4
+
+.field public static final ksad_no_title_common_dialog_negativebtn_color:I = 0x7f0602d5
+
+.field public static final ksad_no_title_common_dialog_positivebtn_color:I = 0x7f0602d6
+
+.field public static final ksad_play_again_desc_text_color:I = 0x7f0602d7
+
+.field public static final ksad_play_again_desc_text_color_horizontal:I = 0x7f0602d8
+
+.field public static final ksad_play_again_horizontal_bg:I = 0x7f0602d9
+
+.field public static final ksad_play_again_horizontal_bg_light:I = 0x7f0602da
+
+.field public static final ksad_play_again_title_text_color:I = 0x7f0602db
+
+.field public static final ksad_play_again_title_text_color_horizontal:I = 0x7f0602dc
+
+.field public static final ksad_playable_pre_tips_icon_bg:I = 0x7f0602dd
+
+.field public static final ksad_reward_main_color:I = 0x7f0602de
+
+.field public static final ksad_reward_original_price:I = 0x7f0602df
+
+.field public static final ksad_reward_undone_color:I = 0x7f0602e0
+
+.field public static final ksad_secondary_btn_color:I = 0x7f0602e1
+
+.field public static final ksad_shake_icon_bg_start_color:I = 0x7f0602e2
+
+.field public static final ksad_splash_endcard_appdesc_color:I = 0x7f0602e3
+
+.field public static final ksad_splash_endcard_appversion_color:I = 0x7f0602e4
+
+.field public static final ksad_splash_endcard_bg_color:I = 0x7f0602e5
+
+.field public static final ksad_splash_endcard_developer_color:I = 0x7f0602e6
+
+.field public static final ksad_splash_endcard_name_color:I = 0x7f0602e7
+
+.field public static final ksad_splash_endcard_ompliance_color:I = 0x7f0602e8
+
+.field public static final ksad_splash_endcard_title_color:I = 0x7f0602e9
+
+.field public static final ksad_text_black_222:I = 0x7f0602ea
+
+.field public static final ksad_translucent:I = 0x7f0602eb
+
+.field public static final ksad_white:I = 0x7f0602ec
+
+.field public static final ksad_white_alpha_20:I = 0x7f0602ed
+
+.field public static final land_title_color:I = 0x7f0602ee
+
+.field public static final launcher_title_bar_bg:I = 0x7f0602ef
+
+.field public static final le_color_grey_7:I = 0x7f0602f0
+
+.field public static final le_color_grey_8:I = 0x7f0602f1
+
+.field public static final le_color_grey_corner:I = 0x7f0602f2
+
+.field public static final le_color_orange:I = 0x7f0602f3
+
+.field public static final le_color_orange_light:I = 0x7f0602f4
+
+.field public static final life_emotion_line_color:I = 0x7f0602f5
+
+.field public static final life_item_text_color:I = 0x7f0602f6
+
+.field public static final life_item_unknown_back_color:I = 0x7f0602f7
+
+.field public static final life_item_unknown_text_color:I = 0x7f0602f8
+
+.field public static final light_blue:I = 0x7f0602f9
+
+.field public static final light_green:I = 0x7f0602fa
+
+.field public static final light_grey:I = 0x7f0602fb
+
+.field public static final light_grey_font:I = 0x7f0602fc
+
+.field public static final light_grey_group:I = 0x7f0602fd
+
+.field public static final light_orange_button:I = 0x7f0602fe
+
+.field public static final light_red:I = 0x7f0602ff
+
+.field public static final line_color:I = 0x7f060300
+
+.field public static final linecolor:I = 0x7f060301
+
+.field public static final list_background:I = 0x7f060302
+
+.field public static final list_divider:I = 0x7f060303
+
+.field public static final list_footer_normal:I = 0x7f060304
+
+.field public static final list_footer_pressed:I = 0x7f060305
+
+.field public static final list_line_color:I = 0x7f060306
+
+.field public static final list_selected:I = 0x7f060307
+
+.field public static final live_entrance_bg:I = 0x7f060308
+
+.field public static final loginColor:I = 0x7f060309
+
+.field public static final login_green:I = 0x7f06030a
+
+.field public static final login_text_color:I = 0x7f06030b
+
+.field public static final m_tab_indicator_textcolor:I = 0x7f06030c
+
+.field public static final main_orange:I = 0x7f06030d
+
+.field public static final main_tab_gray:I = 0x7f06030e
+
+.field public static final main_training_footer:I = 0x7f06030f
+
+.field public static final map_circle_fill:I = 0x7f060310
+
+.field public static final map_circle_stroke:I = 0x7f060311
+
+.field public static final mark_share_text:I = 0x7f060312
+
+.field public static final material_blue_grey_800:I = 0x7f060313
+
+.field public static final material_blue_grey_900:I = 0x7f060314
+
+.field public static final material_blue_grey_950:I = 0x7f060315
+
+.field public static final material_deep_teal_200:I = 0x7f060316
+
+.field public static final material_deep_teal_500:I = 0x7f060317
+
+.field public static final material_grey_100:I = 0x7f060318
+
+.field public static final material_grey_300:I = 0x7f060319
+
+.field public static final material_grey_50:I = 0x7f06031a
+
+.field public static final material_grey_600:I = 0x7f06031b
+
+.field public static final material_grey_800:I = 0x7f06031c
+
+.field public static final material_grey_850:I = 0x7f06031d
+
+.field public static final material_grey_900:I = 0x7f06031e
+
+.field public static final message_center_pressed_bg:I = 0x7f06031f
+
+.field public static final message_pop_press_grey:I = 0x7f060320
+
+.field public static final message_tab_color:I = 0x7f060321
+
+.field public static final middle_grey:I = 0x7f060322
+
+.field public static final motion_btn_blue:I = 0x7f060323
+
+.field public static final mtrl_bottom_nav_colored_item_tint:I = 0x7f060324
+
+.field public static final mtrl_bottom_nav_item_tint:I = 0x7f060325
+
+.field public static final mtrl_btn_bg_color_disabled:I = 0x7f060326
+
+.field public static final mtrl_btn_bg_color_selector:I = 0x7f060327
+
+.field public static final mtrl_btn_ripple_color:I = 0x7f060328
+
+.field public static final mtrl_btn_stroke_color_selector:I = 0x7f060329
+
+.field public static final mtrl_btn_text_btn_ripple_color:I = 0x7f06032a
+
+.field public static final mtrl_btn_text_color_disabled:I = 0x7f06032b
+
+.field public static final mtrl_btn_text_color_selector:I = 0x7f06032c
+
+.field public static final mtrl_btn_transparent_bg_color:I = 0x7f06032d
+
+.field public static final mtrl_chip_background_color:I = 0x7f06032e
+
+.field public static final mtrl_chip_close_icon_tint:I = 0x7f06032f
+
+.field public static final mtrl_chip_ripple_color:I = 0x7f060330
+
+.field public static final mtrl_chip_text_color:I = 0x7f060331
+
+.field public static final mtrl_fab_ripple_color:I = 0x7f060332
+
+.field public static final mtrl_scrim_color:I = 0x7f060333
+
+.field public static final mtrl_tabs_colored_ripple_color:I = 0x7f060334
+
+.field public static final mtrl_tabs_icon_color_selector:I = 0x7f060335
+
+.field public static final mtrl_tabs_icon_color_selector_colored:I = 0x7f060336
+
+.field public static final mtrl_tabs_legacy_text_color_selector:I = 0x7f060337
+
+.field public static final mtrl_tabs_ripple_color:I = 0x7f060338
+
+.field public static final mtrl_text_btn_text_color_selector:I = 0x7f060339
+
+.field public static final mtrl_textinput_default_box_stroke_color:I = 0x7f06033a
+
+.field public static final mtrl_textinput_disabled_color:I = 0x7f06033b
+
+.field public static final mtrl_textinput_filled_box_default_background_color:I = 0x7f06033c
+
+.field public static final mtrl_textinput_hovered_box_stroke_color:I = 0x7f06033d
+
+.field public static final network_check_split:I = 0x7f06033e
+
+.field public static final network_check_title:I = 0x7f06033f
+
+.field public static final network_check_value:I = 0x7f060340
+
+.field public static final notification_action_color_filter:I = 0x7f060341
+
+.field public static final notification_icon_bg_color:I = 0x7f060342
+
+.field public static final notification_material_background_media_default_color:I = 0x7f060343
+
+.field public static final number_keyboard_button_text_not_enable:I = 0x7f060344
+
+.field public static final number_keyboard_delete_bg:I = 0x7f060345
+
+.field public static final number_keyboard_digital_line:I = 0x7f060346
+
+.field public static final number_keyboard_digital_press:I = 0x7f060347
+
+.field public static final number_keyboard_digital_press_v2:I = 0x7f060348
+
+.field public static final number_keyboard_text_press:I = 0x7f060349
+
+.field public static final offline_header_shape:I = 0x7f06034a
+
+.field public static final option_menu_normal:I = 0x7f06034b
+
+.field public static final option_menu_pressed:I = 0x7f06034c
+
+.field public static final option_str_color:I = 0x7f06034d
+
+.field public static final option_str_pressed_color:I = 0x7f06034e
+
+.field public static final orange:I = 0x7f06034f
+
+.field public static final orange_10:I = 0x7f060350
+
+.field public static final orange_40:I = 0x7f060351
+
+.field public static final orange_80:I = 0x7f060352
+
+.field public static final orange_default:I = 0x7f060353
+
+.field public static final orange_group_name:I = 0x7f060354
+
+.field public static final orange_share:I = 0x7f060355
+
+.field public static final orange_text_down:I = 0x7f060356
+
+.field public static final orange_text_sel:I = 0x7f060357
+
+.field public static final orange_yellow:I = 0x7f060358
+
+.field public static final origin_gery:I = 0x7f060359
+
+.field public static final overlay_black:I = 0x7f06035a
+
+.field public static final pace_item_color:I = 0x7f06035b
+
+.field public static final permission_dialog_color:I = 0x7f06035c
+
+.field public static final person_bg_orange:I = 0x7f06035d
+
+.field public static final person_bg_red:I = 0x7f06035e
+
+.field public static final person_bg_yellow:I = 0x7f06035f
+
+.field public static final person_origin_end:I = 0x7f060360
+
+.field public static final person_origin_start:I = 0x7f060361
+
+.field public static final personal_text_type_bg_color:I = 0x7f060362
+
+.field public static final photo_background:I = 0x7f060363
+
+.field public static final photo_foreground_pressed:I = 0x7f060364
+
+.field public static final pink:I = 0x7f060365
+
+.field public static final plan_daily_report_bg:I = 0x7f060366
+
+.field public static final plan_divider:I = 0x7f060367
+
+.field public static final plan_preview_lock_text:I = 0x7f060368
+
+.field public static final plan_text_color:I = 0x7f060369
+
+.field public static final plan_text_grey:I = 0x7f06036a
+
+.field public static final plan_waiting_username:I = 0x7f06036b
+
+.field public static final plank_beans:I = 0x7f06036c
+
+.field public static final player_base_bg:I = 0x7f06036d
+
+.field public static final pns_action_bar_background:I = 0x7f06036e
+
+.field public static final poi_desc_color:I = 0x7f06036f
+
+.field public static final poi_title_color:I = 0x7f060370
+
+.field public static final popup_grid_item_text_color:I = 0x7f060371
+
+.field public static final pose_bg_color_4:I = 0x7f060372
+
+.field public static final post_orange:I = 0x7f060373
+
+.field public static final press_cover_color:I = 0x7f060374
+
+.field public static final press_personal_text_type_bg_color:I = 0x7f060375
+
+.field public static final pressed_filter:I = 0x7f060376
+
+.field public static final primary_dark_material_dark:I = 0x7f060377
+
+.field public static final primary_dark_material_light:I = 0x7f060378
+
+.field public static final primary_material_dark:I = 0x7f060379
+
+.field public static final primary_material_light:I = 0x7f06037a
+
+.field public static final primary_text_default_material_dark:I = 0x7f06037b
+
+.field public static final primary_text_default_material_light:I = 0x7f06037c
+
+.field public static final primary_text_disabled_material_dark:I = 0x7f06037d
+
+.field public static final primary_text_disabled_material_light:I = 0x7f06037e
+
+.field public static final profile_blue:I = 0x7f06037f
+
+.field public static final progress_green:I = 0x7f060380
+
+.field public static final purple:I = 0x7f060381
+
+.field public static final purple_200:I = 0x7f060382
+
+.field public static final purple_500:I = 0x7f060383
+
+.field public static final purple_700:I = 0x7f060384
+
+.field public static final qr_background_color:I = 0x7f060385
+
+.field public static final qr_btn_sub_text_color:I = 0x7f060386
+
+.field public static final radiusBorderColor:I = 0x7f060387
+
+.field public static final radiusFillColor:I = 0x7f060388
+
+.field public static final recent_use_app_area_bg:I = 0x7f060389
+
+.field public static final record_background:I = 0x7f06038a
+
+.field public static final record_btn_inside:I = 0x7f06038b
+
+.field public static final record_console_bg:I = 0x7f06038c
+
+.field public static final record_grey_font:I = 0x7f06038d
+
+.field public static final record_grey_line:I = 0x7f06038e
+
+.field public static final record_loading_color:I = 0x7f06038f
+
+.field public static final record_up:I = 0x7f060390
+
+.field public static final rect_bg_end:I = 0x7f060391
+
+.field public static final rect_bg_start:I = 0x7f060392
+
+.field public static final rect_grey:I = 0x7f060393
+
+.field public static final rect_progress_end:I = 0x7f060394
+
+.field public static final rect_progress_start:I = 0x7f060395
+
+.field public static final red:I = 0x7f060396
+
+.field public static final red_ff6022:I = 0x7f060397
+
+.field public static final red_video_text_bg:I = 0x7f060398
+
+.field public static final regionlist_bg:I = 0x7f060399
+
+.field public static final regionlist_divider:I = 0x7f06039a
+
+.field public static final regionlist_selected_region:I = 0x7f06039b
+
+.field public static final remote_debug_state_exit_button_color:I = 0x7f06039c
+
+.field public static final reset_normal:I = 0x7f06039d
+
+.field public static final reset_press:I = 0x7f06039e
+
+.field public static final rest_color:I = 0x7f06039f
+
+.field public static final reward_money:I = 0x7f0603a0
+
+.field public static final reward_money_green:I = 0x7f0603a1
+
+.field public static final reward_money_text:I = 0x7f0603a2
+
+.field public static final ripple_material_dark:I = 0x7f0603a3
+
+.field public static final ripple_material_light:I = 0x7f0603a4
+
+.field public static final round_corner_progress_bar_background_default:I = 0x7f0603a5
+
+.field public static final round_corner_progress_bar_progress_default:I = 0x7f0603a6
+
+.field public static final round_corner_progress_bar_secondary_progress_default:I = 0x7f0603a7
+
+.field public static final run_black_10:I = 0x7f0603a8
+
+.field public static final run_black_70:I = 0x7f0603a9
+
+.field public static final run_ff6022:I = 0x7f0603aa
+
+.field public static final run_main_origin:I = 0x7f0603ab
+
+.field public static final run_main_origin_dark:I = 0x7f0603ac
+
+.field public static final run_ready_content_black:I = 0x7f0603ad
+
+.field public static final run_record_finish_circle_ring:I = 0x7f0603ae
+
+.field public static final run_record_unlock_circle_ring:I = 0x7f0603af
+
+.field public static final run_report_detail_milestone_divider:I = 0x7f0603b0
+
+.field public static final run_report_detail_milestone_item_fast_end:I = 0x7f0603b1
+
+.field public static final run_report_detail_milestone_item_normal_end:I = 0x7f0603b2
+
+.field public static final run_report_detail_milestone_item_slow_end:I = 0x7f0603b3
+
+.field public static final run_report_detail_milestone_item_start:I = 0x7f0603b4
+
+.field public static final run_report_detail_stardline:I = 0x7f0603b5
+
+.field public static final run_report_miles_black:I = 0x7f0603b6
+
+.field public static final runner_share_logo_bg:I = 0x7f0603b7
+
+.field public static final running_black:I = 0x7f0603b8
+
+.field public static final running_count_down:I = 0x7f0603b9
+
+.field public static final running_dark:I = 0x7f0603ba
+
+.field public static final running_day:I = 0x7f0603bb
+
+.field public static final running_lock_screen_bg:I = 0x7f0603bc
+
+.field public static final running_record_center:I = 0x7f0603bd
+
+.field public static final running_record_divider:I = 0x7f0603be
+
+.field public static final running_record_end:I = 0x7f0603bf
+
+.field public static final running_record_start:I = 0x7f0603c0
+
+.field public static final running_stop_ring:I = 0x7f0603c1
+
+.field public static final running_tran_white:I = 0x7f0603c2
+
+.field public static final search_dark_background:I = 0x7f0603c3
+
+.field public static final search_dark_hint:I = 0x7f0603c4
+
+.field public static final search_dark_icon:I = 0x7f0603c5
+
+.field public static final search_dark_text:I = 0x7f0603c6
+
+.field public static final search_dark_text_highlight:I = 0x7f0603c7
+
+.field public static final search_light_background:I = 0x7f0603c8
+
+.field public static final search_light_hint:I = 0x7f0603c9
+
+.field public static final search_light_icon:I = 0x7f0603ca
+
+.field public static final search_light_text:I = 0x7f0603cb
+
+.field public static final search_light_text_highlight:I = 0x7f0603cc
+
+.field public static final search_shadow_layout:I = 0x7f0603cd
+
+.field public static final search_text_color_dark:I = 0x7f0603ce
+
+.field public static final secondary_text:I = 0x7f0603cf
+
+.field public static final secondary_text_default_material_dark:I = 0x7f0603d0
+
+.field public static final secondary_text_default_material_light:I = 0x7f0603d1
+
+.field public static final secondary_text_disabled_material_dark:I = 0x7f0603d2
+
+.field public static final secondary_text_disabled_material_light:I = 0x7f0603d3
+
+.field public static final seek_bar_disabled_progress:I = 0x7f0603d4
+
+.field public static final send_to_activity_name:I = 0x7f0603d5
+
+.field public static final send_to_activity_permissions_tip:I = 0x7f0603d6
+
+.field public static final send_to_activity_tip:I = 0x7f0603d7
+
+.field public static final send_to_bg:I = 0x7f0603d8
+
+.field public static final seprator_line:I = 0x7f0603d9
+
+.field public static final shallow_grep:I = 0x7f0603da
+
+.field public static final share_text:I = 0x7f0603db
+
+.field public static final sign_in_text_error_color:I = 0x7f0603dc
+
+.field public static final slidetoact_defaultAccent:I = 0x7f0603dd
+
+.field public static final slidetoact_white:I = 0x7f0603de
+
+.field public static final sliding_bg:I = 0x7f0603df
+
+.field public static final smilence_stroke_color:I = 0x7f0603e0
+
+.field public static final social_searchTextColor:I = 0x7f0603e1
+
+.field public static final social_searchTextColorHT:I = 0x7f0603e2
+
+.field public static final social_search_Blue:I = 0x7f0603e3
+
+.field public static final social_search_BlueHT:I = 0x7f0603e4
+
+.field public static final stats_circle_title_text_color:I = 0x7f0603e5
+
+.field public static final swipe_color_1:I = 0x7f0603e6
+
+.field public static final swipe_color_2:I = 0x7f0603e7
+
+.field public static final swipe_color_3:I = 0x7f0603e8
+
+.field public static final swipe_color_4:I = 0x7f0603e9
+
+.field public static final swipe_refresh_color:I = 0x7f0603ea
+
+.field public static final switch_tab_background_color_click:I = 0x7f0603eb
+
+.field public static final switch_tab_buttom_line_color:I = 0x7f0603ec
+
+.field public static final switch_tab_line_color:I = 0x7f0603ed
+
+.field public static final switch_tab_text_color_click:I = 0x7f0603ee
+
+.field public static final switch_tab_text_color_default:I = 0x7f0603ef
+
+.field public static final switch_thumb_disabled_material_dark:I = 0x7f0603f0
+
+.field public static final switch_thumb_disabled_material_light:I = 0x7f0603f1
+
+.field public static final switch_thumb_material_dark:I = 0x7f0603f2
+
+.field public static final switch_thumb_material_light:I = 0x7f0603f3
+
+.field public static final switch_thumb_normal_material_dark:I = 0x7f0603f4
+
+.field public static final switch_thumb_normal_material_light:I = 0x7f0603f5
+
+.field public static final tab_indicator_textcolor:I = 0x7f0603f6
+
+.field public static final tab_text_gray:I = 0x7f0603f7
+
+.field public static final tabbar_text_color:I = 0x7f0603f8
+
+.field public static final table_arrow_color:I = 0x7f0603f9
+
+.field public static final task_confirm_dialog_btn:I = 0x7f0603fa
+
+.field public static final task_confirm_dialog_divider:I = 0x7f0603fb
+
+.field public static final task_guide_bg_transparent:I = 0x7f0603fc
+
+.field public static final task_guide_shadow:I = 0x7f0603fd
+
+.field public static final task_list_item_taskdesc_grey:I = 0x7f0603fe
+
+.field public static final task_text_orange:I = 0x7f0603ff
+
+.field public static final teal_200:I = 0x7f060400
+
+.field public static final teal_700:I = 0x7f060401
+
+.field public static final test_a:I = 0x7f060402
+
+.field public static final test_b:I = 0x7f060403
+
+.field public static final test_c:I = 0x7f060404
+
+.field public static final textBlack:I = 0x7f060405
+
+.field public static final textBlack_username_shadow:I = 0x7f060406
+
+.field public static final textColorRed:I = 0x7f060407
+
+.field public static final text_color_goal:I = 0x7f060408
+
+.field public static final text_color_grey:I = 0x7f060409
+
+.field public static final text_color_red:I = 0x7f06040a
+
+.field public static final text_grey:I = 0x7f06040b
+
+.field public static final text_light_gray:I = 0x7f06040c
+
+.field public static final textcode_text_color:I = 0x7f06040d
+
+.field public static final tf_default_click_color:I = 0x7f06040e
+
+.field public static final tf_default_item_color:I = 0x7f06040f
+
+.field public static final thin_progress_thumb:I = 0x7f060410
+
+.field public static final thumbColor:I = 0x7f060411
+
+.field public static final tiny_menu_action_background_color:I = 0x7f060412
+
+.field public static final tiny_menu_action_text_color:I = 0x7f060413
+
+.field public static final tiny_menu_item_add_to_home:I = 0x7f060414
+
+.field public static final tiny_menu_item_bg:I = 0x7f060415
+
+.field public static final tiny_menu_item_default:I = 0x7f060416
+
+.field public static final tiny_menu_item_message:I = 0x7f060417
+
+.field public static final tiny_menu_item_share:I = 0x7f060418
+
+.field public static final tiny_menu_item_shortcut:I = 0x7f060419
+
+.field public static final tiny_menu_item_text_color:I = 0x7f06041a
+
+.field public static final title_bar_black:I = 0x7f06041b
+
+.field public static final title_bar_icon_color:I = 0x7f06041c
+
+.field public static final title_resource_alpha:I = 0x7f06041d
+
+.field public static final title_text_color_alipay:I = 0x7f06041e
+
+.field public static final title_text_color_fail:I = 0x7f06041f
+
+.field public static final title_text_color_help:I = 0x7f060420
+
+.field public static final title_text_color_prompt:I = 0x7f060421
+
+.field public static final title_text_color_success:I = 0x7f060422
+
+.field public static final title_text_color_warn:I = 0x7f060423
+
+.field public static final titlebar_btn_press:I = 0x7f060424
+
+.field public static final titlebar_btn_trans:I = 0x7f060425
+
+.field public static final tl_edit_line_color:I = 0x7f060426
+
+.field public static final tl_home_background:I = 0x7f060427
+
+.field public static final tl_homeline_edit_color:I = 0x7f060428
+
+.field public static final tl_life_personal_bg:I = 0x7f060429
+
+.field public static final tl_life_personal_list_pull_bg:I = 0x7f06042a
+
+.field public static final tl_reply_bg:I = 0x7f06042b
+
+.field public static final toast_bg:I = 0x7f06042c
+
+.field public static final tooltip_background_dark:I = 0x7f06042d
+
+.field public static final tooltip_background_light:I = 0x7f06042e
+
+.field public static final trace_debug_state_exit_button_color:I = 0x7f06042f
+
+.field public static final trans_white_50:I = 0x7f060430
+
+.field public static final transparent:I = 0x7f060431
+
+.field public static final transparent_30:I = 0x7f060432
+
+.field public static final transparent_blue_bar:I = 0x7f060433
+
+.field public static final transparent_orange_bar:I = 0x7f060434
+
+.field public static final tt_appdownloader_notification_material_background_color:I = 0x7f060435
+
+.field public static final tt_appdownloader_notification_title_color:I = 0x7f060436
+
+.field public static final tt_appdownloader_s1:I = 0x7f060437
+
+.field public static final tt_appdownloader_s13:I = 0x7f060438
+
+.field public static final tt_appdownloader_s18:I = 0x7f060439
+
+.field public static final tt_appdownloader_s4:I = 0x7f06043a
+
+.field public static final tt_appdownloader_s8:I = 0x7f06043b
+
+.field public static final ttdownloader_transparent:I = 0x7f06043c
+
+.field public static final tv_account_help:I = 0x7f06043d
+
+.field public static final tv_account_high_orange:I = 0x7f06043e
+
+.field public static final tv_account_info:I = 0x7f06043f
+
+.field public static final tv_account_upgrade_info:I = 0x7f060440
+
+.field public static final ubix_colortranstant:I = 0x7f060441
+
+.field public static final uik_A_orange:I = 0x7f060442
+
+.field public static final uik_choice_divider:I = 0x7f060443
+
+.field public static final uik_dialog_bg:I = 0x7f060444
+
+.field public static final uik_load_more_footer_bg:I = 0x7f060445
+
+.field public static final uik_refresh_head_bg:I = 0x7f060446
+
+.field public static final uik_text_color:I = 0x7f060447
+
+.field public static final update_tips_background_color:I = 0x7f060448
+
+.field public static final update_tips_text_color:I = 0x7f060449
+
+.field public static final upsdk_color_gray_1:I = 0x7f06044a
+
+.field public static final upsdk_color_gray_10:I = 0x7f06044b
+
+.field public static final upsdk_color_gray_7:I = 0x7f06044c
+
+.field public static final user_info_black:I = 0x7f06044d
+
+.field public static final video_tab_diver:I = 0x7f06044e
+
+.field public static final video_time_text:I = 0x7f06044f
+
+.field public static final vpi__background_holo_light:I = 0x7f060450
+
+.field public static final vpi__bright_foreground_disabled_holo_dark:I = 0x7f060451
+
+.field public static final vpi__bright_foreground_holo_dark:I = 0x7f060452
+
+.field public static final vpi__dark_theme:I = 0x7f060453
+
+.field public static final watermark_border_text:I = 0x7f060454
+
+.field public static final weather_text_1:I = 0x7f060455
+
+.field public static final weather_text_2:I = 0x7f060456
+
+.field public static final weather_text_3:I = 0x7f060457
+
+.field public static final weather_text_4:I = 0x7f060458
+
+.field public static final weather_text_5:I = 0x7f060459
+
+.field public static final wheelview_linecolor:I = 0x7f06045a
+
+.field public static final wheelview_textcolor_focus:I = 0x7f06045b
+
+.field public static final wheelview_textcolor_normal:I = 0x7f06045c
+
+.field public static final white:I = 0x7f06045d
+
+.field public static final white10:I = 0x7f06045e
+
+.field public static final white20:I = 0x7f06045f
+
+.field public static final white30:I = 0x7f060460
+
+.field public static final white50:I = 0x7f060461
+
+.field public static final white60:I = 0x7f060462
+
+.field public static final white70:I = 0x7f060463
+
+.field public static final white90:I = 0x7f060464
+
+.field public static final white_10:I = 0x7f060465
+
+.field public static final white_100:I = 0x7f060466
+
+.field public static final white_20:I = 0x7f060467
+
+.field public static final white_30:I = 0x7f060468
+
+.field public static final white_40:I = 0x7f060469
+
+.field public static final white_50:I = 0x7f06046a
+
+.field public static final white_60:I = 0x7f06046b
+
+.field public static final white_70:I = 0x7f06046c
+
+.field public static final white_80:I = 0x7f06046d
+
+.field public static final white_90:I = 0x7f06046e
+
+.field public static final white_alpha_70:I = 0x7f06046f
+
+.field public static final white_color:I = 0x7f060470
+
+.field public static final white_fifty:I = 0x7f060471
+
+.field public static final white_group_rank_btn:I = 0x7f060472
+
+.field public static final white_light:I = 0x7f060473
+
+.field public static final white_transparent:I = 0x7f060474
+
+.field public static final widget_circle_color:I = 0x7f060475
+
+.field public static final yellow:I = 0x7f060476
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

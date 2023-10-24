@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aui="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.antui.basic.AUTitleBar android:id="@id/titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" aui:titleText="@string/city_select_title" />
+    <com.alipay.mobile.antui.basic.AUFrameLayout android:id="@id/container" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.beehive.capture.views.CustomBgImageView android:id="@id/iv_capture_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="right" android:background="#9a000000" android:layout_width="96.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/ll_action_btn_zone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.299988dip">
+        <FrameLayout android:layout_width="@dimen/di_preview_action_btn_w_h" android:layout_height="@dimen/di_preview_action_btn_w_h">
+            <TextView android:textSize="15.299988dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="@dimen/di_preview_action_btn_w_h" android:layout_height="@dimen/di_preview_action_btn_w_h" android:layout_marginTop="@dimen/di_preview_action_btn_gap">
+            <TextView android:textSize="15.299988dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="@dimen/di_preview_action_btn_w_h" android:layout_height="@dimen/di_preview_action_btn_w_h" android:layout_marginTop="@dimen/di_preview_action_btn_gap">
+            <TextView android:textSize="15.299988dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/cc_one_game_page_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="单实例测试页面" />
+    <Button android:id="@id/cc_multi_game_page_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="多实例测试页面" />
+    <Button android:id="@id/cc_load_game_list_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="加载测试游戏列表" />
+    <Button android:id="@id/cc_one_video_page_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="单视频" />
+    <Button android:id="@id/cc_one_music_page_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="单音频" />
+    <Button android:id="@id/cc_one_port_game_page_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="单实例竖屏页面" />
+    <Button android:id="@id/cc_one_camera_page_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="相机页面" />
+    <Button android:id="@id/cc_game_sink_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="GameRenderDataSink" />
+    <Button android:id="@id/cc_costar_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="合拍页面" />
+    <Button android:id="@id/cc_web_view_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="H5" />
+</LinearLayout>

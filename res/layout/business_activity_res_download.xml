@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_net_error" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="21.0sp" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载失败" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black50" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="网络偷懒了，刷新下试试看" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_refresh" android:background="@drawable/commonui_radius_bg_11" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="78.0dip" android:layout_marginTop="83.0dip" android:layout_marginRight="78.0dip" android:text="刷新" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_loading" android:background="@color/white" android:paddingLeft="78.0dip" android:paddingRight="78.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="21.0sp" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@id/loading_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载中" />
+            <TextView android:textSize="21.0sp" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@id/count_tip_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="(0/0)" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+            <ProgressBar android:id="@id/download_pb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="1" style="@style/commonui_update_progress_horizontal" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip">
+        <ImageView android:id="@id/action_back" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="30.0dip" android:src="@drawable/ic_left_back_grey" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="8.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/bg_ai_sports_finish_share_progress" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="?android:progressBarStyleHorizontal" />
+    <ImageView android:id="@id/progressImage" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ai_finish_share_progress_arrow" />
+</RelativeLayout>

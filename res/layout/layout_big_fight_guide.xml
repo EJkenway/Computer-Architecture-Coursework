@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" layout="@layout/layout_big_fight_guide_1" />
+    <include android:visibility="gone" layout="@layout/layout_big_fight_guide_2" />
+</RelativeLayout>

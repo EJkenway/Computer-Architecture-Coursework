@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/ai_sport_motion_item_bg" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/tv_motion_record_union" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="个" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/tv_motion_record_union">
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/tv_record_motion_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="right" android:id="@id/tv_motion_record" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="40" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

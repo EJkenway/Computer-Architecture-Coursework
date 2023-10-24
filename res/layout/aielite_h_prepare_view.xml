@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_person" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_pose_status" android:background="@drawable/aimotion_h_prepare_black_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="32.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/tv_pose_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aisports_situp_tip" />
+    </LinearLayout>
+    <cn.ledongli.ldl.pose.aimotion.business.view.PrepareAnimView android:gravity="bottom" android:orientation="vertical" android:id="@id/anim_view" android:background="@drawable/bg_bigfight_guide_bottom_green" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="34.0sp" android:textStyle="bold" android:textColor="@color/bigfight_white" android:id="@id/tv_prepared" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginBottom="23.0dip" android:text="@string/big_fight_guide_3" android:layout_centerHorizontal="true" />
+    </cn.ledongli.ldl.pose.aimotion.business.view.PrepareAnimView>
+    <ImageView android:id="@id/iv_switch_camera" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="23.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="14.0dip" android:src="@drawable/ai_switch_camera" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lav_start_lottie" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="200.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_default_countdown" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" android:layout_centerInParent="true" />
+</RelativeLayout>

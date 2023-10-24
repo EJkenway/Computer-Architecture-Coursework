@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.person.mvp.view.PersonSettingView android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_marginBottom="21.0dip" android:text="个人服务" android:fontFamily="PingFangSC-Medium" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="23.0dip" android:layout_below="@id/tv_title" />
+</cn.ledongli.ldl.person.mvp.view.PersonSettingView>

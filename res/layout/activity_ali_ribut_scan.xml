@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/surfaceView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.youku.ribut.demo.scan.weight.ToolScanTopView android:id="@id/top_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/scan_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/ribut_pre_view" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="122.0dip" android:layout_centerHorizontal="true">
+            <com.youku.ribut.demo.scan.weight.QrImageView android:id="@id/ribut_image_view" android:layout_width="296.0dip" android:layout_height="296.0dip" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ribut_preview_left_top" android:layout_alignLeft="@id/ribut_image_view" android:layout_alignTop="@id/ribut_image_view" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ribut_preview_right_top" android:layout_alignTop="@id/ribut_image_view" android:layout_alignRight="@id/ribut_image_view" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ribut_preview_left_bottom" android:layout_alignLeft="@id/ribut_image_view" android:layout_alignBottom="@id/ribut_image_view" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ribut_preview_right_bottom" android:layout_alignRight="@id/ribut_image_view" android:layout_alignBottom="@id/ribut_image_view" />
+            <ImageView android:id="@id/ribut_anim_view" android:visibility="gone" android:layout_width="296.0dip" android:layout_height="wrap_content" android:src="@drawable/icon_ribut_scaning" android:scaleType="fitXY" android:layout_alignLeft="@id/ribut_image_view" android:layout_alignTop="@id/ribut_image_view" android:layout_alignRight="@id/ribut_image_view" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="将二维码放入框内，自动扫描" android:layout_below="@id/ribut_pre_view" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:id="@id/cover" android:background="#c0000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

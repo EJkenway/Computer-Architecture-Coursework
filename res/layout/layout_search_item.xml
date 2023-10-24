@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="@color/colorPrimaryFood" android:clickable="true" android:layout_width="fill_parent" android:layout_height="72.0dip" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/image_view_search_item" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:src="@mipmap/image_food_item_placeholder" android:scaleType="centerCrop" android:contentDescription="@string/app_name" android:layout_marginStart="15.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/food_black_text" android:layout_gravity="center_vertical" android:id="@id/text_view_search_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="74.0dip" android:layout_marginStart="74.0dip" />
+    <View android:layout_gravity="bottom" android:background="@color/food_grey_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="74.0dip" android:layout_marginStart="74.0dip" />
+</FrameLayout>

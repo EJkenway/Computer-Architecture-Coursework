@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_motion_image" android:layout_width="fill_parent" android:layout_height="252.0dip" android:src="@drawable/default_placeholder" android:scaleType="centerCrop" />
+</RelativeLayout>

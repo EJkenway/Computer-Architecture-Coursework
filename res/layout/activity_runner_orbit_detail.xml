@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff3f4f7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_header_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.widget.LeTitleBar android:id="@id/toolbar_runner_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:tBackImage="@drawable/ic_run_back" app:tBackgroundColor="@color/transparent" />
+</RelativeLayout>

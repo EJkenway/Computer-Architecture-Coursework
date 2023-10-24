@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_root" android:background="@color/activity_light_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_restart_loading" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/discovery_highlight" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_center_is_loading" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ProgressBar android:id="@id/pb_restart_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/message_progressbar" android:layout_centerVertical="true" android:layout_marginEnd="3.0dip" android:layout_toStartOf="@id/tv" style="@android:style/Widget.Holo.ProgressBar" />
+    </RelativeLayout>
+    <cn.ledongli.ldl.message.view.SuperSwipeRefreshLayout android:id="@id/srl" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </cn.ledongli.ldl.message.view.SuperSwipeRefreshLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_error_view" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip">
+        <ImageView android:id="@id/ig_web_page_no_network" android:background="@drawable/discover_no_network" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/dark_grey_group" android:id="@id/tx_web_page_no_network_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/network_not_available" />
+        <ImageButton android:id="@id/btn_retry" android:background="@drawable/video_not_net_sel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/retry" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/frameLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.widget.LeTitleBar android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:tAddStatusBarHeight="true" app:tBackImage="@drawable/ic_arrow_back_white_small" app:tBackgroundColor="@color/transparent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

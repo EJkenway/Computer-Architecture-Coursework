@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/player_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.vplayer.ui.view.PlayerView android:id="@id/player_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include android:id="@id/player_pause_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/player_pause_layout" />
+        <include android:id="@id/player_rest_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/player_rest_layout" />
+        <include android:id="@id/video_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/videoview_layout" />
+        <include android:id="@id/player_start_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/player_start_layout" />
+        <cn.ledongli.vplayer.ui.view.TrainingPreVideoView android:id="@id/tap_ad_videoView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.ledongli.vplayer.ui.view.PlayerView>
+    <cn.ledongli.mediaplayer.widget.LiveLoadingView android:id="@id/llv_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/pb_loading" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminateOnly="true" style="?android:progressBarStyle" />
+</FrameLayout>

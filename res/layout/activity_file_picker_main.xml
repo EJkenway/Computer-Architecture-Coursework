@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fffefefe" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/tool_bar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="66.0dip">
+            <ImageButton android:id="@id/close_button" android:background="#00000000" android:padding="16.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/close_button" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/confirm_button" android:background="@drawable/confirm_button" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="16.0dip" android:text="@string/choose_confirm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-3.0dip" android:layout_toLeftOf="@id/confirm_button" android:layout_toRightOf="@id/close_button">
+                <TextView android:textSize="18.0dip" android:textColor="#ff333333" android:gravity="center" android:id="@id/title_view" android:layout_width="wrap_content" android:layout_height="27.0dip" android:text="@string/choose_file" android:maxLines="1" android:layout_centerInParent="true" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/directory_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:maxLines="1" android:layout_below="@id/title_view" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/des_file_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginBottom="10.0dip">
+            <ImageView android:id="@id/image_thumb" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="45.0dip" android:src="@mipmap/common_icon" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0dip" android:ellipsize="end" android:gravity="fill_vertical" android:id="@id/des_file_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:maxLines="1" android:layout_toRightOf="@id/image_thumb" />
+        </RelativeLayout>
+        <View android:id="@id/shadow_line" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/files_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_bar" />
+    <TextView android:textSize="14.0dip" android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/choose_no_file_tip" android:layout_below="@id/top_bar" android:layout_centerInParent="true" />
+</RelativeLayout>

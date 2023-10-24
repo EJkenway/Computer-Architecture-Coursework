@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_audio_control_close" android:background="@drawable/selector_transparent_item_circle" android:padding="6.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="35.0dip" android:src="@drawable/img_close_white" android:layout_marginEnd="35.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white_alpha_70" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/background_music" />
+    <cn.ledongli.vplayer.ui.view.SwitchButton android:layout_gravity="center" android:id="@id/audio_control_music_switch" android:layout_width="50.0dip" android:layout_height="24.0dip" android:layout_marginTop="12.0dip" app:background_color="@color/black_alpha_80" app:ball_checked_imageResource="@drawable/ic_music_orange" app:ball_unchecked_imageResource="@drawable/ic_music_off" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/audio_control_off_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="23.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_alpha_70" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/background_music_off_title" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_alpha_70" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/background_music_off_desc" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/audio_control_on_layout" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="23.0dip">
+        <ImageView android:id="@id/audio_control_music_prev_btn" android:background="@drawable/selector_transparent_item_circle" android:padding="4.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_previous_song" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_alpha_70" android:id="@id/audio_control_music_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_marginRight="23.0dip" />
+        <ImageView android:id="@id/audio_control_music_next_btn" android:background="@drawable/selector_transparent_item_circle" android:padding="4.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_next_song" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_volume_min" />
+        <SeekBar android:id="@id/audio_control_bg_music_seek_bar" android:layout_width="300.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxHeight="4.0dip" android:secondaryProgress="0" android:minHeight="4.0dip" android:thumbOffset="8.0dip" android:splitTrack="false" style="@style/AudioControllerSeekBar" />
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_volume_max" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/white_alpha_70" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/training_guide" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_volume_min" />
+        <SeekBar android:id="@id/audio_control_trainer_voice_seek_bar" android:layout_width="300.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:secondaryProgress="0" android:thumbOffset="8.0dip" android:splitTrack="false" style="@style/AudioControllerSeekBar" />
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_volume_max" />
+    </LinearLayout>
+</LinearLayout>

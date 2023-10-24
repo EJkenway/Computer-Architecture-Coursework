@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跑步基础数据" />
+    <TextView android:textSize="18.0dip" android:id="@id/tv_runner_info" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:id="@id/tv_bluetooth_scan" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="蓝牙刷新" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_bluetooth_info" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+    <TextView android:id="@id/tv_bluetooth_info" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="18.0dip" android:layout_gravity="center_horizontal" android:id="@id/tv_close" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="关闭" />
+</LinearLayout>

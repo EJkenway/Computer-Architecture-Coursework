@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/cc_game_list" android:background="#ff000000" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textColor="@android:color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我在游戏下面" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <FrameLayout android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textColor="@android:color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我在复制纹理下面" />
+            <SurfaceView android:id="@id/cc_game_picture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <Button android:layout_gravity="center" android:id="@id/cc_show_game_btn" android:layout_width="wrap_content" android:layout_height="@dimen/cc_btn_height" android:text="显示游戏画面" />
+    </LinearLayout>
+</LinearLayout>

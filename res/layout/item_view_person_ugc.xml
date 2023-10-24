@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.person.mvp.view.PersonUgcDataView android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:weightSum="4.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rl_currency" android:background="@android:color/transparent" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="21.0dip" android:textStyle="bold" android:textColor="#ff333333" android:gravity="center_horizontal" android:id="@id/tv_currency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="11.0dip" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="卡币" android:layout_below="@id/tv_currency" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/fl_follow_dot" android:background="@drawable/circle_white_7" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginTop="2.0dip" android:layout_alignTop="@id/tv_currency" android:layout_alignRight="@id/tv_currency" android:layout_marginEnd="-4.0dip">
+            <View android:background="@drawable/circle_orange_5" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rl_red_packet" android:background="@android:color/transparent" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <View android:background="#fff5f5f5" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <View android:background="#fff5f5f5" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="21.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/tv_red_packet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="11.0dip" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="红包" android:layout_below="@id/tv_red_packet" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/fl_fans_dot" android:background="@drawable/circle_white_7" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginTop="2.0dip" android:layout_alignTop="@id/tv_red_packet" android:layout_alignRight="@id/tv_red_packet" android:layout_marginEnd="-4.0dip">
+            <View android:background="@drawable/circle_orange_5" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rl_cash" android:background="@android:color/transparent" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="21.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/tv_cash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="11.0dip" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="现金" android:layout_below="@id/tv_cash" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/fl_collect_dot" android:background="@drawable/circle_white_7" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginTop="2.0dip" android:layout_alignTop="@id/tv_cash" android:layout_alignRight="@id/tv_cash" android:layout_marginEnd="-4.0dip">
+            <View android:background="@drawable/circle_orange_5" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_equity" android:background="@android:color/transparent" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <View android:background="#fff5f5f5" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="21.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/tv_equity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="11.0dip" android:textColor="#ff999999" android:id="@id/tv_equity_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="卡券/权益" android:layout_below="@id/tv_equity" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</cn.ledongli.ldl.person.mvp.view.PersonUgcDataView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/coin_info" android:id="@id/action_modify" android:title="自定义" app:showAsAction="always" />
+    <item android:icon="@drawable/refresh" android:id="@id/action_refresh" android:title="@string/refresh" app:showAsAction="always" />
+    <item android:icon="@drawable/ugc_detail_share" android:id="@id/action_share" android:title="@string/share" app:showAsAction="always" />
+    <item android:icon="@drawable/actionbar_webview_close" android:id="@id/action_webview_close" android:title="@string/close" app:showAsAction="always" />
+    <item android:icon="@drawable/webview_default_action_more" android:id="@id/action_show_more_item" android:title="@string/actionbar_setting" app:showAsAction="always" />
+</menu>

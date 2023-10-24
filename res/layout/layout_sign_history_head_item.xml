@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_bg" android:layout_width="fill_parent" android:layout_height="300.0dip" android:src="@drawable/sign_in_header_bg" android:scaleType="centerCrop" />
+    <RelativeLayout android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignBottom="@id/iv_bg" android:layout_centerInParent="true">
+        <ImageView android:layout_width="177.5dip" android:layout_height="177.5dip" android:src="@drawable/sign_in_circle_bg" android:scaleType="centerCrop" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="3.0dip" android:text="打卡总数" android:drawableLeft="@drawable/mine_sign_in_list_moth_total_icon" android:drawablePadding="3.0dip" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="54.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/total_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="0" android:fontFamily="AkzidenzGroteskBQ-BdCnd" />
+            <TextView android:textSize="14.5dip" android:textColor="@color/white" android:id="@id/tv_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="次" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

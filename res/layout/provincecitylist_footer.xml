@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.mobile.antui.basic.AULinearLayout android:orientation="vertical" android:background="@color/client_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/provincecity_divider" android:background="@color/regionlist_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.alipay.mobile.antui.basic.AUTextView android:layout_width="wrap_content" android:layout_height="20.0dip" />
+</com.alipay.mobile.antui.basic.AULinearLayout>

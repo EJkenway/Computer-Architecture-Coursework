@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#80000000" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alipay.mobile.antui.iconfont.AUIconView android:id="@id/ivBack" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5999756dip" android:layout_centerVertical="true" android:contentDescription="@string/back" aui:iconfontColor="#ffffffff" aui:iconfontSize="16.0dip" aui:iconfontUnicode="@string/iconfont_back" />
+        <View android:background="#4dffffff" android:layout_width="1.0dip" android:layout_height="33.0dip" android:layout_marginLeft="6.5999756dip" />
+        <TextView android:textSize="17.299988dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.599976dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center|right" android:orientation="horizontal" android:id="@id/llOptions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ivFlash" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_flash_off" android:scaleType="centerInside" android:contentDescription="@string/turn_on_flash" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ivBeauty" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.599976dip" android:src="@drawable/ic_beauty_off" android:scaleType="centerInside" android:contentDescription="@string/turn_on_beauty" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ivChangeCamera" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.599976dip" android:src="@drawable/ic_change_camera" android:scaleType="centerInside" android:contentDescription="@string/switch_to_front_camera" />
+    </LinearLayout>
+</FrameLayout>

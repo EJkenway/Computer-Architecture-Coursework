@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.runner.ui.view.subview.RunningMapView android:id="@id/layoutRunningMapView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.amap.api.maps.TextureMapView android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right|top" android:orientation="vertical" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="right" android:id="@id/imgGpsStatus" android:layout_width="80.0dip" android:layout_height="30.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/runner_ready_gps_01" />
+        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/TextGreyMiddleColor" android:ellipsize="end" android:id="@id/warning" android:background="@drawable/corner_white_8" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无信号，无法生成轨迹，正在用计步器估算" android:maxLines="1" android:lines="1" android:layout_marginEnd="12.0dip" style="@style/TextAppereance.Size14" />
+    </LinearLayout>
+</cn.ledongli.ldl.runner.ui.view.subview.RunningMapView>

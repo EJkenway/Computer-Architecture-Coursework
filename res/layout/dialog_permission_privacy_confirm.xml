@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/corner_white_fill_17" android:layout_width="270.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="请您先阅读并同意协议条款" android:fontFamily="PingFangSC-Medium" />
+        <TextView android:textColor="@color/TextGreyMiddleColor" android:gravity="center" android:id="@id/tv_content" android:layout_width="227.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="若您不同意本隐私权政策，很遗憾我们将无法为您提供服务" />
+        <View android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="42.0dip" android:weightSum="2.0">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_no" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="退出应用" android:layout_weight="1.0" android:fontFamily="PingFangSC-Medium" />
+            <View android:background="#fff5f5f5" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#fffe7f00" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_yes" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="再次查看" android:layout_weight="1.0" android:fontFamily="PingFangSC-Medium" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

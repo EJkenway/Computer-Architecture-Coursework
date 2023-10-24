@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="132.0dip" android:layout_height="88.0dip" app:cardCornerRadius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_motion_group_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:background="@color/black30" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_motion_group_item_motion_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_motion_group_item_times" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_above="@id/tv_motion_group_item_motion_name" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

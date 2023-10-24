@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/commonui_bg_black_4" android:layout_width="120.0dip" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_anim" android:background="@drawable/commonui_anim_loading_white" android:layout_width="48.0dip" android:layout_height="48.0dip" android:contentDescription="@string/app_name" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="加载中" />
+</LinearLayout>

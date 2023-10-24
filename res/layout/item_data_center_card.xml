@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ll" android:background="@drawable/bg_corner_white_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_top" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true">
+        <View android:layout_gravity="center_vertical" android:id="@id/view_dot" android:background="@drawable/corner_yellow_3" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" />
+        <TextView android:textSize="24.0dip" android:textColor="@color/black" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/tv_title_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="健身" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/PersonTextGreyLightColor" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/tv_data_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="山色满湖光 晴雨游西湖" android:layout_toRightOf="@id/tv_title_top" android:layout_alignBottom="@id/tv_title_top" />
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/PersonTextGreyColor" android:id="@id/tv_title_mid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:text="你已甩掉(千卡)" android:layout_below="@id/ll_top" />
+    <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tv_data_mid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="5.0dip" android:text="0" android:layout_below="@id/tv_title_mid" android:fontFamily="AkzidenzGroteskBQ-BdCnd" />
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="24.0dip" android:weightSum="3.0" android:layout_below="@id/tv_data_mid">
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textColor="@color/PersonTextGreyColor" android:gravity="left" android:id="@id/tv_title_bottom1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="累计消耗(千卡)" android:layout_below="@id/ll_top" />
+            <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tv_data_bottom1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="0" android:fontFamily="AkzidenzGroteskBQ-BdCnd" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textColor="@color/PersonTextGreyColor" android:gravity="left" android:id="@id/tv_title_bottom2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="累计消耗(千卡)" android:layout_below="@id/ll_top" />
+            <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tv_data_bottom2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="0" android:fontFamily="AkzidenzGroteskBQ-BdCnd" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textColor="@color/PersonTextGreyColor" android:gravity="left" android:id="@id/tv_title_bottom3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="累计消耗(千卡)" android:layout_below="@id/ll_top" />
+            <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tv_data_bottom3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="0" android:fontFamily="AkzidenzGroteskBQ-BdCnd" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fl_header" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="204.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/image_view_recent_combo" android:background="@drawable/default_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:transitionName="@string/train_combo_thumb" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="31.0dip" android:weightSum="3.0" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="center_horizontal" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColor="@color/white60" android:gravity="center_horizontal" android:id="@id/intensity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="强度" style="@style/TextAppereance.Size14" />
+            <TextView android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/tv_intensity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100" android:layout_below="@id/intensity" style="@style/TextAppereance.Size18" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColor="@color/white60" android:gravity="center_horizontal" android:id="@id/duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="时间" style="@style/TextAppereance.Size14" />
+            <TextView android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/tv_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100000" android:layout_below="@id/duration" style="@style/TextAppereance.Size18" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColor="@color/white60" android:gravity="center_horizontal" android:id="@id/calory" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="热量" style="@style/TextAppereance.Size14" />
+            <TextView android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/tv_calory" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100" android:layout_below="@id/calory" style="@style/TextAppereance.Size18" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:background="@color/big_fight_main" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_video_view" android:layout_width="fill_parent" android:layout_height="400.0dip" android:layout_marginTop="0.0dip">
+            <com.alisports.ai.common.view.scalable.ScalableVideoView android:id="@id/fv_video_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:scalableType="fitXY" />
+            <ImageView android:id="@id/iv_start_btn" android:background="@drawable/bigfight_button_selector" android:clickable="true" android:layout_width="143.0dip" android:layout_height="107.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <cn.ledongli.ldl.widget.LeTitleBar android:id="@id/lt_title" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:tAddStatusBarHeight="true" app:tBackgroundColor="@color/transparent" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff8b572a" android:gravity="center" android:id="@id/tv_record" android:background="@drawable/big_fight_record" android:layout_width="48.0dip" android:layout_height="28.0dip" android:layout_marginTop="20.0dip" android:text="@string/bigfight_record" android:layout_below="@id/lt_title" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_ruler" android:background="@drawable/bigfight_ruler" android:layout_width="48.0dip" android:layout_height="28.0dip" android:text="@string/bigfight_ruler" android:layout_below="@id/lt_title" android:layout_alignTop="@id/tv_record" android:layout_alignBottom="@id/tv_record" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/iv_sound" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginTop="26.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/big_fight_sound_on" android:layout_below="@id/tv_ruler" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@id/rl_data_rank" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_below="@id/rl_video_view">
+            <View android:background="@drawable/shape__rank_bg" android:layout_width="fill_parent" android:layout_height="95.0dip" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_rank_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="31.0dip" android:text="@string/big_fight_rank" android:includeFontPadding="false" />
+            <TextView android:textSize="10.0sp" android:gravity="center" android:id="@id/iv_lable" android:background="@drawable/big_fight_newer" android:layout_width="53.0dip" android:layout_height="16.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="2.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/tv_rank_title" android:layout_alignTop="@id/tv_rank_title" />
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/big_fight_rank_result_bg" android:layout_width="fill_parent" android:layout_height="77.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/tv_rank_title">
+                <cn.ledongli.ldl.pose.view.RankDataLabelView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/label_score" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <cn.ledongli.ldl.pose.view.RankDataLabelView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/label__superman" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <cn.ledongli.ldl.pose.view.RankDataLabelView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/label_cal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

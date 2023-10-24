@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_main_training_history" layout="@layout/layout_main_training_title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/history_training_record" android:layout_width="fill_parent" android:layout_height="100.0dip" android:baselineAligned="false">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="32.0sp" android:textColor="@color/le_color_grey_8" android:layout_gravity="center_horizontal" android:id="@id/text_view_training_days" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/le_color_grey_7" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/training_days_desc" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="32.0sp" android:textColor="@color/le_color_grey_8" android:layout_gravity="center_horizontal" android:id="@id/text_view_training_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/le_color_grey_7" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/training_duration_desc" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="32.0sp" android:textColor="@color/le_color_grey_8" android:layout_gravity="center_horizontal" android:id="@id/text_view_training_calories" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/le_color_grey_7" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/training_calories_desc" />
+        </LinearLayout>
+    </LinearLayout>
+    <cn.ledongli.ldl.view.LoginTipsLayout android:gravity="center_vertical" android:id="@id/login_layout" android:layout_width="fill_parent" android:layout_height="100.0dip" android:baselineAligned="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/linear_layout_recent_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/layout_main_training_recent" layout="@layout/layout_main_training_title" />
+        <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/frame_layout_recent_course" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <View android:background="@color/main_training_footer" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

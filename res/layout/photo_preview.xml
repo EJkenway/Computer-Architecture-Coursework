@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.mobile.beehive.photo.view.PhotoPreview android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.beehive.video.views.EnhancedVideoPlayView android:id="@id/eVideoPlayView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:contentDescription="@string/media_video" />
+    <FrameLayout android:id="@id/photoZone" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alipay.mobile.beehive.photo.view.PhotoView android:layout_gravity="center" android:id="@id/iv_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/media_image" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/pb_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@anim/pb_default" />
+        <com.alipay.mobile.beehive.photo.view.CircleProgressBar android:layout_gravity="center" android:id="@id/pb_exactly_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:id="@id/gif_stub" android:visibility="gone" android:layout="@layout/view_gif_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.alipay.mobile.beehive.photo.view.PhotoPreview>

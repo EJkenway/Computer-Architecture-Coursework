@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.person.mvp.view.PersonSportDataView android:orientation="horizontal" android:background="@android:color/transparent" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_data_center" android:background="@drawable/person_sports_data_left_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="13.0dip" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="运动身份证" android:drawableRight="@drawable/person_back" android:drawablePadding="8.0dip" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="16.0dip">
+            <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_total_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="1.0dip" android:text="分钟" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="#63ffffff" android:id="@id/tv_total_cals" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="14.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_currency" android:background="@drawable/person_sports_data_right_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="13.0dip" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="卡路里币" android:drawableRight="@drawable/person_back" android:drawablePadding="8.0dip" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_total_coins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="1.0dip" android:text="枚" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="14.0dip" android:text="卡路里币总额" />
+    </LinearLayout>
+</cn.ledongli.ldl.person.mvp.view.PersonSportDataView>

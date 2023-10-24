@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center_horizontal" android:id="@id/cc_surface_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/cc_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@id/cc_play_pause_btn" android:layout_width="wrap_content" android:layout_height="@dimen/cc_btn_height" android:text="播放" />
+        <Button android:id="@id/cc_stop_btn" android:layout_width="wrap_content" android:layout_height="@dimen/cc_btn_height" android:text="停止" />
+        <SeekBar android:id="@id/cc_progress_bar" android:layout_width="@dimen/cc_seek_bar_width" android:layout_height="@dimen/cc_btn_height" />
+        <TextView android:textSize="20.0dip" android:textColor="@android:color/white" android:id="@id/cc_position_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="20.0dip" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" : " />
+        <TextView android:textSize="20.0dip" android:textColor="@android:color/white" android:id="@id/cc_duration_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

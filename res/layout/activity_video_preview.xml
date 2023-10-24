@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alipay.mobile.beehive.photo.view.video.VideoCoverDisplayView android:id="@id/iv_video_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <include layout="@layout/view_custom_title_bar" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_play_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_play" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_no_need_cut_zone" android:background="#cd000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.299988dip">
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center|left" android:id="@id/tv_edit_no_need" android:paddingLeft="5.5dip" android:paddingRight="5.5dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.5dip" android:text="@string/str_edit" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_need_cut_zone" android:background="#cd000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="60.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_edit_video" />
+            <TextView android:textSize="@dimen/di_font_video_edit_hint" android:textColor="#cdffffff" android:id="@id/tv_edit_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" />
+        </LinearLayout>
+        <TextView android:textSize="16.0dip" android:textColor="#ff108de9" android:layout_gravity="center|right" android:id="@id/tv_edit_need" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dip" android:text="@string/str_edit" />
+    </FrameLayout>
+</FrameLayout>

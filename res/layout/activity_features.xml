@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+        <TextView android:textSize="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use Case 1 AR导航" />
+        <Button android:id="@id/btn_nav_dynamic_feature_demo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="nav判断路由自动安装远程Bundle(ledongli://ar_navi)" />
+        <Button android:id="@id/btn_nav_scan" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="nav判断路由跳转扫码" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+        <TextView android:textSize="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use Case 2 AR导航" />
+        <Button android:id="@id/btn_manual" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="手动安装并跳转到远程Bundle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+        <TextView android:textSize="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use Case 3 AR导航" />
+        <Button android:id="@id/btn_download_bundle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="静默下载远程Bundle" />
+        <Button android:id="@id/btn_check_bundle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="检查远程Bundle的安装状态" />
+        <Button android:id="@id/btn_startactivity_in_bundle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="直接跳转到远程Bundle" />
+    </LinearLayout>
+</LinearLayout>

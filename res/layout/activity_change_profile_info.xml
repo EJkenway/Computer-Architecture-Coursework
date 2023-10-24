@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_change_profile_info" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="1.0dip" app:contentInsetStartWithNavigation="0.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_change_profile_avatar" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff7b7c87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="头像" android:fontFamily="PingFangSC-Regular" />
+        <View android:background="@color/clear" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_change_profile_avatar" android:layout_width="34.0dip" android:layout_height="34.0dip" android:scaleType="centerCrop" />
+    </LinearLayout>
+    <View android:background="#ffe3e3e7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginStart="20.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_change_profile_username" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff7b7c87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="昵称" android:fontFamily="PingFangSC-Regular" />
+        <EditText android:textSize="14.0sp" android:textColor="#ff454653" android:gravity="end" android:id="@id/et_change_profile_username" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="请输入用户名" android:maxLines="1" android:singleLine="true" android:maxLength="20" android:layout_weight="1.0" android:fontFamily="PingFangSC-Regular" />
+    </LinearLayout>
+    <View android:background="#ffe3e3e7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginStart="20.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_change_profile_address" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff7b7c87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="所在地" android:fontFamily="PingFangSC-Regular" />
+        <View android:background="@color/clear" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff454653" android:id="@id/tv_change_profile_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="PingFangSC-Regular" />
+    </LinearLayout>
+    <View android:background="#ffe3e3e7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginStart="20.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff7b7c87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="个人签名" android:fontFamily="PingFangSC-Regular" />
+        <EditText android:textSize="14.0sp" android:textColor="#ff454653" android:textColorHint="#ffb9b9c1" android:gravity="end" android:id="@id/et_change_profile_signature" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:hint="编辑签名，让你的运动宣言掷地有声" android:maxLines="1" android:lines="1" android:singleLine="true" android:maxLength="30" android:layout_weight="1.0" android:fontFamily="PingFangSC-Regular" android:layout_marginStart="40.0dip" />
+    </LinearLayout>
+    <View android:background="#ffe3e3e7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginStart="20.0dip" />
+</LinearLayout>

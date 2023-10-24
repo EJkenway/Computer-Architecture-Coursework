@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/aliuser_textsize_15sp" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/tv_city_name" android:layout_width="fill_parent" android:layout_height="53.0dip" android:text="河北省" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

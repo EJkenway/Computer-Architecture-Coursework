@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relative_layout_root_combo_view" android:background="@color/white" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="165.0dip" android:layout_height="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/image_view_recent_combo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/app_name" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/text_view_recent_combo_name" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_centerInParent="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white50" android:id="@id/text_view_recent_combo_complete_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/text_view_recent_combo_name" android:layout_centerHorizontal="true" />
+</RelativeLayout>

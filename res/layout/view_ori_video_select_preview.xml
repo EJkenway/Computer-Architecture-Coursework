@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/oSVideoThumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:contentDescription="@string/str_video_thumb" />
+    <ImageView android:layout_gravity="center" android:id="@id/oSStart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_play" android:contentDescription="@string/str_start_play_video" />
+    <TextView android:textSize="12.599976dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/oSExtraInfo" android:background="@drawable/video_size_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="68.0dip" />
+</merge>

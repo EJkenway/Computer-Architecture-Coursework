@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.home.view.FitmessCourseItemView android:id="@id/rl_parent" android:layout_width="108.0dip" android:layout_height="108.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_course_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_666666" android:gravity="center" android:id="@id/tv_course_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minWidth="40.0dip" android:text="减脂" android:maxLines="1" android:layout_below="@id/iv_course_icon" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/tv_bottom_divider" android:background="#0d000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    <TextView android:id="@id/tv_right_divider" android:background="#0d000000" android:layout_width="1.0dip" android:layout_height="30.0dip" android:layout_alignParentEnd="true" />
+</cn.ledongli.ldl.home.view.FitmessCourseItemView>

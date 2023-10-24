@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_indoor_top" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/img_indoor_header" android:layout_width="fill_parent" android:layout_height="380.0dip" android:src="@drawable/bg_indoor_running1" android:scaleType="centerCrop" />
+    </LinearLayout>
+</FrameLayout>

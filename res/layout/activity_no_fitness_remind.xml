@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/CampusActivityBg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="1.0dip" app:contentInsetStartWithNavigation="0.0dip" />
+    <View android:id="@id/ll_actionbar" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/toolbar" />
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rl_school_select" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_actionbar">
+        <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/CampusGreyTextColor" android:gravity="center" android:id="@id/tv_school_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="你的学校未加入校园体测哦" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/CampusGreyTextColor" android:gravity="center" android:id="@id/tv_school_select_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="98.0dip" android:text="敬请期待" android:layout_below="@id/tv_school_select" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffb9b9b9" android:gravity="center" android:id="@id/tv_school_confirm" android:background="@drawable/corner_grey_radius6_wid1" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="46.0dip" android:text="返回" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

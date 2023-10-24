@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.vplayer.ui.view.PlayerPauseView android:background="@color/player_base_bg" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/rl_content" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:weightSum="2.0" android:layout_above="@id/tv_resume" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppereance.Combo.Title" />
+            <TextView android:id="@id/tv_instruction" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/TextAppereance.Combo.Content" />
+            <TextView android:id="@id/tv_pause_mid_line" android:background="@color/white30" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginTop="56.0dip" android:layout_alignParentRight="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentBottom="true">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/motion_paused" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_resume" android:background="@drawable/btn_grey_4dp" android:layout_width="180.0dip" android:layout_height="44.0dip" android:text="恢复训练" />
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+            <TextView android:id="@id/tv_title_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/motion_des" style="@style/TextAppereance.Combo.Title" />
+            <android.taobao.windvane.extra.uc.WVUCWebView android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="56.0dip" style="@style/TextAppereance.Combo.Content" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/tv_pause_completed" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/vplayer_close" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</cn.ledongli.vplayer.ui.view.PlayerPauseView>

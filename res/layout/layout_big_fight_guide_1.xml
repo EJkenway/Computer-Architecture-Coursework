@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_guide_1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_guide_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/before_detect" android:layout_centerInParent="true" />
+    <RelativeLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/rl_guide_1" android:background="@drawable/bg_bigfight_guide_bottom_blank" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="34.0sp" android:textStyle="bold" android:textColor="@color/bigfight_white" android:id="@id/text_guide_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginBottom="23.0dip" android:text="@string/big_fight_guide_1" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

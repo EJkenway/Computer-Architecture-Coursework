@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:id="@id/title_back_img" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_arrow_back_grey" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_player_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title_view">
+        <cn.ledongli.mediaplayer.widget.IjkVideoView android:id="@id/player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_player_view" android:background="@drawable/motion_angle_guide_title_bg_v" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/angle_indicator_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="25.0dip" android:textColor="#ff333333" android:gravity="center" android:id="@id/tv_guide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/fitness_motion_guide_page_title" android:layout_below="@id/title_view" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff333333" android:gravity="center" android:id="@id/tv_guide_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="4.0dip" android:text="@string/fitness_motion_guide_page_subtitle" android:layout_below="@id/tv_guide_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rl_debug" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_alignParentRight="true">
+        <TextView android:textSize="15.0dip" android:textColor="#ffff0000" android:id="@id/vy" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="15.0dip" android:textColor="#ffff0000" android:id="@id/vz" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/qc_e_cont" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lenovo.sdk.il.LXImageView android:id="@id/qc_e_p" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:alpha="0.01" />
+    <FrameLayout android:id="@id/qc_e_vd_c" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.01" />
+</FrameLayout>

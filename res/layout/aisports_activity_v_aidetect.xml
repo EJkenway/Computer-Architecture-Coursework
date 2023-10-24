@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_container" android:background="@color/aisports_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.fitnessCourse.ai.business.interact.view.vertical.VPoseDetectView android:id="@id/posedetect_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.fitnessCourse.ai.business.interact.view.vertical.VPoseInteractView android:id="@id/interact_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.fitnessCourse.ai.business.interact.view.vertical.VPosePrepareView android:id="@id/prepare_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.fitnessCourse.common.widget.PhonePlaceView android:id="@id/phone_place_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rl_back" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aisports_back_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

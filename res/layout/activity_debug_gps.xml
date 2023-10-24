@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.widget.LeTitleBar android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" app:tBackImage="@drawable/ic_arrow_back_grey" app:tTitleText="GPS 文件列表" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btnGpsUpload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上传 GPS 文件" android:layout_marginEnd="16.0dip" />
+        <EditText android:id="@id/inputRecordIntervalTime" android:layout_width="120.0dip" android:layout_height="wrap_content" android:hint="interval time" android:inputType="number" />
+        <Button android:id="@id/btnSetRecordIntervalTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存(毫秒)" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+        <EditText android:id="@id/inputGpsUid" android:layout_width="200.0dip" android:layout_height="wrap_content" android:hint="input aliuid" />
+        <Button android:layout_gravity="end" android:id="@id/btnGpsGet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="获取文件列表" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewGps" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

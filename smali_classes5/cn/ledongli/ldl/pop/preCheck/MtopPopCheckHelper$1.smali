@@ -1,0 +1,240 @@
+.class public Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/taobao/tao/remotebusiness/IRemoteBaseListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;->s(Ljava/lang/String;Lcom/alibaba/fastjson/JSONObject;Lcom/alibaba/poplayer/trigger/HuDongPopRequest;Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# static fields
+.field private static transient synthetic $ipChange:Lcom/android/alibaba/ip/runtime/IpChange;
+
+
+# instance fields
+.field public final synthetic this$0:Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;
+
+.field public final synthetic val$falseAction:Ljava/lang/String;
+
+.field public final synthetic val$name:Ljava/lang/String;
+
+.field public final synthetic val$popRequest:Lcom/alibaba/poplayer/trigger/HuDongPopRequest;
+
+.field public final synthetic val$requestListener:Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;
+
+
+# direct methods
+.method public constructor <init>(Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;Lcom/alibaba/poplayer/trigger/HuDongPopRequest;Ljava/lang/String;Ljava/lang/String;Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->this$0:Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;
+
+    iput-object p2, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$popRequest:Lcom/alibaba/poplayer/trigger/HuDongPopRequest;
+
+    iput-object p3, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$name:Ljava/lang/String;
+
+    iput-object p4, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$falseAction:Ljava/lang/String;
+
+    iput-object p5, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$requestListener:Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onError(ILmtopsdk/mtop/domain/MtopResponse;Ljava/lang/Object;)V
+    .locals 9
+
+    sget-object v0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->$ipChange:Lcom/android/alibaba/ip/runtime/IpChange;
+
+    const-string v1, "3757"
+
+    invoke-static {v0, v1}, Lcom/android/alibaba/ip/runtime/AndroidInstantRuntime;->support(Lcom/android/alibaba/ip/runtime/IpChange;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    const/4 v2, 0x4
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    const/4 v3, 0x0
+
+    aput-object p0, v2, v3
+
+    const/4 v3, 0x1
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    aput-object p1, v2, v3
+
+    const/4 p1, 0x2
+
+    aput-object p2, v2, p1
+
+    const/4 p1, 0x3
+
+    aput-object p3, v2, p1
+
+    invoke-interface {v0, v1, v2}, Lcom/android/alibaba/ip/runtime/IpChange;->ipc$dispatch(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+
+    .line 1
+    :cond_0
+    iget-object v3, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->this$0:Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;
+
+    iget-object v4, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$popRequest:Lcom/alibaba/poplayer/trigger/HuDongPopRequest;
+
+    iget-object v5, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$name:Ljava/lang/String;
+
+    iget-object v7, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$falseAction:Ljava/lang/String;
+
+    iget-object v8, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$requestListener:Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;
+
+    move-object v6, p2
+
+    invoke-static/range {v3 .. v8}, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;->a(Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;Lcom/alibaba/poplayer/trigger/HuDongPopRequest;Ljava/lang/String;Lmtopsdk/mtop/domain/MtopResponse;Ljava/lang/String;Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;)V
+
+    return-void
+.end method
+
+.method public onSuccess(ILmtopsdk/mtop/domain/MtopResponse;Lmtopsdk/mtop/domain/BaseOutDo;Ljava/lang/Object;)V
+    .locals 9
+
+    sget-object v0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->$ipChange:Lcom/android/alibaba/ip/runtime/IpChange;
+
+    const-string v1, "3780"
+
+    invoke-static {v0, v1}, Lcom/android/alibaba/ip/runtime/AndroidInstantRuntime;->support(Lcom/android/alibaba/ip/runtime/IpChange;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    const/4 v2, 0x5
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    const/4 v3, 0x0
+
+    aput-object p0, v2, v3
+
+    const/4 v3, 0x1
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    aput-object p1, v2, v3
+
+    const/4 p1, 0x2
+
+    aput-object p2, v2, p1
+
+    const/4 p1, 0x3
+
+    aput-object p3, v2, p1
+
+    const/4 p1, 0x4
+
+    aput-object p4, v2, p1
+
+    invoke-interface {v0, v1, v2}, Lcom/android/alibaba/ip/runtime/IpChange;->ipc$dispatch(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+
+    .line 1
+    :cond_0
+    iget-object v3, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->this$0:Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;
+
+    iget-object v4, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$popRequest:Lcom/alibaba/poplayer/trigger/HuDongPopRequest;
+
+    iget-object v5, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$name:Ljava/lang/String;
+
+    iget-object v7, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$falseAction:Ljava/lang/String;
+
+    iget-object v8, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$requestListener:Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;
+
+    move-object v6, p2
+
+    invoke-static/range {v3 .. v8}, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;->a(Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;Lcom/alibaba/poplayer/trigger/HuDongPopRequest;Ljava/lang/String;Lmtopsdk/mtop/domain/MtopResponse;Ljava/lang/String;Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;)V
+
+    return-void
+.end method
+
+.method public onSystemError(ILmtopsdk/mtop/domain/MtopResponse;Ljava/lang/Object;)V
+    .locals 9
+
+    sget-object v0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->$ipChange:Lcom/android/alibaba/ip/runtime/IpChange;
+
+    const-string v1, "3801"
+
+    invoke-static {v0, v1}, Lcom/android/alibaba/ip/runtime/AndroidInstantRuntime;->support(Lcom/android/alibaba/ip/runtime/IpChange;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    const/4 v2, 0x4
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    const/4 v3, 0x0
+
+    aput-object p0, v2, v3
+
+    const/4 v3, 0x1
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    aput-object p1, v2, v3
+
+    const/4 p1, 0x2
+
+    aput-object p2, v2, p1
+
+    const/4 p1, 0x3
+
+    aput-object p3, v2, p1
+
+    invoke-interface {v0, v1, v2}, Lcom/android/alibaba/ip/runtime/IpChange;->ipc$dispatch(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+
+    .line 1
+    :cond_0
+    iget-object v3, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->this$0:Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;
+
+    iget-object v4, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$popRequest:Lcom/alibaba/poplayer/trigger/HuDongPopRequest;
+
+    iget-object v5, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$name:Ljava/lang/String;
+
+    iget-object v7, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$falseAction:Ljava/lang/String;
+
+    iget-object v8, p0, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper$1;->val$requestListener:Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;
+
+    move-object v6, p2
+
+    invoke-static/range {v3 .. v8}, Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;->a(Lcn/ledongli/ldl/pop/preCheck/MtopPopCheckHelper;Lcom/alibaba/poplayer/trigger/HuDongPopRequest;Ljava/lang/String;Lmtopsdk/mtop/domain/MtopResponse;Ljava/lang/String;Lcom/alibaba/poplayer/norm/IUserCheckRequestListener;)V
+
+    return-void
+.end method

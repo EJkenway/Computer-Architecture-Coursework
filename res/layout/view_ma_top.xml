@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.scanQR.widget.ScaleFinderView android:id="@id/scale_finder_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/scan_ray_container" android:layout_width="230.0dip" android:layout_height="250.0dip" android:layout_centerInParent="true">
+        <cn.ledongli.ldl.scanQR.widget.ScanRayView android:layout_gravity="bottom" android:id="@id/scan_ray_view" android:background="@drawable/scan_ray" android:layout_width="230.0dip" android:layout_height="230.0dip" android:layout_centerInParent="true" />
+    </FrameLayout>
+    <TextView android:textSize="14.0dip" android:textColor="#ffff1268" android:gravity="center" android:id="@id/txt_qr_barcode_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dummy_facepay_scan_tip" android:layout_below="@id/scan_ray_container" android:layout_alignLeft="@id/scan_ray_container" android:layout_alignRight="@id/scan_ray_container" android:layout_centerHorizontal="true" />
+    <cn.ledongli.ldl.scanQR.widget.TorchView android:id="@id/torch_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignLeft="@id/scan_ray_container" android:layout_alignRight="@id/scan_ray_container" android:layout_alignBottom="@id/scan_ray_container" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_header_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/img_runner_share_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transitionName="share_runner_detail" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_indoor_header_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/rl_runner_detail_bottom" />
+    <LinearLayout android:id="@id/rl_runner_detail_bottom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_marginRight="45.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true">
+        <cn.ledongli.ldl.widget.LeButton android:textSize="@dimen/sp_14" android:textColor="@color/white" android:id="@id/btn_save_video" android:layout_width="0.0dip" android:layout_height="44.0dip" android:text="@string/save_to_video" android:layout_weight="1.0" android:elevation="0.0dip" app:btnRound="true" app:normalBackgroundColor="@color/run_main_origin" app:pressedBackgroundColor="@color/run_main_origin_dark" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageButton android:id="@id/back" android:background="@null" android:visibility="visible" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_run_back" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/txt_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

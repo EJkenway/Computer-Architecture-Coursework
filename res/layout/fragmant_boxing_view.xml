@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/media_recycleview" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/multi_picker_layout" android:layout_alignParentTop="true" />
+    <include android:id="@id/empty_txt" layout="@layout/layout_boxing_empty_txt" />
+    <ProgressBar android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="fill_parent" android:indeterminate="true" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+    <RelativeLayout android:id="@id/multi_picker_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <TextView android:background="@color/black_10" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_99" android:id="@id/choose_preview_btn" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boxing_preview" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:textAppearance="@style/Boxing.TextAppearance.App.Medium" android:textColor="@color/white" android:layout_gravity="center|right" android:id="@id/choose_ok_btn" android:background="@drawable/selector_boxing_btn_solid" android:paddingLeft="@dimen/boxing_item_half_spacing" android:paddingRight="@dimen/boxing_item_half_spacing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="@dimen/boxing_item_spacing" android:minWidth="60.0dip" android:text="@string/boxing_ok" />
+    </RelativeLayout>
+</RelativeLayout>

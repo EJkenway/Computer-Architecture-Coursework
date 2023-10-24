@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sing_root_view" android:background="@drawable/shape_dialog_sign_complete" android:layout_width="32.0dip" android:layout_height="44.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="7.0dip" android:textColor="@color/color_FFFFFF" android:ellipsize="end" android:id="@id/tv_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="今天" android:maxLines="1" android:layout_centerHorizontal="true" />
+    <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv_complete_state" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="5.0dip" android:scaleType="centerCrop" android:layout_below="@id/tv_day" android:layout_centerHorizontal="true" />
+</RelativeLayout>

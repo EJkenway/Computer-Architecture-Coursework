@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="di_font_video_edit_hint">15.0dip</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/fl_face" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" layout="@layout/face_recognize_face_view" />
+    <ImageView android:id="@id/ivBitmap" android:layout_width="80.0dip" android:layout_height="120.0dip" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+</RelativeLayout>

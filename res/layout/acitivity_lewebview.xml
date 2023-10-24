@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <ImageView android:id="@id/action_back" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/ic_left_back_grey" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/action_modify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:maxEms="10" android:singleLine="true" android:layout_toRightOf="@id/action_back" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/action_refresh" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/refresh" android:layout_toLeftOf="@id/action_share" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" />
+            <ImageView android:id="@id/action_share" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/ugc_detail_share" android:layout_toLeftOf="@id/action_show_more_item" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" />
+            <ImageView android:id="@id/action_show_more_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/webview_default_action_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/le_pha_container" android:background="@color/activity_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_title" />
+    <cn.ledongli.ldl.webview.LeWVWebView android:id="@id/wb_web_page" android:background="@color/activity_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_title" />
+    <FrameLayout android:id="@id/frameLayout_radio" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_below="@id/rl_title" />
+    <ProgressBar android:id="@id/progress_bar_webstore" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0dip" android:progress="0" android:secondaryProgress="0" android:progressDrawable="@drawable/webview_progressbar_color" style="?android:progressBarStyleHorizontal" />
+    <TextView android:id="@id/tv_webview_divider_line" android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <FrameLayout android:id="@id/ad_container" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_title" />
+    <include android:id="@id/loading_failed_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_title" layout="@layout/layout_loading_failed_default" />
+</RelativeLayout>

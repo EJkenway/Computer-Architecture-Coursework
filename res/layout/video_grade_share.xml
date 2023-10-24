@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="观看时间" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/white60" android:id="@id/tv_video_grade_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="21分钟" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:layout_marginStart="70.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="燃烧热量" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/white60" android:id="@id/tv_video_grade_hot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="200千卡" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/share_wechatmoments" android:background="@color/clear" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_wx_timerline" android:scaleType="centerInside" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="朋友圈" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/share_wechat" android:background="@color/clear" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_wx_share" android:scaleType="centerInside" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="微信好友" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/share_qq" android:background="@color/clear" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_qq" android:scaleType="centerInside" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="QQ" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/share_sinaweibo" android:background="@color/clear" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_weibo" android:scaleType="centerInside" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="新浪微博" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

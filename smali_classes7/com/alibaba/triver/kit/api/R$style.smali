@@ -1,0 +1,46 @@
+.class public final Lcom/alibaba/triver/kit/api/R$style;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/alibaba/triver/kit/api/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "style"
+.end annotation
+
+
+# static fields
+.field public static final triver_wopc_dialog:I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    const-string/jumbo v0, "style"
+
+    const-string/jumbo v1, "triver_wopc_dialog"
+
+    .line 1
+    invoke-static {v0, v1}, Lcom/mpaas/project/aar/convert/converter/FinalR;->invokeRInnerClassIntWithOutException(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v0
+
+    sput v0, Lcom/alibaba/triver/kit/api/R$style;->triver_wopc_dialog:I
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/lx_m_b_dl_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip">
+        <TextView android:textSize="21.0dip" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="应用详情" android:layout_centerInParent="true" />
+        <TextView android:textSize="15.0dip" android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="关闭" android:layout_centerVertical="true" />
+        <View android:background="#ffcccccc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/appname_info" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip">
+        <TextView android:textSize="15.0dip" android:id="@id/appname_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:text="应用名称" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="right" android:id="@id/appname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="抖音" android:maxLines="1" android:layout_toRightOf="@id/appname_title" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/size_info" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip">
+        <TextView android:textSize="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:text="大小" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@android:color/black" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1M" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/version_info" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip">
+        <TextView android:textSize="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:text="版本" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@android:color/black" android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.0.1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/dev_info" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip">
+        <TextView android:textSize="15.0dip" android:id="@id/dev_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:text="开发者" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="right" android:id="@id/developer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="北京微播视界科技有限公司" android:maxLines="1" android:layout_toRightOf="@id/dev_title" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/update_info" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip">
+        <TextView android:textSize="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:text="更新时间" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@android:color/black" android:id="@id/update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2021年02月06日" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/privatey" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="@android:color/holo_blue_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:text="隐私协议" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/authority" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="@android:color/holo_blue_dark" android:id="@id/app_authority" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:text="权限详情" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/auth_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip">
+        <TextView android:textSize="15.0dip" android:id="@id/auth_text" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+    </FrameLayout>
+    <com.lenovo.sdk.u.a.mc.LXProgressButton android:id="@id/download" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+</LinearLayout>

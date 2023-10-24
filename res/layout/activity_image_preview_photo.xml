@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/parent_rootview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.photo.preview.view.PhotoViewPager android:id="@id/viewPager" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.photo.preview.view.BezierBannerView android:layout_gravity="bottom|center" android:id="@id/bezierBannerView" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:selectedColor="@android:color/white" app:selectedRaduis="4.0dip" app:spacing="6.0dip" app:unSelectedColor="@android:color/darker_gray" app:unSelectedRaduis="4.0dip" />
+    <RelativeLayout android:id="@id/nav_top_bar" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/iv_back" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/left_back_white" android:layout_centerVertical="true" />
+        <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="top" android:id="@id/ltAddDot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:text="1/2" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/activity_bg" android:layout_width="120.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0dip" android:textColor="@color/TextGreyLightColor" android:gravity="center" android:id="@id/tv_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="1" />
+    <TextView android:textSize="31.0sp" android:textColor="@color/TextGreyHeavyColor" android:gravity="center" android:id="@id/tv_distance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/tv_date" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/TextGreyHeavyColor" android:gravity="center" android:id="@id/tv_unit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="KM" android:layout_below="@id/tv_distance" />
+    <com.makeramen.roundedimageview.RoundedImageView android:layout_gravity="center" android:id="@id/iv_thumb_view" android:layout_width="80.0dip" android:layout_height="90.0dip" android:src="@drawable/runner_detail_private_bg" android:scaleType="fitXY" android:layout_below="@id/tv_unit" android:layout_centerHorizontal="true" android:transitionName="share_runner_detail" app:riv_corner_radius="12.0dip" app:riv_corner_radius_bottom_left="12.0dip" app:riv_corner_radius_bottom_right="12.0dip" app:riv_corner_radius_top_left="12.0dip" app:riv_corner_radius_top_right="12.0dip" app:riv_oval="false" />
+    <ImageView android:layout_width="1.0dip" android:layout_height="fill_parent" android:src="@color/divider" android:layout_alignParentRight="true" />
+</RelativeLayout>

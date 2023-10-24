@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alipay.mobile.antui.basic.AUTextView android:textSize="15.0dip" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/city_tab_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="12.0dip" android:maxLines="1" />
+    </LinearLayout>
+</merge>

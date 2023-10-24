@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ledongli.ldl.person.mvp.view.PersonSettingItemView android:gravity="center" android:orientation="vertical" android:id="@id/ll" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/iv" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/default_rect" android:scaleType="fitCenter" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="16.0dip" android:text="我的课程" />
+</cn.ledongli.ldl.person.mvp.view.PersonSettingItemView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/album_layout" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/album_thumbnail" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="12.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" app:riv_corner_radius="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/album_thumbnail" android:layout_centerVertical="true">
+        <TextView android:textAppearance="@style/Boxing.TextAppearance.App.Medium" android:textSize="14.0sp" android:textColor="@color/gray_33" android:ellipsize="end" android:id="@id/album_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="12" android:singleLine="true" />
+        <TextView android:textAppearance="@style/Boxing.TextAppearance.App.Medium" android:textSize="12.0sp" android:textColor="@color/gray_99" android:id="@id/album_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/album_checked" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_boxing_check_black" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

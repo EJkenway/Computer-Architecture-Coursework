@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#b3000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/big_fight_icon_video" android:layout_centerInParent="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alisports.ai.common.view.scalable.ScalableVideoView android:id="@id/fv_video_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:scalableType="fitXY" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff812700" android:gravity="center" android:id="@id/tv_go" android:background="@drawable/big_fight_btn_bg" android:layout_width="fill_parent" android:layout_height="65.0dip" android:text="已摆放好手机  开始识别" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/action_back" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/big_fight_back_grey" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>

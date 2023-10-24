@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.pose.view.AIEliteUploadView android:id="@id/upload_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/invalid_record_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_ai_elite_invalid_record" />
+</RelativeLayout>

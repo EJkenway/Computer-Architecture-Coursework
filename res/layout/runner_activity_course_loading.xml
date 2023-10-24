@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffff6022" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_error_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="地图加载失败" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_retry" android:background="@drawable/runner_course_loading_retry_bg" android:paddingLeft="48.0dip" android:paddingTop="18.0dip" android:paddingRight="48.0dip" android:paddingBottom="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="重试" />
+</LinearLayout>

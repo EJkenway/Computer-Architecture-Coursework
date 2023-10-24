@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.ledongli.ldl.widget.image.LeImageView android:id="@id/image_view_agenda_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/app_name" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/text_view_combo_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:drawableStart="@drawable/ic_agenda_group" android:layout_marginStart="6.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/text_view_agenda_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/text_view_combo_count" android:layout_marginStart="6.0dip" />
+</RelativeLayout>

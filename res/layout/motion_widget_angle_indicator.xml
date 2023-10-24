@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="92.0dip" android:layout_height="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="60.0dip" android:layout_height="240.0dip" android:src="@drawable/aimotion_course_indicator_box" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/iv_circle" android:layout_width="92.0dip" android:layout_height="92.0dip" android:src="@drawable/aimotion_course_dotted_circle" android:layout_centerInParent="true" />
+    <cn.ledongli.ldl.pose.aimotion.business.interact.view.AICircularProgressView android:id="@id/pv_cicle_view" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_centerInParent="true" />
+    <cn.ledongli.ldl.pose.aimotion.business.interact.view.CircleIndicator android:id="@id/iv_indicator" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/aimotion_course_down_indicator" android:layout_centerHorizontal="true" />
+</RelativeLayout>

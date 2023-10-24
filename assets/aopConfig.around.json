@@ -1,0 +1,1557 @@
+{
+  "dex_resets": {
+    "left_methods_threshold": 1000,
+    "maindex_classes": []
+  },
+  "replace_package_prefix": "com.alibaba.wireless.security.aopsdk.replace",
+  "around_package_prefix": "com.alibaba.wireless.security.aopsdk.around",
+  "section_init_class": "com.alibaba.wireless.security.aopsdk.AopEntry",
+  "section_methods": [
+    {
+      "type":"construct",
+      "origin_cls_name":"android.net.LocalServerSocket.LocalServerSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"LocalServerSocketInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;)Landroid/net/LocalServerSocket/LocalServerSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"android.net.LocalServerSocket.LocalServerSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/io/FileDescriptor;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"LocalServerSocketInitProxy",
+      "replace_method_sig":"(Ljava/io/FileDescriptor;)Landroid/net/LocalServerSocket/LocalServerSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.net.DatagramSocket.DatagramSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"()V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"DatagramSocketInitProxy",
+      "replace_method_sig":"()Ljava/net/DatagramSocket/DatagramSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.net.DatagramSocket.DatagramSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/net/SocketAddress;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"DatagramSocketInitProxy",
+      "replace_method_sig":"(ILjava/net/SocketAddress;)Ljava/net/DatagramSocket/DatagramSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.net.DatagramSocket.DatagramSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(I)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"DatagramSocketInitProxy",
+      "replace_method_sig":"(I)Ljava/net/DatagramSocket/DatagramSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.net.DatagramSocket.DatagramSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(ILjava/net/InetAddress;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"DatagramSocketInitProxy",
+      "replace_method_sig":"(ILjava/net/InetAddress;)Ljava/net/DatagramSocket/DatagramSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.net.HttpURLConnection",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"()V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"HttpURLConnectionInitProxy",
+      "replace_method_sig":"()Ljava/net/HttpURLConnection;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.net.ServerSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"()V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"ServerSocketInitProxy",
+      "replace_method_sig":"()Ljava/net/ServerSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.net.ServerSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(I)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"ServerSocketInitProxy",
+      "replace_method_sig":"(I)Ljava/net/ServerSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.net.ServerSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(II)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"ServerSocketInitProxy",
+      "replace_method_sig":"(II)Ljava/net/ServerSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.net.ServerSocket",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(IILjava/net/InetAddress;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"ServerSocketInitProxy",
+      "replace_method_sig":"(IILjava/net/InetAddress;)Ljava/net/ServerSocket;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.File",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;)Ljava/io/File;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.File",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;Ljava/lang/String;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.File",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/io/File;Ljava/lang/String;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileInitProxy",
+      "replace_method_sig":"(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.File",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/net/URI;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileInitProxy",
+      "replace_method_sig":"(Ljava/net/URI;)Ljava/io/File;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.FileInputStream",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileInputStreamInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;)Ljava/io/FileInputStream;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.FileInputStream",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/io/File;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileInputStreamInitProxy",
+      "replace_method_sig":"(Ljava/io/File;)Ljava/io/FileInputStream;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.FileInputStream",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/io/FileDescriptor;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileInputStreamInitProxy",
+      "replace_method_sig":"(Ljava/io/FileDescriptor;)Ljava/io/FileInputStream;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.FileOutputStream",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileOutputStreamInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;)Ljava/io/FileOutputStream;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.FileOutputStream",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;Z)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileOutputStreamInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;Z)Ljava/io/FileOutputStream;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.FileOutputStream",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/io/File;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileOutputStreamInitProxy",
+      "replace_method_sig":"(Ljava/io/File;)Ljava/io/FileOutputStream;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.FileOutputStream",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/io/File;Z)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileOutputStreamInitProxy",
+      "replace_method_sig":"(Ljava/io/File;Z)Ljava/io/FileOutputStream;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.FileOutputStream",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/io/FileDescriptor;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"FileOutputStreamInitProxy",
+      "replace_method_sig":"(Ljava/io/FileDescriptor;)Ljava/io/FileOutputStream;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.RandomAccessFile",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;Ljava/lang/String;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"RandomAccessFileInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;Ljava/lang/String;)Ljava/io/RandomAccessFile;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"java.io.RandomAccessFile",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/io/File;Ljava/lang/String;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"RandomAccessFileInitProxy",
+      "replace_method_sig":"(Ljava/io/File;Ljava/lang/String;)Ljava/io/RandomAccessFile;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"dalvik.system.BaseDexClassLoader",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;Ljava/lang/ClassLoader;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"BaseDexClassLoaderInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;Ljava/lang/ClassLoader;)Ldalvik/system/BaseDexClassLoader;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"dalvik.system.DexClassLoader",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"DexClassLoaderInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)Ldalvik/system/DexClassLoader;"
+    },
+    {
+      "type":"construct",
+      "origin_cls_name":"dalvik.system.PathClassLoader",
+      "origin_method_name":"<init>",
+      "origin_method_sig":"(Ljava/lang/String;Ljava/lang/ClassLoader;)V",
+
+      "replace_cls_name":"com.alibaba.wireless.security.aopsdk.construct.InitProxy",
+      "replace_method_name":"PathClassLoaderInitProxy",
+      "replace_method_sig":"(Ljava/lang/String;Ljava/lang/ClassLoader;)Ldalvik/system/PathClassLoader;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "addAccountExplicitly",
+      "origin_method_sig": "(Landroid/accounts/Account;Ljava/lang/String;Landroid/os/Bundle;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "blockingGetAuthToken",
+      "origin_method_sig": "(Landroid/accounts/Account;Ljava/lang/String;Z)Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "getAccounts",
+      "origin_method_sig": "()[Landroid/accounts/Account;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "getAccountsAndVisibilityForPackage",
+      "origin_method_sig": "(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "getAccountsByType",
+      "origin_method_sig": "(Ljava/lang/String;)[Landroid/accounts/Account;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "getAccountsByTypeAndFeatures",
+      "origin_method_sig": "(Ljava/lang/String;[Ljava/lang/String;Landroid/accounts/AccountManagerCallback;Landroid/os/Handler;)Landroid/accounts/AccountManagerFuture;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "getAccountsByTypeForPackage",
+      "origin_method_sig": "(Ljava/lang/String;Ljava/lang/String;)[Landroid/accounts/Account;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "getAuthToken",
+      "origin_method_sig": "(Landroid/accounts/Account;Ljava/lang/String;Landroid/os/Bundle;Landroid/app/Activity;Landroid/accounts/AccountManagerCallback;Landroid/os/Handler;)Landroid/accounts/AccountManagerFuture;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "invalidateAuthToken",
+      "origin_method_sig": "(Ljava/lang/String;Ljava/lang/String;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "newChooseAccountIntent",
+      "origin_method_sig": "(Landroid/accounts/Account;Ljava/util/List;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.accounts.AccountManager",
+      "origin_method_name": "removeAccount",
+      "origin_method_sig": "(Landroid/accounts/Account;Landroid/accounts/AccountManagerCallback;Landroid/os/Handler;)Landroid/accounts/AccountManagerFuture;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.ClipboardManager",
+      "origin_method_name": "clearPrimaryClip",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.ClipboardManager",
+      "origin_method_name": "getPrimaryClip",
+      "origin_method_sig": "()Landroid/content/ClipData;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.ClipboardManager",
+      "origin_method_name": "getPrimaryClipDescription",
+      "origin_method_sig": "()Landroid/content/ClipDescription;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.ClipboardManager",
+      "origin_method_name": "getText",
+      "origin_method_sig": "()Ljava/lang/CharSequence;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.ClipboardManager",
+      "origin_method_name": "setPrimaryClip",
+      "origin_method_sig": "(Landroid/content/ClipData;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.ClipboardManager",
+      "origin_method_name": "setText",
+      "origin_method_sig": "(Ljava/lang/CharSequence;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.text.ClipboardManager",
+      "origin_method_name": "getText",
+      "origin_method_sig": "()Ljava/lang/CharSequence;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.text.ClipboardManager",
+      "origin_method_name": "setText",
+      "origin_method_sig": "(Ljava/lang/CharSequence;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.pm.PackageManager",
+      "origin_method_name": "getInstalledApplications",
+      "origin_method_sig": "(I)Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.pm.PackageManager",
+      "origin_method_name": "getInstalledPackages",
+      "origin_method_sig": "(I)Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.pm.PackageManager",
+      "origin_method_name": "queryBroadcastReceivers",
+      "origin_method_sig": "(Landroid/content/Intent;I)Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.pm.PackageManager",
+      "origin_method_name": "queryIntentActivities",
+      "origin_method_sig": "(Landroid/content/Intent;I)Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.hardware.Camera$PreviewCallback",
+      "origin_method_name": "onPreviewFrame",
+      "origin_method_sig": "([BLandroid/hardware/Camera;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.hardware.Camera",
+      "origin_method_name": "open",
+      "origin_method_sig": "()Landroid/hardware/Camera;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.hardware.Camera",
+      "origin_method_name": "open",
+      "origin_method_sig": "(I)Landroid/hardware/Camera;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.hardware.camera2.CameraManager",
+      "origin_method_name": "openCamera",
+      "origin_method_sig": "(Ljava/lang/String;Landroid/hardware/camera2/CameraDevice$StateCallback;Landroid/os/Handler;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.hardware.camera2.CameraManager",
+      "origin_method_name": "openCamera",
+      "origin_method_sig": "(Ljava/lang/String;Ljava/util/concurrent/Executor;Landroid/hardware/camera2/CameraDevice$StateCallback;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.hardware.SensorManager",
+      "origin_method_name": "getSensorList",
+      "origin_method_sig": "(I)Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "getLastKnownLocation",
+      "origin_method_sig": "(Ljava/lang/String;)Landroid/location/Location;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "requestLocationUpdates",
+      "origin_method_sig": "(Ljava/lang/String;JFLandroid/app/PendingIntent;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "requestLocationUpdates",
+      "origin_method_sig": "(Ljava/lang/String;JFLandroid/location/LocationListener;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "requestLocationUpdates",
+      "origin_method_sig": "(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "requestLocationUpdates",
+      "origin_method_sig": "(JFLandroid/location/Criteria;Landroid/app/PendingIntent;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "requestLocationUpdates",
+      "origin_method_sig": "(JFLandroid/location/Criteria;Landroid/location/LocationListener;Landroid/os/Looper;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "requestSingleUpdate",
+      "origin_method_sig": "(Landroid/location/Criteria;Landroid/app/PendingIntent;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "requestSingleUpdate",
+      "origin_method_sig": "(Landroid/location/Criteria;Landroid/location/LocationListener;Landroid/os/Looper;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "requestSingleUpdate",
+      "origin_method_sig": "(Ljava/lang/String;Landroid/app/PendingIntent;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "requestSingleUpdate",
+      "origin_method_sig": "(Ljava/lang/String;Landroid/location/LocationListener;Landroid/os/Looper;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.location.LocationManager",
+      "origin_method_name": "sendExtraCommand",
+      "origin_method_sig": "(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.ConnectivityManager",
+      "origin_method_name": "getActiveNetwork",
+      "origin_method_sig": "()Landroid/net/Network;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.ConnectivityManager",
+      "origin_method_name": "getAllNetworkInfo",
+      "origin_method_sig": "()[Landroid/net/NetworkInfo;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.ConnectivityManager",
+      "origin_method_name": "getAllNetworks",
+      "origin_method_sig": "()[Landroid/net/Network;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.ConnectivityManager",
+      "origin_method_name": "getLinkProperties",
+      "origin_method_sig": "(Landroid/net/Network;)Landroid/net/LinkProperties;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.ConnectivityManager",
+      "origin_method_name": "getNetworkCapabilities",
+      "origin_method_sig": "(Landroid/net/Network;)Landroid/net/NetworkCapabilities;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.ConnectivityManager",
+      "origin_method_name": "getNetworkInfo",
+      "origin_method_sig": "(Landroid/net/Network;)Landroid/net/NetworkInfo;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.ConnectivityManager",
+      "origin_method_name": "getNetworkInfo",
+      "origin_method_sig": "(I)Landroid/net/NetworkInfo;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.ConnectivityManager",
+      "origin_method_name": "isActiveNetworkMetered",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.media.AudioRecord",
+      "origin_method_name": "startRecording",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.media.AudioRecord",
+      "origin_method_name": "startRecording",
+      "origin_method_sig": "(Landroid/media/MediaSyncEvent;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.media.MediaRecorder",
+      "origin_method_name": "start",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.Network",
+      "origin_method_name": "openConnection",
+      "origin_method_sig": "(Ljava/net/URL;)Ljava/net/URLConnection;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.Network",
+      "origin_method_name": "openConnection",
+      "origin_method_sig": "(Ljava/net/URL;Ljava/net/Proxy;)Ljava/net/URLConnection;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.sip.SipManager",
+      "origin_method_name": "open",
+      "origin_method_sig": "(Landroid/net/sip/SipProfile;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.sip.SipManager",
+      "origin_method_name": "open",
+      "origin_method_sig": "(Landroid/net/sip/SipProfile;Landroid/app/PendingIntent;Landroid/net/sip/SipRegistrationListener;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.webkit.CookieManager",
+      "origin_method_name": "allowFileSchemeCookies",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.webkit.CookieManager",
+      "origin_method_name": "getCookie",
+      "origin_method_sig": "(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.webkit.WebSettings",
+      "origin_method_name": "setBlockNetworkLoads",
+      "origin_method_sig": "(Z)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.webkit.WebSettings",
+      "origin_method_name": "setGeolocationEnabled",
+      "origin_method_sig": "(Z)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.DatagramSocket",
+      "origin_method_name": "receive",
+      "origin_method_sig": "(Ljava/net/DatagramPacket;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.DatagramSocket",
+      "origin_method_name": "send",
+      "origin_method_sig": "(Ljava/net/DatagramPacket;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.HttpURLConnection",
+      "origin_method_name": "connect",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.HttpURLConnection",
+      "origin_method_name": "getContent",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.NetworkInterface",
+      "origin_method_name": "getHardwareAddress",
+      "origin_method_sig": "()[B"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.ServerSocket",
+      "origin_method_name": "accept",
+      "origin_method_sig": "()Ljava/net/Socket;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.Socket",
+      "origin_method_name": "connect",
+      "origin_method_sig": "(Ljava/net/SocketAddress;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.Socket",
+      "origin_method_name": "connect",
+      "origin_method_sig": "(Ljava/net/SocketAddress;I)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.Socket",
+      "origin_method_name": "getInputStream",
+      "origin_method_sig": "()Ljava/io/InputStream;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.Socket",
+      "origin_method_name": "getOutputStream",
+      "origin_method_sig": "()Ljava/io/OutputStream;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.URL",
+      "origin_method_name": "openConnection",
+      "origin_method_sig": "()Ljava/net/URLConnection;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.URL",
+      "origin_method_name": "openConnection",
+      "origin_method_sig": "(Ljava/net/Proxy;)Ljava/net/URLConnection;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.net.URLConnection",
+      "origin_method_name": "connect",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "addNetwork",
+      "origin_method_sig": "(Landroid/net/wifi/WifiConfiguration;)I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "disableNetwork",
+      "origin_method_sig": "(I)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "disconnect",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "enableNetwork",
+      "origin_method_sig": "(IZ)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "getConfiguredNetworks",
+      "origin_method_sig": "()Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "getConnectionInfo",
+      "origin_method_sig": "()Landroid/net/wifi/WifiInfo;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "getDhcpInfo",
+      "origin_method_sig": "()Landroid/net/DhcpInfo;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "getScanResults",
+      "origin_method_sig": "()Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "getWifiState",
+      "origin_method_sig": "()I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "isWifiEnabled",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "reassociate",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "reconnect",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "removeNetwork",
+      "origin_method_sig": "(I)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "saveConfiguration",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "setWifiEnabled",
+      "origin_method_sig": "(Z)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "startScan",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.WifiManager",
+      "origin_method_name": "updateNetwork",
+      "origin_method_sig": "(Landroid/net/wifi/WifiConfiguration;)I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.net.wifi.rtt.WifiRttManager",
+      "origin_method_name": "startRanging",
+      "origin_method_sig": "(Landroid/net/wifi/rtt/RangingRequest;Ljava/util/concurrent/Executor;Landroid/net/wifi/rtt/RangingResultCallback;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telecom.TelecomManager",
+      "origin_method_name": "getLine1Number",
+      "origin_method_sig": "(Landroid/telecom/PhoneAccountHandle;)Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getAllCellInfo",
+      "origin_method_sig": "()Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getCellLocation",
+      "origin_method_sig": "()Landroid/telephony/CellLocation;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getDeviceId",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getDeviceId",
+      "origin_method_sig": "(I)Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getDeviceSoftwareVersion",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getImei",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getImei",
+      "origin_method_sig": "(I)Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getLine1Number",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getMeid",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getMeid",
+      "origin_method_sig": "(I)Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getNeighboringCellInfo",
+      "origin_method_sig": "()Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getNetworkOperator",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getNetworkOperatorName",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getNetworkType",
+      "origin_method_sig": "()I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getSimOperator",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getSimOperatorName",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getSimSerialNumber",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "getSubscriberId",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.telephony.TelephonyManager",
+      "origin_method_name": "listen",
+      "origin_method_sig": "(Landroid/telephony/PhoneStateListener;I)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.Context",
+      "origin_method_name": "getSharedPreferences",
+      "origin_method_sig": "(Ljava/lang/String;I)Landroid/content/SharedPreferences;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.Context",
+      "origin_method_name": "openFileInput",
+      "origin_method_sig": "(Ljava/lang/String;)Ljava/io/FileInputStream;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.Context",
+      "origin_method_name": "openFileOutput",
+      "origin_method_sig": "(Ljava/lang/String;I)Ljava/io/FileOutputStream;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.SharedPreferences",
+      "origin_method_name": "getAll",
+      "origin_method_sig": "()Ljava/util/Map;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.content.SharedPreferences",
+      "origin_method_name": "getString",
+      "origin_method_sig": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.database.sqlite.SQLiteDatabase",
+      "origin_method_name": "create",
+      "origin_method_sig": "(Landroid/database/sqlite/SQLiteDatabase$CursorFactory;)Landroid/database/sqlite/SQLiteDatabase;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.ClassLoader",
+      "origin_method_name": "loadClass",
+      "origin_method_sig": "(Ljava/lang/String;)Ljava/lang/Class;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.Runtime",
+      "origin_method_name": "load",
+      "origin_method_sig": "(Ljava/lang/String;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.Runtime",
+      "origin_method_name": "loadLibrary",
+      "origin_method_sig": "(Ljava/lang/String;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.System",
+      "origin_method_name": "load",
+      "origin_method_sig": "(Ljava/lang/String;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.System",
+      "origin_method_name": "loadLibrary",
+      "origin_method_sig": "(Ljava/lang/String;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.Runtime",
+      "origin_method_name": "exec",
+      "origin_method_sig": "(Ljava/lang/String;)Ljava/lang/Process;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.Runtime",
+      "origin_method_name": "exec",
+      "origin_method_sig": "(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/Process;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.Runtime",
+      "origin_method_name": "exec",
+      "origin_method_sig": "(Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;)Ljava/lang/Process;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.Runtime",
+      "origin_method_name": "exec",
+      "origin_method_sig": "([Ljava/lang/String;)Ljava/lang/Process;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.Runtime",
+      "origin_method_name": "exec",
+      "origin_method_sig": "([Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/Process;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.Runtime",
+      "origin_method_name": "exec",
+      "origin_method_sig": "([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;)Ljava/lang/Process;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "java.lang.reflect.Method",
+      "origin_method_name": "invoke",
+      "origin_method_sig": "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.media.AudioManager",
+      "origin_method_name": "setSpeakerphoneOn",
+      "origin_method_sig": "(Z)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.NfcAdapter",
+      "origin_method_name": "disableForegroundDispatch",
+      "origin_method_sig": "(Landroid/app/Activity;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.NfcAdapter",
+      "origin_method_name": "enableForegroundDispatch",
+      "origin_method_sig": "(Landroid/app/Activity;Landroid/app/PendingIntent;[Landroid/content/IntentFilter;[Ljava/lang/String[];)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.cardemulation.HostApduService",
+      "origin_method_name": "sendResponseApdu",
+      "origin_method_sig": "([B)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.IsoDep",
+      "origin_method_name": "get",
+      "origin_method_sig": "(Landroid/nfc/Tag;)Landroid/nfc/tech/IsoDep;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.IsoDep",
+      "origin_method_name": "getHistoricalBytes",
+      "origin_method_sig": "()[B"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.IsoDep",
+      "origin_method_name": "getTimeout",
+      "origin_method_sig": "()I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.IsoDep",
+      "origin_method_name": "setTimeout",
+      "origin_method_sig": "(I)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.IsoDep",
+      "origin_method_name": "transceive",
+      "origin_method_sig": "([B)[B"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.Ndef",
+      "origin_method_name": "get",
+      "origin_method_sig": "(Landroid/nfc/Tag;)Landroid/nfc/tech/Ndef;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.Ndef",
+      "origin_method_name": "writeNdefMessage",
+      "origin_method_sig": "(Landroid/nfc/NdefMessage;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.NfcF",
+      "origin_method_name": "get",
+      "origin_method_sig": "(Landroid/nfc/Tag;)Landroid/nfc/tech/NfcF;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.NfcF",
+      "origin_method_name": "getManufacturer",
+      "origin_method_sig": "()[B"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.NfcF",
+      "origin_method_name": "getSystemCode",
+      "origin_method_sig": "()[B"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.NfcF",
+      "origin_method_name": "transceive",
+      "origin_method_sig": "([B)[B"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.nfc.tech.NfcV",
+      "origin_method_name": "transceive",
+      "origin_method_sig": "([B)[B"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "cancelDiscovery",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "checkBluetoothAddress",
+      "origin_method_sig": "(Ljava/lang/String;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "disable",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "enable",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "getAddress",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "getBluetoothLeAdvertiser",
+      "origin_method_sig": "()Landroid/bluetooth/le/BluetoothLeAdvertiser;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "getBluetoothLeScanner",
+      "origin_method_sig": "()Landroid/bluetooth/le/BluetoothLeScanner;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "getBondedDevices",
+      "origin_method_sig": "()Ljava/util/Set;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "getDefaultAdapter",
+      "origin_method_sig": "()Landroid/bluetooth/BluetoothAdapter;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "getName",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "getProfileConnectionState",
+      "origin_method_sig": "(I)I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "getRemoteDevice",
+      "origin_method_sig": "(Ljava/lang/String;)Landroid/bluetooth/BluetoothDevice;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "getState",
+      "origin_method_sig": "()I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "isDiscovering",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "isEnabled",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "isMultipleAdvertisementSupported",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "listenUsingInsecureL2capChannel",
+      "origin_method_sig": "()Landroid/bluetooth/BluetoothServerSocket;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "listenUsingInsecureRfcommWithServiceRecord",
+      "origin_method_sig": "(Ljava/lang/String;Ljava/util/UUID;)Landroid/bluetooth/BluetoothServerSocket;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "listenUsingRfcommWithServiceRecord",
+      "origin_method_sig": "(Ljava/lang/String;Ljava/util/UUID;)Landroid/bluetooth/BluetoothServerSocket;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "setName",
+      "origin_method_sig": "(Ljava/lang/String;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothAdapter",
+      "origin_method_name": "startDiscovery",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "connectGatt",
+      "origin_method_sig": "(Landroid/content/Context;ZLandroid/bluetooth/BluetoothGattCallback;)Landroid/bluetooth/BluetoothGatt;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "connectGatt",
+      "origin_method_sig": "(Landroid/content/Context;ZLandroid/bluetooth/BluetoothGattCallback;I)Landroid/bluetooth/BluetoothGatt;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "createInsecureRfcommSocketToServiceRecord",
+      "origin_method_sig": "(Ljava/util/UUID;)Landroid/bluetooth/BluetoothSocket;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "createRfcommSocketToServiceRecord",
+      "origin_method_sig": "(Ljava/util/UUID;)Landroid/bluetooth/BluetoothSocket;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "getAddress",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "getBondState",
+      "origin_method_sig": "()I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "getName",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "getType",
+      "origin_method_sig": "()I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "getUuids",
+      "origin_method_sig": "()[Landroid/os/ParcelUuid;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothDevice",
+      "origin_method_name": "toString",
+      "origin_method_sig": "()Ljava/lang/String;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "disconnect",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "discoverServices",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "getService",
+      "origin_method_sig": "(Ljava/util/UUID;)Landroid/bluetooth/BluetoothGattService;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "getServices",
+      "origin_method_sig": "()Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "readCharacteristic",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothGattCharacteristic;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "readDescriptor",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothGattDescriptor;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "readRemoteRssi",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "setCharacteristicNotification",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothGattCharacteristic;Z)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "writeCharacteristic",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothGattCharacteristic;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGatt",
+      "origin_method_name": "writeDescriptor",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothGattDescriptor;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGattCharacteristic",
+      "origin_method_name": "addDescriptor",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothGattDescriptor;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGattServer",
+      "origin_method_name": "addService",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothGattService;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGattServer",
+      "origin_method_name": "cancelConnection",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothDevice;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGattServer",
+      "origin_method_name": "clearServices",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGattServer",
+      "origin_method_name": "getService",
+      "origin_method_sig": "(Ljava/util/UUID;)Landroid/bluetooth/BluetoothGattService;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGattServer",
+      "origin_method_name": "notifyCharacteristicChanged",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothDevice;Landroid/bluetooth/BluetoothGattCharacteristic;Z)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGattServer",
+      "origin_method_name": "sendResponse",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothDevice;III[B)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothGattService",
+      "origin_method_name": "addCharacteristic",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothGattCharacteristic;)Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothManager",
+      "origin_method_name": "getConnectedDevices",
+      "origin_method_sig": "(I)Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothManager",
+      "origin_method_name": "getConnectionState",
+      "origin_method_sig": "(Landroid/bluetooth/BluetoothDevice;I)I"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothManager",
+      "origin_method_name": "getDevicesMatchingConnectionStates",
+      "origin_method_sig": "(I[I)Ljava/util/List;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothSocket",
+      "origin_method_name": "close",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothSocket",
+      "origin_method_name": "connect",
+      "origin_method_sig": "()V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothSocket",
+      "origin_method_name": "getInputStream",
+      "origin_method_sig": "()Ljava/io/InputStream;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothSocket",
+      "origin_method_name": "getOutputStream",
+      "origin_method_sig": "()Ljava/io/OutputStream;"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.BluetoothSocket",
+      "origin_method_name": "isConnected",
+      "origin_method_sig": "()Z"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.le.BluetoothLeAdvertiser",
+      "origin_method_name": "startAdvertising",
+      "origin_method_sig": "(Landroid/bluetooth/le/AdvertiseSettings;Landroid/bluetooth/le/AdvertiseData;Landroid/bluetooth/le/AdvertiseData;Landroid/bluetooth/le/AdvertiseCallback;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.le.BluetoothLeAdvertiser",
+      "origin_method_name": "stopAdvertising",
+      "origin_method_sig": "(Landroid/bluetooth/le/AdvertiseCallback;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.le.BluetoothLeScanner",
+      "origin_method_name": "startScan",
+      "origin_method_sig": "(Landroid/bluetooth/le/ScanCallback;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.le.BluetoothLeScanner",
+      "origin_method_name": "startScan",
+      "origin_method_sig": "(Ljava/util/List;Landroid/bluetooth/le/ScanSettings;Landroid/app/PendingIntent;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.le.BluetoothLeScanner",
+      "origin_method_name": "startScan",
+      "origin_method_sig": "(Ljava/util/List;Landroid/bluetooth/le/ScanSettings;Landroid/bluetooth/le/ScanCallback;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.le.BluetoothLeScanner",
+      "origin_method_name": "stopScan",
+      "origin_method_sig": "(Landroid/app/PendingIntent;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.bluetooth.le.BluetoothLeScanner",
+      "origin_method_name": "stopScan",
+      "origin_method_sig": "(Landroid/bluetooth/le/ScanCallback;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.hardware.biometrics.BiometricPrompt",
+      "origin_method_name": "authenticate",
+      "origin_method_sig": "(Landroid/hardware/biometrics/BiometricPrompt$CryptoObject;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.hardware.biometrics.BiometricPrompt",
+      "origin_method_name": "authenticate",
+      "origin_method_sig": "(Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;)V"
+    },
+    {
+      "type": "around",
+      "origin_cls_name": "android.hardware.fingerprint.FingerprintManager",
+      "origin_method_name": "authenticate",
+      "origin_method_sig": "(Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;Landroid/os/CancellationSignal;ILandroid/hardware/fingerprint/FingerprintManager$AuthenticationCallback;Landroid/os/Handler;)V"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="right" android:id="@id/ivHidePanel" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_panel" android:scaleType="center" android:contentDescription="@string/remove_water_mark_panel" />
+    <com.alipay.mobile.antui.basic.AUHorizontalListView android:id="@id/effect_list" android:background="#b4000000" android:layout_width="fill_parent" android:layout_height="82.0dip" />
+    <com.alipay.mobile.antui.basic.AUHorizontalListView android:id="@id/package_list" android:background="#e6000000" android:layout_width="fill_parent" android:layout_height="46.0dip" />
+</LinearLayout>

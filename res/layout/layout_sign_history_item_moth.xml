@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/moth_icon" android:layout_width="20.0dip" android:layout_height="21.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/mine_sign_in_list_moth_item_icon" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/moth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10月" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="@id/moth_icon" app:layout_constraintStart_toEndOf="@id/moth_icon" app:layout_constraintTop_toTopOf="@id/moth_icon" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/moth_total_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="运动总时长 120 分钟  运动次数 1 次" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="@id/moth_icon" app:layout_constraintStart_toEndOf="@id/moth" app:layout_constraintTop_toTopOf="@id/moth_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

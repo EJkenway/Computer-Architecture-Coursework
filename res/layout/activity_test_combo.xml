@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/essentialOrangeColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/dark" android:id="@id/tv_test_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="输入combo的code，点击确定，则跳转到相应的combo页面,code不能有空格tab等,combo code区分大小写" />
+    <EditText android:id="@id/et_test_input" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="20.0dip" android:layout_below="@id/tv_test_header" android:layout_centerVertical="true" />
+    <Button android:textColor="@color/black" android:id="@id/bt_test_ensure" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="确认" android:layout_below="@id/et_test_input" android:layout_centerHorizontal="true" />
+</RelativeLayout>

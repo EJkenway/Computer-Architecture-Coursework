@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fl_face" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/tv_count_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="请在20秒内完成人脸验证" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="请将面部完整置于框中" />
+        <ImageView android:id="@id/tv_title_success" android:background="@drawable/face_recognize_anim_success" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_toRightOf="@id/tv_title" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="300.0dip" android:layout_height="300.0dip" android:layout_marginTop="140.0dip" android:layout_centerHorizontal="true">
+        <cn.ledongli.ldl.face.ui.view.CameraCirclePreview android:layout_gravity="center_horizontal" android:id="@id/face_preview_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_preview_person" android:background="@drawable/face_recognize_recognize_pre_bg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView android:id="@id/iv_border_circle" android:background="@drawable/face_recognize_circle_border_recognize" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/tv_register_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="32.0dip" android:text="使用智能体育管理平台或参加AI体能赛需要上传您真实的人脸信息，作为后续校验本人真实性的依据。每自然年仅可修改一次人脸信息，请谨慎对待。" android:layout_below="@id/iv_border_circle" android:layout_marginHorizontal="32.0dip" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff333333" android:gravity="center" android:id="@id/tv_exit" android:background="@drawable/face_recognize_white_bg_24" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="34.0dip" android:text="退出" android:layout_alignParentBottom="true" android:layout_marginHorizontal="28.0dip" />
+</RelativeLayout>

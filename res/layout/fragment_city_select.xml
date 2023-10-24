@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.mobile.antui.basic.AURelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:antui="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.antui.basic.AUTextView android:textSize="15.0dip" android:textColor="@color/citylist_item_TextColorBlack" android:gravity="center" android:id="@id/search_no_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cityselect_search_no_result" />
+    <com.alipay.mobile.antui.basic.AUSearchInputBox android:id="@id/search_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleBar" antui:searchEditHint="@string/city_search_box_hint" />
+    <com.alipay.mobile.antui.basic.AUListView android:id="@id/city_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@null" android:layout_below="@id/search_bar" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <RelativeLayout android:id="@id/section_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_bar">
+        <com.alipay.mobile.beehive.cityselect.view.CityBladeView android:id="@id/section_list" android:background="#00000000" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</com.alipay.mobile.antui.basic.AURelativeLayout>

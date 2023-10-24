@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.ledongli.ldl.scanQR.surface.APTextureView android:id="@id/textureView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <SurfaceView android:id="@id/surfaceView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.scanQR.widget.ScanTopView android:id="@id/scan_top_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.ledongli.ldl.widget.LeTitleBar android:id="@id/iv_back" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:src="@drawable/ic_arrow_back_white_small" app:tAddStatusBarHeight="true" app:tBackImage="@drawable/ic_arrow_back_white_small" app:tBackgroundColor="@color/transparent" app:tUseRipple="false" />
+    <ImageView android:id="@id/btn_choose_album" android:background="@drawable/circle_black_20" android:padding="10.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="32.0dip" android:src="@drawable/icon_scan_album" android:layout_alignParentBottom="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

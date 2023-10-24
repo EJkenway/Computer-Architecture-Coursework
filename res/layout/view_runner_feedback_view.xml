@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_white_radius_6dp" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:focusable="true" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本次跑步是否作弊吗？" android:layout_centerHorizontal="true" />
+    <EditText android:textSize="12.0dip" android:textColor="@color/black" android:id="@id/et_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:hint="请输入跑步具体描述..." android:layout_below="@id/tv_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/et_input">
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/rl_satisfaction_no" android:background="@drawable/shape_grey_stroke_radius21" android:layout_width="120.0dip" android:layout_height="42.0dip" android:layout_marginRight="12.0dip">
+            <ImageView android:id="@id/iv_satisfaction_no" android:layout_width="27.0dip" android:layout_height="27.0dip" android:src="@drawable/runner_detail_satisfaction_no" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/tv_satisfaction_no" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="作弊" android:layout_toRightOf="@id/iv_satisfaction_no" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/rl_satisfaction_yes" android:background="@drawable/shape_grey_stroke_radius21" android:layout_width="120.0dip" android:layout_height="42.0dip" android:layout_marginLeft="12.0dip">
+            <ImageView android:id="@id/iv_satisfaction_yes" android:layout_width="27.0dip" android:layout_height="27.0dip" android:src="@drawable/runner_detail_satisfaction_yes" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/tv_satisfaction_yes" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="没有作弊" android:layout_toRightOf="@id/iv_satisfaction_yes" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

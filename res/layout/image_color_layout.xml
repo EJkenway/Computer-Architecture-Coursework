@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.mobile.beehive.imageedit.v2.view.ImageColorGroup android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/cg_colors" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkedButton="@id/cr_first_selected"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:id="@id/cr_first_selected" android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_0" />
+    <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_1" />
+    <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_2" />
+    <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_3" />
+    <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_4" />
+    <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_5" />
+    <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_6" />
+    <com.alipay.mobile.beehive.imageedit.v2.view.ImageColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/image_color_7" />
+</com.alipay.mobile.beehive.imageedit.v2.view.ImageColorGroup>
